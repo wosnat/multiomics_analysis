@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/preflight.sh)",
+      "mcp__multiomics-kg__kg_release_info",
+      "mcp__multiomics-kg__gene_overview",
+      "mcp__multiomics-kg__gene_aa_sequence",
+      "mcp__multiomics-kg__differential_expression_by_ortholog",
+      "mcp__multiomics-kg__genes_by_homolog_group",
+      "mcp__multiomics-kg__search_homolog_groups",
+      "Edit(/.claude/skills/research-methodology/**)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__multiomics-kg__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/hooks/log-mcp-usage.sh",
+            "statusMessage": "Logging MCP tool usage"
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "mcp__multiomics-kg__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/hooks/log-mcp-usage.sh",
+            "statusMessage": "Logging MCP tool failure"
+          }
+        ]
+      }
+    ]
+  }
+}

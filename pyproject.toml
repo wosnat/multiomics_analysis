@@ -1,0 +1,24 @@
+[project]
+name = "multiomics-research-template"
+version = "0.1.0"
+description = "Alpha tester template: research skills + MCP wiring for the multiomics KG. Clone, point at the lab KG, run analyses in Claude Code."
+requires-python = ">=3.11"
+dependencies = [
+    "multiomics-explorer",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "statsmodels>=0.14.6",
+    "scikit-learn>=1.8.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+]
+
+# The explorer is pulled from a pinned git tag — no sibling clone needed.
+# `uv sync` fetches and installs it into this project's venv.
+[tool.uv.sources]
+multiomics-explorer = { git = "https://github.com/wosnat/multiomics_explorer.git", tag = "v0.1.0-alpha.1" }
+
+# NOTE: intentionally NOT a buildable package. This repo is a cloned
+# workspace, not a pip artifact — pyproject.toml exists only to declare
+# dependencies for `uv sync`. No [build-system] / [tool.hatch...wheel].
