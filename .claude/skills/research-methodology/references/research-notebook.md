@@ -56,7 +56,7 @@ One `notebook.md` per step folder. Freeform prose, not a rigid template — incl
 
 - **Context** — what this step is for; what the prior step decided
 - **What I did** — work performed; scripts run with their command-line invocation for non-trivial cases; KG queries issued
-- **Results** — summary tables shown inline (as markdown tables, not prose paraphrases); links to full tables in `data/` and figures in `figures/` produced this step; cited publications from the KG by DOI or experiment ID — resolved via `list_publications`, never from memory (see [anti-hallucination.md — Category 5](anti-hallucination.md))
+- **Results** — summary tables shown inline (as markdown tables, not prose paraphrases); links to full tables in `data/` and figures in `figures/` produced this step; cited publications from the KG by DOI or experiment ID — resolved via `list_publications`, never from memory (see [anti-hallucination.md — Category 5](anti-hallucination.md#category-5-source-of-truth-verification-failures))
 - **Surprises** — anomalies, data oddities, unexpected distributions worth flagging
 - **Decisions** — in prose with dates, if any forks were taken this step; omit if none
 - **Advance rationale** — one line at the end
@@ -101,7 +101,7 @@ Single `paper.md` at the analysis root. Skeleton sections exist from day 1 (seed
 | Discussion | step 6 |
 | References | accumulates across all steps that cite publications |
 
-References are populated as publications are cited. Every reference must be resolved through `list_publications` and cited by DOI or KG experiment ID — never drafted from intrinsic knowledge (see [anti-hallucination.md — Category 5.2](anti-hallucination.md)). Citation format inside prose can be short (author-year or numeric); the References section at the end carries the resolved DOI or experiment ID for each.
+References are populated as publications are cited. Every reference must be resolved through `list_publications` and cited by DOI or KG experiment ID — never drafted from intrinsic knowledge (see [anti-hallucination.md — Category 5.2](anti-hallucination.md#52-publication-attribution-from-training-knowledge)). Citation format inside prose can be short (author-year or numeric); the References section at the end carries the resolved DOI or experiment ID for each.
 
 When the analysis ends, the paper ends. The B2 failure mode was deferring write-up to a final step that never happened — `paper.md`'s incremental growth prevents this.
 
@@ -116,7 +116,7 @@ These can co-occur — a methodology gap can force both a decision and a frictio
 
 **What goes in `gaps_and_friction.md`:**
 - KG data issues and bugs encountered
-- MCP tool schema or capability mismatches (see [anti-hallucination.md — Category 5.1](anti-hallucination.md))
+- MCP tool schema or capability mismatches (see [anti-hallucination.md — Category 5.1](anti-hallucination.md#51-mcp-tool-capability-from-memory))
 - Methodology gaps discovered during execution (nuances the framing didn't anticipate)
 - Anti-hallucination corrections (claims from memory caught by verification)
 - Process friction (things that slowed the work)
@@ -144,7 +144,7 @@ What to show depends on the step type.
 ### KG selection (step 2)
 - Row counts per filter: experiments at each stage (started with → filter by organism → filter by assay → final)
 - Sample rows of selected entries (experiment ID, publication, TPs, omics)
-- Per-TP gene counts (`tp_gene_count`), **not** cumulative `gene_count` (see [anti-hallucination.md — Category 5.3](anti-hallucination.md))
+- Per-TP gene counts (`tp_gene_count`), **not** cumulative `gene_count` (see [anti-hallucination.md — Category 5.3](anti-hallucination.md#53-field-semantics-from-memory--cumulative-vs-per-timepoint-counts))
 - Publication attributions resolved via `list_publications`
 
 ### Analysis framing (step 3)

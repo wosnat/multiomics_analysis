@@ -43,7 +43,7 @@ Populate `notebook.md` with what was produced. Recommended sections (see [resear
 
 - **Context** — what this step is for; what the prior step decided
 - **What I did** — scripts run with their command-line invocation for non-trivial cases; KG queries issued
-- **Results** — summary tables shown inline (as markdown tables, not prose paraphrases); links to full tables in `data/` and figures in `figures/`; cited publications resolved via `list_publications` (never from memory — see [anti-hallucination.md — Category 5](anti-hallucination.md))
+- **Results** — summary tables shown inline (as markdown tables, not prose paraphrases); links to full tables in `data/` and figures in `figures/`; cited publications resolved via `list_publications` (never from memory — see [anti-hallucination.md — Category 5](anti-hallucination.md#category-5-source-of-truth-verification-failures))
 
 Summary tables in **Results** are the same tables presented to the researcher in chat — copied as markdown into the notebook, not paraphrased.
 

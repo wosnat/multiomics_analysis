@@ -3,6 +3,7 @@
 #
 # Produces ONE green/red answer after checking, in order:
 #   0. Staleness   — offline tag compare vs the template remote (informational).
+#   0.5 Plugin     — the required `superpowers` plugin is installed/enabled (RED if not).
 #   1. Triple      — template / explorer / KG versions, printed on one line.
 #   2. Contract    — kg_release_info: installed explorer satisfies KG.mcp_min_version
 #                    and the load-bearing schema shape is present.
@@ -42,6 +43,31 @@ if [[ -n "$REMOTE" ]]; then
       yellow "   update:  git pull upstream main && uv sync   (changes: CHANGELOG.md)"
     fi
   fi
+fi
+
+# ── 0.5 Required plugin: superpowers (methodology step 1 depends on it) ──
+# Declared in .claude/settings.json (enabledPlugins) and pulled from the official
+# Anthropic marketplace when the workspace is trusted. Verify it actually resolved —
+# without it, step-1 brainstorming (superpowers:*) cannot run.
+if command -v claude >/dev/null 2>&1; then
+  PLUGINS_JSON="$(claude plugin list --json 2>/dev/null || echo '[]')"
+  if command -v jq >/dev/null 2>&1; then
+    sp_enabled="$(printf '%s' "$PLUGINS_JSON" | jq -r '.[] | select(.id=="superpowers@claude-plugins-official") | .enabled' 2>/dev/null | head -1)"
+    [[ "$sp_enabled" == "true" ]] && sp_ok=1 || sp_ok=0
+  else
+    printf '%s' "$PLUGINS_JSON" | grep -q '"superpowers@claude-plugins-official"' && sp_ok=1 || sp_ok=0
+  fi
+  if [[ "$sp_ok" != "1" ]]; then
+    red "✗ Required plugin 'superpowers' is not installed/enabled."
+    yellow "   The methodology's step-1 brainstorming depends on superpowers:* skills."
+    yellow "   Fix: claude plugin install superpowers@claude-plugins-official"
+    yellow "        (or re-open and trust the workspace so .claude/settings.json enables it),"
+    yellow "        then re-run preflight."
+    exit 1
+  fi
+else
+  yellow "⚠ Could not verify the 'superpowers' plugin (no \`claude\` CLI on PATH)."
+  yellow "   Ensure it is installed: claude plugin install superpowers@claude-plugins-official"
 fi
 
 # ── 1–3. Version triple + KG contract + API smoke (Python, via the synced venv) ──

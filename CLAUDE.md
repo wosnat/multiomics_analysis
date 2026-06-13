@@ -15,7 +15,7 @@ edited here).
 
 ```
 .claude/skills/research-methodology/   # Domain rules + the 6-step research flow (reference skill)
-.claude/skills/recipes/                # On-demand analysis protocols (one per method)
+.claude/skills/recipes/                # On-demand analysis protocols land here as methods are formalized (none yet)
 .mcp.json                              # Registers the multiomics-kg MCP server (uv run)
 .env / .env.example                    # KG credentials (gitignored; copy the example)
 hooks/                                 # Usage-logging hook (writes into usage/)

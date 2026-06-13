@@ -990,8 +990,8 @@ wheels = [
 
 [[package]]
 name = "multiomics-explorer"
-version = "0.1.0a1"
-source = { git = "https://github.com/wosnat/multiomics_explorer.git?tag=v0.1.0-alpha.1#27880d3b7fc09bdbbe866d15c27c407489412a25" }
+version = "0.1.0a2"
+source = { git = "https://github.com/wosnat/multiomics_explorer.git?tag=v0.1.0-alpha.2#068c0b3a000ab525898b0f6d001641f59b9c3ced" }
 dependencies = [
     { name = "cyver" },
     { name = "fastmcp" },
@@ -1007,7 +1007,7 @@ dependencies = [
 
 [[package]]
 name = "multiomics-research-template"
-version = "0.1.0"
+version = "0.1.0a1"
 source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
@@ -1023,7 +1023,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.7" },
-    { name = "multiomics-explorer", git = "https://github.com/wosnat/multiomics_explorer.git?tag=v0.1.0-alpha.1" },
+    { name = "multiomics-explorer", git = "https://github.com/wosnat/multiomics_explorer.git?tag=v0.1.0-alpha.2" },
     { name = "numpy", specifier = ">=1.26" },
     { name = "pandas", specifier = ">=2.0" },
     { name = "scikit-learn", specifier = ">=1.8.0" },

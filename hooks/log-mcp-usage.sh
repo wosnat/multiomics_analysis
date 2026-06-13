@@ -17,6 +17,11 @@
 
 set -euo pipefail
 
+# jq is required to shape the event JSON. If it's not installed, degrade silently
+# (skip logging) rather than failing the hook on every KG call — usage logging is
+# best-effort, and a missing jq must not block analysis. See README prerequisites.
+command -v jq >/dev/null 2>&1 || exit 0
+
 # ${CLAUDE_PROJECT_DIR} is set by Claude Code to the repo root. Fall back to the
 # script's own parent dir so the hook still works if launched out of band.
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"

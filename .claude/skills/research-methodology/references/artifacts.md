@@ -31,7 +31,7 @@ Simple lookups stay in chat:
 ## Directory structure per analysis
 
 ```
-analyses/YYYY-MM-DD-<slug>/
+analyses/<slug>/
   paper.md                  # academic-style writeup, grows from step 1
   gaps_and_friction.md      # transitional — methodology/KG/tooling friction log
   .gitignore                # per-analysis, created at scaffolding
@@ -63,7 +63,7 @@ analyses/YYYY-MM-DD-<slug>/
 1. **Propose a slug** based on the user's initial prompt. Confirm with the user before writing anything — no scaffold exists until the slug is confirmed.
 2. **Create the minimal scaffold:**
    ```
-   analyses/YYYY-MM-DD-<slug>/
+   analyses/<slug>/
      paper.md              # skeleton with empty section headers: Question, Background, Methods, Results, Discussion, References
      gaps_and_friction.md  # header only; entries added as friction occurs
      .gitignore            # per-analysis (template below)
@@ -167,6 +167,6 @@ Scripts with `--explore` or `--verbose` flags should write their diagnostic outp
 
 ## References
 
-References (publications cited in the analysis) live in **`paper.md`'s References section**, not a separate file. Every reference must be resolved through `list_publications` and cited by DOI or KG experiment ID — never from intrinsic knowledge (see [anti-hallucination.md — Category 5.2](anti-hallucination.md)).
+References (publications cited in the analysis) live in **`paper.md`'s References section**, not a separate file. Every reference must be resolved through `list_publications` and cited by DOI or KG experiment ID — never from intrinsic knowledge (see [anti-hallucination.md — Category 5.2](anti-hallucination.md#52-publication-attribution-from-training-knowledge)).
 
 KG version, tool versions, statistical software, and Python package versions go in `paper.md`'s Methods section.

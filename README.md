@@ -61,6 +61,7 @@ instructions for Mac, Windows, and Linux:
 - **[git](https://git-scm.com/downloads)** — tracks and downloads your work
 - **[uv](https://docs.astral.sh/uv/)** — installs Python 3.11+ and the analysis tools for you
 - A free **[GitHub account](https://github.com/signup)** — to fork the template
+- **[jq](https://jqlang.github.io/jq/)** *(optional)* — only needed for usage logging; without it, logging is silently skipped
 
 > **New to the command line?** The steps below are commands you paste into a
 > terminal. VS Code has one built in: **View → Terminal**. Open this folder in
@@ -77,7 +78,8 @@ page). Then, in a terminal:
 
 ```bash
 # Replace <your-fork-url> with the URL of YOUR fork (green "Code" button on your fork):
-git clone <your-fork-url> && cd multiomics_research_template
+git clone <your-fork-url>
+cd multiomics_research_template   # the folder git clone just made — matches your fork's name if you renamed it
 git remote add upstream https://github.com/wosnat/multiomics_research_template.git   # lets you pull updates later
 uv sync                       # installs the explorer tools + analysis libraries
 ```
@@ -91,7 +93,7 @@ Credentials come from the lab operator (see the **KG connection guide**).
 
 ```bash
 cp .env.example .env     # makes your own .env; then open .env in VS Code and fill in:
-#   NEO4J_URI=bolt://132.75.249.47:17687
+#   NEO4J_URI=bolt://HOST:PORT      # exact value from the KG connection guide
 #   NEO4J_USERNAME=explorer
 #   NEO4J_PASSWORD=…
 ```
@@ -114,8 +116,17 @@ works identically on Linux, Windows 11, and Remote-SSH.
 ### 3. Open in Claude Code & trust the workspace
 
 Open this folder in VS Code. When prompted, **trust the workspace** — this lets
-the research skills load and the MCP server start. Confirm the `multiomics-kg`
-server shows as connected by running `/mcp` in a Claude chat.
+the research skills load, the MCP server start, and the required **`superpowers`**
+plugin install (the methodology's step-1 brainstorming depends on it; it's declared
+in `.claude/settings.json` and pulled from the official Anthropic marketplace on
+trust). Confirm the `multiomics-kg` server shows as connected by running `/mcp` in
+a Claude chat.
+
+> If preflight later reports the plugin missing (some setups don't auto-install on
+> trust), install it once by hand:
+> ```bash
+> claude plugin install superpowers@claude-plugins-official
+> ```
 
 ### 4. Preflight (the "is everything wired up?" check)
 
