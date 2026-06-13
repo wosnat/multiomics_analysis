@@ -11,6 +11,30 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 
 ## [Unreleased]
 
+### Added
+- Preflight now reports which KG deployment you're connected to and warns
+  (without blocking) if it isn't the production KG — so you can't unknowingly
+  run an analysis against a staging or alpha database. Set `EXPECTED_KG_ROLE`
+  if you mean to target a non-production KG.
+- Preflight checks that the required research plugin is enabled and tells you
+  how to install it if it's missing, instead of failing partway into step 1.
+
+### Changed
+- Updated to the latest knowledge-graph tools — run `uv sync` after pulling.
+  This adds new lookups, including finding the genes and pathways a publication
+  discusses.
+- A typical analysis now runs without a permission prompt at nearly every step:
+  the full set of read-only KG tools is pre-approved out of the box.
+- A fresh clone no longer needs a manual plugin install — the research plugin is
+  enabled automatically when you trust the workspace.
+
+### Fixed
+- Corrected the per-timepoint and pathway-background gene-count guidance in the
+  research methodology so it points at the real data fields (counts that were
+  attributed to a field name that doesn't exist).
+- Usage logging no longer fails on machines without `jq` installed.
+- The setup instructions use a placeholder KG address instead of a hardcoded one.
+
 ## [0.1.0-alpha.1] — 2026-06-10
 
 Initial alpha template — clean clone target for lab testers.
