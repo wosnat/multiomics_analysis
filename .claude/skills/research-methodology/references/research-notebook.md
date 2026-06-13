@@ -144,7 +144,7 @@ What to show depends on the step type.
 ### KG selection (step 2)
 - Row counts per filter: experiments at each stage (started with → filter by organism → filter by assay → final)
 - Sample rows of selected entries (experiment ID, publication, TPs, omics)
-- Per-TP gene counts (`tp_gene_count`), **not** cumulative `gene_count` (see [anti-hallucination.md — Category 5.3](anti-hallucination.md#53-field-semantics-from-memory--cumulative-vs-per-timepoint-counts))
+- Per-TP gene counts (`timepoints[].gene_count`) or the distinct-gene denominator (`distinct_gene_count`), **not** cumulative `gene_count` (see [anti-hallucination.md — Category 5.3](anti-hallucination.md#53-field-semantics-from-memory--cumulative-vs-per-timepoint-counts))
 - Publication attributions resolved via `list_publications`
 
 ### Analysis framing (step 3)

@@ -356,12 +356,12 @@ Claims made from training knowledge or prior-session memory without re-reading t
 
 ### 5.3 Field semantics from memory — cumulative vs per-timepoint counts
 
-**What happens:** Using a top-level summary field as if it were per-timepoint or per-condition because the field name sounds unambiguous. Example: `list_experiments` returns a top-level `gene_count` that is cumulative across timepoints; per-TP counts are in `tp_gene_count`. Using the former as the latter distorts detection-power expectations and pathway background sizes.
+**What happens:** Using a top-level summary field as if it were per-timepoint or per-condition because the field name sounds unambiguous. Example: `list_experiments` returns a top-level `gene_count` that is cumulative across timepoints (= sum of per-TP row counts); per-TP counts live in `timepoints[].gene_count`, and the distinct-gene denominator is the top-level `distinct_gene_count`. Using cumulative `gene_count` as if it were either distorts detection-power expectations and pathway background sizes.
 
 **Real example (N-limitation analysis):** Tolonen 2006 was reported as having "10,182 genes" — ~6× the actual MED4 ORFome. The number was cumulative across timepoints, not per-TP.
 
 **Prevention:**
-- For per-TP detection power, pathway background size, or cluster Fisher 2×2 dimensions: use `tp_gene_count`, never top-level `gene_count`
+- For per-TP detection power use `timepoints[].gene_count`; for pathway background size or cluster Fisher 2×2 dimensions use the top-level `distinct_gene_count` (distinct genes measured across the experiment). Never use cumulative top-level `gene_count` for either.
 - When pulling a numeric field from any tool response, check the field's docstring or schema description before using it in a summary
 - For anything that sounds "obvious" (counts, totals, sizes), verify the unit and scope against the schema
 
