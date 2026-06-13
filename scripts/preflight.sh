@@ -5,8 +5,9 @@
 #   0. Staleness   — offline tag compare vs the template remote (informational).
 #   0.5 Plugin     — the required `superpowers` plugin is installed/enabled (RED if not).
 #   1. Triple      — template / explorer / KG versions, printed on one line.
-#   2. Contract    — kg_release_info: installed explorer satisfies KG.mcp_min_version
-#                    and the load-bearing schema shape is present.
+#   2. Contract    — kg_release_info: installed explorer satisfies KG.mcp_min_version,
+#                    the load-bearing schema shape is present, and the KG's
+#                    deployment_role is 'production' (warns if alpha/staging/other).
 #   3. API smoke   — GraphConnection() + gene_overview([...]): import + Neo4j auth
 #                    + a real round-trip.
 #
@@ -75,6 +76,7 @@ fi
 # 4 = version mismatch, 5 = other red.
 uv run python - <<'PY'
 import sys
+import os
 import json
 import pathlib
 from datetime import datetime, timezone
@@ -149,12 +151,19 @@ kg = report.get("kg", {}) or {}
 kg_version = kg.get("version") or "unknown"
 verdict = report.get("verdict", "unknown")
 
+# Which deployment is the URI actually pointing at? kg_release_info surfaces the
+# build's self-declared role; the lab runs prod/alpha/staging side by side on the
+# same schema, so the version triple alone can't tell them apart (see TEMPLATE_GAPS G1).
+kg_role = kg.get("deployment_role") or "unknown"
+expected_role = os.environ.get("EXPECTED_KG_ROLE", "production")
+
 # --- print the version triple ---
 print()
 print(f"  template  {template_version}")
 print(f"  explorer  {explorer_version}   (pinned: {explorer_pin})")
 print(f"  KG        {kg_version}   (mcp_min_version: {kg.get('mcp_min_version', '?')})")
 print(f"  KG URI    {uri}")
+print(f"  KG role   {kg_role}   (expected: {expected_role})")
 print()
 
 # record the full triple into usage/ (completes §9's per-run triple record)
@@ -169,6 +178,7 @@ try:
             "explorer_pin": explorer_pin,
             "kg_version": kg_version,
             "kg_uri": uri,
+            "kg_role": kg_role,
             "verdict": verdict,
         }) + "\n")
 except Exception:
@@ -193,6 +203,16 @@ if verdict == "warn":
 elif verdict == "unknown":
     yellow(f"⚠ KG compatibility = unknown: {report.get('summary')}")
     yellow("   (No Schema_info node — legacy KG build or wrong database.)")
+
+# --- deployment role: are we pointed at the intended KG? (TEMPLATE_GAPS G1) ---
+# prod/alpha/staging share a schema, so only the build's self-declared role
+# distinguishes them. 'production' is the desired target; anything else is a
+# loud warning (not RED) so the researcher can confirm the URI before analyzing.
+if kg_role != expected_role:
+    yellow(f"⚠ KG deployment_role = '{kg_role}', expected '{expected_role}'.")
+    yellow(f"   The URI {uri} may point at a non-production KG (alpha/staging/legacy).")
+    yellow("   Confirm NEO4J_URI targets the intended release before running an analysis.")
+    yellow("   (Override the expectation with EXPECTED_KG_ROLE=<role> if intentional.)")
 
 # --- API smoke: a real round-trip ---
 try:
