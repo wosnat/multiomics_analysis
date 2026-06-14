@@ -1,0 +1,7 @@
+ecotype,strain,handle,n_genes,n_core_acquisition_captured,core_captured,core_missed
+HL,MED4,cyanorak_D.1.5,31,10,phnC|phnD|phnE|phoB|phoH|phoR|pstA|pstB|pstC|pstS,
+HL,MED4,GO_BP_phosphate,5,5,phoR|pstA|pstB|pstC|pstS,phnC|phnD|phnE|phoB|phoH
+HL,MED4,GO_MF_phosphate,7,5,phnE|pstA|pstB|pstC|pstS,phnC|phnD|phoB|phoR|phoH
+LL,MIT9313,cyanorak_D.1.5,42,10,phnC|phnD|phnE|phoB|phoH|phoR|pstA|pstB|pstC|pstS,
+LL,MIT9313,GO_BP_phosphate,5,4,pstA|pstB|pstC|pstS,phnC|phnD|phnE|phoB|phoR|phoH
+LL,MIT9313,GO_MF_phosphate,8,6,phnC|phnE|pstA|pstB|pstC|pstS,phnD|phoB|phoR|phoH

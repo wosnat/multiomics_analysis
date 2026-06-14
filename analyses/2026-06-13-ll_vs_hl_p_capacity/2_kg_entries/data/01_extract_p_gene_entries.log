@@ -1,0 +1,16 @@
+[genome sizes] resolved 9/9; not_found=[]
+[D.1.5] HL/HLI   MED4     resolved='Prochlorococcus MED4'                                     genes=31
+[D.1.5] HL/HLII  AS9601   resolved='Prochlorococcus AS9601'                                   genes=26
+[D.1.5] HL/HLII  MIT9301  resolved='Prochlorococcus MIT9301'                                  genes=37
+[D.1.5] HL/HLII  MIT9312  resolved='Prochlorococcus MIT9312'                                  genes=37
+[D.1.5] LL/LLI   NATL1A   resolved='Prochlorococcus NATL1A'                                   genes=35
+[D.1.5] LL/LLI   NATL2A   resolved='Prochlorococcus NATL2A'                                   genes=35
+[D.1.5] LL/LLII  SS120    resolved='Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)'  genes=28
+[D.1.5] LL/LLIV  MIT9303  resolved='Prochlorococcus MIT9303'                                  genes=48
+[D.1.5] LL/LLIV  MIT9313  resolved='Prochlorococcus MIT9313'                                  genes=42
+[OG mapping] 319/319 genes mapped to a cyanorak group; 0 unmapped
+
+[funnel] panel=9 strains (HL=4, LL=5); total gene rows=319
+[funnel] HL P-role genes: min=26 median=37 max=37 mean=32.8
+[funnel] LL P-role genes: min=28 median=35 max=48 mean=37.6
+[outputs] data/p_role_genes_by_strain.csv (319 rows); data/strain_panel.csv (9 rows)

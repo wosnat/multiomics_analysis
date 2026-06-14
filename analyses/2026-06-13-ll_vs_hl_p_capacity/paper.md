@@ -29,7 +29,34 @@ trivially. Handling this is a step-3 framing decision.
 
 ## Background
 
-*(populated in step 2 — KG entries and prior work)*
+Phosphorus-acquisition gene content is a textbook case of *Prochlorococcus*
+ecotype genome adaptation: Martiny, Coleman & Chisholm (2006) showed that the
+pho regulon and accessory P-acquisition genes vary across strains in a way that
+tracks the phosphorus regime of the source water, comparing the HL strain MED4
+and the LL strain MIT9313. Subsequent work compared ecotype P responses at the
+protein level (Fuszard et al. 2012; MIT9312/NATL2A/SS120) and transcriptome
+level (Lin et al. 2015; NATL2A). This analysis asks the genomic-capacity
+question directly across an ecotype panel: do LL genomes carry more or different
+P machinery than HL?
+
+**KG entries used.** P machinery is defined by the curated Cyanorak functional
+role `cyanorak.role:D.1.5` (phosphorus adaptation/acclimation) and compared
+across strains at the level of curated Cyanorak ortholog groups. This handle was
+chosen over GO and KEGG on measured coverage: in *Prochlorococcus* the Cyanorak
+role captures all 10/10 core acquisition genes (pstSCAB, phnCDE, phoB, phoR,
+phoH) per strain, whereas GO captures only 4–6/10 (the Pst transporter and
+little else) and KEGG has no single P-acquisition pathway. The trade-off is that
+the Cyanorak role is *broad* — it also includes P-stress-responsive but
+non-acquisition genes (ribosomal proteins, chaperones, pentose-phosphate
+enzymes) — handled by reporting a focused acquisition subset (step 3).
+
+**Panel.** The comparison ideally spans all 17 Cyanorak-annotated genome strains
+(9 HL, 8 LL). For this (dogfood) run it is restricted to the 9 strains the MCP
+`genes_by_ontology` tool can resolve (4 HL: MED4, AS9601, MIT9301, MIT9312; 5 LL:
+NATL1A, NATL2A, SS120, MIT9303, MIT9313) — the resolver requires
+expression-bearing genes, excluding genome-only and metabolomics-only strains
+(see `gaps_and_friction.md`). RSP50 and MIT1314 carry no Cyanorak annotation and
+are excluded throughout.
 
 ## Methods
 

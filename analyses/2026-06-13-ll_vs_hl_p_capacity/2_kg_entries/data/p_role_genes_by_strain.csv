@@ -1,0 +1,320 @@
+ecotype,clade,strain,organism_name,locus_tag,gene_name,product,gene_category,cyanorak_og,og_gene_name,og_product,og_specificity_rank
+HL,HLI,MED4,Prochlorococcus MED4,PMM0201,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0202,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0340,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0663,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0671,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0672,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0673,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0705,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0706,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0709,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0711,chrA,chromate transporter,Stress response and adaptation,cyanorak:CK_00002826,chrA,chromate transporter,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0713,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0723,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0724,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0725,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0770,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0771,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0856,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM0996,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1071,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1119,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1121,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1284,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1416,PsiP1,phosphate starvation inducible protein 1,Stress response and adaptation,cyanorak:CK_00002662,PsiP1,phosphate starvation inducible protein 1,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1543,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1588,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1598,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1601,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1665,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+HL,HLI,MED4,Prochlorococcus MED4,PMM1704,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_02191,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_02201,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_03731,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07181,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07261,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07271,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07281,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07741,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07751,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07761,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_07771,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_08321,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_08331,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_10131,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_10791,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_11761,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_12251,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_12271,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_13551,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_14831,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_17501,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_17971,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_18071,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_18101,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_18741,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+HL,HLII,AS9601,Prochlorococcus AS9601,A9601_19141,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_02211,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_02221,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_03721,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07161,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07241,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07251,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07261,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07741,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07751,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07761,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_07771,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_08301,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_08311,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_10121,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_10791,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_11771,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12261,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12271,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12361,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12381,chrA,chromate transporter,Stress response and adaptation,cyanorak:CK_00002826,chrA,chromate transporter,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12391,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12401,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12411,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12431,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12501,phnC2,"phosphonate ABC transporter, ATP-binding protein",Stress response and adaptation,cyanorak:CK_00008062,phnC2,"phosphonate ABC transporter, ATP-binding protein",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12511,phnD2,"phosphonate ABC transporter, periplasmic component",Stress response and adaptation,cyanorak:CK_00006203,phnD2,"phosphonate ABC transporter, periplasmic component",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12521,phnE2,"phosphonate ABC transporter, permease protein PhnE",Stress response and adaptation,cyanorak:CK_00048116,phnE2,"phosphonate ABC transporter, permease protein PhnE",0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_12531,ptxD,phosphonate dehydrogenase,Stress response and adaptation,cyanorak:CK_00056808,ptxD,phosphonate dehydrogenase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_13641,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_14121,,short chain dehydrogenase family protein,Stress response and adaptation,cyanorak:CK_00056795,fabG-2,short chain dehydrogenase family protein,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_14691,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_17341,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_17801,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_17901,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_17931,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_18551,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+HL,HLII,MIT9301,Prochlorococcus MIT9301,P9301_18951,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0203,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0204,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0346,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0663,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0671,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0672,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0673,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0717,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0718,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0721,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0722,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0723,chrA,chromate transporter,Stress response and adaptation,cyanorak:CK_00002826,chrA,chromate transporter,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0725,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0727,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0728,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0729,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0778,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0779,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_0944,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1003,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1082,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1130,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1131,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1183,,hlyD secretion family protein,Stress response and adaptation,cyanorak:CK_00047685,hlyD,hlyD secretion family protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1264,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1352,,short chain dehydrogenase family protein,Stress response and adaptation,cyanorak:CK_00056795,fabG-2,short chain dehydrogenase family protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1380,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1494,,PIN and PhoH domains-containing protein involved in restraining the phage infection process,Stress response and adaptation,cyanorak:CK_00002022,,PIN and PhoH domains-containing protein involved in restraining the phage infection process,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1512,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1515,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1518,,putative phosphatase,Stress response and adaptation,cyanorak:CK_00056879,,putative phosphatase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1635,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1680,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1690,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1693,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1757,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+HL,HLII,MIT9312,Prochlorococcus MIT9312,PMT9312_1797,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_01141,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_02771,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_02781,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_04791,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_07201,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_07281,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_07291,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_07301,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_08081,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_08091,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_09821,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_09831,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_09841,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_10331,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11461,ptrA,"transcriptional phosphate regulator, Crp family",Stress response and adaptation,cyanorak:CK_00001606,ptrA,"transcriptional phosphate regulator, Crp family",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11471,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11481,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11511,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11521,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11551,chrA,chromate transporter,Stress response and adaptation,cyanorak:CK_00002826,chrA,chromate transporter,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11571,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_11941,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_13261,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_15141,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_16211,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_17041,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_18981,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_19301,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_19881,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_20381,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_20481,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_20511,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_21351,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_21861,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLI,NATL1A,Prochlorococcus NATL1A,NATL1_21951,spsA,sucrose phosphate synthase and phosphatase fusion protein,Stress response and adaptation,cyanorak:CK_00000368,spsA,sucrose phosphate synthase and phosphatase fusion protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0095,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0103,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0104,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0105,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0176,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0177,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0309,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0310,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0311,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0352,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0435,ptrA,"transcriptional phosphate regulator, Crp family",Stress response and adaptation,cyanorak:CK_00001606,ptrA,"transcriptional phosphate regulator, Crp family",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0436,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0437,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0440,PMN2A_RS05215,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0441,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0443,chrA,chromate transporter,Stress response and adaptation,cyanorak:CK_00002826,chrA,chromate transporter,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0445,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0475,PMN2A_RS05395,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0559,PMN2A_RS05885,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0680,PMN2A_RS06570,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0777,PMN2A_RS07060,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_0851,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1028,PMN2A_RS08380,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1057,PMN2A_RS08525,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1114,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1163,PMN2A_RS09080,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1173,PMN2A_RS09130,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1176,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1264,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1313,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1322,spsA,sucrose phosphate synthase and phosphatase fusion protein,Stress response and adaptation,cyanorak:CK_00000368,spsA,sucrose phosphate synthase and phosphatase fusion protein,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1414,PMN2A_RS00455,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1568,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1569,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+LL,LLI,NATL2A,Prochlorococcus NATL2A,PMN2A_1757,PMN2A_RS02250,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0227,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0228,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0596,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0597,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0598,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0672,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0724,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00056782,,conserved hypothetical protein,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0737,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0843,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0844,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0978,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1019,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1020,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1021,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1029,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1128,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1269,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1358,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1533,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1574,ptrA,"transcriptional phosphate regulator, Crp family",Stress response and adaptation,cyanorak:CK_00001606,ptrA,"transcriptional phosphate regulator, Crp family",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1575,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1577,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1697,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1744,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1756,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1759,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1826,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1871,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_00511,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_01141,,short chain dehydrogenase family protein,Stress response and adaptation,cyanorak:CK_00056795,fabG-2,short chain dehydrogenase family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_01311,,hlyD secretion family protein,Stress response and adaptation,cyanorak:CK_00047685,hlyD,hlyD secretion family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_03461,phoC,acid phosphatase,Stress response and adaptation,cyanorak:CK_00001999,phoC,acid phosphatase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_05201,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_08801,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_09341,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_10531,,NUDIX hydrolase superfamily,Stress response and adaptation,cyanorak:CK_00001443,mutT,NUDIX hydrolase superfamily,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11051,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11071,ptrA,"transcriptional phosphate regulator, Crp family",Stress response and adaptation,cyanorak:CK_00001606,ptrA,"transcriptional phosphate regulator, Crp family",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11081,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11091,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11101,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11271,ptxD,phosphonate dehydrogenase,Stress response and adaptation,cyanorak:CK_00056808,ptxD,phosphonate dehydrogenase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11281,phnE2,"phosphonate ABC transporter, permease protein PhnE",Stress response and adaptation,cyanorak:CK_00048116,phnE2,"phosphonate ABC transporter, permease protein PhnE",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11291,phnD2,"phosphonate ABC transporter, periplasmic component",Stress response and adaptation,cyanorak:CK_00006203,phnD2,"phosphonate ABC transporter, periplasmic component",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_11301,phnC2,"phosphonate ABC transporter, ATP-binding protein",Stress response and adaptation,cyanorak:CK_00008062,phnC2,"phosphonate ABC transporter, ATP-binding protein",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_12011,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14061,ppk2,polyphosphate kinase 2,Stress response and adaptation,cyanorak:CK_00048151,ppk2,polyphosphate kinase 2,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14071,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14191,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14291,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14301,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14311,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_14621,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_15191,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_15201,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_15211,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_16871,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_16881,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_17591,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_18211,,phosphate-starvation-induced PsiE-like protein,Stress response and adaptation,cyanorak:CK_00001482,,phosphate-starvation-induced PsiE-like protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_19541,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_20711,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00045159,,uncharacterized conserved membrane protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_22481,rlpA,rare lipoA family protein,Cell wall and membrane,cyanorak:CK_00035906,rlpA,rare lipoA family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_22501,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_23181,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_24671,,pentapeptide repeats family protein,Stress response and adaptation,cyanorak:CK_00001564,,pentapeptide repeats family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_25841,,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_25881,,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_25911,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_25951,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_26321,,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_27791,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_27801,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_28361,,PAP2 superfamily protein,Stress response and adaptation,cyanorak:CK_00045468,,PAP2 superfamily protein,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_30041,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,P9303_30171,spsA,sucrose phosphate synthase and phosphatase fusion protein,Stress response and adaptation,cyanorak:CK_00000368,spsA,sucrose phosphate synthase and phosphatase fusion protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0050,sqdB,UDP-sulfoquinovose synthase,Stress response and adaptation,cyanorak:CK_00000123,sqdB,UDP-sulfoquinovose synthase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0267,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00045159,,uncharacterized conserved membrane protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0284,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0351,phoH,phosphate starvation-inducible protein,Stress response and adaptation,cyanorak:CK_00000721,phoH,phosphate starvation-inducible protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0460,,phosphate-starvation-induced PsiE-like protein,Stress response and adaptation,cyanorak:CK_00001482,,phosphate-starvation-induced PsiE-like protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0508,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0564,pgl,6-phosphogluconolactonase,Stress response and adaptation,cyanorak:CK_00000874,pgl,6-phosphogluconolactonase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0565,gnd,6-phosphogluconate dehydrogenase,Stress response and adaptation,cyanorak:CK_00000875,gnd,6-phosphogluconate dehydrogenase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0700,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak:CK_00000817,pstB,ABC-type phosphate transport system ATPase component,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0701,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000165,pstA,ABC-type phosphate transport system permease component,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0702,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak:CK_00000818,pstC,ABC-type phosphate transport system permease component,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0754,ahpC,2-Cys peroxiredoxin,Stress response and adaptation,cyanorak:CK_00000167,ahpC,2-Cys peroxiredoxin,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0780,phnD,"phosphonate ABC type transporter, substrate binding component",Stress response and adaptation,cyanorak:CK_00000860,phnD,"phosphonate ABC type transporter, substrate binding component",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0781,phnC,"phosphonate ABC type transporter, ATPase component",Stress response and adaptation,cyanorak:CK_00008048,phnC,"phosphonate ABC type transporter, ATPase component",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0782,phnE,"phosphate/phosphonate ABC type transporter, permease component",Stress response and adaptation,cyanorak:CK_00000861,phnE,"phosphate/phosphonate ABC type transporter, permease component",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0791,prfC,peptide chain release factor 3,Stress response and adaptation,cyanorak:CK_00000865,prfC,peptide chain release factor 3,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0802,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0803,ppk2,polyphosphate kinase 2,Stress response and adaptation,cyanorak:CK_00048151,ppk2,polyphosphate kinase 2,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0964,,conserved hypothetical protein (DUF3303),Stress response and adaptation,cyanorak:CK_00000097,PMN2A_RS00455,conserved hypothetical protein (DUF3303),0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0993,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak:CK_00043821,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0994,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,Stress response and adaptation,cyanorak:CK_00008015,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT0998,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1000,gap3,glyceraldehyde-3-phosphate dehydrogenase,Stress response and adaptation,cyanorak:CK_00008093,gap3,glyceraldehyde-3-phosphate dehydrogenase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1026,mutT,NUDIX hydrolase superfamily,Stress response and adaptation,cyanorak:CK_00001443,mutT,NUDIX hydrolase superfamily,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1108,,possible phosphatidic acid phosphatase,Stress response and adaptation,cyanorak:CK_00000999,PMN2A_RS06570,possible phosphatidic acid phosphatase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1435,,uncharacterized conserved membrane protein,Stress response and adaptation,cyanorak:CK_00000794,PMN2A_RS05395,uncharacterized conserved membrane protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1569,phoC,acid phosphatase,Stress response and adaptation,cyanorak:CK_00001999,phoC,acid phosphatase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1690,rlpA,rare lipoA family protein,Cell wall and membrane,cyanorak:CK_00035906,rlpA,rare lipoA family protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1692,,conserved hypothetical protein,Stress response and adaptation,cyanorak:CK_00000562,PMN2A_RS09080,conserved hypothetical protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1747,rplR,50S ribosomal protein L18,Stress response and adaptation,cyanorak:CK_00000520,rplR,50S ribosomal protein L18,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1842,,pentapeptide repeats family protein,Stress response and adaptation,cyanorak:CK_00001564,,pentapeptide repeats family protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1942,galM,aldose 1-epimerase family protein,Stress response and adaptation,cyanorak:CK_00000282,galM,aldose 1-epimerase family protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1946,glgP,glycogen phosphorylase,Stress response and adaptation,cyanorak:CK_00000118,glgP,glycogen phosphorylase,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT1979,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT2090,rplJ,50S ribosomal protein L10,Stress response and adaptation,cyanorak:CK_00000428,rplJ,50S ribosomal protein L10,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT2091,rplL,50S ribosomal protein L7/L12,Stress response and adaptation,cyanorak:CK_00000429,rplL,50S ribosomal protein L7/L12,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT2255,dnaK3,chaperone protein DnaK,Stress response and adaptation,cyanorak:CK_00000029,dnaK3,chaperone protein DnaK,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT2268,spsA,sucrose phosphate synthase and phosphatase fusion protein,Stress response and adaptation,cyanorak:CK_00000368,spsA,sucrose phosphate synthase and phosphatase fusion protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT_0094,,hlyD secretion family protein,Stress response and adaptation,cyanorak:CK_00047685,hlyD,hlyD secretion family protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT_0997,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",Stress response and adaptation,cyanorak:CK_00001531,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT_2156,,PAP2 superfamily protein,Stress response and adaptation,cyanorak:CK_00045468,,PAP2 superfamily protein,0
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,PMT_2631,som,outer membrane porin,Stress response and adaptation,cyanorak:CK_00002330,som,outer membrane porin,0
