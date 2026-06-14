@@ -60,7 +60,43 @@ are excluded throughout.
 
 ## Methods
 
-*(populated in steps 3–4 — framing and implementation)*
+### Framing (step 3)
+
+**Hypothesis.** LL ecotypes carry greater and/or qualitatively different genomic
+P-acquisition capacity than HL — more acquisition ortholog groups and/or
+LL-specific acquisition machinery.
+
+**Gene set.** The curated Cyanorak D.1.5 role is broader than acquisition (it
+includes P-stress-responsive ribosomal/PPP/chaperone genes). Its 48 ortholog
+groups were classified into a **focused acquisition subset (23 OGs)** —
+Pi/phosphonate transport (pstSCAB, phnCDE and paralogs), phosphatases (acid
+phosphatase phoC, phosphatidic-acid and PAP2-superfamily phosphatases), the pho
+two-component regulator (phoB/phoR) and a Crp-family phosphate regulator (ptrA),
+P-starvation-inducible proteins (phoH, PsiP1, PsiE-like), polyphosphate kinase
+(ppk2), and sulfolipid substitution (sqdB) — vs responsive-other (16) and unclear
+(9, excluded conservatively). Classification is explicit and reproducible
+(`3_framing/scripts/02_classify_p_ogs.py`).
+
+**Capacity metric.** Per strain, the count of focused-acquisition OGs present,
+compared between ecotypes as the raw-count LL/HL ratio benchmarked against a
+control suite, plus the presence/absence repertoire. Per-1000-genes is secondary
+(fixed-core categories do not scale with genome size, so per-1000 conflates fixed
+core with no expansion).
+
+**Controls.** K.2 ribosomal proteins as an invariant baseline (observed LL/HL =
+1.00); D.1.3 nitrogen and D.1.7 trace-metal adaptation as specificity controls;
+D.1.2 light adaptation as a positive control (varies by ecotype/clade, confirming
+the method detects real ecotype differences).
+
+**Preregistered predictions.** (1) LL focused-acquisition count > HL, ratio above
+the ribosomal/nitrogen baselines; (2) ≥1 acquisition OG LL-present/HL-absent
+(candidates ptrA, phoC, ppk2); (3) the P difference is ≥ trace-metal and >
+nitrogen (genuine specificity test — may fail, since on the full role P ≈
+trace-metal).
+
+### Implementation (step 4)
+
+*(populated in step 4)*
 
 ## Results
 

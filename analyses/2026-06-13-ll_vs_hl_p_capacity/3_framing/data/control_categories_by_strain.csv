@@ -1,0 +1,10 @@
+ecotype,clade,strain,organism_name,genome_gene_count,D.1.5_phosphorus_n,D.1.3_nitrogen_n,D.1.7_trace_metal_n,D.1.2_light_n,K.2_ribosomal_n,D.1.5_phosphorus_per1k,D.1.3_nitrogen_per1k,D.1.7_trace_metal_per1k,D.1.2_light_per1k,K.2_ribosomal_per1k
+HL,HLI,MED4,Prochlorococcus MED4,1976,31,16,37,35,61,15.688,8.097,18.725,17.713,30.87
+HL,HLII,AS9601,Prochlorococcus AS9601,1951,26,16,36,34,61,13.326,8.201,18.452,17.427,31.266
+HL,HLII,MIT9301,Prochlorococcus MIT9301,1935,37,17,38,29,61,19.121,8.786,19.638,14.987,31.525
+HL,HLII,MIT9312,Prochlorococcus MIT9312,1978,37,16,39,37,61,18.706,8.089,19.717,18.706,30.839
+LL,LLI,NATL1A,Prochlorococcus NATL1A,2226,35,19,42,60,60,15.723,8.535,18.868,26.954,26.954
+LL,LLI,NATL2A,Prochlorococcus NATL2A,2214,35,19,42,57,60,15.808,8.582,18.97,25.745,27.1
+LL,LLII,SS120,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),1964,28,4,34,30,61,14.257,2.037,17.312,15.275,31.059
+LL,LLIV,MIT9303,Prochlorococcus MIT9303,3114,48,19,50,21,62,15.414,6.101,16.057,6.744,19.91
+LL,LLIV,MIT9313,Prochlorococcus MIT9313,2948,42,19,45,21,62,14.247,6.445,15.265,7.123,21.031

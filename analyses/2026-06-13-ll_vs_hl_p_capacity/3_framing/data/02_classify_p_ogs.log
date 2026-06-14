@@ -1,0 +1,65 @@
+panel: HL=4 strains, LL=5 strains; 48 distinct D.1.5 OGs
+
+=== acquisition: 23 OGs ===
+  gene            HL  LL  product
+  phnE             4   5  phosphate/phosphonate ABC type transporter, permease compone
+  phnC             4   5  phosphonate ABC type transporter, ATPase component
+  phnD             4   5  phosphonate ABC type transporter, substrate binding componen
+  pstS             4   5  phosphate ABC transporter, phosphate-binding protein PstS
+  pstC             4   5  ABC-type phosphate transport system permease component
+  pstA             4   5  ABC-type phosphate transport system permease component
+  pstB             4   5  ABC-type phosphate transport system ATPase component
+  PMN2A_RS06570    4   5  possible phosphatidic acid phosphatase
+  phoH             4   5  phosphate starvation-inducible protein
+  sqdB             4   5  UDP-sulfoquinovose synthase
+  phoR             3   4  two-component system sensor histidine kinase, phosphate sens
+  phoB             3   3  two-component system response regulator RR class II (RRII)-C
+  ptrA             0   4  transcriptional phosphate regulator, Crp family
+  phnC2            1   1  phosphonate ABC transporter, ATP-binding protein
+  phnD2            1   1  phosphonate ABC transporter, periplasmic component
+  phnE2            1   1  phosphonate ABC transporter, permease protein PhnE
+  ptxD             1   1  phosphonate dehydrogenase
+  phoC             0   2  acid phosphatase
+  ppk2             0   2  polyphosphate kinase 2
+                   0   2  phosphate-starvation-induced PsiE-like protein
+                   0   2  PAP2 superfamily protein
+  PsiP1            1   0  phosphate starvation inducible protein 1
+                   1   0  putative phosphatase
+
+=== responsive_other: 16 OGs ===
+  gene            HL  LL  product
+  rplL             4   5  50S ribosomal protein L7/L12
+  rplJ             4   5  50S ribosomal protein L10
+  prfC             4   5  peptide chain release factor 3
+  gnd              4   5  6-phosphogluconate dehydrogenase
+  pgl              4   5  6-phosphogluconolactonase
+  ahpC             4   5  2-Cys peroxiredoxin
+  rplR             4   5  50S ribosomal protein L18
+  galM             4   5  aldose 1-epimerase family protein
+  glgP             4   5  glycogen phosphorylase
+  dnaK3            4   5  chaperone protein DnaK
+  gap3             3   5  glyceraldehyde-3-phosphate dehydrogenase
+  spsA             0   4  sucrose phosphate synthase and phosphatase fusion protein
+  fabG-2           2   1  short chain dehydrogenase family protein
+  hlyD             1   2  hlyD secretion family protein
+  mutT             0   2  NUDIX hydrolase superfamily
+  rlpA             0   2  rare lipoA family protein
+
+=== unclear: 9 OGs ===
+  gene            HL  LL  product
+  PMN2A_RS05395    4   5  uncharacterized conserved membrane protein
+  som              4   5  outer membrane porin
+  PMN2A_RS09080    4   5  conserved hypothetical protein
+  PMN2A_RS00455    4   4  conserved hypothetical protein (DUF3303)
+  chrA             3   2  chromate transporter
+                   0   2  uncharacterized conserved membrane protein
+                   0   2  pentapeptide repeats family protein
+                   1   0  PIN and PhoH domains-containing protein involved in restrain
+                   0   1  conserved hypothetical protein
+
+[focused acquisition subset] 23 OGs
+  universal (all 4 HL & all 5 LL): 10
+  LL-only (present in >=1 LL, 0 HL): ['ptrA', 'phoC', 'ppk2', '', '']
+  HL-only (present in >=1 HL, 0 LL): ['PsiP1', '']
+
+[outputs] data/p_og_classification.csv (48 rows)
