@@ -129,9 +129,61 @@ by one HL (MIT9301) and one LL (MIT9303), not ecotype-linked (Figure fig1).
 
 ## Discussion
 
-*(populated in step 6)*
+The genomic evidence does not support a simple "LL ecotypes are better equipped
+for phosphorus limitation" conclusion at the level of acquisition-gene quantity.
+Of the three preregistered predictions, only the qualitative-repertoire
+prediction held. LL strains do not carry robustly more P-acquisition ortholog
+groups than HL: the raw LL/HL count ratio (1.12) sits inside the control band set
+by trace-metal (1.14) and light (1.12) adaptation, exceeds only the invariant
+ribosomal baseline (1.00) and nitrogen (0.98), reverses to 0.95 when the
+large-genome LLIV clade is removed, and inverts entirely on a per-genome basis.
+The count-level expansion is therefore neither phosphorus-specific nor LL-wide —
+it is a genome-size effect concentrated in LLIV.
+
+What does differentiate the ecotypes is repertoire, not count. A Crp-family
+transcriptional phosphate regulator (`ptrA`) is present across LL (4 of 5 strains,
+all three LL clades represented) and absent from every HL strain — an LL-wide
+qualitative marker not attributable to genome size. Additional scavenging and
+storage machinery — acid phosphatase, polyphosphate kinase, and accessory
+phosphatases — is LL-only but confined to the deep-branching LLIV clade. The core
+high-affinity uptake systems (the Pst phosphate transporter and the Phn
+phosphonate transporter) are universal across both ecotypes, as expected for an
+oligotroph.
+
+These patterns fit the picture from Martiny, Coleman & Chisholm (2006): in
+*Prochlorococcus*, phosphorus-gene content is governed more by the phosphorus
+regime of a strain's source environment than by its high-light/low-light niche.
+Here the sharpest genomic differentiation is clade-level (LLIV) and regulatory
+rather than a clean light-ecotype acquisition gradient. The most defensible
+statement is narrow: **LL genomes carry a phosphate regulator and (in LLIV)
+extra scavenging/storage enzymes that HL lack, but not a broadly larger
+P-acquisition transporter complement.**
+
+Two limits bound these conclusions. First, the panel is small and imbalanced
+(4 HL, 5 LL) because a tool bug restricted it to expression-bearing strains; the
+LLIV findings rest on two genomes and the full 17-strain re-run is the priority
+follow-up. Second, genomic presence is upstream of function — whether LL strains
+*deploy* this machinery more effectively under P limitation is the
+expression-response question deliberately deferred at the outset, and the natural
+next analysis. Full caveats are in `6_evaluate/notebook.md`.
 
 ## References
 
-*(accumulates as publications are cited; every reference resolved via
-`list_publications` and cited by DOI / KG experiment ID)*
+Resolved via `list_publications` (cited by DOI):
+
+1. Martiny AC, Coleman ML, Chisholm SW (2006). Phosphate acquisition genes in
+   *Prochlorococcus* ecotypes: evidence for genome-wide adaptation. *PNAS*.
+   DOI: 10.1073/pnas.0601301103.
+2. Fuszard MA, Wright PC, Biggs CA (2012). Comparative quantitative proteomics of
+   *Prochlorococcus* ecotypes to a decrease in environmental phosphate
+   concentrations. *Aquatic Biosystems*. DOI: 10.1186/2046-9063-8-7.
+3. Lin X, Ding H, Zeng Q (2015). Transcriptomic response during phage infection of
+   a marine cyanobacterium under phosphorus-limited conditions. *Environmental
+   Microbiology*. DOI: 10.1111/1462-2920.13104.
+4. Kujawinski EB, Braakman R, Longnecker K, et al. (2023). Metabolite diversity
+   among representatives of divergent *Prochlorococcus* ecotypes. *mSystems*.
+   DOI: 10.1128/msystems.01261-22.
+
+Data source: multiomics-kg KG release 0.1.0-alpha.6 (built 2026-06-13, git
+ffef4007); explorer 0.1.0a2. Gene set: curated Cyanorak role `cyanorak.role:D.1.5`
+at Cyanorak ortholog-group level.

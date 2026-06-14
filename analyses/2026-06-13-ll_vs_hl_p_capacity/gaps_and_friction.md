@@ -60,3 +60,18 @@ bias an HL-vs-LL comparison if annotation completeness differs by strain.
 only to cross-validate core transporters. Methodology note: for non-model
 organisms, validate ontology coverage before trusting a generic-ontology gene
 set for presence/absence comparisons.
+
+## 2026-06-14 — control comparison asymmetry (curated subset vs full-role controls)
+
+**What happened.** The capacity metric compares a *curated* 23-OG focused
+P-acquisition subset against control categories taken as *full* Cyanorak roles
+(D.1.3 nitrogen, D.1.7 trace-metal). The target is filtered to acquisition-only;
+the controls are not. The invariant ribosomal baseline (LL/HL=1.00) and the
+qualitative repertoire findings are robust to this, but the fine specificity
+ranking (focused-P 1.12 vs trace-metal 1.14) is not strictly apples-to-apples.
+
+**Workaround / impact.** Reported with the caveat. A fully matched design would
+curate each control role to its own acquisition-only subset before computing
+LL/HL. Methodology note: when benchmarking a curated gene set against control
+categories, curate the controls to the same granularity, or compare full-role to
+full-role.
