@@ -96,7 +96,13 @@ trace-metal).
 
 ### Implementation (step 4)
 
-*(populated in step 4)*
+The capacity metric is implemented in `4_methods/p_capacity.py` (pure pandas over
+the frozen gene tables). It builds a strain × ortholog-group presence/absence
+matrix (paralogs collapse to presence — capacity is repertoire breadth, not copy
+number), counts focused-acquisition OGs per strain, computes the ecotype LL/HL
+ratio, and categorizes each OG as universal / LL-only / HL-only / variable. The
+logic is verified against hand-computed toy data
+(`4_methods/scripts/qc_toy_verification.py`) before application.
 
 ## Results
 
