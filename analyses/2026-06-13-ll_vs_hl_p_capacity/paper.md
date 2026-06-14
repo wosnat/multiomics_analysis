@@ -106,7 +106,26 @@ logic is verified against hand-computed toy data
 
 ## Results
 
-*(populated in step 5)*
+On the 9-strain panel, LL strains carry slightly more focused P-acquisition
+ortholog groups than HL (mean 14.6 vs 13.0; LL/HL = 1.12, raw count). But this
+ratio sits within the control band — trace-metal adaptation 1.14, light 1.12 —
+and above only the invariant ribosomal baseline (1.00) and nitrogen (0.98). It is
+not specific to phosphorus, and per-1000-genes HL is actually denser (≈6.6 vs
+5.8). The count difference is **entirely driven by the LLIV clade**: per-clade
+means are HLI 13, HLII 13, LLI 13, LLII 11, LLIV 18; removing the two LLIV strains
+collapses the ratio to LL/HL = 0.95 (Figures fig2, fig3).
+
+The presence/absence repertoire shows a qualitative difference that the counts do
+not. Of 23 focused-acquisition OGs, 10 are universal (the core Pi transporter
+pstSCAB, phosphonate transporter phnCDE, phoH, sulfolipid sqdB, a
+phosphatidic-acid phosphatase). Five are LL-only and two HL-only. The strongest
+LL-wide marker is `ptrA`, a Crp-family transcriptional phosphate regulator,
+present in 4 of 5 LL strains (LLI, LLII, and one LLIV) and absent from all 4 HL —
+though notably absent in MIT9313. Deeper scavenging/storage machinery — acid
+phosphatase (phoC), polyphosphate kinase (ppk2), a PAP2-superfamily phosphatase,
+and a PsiE-like protein — is LL-only but confined to the LLIV clade (MIT9303,
+MIT9313). Phosphonate-utilization paralogs (phnCDE2, ptxD) are carried sporadically
+by one HL (MIT9301) and one LL (MIT9303), not ecotype-linked (Figure fig1).
 
 ## Discussion
 

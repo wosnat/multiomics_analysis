@@ -1,0 +1,7 @@
+category,HL_mean,LL_mean,LL_over_HL,role
+focused_P_acquisition,13.0,14.6,1.123076923076923,23-OG curated subset
+D.1.5_phosphorus,32.75,37.6,1.1480916030534352,full D.1.5 role (uncurated)
+K.2_ribosomal,61.0,61.0,1.0,invariant baseline
+D.1.3_nitrogen,16.25,16.0,0.9846153846153847,specificity control
+D.1.7_trace_metal,37.5,42.6,1.1360000000000001,specificity control
+D.1.2_light,33.75,37.8,1.1199999999999999,positive control

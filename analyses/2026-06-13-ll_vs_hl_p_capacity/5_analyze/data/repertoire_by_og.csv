@@ -1,0 +1,24 @@
+cyanorak_og,n_HL,n_LL,category,og_gene_name,og_product
+cyanorak:CK_00002662,1,0,HL_only,PsiP1,phosphate starvation inducible protein 1
+cyanorak:CK_00056879,1,0,HL_only,,putative phosphatase
+cyanorak:CK_00001482,0,2,LL_only,,phosphate-starvation-induced PsiE-like protein
+cyanorak:CK_00001999,0,2,LL_only,phoC,acid phosphatase
+cyanorak:CK_00045468,0,2,LL_only,,PAP2 superfamily protein
+cyanorak:CK_00048151,0,2,LL_only,ppk2,polyphosphate kinase 2
+cyanorak:CK_00001606,0,4,LL_only,ptrA,"transcriptional phosphate regulator, Crp family"
+cyanorak:CK_00000123,4,5,universal,sqdB,UDP-sulfoquinovose synthase
+cyanorak:CK_00000165,4,5,universal,pstA,ABC-type phosphate transport system permease component
+cyanorak:CK_00000721,4,5,universal,phoH,phosphate starvation-inducible protein
+cyanorak:CK_00000817,4,5,universal,pstB,ABC-type phosphate transport system ATPase component
+cyanorak:CK_00000818,4,5,universal,pstC,ABC-type phosphate transport system permease component
+cyanorak:CK_00000860,4,5,universal,phnD,"phosphonate ABC type transporter, substrate binding component"
+cyanorak:CK_00000861,4,5,universal,phnE,"phosphate/phosphonate ABC type transporter, permease component"
+cyanorak:CK_00000999,4,5,universal,PMN2A_RS06570,possible phosphatidic acid phosphatase
+cyanorak:CK_00008048,4,5,universal,phnC,"phosphonate ABC type transporter, ATPase component"
+cyanorak:CK_00043821,4,5,universal,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
+cyanorak:CK_00006203,1,1,variable,phnD2,"phosphonate ABC transporter, periplasmic component"
+cyanorak:CK_00008062,1,1,variable,phnC2,"phosphonate ABC transporter, ATP-binding protein"
+cyanorak:CK_00048116,1,1,variable,phnE2,"phosphonate ABC transporter, permease protein PhnE"
+cyanorak:CK_00056808,1,1,variable,ptxD,phosphonate dehydrogenase
+cyanorak:CK_00008015,3,3,variable,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
+cyanorak:CK_00001531,3,4,variable,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR"
