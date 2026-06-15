@@ -111,3 +111,53 @@ just-in-time-formalization principle (look at the data before fixing the framing
 the lock should be provisional until the data behind it has actually been pulled.
 Seen once so far (this analysis); promote to the skill if a second analysis hits
 the same friction.
+
+## 2026-06-15 — nearly re-wrapped `pathway_enrichment` (2nd pull toward reinventing)
+
+**What happened.** Co-defining step 4, I proposed a module that *wrapped the
+enrichment primitives* (`de_enrichment_inputs`/`fisher_ora`/`signed_enrichment_score`).
+The researcher asked "why not use `pathway_enrichment` directly?" — the package
+already runs that exact pipeline in one call. The method became a thin driver that
+*calls* `pathway_enrichment`, with glue only for things it doesn't cover (motility
+gene-level readout, output freezing).
+
+**Workaround / impact.** This is the second time in one analysis the pull was to
+re-build what the package ships (cf. the reinvented-ORA note above). Methodology
+candidate: prefer the **highest-level tool that answers the question** — call
+`pathway_enrichment`, don't wrap its primitives — and reserve custom code for
+composition the tool genuinely doesn't do.
+
+## 2026-06-15 — `list_experiments` (Python) doesn't carry the `timepoints` array
+
+**What happened.** The Python `list_experiments` result lacks the per-experiment
+`timepoints` array that the MCP envelope shows (and `time_point_count` was absent),
+so `n_timepoints` came out 0. Sourced it instead from the `differential_expression_by_gene`
+envelope's `experiments[].timepoints`.
+
+**Workaround / impact.** Minor API-shape gotcha. Note: when a field is present in
+the MCP envelope but missing from the Python return, cross-check a sibling tool's
+envelope rather than assuming the data is absent.
+
+---
+
+## Consolidation (post-analysis, 2026-06-15)
+
+Grouped, with promotion status (the skill rule: one occurrence = note here; promote
+on a second analysis):
+
+- **Don't reinvent the package's analysis machinery** (reinvented-ORA + the
+  `pathway_enrichment` re-wrap). Two occurrences *within this analysis*. Skill
+  already covers it (Rule 5 → `docs://analysis/enrichment`); worth **sharpening**
+  Rule 5 with "call the highest-level tool directly; don't wrap its primitives."
+- **Verify log2FC direction/sign before any direction claim** (up-only trap →
+  sign-loss diagnostic; and the EZ55 partner-flip being the *sign-verified* version
+  of the old corrupted claim). Caught a real KG data bug and prevented a false
+  finding. High-value; **promotion-worthy** to anti-hallucination despite one
+  analysis, because it is a data-integrity check, not a process change.
+- **Locks are provisional until the data behind them is pulled** (lock-vs-data-reveal).
+  One occurrence; pairs with the co-define / just-in-time edits. **Fold into** the
+  step-protocol's reopen guidance as part of the in-flight co-define sharpening.
+- **KG data/metadata gaps to report upstream:** sign-loss in the two 2016 ISME J
+  papers; no `table_scope` value for "up-regulated only"; empty `table_scope_detail`.
+  Not skill matters — KG-team items.
+- **Minor tooling:** `list_experiments` Python missing `timepoints`. Note only.
