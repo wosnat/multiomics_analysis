@@ -20,7 +20,23 @@ it crosses studies/platforms.
 
 ## Background
 
-*(populated in step 2 — KG entries and prior work)*
+*Alteromonas macleodii* is a copiotrophic marine heterotroph commonly studied as a
+partner of the cyanobacterium *Prochlorococcus*. Motility (flagella and
+chemotaxis) is energetically costly and is often regulated by environmental and
+social cues, making it a plausible target of the coculture relationship. The
+prompt for this analysis is that motility genes are differentially expressed in
+the *Prochlorococcus*–*Alteromonas* coculture study of Weissberg et al. 2025.
+
+**KG entries used.** Two strains have a clean coculture-with-Prochlorococcus
+vs alone (axenic) differential-expression contrast: HOT1A3 (Weissberg 2025 and a
+second study, all detected genes reported) and EZ55 (Hennon et al. 2017, at 400
+and 800 ppm CO₂, significant genes only). EZ55 additionally has
+coculture-with-*Synechococcus* contrasts, usable as a partner-specificity control.
+Motility is defined two ways and reported side by side: the tight KEGG set
+(flagellar assembly ko02040 + bacterial chemotaxis ko02030, ~96–102 genes per
+strain) and the broad eggNOG COG category N "Cell motility" (~126–131 genes,
+additionally including pili/twitching motility). MIT1002 and a MarRef proteomics
+panel were considered but lack the coculture-vs-alone contrast.
 
 ## Methods
 

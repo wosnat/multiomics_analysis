@@ -1,0 +1,296 @@
+strain,locus_tag,gene_name,product,in_kegg_flagella_chemotaxis,in_cog_n_cell_motility
+HOT1A3,ACZ81_00330,fliL2,flagellar basal body-associated protein FliL,1,1
+HOT1A3,ACZ81_00745,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_00850,lptM,LPS translocon maturation chaperone LptM,0,1
+HOT1A3,ACZ81_01045,mshI,hypothetical protein,0,1
+HOT1A3,ACZ81_01050,,PilN domain-containing protein,0,1
+HOT1A3,ACZ81_01055,mshJ,type II secretion system protein M,0,1
+HOT1A3,ACZ81_01065,mshL,pilus (MSHA type) biogenesis protein MshL,0,1
+HOT1A3,ACZ81_01080,mshE,GspE/PulE family protein,0,1
+HOT1A3,ACZ81_01085,mshG,type II secretion system F family protein,0,1
+HOT1A3,ACZ81_01095,mshB,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+HOT1A3,ACZ81_01100,,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+HOT1A3,ACZ81_01105,mshC,type II secretion system protein,0,1
+HOT1A3,ACZ81_01110,mshD,type IV pilus modification PilV family protein,0,1
+HOT1A3,ACZ81_01115,mshO,PulJ/GspJ family protein,0,1
+HOT1A3,ACZ81_01420,cheY1,response regulator,1,0
+HOT1A3,ACZ81_01425,cheA,chemotaxis protein CheW,1,1
+HOT1A3,ACZ81_01430,cheW,chemotaxis protein CheW,1,1
+HOT1A3,ACZ81_01440,cheR,CheR family methyltransferase,1,1
+HOT1A3,ACZ81_01445,cheD,chemoreceptor glutamine deamidase CheD,1,1
+HOT1A3,ACZ81_01450,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+HOT1A3,ACZ81_01455,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_01460,cheY1,response regulator,1,0
+HOT1A3,ACZ81_01465,cheA,chemotaxis protein CheA,1,1
+HOT1A3,ACZ81_01470,cheW,chemotaxis protein CheW,1,1
+HOT1A3,ACZ81_01475,aer2,methyl-accepting chemotaxis protein,1,0
+HOT1A3,ACZ81_01480,aer2,methyl-accepting chemotaxis protein,1,0
+HOT1A3,ACZ81_01485,cheR,CheR family methyltransferase,1,1
+HOT1A3,ACZ81_01490,cheD,chemoreceptor glutamine deamidase CheD,1,1
+HOT1A3,ACZ81_01495,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+HOT1A3,ACZ81_01660,,GspE/PulE family protein,0,1
+HOT1A3,ACZ81_01745,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_01980,pilP,pilus assembly protein PilP,0,1
+HOT1A3,ACZ81_01985,pilO,type IV pilus inner membrane component PilO,0,1
+HOT1A3,ACZ81_01990,pilN,PilN domain-containing protein,0,1
+HOT1A3,ACZ81_01995,pilM,type IV pilus assembly protein PilM,0,1
+HOT1A3,ACZ81_02085,,flagellar basal body L-ring protein FlgH,1,1
+HOT1A3,ACZ81_02095,spy,Spy/CpxP family protein refolding chaperone,0,1
+HOT1A3,ACZ81_02770,,methyl-accepting chemotaxis protein,1,0
+HOT1A3,ACZ81_03080,,hypothetical protein,0,1
+HOT1A3,ACZ81_03155,bdlA,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_03265,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_03270,rpoD,RNA polymerase sigma factor RpoD,1,0
+HOT1A3,ACZ81_03485,,HAMP domain-containing methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_03590,,tetratricopeptide repeat protein,0,1
+HOT1A3,ACZ81_03595,,tetratricopeptide repeat protein,0,1
+HOT1A3,ACZ81_03740,rpoN,RNA polymerase factor sigma-54,1,0
+HOT1A3,ACZ81_04220,,PA2778 family cysteine peptidase,0,1
+HOT1A3,ACZ81_04480,cheC,response regulator,0,1
+HOT1A3,ACZ81_04490,,Lcl C-terminal domain-containing protein,0,1
+HOT1A3,ACZ81_04970,,LPP20 family lipoprotein,1,0
+HOT1A3,ACZ81_04975,flgN,flagellar export chaperone FlgN,1,1
+HOT1A3,ACZ81_04980,flgM,flagellar biosynthesis anti-sigma factor FlgM,1,1
+HOT1A3,ACZ81_04985,flgA,flagellar basal body P-ring formation chaperone FlgA,1,1
+HOT1A3,ACZ81_04990,cheV,chemotaxis protein CheV,1,0
+HOT1A3,ACZ81_04995,cheR,CheR family methyltransferase,1,1
+HOT1A3,ACZ81_05000,flgB,flagellar basal body rod protein FlgB,1,1
+HOT1A3,ACZ81_05005,flgC,flagellar basal body rod protein FlgC,1,1
+HOT1A3,ACZ81_05010,flgD,flagellar hook assembly protein FlgD,1,1
+HOT1A3,ACZ81_05015,flgE,flagellar hook protein FlgE,1,1
+HOT1A3,ACZ81_05020,flgF,flagellar basal body rod protein FlgF,1,1
+HOT1A3,ACZ81_05025,flgG,flagellar basal-body rod protein FlgG,1,1
+HOT1A3,ACZ81_05030,flgH,flagellar basal body L-ring protein FlgH,1,1
+HOT1A3,ACZ81_05035,flgI,flagellar basal body P-ring protein FlgI,1,1
+HOT1A3,ACZ81_05040,flgJ,flagellar assembly peptidoglycan hydrolase FlgJ,1,1
+HOT1A3,ACZ81_05045,flgK,flagellar hook-associated protein FlgK,1,1
+HOT1A3,ACZ81_05050,flgL,flagellar hook-associated protein FlgL,1,1
+HOT1A3,ACZ81_05060,flaA,flagellin N-terminal helical domain-containing protein,1,1
+HOT1A3,ACZ81_05065,flaA,flagellin N-terminal helical domain-containing protein,1,1
+HOT1A3,ACZ81_05070,flaA,flagellin N-terminal helical domain-containing protein,1,1
+HOT1A3,ACZ81_05075,,flagellar protein FlaG,0,1
+HOT1A3,ACZ81_05080,fliD,flagellar filament capping protein FliD,1,1
+HOT1A3,ACZ81_05085,fliS,flagellar export chaperone FliS,1,1
+HOT1A3,ACZ81_05145,,flagellin,1,1
+HOT1A3,ACZ81_05150,fleQ,sigma-54 dependent transcriptional regulator,1,0
+HOT1A3,ACZ81_05160,fleR,sigma-54-dependent transcriptional regulator,1,0
+HOT1A3,ACZ81_05165,fliE,flagellar hook-basal body complex protein FliE,1,1
+HOT1A3,ACZ81_05170,fliF,flagellar basal-body MS-ring/collar protein FliF,1,1
+HOT1A3,ACZ81_05175,fliG,flagellar motor switch protein FliG,1,1
+HOT1A3,ACZ81_05180,fliH,flagellar assembly protein FliH,1,1
+HOT1A3,ACZ81_05185,fliI,flagellar protein export ATPase FliI,1,1
+HOT1A3,ACZ81_05190,fliJ,flagellar export protein FliJ,1,1
+HOT1A3,ACZ81_05195,fliK,flagellar hook-length control protein FliK,1,1
+HOT1A3,ACZ81_05200,fliL,flagellar basal body-associated protein FliL,1,1
+HOT1A3,ACZ81_05205,fliM,flagellar motor switch protein FliM,1,1
+HOT1A3,ACZ81_05210,fliN,flagellar motor switch protein FliN,1,1
+HOT1A3,ACZ81_05215,fliO,flagellar biosynthetic protein FliO,1,1
+HOT1A3,ACZ81_05220,fliP,flagellar type III secretion system pore protein FliP,1,1
+HOT1A3,ACZ81_05225,fliQ,flagellar biosynthesis protein FliQ,1,1
+HOT1A3,ACZ81_05230,fliR,flagellar biosynthetic protein FliR,1,1
+HOT1A3,ACZ81_05235,flhB,flagellar biosynthesis protein FlhB,1,1
+HOT1A3,ACZ81_05250,flhA,flagellar biosynthesis protein FlhA,1,1
+HOT1A3,ACZ81_05255,flhF,flagellar biosynthesis GTPase FlhF,0,1
+HOT1A3,ACZ81_05265,fliA,RNA polymerase sigma factor FliA,1,0
+HOT1A3,ACZ81_05270,cheY,chemotaxis response regulator CheY,1,0
+HOT1A3,ACZ81_05275,cheZ,protein phosphatase CheZ,1,1
+HOT1A3,ACZ81_05280,cheA,chemotaxis protein CheA,1,1
+HOT1A3,ACZ81_05285,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+HOT1A3,ACZ81_05295,VP2226,chemotaxis protein CheW,1,1
+HOT1A3,ACZ81_05300,cheW,chemotaxis protein CheW,1,1
+HOT1A3,ACZ81_05335,pctC,methyl-accepting chemotaxis protein,0,1
+HOT1A3,ACZ81_05460,sapA,ABC transporter substrate-binding protein,1,0
+HOT1A3,ACZ81_05935,motY,flagellar protein MotY,1,0
+HOT1A3,ACZ81_06325,,response regulator,1,0
+HOT1A3,ACZ81_07105,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_10575,,host attachment protein,0,1
+HOT1A3,ACZ81_11165,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_11605,,response regulator,1,0
+HOT1A3,ACZ81_11940,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_12290,,FimV/HubP family polar landmark protein,0,1
+HOT1A3,ACZ81_12970,motB,flagellar motor protein MotB,1,1
+HOT1A3,ACZ81_12975,pomA,flagellar motor protein PomA,1,1
+HOT1A3,ACZ81_13175,fimT,GspH/FimT family pseudopilin,0,1
+HOT1A3,ACZ81_13180,gspJ,type IV pilin protein,0,1
+HOT1A3,ACZ81_13185,VP0657,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+HOT1A3,ACZ81_13195,,hypothetical protein,0,1
+HOT1A3,ACZ81_13205,pilE,type IV pilin protein,0,1
+HOT1A3,ACZ81_13210,pilY1,PilC/PilY family type IV pilus protein,0,1
+HOT1A3,ACZ81_13215,pilX,PilX N-terminal domain-containing pilus assembly protein,0,1
+HOT1A3,ACZ81_13220,pilW,PilW family protein,0,1
+HOT1A3,ACZ81_13225,pilV,PilV family protein,0,1
+HOT1A3,ACZ81_13410,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_13475,pilF,type IV pilus biogenesis/stability protein PilW,0,1
+HOT1A3,ACZ81_13670,chev-2,chemotaxis protein CheV,1,0
+HOT1A3,ACZ81_14680,ppdD,pilin,0,1
+HOT1A3,ACZ81_14690,pilD,prepilin peptidase,0,1
+HOT1A3,ACZ81_14930,pilU,PilT/PilU family type 4a pilus ATPase,0,1
+HOT1A3,ACZ81_14935,pilT,type IV pilus twitching motility protein PilT,0,1
+HOT1A3,ACZ81_15975,nosP,nitric oxide-sensing protein NosP,0,1
+HOT1A3,ACZ81_16000,bdlA,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_16170,,chemotaxis protein CheX,1,1
+HOT1A3,ACZ81_16230,,DUF5610 domain-containing protein,0,1
+HOT1A3,ACZ81_16865,,hypothetical protein,1,1
+HOT1A3,ACZ81_16970,tar,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_17265,,flagellin N-terminal helical domain-containing protein,1,1
+HOT1A3,ACZ81_17420,motX,tetratricopeptide repeat protein,1,1
+HOT1A3,ACZ81_17485,,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_18360,cheX,chemotaxis protein CheX,1,1
+HOT1A3,ACZ81_18475,aer-1,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_18485,,methyl-accepting chemotaxis protein,0,1
+HOT1A3,ACZ81_19280,gspD,type II secretion system secretin GspD,0,1
+HOT1A3,ACZ81_19285,gspE,type II secretion system ATPase GspE,0,1
+HOT1A3,ACZ81_RS21445,bdlA,methyl-accepting chemotaxis protein,1,1
+HOT1A3,ACZ81_RS21455,bdlA,hypothetical protein,1,1
+HOT1A3,ACZ81_RS21835,,methyl-accepting chemotaxis protein,1,1
+EZ55,ALTBGP6_RS21450,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00006,,DNA-binding protein,0,1
+EZ55,EZ55_00092,fliL2,flagellar basal body-associated protein FliL,1,1
+EZ55,EZ55_00159,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00179,lptM,LPS translocon maturation chaperone LptM,0,1
+EZ55,EZ55_00218,mshI,type IV pilus biogenesis protein PilM,0,1
+EZ55,EZ55_00219,,PilN domain-containing protein,0,1
+EZ55,EZ55_00220,mshJ,type II secretion system protein M,0,1
+EZ55,EZ55_00222,mshL,pilus (MSHA type) biogenesis protein MshL,0,1
+EZ55,EZ55_00225,mshE,GspE/PulE family protein,0,1
+EZ55,EZ55_00226,mshG,type II secretion system F family protein,0,1
+EZ55,EZ55_00230,,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+EZ55,EZ55_00231,mshC,type II secretion system protein,0,1
+EZ55,EZ55_00232,mshD,type IV pilus modification PilV family protein,0,1
+EZ55,EZ55_00233,mshO,PulJ/GspJ family protein,0,1
+EZ55,EZ55_00307,cheY1,response regulator,1,0
+EZ55,EZ55_00308,cheA,chemotaxis protein CheA,1,1
+EZ55,EZ55_00309,cheW,chemotaxis protein CheW,1,1
+EZ55,EZ55_00310,aer2,methyl-accepting chemotaxis protein,1,0
+EZ55,EZ55_00311,cheR,CheR family methyltransferase,1,1
+EZ55,EZ55_00312,cheD,chemoreceptor glutamine deamidase CheD,1,1
+EZ55,EZ55_00313,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+EZ55,EZ55_00314,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00315,cheY1,response regulator,1,0
+EZ55,EZ55_00316,cheA,chemotaxis protein CheA,1,1
+EZ55,EZ55_00317,cheW,chemotaxis protein CheW,1,1
+EZ55,EZ55_00318,aer2,methyl-accepting chemotaxis protein,1,0
+EZ55,EZ55_00319,aer2,methyl-accepting chemotaxis protein,1,0
+EZ55,EZ55_00320,cheR,CheR family methyltransferase,1,1
+EZ55,EZ55_00321,cheD,chemoreceptor glutamine deamidase CheD,1,1
+EZ55,EZ55_00322,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+EZ55,EZ55_00357,,GspE/PulE family protein,0,1
+EZ55,EZ55_00374,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00424,pilP,pilus assembly protein PilP,0,1
+EZ55,EZ55_00425,pilO,type IV pilus inner membrane component PilO,0,1
+EZ55,EZ55_00426,pilN,PilN domain-containing protein,0,1
+EZ55,EZ55_00427,pilM,type IV pilus assembly protein PilM,0,1
+EZ55,EZ55_00447,,flagellar basal body L-ring protein FlgH,1,1
+EZ55,EZ55_00449,spy,Spy/CpxP family protein refolding chaperone,0,1
+EZ55,EZ55_00608,,methyl-accepting chemotaxis protein,1,0
+EZ55,EZ55_00671,,hypothetical protein,0,1
+EZ55,EZ55_00686,bdlA,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00711,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00712,rpoD,RNA polymerase sigma factor RpoD,1,0
+EZ55,EZ55_00756,,HAMP domain-containing methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00775,,tetratricopeptide repeat protein,0,1
+EZ55,EZ55_00776,,tetratricopeptide repeat protein,0,1
+EZ55,EZ55_00805,rpoN,RNA polymerase factor sigma-54,1,0
+EZ55,EZ55_00880,bdlA,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_00907,,PA2778 family cysteine peptidase,0,1
+EZ55,EZ55_00939,cheC,response regulator,0,1
+EZ55,EZ55_00941,,Lcl C-terminal domain-containing protein,0,1
+EZ55,EZ55_01041,,LPP20 family lipoprotein,1,0
+EZ55,EZ55_01042,flgN,flagellar export chaperone FlgN,1,1
+EZ55,EZ55_01043,flgM,flagellar biosynthesis anti-sigma factor FlgM,1,1
+EZ55,EZ55_01044,flgA,flagellar basal body P-ring formation chaperone FlgA,1,1
+EZ55,EZ55_01045,cheV,chemotaxis protein CheV,1,0
+EZ55,EZ55_01046,cheR,CheR family methyltransferase,1,1
+EZ55,EZ55_01047,flgB,flagellar basal body rod protein FlgB,1,1
+EZ55,EZ55_01048,flgC,flagellar basal body rod protein FlgC,1,1
+EZ55,EZ55_01049,flgD,flagellar hook assembly protein FlgD,1,1
+EZ55,EZ55_01050,flgE,flagellar hook protein FlgE,1,1
+EZ55,EZ55_01051,flgF,flagellar basal body rod protein FlgF,1,1
+EZ55,EZ55_01052,flgG,flagellar basal-body rod protein FlgG,1,1
+EZ55,EZ55_01053,flgH,flagellar basal body L-ring protein FlgH,1,1
+EZ55,EZ55_01054,flgI,flagellar basal body P-ring protein FlgI,1,1
+EZ55,EZ55_01055,flgJ,flagellar assembly peptidoglycan hydrolase FlgJ,1,1
+EZ55,EZ55_01056,flgK,flagellar hook-associated protein FlgK,1,1
+EZ55,EZ55_01057,flgL,flagellar hook-associated protein FlgL,1,1
+EZ55,EZ55_01059,flaA,flagellin N-terminal helical domain-containing protein,1,1
+EZ55,EZ55_01060,flaA,flagellin N-terminal helical domain-containing protein,1,1
+EZ55,EZ55_01061,flaA,flagellin N-terminal helical domain-containing protein,1,1
+EZ55,EZ55_01062,,flagellar protein FlaG,0,1
+EZ55,EZ55_01063,fliD,flagellar filament capping protein FliD,1,1
+EZ55,EZ55_01064,fliS,flagellar export chaperone FliS,1,1
+EZ55,EZ55_01068,,flagellin,1,1
+EZ55,EZ55_01072,fleR,sigma-54-dependent transcriptional regulator,1,0
+EZ55,EZ55_01073,fliE,flagellar hook-basal body complex protein FliE,1,1
+EZ55,EZ55_01074,fliF,flagellar basal-body MS-ring/collar protein FliF,1,1
+EZ55,EZ55_01075,fliG,flagellar motor switch protein FliG,1,1
+EZ55,EZ55_01076,fliH,flagellar assembly protein FliH,1,1
+EZ55,EZ55_01077,fliI,flagellar protein export ATPase FliI,1,1
+EZ55,EZ55_01078,fliJ,flagellar export protein FliJ,1,1
+EZ55,EZ55_01079,fliK,flagellar hook-length control protein FliK,1,1
+EZ55,EZ55_01080,fliL,flagellar basal body-associated protein FliL,1,1
+EZ55,EZ55_01081,fliM,flagellar motor switch protein FliM,1,1
+EZ55,EZ55_01082,fliN,flagellar motor switch protein FliN,1,1
+EZ55,EZ55_01083,fliO,flagellar biosynthetic protein FliO,1,1
+EZ55,EZ55_01084,fliP,flagellar type III secretion system pore protein FliP,1,1
+EZ55,EZ55_01085,fliQ,flagellar biosynthesis protein FliQ,1,1
+EZ55,EZ55_01086,fliR,flagellar biosynthetic protein FliR,1,1
+EZ55,EZ55_01087,flhB,flagellar biosynthesis protein FlhB,1,1
+EZ55,EZ55_01090,flhA,flagellar biosynthesis protein FlhA,1,1
+EZ55,EZ55_01091,flhF,flagellar biosynthesis protein FlhF,0,1
+EZ55,EZ55_01093,fliA,RNA polymerase sigma factor FliA,1,0
+EZ55,EZ55_01094,cheY,chemotaxis response regulator CheY,1,0
+EZ55,EZ55_01095,cheZ,protein phosphatase CheZ,1,1
+EZ55,EZ55_01096,cheA,chemotaxis protein CheA,1,1
+EZ55,EZ55_01097,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+EZ55,EZ55_01099,VP2226,chemotaxis protein CheW,1,1
+EZ55,EZ55_01100,cheW,chemotaxis protein CheW,1,1
+EZ55,EZ55_01107,pctC,methyl-accepting chemotaxis protein,0,1
+EZ55,EZ55_01131,sapA,ABC transporter substrate-binding protein,1,0
+EZ55,EZ55_01232,motY,flagellar protein MotY,1,0
+EZ55,EZ55_01318,,response regulator,1,0
+EZ55,EZ55_01491,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_02174,,host attachment protein,0,1
+EZ55,EZ55_02295,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_02382,,response regulator,1,0
+EZ55,EZ55_02450,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_02519,,FimV/HubP family polar landmark protein,0,1
+EZ55,EZ55_02663,motB,flagellar motor protein MotB,1,1
+EZ55,EZ55_02664,pomA,flagellar motor protein PomA,1,1
+EZ55,EZ55_02702,fimT,GspH/FimT family pseudopilin,0,1
+EZ55,EZ55_02703,gspJ,type IV pilin protein,0,1
+EZ55,EZ55_02704,VP0657,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+EZ55,EZ55_02706,,hypothetical protein,0,1
+EZ55,EZ55_02708,pilE,type IV pilin protein,0,1
+EZ55,EZ55_02709,pilY1,PilC/PilY family type IV pilus protein,0,1
+EZ55,EZ55_02710,pilX,PilX N-terminal domain-containing pilus assembly protein,0,1
+EZ55,EZ55_02711,pilW,PilW family protein,0,1
+EZ55,EZ55_02712,pilV,PilV family protein,0,1
+EZ55,EZ55_02750,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_02762,pilW,type IV pilus biogenesis/stability protein PilW,0,1
+EZ55,EZ55_02801,chev-2,chemotaxis protein CheV,1,0
+EZ55,EZ55_03020,ppdD,pilin,0,1
+EZ55,EZ55_03022,pilD,prepilin peptidase,0,1
+EZ55,EZ55_03027,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_03028,,response regulator,1,0
+EZ55,EZ55_03031,,chemotaxis protein CheA,1,1
+EZ55,EZ55_03032,,response regulator,1,0
+EZ55,EZ55_03033,,CheR family methyltransferase,1,1
+EZ55,EZ55_03035,cheB,chemotaxis protein CheB,1,1
+EZ55,EZ55_03036,,chemotaxis protein CheW,1,1
+EZ55,EZ55_03037,,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_03082,pilU,PilT/PilU family type 4a pilus ATPase,0,1
+EZ55,EZ55_03083,pilT,type IV pilus twitching motility protein PilT,0,1
+EZ55,EZ55_03332,nosP,nitric oxide-sensing protein NosP,0,1
+EZ55,EZ55_03337,bdlA,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_03364,,PAS domain S-box protein,1,1
+EZ55,EZ55_03372,,chemotaxis protein CheX,1,1
+EZ55,EZ55_03384,,DUF5610 domain-containing protein,0,1
+EZ55,EZ55_03511,,hypothetical protein,1,1
+EZ55,EZ55_03534,tar,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_03604,motX,tetratricopeptide repeat protein,1,1
+EZ55,EZ55_03793,cheX,chemotaxis protein CheX,1,1
+EZ55,EZ55_03815,aer-1,methyl-accepting chemotaxis protein,1,1
+EZ55,EZ55_03817,,methyl-accepting chemotaxis protein,0,1
+EZ55,EZ55_03975,gspD,type II secretion system secretin GspD,0,1
+EZ55,EZ55_03976,gspE,type II secretion system ATPase GspE,0,1
+EZ55,EZ55_04297,,methyl-accepting chemotaxis protein,0,1

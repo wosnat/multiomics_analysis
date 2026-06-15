@@ -1,0 +1,12 @@
+[HOT1A3] coculture experiments=3; KEGG motility genes=96; COG-N motility genes=126; union=144; KEGG-only=18; COG-only=48
+[EZ55] coculture experiments=6; KEGG motility genes=102; COG-N motility genes=131; union=151; KEGG-only=20; COG-only=49
+
+[primary contrasts: coculture-with-Prochlorococcus vs alone]
+  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Axenic
+  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Pro99 medium growth conditions
+  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Pro99 medium growth conditions
+  EZ55    RNASEQ   significant_only       Coculture with Prochlorococcus M | Axenic at 400 ppm pCO2
+  EZ55    RNASEQ   significant_only       Coculture with Prochlorococcus M | Axenic at 800 ppm pCO2
+[control candidates: coculture-with-Synechococcus] 4 experiments (EZ55)
+
+[outputs] coculture_experiments.csv (9), motility_genes.csv (295)
