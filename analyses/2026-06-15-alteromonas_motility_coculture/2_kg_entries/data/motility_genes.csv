@@ -294,3 +294,133 @@ EZ55,EZ55_03817,,methyl-accepting chemotaxis protein,0,1
 EZ55,EZ55_03975,gspD,type II secretion system secretin GspD,0,1
 EZ55,EZ55_03976,gspE,type II secretion system ATPase GspE,0,1
 EZ55,EZ55_04297,,methyl-accepting chemotaxis protein,0,1
+MIT1002,MIT1002_00067,fliL2,flagellar basal body-associated protein FliL,1,1
+MIT1002,MIT1002_00141,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00161,lptM,LPS translocon maturation chaperone LptM,0,1
+MIT1002,MIT1002_00203,mshI,hypothetical protein,0,1
+MIT1002,MIT1002_00204,,PilN domain-containing protein,0,1
+MIT1002,MIT1002_00205,mshJ,type II secretion system protein M,0,1
+MIT1002,MIT1002_00207,mshL,pilus (MSHA type) biogenesis protein MshL,0,1
+MIT1002,MIT1002_00210,mshE,GspE/PulE family protein,0,1
+MIT1002,MIT1002_00211,mshG,type II secretion system F family protein,0,1
+MIT1002,MIT1002_00213,mshB,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+MIT1002,MIT1002_00214,,type II secretion system protein,0,1
+MIT1002,MIT1002_00215,mshC,type II secretion system protein,0,1
+MIT1002,MIT1002_00216,mshD,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+MIT1002,MIT1002_00217,mshO,type II secretion system protein,0,1
+MIT1002,MIT1002_00382,,GspE/PulE family protein,0,1
+MIT1002,MIT1002_00400,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00450,pilP,pilus assembly protein PilP,0,1
+MIT1002,MIT1002_00451,pilO,type IV pilus inner membrane component PilO,0,1
+MIT1002,MIT1002_00452,pilN,PilN domain-containing protein,0,1
+MIT1002,MIT1002_00453,pilM,type IV pilus assembly protein PilM,0,1
+MIT1002,MIT1002_00474,,flagellar basal body L-ring protein FlgH,1,1
+MIT1002,MIT1002_00476,spy,Spy/CpxP family protein refolding chaperone,0,1
+MIT1002,MIT1002_00634,,methyl-accepting chemotaxis protein,1,0
+MIT1002,MIT1002_00707,bdlA,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00732,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00733,rpoD,RNA polymerase sigma factor RpoD,1,0
+MIT1002,MIT1002_00778,,HAMP domain-containing methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00797,,tetratricopeptide repeat protein,0,1
+MIT1002,MIT1002_00798,,tetratricopeptide repeat protein,0,1
+MIT1002,MIT1002_00827,rpoN,RNA polymerase factor sigma-54,1,0
+MIT1002,MIT1002_00895,bdlA,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_00914,,PA2778 family cysteine peptidase,0,1
+MIT1002,MIT1002_00934,cheC,response regulator,0,1
+MIT1002,MIT1002_00936,,Lcl C-terminal domain-containing protein,0,1
+MIT1002,MIT1002_01033,,LPP20 family lipoprotein,1,0
+MIT1002,MIT1002_01034,flgN,flagellar export chaperone FlgN,1,1
+MIT1002,MIT1002_01035,flgM,flagellar biosynthesis anti-sigma factor FlgM,1,1
+MIT1002,MIT1002_01036,flgA,flagellar basal body P-ring formation chaperone FlgA,1,1
+MIT1002,MIT1002_01037,cheV,chemotaxis protein CheV,1,0
+MIT1002,MIT1002_01038,cheR,CheR family methyltransferase,1,1
+MIT1002,MIT1002_01039,flgB,flagellar basal body rod protein FlgB,1,1
+MIT1002,MIT1002_01040,flgC,flagellar basal body rod protein FlgC,1,1
+MIT1002,MIT1002_01041,flgD,flagellar hook assembly protein FlgD,1,1
+MIT1002,MIT1002_01042,flgE,flagellar hook protein FlgE,1,1
+MIT1002,MIT1002_01043,flgF,flagellar basal body rod protein FlgF,1,1
+MIT1002,MIT1002_01047,flgH,flagellar basal body L-ring protein FlgH,1,1
+MIT1002,MIT1002_01048,flgI,flagellar basal body P-ring protein FlgI,1,1
+MIT1002,MIT1002_01049,flgJ,flagellar assembly peptidoglycan hydrolase FlgJ,1,1
+MIT1002,MIT1002_01050,flgK,flagellar hook-associated protein FlgK,1,1
+MIT1002,MIT1002_01051,flgL,flagellar hook-associated protein FlgL,1,1
+MIT1002,MIT1002_01053,flaA,flagellin N-terminal helical domain-containing protein,1,1
+MIT1002,MIT1002_01054,flaA,flagellin N-terminal helical domain-containing protein,1,1
+MIT1002,MIT1002_01055,,flagellar protein FlaG,0,1
+MIT1002,MIT1002_01056,fliD,flagellar filament capping protein FliD,1,1
+MIT1002,MIT1002_01057,fliS,flagellar export chaperone FliS,1,1
+MIT1002,MIT1002_01080,,flagellin,1,1
+MIT1002,MIT1002_01081,fleQ,sigma-54 dependent transcriptional regulator,1,0
+MIT1002,MIT1002_01083,fleR,sigma-54-dependent transcriptional regulator,1,0
+MIT1002,MIT1002_01084,fliE,flagellar hook-basal body complex protein FliE,1,1
+MIT1002,MIT1002_01085,fliF,flagellar basal-body MS-ring/collar protein FliF,1,1
+MIT1002,MIT1002_01086,fliG,flagellar motor switch protein FliG,1,1
+MIT1002,MIT1002_01087,fliH,flagellar assembly protein FliH,1,1
+MIT1002,MIT1002_01088,fliI,flagellar protein export ATPase FliI,1,1
+MIT1002,MIT1002_01089,fliJ,flagellar export protein FliJ,1,1
+MIT1002,MIT1002_01090,fliK,flagellar hook-length control protein FliK,1,1
+MIT1002,MIT1002_01091,fliL,flagellar basal body-associated protein FliL,1,1
+MIT1002,MIT1002_01092,fliM,flagellar motor switch protein FliM,1,1
+MIT1002,MIT1002_01093,fliN,flagellar motor switch protein FliN,1,1
+MIT1002,MIT1002_01094,fliO,flagellar biosynthetic protein FliO,1,1
+MIT1002,MIT1002_01095,fliP,flagellar type III secretion system pore protein FliP,1,1
+MIT1002,MIT1002_01096,fliQ,flagellar biosynthesis protein FliQ,1,1
+MIT1002,MIT1002_01097,fliR,flagellar biosynthetic protein FliR,1,1
+MIT1002,MIT1002_01098,flhB,flagellar biosynthesis protein FlhB,1,1
+MIT1002,MIT1002_01100,flhA,flagellar biosynthesis protein FlhA,1,1
+MIT1002,MIT1002_01101,flhF,flagellar biosynthesis protein FlhF,0,1
+MIT1002,MIT1002_01103,fliA,RNA polymerase sigma factor FliA,1,0
+MIT1002,MIT1002_01104,cheY,chemotaxis response regulator CheY,1,0
+MIT1002,MIT1002_01105,cheZ,protein phosphatase CheZ,1,1
+MIT1002,MIT1002_01106,cheA,chemotaxis protein CheA,1,1
+MIT1002,MIT1002_01107,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,1,1
+MIT1002,MIT1002_01109,VP2226,chemotaxis protein CheW,1,1
+MIT1002,MIT1002_01110,cheW,chemotaxis protein CheW,1,1
+MIT1002,MIT1002_01118,pctC,methyl-accepting chemotaxis protein,0,1
+MIT1002,MIT1002_01141,sapA,ABC transporter substrate-binding protein,1,0
+MIT1002,MIT1002_01243,motY,flagellar protein MotY,1,0
+MIT1002,MIT1002_01317,,response regulator,1,0
+MIT1002,MIT1002_02172,,host attachment protein,0,1
+MIT1002,MIT1002_02293,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_02380,,response regulator,1,0
+MIT1002,MIT1002_02455,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_02530,,FimV/HubP family polar landmark protein,0,1
+MIT1002,MIT1002_02689,motB,flagellar motor protein MotB,1,1
+MIT1002,MIT1002_02690,pomA,flagellar motor protein PomA,1,1
+MIT1002,MIT1002_02728,fimT,GspH/FimT family pseudopilin,0,1
+MIT1002,MIT1002_02729,gspJ,type IV pilin protein,0,1
+MIT1002,MIT1002_02730,VP0657,prepilin-type N-terminal cleavage/methylation domain-containing protein,0,1
+MIT1002,MIT1002_02732,,hypothetical protein,0,1
+MIT1002,MIT1002_02734,pilE,type IV pilin protein,0,1
+MIT1002,MIT1002_02735,pilY1,PilC/PilY family type IV pilus protein,0,1
+MIT1002,MIT1002_02736,pilX,PilX N-terminal domain-containing pilus assembly protein,0,1
+MIT1002,MIT1002_02737,pilW,PilW family protein,0,1
+MIT1002,MIT1002_02738,pilV,PilV family protein,0,1
+MIT1002,MIT1002_02777,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_02790,pilW,type IV pilus biogenesis/stability protein PilW,0,1
+MIT1002,MIT1002_02830,chev-2,chemotaxis protein CheV,1,0
+MIT1002,MIT1002_03009,ppdD,pilin,0,1
+MIT1002,MIT1002_03011,pilD,prepilin peptidase,0,1
+MIT1002,MIT1002_03059,pilU,PilT/PilU family type 4a pilus ATPase,0,1
+MIT1002,MIT1002_03060,pilT,type IV pilus twitching motility protein PilT,0,1
+MIT1002,MIT1002_03319,nosP,nitric oxide-sensing protein NosP,0,1
+MIT1002,MIT1002_03324,bdlA,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_03355,,chemotaxis protein CheX,1,1
+MIT1002,MIT1002_03369,,DUF5610 domain-containing protein,0,1
+MIT1002,MIT1002_03520,,hypothetical protein,1,1
+MIT1002,MIT1002_03541,tar,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_03582,,flagellin N-terminal helical domain-containing protein,1,1
+MIT1002,MIT1002_03613,motX,tetratricopeptide repeat protein,1,1
+MIT1002,MIT1002_03624,,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_03800,cheX,chemotaxis protein CheX,1,1
+MIT1002,MIT1002_03822,aer-1,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_03824,,methyl-accepting chemotaxis protein,0,1
+MIT1002,MIT1002_03976,gspD,type II secretion system secretin GspD,0,1
+MIT1002,MIT1002_03977,gspE,type II secretion system ATPase GspE,0,1
+MIT1002,MIT1002_04216,cheW1,chemotaxis protein CheW,1,1
+MIT1002,MIT1002_04217,cheR,CheR family methyltransferase,1,1
+MIT1002,MIT1002_04219,,chemotaxis protein CheW,1,1
+MIT1002,MIT1002_04220,mcp40H-21,methyl-accepting chemotaxis protein,1,1
+MIT1002,MIT1002_04221,,hybrid sensor histidine kinase/response regulator,1,0
+MIT1002,MIT1002_04222,cheB,chemotaxis-specific protein-glutamate methyltransferase CheB,1,1
+MIT1002,MIT1002_04225,,response regulator,1,0

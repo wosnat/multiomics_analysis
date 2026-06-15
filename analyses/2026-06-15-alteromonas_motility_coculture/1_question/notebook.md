@@ -40,13 +40,26 @@ KG release verified earlier this session: `kg_release_info` → ok, KG
 
 ## Locked question
 
+**Original lock (2026-06-15):**
+
 > When *Alteromonas* grows in coculture with *Prochlorococcus* versus alone, does
 > it up- or down-regulate its motility genes (flagellar assembly + chemotaxis)?
 
-**Scope:** all *Alteromonas* strains with both a coculture and an axenic
-expression measurement (likely HOT1A3, MIT1002, EZ55 — confirmed in step 2).
-Motility gene set = the KG "Cell motility" category; exact definition pinned in
-step 2. Cross-strain comparison flagged where it crosses studies/platforms.
+**Evolved during the redo (2026-06-15)** — step 2 surfaced that every usable
+coculture contrast runs in a medium with **no added organic carbon**, where
+*Prochlorococcus* photosynthate is *Alteromonas*'s only organic-C source. That
+turns the coculture-vs-axenic contrast into a carbon-source manipulation, so the
+question became:
+
+> When *Alteromonas* grows with *Prochlorococcus* versus alone — in media with no
+> added organic carbon — does its physiology shift toward a **carbon-fed** state,
+> and how does **motility (flagella + chemotaxis)** respond? (Motility stays the
+> lead readout; the carbon-provision hypothesis is the frame. See step 3.)
+
+**Scope:** all *Alteromonas* strains with a usable coculture-vs-axenic contrast,
+HOT1A3 (Weissberg) as primary; controls = glucose-fed references,
+*Synechococcus*-partner, starvation/darkness. Motility gene set pinned in step 2.
+4 experiments with corrupted direction dropped (step 2 / gaps_and_friction).
 
 ## Decisions
 
@@ -57,6 +70,12 @@ step 2. Cross-strain comparison flagged where it crosses studies/platforms.
 - **2026-06-15 — all strains with the contrast, not just HOT1A3.** To test
   consistency of the response across strains, accepting a cross-study/platform
   flag where relevant.
+- **2026-06-15 (redo) — question evolved to a carbon-provision frame.** The medium
+  finding in step 2 (no added organic C in any usable coculture contrast) reframed
+  "does motility move?" into "does coculture make Alteromonas look carbon-fed, with
+  motility as the lead readout?" Motility focus retained; hypothesis added. This
+  is the dogfooding catch that a step-2 data reveal can legitimately reopen a
+  step-1 lock — noted for the skill (lock-vs-data-reveal).
 
 ## Decide-gate checklist
 

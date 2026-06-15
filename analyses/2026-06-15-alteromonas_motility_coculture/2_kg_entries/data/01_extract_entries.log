@@ -1,12 +1,30 @@
-[HOT1A3] coculture experiments=3; KEGG motility genes=96; COG-N motility genes=126; union=144; KEGG-only=18; COG-only=48
-[EZ55] coculture experiments=6; KEGG motility genes=102; COG-N motility genes=131; union=151; KEGG-only=20; COG-only=49
+[inventory] 49 Alteromonas experiments
+[motility HOT1A3] KEGG=96 COG-N=126 union=144
+[motility EZ55] KEGG=102 COG-N=131 union=151
+[motility MIT1002] KEGG=83 COG-N=114 union=130
 
-[primary contrasts: coculture-with-Prochlorococcus vs alone]
-  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Axenic
-  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Pro99 medium growth conditions
-  HOT1A3  RNASEQ   all_detected_genes     Coculture with Prochlorococcus M | Pro99 medium growth conditions
-  EZ55    RNASEQ   significant_only       Coculture with Prochlorococcus M | Axenic at 400 ppm pCO2
-  EZ55    RNASEQ   significant_only       Coculture with Prochlorococcus M | Axenic at 800 ppm pCO2
-[control candidates: coculture-with-Synechococcus] 4 experiments (EZ55)
+[direction_quality counts]
+  ok_all_genes           23
+  ok_significant_only    12
+  sign_lost              4
+  sparse                 2
+  no_de_edges            8
 
-[outputs] coculture_experiments.csv (9), motility_genes.csv (295)
+[Prochlorococcus-coculture experiments]
+  HOT1A3   RNASEQ      all_detected_genes     organicC=no         ok_all_genes         up/down=111/163 pct_neg=54.1 | Prochlorococcus MED4
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=0/0 pct_neg=68.8 | Prochlorococcus MED4
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=5/0 pct_neg=6.2 | Prochlorococcus MED4
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=0/0 pct_neg=62.5 | Prochlorococcus MED4
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=5/0 pct_neg=12.5 | Prochlorococcus MED4
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=2/0 pct_neg=13.0 | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=20/0 pct_neg=9.3 | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=0/2 pct_neg=68.5 | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+  MarRef   PROTEOMICS  all_detected_genes     organicC=yes        ok_all_genes         up/down=16/1 pct_neg=14.8 | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+  EZ55     RNASEQ      significant_only       organicC=no         ok_significant_only  up/down=308/111 pct_neg=26.5 | Prochlorococcus MIT9312
+  EZ55     RNASEQ      significant_only       organicC=no         ok_significant_only  up/down=104/84 pct_neg=44.7 | Prochlorococcus MIT9312
+  HOT1A3   RNASEQ      all_detected_genes     organicC=no         sign_lost            up/down=188/0 pct_neg=0.0 | Prochlorococcus MIT9313
+  HOT1A3   RNASEQ      all_detected_genes     organicC=no         sign_lost            up/down=30/0 pct_neg=0.0 | Prochlorococcus MIT9313
+  MIT1002  RNASEQ      significant_any_timepoint organicC=background sign_lost            up/down=458/0 pct_neg=0.0 | Prochlorococcus NATL2A
+  MIT1002  RNASEQ      significant_any_timepoint organicC=background sign_lost            up/down=455/0 pct_neg=0.0 | Prochlorococcus NATL2A
+
+[outputs] experiment_inventory.csv (49), motility_genes.csv (425)
