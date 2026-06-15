@@ -1,0 +1,5 @@
+[med4_snapshot/kegg_l2] 290 tests, 3 significant (p_adjust<0.05)
+[med4_snapshot/cog_l0] 36 tests, 1 significant (p_adjust<0.05)
+[med4_snapshot/motility] 96 genes in set, 94 DE rows, by_status={'not_significant': 86, 'significant_down': 7, 'significant_up': 1}
+
+[summary] {'label': 'med4_snapshot', 'kegg_l2_tests': 290, 'kegg_l2_sig': 3, 'cog_l0_tests': 36, 'cog_l0_sig': 1, 'motility_n': 96, 'motility_rows': 94, 'motility_by_status': {'not_significant': 86, 'significant_down': 7, 'significant_up': 1}}

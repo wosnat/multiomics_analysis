@@ -80,3 +80,34 @@ proteomics contrasts have `down = 0` but real negative log2FC edges; they simply
 have no *significant* down genes). Methodology candidate: before trusting
 direction, check the log2FC sign distribution over all genes, not the rollup
 counts.
+
+## 2026-06-15 — a step-2 data reveal legitimately reopened the step-1 "locked" question
+
+**What happened.** The skill treats steps 1–3 as a *research proposal* that is
+**locked at the end of step 3**, and provides a redo path only for *downstream*
+steps a later finding invalidates. This analysis hit a case the model doesn't
+cover: a discovery while *executing* reopened an *upstream* lock. The step-1
+question was "does Alteromonas turn motility up/down in coculture?" When step 2
+pulled the full inventory, two data facts surfaced that the locked framing had
+assumed away — (1) every usable coculture contrast runs in a medium with **no
+added organic carbon**, making coculture-vs-axenic a carbon-source manipulation;
+(2) the only direct coculture-vs-axenic contrast is a single **exponential**
+snapshot, while starvation only develops over a separate time-course. Together
+these reframed the question into a **carbon-provision** hypothesis (motility kept
+as the lead readout). The step-1 lock had to be edited, not just step 4.
+
+**Workaround / impact.** Recorded the evolution in `1_question/notebook.md`
+(original lock + evolved question + a decision noting the reopening) rather than
+pretending the original lock still held. No tooling broke; the gap is in the
+*methodology model*.
+
+**Methodology candidate (lock-vs-data-reveal).** "Locked at end of step 3" is too
+strong: the data that would justify the framing often isn't seen until step 2/4
+actually touches it. The skill needs an explicit, lightweight path for *a
+downstream data reveal reopening an upstream lock* — re-open, record the trigger
+and the before/after question in the owning step's notebook, re-lock — distinct
+from the existing "redo invalidated downstream steps" path. Pairs with the
+just-in-time-formalization principle (look at the data before fixing the framing):
+the lock should be provisional until the data behind it has actually been pulled.
+Seen once so far (this analysis); promote to the skill if a second analysis hits
+the same friction.

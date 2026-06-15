@@ -1,0 +1,95 @@
+locus_tag,gene_name,product,timepoint,log2fc,padj,expression_status,experiment_id
+ACZ81_01470,cheW,chemotaxis protein CheW,day 11,-2.4298863220758027,0.0094228920578177,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01475,aer2,methyl-accepting chemotaxis protein,day 11,-2.371986928647689,0.0019713071868627,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01465,cheA,chemotaxis protein CheA,day 11,-2.352616520373783,0.0078204769134465,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01460,cheY1,response regulator,day 11,-1.831221321571843,0.0934623406257096,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05145,,flagellin,day 11,-1.7601050236805158,0.0035390332408927,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01455,,methyl-accepting chemotaxis protein,day 11,-1.6215570821612268,0.1073958014684507,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01485,cheR,CheR family methyltransferase,day 11,-1.5519917865864308,0.0337741514905504,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01445,cheD,chemoreceptor glutamine deamidase CheD,day 11,1.4693736970378024,0.0725933963811806,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_16865,,hypothetical protein,day 11,-1.468648819190097,0.0986217716725829,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01450,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,day 11,1.34553155804079,0.0298343329377253,significant_up,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01440,cheR,CheR family methyltransferase,day 11,1.2903219895548568,0.1227735113497627,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_RS21455,bdlA,hypothetical protein,day 11,-1.2649929381239169,0.1678214308734126,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05200,fliL,flagellar basal body-associated protein FliL,day 11,-1.2473159155986329,0.029242120415406,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05295,VP2226,chemotaxis protein CheW,day 11,-1.246820048531164,0.0502499411582563,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_16170,,chemotaxis protein CheX,day 11,-1.1742463335548792,0.2044371522435148,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04970,,LPP20 family lipoprotein,day 11,-1.1586022609757929,0.112576046716137,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05000,flgB,flagellar basal body rod protein FlgB,day 11,-1.0955976240207566,0.3171990156377791,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05165,fliE,flagellar hook-basal body complex protein FliE,day 11,-1.0935119843463643,0.4492410633217107,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04985,flgA,flagellar basal body P-ring formation chaperone FlgA,day 11,-1.0552757204394765,0.3075091641160421,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05280,cheA,chemotaxis protein CheA,day 11,-1.035358177447533,0.0152355506794168,significant_down,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05210,fliN,flagellar motor switch protein FliN,day 11,-1.0348760548606932,0.1637721860405307,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05020,flgF,flagellar basal body rod protein FlgF,day 11,-1.0299786847030152,0.416289740950405,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05270,cheY,chemotaxis response regulator CheY,day 11,-1.0207742889388205,0.0995436416020267,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05205,fliM,flagellar motor switch protein FliM,day 11,-0.9963344334856192,0.0428773709778894,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05005,flgC,flagellar basal body rod protein FlgC,day 11,-0.96210530230812,0.2928285517132459,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_00330,fliL2,flagellar basal body-associated protein FliL,day 11,-0.9373893301661974,0.1076823450594656,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05265,fliA,RNA polymerase sigma factor FliA,day 11,-0.9368946383783632,0.0666783547948548,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05040,flgJ,flagellar assembly peptidoglycan hydrolase FlgJ,day 11,-0.9112291511871552,0.1903998463279187,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_RS21445,bdlA,methyl-accepting chemotaxis protein,day 11,-0.910630331542668,0.3559212382029323,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05275,cheZ,protein phosphatase CheZ,day 11,-0.8985178423209716,0.0020993412932621,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_17485,,methyl-accepting chemotaxis protein,day 11,-0.8954752676002715,0.2534197021393272,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05170,fliF,flagellar basal-body MS-ring/collar protein FliF,day 11,-0.8853455159286109,0.4060068125737116,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01430,cheW,chemotaxis protein CheW,day 11,0.88055744552609,0.2473532573311628,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05300,cheW,chemotaxis protein CheW,day 11,-0.851625324535547,0.0602334245479606,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05195,fliK,flagellar hook-length control protein FliK,day 11,-0.8444985536062878,0.0825726308662362,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_03740,rpoN,RNA polymerase factor sigma-54,day 11,-0.8339781466192374,0.0104702890680257,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01495,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,day 11,-0.8045171172982291,0.2003797001511514,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_03485,,HAMP domain-containing methyl-accepting chemotaxis protein,day 11,-0.7670894815962276,0.0674676858966435,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04975,flgN,flagellar export chaperone FlgN,day 11,0.7621874742892653,0.0215194372284057,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_02085,,flagellar basal body L-ring protein FlgH,day 11,-0.7282362323061781,,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_07105,,methyl-accepting chemotaxis protein,day 11,-0.7143168395566298,0.3726167902178829,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_00745,,methyl-accepting chemotaxis protein,day 11,-0.7066657616249241,0.2641162937273589,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05025,flgG,flagellar basal-body rod protein FlgG,day 11,-0.6905294202585274,0.5209567489640015,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_13670,chev-2,chemotaxis protein CheV,day 11,-0.6854604619453504,0.2674570199971235,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05010,flgD,flagellar hook assembly protein FlgD,day 11,-0.6821311216071084,0.4131082106088813,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_16000,bdlA,methyl-accepting chemotaxis protein,day 11,-0.6771884842495878,0.0965508738790865,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_02770,,methyl-accepting chemotaxis protein,day 11,-0.669679023092063,0.21590494120773,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_03265,,methyl-accepting chemotaxis protein,day 11,-0.6666200782559548,0.2642396221822214,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05030,flgH,flagellar basal body L-ring protein FlgH,day 11,-0.6577237155179708,0.5763633263543937,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01490,cheD,chemoreceptor glutamine deamidase CheD,day 11,-0.6441573171204976,0.2572123822390859,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_03155,bdlA,methyl-accepting chemotaxis protein,day 11,-0.592392351046114,0.1873989280853967,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05150,fleQ,sigma-54 dependent transcriptional regulator,day 11,-0.5575346805067379,0.0633492684897959,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04990,cheV,chemotaxis protein CheV,day 11,-0.5515012135557662,0.1959496882453971,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_17420,motX,tetratricopeptide repeat protein,day 11,-0.5473292270686219,0.4131082106088813,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_11940,,methyl-accepting chemotaxis protein,day 11,-0.544470007730642,0.2726786279413603,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05035,flgI,flagellar basal body P-ring protein FlgI,day 11,-0.5270835620848632,0.536828909812757,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05085,fliS,flagellar export chaperone FliS,day 11,0.5232323387512806,0.2629279280093434,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05215,fliO,flagellar biosynthetic protein FliO,day 11,-0.5206360850582117,0.589579825691681,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05225,fliQ,flagellar biosynthesis protein FliQ,day 11,-0.5195403084781899,0.543386207191375,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04980,flgM,flagellar biosynthesis anti-sigma factor FlgM,day 11,0.4967092921399385,0.3919365494491902,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_12975,pomA,flagellar motor protein PomA,day 11,-0.4841967829729091,0.4885538317435628,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01425,cheA,chemotaxis protein CheW,day 11,0.4545647150117549,0.6395613855678148,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05285,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,day 11,-0.4381285331885803,0.5312958286659027,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_06325,,response regulator,day 11,-0.4353588350368114,0.3579770017350928,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_16970,tar,methyl-accepting chemotaxis protein,day 11,-0.4259532321042054,0.6720493219061155,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05250,flhA,flagellar biosynthesis protein FlhA,day 11,-0.4092702338147534,0.721362514644819,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05160,fleR,sigma-54-dependent transcriptional regulator,day 11,-0.4050133976892358,0.6720493219061155,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05015,flgE,flagellar hook protein FlgE,day 11,-0.4040858064957064,0.6358744578849476,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05460,sapA,ABC transporter substrate-binding protein,day 11,0.4031546869331541,0.3253658885951059,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05060,flaA,flagellin N-terminal helical domain-containing protein,day 11,0.3845769695921523,0.7669764566770528,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_11165,,methyl-accepting chemotaxis protein,day 11,-0.3767246961961884,0.4885538317435628,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_03270,rpoD,RNA polymerase sigma factor RpoD,day 11,-0.3674292182697964,0.416289740950405,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_04995,cheR,CheR family methyltransferase,day 11,-0.3099713408546606,0.1169660301587169,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05045,flgK,flagellar hook-associated protein FlgK,day 11,-0.3041405993590109,0.6443224344302731,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05065,flaA,flagellin N-terminal helical domain-containing protein,day 11,-0.2783681966103844,0.8604086829506631,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05220,fliP,flagellar type III secretion system pore protein FliP,day 11,0.2762250699253695,0.7381628244974464,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05935,motY,flagellar protein MotY,day 11,-0.2634381217948093,0.6641788195329558,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_12970,motB,flagellar motor protein MotB,day 11,-0.2548963405670433,0.7693271246304222,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_18475,aer-1,methyl-accepting chemotaxis protein,day 11,0.2382324255539402,0.7570030839430927,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01745,,methyl-accepting chemotaxis protein,day 11,-0.2273631576400146,0.6838375487421133,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05190,fliJ,flagellar export protein FliJ,day 11,0.1677937281310841,0.8597287839686889,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05080,fliD,flagellar filament capping protein FliD,day 11,0.1572313449625828,0.829841109110223,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05235,flhB,flagellar biosynthesis protein FlhB,day 11,0.1461345539928823,0.8562239277001487,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05230,fliR,flagellar biosynthetic protein FliR,day 11,-0.1172011726374388,0.90708533912746,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_13410,,methyl-accepting chemotaxis protein,day 11,-0.1075715607347245,0.9252129032414738,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_01420,cheY1,response regulator,day 11,-0.0758188662713418,0.9384747917046832,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_11605,,response regulator,day 11,-0.0750115765224706,0.9249454354713124,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_17265,,flagellin N-terminal helical domain-containing protein,day 11,0.0528011783089275,0.9299242931726786,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_18360,cheX,chemotaxis protein CheX,day 11,-0.0518474290673401,0.9195169135799368,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05070,flaA,flagellin N-terminal helical domain-containing protein,day 11,0.0460914436510699,0.9505961465855328,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05175,fliG,flagellar motor switch protein FliG,day 11,-0.0451608516384442,0.9650191480052018,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05185,fliI,flagellar protein export ATPase FliI,day 11,-0.0110343174293028,0.9898770717748836,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05180,fliH,flagellar assembly protein FliH,day 11,0.0106562552281623,0.9937305026935936,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq
+ACZ81_05050,flgL,flagellar hook-associated protein FlgL,day 11,-0.0018324342027226,0.9983761470938438,not_significant,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq

@@ -1,0 +1,291 @@
+cluster,direction,timepoint,term_id,term_name,count,bg_count,gene_ratio,fold_enrichment,pvalue,p_adjust,signed_score
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00230,Purine metabolism,9,60,9/111,5.333783783783784,3.536646291068551e-05,0.005128137122049399,2.2900403706668486
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01210,2-Oxocarboxylic acid metabolism,7,39,7/111,6.382305382305383,8.413738272648973e-05,0.006099960247670505,2.2146729951980193
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00640,Propanoate metabolism,6,32,6/111,6.66722972972973,0.000215583238919032,0.010419856547753214,1.9821382600142339
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01120,Microbial metabolism in diverse environments,14,214,14/111,2.3262608402795317,0.0023860795407257603,0.08649538335130881,1.063007072171695
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05132,Salmonella infection,4,11,4/163,8.805354155047407,0.0007369369233668001,0.10685585388818601,-0.9712016808775643
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00330,Arginine and proline metabolism,4,28,4/111,5.0797940797940795,0.0072047102513243,0.13058537330525294,0.8841054650866708
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00500,Starch and sucrose metabolism,4,27,4/111,5.2679346012679344,0.00631001322036551,0.13058537330525294,0.8841054650866708
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00630,Glyoxylate and dicarboxylate metabolism,5,42,5/111,4.233161733161733,0.005963530152463957,0.13058537330525294,0.8841054650866708
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00785,Lipoic acid metabolism,3,13,3/111,8.205821205821206,0.005039805240746915,0.13058537330525294,0.8841054650866708
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01110,Biosynthesis of secondary metabolites,17,336,17/111,1.7990937365937363,0.01168246238829878,0.18821744958925812,0.7253401157173369
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04621,NOD-like receptor signaling pathway,3,8,3/163,9.080521472392638,0.0033220805470928305,0.2408508396642302,-0.618251835291394
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00920,Sulfur metabolism,3,20,3/111,5.333783783783784,0.01741399230491484,0.25250288842126517,0.5977336495522819
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01320,Sulfur cycle,2,9,2/111,7.901901901901902,0.02479969045811586,0.32690501058425453,0.48557842278941965
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00261,Monobactam biosynthesis,2,11,2/111,6.465192465192466,0.03652799287006297,0.40742761278147155,0.3899495406960865
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00450,Selenocompound metabolism,2,11,2/111,6.465192465192466,0.03652799287006297,0.40742761278147155,0.3899495406960865
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00460,Cyanoamino acid metabolism,2,12,2/111,5.926426426426427,0.043042162383829845,0.4457938246896663,0.35086595183105534
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00280,"Valine, leucine and isoleucine degradation",3,32,3/111,3.333614864864865,0.05949522725874604,0.5751205301678785,0.24024112904724126
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00260,"Glycine, serine and threonine metabolism",3,34,3/111,3.13751987281399,0.06897161440337811,0.6250552555306141,0.20408158887781006
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01200,Carbon metabolism,6,107,6/111,1.9939378630967417,0.07917181108857273,0.6752889769319439,0.1705103394204996
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00053,Ascorbate and aldarate metabolism,1,5,1/111,7.1117117117117115,0.13298722469760368,0.9349853337855928,0.029195201433303574
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00680,Methane metabolism,2,23,2/111,3.09204857030944,0.1354116690310169,0.9349853337855928,0.029195201433303574
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01230,Biosynthesis of amino acids,6,121,6/111,1.7632343086888542,0.12370055743199482,0.9349853337855928,0.029195201433303574
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01232,Nucleotide metabolism,3,44,3/111,2.4244471744471747,0.12528050113875264,0.9349853337855928,0.029195201433303574
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00020,Citrate cycle (TCA cycle),2,24,2/111,2.9632132132132134,0.14512994038118962,0.9509633263930677,0.021836231172187498
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00930,Caprolactam degradation,1,6,1/111,5.926426426426427,0.15740082643747327,0.9509633263930677,0.021836231172187498
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01220,Degradation of aromatic compounds,1,6,1/111,5.926426426426427,0.15740082643747327,0.9509633263930677,0.021836231172187498
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00010,Glycolysis / Gluconeogenesis,4,33,4/163,2.935118051682469,0.04515692057373363,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00710,Carbon fixation by Calvin cycle,3,19,3/163,3.8233774620600585,0.041199719833234956,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02030,Bacterial chemotaxis,5,50,5/163,2.421472392638037,0.05360561045450355,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04066,HIF-1 signaling pathway,2,7,2/163,6.918492550394391,0.031045838690654373,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04213,Longevity regulating pathway - multiple species,2,8,2/163,6.053680981595091,0.04028709140517489,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05418,Fluid shear stress and atherosclerosis,2,9,2/163,5.38104976141786,0.05041684232250953,0.9716016894878768,-0.01251173868512009
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00020,Citrate cycle (TCA cycle),1,24,1/163,1.0089468302658486,0.6376714652082576,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00030,Pentose phosphate pathway,0,20,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00040,Pentose and glucuronate interconversions,0,12,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00051,Fructose and mannose metabolism,0,15,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00052,Galactose metabolism,0,14,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00053,Ascorbate and aldarate metabolism,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00061,Fatty acid biosynthesis,1,18,1/163,1.345262440354465,0.5327119788567927,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00071,Fatty acid degradation,0,23,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,1,15,1/163,1.614314928425358,0.46940750879570364,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00190,Oxidative phosphorylation,2,39,2/163,1.2417807141733523,0.48355629862596355,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00195,Photosynthesis,0,8,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00220,Arginine biosynthesis,0,18,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00230,Purine metabolism,1,60,1/163,0.4035787321063395,0.9219157177818624,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00240,Pyrimidine metabolism,1,36,1/163,0.6726312201772325,0.7824196853072763,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00250,"Alanine, aspartate and glutamate metabolism",0,33,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00260,"Glycine, serine and threonine metabolism",0,34,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00261,Monobactam biosynthesis,0,11,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00270,Cysteine and methionine metabolism,1,36,1/163,0.6726312201772325,0.7824196853072763,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00280,"Valine, leucine and isoleucine degradation",0,32,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00290,"Valine, leucine and isoleucine biosynthesis",1,14,1/163,1.7296231375985978,0.4464667724385948,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00300,Lysine biosynthesis,0,16,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00310,Lysine degradation,0,15,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00330,Arginine and proline metabolism,0,28,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00340,Histidine metabolism,0,17,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00350,Tyrosine metabolism,0,12,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00360,Phenylalanine metabolism,1,14,1/163,1.7296231375985978,0.4464667724385948,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00362,Benzoate degradation,0,10,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00380,Tryptophan metabolism,2,20,2/163,2.421472392638037,0.19895339445681062,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",1,22,1/163,1.100669269380926,0.6055889508229712,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00401,Novobiocin biosynthesis,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00404,Staurosporine biosynthesis,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00410,beta-Alanine metabolism,0,12,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00430,Taurine and hypotaurine metabolism,0,9,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00450,Selenocompound metabolism,0,11,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00460,Cyanoamino acid metabolism,0,12,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00470,D-Amino acid metabolism,0,9,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00480,Glutathione metabolism,0,24,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00500,Starch and sucrose metabolism,0,27,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00520,Amino sugar and nucleotide sugar metabolism,1,33,1/163,0.7337795129206173,0.7527960854881971,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00521,Streptomycin biosynthesis,0,8,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00523,Polyketide sugar unit biosynthesis,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00540,Lipopolysaccharide biosynthesis,0,11,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00541,Biosynthesis of various nucleotide sugars,0,21,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00543,Exopolysaccharide biosynthesis,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00550,Peptidoglycan biosynthesis,0,21,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00561,Glycerolipid metabolism,1,15,1/163,1.614314928425358,0.46940750879570364,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00562,Inositol phosphate metabolism,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00564,Glycerophospholipid metabolism,1,16,1/163,1.5134202453987728,0.4914030774799102,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00620,Pyruvate metabolism,3,48,3/163,1.513420245398773,0.3182773037669903,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00625,Chloroalkane and chloroalkene degradation,0,10,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00627,Aminobenzoate degradation,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00630,Glyoxylate and dicarboxylate metabolism,2,42,2/163,1.1530820917323985,0.5232915937669693,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00640,Propanoate metabolism,0,32,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00643,Styrene degradation,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00650,Butanoate metabolism,0,24,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00660,C5-Branched dibasic acid metabolism,0,9,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00670,One carbon pool by folate,1,25,1/163,0.9685889570552147,0.6527261557948123,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00680,Methane metabolism,1,23,1/163,1.0528140837556683,0.621968314139113,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00720,Other carbon fixation pathways,1,29,1/163,0.8349904802200128,0.7069766746646065,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00730,Thiamine metabolism,1,11,1/163,2.201338538761852,0.3715613945118266,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00740,Riboflavin metabolism,0,10,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00750,Vitamin B6 metabolism,0,8,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00760,Nicotinate and nicotinamide metabolism,1,16,1/163,1.5134202453987728,0.4914030774799102,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00770,Pantothenate and CoA biosynthesis,2,19,2/163,2.548918308040039,0.18376235960655854,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00780,Biotin metabolism,0,13,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00785,Lipoic acid metabolism,0,13,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00790,Folate biosynthesis,0,33,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00860,Porphyrin metabolism,2,21,2/163,2.306164183464797,0.2142883728777425,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00900,Terpenoid backbone biosynthesis,0,15,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00907,"Pinene, camphor and geraniol degradation",0,8,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00910,Nitrogen metabolism,0,16,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00920,Sulfur metabolism,0,20,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00930,Caprolactam degradation,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00970,Aminoacyl-tRNA biosynthesis,0,26,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00980,Metabolism of xenobiotics by cytochrome P450,0,7,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00982,Drug metabolism - cytochrome P450,0,7,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00983,Drug metabolism - other enzymes,1,13,1/163,1.8626710712600283,0.42254051518786334,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko00999,Biosynthesis of various plant secondary metabolites,1,5,1/163,4.842944785276074,0.1902096958504026,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01110,Biosynthesis of secondary metabolites,16,336,16/163,1.1530820917323985,0.31071272534073263,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01120,Microbial metabolism in diverse environments,5,214,5/163,0.5657645777191675,0.9476782152887671,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01200,Carbon metabolism,5,107,5/163,1.131529155438335,0.45511036021333484,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01210,2-Oxocarboxylic acid metabolism,1,39,1/163,0.6208903570866762,0.8085125106060436,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01212,Fatty acid metabolism,1,34,1/163,0.712197762540599,0.7630909853516166,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01220,Degradation of aromatic compounds,0,6,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01230,Biosynthesis of amino acids,5,121,5/163,1.0006084267099327,0.5653445358855627,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01232,Nucleotide metabolism,1,44,1/163,0.550334634690463,0.8452686433796143,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01240,Biosynthesis of cofactors,6,134,6/163,1.0842413698379272,0.48027178303121015,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01250,Biosynthesis of nucleotide sugars,0,38,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01320,Sulfur cycle,0,9,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01501,beta-Lactam resistance,0,22,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01502,Vancomycin resistance,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01503,Cationic antimicrobial peptide (CAMP) resistance,0,28,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01523,Antifolate resistance,0,8,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko01524,Platinum drug resistance,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02010,ABC transporters,0,53,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02020,Two-component system,8,146,8/163,1.3268341877468695,0.2544785275991676,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02024,Quorum sensing,2,53,2/163,0.9137631670332215,0.6507598870487492,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02025,Biofilm formation - Pseudomonas aeruginosa,0,28,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02026,Biofilm formation - Escherichia coli,0,30,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko02040,Flagellar assembly,2,49,2/163,0.9883560786277702,0.6077825140199351,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03010,Ribosome,0,54,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03018,RNA degradation,1,19,1/163,1.2744591540200194,0.552098068815139,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03030,DNA replication,0,18,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03060,Protein export,0,18,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03070,Bacterial secretion system,0,29,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03320,PPAR signaling pathway,0,10,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03410,Base excision repair,0,15,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03420,Nucleotide excision repair,0,11,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03430,Mismatch repair,0,24,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko03440,Homologous recombination,0,25,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04112,Cell cycle - Caulobacter,2,13,2/163,3.7253421425200566,0.09814055540076955,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04122,Sulfur relay system,1,16,1/163,1.5134202453987728,0.4914030774799102,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04146,Peroxisome,1,14,1/163,1.7296231375985978,0.4464667724385948,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04212,Longevity regulating pathway - worm,2,14,2/163,3.4592462751971955,0.1114991709283519,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04217,Necroptosis,1,5,1/163,4.842944785276074,0.1902096958504026,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04626,Plant-pathogen interaction,2,12,2/163,4.0357873210633946,0.08528334074142657,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04714,Thermogenesis,0,10,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04922,Glucagon signaling pathway,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04936,Alcoholic liver disease,0,7,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko04981,Folate transport and metabolism,0,9,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05010,Alzheimer disease,1,6,1/163,4.0357873210633946,0.22369417570235192,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05012,Parkinson disease,1,6,1/163,4.0357873210633946,0.22369417570235192,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05014,Amyotrophic lateral sclerosis,1,9,1/163,2.69052488070893,0.31611176742509944,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05016,Huntington disease,0,7,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05022,Pathways of neurodegeneration - multiple diseases,1,9,1/163,2.69052488070893,0.31611176742509944,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05111,Biofilm formation - Vibrio cholerae,0,44,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05131,Shigellosis,1,5,1/163,4.842944785276074,0.1902096958504026,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05134,Legionellosis,1,8,1/163,3.0268404907975457,0.2865901090803672,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05152,Tuberculosis,1,5,1/163,4.842944785276074,0.1902096958504026,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05200,Pathways in cancer,1,7,1/163,3.4592462751971955,0.2558022318709682,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05204,Chemical carcinogenesis - DNA adducts,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05207,Chemical carcinogenesis - receptor activation,1,6,1/163,4.0357873210633946,0.22369417570235192,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05208,Chemical carcinogenesis - reactive oxygen species,1,14,1/163,1.7296231375985978,0.4464667724385948,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05225,Hepatocellular carcinoma,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05230,Central carbon metabolism in cancer,0,7,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05340,Primary immunodeficiency,0,5,0/163,0.0,1.0,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,day 11,kegg.pathway:ko05415,Diabetic cardiomyopathy,1,11,1/163,2.201338538761852,0.3715613945118266,1.0,0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00010,Glycolysis / Gluconeogenesis,1,33,1/111,1.0775320775320776,0.611413193548622,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00030,Pentose phosphate pathway,0,20,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00040,Pentose and glucuronate interconversions,1,12,1/111,2.9632132132132134,0.29021451834751777,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00051,Fructose and mannose metabolism,1,15,1/111,2.3705705705705706,0.3486162239193095,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00052,Galactose metabolism,1,14,1/111,2.5398970398970397,0.3296984847395719,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00061,Fatty acid biosynthesis,0,18,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00071,Fatty acid degradation,0,23,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,0,15,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00190,Oxidative phosphorylation,0,39,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00195,Photosynthesis,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00220,Arginine biosynthesis,1,18,1/111,1.9754754754754755,0.40225232842139497,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00240,Pyrimidine metabolism,1,36,1/111,0.9877377377377378,0.6435530989774123,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00250,"Alanine, aspartate and glutamate metabolism",1,33,1/111,1.0775320775320776,0.611413193548622,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00270,Cysteine and methionine metabolism,1,36,1/111,0.9877377377377378,0.6435530989774123,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00290,"Valine, leucine and isoleucine biosynthesis",0,14,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00300,Lysine biosynthesis,1,16,1/111,2.22240990990991,0.3670047282796751,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00310,Lysine degradation,0,15,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00340,Histidine metabolism,0,17,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00350,Tyrosine metabolism,0,12,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00360,Phenylalanine metabolism,0,14,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00362,Benzoate degradation,0,10,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00380,Tryptophan metabolism,0,20,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",0,22,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00401,Novobiocin biosynthesis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00404,Staurosporine biosynthesis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00410,beta-Alanine metabolism,0,12,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00430,Taurine and hypotaurine metabolism,1,9,1/111,3.950950950950951,0.2266279708045717,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00470,D-Amino acid metabolism,0,9,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00480,Glutathione metabolism,1,24,1/111,1.4816066066066067,0.4967393025588196,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00520,Amino sugar and nucleotide sugar metabolism,1,33,1/111,1.0775320775320776,0.611413193548622,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00521,Streptomycin biosynthesis,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00523,Polyketide sugar unit biosynthesis,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00540,Lipopolysaccharide biosynthesis,0,11,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00541,Biosynthesis of various nucleotide sugars,0,21,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00543,Exopolysaccharide biosynthesis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00550,Peptidoglycan biosynthesis,0,21,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00561,Glycerolipid metabolism,1,15,1/111,2.3705705705705706,0.3486162239193095,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00562,Inositol phosphate metabolism,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00564,Glycerophospholipid metabolism,0,16,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00620,Pyruvate metabolism,1,48,1/111,0.7408033033033034,0.747808930937242,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00625,Chloroalkane and chloroalkene degradation,0,10,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00627,Aminobenzoate degradation,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00643,Styrene degradation,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00650,Butanoate metabolism,0,24,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00660,C5-Branched dibasic acid metabolism,0,9,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00670,One carbon pool by folate,1,25,1/111,1.4223423423423422,0.510978899147138,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00710,Carbon fixation by Calvin cycle,0,19,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00720,Other carbon fixation pathways,1,29,1/111,1.2261571916744332,0.5640530197933404,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00730,Thiamine metabolism,0,11,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00740,Riboflavin metabolism,0,10,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00750,Vitamin B6 metabolism,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00760,Nicotinate and nicotinamide metabolism,1,16,1/111,2.22240990990991,0.3670047282796751,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00770,Pantothenate and CoA biosynthesis,1,19,1/111,1.8715030820293979,0.41913957493328735,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00780,Biotin metabolism,0,13,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00790,Folate biosynthesis,0,33,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00860,Porphyrin metabolism,0,21,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00900,Terpenoid backbone biosynthesis,0,15,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00907,"Pinene, camphor and geraniol degradation",0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00910,Nitrogen metabolism,1,16,1/111,2.22240990990991,0.3670047282796751,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00970,Aminoacyl-tRNA biosynthesis,0,26,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00980,Metabolism of xenobiotics by cytochrome P450,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00982,Drug metabolism - cytochrome P450,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00983,Drug metabolism - other enzymes,0,13,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko00999,Biosynthesis of various plant secondary metabolites,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01212,Fatty acid metabolism,0,34,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01240,Biosynthesis of cofactors,2,134,2/111,0.5307247546053516,0.8973589523768231,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01250,Biosynthesis of nucleotide sugars,1,38,1/111,0.9357515410146989,0.6635014787106286,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01501,beta-Lactam resistance,1,22,1/111,1.6162981162981165,0.4670159888403864,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01502,Vancomycin resistance,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01503,Cationic antimicrobial peptide (CAMP) resistance,1,28,1/111,1.2699485199485199,0.5513455316623165,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01523,Antifolate resistance,1,8,1/111,4.44481981981982,0.20420260632163223,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko01524,Platinum drug resistance,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02010,ABC transporters,1,53,1/111,0.670916199218086,0.7817367019222509,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02020,Two-component system,1,146,1/111,0.2435517709490312,0.9856547322451905,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02024,Quorum sensing,0,53,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02025,Biofilm formation - Pseudomonas aeruginosa,0,28,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02026,Biofilm formation - Escherichia coli,0,30,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02030,Bacterial chemotaxis,1,50,1/111,0.7111711711711711,0.7619654993359102,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko02040,Flagellar assembly,0,49,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03010,Ribosome,0,54,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03018,RNA degradation,0,19,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03030,DNA replication,1,18,1/111,1.9754754754754755,0.40225232842139497,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03060,Protein export,0,18,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03070,Bacterial secretion system,0,29,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03320,PPAR signaling pathway,0,10,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03410,Base excision repair,1,15,1/111,2.3705705705705706,0.3486162239193095,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03420,Nucleotide excision repair,1,11,1/111,3.232596232596233,0.2696168220172104,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03430,Mismatch repair,1,24,1/111,1.4816066066066067,0.4967393025588196,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko03440,Homologous recombination,0,25,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04066,HIF-1 signaling pathway,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04112,Cell cycle - Caulobacter,0,13,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04122,Sulfur relay system,0,16,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04146,Peroxisome,1,14,1/111,2.5398970398970397,0.3296984847395719,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04212,Longevity regulating pathway - worm,0,14,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04213,Longevity regulating pathway - multiple species,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04217,Necroptosis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04621,NOD-like receptor signaling pathway,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04626,Plant-pathogen interaction,0,12,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04714,Thermogenesis,0,10,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04922,Glucagon signaling pathway,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04936,Alcoholic liver disease,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko04981,Folate transport and metabolism,1,9,1/111,3.950950950950951,0.2266279708045717,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05010,Alzheimer disease,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05012,Parkinson disease,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05014,Amyotrophic lateral sclerosis,0,9,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05016,Huntington disease,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05022,Pathways of neurodegeneration - multiple diseases,0,9,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05111,Biofilm formation - Vibrio cholerae,0,44,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05131,Shigellosis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05132,Salmonella infection,0,11,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05134,Legionellosis,0,8,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05152,Tuberculosis,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05200,Pathways in cancer,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05204,Chemical carcinogenesis - DNA adducts,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05207,Chemical carcinogenesis - receptor activation,0,6,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05208,Chemical carcinogenesis - reactive oxygen species,1,14,1/111,2.5398970398970397,0.3296984847395719,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05225,Hepatocellular carcinoma,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05230,Central carbon metabolism in cancer,0,7,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05340,Primary immunodeficiency,0,5,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05415,Diabetic cardiomyopathy,0,11,0/111,0.0,1.0,1.0,-0.0
+10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,day 11,kegg.pathway:ko05418,Fluid shear stress and atherosclerosis,0,9,0/111,0.0,1.0,1.0,-0.0

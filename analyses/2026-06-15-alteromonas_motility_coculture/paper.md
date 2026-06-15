@@ -85,7 +85,23 @@ the glucose-fed references and the starvation time-course structure bound it.
 
 ### Implementation (step 4)
 
-*(being redone against the carbon-provision framing — populated in step 4)*
+The method is the package's `pathway_enrichment` (one-sided Fisher per pathway,
+per-cluster `table_scope` background, up/down split, Benjamini-Hochberg) — no custom
+statistics — wrapped in a thin reusable `run_contrast()` driver that also pulls a
+motility gene-level readout (`differential_expression_by_gene` on the flagella+
+chemotaxis locus tags) and freezes everything to CSV. Enrichment is run at two
+granularities chosen by `ontology_landscape`: KEGG level 2 (interpretable pathways;
+~0.31 genome coverage — reflects the KEGG-annotated third) and COG category level 0
+(coarse, ~0.69 coverage). Built and validated on the HOT1A3 MED4 day-11 snapshot;
+step 5 reuses `run_contrast` across the starvation time-courses and controls.
+
+On the day-11 exponential snapshot (a partner-during-growth read, not the starvation
+story), motility/chemotaxis genes lean down (7 of 96 significantly down — the
+chemotaxis core cheA/cheW/cheR/aer2/fliL — 1 up) while biosynthetic and transport
+metabolism lean up; three metabolic pathways survive correction (purine,
+2-oxocarboxylic-acid, propanoate — all up), chemotaxis does not. Directionally
+consistent with a fed, growing cell, but the carbon-starvation prediction (a
+divergence growing over the time-course) is untested until step 5.
 
 ## Results
 

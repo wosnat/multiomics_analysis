@@ -1,64 +1,97 @@
-# Step 4 — Method (use the package's enrichment ORA)
+# Step 4 — Method (redone 2026-06-15)
 
 ## Context
 
-The step-3 readout (direction + over-representation of motility genes vs the
-genome background) is exactly over-representation analysis (ORA). The
-`multiomics_explorer` package already ships this — `pathway_enrichment` runs the
-full DE→ORA pipeline (one-sided Fisher per pathway, per-experiment `table_scope`
-background, up/down direction split, Benjamini-Hochberg correction). **No custom
-method is needed.** (An initial hand-rolled version was scrapped — see
-`gaps_and_friction.md`; it even got the background wrong.)
+The step-3 readout — per-pathway over-representation, direction-split, plus a
+motility gene-level deep-dive — is exactly what the package's `pathway_enrichment`
+does (one-sided Fisher per pathway, per-cluster `table_scope` background, up/down
+split, Benjamini-Hochberg). **No custom statistics** (an early hand-rolled ORA was
+scrapped — see `gaps_and_friction.md`). This step is a thin reusable driver around
+`pathway_enrichment` + `differential_expression_by_gene` that *freezes* outputs, so
+step 5 can reuse it across every usable contrast.
+
+co-defined with the researcher: use `pathway_enrichment` directly (not a wrapper of
+its primitives); two granularities; motility gene-level readout as a first-class
+output; build on the MED4 snapshot, extend to the time-courses in step 5.
 
 ## The method
 
-For each coculture-vs-alone experiment:
-- **HOT1A3** (all genes reported): `pathway_enrichment(organism, [experiment],
-  ontology="kegg", level=2, direction="both")` — tests every KEGG pathway, so our
-  three (flagellar assembly ko02040, bacterial chemotaxis ko02030, ribosome
-  ko03010) are judged in the context of all pathways with proper background + BH.
-  Repeat with `ontology="cog_category"` for the broad COG-N sensitivity check.
-- **EZ55** (significant genes only): ORA is invalid (background ≈ foreground), so
-  EZ55 gets **direction-only** counts from `differential_expression_by_gene` —
-  handled in step 5.
+`scripts/01_method.py` — `run_contrast(label, organism, experiment_ids, strain)`:
+1. **KEGG level 2** enrichment (`direction="both"`) — fine, interpretable pathways
+   (motility ko02040/ko02030, glycolysis, TCA, carbon metabolism).
+2. **COG category level 0** enrichment — coarse functional overview.
+3. **Motility gene-level readout** — `differential_expression_by_gene` on the KEGG
+   flagella+chemotaxis locus tags (per-gene log2FC, padj, status).
 
-## Worked example — verifies the method (anchor: HOT1A3 coculture-with-MED4 vs axenic, Weissberg 2025)
+Freezes three CSVs per contrast. `signed_score` (= sign·−log10 padj) carries
+direction for later visualisation.
 
-`scripts/01_worked_example.py`, KEGG level 2, direction both. Single timepoint
-("day 11"), so clusters are `…|day 11|up` and `…|day 11|down`; 290 (cluster ×
-pathway) tests.
+### Ontology + level chosen via `ontology_landscape` (not guessed) `[KG]`
 
-| pathway | cluster | genes (count) | fold | raw p | BH p_adjust |
-|---|---|--:|--:|--:|--:|
-| Bacterial chemotaxis | down | 5 / 50 | 2.42 | 0.054 | 0.97 |
-| Bacterial chemotaxis | up | 1 / 50 | 0.71 | 0.76 | 1.00 |
-| Flagellar assembly | down | 2 / 49 | 0.99 | 0.61 | 1.00 |
-| Flagellar assembly | up | 0 / 49 | 0 | 1.00 | 1.00 |
-| Ribosome (baseline) | up/down | 0 | 0 | 1.00 | 1.00 |
+Scouted HOT1A3, weighted by the MED4 experiment. Motility lives at **KEGG level 2**
+(pathways) and **COG level 0** (category N). Genome coverage:
 
-**Reads as expected for a verification:** the ribosome baseline is flat (0 genes
-either direction ✓); the tool returns per-direction enrichment with sensible
-Fisher/fold/BH numbers. **Early substantive hint:** chemotaxis leans *down* in
-coculture (5 genes, ~2.4× fold, raw p 0.054) but does **not** survive correction;
-the significant pathways on the anchor are metabolic (purine, 2-oxocarboxylic
-acid, propanoate — up), not motility. Whether the weak chemotaxis-down signal is
-consistent across the other experiments is the step-5 question.
+| ontology / level | genome coverage | role |
+|---|--:|---|
+| KEGG L2 (pathways) | **~0.31** | fine, interpretable — the main run (coverage caveat below) |
+| COG category L0 | **~0.69** | coarse functional companion |
+| (pfam L0 0.65, GO-MF L3 0.54) | — | higher coverage but less directly interpretable for a carbon signature |
+
+**Coverage caveat:** KEGG annotates only ~⅓ of HOT1A3's genome, so KEGG enrichment
+reflects that annotated third. COG L0 (~0.69) is the higher-powered coarse check.
+
+## Driving example — HOT1A3 coculture-with-MED4 vs axenic (day-11, exponential)
+
+This is the **partner-during-growth** read (both cultures growing), not the
+carbon-starvation story — used here to validate the method mechanics. Single
+timepoint → clusters `…|day 11|up` and `…|day 11|down`.
+
+**Numbers first** `[KG]` (`data/med4_snapshot_*`):
+- **KEGG L2:** 290 tests, **3** significant (p_adjust<0.05), all *up* in coculture:
+  purine metabolism (padj 0.005), 2-oxocarboxylic-acid metabolism (0.006),
+  propanoate metabolism (0.010). Trending up (ns): carbon metabolism, TCA,
+  amino-acid biosynthesis. Trending down (ns): glycolysis, Calvin-cycle carbon
+  fixation, **bacterial chemotaxis** (ko02030: 5 genes, 2.4×, p 0.054, padj 0.97).
+- **COG L0:** 36 tests, **1** significant: post-translational modification /
+  chaperones *down* (padj 0.029). Trending: carbohydrate + inorganic-ion + amino-acid
+  transport *up*; cell motility + signal transduction *down* (ns).
+- **Motility gene-level (96 KEGG flagella+chemotaxis genes, 94 DE rows):**
+  **7 significant down, 1 up.** Down = the chemotaxis core: cheA (ACZ81_01465,
+  ACZ81_05280), cheW, cheR, aer2, fliL (log2FC −1.0 to −2.4); up = cheB.
+
+**Description, then interpretation.** At day-11 exponential, motility/chemotaxis
+genes lean down and biosynthetic/transport metabolism leans up in coculture.
+`[interpretation]` This is directionally consistent with a fed, growing cell that
+down-regulates foraging — and with the original Weissberg "motility down with MED4"
+observation — but it is the exponential snapshot, most pathways do not survive BH,
+and the carbon-starvation prediction (a divergence that *grows* over the
+time-course) is untested until step 5. No claim of significance for motility here
+(chemotaxis does not survive correction).
+
+**Noise to ignore** `[interpretation]`: KEGG maps some flagellar/chemotaxis genes to
+human-disease pathways (Salmonella infection, NOD-like receptor, HIF-1) — cross-
+annotations, not biology for a marine bacterium. Filter these in step 5 reporting.
 
 ## Decisions
 
-- **2026-06-15 — method = package `pathway_enrichment` (KEGG + COG-N), not custom
-  code.** The package implements ORA with the correct per-experiment background;
-  reusing it avoids a buggy reimplementation. EZ55 = direction-only (significant
-  table breaks ORA).
+- **2026-06-15 — method = `pathway_enrichment` called directly** (KEGG L2 + COG L0),
+  plus `differential_expression_by_gene` for the motility readout. No wrapper of the
+  ORA primitives (would duplicate the tool).
+- **2026-06-15 — ontology/level via `ontology_landscape`**, not guessed: KEGG L2
+  (interpretable, ~0.31 coverage) + COG L0 (~0.69). Coverage caveat recorded.
+- **2026-06-15 — `run_contrast` is reusable** so step 5 applies it across all
+  contrasts (time-courses, EZ55 direction-only, controls).
 
 ## Decide-gate checklist
 
-- **Outputs produced:** `scripts/01_worked_example.py` (verification; reinvented
-  module deleted).
-- **Results presented:** worked-example enrichment table on the anchor (above).
-- **QC gate:** ribosome baseline flat (0/0) as expected; method returns
-  per-direction Fisher results with BH; early read recorded (chemotaxis weakly
-  down, not significant).
-- **Advance rationale:** method verified on the anchor; step 5 runs it across all
-  HOT1A3 experiments (+ COG-N sensitivity) and does EZ55 direction counts +
-  partner-specificity.
+- **Outputs produced:** `scripts/01_method.py`; `data/med4_snapshot_kegg_l2_enrichment.csv`,
+  `_cog_l0_enrichment.csv`, `_motility_genes_de.csv`, log. (Old `01_worked_example.py`
+  removed.)
+- **Results presented:** ontology scout, KEGG-L2 / COG-L0 / motility tables on the
+  driving example (above).
+- **QC gate:** ontology/level chosen on coverage evidence (not guessed); motility
+  pathways confirmed present at KEGG L2; method returns per-direction Fisher + BH;
+  KEGG human-disease cross-annotations identified as noise; coverage caveat logged.
+- **Advance rationale:** the per-contrast method is built, validated, and freezing
+  CSVs; step 5 runs `run_contrast` across the time-courses (difference of
+  trajectories) + EZ55/MIT1002 controls and composes the carbon-starvation read.
