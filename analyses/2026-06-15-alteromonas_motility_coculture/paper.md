@@ -40,7 +40,36 @@ panel were considered but lack the coculture-vs-alone contrast.
 
 ## Methods
 
-*(populated in steps 3–4)*
+### Framing (step 3)
+
+**Hypothesis.** In coculture with Prochlorococcus vs alone, Alteromonas motility
+genes are coordinately regulated — moving together more than the genome-wide
+background. Direction is observed, not predicted.
+
+**Readout.** Per coculture-vs-alone experiment and per gene set: the number of
+genes significantly up vs down in coculture, and whether the set is
+over-represented among differentially expressed genes relative to all detected
+genes. The over-representation test requires all genes to be reported and is
+therefore computed for HOT1A3; EZ55 (significant genes only) contributes a
+direction-only cross-check.
+
+**Gene sets.** Motility primary = KEGG flagellar assembly + bacterial chemotaxis;
+sensitivity = broad COG-N "Cell motility". Baseline control = KEGG ribosome
+(54 genes in both strains).
+
+**Controls.** The genome-wide background (denominator); a ribosomal baseline that
+should not respond to the partner (to show specificity rather than a whole-cell
+shift); and, in EZ55, coculture with Synechococcus vs Prochlorococcus as a
+partner-specificity control.
+
+**Preregistered predictions.** (1) motility over-represented among coculture-DE
+genes in HOT1A3 beyond background; (2) the ribosomal baseline is not; (3) the
+direction is consistent across HOT1A3 experiments and agrees with EZ55; (4,
+exploratory) partner-specificity reported.
+
+### Implementation (step 4)
+
+*(populated in step 4)*
 
 ## Results
 
