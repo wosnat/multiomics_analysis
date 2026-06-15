@@ -73,7 +73,22 @@ exploratory) partner-specificity reported.
 
 ## Results
 
-*(populated in step 5)*
+Motility genes are differentially expressed in coculture, but the **direction is
+partner- and condition-dependent rather than uniform**. In HOT1A3, motility leans
+down with the MED4 partner (Weissberg 2025: chemotaxis net −4, flagellar −2,
+broad COG-N −8 at day 11) and up with the MIT9313 partner (a separate study:
+flagellar +8, chemotaxis +6, COG-N +12 at 20 h). Leading fold-enrichments exceed
+2×, but none survives Benjamini-Hochberg correction on these small significant-gene
+sets. The ribosomal baseline is flat (zero significant genes in every HOT1A3
+experiment), so the motility signal — weak as it is — is specific rather than a
+whole-cell shift (Figure fig1).
+
+EZ55, examined for direction only (its table reports significant genes only),
+shows partner-specificity: motility leans up with Prochlorococcus (13 up / 3 down
+across two CO₂ levels) and down or flat with Synechococcus (2 up / 7 down)
+(Figure fig2). Taken together, the cases that lean up are the Prochlorococcus
+partners MIT9313 (HOT1A3) and MIT9312 (EZ55); the down case is HOT1A3 with MED4 —
+the very experiment that motivated the analysis.
 
 ## Discussion
 

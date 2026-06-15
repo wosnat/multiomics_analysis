@@ -1,0 +1,29 @@
+[HOT1A3 enrichment — motility + baseline rows across experiments]
+                                                                         experiment_id                   exp_label                 partner               publication timepoint direction                        term  count  bg_count  fold_enrichment  pvalue  p_adjust
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11      down        Bacterial chemotaxis      5        50            2.421  0.0536    0.9716
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11      down          Flagellar assembly      2        49            0.988  0.6078    1.0000
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11      down         Ribosome (baseline)      0        54            0.000  1.0000    1.0000
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11        up        Bacterial chemotaxis      1        50            0.711  0.7620    1.0000
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11        up          Flagellar assembly      0        49            0.000  1.0000    1.0000
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11        up         Ribosome (baseline)      0        54            0.000  1.0000    1.0000
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11      down COG-N Cell motility (broad)      9       125            1.743  0.0717    0.4301
+                10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq            MED4\n2025.11.24    Prochlorococcus MED4 10.1101/2025.11.24.690089    day 11        up COG-N Cell motility (broad)      1       125            0.284  0.9733    0.9998
+10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_high_alteromonas_hot1a3_rnaseq MIT9313 hi-inoc\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up          Flagellar assembly      8        34            2.352  0.0160    0.7755
+10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_high_alteromonas_hot1a3_rnaseq MIT9313 hi-inoc\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up        Bacterial chemotaxis      6        28            2.142  0.0538    1.0000
+10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_high_alteromonas_hot1a3_rnaseq MIT9313 hi-inoc\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up         Ribosome (baseline)      0        22            0.000  1.0000    1.0000
+10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_high_alteromonas_hot1a3_rnaseq MIT9313 hi-inoc\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up COG-N Cell motility (broad)     12        74            1.621  0.0594    0.3566
+                 10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_hot1a3_rnaseq         MIT9313\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up        Bacterial chemotaxis      1        33            2.318  0.3542    1.0000
+                 10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_hot1a3_rnaseq         MIT9313\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up          Flagellar assembly      1        41            1.866  0.4197    1.0000
+                 10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_hot1a3_rnaseq         MIT9313\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up         Ribosome (baseline)      0        24            0.000  1.0000    1.0000
+                 10.1038/ismej.2016.70_coculture_prochlorococcus_mit9313_hot1a3_rnaseq         MIT9313\nismej.2016 Prochlorococcus MIT9313     10.1038/ismej.2016.70       20h        up COG-N Cell motility (broad)      2        85            1.800  0.3059    0.9620
+
+[EZ55 motility direction — Prochlorococcus vs Synechococcus partner]
+                partner   partner_genus                                              treatment  motility_up  motility_down  genome_up  genome_down  motility_set_size
+Prochlorococcus MIT9312 Prochlorococcus Coculture with Prochlorococcus MIT9312 at 400 ppm pCO2            7              2        308          111                102
+Prochlorococcus MIT9312 Prochlorococcus Coculture with Prochlorococcus MIT9312 at 800 ppm pCO2            6              1        104           84                102
+   Synechococcus CC9311   Synechococcus    Coculture with Synechococcus CC9311 at 400 ppm pCO2            2              5        117          176                102
+   Synechococcus CC9311   Synechococcus    Coculture with Synechococcus CC9311 at 800 ppm pCO2            0              2         31           52                102
+   Synechococcus WH8102   Synechococcus    Coculture with Synechococcus WH8102 at 400 ppm pCO2            0              0         26          110                102
+   Synechococcus WH8102   Synechococcus    Coculture with Synechococcus WH8102 at 800 ppm pCO2            0              0         27           31                102
+
+[outputs] hot1a3_enrichment.csv (16), ez55_motility_direction.csv (6); fig1, fig2
