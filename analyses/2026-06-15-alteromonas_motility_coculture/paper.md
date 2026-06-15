@@ -133,8 +133,77 @@ genes reading up in starvation-vs-exponential) is flagged for step 6.
 
 ## Discussion
 
-*(populated in step 6)*
+The carbon-provision hypothesis — that *Prochlorococcus* supplies fixed organic
+carbon that keeps *Alteromonas* less starved in coculture — receives **partial,
+within-study support, but motility is not the clean carbon-specific reporter the
+framing hoped for.**
+
+The supporting evidence is real and statistically grounded: in HOT1A3, motility
+(flagella + chemotaxis) is significantly more suppressed under starvation when
+axenic than in coculture (paired Wilcoxon, BH p 6e-4 at day 18 and 3.5e-9 at days
+60+89), and carbon/energy pathways lean up in coculture. Read alone, that fits a
+fed cell maintaining more of its motility machinery than a starving one.
+
+Three findings hold that interpretation back. (1) **Motility-down is a general
+stress/dormancy response, not carbon-specific:** it occurs under *Prochlorococcus*-
+absent darkness (MIT1002) and dominates both starvation arms — so a partner that
+relieves starvation will relax it for reasons that need not involve carbon
+specifically. The control designed to separate "carbon" from "stress" (the
+glucose-fed reference) was too sparse to resolve it. (2) **The coculture motility
+direction is strain- and partner-specific:** EZ55 raises motility with
+*Prochlorococcus* but lowers it with *Synechococcus*, and the direction flips
+between HOT1A3 and EZ55 — there is no uniform "*Prochlorococcus* effect." (3) The
+signal is **RNA-led and not corroborated by protein** (direction agreement 0.48 in
+axenic), and the coculture–axenic divergence is **not monotonic** over time
+(significant at day 18 and late, absent at day 31; trend test underpowered, n=3).
+
+A structural caveat frames all of this: the primary dataset (Weissberg et al.
+2025) was generated to study **nitrogen recycling for prolonged survival**, in a
+low-nitrogen medium with no added organic carbon. Carbon and nitrogen limitation
+are therefore inseparable in the axenic arm, and our carbon-provision lens is
+orthogonal to the source study's nitrogen framing. We cannot attribute the
+coculture relief to carbon specifically over nitrogen within this data.
+
+Two things are worth following up. The **EZ55 *Prochlorococcus*-vs-*Synechococcus*
+motility difference** is itself a genuine partner-specific signal deserving a
+dedicated analysis. And testing carbon transfer directly — via metabolite/exudate
+data or organic-carbon transporter expression — would speak to provisioning far
+more specifically than motility does. A coordinate up-regulation of ribosomal-
+protein genes under starvation-vs-exponential (in both arms) is flagged as an open
+observation; it is internally consistent with the (correct) motility polarity and
+is most likely a compositional-normalization effect of broad starvation
+down-regulation, but it was not run to ground.
+
+*Methodological note (this was a dogfooding run).* The analysis surfaced a KG data
+problem — log2FC sign absent across all genes in four experiments from two 2016
+papers — and the discipline that caught it (checking the sign distribution over all
+genes before trusting direction) is the reason the partner-specificity claim here
+rests on verified-clean contrasts rather than the artefact that misled an earlier
+pass. See `gaps_and_friction.md`.
 
 ## References
 
-*(accumulates as publications are cited; resolved via `list_publications`)*
+- Weissberg O, Aharonovich D, Sher D (2025). *Transcriptomic and proteomic analysis
+  reveals nitrogen recycling as a core mechanism for Prochlorococcus prolonged
+  survival.* bioRxiv. doi:10.1101/2025.11.24.690089 — **primary dataset** (HOT1A3
+  MED4 coculture + PRO99-lowN starvation time-course).
+- Barreto Filho MM, Lu Z, Walker M, Morris JJ (2022). *Community context and pCO₂
+  impact the transcriptome of the "helper" bacterium Alteromonas in co-culture with
+  picocyanobacteria.* ISME Communications. doi:10.1038/s43705-022-00197-2 — EZ55
+  partner-specificity + pCO₂ controls.
+- Hennon GMM, Morris JJ, Haley ST, et al. (2018). *The impact of elevated CO₂ on
+  Prochlorococcus and microbial interactions with 'helper' bacterium Alteromonas.*
+  ISME J. doi:10.1038/ismej.2017.189 — EZ55 carbon-stress context.
+- Coe A, Braakman R, Biller SJ, et al. (2024). *Emergence of metabolic coupling to
+  the heterotroph Alteromonas promotes dark survival in Prochlorococcus.* ISME
+  Communications. doi:10.1093/ismeco/ycae131 — MIT1002 darkness (diel) control.
+- Biller SJ, Coe A, Roggensack SE, Chisholm SW (2018). *Heterotroph interactions
+  alter Prochlorococcus transcriptome dynamics during extended periods of darkness.*
+  mSystems. doi:10.1128/mSystems.00040-18 — MIT1002 extended-darkness control.
+- Moreno-Cabezuelo JÁ, Gómez-Baena G, Díez J, García-Fernández JM (2023).
+  *Integrated proteomic and metabolomic analyses show differential effects of
+  glucose availability in marine Synechococcus and Prochlorococcus.* Microbiology
+  Spectrum. doi:10.1128/spectrum.03275-22 — MarRef glucose-fed reference.
+- *Excluded (sign-corrupted in the KG; see gaps_and_friction.md):* Aharonovich D,
+  Sher D (2016), doi:10.1038/ismej.2016.70; Biller SJ, Coe A, Chisholm SW (2016),
+  doi:10.1038/ismej.2016.82.
