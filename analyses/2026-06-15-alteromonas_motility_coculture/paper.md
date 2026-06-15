@@ -105,10 +105,31 @@ divergence growing over the time-course) is untested until step 5.
 
 ## Results
 
-*(being redone — the earlier step 4–5 results were produced "running ahead" of the
-researcher and against the superseded motility-coordination framing; they are not
-carried forward. New results populated in step 5 against the carbon-provision
-framing and the clean usable experiment set.)*
+**Starvation suppresses motility in both arms, more so when axenic.** In HOT1A3
+RNA, flagellar/chemotaxis genes are down under starvation in coculture and axenic
+alike, but more in axenic: a paired Wilcoxon on the motility set's per-gene log2FC
+(coculture−axenic) is significant at day 18 (median Δ +0.43, BH p 6.0e-4) and days
+60+89 (+0.55, BH p 3.5e-9), though not day 31 — so the divergence is not monotonic
+(Spearman rho 0.50, p 0.67, n=3 matched timepoints). Carbon/energy pathways lean
+weakly up in coculture and flat in axenic. RNA and protein are analysed separately
+(direction agreement 0.68 coculture / 0.48 axenic); protein does not mirror RNA and
+the axenic protein series stops at day 31. *[interpretation]* This fits coculture
+relieving a starvation-driven motility shutdown, but weakly and RNA-led.
+
+**Controls show motility is not a carbon-specific readout.** Motility-down also
+occurs under MIT1002 darkness (down-fraction 0.67–0.82) and dominates both HOT1A3
+starvation arms (0.93–0.97), so it is a general stress/dormancy response. The
+coculture motility *direction* is strain- and partner-specific: EZ55 leans up with
+Prochlorococcus (MIT9312) but down with Synechococcus (CC9311), and across strains
+with Prochlorococcus the direction flips (HOT1A3+MED4 down vs EZ55+MIT9312 up). The
+glucose-fed reference (MarRef proteomics) is too sparse to define a fed signature.
+
+**Net.** The carbon-provision hypothesis has partial, within-study support (HOT1A3
+motility more suppressed starved-alone than fed-in-coculture; carbon/energy pathways
+weakly up in coculture), but motility is not a clean Prochlorococcus-carbon-specific
+marker — it is a general stress response, strain/partner-dependent, RNA-led with
+discordant protein, and without a monotonic time-trend. An open anomaly (ribosome
+genes reading up in starvation-vs-exponential) is flagged for step 6.
 
 ## Discussion
 

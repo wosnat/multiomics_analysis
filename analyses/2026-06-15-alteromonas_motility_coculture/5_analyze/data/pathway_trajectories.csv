@@ -1,0 +1,99 @@
+arm,omics,condition,timepoint,tp_order,term_id,pathway,signed_score,p_adjust
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko02030,Bacterial chemotaxis,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko02030,Bacterial chemotaxis,-2.0400080376708747,0.0091199396054341
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko02030,Bacterial chemotaxis,-0.143758789419412,0.7181930706144187
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko02030,Bacterial chemotaxis,-2.7338070070991622,0.0018458354940851
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko02030,Bacterial chemotaxis,-5.678624174478379,2.095925422787724e-06
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko02030,Bacterial chemotaxis,-6.491679373448744,3.2234476874994306e-07
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko01200,Carbon metabolism,0.2636849115402485,0.544897842654202
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko01200,Carbon metabolism,-3.493442812218084,0.000321038551909
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko01200,Carbon metabolism,0.2289986268727578,0.590202946238526
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko01200,Carbon metabolism,0.085410158619036,0.8214664699117722
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko01200,Carbon metabolism,0.1180075452271975,0.762065770139658
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko02040,Flagellar assembly,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko02040,Flagellar assembly,0.0,1.0
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko02040,Flagellar assembly,1.4808954833507828,0.0330449056835581
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko02040,Flagellar assembly,0.3553173555582934,0.4412478928350885
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko02040,Flagellar assembly,0.3742965813596731,0.4223800707902571
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko02040,Flagellar assembly,0.7142726108101145,0.1930755982518273
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,-0.0195242451328235,0.9560393212185916
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,-1.1330654949841354,0.0736096080112412
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.109669843198715,0.7768374550177012
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko00190,Oxidative phosphorylation,-0.655381080468644,0.2211153636675547
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko00190,Oxidative phosphorylation,-0.7651680952617208,0.171724359312033
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko00190,Oxidative phosphorylation,-3.7832086804770255,0.0001647370632225
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko00190,Oxidative phosphorylation,-5.004057340425433,9.907011327891689e-06
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko00190,Oxidative phosphorylation,-4.023245164495831,9.478832206794468e-05
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko03010,Ribosome,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko03010,Ribosome,0.0,1.0
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko03010,Ribosome,-19.619369654914117,2.402317168715525e-20
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko03010,Ribosome,0.0,1.0
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko03010,Ribosome,0.0,1.0
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko03010,Ribosome,0.0,1.0
+prot_coculture,prot,coculture,day 18,1.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+prot_coculture,prot,coculture,day 31,2.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+prot_axenic,prot,axenic,day 31,2.0,kegg.pathway:ko00020,TCA cycle,-1.64321880497847,0.022739514865213
+prot_coculture,prot,coculture,day 60,3.0,kegg.pathway:ko00020,TCA cycle,-0.2635323400394898,0.5450893037249156
+prot_coculture,prot,coculture,days 60+89,3.5,kegg.pathway:ko00020,TCA cycle,-0.2363562678991151,0.5802881902522896
+prot_coculture,prot,coculture,day 89,4.0,kegg.pathway:ko00020,TCA cycle,-0.2022468246617009,0.6277015128135822
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko02030,Bacterial chemotaxis,-0.191726163895706,0.6430930795854873
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko02030,Bacterial chemotaxis,-5.746287445434646,1.79354614386458e-06
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko02030,Bacterial chemotaxis,-3.9677249467589295,0.000107714719104
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko02030,Bacterial chemotaxis,-3.3928826838760866,0.0004046851946903
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko02030,Bacterial chemotaxis,-5.177694328555833,6.6421040012319175e-06
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko02030,Bacterial chemotaxis,-3.046403953804091,0.0008986613136243
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko02030,Bacterial chemotaxis,-9.087046219898728,8.183776874501903e-10
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko02030,Bacterial chemotaxis,-2.733769350541733,0.0018459955486718
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko01200,Carbon metabolism,0.2480926356007903,0.5648164858416423
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko01200,Carbon metabolism,0.3013083309301751,0.4996796573458719
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko01200,Carbon metabolism,0.0,1.0
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko01200,Carbon metabolism,0.9873552777121496,0.1029543550376465
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko02040,Flagellar assembly,-1.04819458040294,0.0894963698022229
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko02040,Flagellar assembly,-9.055451233908084,8.801339346853013e-10
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko02040,Flagellar assembly,-1.3923711585798395,0.0405162126081381
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko02040,Flagellar assembly,-3.3928826838760866,0.0004046851946903
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko02040,Flagellar assembly,-5.177694328555833,6.6421040012319175e-06
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko02040,Flagellar assembly,-5.706887684302631,1.963868099764692e-06
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko02040,Flagellar assembly,-11.000509808338794,9.988268116429908e-12
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko02040,Flagellar assembly,-11.39564782682592,4.021167586524481e-12
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.5292947086223241,0.2956005864809435
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0066175219424143,0.9848780945206403
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.0,1.0
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko00010,Glycolysis/Gluconeogenesis,0.6763060435167983,0.2107142741587078
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko00190,Oxidative phosphorylation,1.3312439329659789,0.0466397342345485
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko00190,Oxidative phosphorylation,0.0287654635865548,0.9359109671009284
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko00190,Oxidative phosphorylation,0.0,1.0
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko00190,Oxidative phosphorylation,2.052256130258184,0.0088663295564187
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko03010,Ribosome,15.065438619642856,8.601246227180778e-16
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko03010,Ribosome,8.047032858064004,8.973608989632144e-09
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko03010,Ribosome,16.93626549579032,1.1580691811621778e-17
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko03010,Ribosome,13.957234921931589,1.1034815546511091e-14
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko03010,Ribosome,6.7498674397409255,1.7788222793793036e-07
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko03010,Ribosome,16.48707224678492,3.2578250115121496e-17
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko03010,Ribosome,7.837705965199646,1.4530950883394204e-08
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko03010,Ribosome,15.61160865628315,2.445633325674446e-16
+rna_coculture,rna,coculture,day 18,1.0,kegg.pathway:ko00020,TCA cycle,0.3164941150094851,0.4825095183530068
+rna_axenic,rna,axenic,day 18,1.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_coculture,rna,coculture,day 31,2.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_axenic,rna,axenic,day 31,2.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_coculture,rna,coculture,day 60,3.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_coculture,rna,coculture,days 60+89,3.5,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_axenic,rna,axenic,days 60+89,3.5,kegg.pathway:ko00020,TCA cycle,0.0,1.0
+rna_coculture,rna,coculture,day 89,4.0,kegg.pathway:ko00020,TCA cycle,0.0,1.0

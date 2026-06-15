@@ -1,0 +1,14 @@
+label,organism,partner_genus,carbon_level,coculture,treatment,n_set,n_rows,n_up,n_down,down_fraction
+EZ55 +Pro MIT9312 400,EZ55,Prochlorococcus,low,yes,"coculture vs axenic, 400ppm",107.0,9,7,2,0.2222222222222222
+EZ55 +Pro MIT9312 800,EZ55,Prochlorococcus,low,yes,"coculture vs axenic, 800ppm",107.0,7,6,1,0.14285714285714285
+EZ55 +Syn CC9311 400,EZ55,Synechococcus,low,yes,"coculture vs axenic, 400ppm",107.0,7,2,5,0.7142857142857143
+EZ55 +Syn CC9311 800,EZ55,Synechococcus,low,yes,"coculture vs axenic, 800ppm",107.0,2,0,2,1.0
+EZ55 +Syn WH8102 400,EZ55,Synechococcus,low,yes,"coculture vs axenic, 400ppm",107.0,0,0,0,
+EZ55 +Syn WH8102 800,EZ55,Synechococcus,low,yes,"coculture vs axenic, 800ppm",107.0,0,0,0,
+MIT1002 darkness (diel),MIT1002,none,low,no,"dark-tolerant vs parental, diel",88.0,560,2,9,0.8181818181818182
+MIT1002 extended darkness,MIT1002,none,low,no,extended darkness vs diel,88.0,6,2,4,0.6666666666666666
+"MarRef +glucose in MED4 (dark,5mM)",Alteromonas (MarRef v6),Prochlorococcus,rich,yes,+glucose vs no glucose,119.0,1,1,0,0.0
+"MarRef +glucose in SS120 (dark,5mM)",Alteromonas (MarRef v6),Prochlorococcus,rich,yes,+glucose vs no glucose,119.0,4,1,0,0.0
+HOT1A3 starvation coculture (RNA),HOT1A3,Prochlorococcus,low,yes,starvation vs exp (all tp),,470,6,177,0.9672131147540983
+HOT1A3 starvation axenic (RNA),HOT1A3,none,low,no,starvation vs exp (all tp),,282,10,137,0.9319727891156463
+"HOT1A3 +MED4 snapshot (RNA, exp)",HOT1A3,Prochlorococcus,low,yes,"coculture vs axenic, day 11",,94,1,7,0.875

@@ -1,0 +1,18 @@
+[froze] rna_coculture: {'label': 'hot1a3_rna_coculture', 'kegg_l2_tests': 1450, 'kegg_l2_sig': 56, 'cog_l0_tests': 180, 'cog_l0_sig': 22, 'motility_n': 96, 'motility_rows': 470, 'motility_by_status': {'not_significant': 287, 'significant_down': 177, 'significant_up': 6}}
+[froze] rna_axenic: {'label': 'hot1a3_rna_axenic', 'kegg_l2_tests': 870, 'kegg_l2_sig': 16, 'cog_l0_tests': 108, 'cog_l0_sig': 11, 'motility_n': 96, 'motility_rows': 282, 'motility_by_status': {'significant_down': 137, 'not_significant': 135, 'significant_up': 10}}
+[froze] prot_coculture: {'label': 'hot1a3_prot_coculture', 'kegg_l2_tests': 1340, 'kegg_l2_sig': 36, 'cog_l0_tests': 180, 'cog_l0_sig': 28, 'motility_n': 96, 'motility_rows': 275, 'motility_by_status': {'not_significant': 178, 'significant_down': 73, 'significant_up': 24}}
+[froze] prot_axenic: {'label': 'hot1a3_prot_axenic', 'kegg_l2_tests': 268, 'kegg_l2_sig': 25, 'cog_l0_tests': 36, 'cog_l0_sig': 9, 'motility_n': 96, 'motility_rows': 110, 'motility_by_status': {'not_significant': 80, 'significant_up': 15, 'significant_down': 15}}
+
+[motility divergence — coculture vs axenic, paired Wilcoxon on log2FC]
+omics  timepoint  tp_order  n_genes  median_delta_coc_minus_ax   wilcoxon_p  n_coc_down  n_coc_up  n_ax_down  n_ax_up  wilcoxon_p_bh
+  rna     day 18       1.0       94                   0.434915 3.959134e-04          17         2         45        4   5.938701e-04
+  rna     day 31       2.0       94                  -0.095759 7.557230e-01          32         4         30        3   7.557230e-01
+  rna days 60+89       3.5       94                   0.554567 1.169263e-09          40         0         62        3   3.507789e-09
+ prot     day 18       1.0       55                  -0.276354 7.119551e-04           2         1          0        0   1.423910e-03
+ prot     day 31       2.0       55                  -0.101448 4.895782e-02          11         2         15       15   4.895782e-02
+
+[RNA vs protein direction agreement (motility set)] {'coculture': {'n_pairs': 275, 'direction_agreement': 0.684}, 'axenic': {'n_pairs': 110, 'direction_agreement': 0.482}}
+[trend rna] Spearman rho=0.50 p=0.667 (n=3 timepoints — low power)
+[trend prot] too few matched timepoints (2) for a trend test
+[fig] /home/osnat/github/multiomics_analysis/analyses/2026-06-15-alteromonas_motility_coculture/5_analyze/figures/fig1_motility_timecourse.png
+[fig] /home/osnat/github/multiomics_analysis/analyses/2026-06-15-alteromonas_motility_coculture/5_analyze/figures/fig2_pathways_timecourse.png

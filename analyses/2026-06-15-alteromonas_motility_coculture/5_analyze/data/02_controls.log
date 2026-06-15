@@ -1,0 +1,27 @@
+[EZ55 +Pro MIT9312 400] set=107 rows=9 up=7 down=2 down_frac=0.2222222222222222
+[EZ55 +Pro MIT9312 800] set=107 rows=7 up=6 down=1 down_frac=0.14285714285714285
+[EZ55 +Syn CC9311 400] set=107 rows=7 up=2 down=5 down_frac=0.7142857142857143
+[EZ55 +Syn CC9311 800] set=107 rows=2 up=0 down=2 down_frac=1.0
+[EZ55 +Syn WH8102 400] set=107 rows=0 up=0 down=0 down_frac=nan
+[EZ55 +Syn WH8102 800] set=107 rows=0 up=0 down=0 down_frac=nan
+[MIT1002 darkness (diel)] set=88 rows=560 up=2 down=9 down_frac=0.8181818181818182
+[MIT1002 extended darkness] set=88 rows=6 up=2 down=4 down_frac=0.6666666666666666
+[MarRef +glucose in MED4 (dark,5mM)] set=119 rows=1 up=1 down=0 down_frac=0.0
+[MarRef +glucose in SS120 (dark,5mM)] set=119 rows=4 up=1 down=0 down_frac=0.0
+
+[controls motility direction table]
+                              label carbon_level coculture   partner_genus  n_up  n_down  down_fraction
+              EZ55 +Pro MIT9312 400          low       yes Prochlorococcus     7       2       0.222222
+              EZ55 +Pro MIT9312 800          low       yes Prochlorococcus     6       1       0.142857
+               EZ55 +Syn CC9311 400          low       yes   Synechococcus     2       5       0.714286
+               EZ55 +Syn CC9311 800          low       yes   Synechococcus     0       2       1.000000
+               EZ55 +Syn WH8102 400          low       yes   Synechococcus     0       0            NaN
+               EZ55 +Syn WH8102 800          low       yes   Synechococcus     0       0            NaN
+            MIT1002 darkness (diel)          low        no            none     2       9       0.818182
+          MIT1002 extended darkness          low        no            none     2       4       0.666667
+ MarRef +glucose in MED4 (dark,5mM)         rich       yes Prochlorococcus     1       0       0.000000
+MarRef +glucose in SS120 (dark,5mM)         rich       yes Prochlorococcus     1       0       0.000000
+  HOT1A3 starvation coculture (RNA)          low       yes Prochlorococcus     6     177       0.967213
+     HOT1A3 starvation axenic (RNA)          low        no            none    10     137       0.931973
+   HOT1A3 +MED4 snapshot (RNA, exp)          low       yes Prochlorococcus     1       7       0.875000
+[fig] /home/osnat/github/multiomics_analysis/analyses/2026-06-15-alteromonas_motility_coculture/5_analyze/figures/fig3_motility_controls.png

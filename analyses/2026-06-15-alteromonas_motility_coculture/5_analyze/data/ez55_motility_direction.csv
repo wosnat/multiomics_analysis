@@ -1,7 +1,0 @@
-partner,partner_genus,treatment,motility_up,motility_down,genome_up,genome_down,motility_set_size
-Prochlorococcus MIT9312,Prochlorococcus,Coculture with Prochlorococcus MIT9312 at 400 ppm pCO2,7,2,308,111,102
-Prochlorococcus MIT9312,Prochlorococcus,Coculture with Prochlorococcus MIT9312 at 800 ppm pCO2,6,1,104,84,102
-Synechococcus CC9311,Synechococcus,Coculture with Synechococcus CC9311 at 400 ppm pCO2,2,5,117,176,102
-Synechococcus CC9311,Synechococcus,Coculture with Synechococcus CC9311 at 800 ppm pCO2,0,2,31,52,102
-Synechococcus WH8102,Synechococcus,Coculture with Synechococcus WH8102 at 400 ppm pCO2,0,0,26,110,102
-Synechococcus WH8102,Synechococcus,Coculture with Synechococcus WH8102 at 800 ppm pCO2,0,0,27,31,102

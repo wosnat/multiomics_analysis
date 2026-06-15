@@ -54,10 +54,12 @@ def motility_tags(strain: str, which: str = "in_kegg_flagella_chemotaxis") -> li
 
 
 def run_contrast(label: str, organism: str, experiment_ids: list[str],
-                 strain: str, *, conn) -> dict:
+                 strain: str, *, conn, outdir: Path = DATA) -> dict:
     """Run the per-contrast method: KEGG-L2 + COG-L0 enrichment + motility
-    gene-level readout. Freezes three CSVs prefixed by `label`. Returns a
-    small summary dict for the notebook."""
+    gene-level readout. Freezes three CSVs prefixed by `label` into `outdir`
+    (default: this step's data/). Returns a small summary dict for the notebook.
+    `outdir` lets later steps reuse this exact method into their own folder."""
+    outdir.mkdir(parents=True, exist_ok=True)
     out = {"label": label}
 
     # (1) + (2) pathway enrichment at two granularities
@@ -66,7 +68,7 @@ def run_contrast(label: str, organism: str, experiment_ids: list[str],
                                  ontology=ont, level=level, direction="both", conn=conn)
         df = res.results
         keep = [c for c in ENRICH_COLS if c in df.columns]
-        df[keep].sort_values("p_adjust").to_csv(DATA / f"{label}_{oname}_enrichment.csv", index=False)
+        df[keep].sort_values("p_adjust").to_csv(outdir / f"{label}_{oname}_enrichment.csv", index=False)
         n_sig = int((df["p_adjust"] < 0.05).sum())
         out[f"{oname}_tests"] = len(df); out[f"{oname}_sig"] = n_sig
         log(f"[{label}/{oname}] {len(df)} tests, {n_sig} significant (p_adjust<0.05)")
@@ -78,7 +80,7 @@ def run_contrast(label: str, organism: str, experiment_ids: list[str],
     mdf = to_dataframe(de)
     mcols = [c for c in ["locus_tag", "gene_name", "product", "timepoint", "log2fc",
                          "padj", "expression_status", "experiment_id"] if c in mdf.columns]
-    (mdf[mcols] if len(mdf) else mdf).to_csv(DATA / f"{label}_motility_genes_de.csv", index=False)
+    (mdf[mcols] if len(mdf) else mdf).to_csv(outdir / f"{label}_motility_genes_de.csv", index=False)
     by_status = (mdf["expression_status"].value_counts().to_dict() if "expression_status" in mdf else {})
     out["motility_n"] = len(tags); out["motility_rows"] = len(mdf); out["motility_by_status"] = by_status
     log(f"[{label}/motility] {len(tags)} genes in set, {len(mdf)} DE rows, by_status={by_status}")
