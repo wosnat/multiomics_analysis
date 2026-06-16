@@ -1,0 +1,273 @@
+{
+  "total_matching": 8,
+  "total_clusters": 8,
+  "genes_with_clusters": 5,
+  "genes_without_clusters": 0,
+  "not_found": [],
+  "not_matched": [],
+  "by_cluster_type": [
+    {
+      "cluster_type": "diel",
+      "count": 5
+    },
+    {
+      "cluster_type": "time_course",
+      "count": 3
+    }
+  ],
+  "by_treatment_type": [
+    {
+      "treatment_type": "diel",
+      "count": 5
+    },
+    {
+      "treatment_type": "nitrogen",
+      "count": 2
+    },
+    {
+      "treatment_type": "iron",
+      "count": 1
+    }
+  ],
+  "by_background_factors": [
+    {
+      "background_factor": "axenic",
+      "count": 8
+    },
+    {
+      "background_factor": "diel",
+      "count": 5
+    },
+    {
+      "background_factor": "light",
+      "count": 3
+    }
+  ],
+  "by_analysis": [
+    {
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "count": 5
+    },
+    {
+      "analysis_id": "clustering_analysis:msb4100087:med4_kmeans_nstarvation",
+      "count": 2
+    },
+    {
+      "analysis_id": "clustering_analysis:ismej.2011.49:med4_iron_response_clusters",
+      "count": 1
+    }
+  ],
+  "returned": 8,
+  "offset": 0,
+  "truncated": false,
+  "results": [
+    {
+      "locus_tag": "PMM0872",
+      "gene_name": null,
+      "cluster_id": "cluster:journal.pone.0005135:med4_diel_clusters:16",
+      "cluster_name": "Prochlorococcus cluster 16 (ATP synthase and CO2 metabolism)",
+      "cluster_type": "diel",
+      "membership_score": 0.975877746,
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "analysis_name": "MED4 diel cycling expression clusters",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic",
+        "diel"
+      ],
+      "cluster_method": "Soft clustering (Mfuzz, c=16, m=1.25)",
+      "member_count": 125,
+      "cluster_functional_description": "Enriched for ATP synthase (8/8 genes, p=8.40E-08) and CO2 metabolism genes (7/9 genes, p=1.80E-05).",
+      "cluster_expression_dynamics": "peaks early morning",
+      "cluster_temporal_pattern": "Genes peak in expression near 5.5 hours after onset of dark with 24h periodicity.",
+      "treatment": "Simulated diel light-dark cycle (14h light : 10h dark) over 48 hours",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Axenic Prochlorococcus MED4 in Sargasso Seawater-based Pro99 medium (10 mM HEPES pH 7.5) at 24C; 14:10 L:D cycle with gradual dawn/dusk transitions; max PAR ~232 umol quanta m-2 s-1; custom Affymetrix MD4-9313 GeneChip; 50 timepoints at 2h intervals over 48h; duplicate cultures sampled alternately; RMA-normalized; Fourier analysis (FDR<0.10) for periodicity; soft clustering via Mfuzz (c=16, m=1.25)",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM0983",
+      "gene_name": null,
+      "cluster_id": "cluster:journal.pone.0005135:med4_diel_clusters:12",
+      "cluster_name": "Prochlorococcus cluster 12",
+      "cluster_type": "diel",
+      "membership_score": 0.409982593,
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "analysis_name": "MED4 diel cycling expression clusters",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic",
+        "diel"
+      ],
+      "cluster_method": "Soft clustering (Mfuzz, c=16, m=1.25)",
+      "member_count": 111,
+      "cluster_functional_description": null,
+      "cluster_expression_dynamics": null,
+      "cluster_temporal_pattern": null,
+      "treatment": "Simulated diel light-dark cycle (14h light : 10h dark) over 48 hours",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Axenic Prochlorococcus MED4 in Sargasso Seawater-based Pro99 medium (10 mM HEPES pH 7.5) at 24C; 14:10 L:D cycle with gradual dawn/dusk transitions; max PAR ~232 umol quanta m-2 s-1; custom Affymetrix MD4-9313 GeneChip; 50 timepoints at 2h intervals over 48h; duplicate cultures sampled alternately; RMA-normalized; Fourier analysis (FDR<0.10) for periodicity; soft clustering via Mfuzz (c=16, m=1.25)",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "cluster_id": "cluster:ismej.2011.49:med4_iron_response_clusters:9",
+      "cluster_name": "Prochlorococcus MED4 cluster 9 (30 genes)",
+      "cluster_type": "time_course",
+      "membership_score": null,
+      "analysis_id": "clustering_analysis:ismej.2011.49:med4_iron_response_clusters",
+      "analysis_name": "MED4 iron-response hierarchical clusters (Thompson 2011 Fig 3)",
+      "treatment_type": [
+        "iron"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "cluster_method": "Hierarchical clustering (paper Figure 3)",
+      "member_count": 27,
+      "cluster_functional_description": "Includes genes involved in sulfur metabolism (cysD), heme synthesis (hemA), dehydrogenases, and several small RNAs, indicating diverse metabolic functions during iron stress.",
+      "cluster_expression_dynamics": "gradual increase",
+      "cluster_temporal_pattern": "Genes show differential expression during iron starvation and recovery, with dynamic regulation.",
+      "treatment": "Iron starvation (-Fe) and rescue (+Fe added at 49h) time course; samples at 0/12/24/48h plus rescue R",
+      "light_condition": "continuous light",
+      "experimental_context": "Prochlorococcus MED4 in PRO99 (trace-metal clean) at 21C under continuous light at 27 umol photons m-2 s-1; clusters group genes by temporal expression profile across the full -Fe/+Fe time course",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "cluster_id": "cluster:journal.pone.0005135:med4_diel_clusters:1",
+      "cluster_name": "Prochlorococcus cluster 1 (photosystem I and II)",
+      "cluster_type": "diel",
+      "membership_score": 0.974068186,
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "analysis_name": "MED4 diel cycling expression clusters",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic",
+        "diel"
+      ],
+      "cluster_method": "Soft clustering (Mfuzz, c=16, m=1.25)",
+      "member_count": 57,
+      "cluster_functional_description": "Enriched for photosystem I and II components (p=1.50E-09 and 2.50E-05 respectively). Includes genes related to photosystem I and II such as psbA, psbD, and psaA.",
+      "cluster_expression_dynamics": "peaks midday",
+      "cluster_temporal_pattern": "Genes peak in expression around mid-day (8.3 h in the paper^s time scale) with 24h periodicity, co-varying with light intensity.",
+      "treatment": "Simulated diel light-dark cycle (14h light : 10h dark) over 48 hours",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Axenic Prochlorococcus MED4 in Sargasso Seawater-based Pro99 medium (10 mM HEPES pH 7.5) at 24C; 14:10 L:D cycle with gradual dawn/dusk transitions; max PAR ~232 umol quanta m-2 s-1; custom Affymetrix MD4-9313 GeneChip; 50 timepoints at 2h intervals over 48h; duplicate cultures sampled alternately; RMA-normalized; Fourier analysis (FDR<0.10) for periodicity; soft clustering via Mfuzz (c=16, m=1.25)",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "cluster_id": "cluster:msb4100087:med4_kmeans_nstarvation:7",
+      "cluster_name": "Prochlorococcus MED4 cluster 7 (42 genes)",
+      "cluster_type": "time_course",
+      "membership_score": null,
+      "analysis_id": "clustering_analysis:msb4100087:med4_kmeans_nstarvation",
+      "analysis_name": "MED4 K-means N-starvation clusters",
+      "treatment_type": [
+        "nitrogen"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "cluster_method": "K-means (K=9)",
+      "member_count": 42,
+      "cluster_functional_description": "Enriched for translation genes, strongly downregulated during nitrogen starvation, indicating repression of protein synthesis.",
+      "cluster_expression_dynamics": "late sustained repression",
+      "cluster_temporal_pattern": "Strongly downregulated during nitrogen starvation.",
+      "treatment": "N-starvation time course (0, 3, 6, 12, 24, 48h)",
+      "light_condition": "continuous light",
+      "experimental_context": "Custom Affymetrix microarray MD4-9313; MED4 cells in Pro99 medium under continuous light (27 \u00b5mol photons m-2 s-1, 24\u00b0C); sampled at 0, 3, 6, 12, 24, 48h post N-deprivation",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "cluster_id": "cluster:journal.pone.0005135:med4_diel_clusters:8",
+      "cluster_name": "Prochlorococcus cluster 8 (chaperones)",
+      "cluster_type": "diel",
+      "membership_score": 0.547736061,
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "analysis_name": "MED4 diel cycling expression clusters",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic",
+        "diel"
+      ],
+      "cluster_method": "Soft clustering (Mfuzz, c=16, m=1.25)",
+      "member_count": 87,
+      "cluster_functional_description": "Enriched for chaperone genes (7/14 genes, p=0.00023).",
+      "cluster_expression_dynamics": "peaks night",
+      "cluster_temporal_pattern": "Genes peak in expression near 21.0 hours after onset of dark with 24h periodicity.",
+      "treatment": "Simulated diel light-dark cycle (14h light : 10h dark) over 48 hours",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Axenic Prochlorococcus MED4 in Sargasso Seawater-based Pro99 medium (10 mM HEPES pH 7.5) at 24C; 14:10 L:D cycle with gradual dawn/dusk transitions; max PAR ~232 umol quanta m-2 s-1; custom Affymetrix MD4-9313 GeneChip; 50 timepoints at 2h intervals over 48h; duplicate cultures sampled alternately; RMA-normalized; Fourier analysis (FDR<0.10) for periodicity; soft clustering via Mfuzz (c=16, m=1.25)",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "cluster_id": "cluster:msb4100087:med4_kmeans_nstarvation:8",
+      "cluster_name": "Prochlorococcus MED4 cluster 8 (37 genes)",
+      "cluster_type": "time_course",
+      "membership_score": null,
+      "analysis_id": "clustering_analysis:msb4100087:med4_kmeans_nstarvation",
+      "analysis_name": "MED4 K-means N-starvation clusters",
+      "treatment_type": [
+        "nitrogen"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "cluster_method": "K-means (K=9)",
+      "member_count": 37,
+      "cluster_functional_description": "Enriched for photosynthesis and respiration genes, including photosystem I genes (psaBDEIJKLM). Strongly downregulated during nitrogen starvation.",
+      "cluster_expression_dynamics": "late sustained repression",
+      "cluster_temporal_pattern": "Strongly downregulated during nitrogen starvation, indicating repression of photosynthesis genes.",
+      "treatment": "N-starvation time course (0, 3, 6, 12, 24, 48h)",
+      "light_condition": "continuous light",
+      "experimental_context": "Custom Affymetrix microarray MD4-9313; MED4 cells in Pro99 medium under continuous light (27 \u00b5mol photons m-2 s-1, 24\u00b0C); sampled at 0, 3, 6, 12, 24, 48h post N-deprivation",
+      "p_value": null
+    },
+    {
+      "locus_tag": "PMM1683",
+      "gene_name": null,
+      "cluster_id": "cluster:journal.pone.0005135:med4_diel_clusters:17",
+      "cluster_name": "Prochlorococcus cluster 17",
+      "cluster_type": "diel",
+      "membership_score": 1.0,
+      "analysis_id": "clustering_analysis:journal.pone.0005135:med4_diel_clusters",
+      "analysis_name": "MED4 diel cycling expression clusters",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic",
+        "diel"
+      ],
+      "cluster_method": "Soft clustering (Mfuzz, c=16, m=1.25)",
+      "member_count": 136,
+      "cluster_functional_description": null,
+      "cluster_expression_dynamics": null,
+      "cluster_temporal_pattern": null,
+      "treatment": "Simulated diel light-dark cycle (14h light : 10h dark) over 48 hours",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Axenic Prochlorococcus MED4 in Sargasso Seawater-based Pro99 medium (10 mM HEPES pH 7.5) at 24C; 14:10 L:D cycle with gradual dawn/dusk transitions; max PAR ~232 umol quanta m-2 s-1; custom Affymetrix MD4-9313 GeneChip; 50 timepoints at 2h intervals over 48h; duplicate cultures sampled alternately; RMA-normalized; Fourier analysis (FDR<0.10) for periodicity; soft clustering via Mfuzz (c=16, m=1.25)",
+      "p_value": null
+    }
+  ]
+}

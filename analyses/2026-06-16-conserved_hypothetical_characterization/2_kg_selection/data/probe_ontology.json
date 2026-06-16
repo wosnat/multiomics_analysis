@@ -1,0 +1,540 @@
+{
+  "total_matching": 35,
+  "total_genes": 5,
+  "total_terms": 24,
+  "by_ontology": [
+    {
+      "ontology_type": "cyanorak_role",
+      "term_count": 7,
+      "gene_count": 5
+    },
+    {
+      "ontology_type": "cog_category",
+      "term_count": 5,
+      "gene_count": 5
+    },
+    {
+      "ontology_type": "tigr_role",
+      "term_count": 5,
+      "gene_count": 5
+    },
+    {
+      "ontology_type": "go_bp",
+      "term_count": 4,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "go_mf",
+      "term_count": 4,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "signal_peptide_type",
+      "term_count": 3,
+      "gene_count": 3
+    },
+    {
+      "ontology_type": "brite",
+      "term_count": 2,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "go_cc",
+      "term_count": 2,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "kegg",
+      "term_count": 1,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "pfam",
+      "term_count": 1,
+      "gene_count": 1
+    },
+    {
+      "ontology_type": "subcellular_localization",
+      "term_count": 1,
+      "gene_count": 1
+    }
+  ],
+  "by_term": [
+    {
+      "term_id": "cog.category:S",
+      "term_name": "Function unknown",
+      "level": 0,
+      "count": 4,
+      "ontology_type": "cog_category"
+    },
+    {
+      "term_id": "cyanorak.role:R.2",
+      "term_name": "Other > Conserved hypothetical proteins",
+      "level": 1,
+      "count": 4,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "term_id": "tigr.role:156",
+      "term_name": "Hypothetical proteins / Conserved",
+      "level": 0,
+      "count": 4,
+      "ontology_type": "tigr_role"
+    },
+    {
+      "term_id": "signalp_SP",
+      "term_name": "Signal peptide (Sec/SPI)",
+      "level": 0,
+      "count": 3,
+      "ontology_type": "signal_peptide_type"
+    },
+    {
+      "term_id": "kegg.brite:ko03110.A1.B5",
+      "term_name": "HSP60 / Chaperonin",
+      "level": 1,
+      "count": 1,
+      "tree": "chaperones",
+      "tree_code": "ko03110",
+      "ontology_type": "brite"
+    },
+    {
+      "term_id": "kegg.brite:ko01000.A5.B6.C1.D7",
+      "term_name": "5.6.1.7  chaperonin ATPase",
+      "level": 3,
+      "count": 1,
+      "tree": "enzymes",
+      "tree_code": "ko01000",
+      "ontology_type": "brite"
+    },
+    {
+      "term_id": "cog.category:O",
+      "term_name": "Post-translational modification, protein turnover, chaperones",
+      "level": 0,
+      "count": 1,
+      "ontology_type": "cog_category"
+    },
+    {
+      "term_id": "cyanorak.role:L.3",
+      "term_name": "Protein fate > Protein folding and stabilization",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "term_id": "cyanorak.role:D.4",
+      "term_name": "Cellular processes > Chaperones",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "term_id": "cyanorak.role:D.1.9",
+      "term_name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "term_id": "go:0051301",
+      "term_name": "cell division",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "go_bp"
+    },
+    {
+      "term_id": "go:0007049",
+      "term_name": "cell cycle",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "go_bp"
+    },
+    {
+      "term_id": "go:0009408",
+      "term_name": "response to heat",
+      "level": 3,
+      "count": 1,
+      "ontology_type": "go_bp"
+    },
+    {
+      "term_id": "go:0042026",
+      "term_name": "protein refolding",
+      "level": 3,
+      "count": 1,
+      "ontology_type": "go_bp"
+    },
+    {
+      "term_id": "go:0005737",
+      "term_name": "cytoplasm",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "go_cc"
+    },
+    {
+      "term_id": "go:1990220",
+      "term_name": "GroEL-GroES complex",
+      "level": 4,
+      "count": 1,
+      "ontology_type": "go_cc"
+    },
+    {
+      "term_id": "go:0005524",
+      "term_name": "ATP binding",
+      "level": 4,
+      "count": 1,
+      "ontology_type": "go_mf"
+    },
+    {
+      "term_id": "go:0051082",
+      "term_name": "unfolded protein binding",
+      "level": 3,
+      "count": 1,
+      "ontology_type": "go_mf"
+    },
+    {
+      "term_id": "go:0016887",
+      "term_name": "ATP hydrolysis activity",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "go_mf"
+    },
+    {
+      "term_id": "go:0140662",
+      "term_name": "ATP-dependent protein folding chaperone",
+      "level": 2,
+      "count": 1,
+      "ontology_type": "go_mf"
+    },
+    {
+      "term_id": "kegg.orthology:K04077",
+      "term_name": "groEL, HSPD1, HSP60, CPN60; chaperonin GroEL [EC:5.6.1.7]",
+      "level": 3,
+      "count": 1,
+      "ontology_type": "kegg"
+    },
+    {
+      "term_id": "pfam:PF00118",
+      "term_name": "TCP-1/cpn60 chaperonin family",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "psortb_Cytoplasmic",
+      "term_name": "Cytoplasmic",
+      "level": 0,
+      "count": 1,
+      "ontology_type": "subcellular_localization"
+    },
+    {
+      "term_id": "tigr.role:95",
+      "term_name": "Protein fate / Protein folding and stabilization",
+      "level": 0,
+      "count": 1,
+      "ontology_type": "tigr_role"
+    }
+  ],
+  "terms_per_gene_min": 3,
+  "terms_per_gene_max": 20,
+  "terms_per_gene_median": 4,
+  "returned": 35,
+  "offset": 0,
+  "truncated": false,
+  "not_found": [],
+  "no_terms": [],
+  "results": [
+    {
+      "locus_tag": "PMM0872",
+      "term_id": "cog.category:S",
+      "term_name": "Function unknown",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "cog_category"
+    },
+    {
+      "locus_tag": "PMM0872",
+      "term_id": "cyanorak.role:R.2",
+      "term_name": "Other > Conserved hypothetical proteins",
+      "level": 1,
+      "is_informative": false,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM0872",
+      "term_id": "signalp_SP",
+      "term_name": "Signal peptide (Sec/SPI)",
+      "level": 0,
+      "is_informative": true,
+      "signal_peptide_probability": 0.759655,
+      "signal_peptide_cleavage_site": 19,
+      "signal_peptide_cleavage_probability": 0.4903,
+      "ontology_type": "signal_peptide_type"
+    },
+    {
+      "locus_tag": "PMM0872",
+      "term_id": "tigr.role:156",
+      "term_name": "Hypothetical proteins / Conserved",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "tigr_role"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "term_id": "cog.category:S",
+      "term_name": "Function unknown",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "cog_category"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "term_id": "cyanorak.role:R.2",
+      "term_name": "Other > Conserved hypothetical proteins",
+      "level": 1,
+      "is_informative": false,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "term_id": "signalp_SP",
+      "term_name": "Signal peptide (Sec/SPI)",
+      "level": 0,
+      "is_informative": true,
+      "signal_peptide_probability": 0.999192,
+      "signal_peptide_cleavage_site": 23,
+      "signal_peptide_cleavage_probability": 0.978,
+      "ontology_type": "signal_peptide_type"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "term_id": "tigr.role:156",
+      "term_name": "Hypothetical proteins / Conserved",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "tigr_role"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "term_id": "cog.category:S",
+      "term_name": "Function unknown",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "cog_category"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "term_id": "cyanorak.role:R.2",
+      "term_name": "Other > Conserved hypothetical proteins",
+      "level": 1,
+      "is_informative": false,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "term_id": "signalp_SP",
+      "term_name": "Signal peptide (Sec/SPI)",
+      "level": 0,
+      "is_informative": true,
+      "signal_peptide_probability": 0.998268,
+      "signal_peptide_cleavage_site": 22,
+      "signal_peptide_cleavage_probability": 0.8946,
+      "ontology_type": "signal_peptide_type"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "term_id": "tigr.role:156",
+      "term_name": "Hypothetical proteins / Conserved",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "tigr_role"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "cog.category:O",
+      "term_name": "Post-translational modification, protein turnover, chaperones",
+      "level": 0,
+      "is_informative": true,
+      "ontology_type": "cog_category"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "cyanorak.role:D.1.9",
+      "term_name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "cyanorak.role:D.4",
+      "term_name": "Cellular processes > Chaperones",
+      "level": 1,
+      "is_informative": true,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "cyanorak.role:L.3",
+      "term_name": "Protein fate > Protein folding and stabilization",
+      "level": 1,
+      "is_informative": true,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0005524",
+      "term_name": "ATP binding",
+      "level": 4,
+      "is_informative": true,
+      "ontology_type": "go_mf"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0005737",
+      "term_name": "cytoplasm",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "go_cc"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0007049",
+      "term_name": "cell cycle",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "go_bp"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0009408",
+      "term_name": "response to heat",
+      "level": 3,
+      "is_informative": true,
+      "ontology_type": "go_bp"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0016887",
+      "term_name": "ATP hydrolysis activity",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "go_mf"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0042026",
+      "term_name": "protein refolding",
+      "level": 3,
+      "is_informative": true,
+      "ontology_type": "go_bp"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0051082",
+      "term_name": "unfolded protein binding",
+      "level": 3,
+      "is_informative": true,
+      "ontology_type": "go_mf"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0051301",
+      "term_name": "cell division",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "go_bp"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:0140662",
+      "term_name": "ATP-dependent protein folding chaperone",
+      "level": 2,
+      "is_informative": true,
+      "ontology_type": "go_mf"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "go:1990220",
+      "term_name": "GroEL-GroES complex",
+      "level": 4,
+      "is_informative": true,
+      "ontology_type": "go_cc"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "kegg.brite:ko01000.A5.B6.C1.D7",
+      "term_name": "5.6.1.7  chaperonin ATPase",
+      "level": 3,
+      "tree": "enzymes",
+      "tree_code": "ko01000",
+      "is_informative": true,
+      "ontology_type": "brite"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "kegg.brite:ko03110.A1.B5",
+      "term_name": "HSP60 / Chaperonin",
+      "level": 1,
+      "tree": "chaperones",
+      "tree_code": "ko03110",
+      "is_informative": true,
+      "ontology_type": "brite"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "kegg.orthology:K04077",
+      "term_name": "groEL, HSPD1, HSP60, CPN60; chaperonin GroEL [EC:5.6.1.7]",
+      "level": 3,
+      "is_informative": true,
+      "ontology_type": "kegg"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "pfam:PF00118",
+      "term_name": "TCP-1/cpn60 chaperonin family",
+      "level": 1,
+      "is_informative": true,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "psortb_Cytoplasmic",
+      "term_name": "Cytoplasmic",
+      "level": 0,
+      "is_informative": true,
+      "localization_score": 9.97,
+      "ontology_type": "subcellular_localization"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "term_id": "tigr.role:95",
+      "term_name": "Protein fate / Protein folding and stabilization",
+      "level": 0,
+      "is_informative": true,
+      "ontology_type": "tigr_role"
+    },
+    {
+      "locus_tag": "PMM1683",
+      "term_id": "cog.category:S",
+      "term_name": "Function unknown",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "cog_category"
+    },
+    {
+      "locus_tag": "PMM1683",
+      "term_id": "cyanorak.role:R.2",
+      "term_name": "Other > Conserved hypothetical proteins",
+      "level": 1,
+      "is_informative": false,
+      "ontology_type": "cyanorak_role"
+    },
+    {
+      "locus_tag": "PMM1683",
+      "term_id": "tigr.role:156",
+      "term_name": "Hypothetical proteins / Conserved",
+      "level": 0,
+      "is_informative": false,
+      "ontology_type": "tigr_role"
+    }
+  ]
+}

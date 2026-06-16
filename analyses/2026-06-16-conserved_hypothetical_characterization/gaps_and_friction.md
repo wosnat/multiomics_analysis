@@ -3,6 +3,19 @@
 Transitional log of methodology / KG / tooling friction encountered during this
 analysis. Distinct from decisions (which live in each step's `notebook.md`).
 
+## Step 2
+
+- **2026-06-16 — `to_dataframe` drops the polymorphic derived-metric `value` column.**
+  `gene_derived_metrics` returns a `value` whose type varies (float / 'true'/'false' /
+  category string); `to_dataframe` flattening warns and drops it (also drops nested list
+  columns `cyanorak_roles`, `cog_categories`, `discussed_in_publications`). The raw JSON
+  dump preserves everything. Mitigation: step-5 derived-metric extraction reads `value`
+  from `result["results"]` directly, not from the flattened CSV.
+- **2026-06-16 — `docs://guide/python_api` resource raises a charmap decode error** when
+  read through `ReadMcpResourceTool` (byte 0x90). Fell back to the skill's
+  `references/python-api-guide.md`, which carries the scripting discipline. Worth a fix
+  upstream (non-utf8 byte in the shipped doc).
+
 ## Step 1
 
 - **2026-06-16 — KG release moved between analyses.** The selection analysis that

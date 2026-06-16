@@ -1,0 +1,403 @@
+{
+  "total_matching": 30,
+  "returned": 30,
+  "truncated": false,
+  "anchors": [
+    {
+      "locus_tag": "PMM0872",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 828956,
+      "end": 829204,
+      "strand": "+",
+      "product": "uncharacterized conserved secreted protein",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    },
+    {
+      "locus_tag": "PMM0983",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 938610,
+      "end": 939011,
+      "strand": "-",
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    },
+    {
+      "locus_tag": "PMM1028",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 972906,
+      "end": 973154,
+      "strand": "+",
+      "product": "uncharacterized conserved secreted protein",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    },
+    {
+      "locus_tag": "PMM1436",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 1373640,
+      "end": 1375274,
+      "strand": "-",
+      "product": "chaperonin GroEL",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    },
+    {
+      "locus_tag": "PMM1683",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 1616997,
+      "end": 1617329,
+      "strand": "-",
+      "product": "HesB-like domain-containing protein",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    }
+  ],
+  "by_organism": [
+    {
+      "organism_name": "Prochlorococcus MED4",
+      "count": 30
+    }
+  ],
+  "not_found": [],
+  "not_matched": [],
+  "warnings": [],
+  "results": [
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM0869",
+      "rank_offset": -3,
+      "bp_gap": 2875,
+      "strand": "-",
+      "same_strand": false,
+      "product": "30S ribosomal protein S18",
+      "gene_name": "rpsR",
+      "gene_category": "Translation"
+    },
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM0870",
+      "rank_offset": -2,
+      "bp_gap": 2672,
+      "strand": "-",
+      "same_strand": false,
+      "product": "50S ribosomal protein L33",
+      "gene_name": "rpmG",
+      "gene_category": "Translation"
+    },
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM0871",
+      "rank_offset": -1,
+      "bp_gap": 105,
+      "strand": "+",
+      "same_strand": true,
+      "product": "phenylalanine--tRNA ligase, beta subunit",
+      "gene_name": "pheT",
+      "gene_category": "Translation"
+    },
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM0873",
+      "rank_offset": 1,
+      "bp_gap": 416,
+      "strand": "-",
+      "same_strand": false,
+      "product": "DnaJ type IV chaperone protein",
+      "gene_name": null,
+      "gene_category": "Post-translational modification"
+    },
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM1915",
+      "rank_offset": 2,
+      "bp_gap": 1573,
+      "strand": "+",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM0872",
+      "neighbor_locus_tag": "PMM0874",
+      "rank_offset": 3,
+      "bp_gap": 1753,
+      "strand": "-",
+      "same_strand": false,
+      "product": "ATP adenylyltransferase",
+      "gene_name": "apa2",
+      "gene_category": "Nucleotide metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM0980",
+      "rank_offset": -3,
+      "bp_gap": 2070,
+      "strand": "-",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM0981",
+      "rank_offset": -2,
+      "bp_gap": 769,
+      "strand": "-",
+      "same_strand": true,
+      "product": "sulfite exporter TauE/SafE family protein",
+      "gene_name": null,
+      "gene_category": "Transport"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM0982",
+      "rank_offset": -1,
+      "bp_gap": 290,
+      "strand": "+",
+      "same_strand": false,
+      "product": "HNH endonuclease",
+      "gene_name": null,
+      "gene_category": "Replication and repair"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM1924",
+      "rank_offset": 1,
+      "bp_gap": 176,
+      "strand": "+",
+      "same_strand": false,
+      "product": "Conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM1925",
+      "rank_offset": 2,
+      "bp_gap": 432,
+      "strand": "+",
+      "same_strand": false,
+      "product": "uncharacterized conserved membrane protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM0983",
+      "neighbor_locus_tag": "PMM0984",
+      "rank_offset": 3,
+      "bp_gap": 880,
+      "strand": "+",
+      "same_strand": false,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1027",
+      "rank_offset": -3,
+      "bp_gap": 816,
+      "strand": "+",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Amino acid metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1948",
+      "rank_offset": -2,
+      "bp_gap": 321,
+      "strand": "+",
+      "same_strand": true,
+      "product": "Conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1949",
+      "rank_offset": -1,
+      "bp_gap": 9,
+      "strand": "+",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1950",
+      "rank_offset": 1,
+      "bp_gap": 93,
+      "strand": "+",
+      "same_strand": true,
+      "product": "Conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1029",
+      "rank_offset": 2,
+      "bp_gap": 248,
+      "strand": "-",
+      "same_strand": false,
+      "product": "ABC-type Mn2+/Zn2+ transport system, permease component",
+      "gene_name": null,
+      "gene_category": "Transport"
+    },
+    {
+      "anchor_locus_tag": "PMM1028",
+      "neighbor_locus_tag": "PMM1030",
+      "rank_offset": 3,
+      "bp_gap": 1093,
+      "strand": "+",
+      "same_strand": true,
+      "product": "zinc uptake regulator family protein",
+      "gene_name": "zur",
+      "gene_category": "Regulatory functions"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1433",
+      "rank_offset": -3,
+      "bp_gap": 2102,
+      "strand": "-",
+      "same_strand": true,
+      "product": "bifunctional pyrimidine operon regulatory protein/uracil phosphoribosyltransferase",
+      "gene_name": "pyrR",
+      "gene_category": "Transcription"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1434",
+      "rank_offset": -2,
+      "bp_gap": 340,
+      "strand": "+",
+      "same_strand": false,
+      "product": "2,3-bisphosphoglycerate-independent phosphoglycerate mutase",
+      "gene_name": "gpmI",
+      "gene_category": "Carbohydrate metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1435",
+      "rank_offset": -1,
+      "bp_gap": 90,
+      "strand": "+",
+      "same_strand": false,
+      "product": "preprotein translocase, SecG subunit",
+      "gene_name": "secG",
+      "gene_category": "Post-translational modification"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1437",
+      "rank_offset": 1,
+      "bp_gap": 51,
+      "strand": "-",
+      "same_strand": true,
+      "product": "co-chaperonin GroES",
+      "gene_name": "groES",
+      "gene_category": "Stress response and adaptation"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1438",
+      "rank_offset": 2,
+      "bp_gap": 583,
+      "strand": "+",
+      "same_strand": false,
+      "product": "ATP synthase beta chain",
+      "gene_name": "atpB",
+      "gene_category": "Photosynthesis"
+    },
+    {
+      "anchor_locus_tag": "PMM1436",
+      "neighbor_locus_tag": "PMM1439",
+      "rank_offset": 3,
+      "bp_gap": 2092,
+      "strand": "+",
+      "same_strand": false,
+      "product": "ATP synthase epsilon chain",
+      "gene_name": "atpE",
+      "gene_category": "Photosynthesis"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1680",
+      "rank_offset": -3,
+      "bp_gap": 3451,
+      "strand": "+",
+      "same_strand": false,
+      "product": "conserved hypothetical protein specific to marine picocyanobacteria",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1681",
+      "rank_offset": -2,
+      "bp_gap": 2850,
+      "strand": "-",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1682",
+      "rank_offset": -1,
+      "bp_gap": 92,
+      "strand": "-",
+      "same_strand": true,
+      "product": "valyl-tRNA synthetase",
+      "gene_name": "valS",
+      "gene_category": "Translation"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1684",
+      "rank_offset": 1,
+      "bp_gap": 186,
+      "strand": "+",
+      "same_strand": false,
+      "product": "nucleoside triphosphate pyrophosphohydrolase",
+      "gene_name": "mazG",
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1685",
+      "rank_offset": 2,
+      "bp_gap": 1037,
+      "strand": "+",
+      "same_strand": false,
+      "product": "spermidine synthase",
+      "gene_name": "speE",
+      "gene_category": "Amino acid metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM1683",
+      "neighbor_locus_tag": "PMM1686",
+      "rank_offset": 3,
+      "bp_gap": 1890,
+      "strand": "+",
+      "same_strand": false,
+      "product": "agmatinase",
+      "gene_name": "speB",
+      "gene_category": "Carbohydrate metabolism"
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "total_matching": 24,
+  "total_derived_metrics": 16,
+  "genes_with_metrics": 5,
+  "genes_without_metrics": 0,
+  "not_found": [],
+  "not_matched": [],
+  "by_value_kind": [
+    {
+      "value_kind": "categorical",
+      "count": 14
+    },
+    {
+      "value_kind": "numeric",
+      "count": 7
+    },
+    {
+      "value_kind": "boolean",
+      "count": 3
+    }
+  ],
+  "by_metric_type": [
+    {
+      "metric_type": "pangenome_membership",
+      "count": 5
+    },
+    {
+      "metric_type": "expression_level_class",
+      "count": 5
+    },
+    {
+      "metric_type": "rapid_recovery_low_co2_no_o2_shock",
+      "count": 1
+    },
+    {
+      "metric_type": "rapid_recovery_low_co2_shock",
+      "count": 1
+    },
+    {
+      "metric_type": "expression_change_low_co2_no_o2_shock",
+      "count": 1
+    },
+    {
+      "metric_type": "expression_change_low_co2_shock",
+      "count": 1
+    },
+    {
+      "metric_type": "expression_change_high_light_shock",
+      "count": 1
+    },
+    {
+      "metric_type": "vesicle_proteome_member",
+      "count": 1
+    },
+    {
+      "metric_type": "predicted_subcellular_localization",
+      "count": 1
+    },
+    {
+      "metric_type": "damping_ratio",
+      "count": 1
+    },
+    {
+      "metric_type": "diel_amplitude_protein_log2",
+      "count": 1
+    },
+    {
+      "metric_type": "diel_amplitude_transcript_log2",
+      "count": 1
+    },
+    {
+      "metric_type": "protein_transcript_lag_h",
+      "count": 1
+    },
+    {
+      "metric_type": "peak_time_protein_h",
+      "count": 1
+    },
+    {
+      "metric_type": "peak_time_transcript_h",
+      "count": 1
+    },
+    {
+      "metric_type": "mascot_identification_probability",
+      "count": 1
+    }
+  ],
+  "by_metric": [
+    {
+      "count": 5,
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "metric_type": "pangenome_membership",
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership"
+    },
+    {
+      "count": 5,
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "metric_type": "expression_level_class",
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class"
+    },
+    {
+      "count": 1,
+      "value_kind": "boolean",
+      "name": "MED4 rapid recovery under -CO2/-O2 shock (Bagby 2015 Table S2)",
+      "metric_type": "rapid_recovery_low_co2_no_o2_shock",
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2_no_o2:rapid_recovery_low_co2_no_o2_shock"
+    },
+    {
+      "count": 1,
+      "value_kind": "boolean",
+      "name": "MED4 rapid recovery under -CO2 shock (Bagby 2015 Table S2)",
+      "metric_type": "rapid_recovery_low_co2_shock",
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:rapid_recovery_low_co2_shock"
+    },
+    {
+      "count": 1,
+      "value_kind": "categorical",
+      "name": "MED4 expression change under -CO2/-O2 shock (Bagby 2015 Table S2)",
+      "metric_type": "expression_change_low_co2_no_o2_shock",
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2_no_o2:expression_change_low_co2_no_o2_shock"
+    },
+    {
+      "count": 1,
+      "value_kind": "categorical",
+      "name": "MED4 expression change under -CO2 shock (Bagby 2015 Table S2)",
+      "metric_type": "expression_change_low_co2_shock",
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:expression_change_low_co2_shock"
+    },
+    {
+      "count": 1,
+      "value_kind": "categorical",
+      "name": "MED4 expression change under high light shock (Bagby 2015 Table S2)",
+      "metric_type": "expression_change_high_light_shock",
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:expression_change_high_light_shock"
+    },
+    {
+      "count": 1,
+      "value_kind": "boolean",
+      "name": "MED4 protein detected in vesicle proteome (Biller 2014 Table S2)",
+      "metric_type": "vesicle_proteome_member",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:vesicle_proteome_member"
+    },
+    {
+      "count": 1,
+      "value_kind": "categorical",
+      "name": "MED4 vesicle protein PSORTb predicted localization (Biller 2014 Table S2)",
+      "metric_type": "predicted_subcellular_localization",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:predicted_subcellular_localization"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Transcript:protein amplitude ratio",
+      "metric_type": "damping_ratio",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:damping_ratio"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Protein amplitude (log2)",
+      "metric_type": "diel_amplitude_protein_log2",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:diel_amplitude_protein_log2"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Transcript amplitude (log2)",
+      "metric_type": "diel_amplitude_transcript_log2",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:diel_amplitude_transcript_log2"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Protein-transcript lag (h)",
+      "metric_type": "protein_transcript_lag_h",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:protein_transcript_lag_h"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Time of peak protein abundance (h)",
+      "metric_type": "peak_time_protein_h",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:peak_time_protein_h"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "Time of peak transcript abundance (h)",
+      "metric_type": "peak_time_transcript_h",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:peak_time_transcript_h"
+    },
+    {
+      "count": 1,
+      "value_kind": "numeric",
+      "name": "MED4 vesicle protein Mascot identification probability (Biller 2014 Table S2)",
+      "metric_type": "mascot_identification_probability",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:mascot_identification_probability"
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "whole_cell",
+      "count": 21
+    },
+    {
+      "compartment": "vesicle",
+      "count": 3
+    }
+  ],
+  "by_treatment_type": [
+    {
+      "treatment_type": "growth_phase",
+      "count": 10
+    },
+    {
+      "treatment_type": "diel",
+      "count": 6
+    },
+    {
+      "treatment_type": "carbon",
+      "count": 5
+    },
+    {
+      "treatment_type": "compartment",
+      "count": 3
+    }
+  ],
+  "by_background_factors": [
+    {
+      "background_factor": "axenic",
+      "count": 24
+    },
+    {
+      "background_factor": "light",
+      "count": 18
+    }
+  ],
+  "by_publication": [
+    {
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "count": 10
+    },
+    {
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "count": 6
+    },
+    {
+      "publication_doi": "10.1038/ismej.2015.36",
+      "count": 5
+    },
+    {
+      "publication_doi": "10.1126/science.1243457",
+      "count": 3
+    }
+  ],
+  "returned": 24,
+  "offset": 0,
+  "truncated": false,
+  "results": [
+    {
+      "locus_tag": "PMM0872",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class",
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "value": "VEG",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_level_class",
+      "field_description": "Per-gene expression-level class assigned from RPKM quartiles aggregated across 10 RNA-seq samples (MED4 in Pro99 and AMP media, exponential and log-phase; 21C, continuous light at 28 umol quanta m-2 s-1). Class meanings reported in Wang 2014: VEG = very highly expressed (top RPKM quartile across conditions); HEG = highly expressed, enriched for COG \"C\" energy production and conversion, \"J\" translation and ribosomal structure, and \"O\" protein modification, folding and turnover (Figure 4c) and showing significantly lower nonsynonymous substitution rate (Ka) than MEG or LEG (P<0.001, Figure 3a); MEG = moderately expressed, significantly enriched for essential genes with homologs in the Database of Essential Genes (DEG-hit rate, P<0.001, Figure 4b); LEG = lowly expressed, slightly enriched for COG \"R\" general function (P=0.023); NEG = not expressed, under-represented in the core genome (1.5% core vs 6.6% flexible, P<0.001, Figure 3c); -- = unclassified (RPKM did not fit any quartile bin).",
+      "unit": "",
+      "allowed_categories": [
+        "VEG",
+        "HEG",
+        "MEG",
+        "LEG",
+        "NEG",
+        "--"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM0872",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership",
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "value": "Flexible",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "pangenome_membership",
+      "field_description": "Pangenome membership for each MED4 CDS gene. Core = present across sequenced Prochlorococcus genomes (Prochlorococcus core gene set); Flexible = strain-specific or variably present across Prochlorococcus genomes (flexible/accessory gene set). Wang 2014 reports that the core genome contains significantly fewer NEG and VEG genes than the flexible genome (NEG: 1.5% < 6.6%; VEG: 49.6% < 64.6%; both P<0.001, Figure 3c), indicating that conserved core genes cluster around moderate expression while flexible genes are enriched at the high and low extremes.",
+      "unit": "",
+      "allowed_categories": [
+        "Core",
+        "Flexible"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class",
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "value": "MEG",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_level_class",
+      "field_description": "Per-gene expression-level class assigned from RPKM quartiles aggregated across 10 RNA-seq samples (MED4 in Pro99 and AMP media, exponential and log-phase; 21C, continuous light at 28 umol quanta m-2 s-1). Class meanings reported in Wang 2014: VEG = very highly expressed (top RPKM quartile across conditions); HEG = highly expressed, enriched for COG \"C\" energy production and conversion, \"J\" translation and ribosomal structure, and \"O\" protein modification, folding and turnover (Figure 4c) and showing significantly lower nonsynonymous substitution rate (Ka) than MEG or LEG (P<0.001, Figure 3a); MEG = moderately expressed, significantly enriched for essential genes with homologs in the Database of Essential Genes (DEG-hit rate, P<0.001, Figure 4b); LEG = lowly expressed, slightly enriched for COG \"R\" general function (P=0.023); NEG = not expressed, under-represented in the core genome (1.5% core vs 6.6% flexible, P<0.001, Figure 3c); -- = unclassified (RPKM did not fit any quartile bin).",
+      "unit": "",
+      "allowed_categories": [
+        "VEG",
+        "HEG",
+        "MEG",
+        "LEG",
+        "NEG",
+        "--"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership",
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "value": "Flexible",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "pangenome_membership",
+      "field_description": "Pangenome membership for each MED4 CDS gene. Core = present across sequenced Prochlorococcus genomes (Prochlorococcus core gene set); Flexible = strain-specific or variably present across Prochlorococcus genomes (flexible/accessory gene set). Wang 2014 reports that the core genome contains significantly fewer NEG and VEG genes than the flexible genome (NEG: 1.5% < 6.6%; VEG: 49.6% < 64.6%; both P<0.001, Figure 3c), indicating that conserved core genes cluster around moderate expression while flexible genes are enriched at the high and low extremes.",
+      "unit": "",
+      "allowed_categories": [
+        "Core",
+        "Flexible"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:rapid_recovery_low_co2_shock",
+      "value_kind": "boolean",
+      "name": "MED4 rapid recovery under -CO2 shock (Bagby 2015 Table S2)",
+      "value": "false",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "rapid_recovery_low_co2_shock",
+      "field_description": "Rapid recovery under -CO2 shock (cluster 3 membership). Empty = no rapid recovery.",
+      "unit": "",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "carbon"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1038/ismej.2015.36",
+      "treatment": "Low CO2 (0.004% CO2 / 21% O2)",
+      "light_condition": "continuous light",
+      "experimental_context": "Pro99 medium, mid-exponential phase, constant light 60 umol photons m-2 s-1, 21C. Highest FC across timepoints (3h, 6h, 9h, 12h, 18h, 24h)."
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2_no_o2:rapid_recovery_low_co2_no_o2_shock",
+      "value_kind": "boolean",
+      "name": "MED4 rapid recovery under -CO2/-O2 shock (Bagby 2015 Table S2)",
+      "value": "false",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "rapid_recovery_low_co2_no_o2_shock",
+      "field_description": "Rapid recovery under -CO2/-O2 shock (cluster 3 membership). Empty = no rapid recovery.",
+      "unit": "",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "carbon"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1038/ismej.2015.36",
+      "treatment": "Low CO2 and no O2 (0.004% CO2 / 0% O2)",
+      "light_condition": "continuous light",
+      "experimental_context": "Pro99 medium, mid-exponential phase, constant light 60 umol photons m-2 s-1, 21C. Highest FC across timepoints (3h, 6h, 9h, 12h, 18h, 24h)."
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class",
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "value": "MEG",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_level_class",
+      "field_description": "Per-gene expression-level class assigned from RPKM quartiles aggregated across 10 RNA-seq samples (MED4 in Pro99 and AMP media, exponential and log-phase; 21C, continuous light at 28 umol quanta m-2 s-1). Class meanings reported in Wang 2014: VEG = very highly expressed (top RPKM quartile across conditions); HEG = highly expressed, enriched for COG \"C\" energy production and conversion, \"J\" translation and ribosomal structure, and \"O\" protein modification, folding and turnover (Figure 4c) and showing significantly lower nonsynonymous substitution rate (Ka) than MEG or LEG (P<0.001, Figure 3a); MEG = moderately expressed, significantly enriched for essential genes with homologs in the Database of Essential Genes (DEG-hit rate, P<0.001, Figure 4b); LEG = lowly expressed, slightly enriched for COG \"R\" general function (P=0.023); NEG = not expressed, under-represented in the core genome (1.5% core vs 6.6% flexible, P<0.001, Figure 3c); -- = unclassified (RPKM did not fit any quartile bin).",
+      "unit": "",
+      "allowed_categories": [
+        "VEG",
+        "HEG",
+        "MEG",
+        "LEG",
+        "NEG",
+        "--"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership",
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "value": "Flexible",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "pangenome_membership",
+      "field_description": "Pangenome membership for each MED4 CDS gene. Core = present across sequenced Prochlorococcus genomes (Prochlorococcus core gene set); Flexible = strain-specific or variably present across Prochlorococcus genomes (flexible/accessory gene set). Wang 2014 reports that the core genome contains significantly fewer NEG and VEG genes than the flexible genome (NEG: 1.5% < 6.6%; VEG: 49.6% < 64.6%; both P<0.001, Figure 3c), indicating that conserved core genes cluster around moderate expression while flexible genes are enriched at the high and low extremes.",
+      "unit": "",
+      "allowed_categories": [
+        "Core",
+        "Flexible"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:expression_change_high_light_shock",
+      "value_kind": "categorical",
+      "name": "MED4 expression change under high light shock (Bagby 2015 Table S2)",
+      "value": "down",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_change_high_light_shock",
+      "field_description": "Direction of MED4 transcriptional response to high light shock at t=45 min, from prior literature (Steglich 2006, 2008). Concordance reference for the -CO2 shock gene set.",
+      "unit": "",
+      "allowed_categories": [
+        "up",
+        "down",
+        "-"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "carbon"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1038/ismej.2015.36",
+      "treatment": "Low CO2 (0.004% CO2 / 21% O2)",
+      "light_condition": "continuous light",
+      "experimental_context": "Pro99 medium, mid-exponential phase, constant light 60 umol photons m-2 s-1, 21C. Highest FC across timepoints (3h, 6h, 9h, 12h, 18h, 24h)."
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2:expression_change_low_co2_shock",
+      "value_kind": "categorical",
+      "name": "MED4 expression change under -CO2 shock (Bagby 2015 Table S2)",
+      "value": "down",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_change_low_co2_shock",
+      "field_description": "Direction of initial change under -CO2 shock as indicated by cluster membership (cluster 1 = up; clusters 2,3,4 = down).",
+      "unit": "",
+      "allowed_categories": [
+        "up",
+        "down",
+        "-"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "carbon"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1038/ismej.2015.36",
+      "treatment": "Low CO2 (0.004% CO2 / 21% O2)",
+      "light_condition": "continuous light",
+      "experimental_context": "Pro99 medium, mid-exponential phase, constant light 60 umol photons m-2 s-1, 21C. Highest FC across timepoints (3h, 6h, 9h, 12h, 18h, 24h)."
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:ismej.2015.36:s2_concordance_low_co2_no_o2:expression_change_low_co2_no_o2_shock",
+      "value_kind": "categorical",
+      "name": "MED4 expression change under -CO2/-O2 shock (Bagby 2015 Table S2)",
+      "value": "down",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_change_low_co2_no_o2_shock",
+      "field_description": "Direction of initial change under -CO2/-O2 shock as indicated by cluster membership (cluster 1 = up; clusters 2,3,4 = down).",
+      "unit": "",
+      "allowed_categories": [
+        "up",
+        "down",
+        "-"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "carbon"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1038/ismej.2015.36",
+      "treatment": "Low CO2 and no O2 (0.004% CO2 / 0% O2)",
+      "light_condition": "continuous light",
+      "experimental_context": "Pro99 medium, mid-exponential phase, constant light 60 umol photons m-2 s-1, 21C. Highest FC across timepoints (3h, 6h, 9h, 12h, 18h, 24h)."
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:vesicle_proteome_member",
+      "value_kind": "boolean",
+      "name": "MED4 protein detected in vesicle proteome (Biller 2014 Table S2)",
+      "value": "true",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "vesicle_proteome_member",
+      "field_description": "Boolean flag: protein identified in MED4 vesicle proteome by LC-MS/MS (Mascot >=97% identification probability with >=1 exclusive unique peptide).",
+      "unit": "",
+      "allowed_categories": null,
+      "compartment": "vesicle",
+      "treatment_type": [
+        "compartment"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1126/science.1243457",
+      "treatment": "Vesicle fraction (extracellular)",
+      "light_condition": "continuous light",
+      "experimental_context": "20 L axenic MED4 culture; vesicles isolated by tangential flow filtration + OptiPrep gradient; SDS-PAGE band, trypsin digest, LTQ LC-MS/MS, Mascot search; PSORTb subcellular-localization prediction. Table S2 lists the proteins identified at >=97% Mascot identification probability with at least one exclusive unique peptide."
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class",
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "value": "HEG",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_level_class",
+      "field_description": "Per-gene expression-level class assigned from RPKM quartiles aggregated across 10 RNA-seq samples (MED4 in Pro99 and AMP media, exponential and log-phase; 21C, continuous light at 28 umol quanta m-2 s-1). Class meanings reported in Wang 2014: VEG = very highly expressed (top RPKM quartile across conditions); HEG = highly expressed, enriched for COG \"C\" energy production and conversion, \"J\" translation and ribosomal structure, and \"O\" protein modification, folding and turnover (Figure 4c) and showing significantly lower nonsynonymous substitution rate (Ka) than MEG or LEG (P<0.001, Figure 3a); MEG = moderately expressed, significantly enriched for essential genes with homologs in the Database of Essential Genes (DEG-hit rate, P<0.001, Figure 4b); LEG = lowly expressed, slightly enriched for COG \"R\" general function (P=0.023); NEG = not expressed, under-represented in the core genome (1.5% core vs 6.6% flexible, P<0.001, Figure 3c); -- = unclassified (RPKM did not fit any quartile bin).",
+      "unit": "",
+      "allowed_categories": [
+        "VEG",
+        "HEG",
+        "MEG",
+        "LEG",
+        "NEG",
+        "--"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership",
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "value": "Core",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "pangenome_membership",
+      "field_description": "Pangenome membership for each MED4 CDS gene. Core = present across sequenced Prochlorococcus genomes (Prochlorococcus core gene set); Flexible = strain-specific or variably present across Prochlorococcus genomes (flexible/accessory gene set). Wang 2014 reports that the core genome contains significantly fewer NEG and VEG genes than the flexible genome (NEG: 1.5% < 6.6%; VEG: 49.6% < 64.6%; both P<0.001, Figure 3c), indicating that conserved core genes cluster around moderate expression while flexible genes are enriched at the high and low extremes.",
+      "unit": "",
+      "allowed_categories": [
+        "Core",
+        "Flexible"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:predicted_subcellular_localization",
+      "value_kind": "categorical",
+      "name": "MED4 vesicle protein PSORTb predicted localization (Biller 2014 Table S2)",
+      "value": "Cytoplasmic",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "predicted_subcellular_localization",
+      "field_description": "PSORTb-predicted subcellular localization for proteins in the MED4 vesicle proteome.",
+      "unit": "",
+      "allowed_categories": [
+        "Cytoplasmic",
+        "Cytoplasmic Membrane",
+        "Periplasmic",
+        "Outer Membrane",
+        "Extracellular",
+        "Unknown"
+      ],
+      "compartment": "vesicle",
+      "treatment_type": [
+        "compartment"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1126/science.1243457",
+      "treatment": "Vesicle fraction (extracellular)",
+      "light_condition": "continuous light",
+      "experimental_context": "20 L axenic MED4 culture; vesicles isolated by tangential flow filtration + OptiPrep gradient; SDS-PAGE band, trypsin digest, LTQ LC-MS/MS, Mascot search; PSORTb subcellular-localization prediction. Table S2 lists the proteins identified at >=97% Mascot identification probability with at least one exclusive unique peptide."
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:damping_ratio",
+      "value_kind": "numeric",
+      "name": "Transcript:protein amplitude ratio",
+      "value": 8.0,
+      "rankable": true,
+      "has_p_value": false,
+      "rank_by_metric": 75,
+      "metric_percentile": 76.20578778135048,
+      "metric_bucket": "top_quartile",
+      "metric_type": "damping_ratio",
+      "field_description": "Ratio of transcript log2-amplitude to protein log2-amplitude. Higher = stronger damping of transcript oscillations at the protein level (post-transcriptional buffering).",
+      "unit": "",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:diel_amplitude_protein_log2",
+      "value_kind": "numeric",
+      "name": "Protein amplitude (log2)",
+      "value": 0.16,
+      "rankable": true,
+      "has_p_value": false,
+      "rank_by_metric": 267,
+      "metric_percentile": 14.469453376205788,
+      "metric_bucket": "low",
+      "metric_type": "diel_amplitude_protein_log2",
+      "field_description": "log2 peak-to-trough amplitude of protein abundance across the diel cycle. Higher = stronger protein oscillation.",
+      "unit": "log2",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:diel_amplitude_transcript_log2",
+      "value_kind": "numeric",
+      "name": "Transcript amplitude (log2)",
+      "value": 1.28,
+      "rankable": true,
+      "has_p_value": false,
+      "rank_by_metric": 186,
+      "metric_percentile": 40.51446945337621,
+      "metric_bucket": "mid",
+      "metric_type": "diel_amplitude_transcript_log2",
+      "field_description": "log2 peak-to-trough amplitude of transcript abundance across the diel cycle. Higher = stronger mRNA oscillation.",
+      "unit": "log2",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:peak_time_protein_h",
+      "value_kind": "numeric",
+      "name": "Time of peak protein abundance (h)",
+      "value": 3.9,
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "peak_time_protein_h",
+      "field_description": "Clock-hour at which protein abundance peaks across the 14:10 diel cycle (0-24h). Phase metric (circular), not a magnitude \u2014 not rankable.",
+      "unit": "hours",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:peak_time_transcript_h",
+      "value_kind": "numeric",
+      "name": "Time of peak transcript abundance (h)",
+      "value": 21.6,
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "peak_time_transcript_h",
+      "field_description": "Clock-hour at which mRNA abundance peaks across the 14:10 diel cycle (0-24h). Phase metric (circular), not a magnitude \u2014 not rankable.",
+      "unit": "hours",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:journal.pone.0043432:table_s2_waldbauer_diel_metrics:protein_transcript_lag_h",
+      "value_kind": "numeric",
+      "name": "Protein-transcript lag (h)",
+      "value": 6.3,
+      "rankable": true,
+      "has_p_value": false,
+      "rank_by_metric": 165,
+      "metric_percentile": 47.266881028938904,
+      "metric_bucket": "mid",
+      "metric_type": "protein_transcript_lag_h",
+      "field_description": "Lag between transcript peak and protein peak (protein_peak - transcript_peak, mod 24h). Higher = greater post-transcriptional / translational delay.",
+      "unit": "hours",
+      "allowed_categories": null,
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "diel"
+      ],
+      "background_factors": [
+        "axenic"
+      ],
+      "publication_doi": "10.1371/journal.pone.0043432",
+      "treatment": "Light-dark synchronized diel cycle (14:10)",
+      "light_condition": "14:10 light:dark cycle",
+      "experimental_context": "Derived per-gene metrics (phase, amplitude, lag, damping) from paired mRNA (RNA-seq) and protein (LC-MS 14N/15N SILAC) time courses sampled every 2h over 26h for 312 significantly cycling genes"
+    },
+    {
+      "locus_tag": "PMM1436",
+      "gene_name": "groL1",
+      "derived_metric_id": "derived_metric:science.1243457:s2_med4_vesicle_proteome:mascot_identification_probability",
+      "value_kind": "numeric",
+      "name": "MED4 vesicle protein Mascot identification probability (Biller 2014 Table S2)",
+      "value": 100.0,
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "mascot_identification_probability",
+      "field_description": "Mascot peptide-identification probability (%) for the protein in the MED4 vesicle proteome; quality score, not abundance. Cutoff was 97%.",
+      "unit": "percent",
+      "allowed_categories": null,
+      "compartment": "vesicle",
+      "treatment_type": [
+        "compartment"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1126/science.1243457",
+      "treatment": "Vesicle fraction (extracellular)",
+      "light_condition": "continuous light",
+      "experimental_context": "20 L axenic MED4 culture; vesicles isolated by tangential flow filtration + OptiPrep gradient; SDS-PAGE band, trypsin digest, LTQ LC-MS/MS, Mascot search; PSORTb subcellular-localization prediction. Table S2 lists the proteins identified at >=97% Mascot identification probability with at least one exclusive unique peptide."
+    },
+    {
+      "locus_tag": "PMM1683",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:expression_level_class",
+      "value_kind": "categorical",
+      "name": "MED4 RPKM expression-level class (Wang 2014)",
+      "value": "VEG",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "expression_level_class",
+      "field_description": "Per-gene expression-level class assigned from RPKM quartiles aggregated across 10 RNA-seq samples (MED4 in Pro99 and AMP media, exponential and log-phase; 21C, continuous light at 28 umol quanta m-2 s-1). Class meanings reported in Wang 2014: VEG = very highly expressed (top RPKM quartile across conditions); HEG = highly expressed, enriched for COG \"C\" energy production and conversion, \"J\" translation and ribosomal structure, and \"O\" protein modification, folding and turnover (Figure 4c) and showing significantly lower nonsynonymous substitution rate (Ka) than MEG or LEG (P<0.001, Figure 3a); MEG = moderately expressed, significantly enriched for essential genes with homologs in the Database of Essential Genes (DEG-hit rate, P<0.001, Figure 4b); LEG = lowly expressed, slightly enriched for COG \"R\" general function (P=0.023); NEG = not expressed, under-represented in the core genome (1.5% core vs 6.6% flexible, P<0.001, Figure 3c); -- = unclassified (RPKM did not fit any quartile bin).",
+      "unit": "",
+      "allowed_categories": [
+        "VEG",
+        "HEG",
+        "MEG",
+        "LEG",
+        "NEG",
+        "--"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    },
+    {
+      "locus_tag": "PMM1683",
+      "gene_name": null,
+      "derived_metric_id": "derived_metric:1471-2180-14-11:med4_expression_level:pangenome_membership",
+      "value_kind": "categorical",
+      "name": "MED4 core vs flexible genome assignment (Wang 2014)",
+      "value": "Core",
+      "rankable": false,
+      "has_p_value": false,
+      "rank_by_metric": null,
+      "metric_percentile": null,
+      "metric_bucket": null,
+      "metric_type": "pangenome_membership",
+      "field_description": "Pangenome membership for each MED4 CDS gene. Core = present across sequenced Prochlorococcus genomes (Prochlorococcus core gene set); Flexible = strain-specific or variably present across Prochlorococcus genomes (flexible/accessory gene set). Wang 2014 reports that the core genome contains significantly fewer NEG and VEG genes than the flexible genome (NEG: 1.5% < 6.6%; VEG: 49.6% < 64.6%; both P<0.001, Figure 3c), indicating that conserved core genes cluster around moderate expression while flexible genes are enriched at the high and low extremes.",
+      "unit": "",
+      "allowed_categories": [
+        "Core",
+        "Flexible"
+      ],
+      "compartment": "whole_cell",
+      "treatment_type": [
+        "growth_phase"
+      ],
+      "background_factors": [
+        "axenic",
+        "light"
+      ],
+      "publication_doi": "10.1186/1471-2180-14-11",
+      "treatment": "Multiple growth conditions (Pro99 and AMP media, exponential and log-phase)",
+      "light_condition": "continuous light",
+      "experimental_context": "RNA-seq across 10 samples from MED4 grown in Pro99 and AMP media at exponential and log-phase; RPKM quartiles used to classify genes by expression level; 21C under continuous light at 28 umol quanta m-2 s-1"
+    }
+  ]
+}

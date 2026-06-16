@@ -1,0 +1,974 @@
+{
+  "total_matching": 71,
+  "total_genes": 71,
+  "total_categories": 1,
+  "genes_per_group_max": 28,
+  "genes_per_group_median": 23,
+  "by_organism": [
+    {
+      "organism_name": "Prochlorococcus MIT9215",
+      "count": 5
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9202",
+      "count": 5
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9515",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus SB",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9312",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus MIT0604",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9301",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus AS9601",
+      "count": 4
+    },
+    {
+      "organism_name": "Prochlorococcus MED4",
+      "count": 4
+    },
+    {
+      "organism_name": "Synechococcus sp. BL107",
+      "count": 3
+    },
+    {
+      "organism_name": "Synechococcus WH8102",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus MIT0801",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus PAC1",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus NATL2A",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus NATL1A",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus MIT1327",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9313",
+      "count": 3
+    },
+    {
+      "organism_name": "Prochlorococcus MIT9303",
+      "count": 3
+    },
+    {
+      "organism_name": "Synechococcus WH7803",
+      "count": 2
+    },
+    {
+      "organism_name": "Synechococcus CC9311",
+      "count": 2
+    },
+    {
+      "organism_name": "Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)",
+      "count": 2
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "Unknown",
+      "count": 71
+    }
+  ],
+  "top_groups": [
+    {
+      "group_id": "cyanorak:CK_00000141",
+      "count": 28
+    },
+    {
+      "group_id": "cyanorak:CK_00000498",
+      "count": 23
+    },
+    {
+      "group_id": "cyanorak:CK_00003473",
+      "count": 20
+    }
+  ],
+  "not_found_groups": [],
+  "not_matched_groups": [],
+  "not_found_organisms": [],
+  "not_matched_organisms": [],
+  "returned": 71,
+  "offset": 0,
+  "truncated": false,
+  "results": [
+    {
+      "locus_tag": "A9601_09901",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus AS9601",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "A9601_11291",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus AS9601",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMM0872",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MED4",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMM1028",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MED4",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW14_1021",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT0604",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW14_1165",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT0604",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW15_1695",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT0801",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9202_1328",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9202",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9202_656",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9202",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9215_10211",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9215",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9215_11591",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9215",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9301_09881",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9301",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9301_11291",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9301",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT9312_0929",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9312",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT9312_1039",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9312",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9515_09531",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9515",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9515_11211",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus MIT9515",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "NATL1_16381",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus NATL1A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMN2A_0786",
+      "gene_name": "PMN2A_RS07125",
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus NATL2A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "PMN2A_RS07125 :: uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV03_0700",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus PAC1",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV02_0282",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus SB",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV02_0423",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Prochlorococcus SB",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "sync_2180",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus CC9311",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "SynWH7803_0833",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus WH7803",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "SYNW1060",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus WH8102",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "SYNW1942",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus WH8102",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "BL107_09396",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus sp. BL107",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "BL107_15585",
+      "gene_name": null,
+      "product": "uncharacterized conserved secreted protein",
+      "organism_name": "Synechococcus sp. BL107",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000141",
+      "gene_summary": "uncharacterized conserved secreted protein :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "A9601_18931",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus AS9601",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMM1683",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MED4",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW14_2052",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT0604",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW15_2241",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT0801",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMIT1327_02509",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT1327",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9202_365",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9202",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9202_830",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9202",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9215_12821",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9215",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9215_19561",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9215",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9301_18741",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9301",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9303_29351",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9303",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT9312_1776",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9312",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT2209",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9313",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9515_18741",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus MIT9515",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "NATL1_21561",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus NATL1A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMN2A_1284",
+      "gene_name": "PMN2A_RS09705",
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus NATL2A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "PMN2A_RS09705 :: HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV03_1074",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus PAC1",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV02_1269",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus SB",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "Pro0644",
+      "gene_name": "iscA",
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "iscA :: HesB-like domain-containing protein",
+      "function_description": null,
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "sync_0385",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Synechococcus CC9311",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "SynWH7803_0383",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Synechococcus WH7803",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "SYNW2134",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Synechococcus WH8102",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "BL107_08279",
+      "gene_name": null,
+      "product": "HesB-like domain-containing protein",
+      "organism_name": "Synechococcus sp. BL107",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00000498",
+      "gene_summary": "HesB-like domain-containing protein :: Belongs to the HesB IscA family",
+      "function_description": "Belongs to the HesB IscA family",
+      "consensus_product": "HesB-like domain-containing protein",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "A9601_10601",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus AS9601",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMM0983",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MED4",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW14_1093",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT0604",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EW15_1733",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT0801",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMIT1327_00390",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT1327",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMIT1327_00760",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT1327",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9202_1723",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9202",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9215_10911",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9215",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9301_10601",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9301",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9303_12311",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9303",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9303_17851",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9303",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT9312_0988",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9312",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMT0485",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9313",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "RG24_RS04770",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9313",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "P9515_10591",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus MIT9515",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "NATL1_16711",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus NATL1A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "PMN2A_0820",
+      "gene_name": "PMN2A_RS07295",
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus NATL2A",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "PMN2A_RS07295 :: uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV03_0732",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus PAC1",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "EV02_0353",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus SB",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    },
+    {
+      "locus_tag": "Pro0643",
+      "gene_name": null,
+      "product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "organism_name": "Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)",
+      "gene_category": "Unknown",
+      "group_id": "cyanorak:CK_00003473",
+      "gene_summary": "uncharacterized secreted protein, Prochlorococcus-specific :: -",
+      "function_description": null,
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "source": "cyanorak"
+    }
+  ]
+}

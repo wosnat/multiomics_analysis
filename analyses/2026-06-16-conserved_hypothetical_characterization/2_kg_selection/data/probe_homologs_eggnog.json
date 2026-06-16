@@ -1,0 +1,549 @@
+{
+  "total_matching": 15,
+  "by_organism": [
+    {
+      "organism_name": "Prochlorococcus MED4",
+      "count": 5
+    }
+  ],
+  "by_source": [
+    {
+      "source": "eggnog",
+      "count": 15
+    }
+  ],
+  "not_found": [],
+  "no_groups": [],
+  "top_cyanorak_roles": [
+    {
+      "id": "cyanorak.role:R.2",
+      "count": 1,
+      "name": "Other > Conserved hypothetical proteins"
+    },
+    {
+      "id": "cyanorak.role:L.3",
+      "count": 1,
+      "name": "Protein fate > Protein folding and stabilization"
+    },
+    {
+      "id": "cyanorak.role:D.4",
+      "count": 1,
+      "name": "Cellular processes > Chaperones"
+    },
+    {
+      "id": "cyanorak.role:D.1.9",
+      "count": 1,
+      "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other"
+    },
+    {
+      "id": "cyanorak.role:D.1",
+      "count": 1,
+      "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification"
+    }
+  ],
+  "top_cog_categories": [
+    {
+      "id": "cog.category:S",
+      "count": 1,
+      "name": "Function unknown"
+    },
+    {
+      "id": "cog.category:O",
+      "count": 1,
+      "name": "Post-translational modification, protein turnover, chaperones"
+    }
+  ],
+  "returned": 15,
+  "offset": 0,
+  "truncated": false,
+  "results": [
+    {
+      "locus_tag": "PMM0872",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1MMNY@1212",
+      "consensus_gene_name": "PMN2A_RS07125",
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Prochloraceae",
+      "source": "eggnog",
+      "specificity_rank": 1,
+      "member_count": 15,
+      "organism_count": 15,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM0872",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1GMVV@1117",
+      "consensus_gene_name": "PMN2A_RS07125",
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Cyanobacteria",
+      "source": "eggnog",
+      "specificity_rank": 2,
+      "member_count": 15,
+      "organism_count": 15,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM0872",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:3486D@2",
+      "consensus_gene_name": "PMN2A_RS07125",
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Bacteria",
+      "source": "eggnog",
+      "specificity_rank": 3,
+      "member_count": 26,
+      "organism_count": 15,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM0983",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1MMG2@1212",
+      "consensus_gene_name": "PMN2A_RS07295",
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "taxonomic_level": "Prochloraceae",
+      "source": "eggnog",
+      "specificity_rank": 1,
+      "member_count": 18,
+      "organism_count": 18,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM0983",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1GIN6@1117",
+      "consensus_gene_name": "PMN2A_RS07295",
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "taxonomic_level": "Cyanobacteria",
+      "source": "eggnog",
+      "specificity_rank": 2,
+      "member_count": 18,
+      "organism_count": 18,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM0983",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:315YW@2",
+      "consensus_gene_name": "PMN2A_RS07295",
+      "consensus_product": "uncharacterized secreted protein, Prochlorococcus-specific",
+      "taxonomic_level": "Bacteria",
+      "source": "eggnog",
+      "specificity_rank": 3,
+      "member_count": 18,
+      "organism_count": 18,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1028",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1MMK1@1212",
+      "consensus_gene_name": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Prochloraceae",
+      "source": "eggnog",
+      "specificity_rank": 1,
+      "member_count": 11,
+      "organism_count": 11,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1028",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1GFS0@1117",
+      "consensus_gene_name": null,
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Cyanobacteria",
+      "source": "eggnog",
+      "specificity_rank": 2,
+      "member_count": 11,
+      "organism_count": 11,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1028",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:3486D@2",
+      "consensus_gene_name": "PMN2A_RS07125",
+      "consensus_product": "uncharacterized conserved secreted protein",
+      "taxonomic_level": "Bacteria",
+      "source": "eggnog",
+      "specificity_rank": 3,
+      "member_count": 26,
+      "organism_count": 15,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1436",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1MKMN@1212",
+      "consensus_gene_name": "groL1",
+      "consensus_product": "chaperonin GroEL",
+      "taxonomic_level": "Prochloraceae",
+      "source": "eggnog",
+      "specificity_rank": 1,
+      "member_count": 19,
+      "organism_count": 19,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": "Prevents misfolding and promotes the refolding and proper assembly of unfolded polypeptides generated under stress conditions",
+      "functional_description": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification; Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other; Cellular processes > Chaperones; Protein fate > Protein folding and stabilization; Post-translational modification, protein turnover, chaperones",
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:L.3",
+          "name": "Protein fate > Protein folding and stabilization"
+        },
+        {
+          "id": "cyanorak.role:D.4",
+          "name": "Cellular processes > Chaperones"
+        },
+        {
+          "id": "cyanorak.role:D.1.9",
+          "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other"
+        },
+        {
+          "id": "cyanorak.role:D.1",
+          "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:O",
+          "name": "Post-translational modification, protein turnover, chaperones"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1436",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1G2RM@1117",
+      "consensus_gene_name": "groL1",
+      "consensus_product": "chaperonin GroEL",
+      "taxonomic_level": "Cyanobacteria",
+      "source": "eggnog",
+      "specificity_rank": 2,
+      "member_count": 27,
+      "organism_count": 27,
+      "genera": [
+        "Prochlorococcus",
+        "Synechococcus",
+        "Thermosynechococcus"
+      ],
+      "has_cross_genus_members": "cross_genus",
+      "description": "Prevents misfolding and promotes the refolding and proper assembly of unfolded polypeptides generated under stress conditions",
+      "functional_description": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification; Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other; Cellular processes > Chaperones; Protein fate > Protein folding and stabilization; Post-translational modification, protein turnover, chaperones",
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:L.3",
+          "name": "Protein fate > Protein folding and stabilization"
+        },
+        {
+          "id": "cyanorak.role:D.4",
+          "name": "Cellular processes > Chaperones"
+        },
+        {
+          "id": "cyanorak.role:D.1.9",
+          "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification > Other"
+        },
+        {
+          "id": "cyanorak.role:D.1",
+          "name": "Cellular processes > Adaptation/acclimation to atypical conditions and detoxification"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:O",
+          "name": "Post-translational modification, protein turnover, chaperones"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1436",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:COG0459@2",
+      "consensus_gene_name": "groL",
+      "consensus_product": "chaperonin GroEL",
+      "taxonomic_level": "Bacteria",
+      "source": "eggnog",
+      "specificity_rank": 3,
+      "member_count": 71,
+      "organism_count": 42,
+      "genera": [
+        "Alteromonas",
+        "Marinobacter",
+        "Meiothermus",
+        "Prochlorococcus",
+        "Pseudomonas",
+        "Ruegeria",
+        "Shewanella",
+        "Synechococcus",
+        "Thermosynechococcus"
+      ],
+      "has_cross_genus_members": "cross_genus",
+      "description": "protein refolding",
+      "functional_description": "Protein fate > Protein folding and stabilization; Post-translational modification, protein turnover, chaperones",
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:L.3",
+          "name": "Protein fate > Protein folding and stabilization"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:O",
+          "name": "Post-translational modification, protein turnover, chaperones"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1683",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1MMEQ@1212",
+      "consensus_gene_name": "PMN2A_RS09705",
+      "consensus_product": "HesB-like domain-containing protein",
+      "taxonomic_level": "Prochloraceae",
+      "source": "eggnog",
+      "specificity_rank": 1,
+      "member_count": 16,
+      "organism_count": 15,
+      "genera": [
+        "Prochlorococcus"
+      ],
+      "has_cross_genus_members": "single_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1683",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:1GF32@1117",
+      "consensus_gene_name": "PMN2A_RS09705",
+      "consensus_product": "HesB-like domain-containing protein",
+      "taxonomic_level": "Cyanobacteria",
+      "source": "eggnog",
+      "specificity_rank": 2,
+      "member_count": 20,
+      "organism_count": 17,
+      "genera": [
+        "Prochlorococcus",
+        "Synechococcus"
+      ],
+      "has_cross_genus_members": "cross_genus",
+      "description": null,
+      "functional_description": null,
+      "cyanorak_roles": [
+        {
+          "id": "cyanorak.role:R.2",
+          "name": "Other > Conserved hypothetical proteins"
+        }
+      ],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    },
+    {
+      "locus_tag": "PMM1683",
+      "organism_name": "Prochlorococcus MED4",
+      "group_id": "eggnog:COG0316@2",
+      "consensus_gene_name": "iscA",
+      "consensus_product": "HesB-like domain-containing protein",
+      "taxonomic_level": "Bacteria",
+      "source": "eggnog",
+      "specificity_rank": 3,
+      "member_count": 85,
+      "organism_count": 42,
+      "genera": [
+        "Alteromonas",
+        "Marinobacter",
+        "Meiothermus",
+        "Prochlorococcus",
+        "Pseudomonas",
+        "Ruegeria",
+        "Shewanella",
+        "Synechococcus",
+        "Thermosynechococcus"
+      ],
+      "has_cross_genus_members": "cross_genus",
+      "description": "protein maturation",
+      "functional_description": null,
+      "cyanorak_roles": [],
+      "cog_categories": [
+        {
+          "id": "cog.category:S",
+          "name": "Function unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+anchor_locus_tag,neighbor_locus_tag,rank_offset,bp_gap,strand,same_strand,product,gene_name,gene_category
+PMM0872,PMM0869,-3,2875,-,False,30S ribosomal protein S18,rpsR,Translation
+PMM0872,PMM0870,-2,2672,-,False,50S ribosomal protein L33,rpmG,Translation
+PMM0872,PMM0871,-1,105,+,True,"phenylalanine--tRNA ligase, beta subunit",pheT,Translation
+PMM0872,PMM0873,1,416,-,False,DnaJ type IV chaperone protein,,Post-translational modification
+PMM0872,PMM1915,2,1573,+,True,conserved hypothetical protein,,Unknown
+PMM0872,PMM0874,3,1753,-,False,ATP adenylyltransferase,apa2,Nucleotide metabolism
+PMM0983,PMM0980,-3,2070,-,True,conserved hypothetical protein,,Unknown
+PMM0983,PMM0981,-2,769,-,True,sulfite exporter TauE/SafE family protein,,Transport
+PMM0983,PMM0982,-1,290,+,False,HNH endonuclease,,Replication and repair
+PMM0983,PMM1924,1,176,+,False,Conserved hypothetical protein,,Unknown
+PMM0983,PMM1925,2,432,+,False,uncharacterized conserved membrane protein,,Unknown
+PMM0983,PMM0984,3,880,+,False,conserved hypothetical protein,,Unknown
+PMM1028,PMM1027,-3,816,+,True,conserved hypothetical protein,,Amino acid metabolism
+PMM1028,PMM1948,-2,321,+,True,Conserved hypothetical protein,,Unknown
+PMM1028,PMM1949,-1,9,+,True,conserved hypothetical protein,,Unknown
+PMM1028,PMM1950,1,93,+,True,Conserved hypothetical protein,,Unknown
+PMM1028,PMM1029,2,248,-,False,"ABC-type Mn2+/Zn2+ transport system, permease component",,Transport
+PMM1028,PMM1030,3,1093,+,True,zinc uptake regulator family protein,zur,Regulatory functions
+PMM1436,PMM1433,-3,2102,-,True,bifunctional pyrimidine operon regulatory protein/uracil phosphoribosyltransferase,pyrR,Transcription
+PMM1436,PMM1434,-2,340,+,False,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",gpmI,Carbohydrate metabolism
+PMM1436,PMM1435,-1,90,+,False,"preprotein translocase, SecG subunit",secG,Post-translational modification
+PMM1436,PMM1437,1,51,-,True,co-chaperonin GroES,groES,Stress response and adaptation
+PMM1436,PMM1438,2,583,+,False,ATP synthase beta chain,atpB,Photosynthesis
+PMM1436,PMM1439,3,2092,+,False,ATP synthase epsilon chain,atpE,Photosynthesis
+PMM1683,PMM1680,-3,3451,+,False,conserved hypothetical protein specific to marine picocyanobacteria,,Unknown
+PMM1683,PMM1681,-2,2850,-,True,conserved hypothetical protein,,Unknown
+PMM1683,PMM1682,-1,92,-,True,valyl-tRNA synthetase,valS,Translation
+PMM1683,PMM1684,1,186,+,False,nucleoside triphosphate pyrophosphohydrolase,mazG,Unknown
+PMM1683,PMM1685,2,1037,+,False,spermidine synthase,speE,Amino acid metabolism
+PMM1683,PMM1686,3,1890,+,False,agmatinase,speB,Carbohydrate metabolism
