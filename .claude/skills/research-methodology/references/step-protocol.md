@@ -1,6 +1,6 @@
 # Step protocol
 
-Each analysis step advances through the rhythm **do → show → explore → decide** (phase content defined in [research-notebook.md](research-notebook.md)). This document owns **when things happen and what gates enforce them**.
+Each analysis step advances through the rhythm **co-define → do → show → explore → decide** (phase content defined in [research-notebook.md](research-notebook.md)). This document owns **when things happen and what gates enforce them**.
 
 The **just-in-time formalization** principle applies throughout: terms, metrics, stability checks, decisions, and caveats enter the analysis only when the data demands them. Do not pre-specify framework inventories. See [research-notebook.md](research-notebook.md) for the full principle and its application to step 3 framing.
 
@@ -24,6 +24,14 @@ Step 1 is a special case: the commit includes both the scaffold (analysis folder
 - Previous step's `paper.md` section is populated
 
 If any of these is missing, close the previous step first.
+
+## "co-define" phase
+
+Before doing any of the step's work, propose it to the researcher in plain language: what this step should produce, the main judgment calls you expect, and why. Let the researcher adjust the scope or approach. Begin the work only once you've agreed.
+
+This is the front-end mirror of the decide gate: decide closes a step with researcher approval; co-define opens it with researcher agreement. The point is that the researcher shapes the work, not just reviews it afterward. No artifacts are produced here — it is a short conversation that sets the step's scope.
+
+Default to co-defining every step. The researcher may wave through routine steps, but never skip co-define for a genuine judgment call (what to compare, how to define a gene set, which controls). Keep it in plain language — no internal step-IDs or undefined jargon (see [SKILL.md Rule 9](../SKILL.md)).
 
 ## "do" phase
 
@@ -92,7 +100,37 @@ If the redo invalidates downstream steps, the redo's `notebook.md` must list the
 
 `gaps_and_friction.md` is append-only: redo friction entries accumulate.
 
+## Reopen path (a data reveal reopens an upstream lock)
+
+The redo path above handles "redo step N and cascade downstream." A different
+case: while *executing* a later step, the data itself contradicts an assumption
+baked into an **already-locked** earlier step (typically the step-1 question or
+the step-3 framing). The locks are provisional until the data behind them has
+actually been pulled — "locked at end of step 3" is not "frozen against what the
+data turns out to be."
+
+When this happens: **reopen the owning step, don't paper over it.** Edit that
+step's `notebook.md` to record (a) the original lock, (b) the data reveal that
+triggered the reopening, and (c) the evolved question/framing — then re-lock and
+continue. Add a `gaps_and_friction.md` entry. This is distinct from the redo path
+(which cascades *forward* from an invalidated step); here a downstream reveal
+edits an *upstream* lock.
+
+This is the partner of the just-in-time-formalization principle: look at the data
+before fixing the framing, and let the framing follow the data when execution
+surfaces something the lock assumed away.
+
+**Real example (Alteromonas coculture analysis):** the step-1 question ("does
+motility go up or down in coculture?") was reopened when step 2 revealed that
+every usable coculture contrast runs in a medium with no added organic carbon —
+reframing it around a carbon-provision hypothesis. The step-1 lock was edited
+(original + evolved question + a decision), not silently replaced.
+
 ## Hard gates
+
+### GATE 0: Co-define before doing
+
+The first dogfood analysis executed an internal plan and surfaced finished work for review — the researcher reacted to results instead of shaping the step. **Do not start a step's work before proposing it in plain language and getting the researcher's agreement.** Co-define opens the step; decide closes it. (Routine steps may be waved through, but genuine judgment calls never are.)
 
 ### GATE 1: Step boundary
 

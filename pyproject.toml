@@ -1,9 +1,9 @@
 [project]
 name = "multiomics-research-template"
 # Canonical version lives in the top-level VERSION file (read by preflight + the
-# usage hook). This mirror is the PEP 440 form of VERSION (0.1.0-alpha.1 → 0.1.0a1);
+# usage hook). This mirror is the PEP 440 form of VERSION (0.1.0-alpha.2 → 0.1.0a2);
 # keep it in sync on release.
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "Alpha tester template: research skills + MCP wiring for the multiomics KG. Clone, point at the lab KG, run analyses in Claude Code."
 requires-python = ">=3.11"
 dependencies = [
@@ -20,7 +20,7 @@ dependencies = [
 # The explorer is pulled from a pinned git tag — no sibling clone needed.
 # `uv sync` fetches and installs it into this project's venv.
 [tool.uv.sources]
-multiomics-explorer = { git = "https://github.com/wosnat/multiomics_explorer.git", tag = "v0.1.0-alpha.2" }
+multiomics-explorer = { git = "https://github.com/wosnat/multiomics_explorer.git", tag = "v0.1.0-alpha.3" }
 
 # NOTE: intentionally NOT a buildable package. This repo is a cloned
 # workspace, not a pip artifact — pyproject.toml exists only to declare

@@ -8,7 +8,7 @@ example from this KG.
 
 1. [Gene identity errors](#category-1-gene-identity-errors) — paralog conflation, ortholog conflation, inventing functions
 2. [Narrative fabrication](#category-2-narrative-fabrication) — causal claims, cherry-picking, selective reporting, language strength, cross-experiment aggregation, emotive vocabulary, speculative proposals
-3. [Data handling errors](#category-3-data-handling-errors) — counting from truncated lists, cross-study p-values, fabricating statistics
+3. [Data handling errors](#category-3-data-handling-errors) — counting from truncated lists, cross-study p-values, fabricating statistics, direction-sign absent
 4. [Knowledge boundary violations](#category-4-knowledge-boundary-violations) — asserting absence, assuming completeness, unsupported literature claims, measurement failure vs biological absence
 5. [Source-of-truth verification failures](#category-5-source-of-truth-verification-failures) — tool capabilities from memory, publication attribution from memory, field semantics from memory
 6. [Quick self-check](#quick-self-check) — 8-question checklist before presenting findings
@@ -239,6 +239,36 @@ starvation" — computed from whatever rows were visible.
 - For quick estimates in chat, explicitly say "rough estimate
   from the top N results" and never present as a finding
 
+### 3.4 Direction claims from a table whose sign may be absent
+
+**What happens:** An experiment is compared or summarized by direction
+(up/down) without checking that the underlying `log2_fold_change` sign is
+actually present. Some experiments report only one direction — or have the
+sign stripped at ingestion (stored as `|log2FC|`) — so every gene reads "up."
+A direction claim built on such a table is an artefact, not biology, and
+`table_scope` does not protect you: a table tagged `all_detected_genes` can
+still be all-positive.
+
+**Real example (Alteromonas coculture analysis):** four experiments from two
+2016 papers showed `significant_down = 0` with `table_scope =
+all_detected_genes`. Counting the sign of `log2_fold_change` over *all* stored
+edges (significant and not) found **0% negative across 740–2295 genes** — the
+sign was gone. An earlier pass had claimed "motility direction flips by
+partner" partly from these; the flip was unreadable from the corrupted data.
+(The real, partner-specific direction difference only showed up later, between
+*sign-verified* contrasts.)
+
+**Prevention:**
+- Before trusting or comparing **direction**, check the log2FC **sign
+  distribution over all genes**, not the rollup counts. `0% negative across
+  many genes (incl. non-significant)` = sign lost → unusable for direction.
+- `significant_down = 0` alone is not the tell — a real experiment can have no
+  significant down genes while its log2FC values still carry both signs (e.g.
+  sparse proteomics). The diagnostic is the **all-gene sign distribution**.
+- A genuine all-genes DE table is roughly symmetric (~40–55% negative). Far from
+  that across thousands of genes is a data-integrity flag — report it (and the
+  experiment) rather than building on it.
+
 ---
 
 ## Category 4: Knowledge boundary violations
@@ -377,6 +407,8 @@ Before presenting any finding, ask:
 3. **Is this from complete data or truncated?** → Check `truncated`
 4. **Am I comparing across studies?** → Can compare direction and
    magnitude, not p-values
+4b. **Am I claiming a direction (up/down)?** → Confirm the log2FC sign is
+   present — check the all-gene sign distribution, not just rollup counts
 5. **Am I claiming absence?** → Qualify with "in the KG" / "in
    this experiment"
 6. **Is this KG data or my training knowledge?** → Label which is

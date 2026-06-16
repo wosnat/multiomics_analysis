@@ -39,11 +39,12 @@ Steps 1–3 are the **research proposal**. Locked at end of step 3. Steps 4–6 
 
 Step 1 produces `notebook.md` (including a "KG context" sub-section that captures grounding queries, counts, and any structural surprises encountered during the dialogue). Step 1 is interactive, not scripted, but it is not assumption-driven — MCP queries ground the conversation. Steps 2–6 add `scripts/`, `data/`, `figures/`, and QC alongside `notebook.md`.
 
-## The intra-step rhythm: do → show → explore → decide
+## The intra-step rhythm: co-define → do → show → explore → decide
 
-Every step advances through these four phases (see [step-protocol.md](step-protocol.md) for commit timing and gates):
+Every step advances through these phases (see [step-protocol.md](step-protocol.md) for commit timing and gates):
 
-- **do** — do the step's work; outputs land wherever the step naturally produces them
+- **co-define** — before doing the work, propose the step to the researcher in plain language (what it should produce, the judgment calls, why) and let them shape it; begin only once you've agreed
+- **do** — do the agreed step's work; outputs land wherever the step naturally produces them
 - **show** — populate `notebook.md` with what was produced
 - **explore** — investigate anomalies, surprises, or gaps; add `qc_*.py` checks, sensitivity analyses, or follow-up clarifying questions as needed
 - **decide** — finalize notebook, update paper.md, present state to researcher, commit on approval

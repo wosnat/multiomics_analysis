@@ -71,6 +71,14 @@ discipline (where to run, verify-before-script, API-over-Cypher, common
 gotchas). The API contract itself — imports, return shapes, `to_dataframe` —
 is owned by the explorer and served at `docs://guide/python_api`.
 
+**Call the highest-level tool that answers the question; don't reinvent or
+re-wrap what the package ships.** Before building any scoring/statistics
+utility, check the package's analysis surface (e.g. `pathway_enrichment` runs
+the whole DE→ORA pipeline in one call — don't hand-roll Fisher, and don't wrap
+its primitives either). Reserve custom code for composition the tool genuinely
+doesn't do. Reinventing risks subtle errors (wrong background, lost
+normalization) and wastes effort.
+
 **Exception: interactive discovery steps.** Steps that are
 inherently exploratory (browsing available data, classifying
 experiments, scoping what the KG contains) may be done
@@ -97,9 +105,24 @@ concrete failure modes and prevention patterns.
 
 ## Rule 8: The 6-step research flow
 
-Every research analysis is structured as 6 steps, each advancing
-through the rhythm **do → show → explore → decide** with an atomic
-researcher-approval gate at decide close.
+Every research analysis is structured as 6 steps. **Open the analysis
+by posting the six steps as a plain-language to-do list** so the
+researcher can see the whole path and where you are in it — name the
+steps in ordinary words, not internal codes.
+
+Each step advances through the rhythm **co-define → do → show → explore
+→ decide**, with two researcher gates: agreement at **co-define**
+(before the work) and approval at **decide** (after it).
+
+- **co-define** — before doing the work, say in plain words what you
+  propose this step should do and why, and let the researcher shape it.
+  They steer the step; they don't just review it afterward. Begin the
+  work only once you've agreed. A researcher who sees only finished work
+  is reacting to your plan, not co-owning it — so surface the plan first.
+
+Default to co-defining every step; the researcher may wave through
+routine ones, but never skip co-define for a genuine judgment call (what
+to compare, how to define a set, which controls).
 
 1. **Research question** — user prompt + clarifying questions →
    locked question
@@ -160,6 +183,15 @@ and scaffold creation.
 
 Write in plain English. Numbers and direction first, interpretation
 second. Don't reach for fancy vocabulary when ordinary words work.
+
+**No unagreed vocabulary with the researcher.** Don't introduce terms,
+codes, or step-IDs in conversation that you haven't defined and the
+researcher hasn't accepted — internal labels (gene-set IDs, ontology
+codes, "decide gate", bare step numbers used as names) read as opaque
+shorthand and shut the researcher out. If a technical term is genuinely
+needed, say what it means in plain words the first time. The test: could
+the researcher restate what you just said back to you? If not, you've
+leaned on jargon.
 
 **Banned in steps 1–5** (these signal commitment before the analysis
 has earned it): "striking", "massive", "central finding",
