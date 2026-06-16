@@ -85,6 +85,15 @@ ranked primarily by breadth and secondarily by prominence.
 
 ### Controls
 
+Scoring is implemented in a small reusable module
+(`4_methods/og_response_metric.py`) whose aggregation logic was verified on
+hand-calculated toy data before use. Per-gene differential expression is the single
+data source (`differential_expression_by_gene`, which carries log2 fold change and
+within-experiment rank), extracted per strain and mapped to ortholog groups. On the
+driving example family `cyanorak:CK_00000958` the metric recovered breadth 4 (down
+under coculture / nitrogen / salt, up under darkness) with a maximum |log2 fold
+change| of 11.8, every aggregate traceable to a source datapoint.
+
 The metric was validated on characterized MED4 genes before application: the
 broad-stress chaperone-class and high-light-inducible genes versus a
 phosphate-specific marker and a housekeeping chaperone paralog. The breadth axis

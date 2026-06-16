@@ -1,0 +1,30 @@
+[members] cyanorak:CK_00000958: 18 Prochlorococcus member genes across 17 strains
+[de] 52 tested datapoints (13 significant)
+
+[metric] aggregated row for the driving OG:
+  og_id                      cyanorak:CK_00000958
+  breadth                    4
+  n_significant_datapoints   13
+  best_rank                  24
+  max_abs_log2fc             11.81
+  direction                  mixed
+  direction_by_treatment     {'coculture': 'down', 'darkness': 'up', 'nitrogen': 'down', 'salt': 'down'}
+  n_tested_datapoints        52
+  pct_datapoints_de          0.25
+  n_members_with_de          5
+
+[significant datapoints behind it]
+organism_name   locus_tag     gene_name                                                                              experiment_id treatment_type                  timepoint     log2fc rank_up rank_down expression_status
+         MED4     PMM0640          None                             10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq      coculture                        20h -11.814182    None      74.0  significant_down
+       NATL2A  PMN2A_0080 PMN2A_RS03345            10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq       darkness                         8h   0.346869   179.0      None    significant_up
+       NATL2A  PMN2A_0080 PMN2A_RS03345            10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq       darkness                         0h   0.383701   559.0      None    significant_up
+       NATL2A  PMN2A_0080 PMN2A_RS03345            10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq       darkness                        16h   0.493998   461.0      None    significant_up
+       NATL2A  PMN2A_0080 PMN2A_RS03345            10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq       darkness                        24h   0.578509   561.0      None    significant_up
+       NATL2A  PMN2A_0080 PMN2A_RS03345            10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq       darkness                        20h   0.612285   577.0      None    significant_up
+       NATL2A  PMN2A_0080 PMN2A_RS03345                  10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic       darkness 5h extended darkness (40h)   5.414000    24.0      None    significant_up
+         MED4     PMM0640          None    10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic       nitrogen                     day 14  -1.830181    None     274.0  significant_down
+         MED4     PMM0640          None 10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture       nitrogen                     day 60  -1.413414    None     131.0  significant_down
+         MED4     PMM0640          None 10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture       nitrogen                 days 60+89  -1.369889    None      78.0  significant_down
+         MED4     PMM0640          None 10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture       nitrogen                     day 89  -1.322980    None      85.0  significant_down
+         MED4     PMM0640          None 10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture       nitrogen                     day 31  -1.316184    None     142.0  significant_down
+       AS9601 A9601_06961          None                      10.1016/j.micres.2015.04.006_salt_saltacclimated_5_salt_as9601_rnaseq           salt                 acclimated  -0.490000    None       391  significant_down

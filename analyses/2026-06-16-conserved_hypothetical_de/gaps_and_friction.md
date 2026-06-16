@@ -24,6 +24,25 @@ root. Resolution: invoke `uv run python analyses/.../scripts/NN.py` from the rep
 root; scripts already use `__file__`-relative output paths so CWD only matters for
 credential loading. Process note, no methodology change.
 
+## 2026-06-16 — differential_expression_by_ortholog has no per-datapoint rank/magnitude
+
+The ortholog-framed DE tool returns member **counts** per group×experiment×timepoint
+(significant_up/down/not_significant); per-datapoint `log2fc` and `rank` are not in
+its rows (only an aggregate `max_abs_log2fc`/`median_abs_log2fc` in the envelope).
+The "highly responsive" axis (best rank, per-treatment magnitude) therefore requires
+the per-gene tool `differential_expression_by_gene`, which carries `log2fc`,
+`rank_up`, `rank_down`, `expression_status` per row. Resolution: use the per-gene tool
+as the single scoring source; the ortholog tool is triage. (Confirmed empirically by
+dumping result keys, not from the doc.)
+
+## 2026-06-16 — differential_expression_by_gene requires experiment_ids of one organism
+
+`differential_expression_by_gene` is single-organism and raises
+`experiment_ids span multiple organisms` if passed experiment IDs from other strains.
+Since candidate ortholog families span up to 17 strains, extraction must batch per
+strain and pass each strain only its own pooled experiment IDs. Minor API constraint;
+step 5 extraction respects it.
+
 ## 2026-06-16 — Conservation denominator is 17 strains, not 19
 
 The KG has 19 *Prochlorococcus* genome strains, but the cyanorak ortholog backbone

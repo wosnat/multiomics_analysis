@@ -1,0 +1,2 @@
+og_id,breadth,n_significant_datapoints,best_rank,max_abs_log2fc,direction,direction_by_treatment,n_tested_datapoints,pct_datapoints_de,n_members_with_de
+cyanorak:CK_00000958,4,13,24,11.81,mixed,"{'coculture': 'down', 'darkness': 'up', 'nitrogen': 'down', 'salt': 'down'}",52,0.25,5

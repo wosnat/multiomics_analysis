@@ -1,0 +1,10 @@
+[QC] new metric path vs step-3 gene_response_profile:
+
+       gene locus_tag  breadth  breadth_n_treatments  breadth_match  max_abs_log2fc_metric  max_abs_log2fc_step3  fc_match  best_rank direction
+        hli   PMM1385        5                     5           True                   6.04                  6.04      True        1.0     mixed
+       pstS   PMM0710        3                     3           True                   4.67                  4.67      True        6.0     mixed
+groL1/groEL   PMM1436        3                     3           True                   3.08                  3.08      True        6.0     mixed
+       htpG   PMM0901        1                     1           True                   2.79                  2.79      True        7.0     mixed
+      dnaK1   PMM1432        0                     0           True                    NaN                   NaN      True        NaN       NaN
+
+[QC] breadth matches: 5/5; max|log2FC| matches: 5/5
