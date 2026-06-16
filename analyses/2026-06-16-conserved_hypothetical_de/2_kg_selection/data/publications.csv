@@ -1,0 +1,34 @@
+publication_doi,publication_title,n_experiments,strains,omics
+10.1128/spectrum.03275-22,Integrated Proteomic and Metabolomic Analyses Show Differential Effects of Glucose Availability in Marine Synechococcus and Prochlorococcus,8,Prochlorococcus MED4 | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),PROTEOMICS
+10.1128/JB.01097-06,Genome-Wide Analysis of Light Sensing in Prochlorococcus/H17188,6,Prochlorococcus MED4,MICROARRAY
+10.1038/msb4100087,Global gene expression of Prochlorococcus ecotypes in response to changes in nitrogen availability,6,Prochlorococcus MED4 | Prochlorococcus MIT9313,MICROARRAY
+10.1111/1462-2920.15834,Prochlorococcus extracellular vesicles: molecular composition and adsorption to diverse microbes,6,Prochlorococcus MIT9312 | Prochlorococcus MIT9313,METABOLOMICS | VESICLE_PROTEOMICS
+10.1128/msystems.01261-22,Metabolite diversity among representatives of divergent Prochlorococcus ecotypes,6,Prochlorococcus MIT0801 | Prochlorococcus MIT9301 | Prochlorococcus MIT9313,METABOLOMICS
+10.1101/2025.11.24.690089,Transcriptomic and Proteomic Analysis Reveals Nitrogen Recycling as a Core Mechanism for Prochlorococcus Prolonged Survival,5,Prochlorococcus MED4,PROTEOMICS | RNASEQ
+10.1038/ismej.2011.49,Transcriptome response of high- and low-light-adapted Prochlorococcus strains to changing iron availability,5,Prochlorococcus MED4 | Prochlorococcus MIT9313,MICROARRAY
+10.1038/s42003-019-0410-x,"Plastic leachates impair growth and oxygen production in Prochlorococcus, the ocean^s most abundant photosynthetic bacteria",4,Prochlorococcus MIT9312 | Prochlorococcus NATL2A,RNASEQ
+10.1038/ismej.2015.36,Response of Prochlorococcus to varying CO2:O2 ratios,4,Prochlorococcus MED4,MICROARRAY
+10.1371/journal.pone.0165375,Gene Expression Patterns during Light and Dark Infection of Prochlorococcus by Cyanophage,4,Prochlorococcus MED4,RNASEQ
+10.1073/pnas.2213271120,Chitin utilization by marine picocyanobacteria and the evolution of a planktonic lifestyle,4,Prochlorococcus MIT9303 | Prochlorococcus MIT9313,METABOLOMICS | RNASEQ
+10.1038/ismej.2016.70,Transcriptional response of Prochlorococcus to co-culture with a marine Alteromonas: differences between strains and the involvement of putative infochemicals,3,Prochlorococcus MED4 | Prochlorococcus MIT9313,RNASEQ
+10.1186/2046-9063-8-7,Comparative quantitative proteomics of Prochlorococcus ecotypes to a decrease in environmental phosphate concentrations,3,Prochlorococcus MIT9312 | Prochlorococcus NATL2A | Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),PROTEOMICS
+10.1126/science.1243457,Bacterial Vesicles in Marine Ecosystems,3,Prochlorococcus MED4 | Prochlorococcus MIT9313,VESICLE_DNASEQ | VESICLE_PROTEOMICS
+10.3389/fmicb.2022.1038136,Acclimation and stress response of Prochlorococcus to low salinity.,2,Prochlorococcus MED4 | Prochlorococcus NATL1A,RNASEQ
+10.1073/pnas.0601301103,Phosphate acquisition genes in Prochlorococcus ecotypes: Evidence for genome-wide adaptation,2,Prochlorococcus MED4 | Prochlorococcus MIT9313,MICROARRAY
+10.1021/pr060460c,A Quantitative Proteomic Analysis of Light Adaptation in a Globally Significant Marine Cyanobacterium Prochlorococcus marinus MED4,2,Prochlorococcus MED4,PROTEOMICS
+10.1111/1462-2920.13104,Transcriptomic response during phage infection of a marine cyanobacterium under phosphorus-limited conditions,2,Prochlorococcus NATL2A,RNASEQ
+10.1128/mSystems.00040-18,Heterotroph interactions alter Prochlorococcus transcriptome dynamics during extended periods of darkness,2,Prochlorococcus NATL2A,RNASEQ
+10.1016/j.micres.2015.04.006,Global transcriptome analysis of salt acclimated Prochlorococcus AS9601,1,Prochlorococcus AS9601,RNASEQ
+10.1038/nature06130,Genome-wide expression dynamics of a marine virus and host reveal features of co-evolution,1,Prochlorococcus MED4,MICROARRAY
+10.1038/ismej.2017.189,The impact of elevated CO 2 on Prochlorococcus and microbial interactions with ‘helper’ bacterium Alteromonas,1,Prochlorococcus MIT9312,RNASEQ
+10.1038/ismej.2016.82,Torn apart and reunited: impact of a heterotroph on the transcriptome of Prochlorococcus,1,Prochlorococcus NATL2A,RNASEQ
+10.1038/ismej.2017.88,Nitrogen cost minimization is promoted by structural changes in the transcriptome of N-deprived Prochlorococcus cells,1,Prochlorococcus MED4,RNASEQ
+10.1038/s43705-022-00197-2,Community context and pCO 2 impact the transcriptome of the “helper” bacterium Alteromonas in co-culture with picocyanobacteria,1,Prochlorococcus MIT9312,RNASEQ
+10.1101/2025.08.05.668435,Biofilm formation and dynamics in the marine cyanobacterium Prochlorococcus,1,Prochlorococcus MIT9301,RNASEQ
+10.1093/ismeco/ycae131,Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus,1,Prochlorococcus NATL2A,RNASEQ
+10.1111/1462-2920.14513,Transcriptomic responses of the marine cyanobacterium Prochlorococcus to viral lysis products,1,Prochlorococcus MIT9313,RNASEQ
+10.1128/mSystems.00008-17,Quantitative Proteomics Shows Extensive Remodeling Induced by Nitrogen Limitation in Prochlorococcus marinus SS120,1,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),PROTEOMICS
+10.1128/mbio.03425-22,Transcriptional Mechanisms of Thermal Acclimation in Prochlorococcus,1,Prochlorococcus MIT9301,RNASEQ
+10.1186/1471-2180-14-11,The transcriptome landscape of Prochlorococcus MED4 and the factors for stabilizing the core genome,1,Prochlorococcus MED4,RNASEQ
+10.1371/journal.pone.0043432,Transcriptome and Proteome Dynamics of a Light-Dark Synchronized Bacterial Cell Cycle,1,Prochlorococcus MED4,PAIRED_RNASEQ_PROTEOME
+10.1371/journal.pone.0005135,"Choreography of the Transcriptome, Photophysiology, and Cell Cycle of a Minimal Photoautotroph, Prochlorococcus",1,Prochlorococcus MED4,MICROARRAY

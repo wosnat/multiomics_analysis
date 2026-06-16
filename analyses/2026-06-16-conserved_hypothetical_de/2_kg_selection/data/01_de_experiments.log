@@ -1,0 +1,53 @@
+c:\Users\oweisberg\Documents\GitHub\multiomics_analysis\.venv\Lib\site-packages\multiomics_explorer\analysis\frames.py:266: UserWarning: Column 'timepoints' contains nested data that cannot be flattened automatically. The column has been dropped. If you need this data, please file an issue.
+  df = _flatten_columns(df)
+[funnel] total Prochlorococcus DE experiments matched: 91
+[out] wrote 91 experiments -> data/de_experiments.csv
+
+[by strain]
+  Prochlorococcus MED4         41
+  Prochlorococcus MIT9313      17
+  Prochlorococcus NATL2A       9
+  Prochlorococcus MIT9312      8
+  Prochlorococcus marinus subsp. marinus CCMP1375 (SS120) 6
+  Prochlorococcus MIT9301      4
+  Prochlorococcus MIT9303      2
+  Prochlorococcus MIT0801      2
+  Prochlorococcus AS9601       1
+  Prochlorococcus NATL1A       1
+
+[by treatment_type]
+  carbon                       18
+  nitrogen                     12
+  light                        10
+  compartment                  9
+  phosphorus                   9
+  growth_phase                 6
+  coculture                    5
+  iron                         5
+  viral                        4
+  plastic                      4
+  salt                         3
+  darkness                     3
+  diel                         2
+  temperature                  1
+
+[by omics_type]
+  RNASEQ                       32
+  MICROARRAY                   25
+  PROTEOMICS                   16
+  METABOLOMICS                 12
+  VESICLE_PROTEOMICS           4
+  VESICLE_DNASEQ               1
+  PAIRED_RNASEQ_PROTEOME       1
+
+[by table_scope]
+  all_detected_genes           27
+  significant_only             20
+  filtered_subset              17
+                               16
+  significant_any_timepoint    10
+  top_n                        1
+
+[out] wrote 33 publications -> data/publications.csv
+
+[fairness] experiments with table_scope=all_detected_genes (usable for tested-vs-flat denominator): 27 / 91

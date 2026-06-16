@@ -23,7 +23,33 @@ Operational intent (precise definitions verified/finalized in later steps):
 
 ## Background
 
-<!-- Populated from step 2 (KG entries and prior work). -->
+The KG (release 0.1.0-alpha.5) holds **91 differential-expression experiments**
+profiling *Prochlorococcus*, spanning 10 strains and a wide range of perturbations
+(carbon, nitrogen, light, phosphorus, iron, viral infection, coculture, diel cycle,
+growth phase), across RNAseq, microarray, and proteomics platforms. These
+experiments come from 33 publications. MED4 dominates (41 experiments); most other
+strains have far fewer, so multi-condition response breadth is concentrated in a
+small number of well-studied strains.
+
+"Uncharacterized" is operationalized as `Gene.annotation_quality <= 1` — the KG's
+0–3 encoding of annotation evidence, where 0 (`no_evidence`) and 1
+(`catch_all_only`) correspond to genes whose only product description is a
+catch-all term ("hypothetical protein", "conserved hypothetical protein",
+"uncharacterized conserved membrane protein"). Across *Prochlorococcus*, 10,130
+genes meet this bar.
+
+Conservation is measured on the **cyanorak** curated ortholog backbone (the
+cyanobacteria-purpose-built grouping), which spans 17 of the 19 *Prochlorococcus*
+genome strains in the KG. Of 5,732 cyanorak ortholog groups with a
+*Prochlorococcus* member, 2,787 are mostly hypothetical (≥80% of their
+*Prochlorococcus* members at AQ ≤ 1). Their strain coverage is bimodal: ~1,400 are
+single-strain novelties, while a sharp core of **50 groups is present in all 17
+strains** — maximally conserved yet functionally dark. This core, and the broader
+conserved tail, is the candidate pool the analysis targets.
+
+References for the experiments and publications cited here are enumerated in
+`2_kg_selection/data/publications.csv` and resolved in the References section as
+the analysis cites them.
 
 ## Methods
 

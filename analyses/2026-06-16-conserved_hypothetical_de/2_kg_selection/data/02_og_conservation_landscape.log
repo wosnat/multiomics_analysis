@@ -1,0 +1,40 @@
+[funnel] cyanorak OGs with >=1 Prochlorococcus member: 5732
+[out] wrote 5732 OG rows -> data/og_conservation_landscape.csv
+
+[hypothetical OGs] frac_hypo>=0.8: 2787 of 5732 cyanorak OGs
+
+[strain-coverage distribution among mostly-hypothetical OGs]
+  strains   n_OGs  cum(>=k)
+        1    1402      2787
+        2     471      1385
+        3     258       914
+        4     229       656
+        5      67       427
+        6      33       360
+        7      35       327
+        8      47       292
+        9      88       245
+       10      15       157
+       11       6       142
+       12      18       136
+       13      21       118
+       14      28        97
+       15       7        69
+       16      12        62
+       17      50        50
+       18       0         0
+       19       0         0
+
+[examples] most strain-conserved hypothetical OGs:
+  cyanorak:CK_00046153     strains=17 members= 18 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00055728     strains=17 members= 25 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00001506     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00050291     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00043018     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00000498     strains=17 members= 19 frac_hypo=1.00  HesB-like domain-containing protein
+  cyanorak:CK_00001680     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein specific to ma
+  cyanorak:CK_00001734     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00000296     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00000284     strains=17 members= 17 frac_hypo=1.00  Conserved hypothetical protein
+  cyanorak:CK_00001888     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00036942     strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
