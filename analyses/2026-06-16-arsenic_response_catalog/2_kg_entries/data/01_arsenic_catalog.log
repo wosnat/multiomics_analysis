@@ -1,0 +1,48 @@
+[scope] 19 Prochlorococcus strains
+[funnel] gene-text matches (ars-confirmed): 46 genes
+[funnel] ontology-link matches: 58 genes (226 gene x term rows)
+[out] wrote 61 genes -> data/arsenic_genes.csv
+
+[scope]
+scope
+strict    43
+broad     18
+
+[match_source]
+match_source
+both        43
+ontology    15
+text         3
+
+[gene_name] (strict only)
+gene_name
+arsC    19
+arsR    16
+arsB     7
+arsM     1
+
+[per strain]
+organism_name
+Prochlorococcus MIT9303                                    6
+Prochlorococcus MIT9301                                    5
+Prochlorococcus MIT1327                                    4
+Prochlorococcus MED4                                       4
+Prochlorococcus MIT9313                                    4
+Prochlorococcus RSP50                                      4
+Prochlorococcus MIT0801                                    4
+Prochlorococcus MIT0604                                    3
+Prochlorococcus MIT1314                                    3
+Prochlorococcus MIT9312                                    3
+Prochlorococcus SB                                         3
+Prochlorococcus NATL1A                                     3
+Prochlorococcus NATL2A                                     3
+Prochlorococcus AS9601                                     2
+Prochlorococcus MIT9202                                    2
+Prochlorococcus MIT9215                                    2
+Prochlorococcus MIT9515                                    2
+Prochlorococcus PAC1                                       2
+Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)    2
+
+[annotation_quality]
+annotation_quality
+3    61
