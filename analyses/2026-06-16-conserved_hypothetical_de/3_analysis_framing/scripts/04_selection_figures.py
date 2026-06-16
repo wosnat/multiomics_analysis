@@ -27,6 +27,13 @@ FIG.mkdir(parents=True, exist_ok=True)
 BROAD_MIN, CORE_MIN, N_STRAINS = 9, 14, 17
 
 
+def savefig(fig, stem: str, **kw) -> None:
+    """Write both PNG (300 DPI) and publication SVG."""
+    for ext in ("png", "svg"):
+        fig.savefig(FIG / f"{stem}.{ext}", dpi=300, **kw)
+    plt.close(fig)
+
+
 def fig_funnel() -> None:
     stages = ["cyanorak OGs\n(Prochlorococcus)", "hypothetical\n(≥80% AQ≤1)",
               "broad\n(≥9/17 strains)", "core\n(≥14/17)", "all 17 strains"]
@@ -43,8 +50,7 @@ def fig_funnel() -> None:
                 va="center", fontsize=9)
     ax.set_xlim(0, 6200)
     fig.tight_layout()
-    fig.savefig(FIG / "fig1_selection_funnel.png", dpi=300)
-    plt.close(fig)
+    savefig(fig, "fig1_selection_funnel")
 
 
 def fig_conservation() -> None:
@@ -66,8 +72,7 @@ def fig_conservation() -> None:
     ax.set_title("Conservation of hypothetical ortholog families (≥80% members AQ≤1)")
     ax.set_xticks(range(1, N_STRAINS + 1))
     fig.tight_layout()
-    fig.savefig(FIG / "fig2_conservation_distribution.png", dpi=300)
-    plt.close(fig)
+    savefig(fig, "fig2_conservation_distribution")
 
 
 def fig_breadth_axis() -> None:
@@ -83,8 +88,7 @@ def fig_breadth_axis() -> None:
     ax.set_title("Breadth axis: 13 treatment types in the pooled gene-DE set (n=74)")
     ax.legend(fontsize=8, loc="lower right")
     fig.tight_layout()
-    fig.savefig(FIG / "fig3_breadth_axis_experiments.png", dpi=300)
-    plt.close(fig)
+    savefig(fig, "fig3_breadth_axis_experiments")
 
 
 def fig_controls() -> None:
@@ -111,8 +115,7 @@ def fig_controls() -> None:
     ax.set_xlim(-0.5, 6)
     ax.margins(y=0.15)
     fig.tight_layout()
-    fig.savefig(FIG / "fig4_controls_breadth_vs_prominence.png", dpi=300)
-    plt.close(fig)
+    savefig(fig, "fig4_controls_breadth_vs_prominence")
 
 
 def main() -> None:
