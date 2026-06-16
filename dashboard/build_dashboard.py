@@ -16,6 +16,7 @@ Run (from repo root):
 """
 from __future__ import annotations
 
+import ast
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -24,6 +25,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
+from scipy.cluster.hierarchy import leaves_list, linkage
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = Path(__file__).resolve().parent / "index.html"
@@ -47,6 +49,81 @@ def _fig_html(fig) -> str:
 
 def _jitter(v, rng, w=0.18):
     return v + rng.uniform(-w, w, len(v))
+
+
+def _cluster_order(mat: np.ndarray) -> list[int]:
+    """Hierarchical leaf order for rows of mat (NaN filled with 0 for distance)."""
+    if mat.shape[0] < 3:
+        return list(range(mat.shape[0]))
+    z = linkage(np.nan_to_num(mat, nan=0.0), method="average", metric="euclidean")
+    return list(leaves_list(z))
+
+
+def direction_clustermap_fig(hand: pd.DataFrame) -> go.Figure:
+    """Filterable clustered direction-by-treatment heatmap (red=up, blue=down, grey=mixed).
+
+    A dropdown toggles the family set (all shortlist / core 14 / by tier); each view is
+    clustered independently. Treatments share one clustered order. NaN = no significant
+    response (renders blank).
+    """
+    treatments = ["nitrogen", "carbon", "light", "phosphorus", "iron", "coculture",
+                  "viral", "plastic", "darkness", "salt", "diel", "growth_phase",
+                  "temperature"]
+    code = {"up": 1, "down": -1, "mixed": 0}
+    label = {1: "up", -1: "down", 0: "mixed"}
+
+    def row_vec(dbt_str):
+        dbt = ast.literal_eval(dbt_str) if isinstance(dbt_str, str) and dbt_str.startswith("{") else {}
+        return [code.get(dbt.get(t)) for t in treatments]
+
+    full = pd.DataFrame(
+        [row_vec(s) for s in hand["direction_by_treatment"]],
+        index=hand["og_id"].str.replace("cyanorak:", "", regex=False),
+        columns=treatments).astype(float)
+    full = full.dropna(axis=1, how="all")
+    treatments = list(full.columns)
+    # cluster treatments once (columns), on the full set
+    col_order = _cluster_order(full.fillna(0).T.values)
+    treatments = [treatments[i] for i in col_order]
+    full = full[treatments]
+
+    colorscale = [[0.0, "#3a7ca5"], [0.33, "#3a7ca5"], [0.33, "#cccccc"],
+                  [0.66, "#cccccc"], [0.66, "#d1495b"], [1.0, "#d1495b"]]
+    views = [
+        ("All shortlist (85)", hand["og_id"].str.replace("cyanorak:", "", regex=False).tolist()),
+        ("Core 14 (broad & prominent)",
+         hand.loc[hand["core14"], "og_id"].str.replace("cyanorak:", "", regex=False).tolist()),
+        ("Core tier (>=14 strains)",
+         hand.loc[hand["tier"] == "core", "og_id"].str.replace("cyanorak:", "", regex=False).tolist()),
+        ("Broad tier (9-13 strains)",
+         hand.loc[hand["tier"] == "broad", "og_id"].str.replace("cyanorak:", "", regex=False).tolist()),
+    ]
+    fig = go.Figure()
+    for vi, (name, ogs) in enumerate(views):
+        sub = full.loc[[o for o in ogs if o in full.index]]
+        order = _cluster_order(sub.values)
+        sub = sub.iloc[order]
+        text = [[label.get(v, "") if pd.notna(v) else "no sig. response" for v in row]
+                for row in sub.values]
+        fig.add_trace(go.Heatmap(
+            z=sub.values, x=treatments, y=sub.index.tolist(),
+            zmin=-1, zmax=1, colorscale=colorscale, showscale=False, xgap=1, ygap=1,
+            text=text, hovertemplate="%{y} · %{x}<br>%{text}<extra></extra>",
+            visible=(vi == 0)))
+
+    buttons = []
+    for vi, (name, _) in enumerate(views):
+        vis = [j == vi for j in range(len(views))]
+        buttons.append(dict(label=name, method="update",
+                            args=[{"visible": vis},
+                                  {"title": f"Direction by treatment — {name}"}]))
+    fig.update_layout(
+        title=f"Direction by treatment — {views[0][0]}",
+        updatemenus=[dict(buttons=buttons, direction="down", showactive=True,
+                          x=1.0, xanchor="right", y=1.16, yanchor="top")],
+        xaxis=dict(side="bottom"), yaxis=dict(autorange="reversed"),
+        margin=dict(t=70, l=120))
+    return fig
 
 
 def selection_section() -> Section:
@@ -102,6 +179,10 @@ def selection_section() -> Section:
     fig2.update_layout(title="Coverage confound: breadth tracks how broadly a family "
                        "was measured (r=0.90)", legend_title="tier", margin=dict(t=50))
 
+    # --- Plot 3: filterable direction clustermap ---
+    fig3 = direction_clustermap_fig(hand)
+    fig3.update_layout(height=780)
+
     # --- Shortlist table (DataTables) ---
     tcols = ["og_id", "core14", "tier", "proc_strains", "dominant_category",
              "consensus_product", "breadth", "n_treatments_tested", "response_rate",
@@ -118,6 +199,10 @@ def selection_section() -> Section:
       {_fig_html(fig1)}
       <h3>Coverage confound</h3>
       {_fig_html(fig2)}
+      <h3>Direction by treatment (clustered, filterable)</h3>
+      <p class="note">Red = up, blue = down, grey = mixed, blank = no significant
+        response. Use the dropdown (top-right of the plot) to filter the family set.</p>
+      {_fig_html(fig3)}
       <h3>Shortlist ({len(hand)} families; ★ = core 14 broad &amp; prominent)</h3>
       <p class="note">Sort any column; use the search box to filter (e.g. type
         "secreted" or "core").</p>
