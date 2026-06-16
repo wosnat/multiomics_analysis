@@ -1,0 +1,10 @@
+[controls validation] breadth = # distinct treatment types responded
+
+locus_tag        gene                role  breadth_n_treatments                          treatments_responded  best_de_rank  max_abs_log2fc  n_significant_timepoints
+  PMM1385         hli      positive_broad                     5 carbon | coculture | light | nitrogen | viral           1.0            6.04                        14
+  PMM0710        pstS prominent_not_broad                     3                carbon | nitrogen | phosphorus           6.0            4.67                        16
+  PMM1436 groL1/groEL   positive_moderate                     3                     carbon | light | nitrogen           6.0            3.08                         7
+  PMM0901        htpG     negative_narrow                     1                                      nitrogen           7.0            2.79                         8
+  PMM1432       dnaK1     negative_narrow                     0                                                         NaN             NaN                         0
+
+[read] hli broad+prominent; groEL moderate; htpG/dnaK1 narrow; pstS prominent (high |log2FC|/low rank) but narrow -> breadth and prominence are independent axes, both reported.

@@ -1,0 +1,22 @@
+[in] 5732 cyanorak OGs with a Prochlorococcus member
+[hypothetical] frac_hypo>=0.8: 2787
+[out] candidate_ogs.csv: 245 OGs (core >=14: 97; broad-only 9-13: 148; all-17: 50)
+
+[selection funnel]
+  cyanorak OGs (Prochlorococcus)        5732
+  -> hypothetical (frac_hypo>=0.80)     2787
+  -> broad tier   (>=9/17 strains)      245
+     of which core (>=14/17 strains)    97
+     of which all-17                    50
+
+[core sample] most-conserved candidates:
+  cyanorak:CK_00055728   strains=17 members= 25 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00003473   strains=17 members= 20 frac_hypo=1.00  uncharacterized secreted protein, Prochlor
+  cyanorak:CK_00000498   strains=17 members= 19 frac_hypo=1.00  HesB-like domain-containing protein
+  cyanorak:CK_00046153   strains=17 members= 18 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00000958   strains=17 members= 18 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00001506   strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00050291   strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00043018   strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein
+  cyanorak:CK_00001680   strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein specific to
+  cyanorak:CK_00001734   strains=17 members= 17 frac_hypo=1.00  conserved hypothetical protein

@@ -1,0 +1,14 @@
+treatment_type,n_experiments,n_all_detected,strains
+carbon,16,8,MED4 | MIT9303 | MIT9312 | MIT9313 | marinus subsp. marinus CCMP1375 (SS120)
+nitrogen,12,10,MED4 | MIT9313 | marinus subsp. marinus CCMP1375 (SS120)
+light,10,2,MED4
+phosphorus,7,0,MED4 | MIT9312 | MIT9313 | NATL2A | marinus subsp. marinus CCMP1375 (SS120)
+coculture,5,4,MED4 | MIT9313 | NATL2A
+iron,5,0,MED4 | MIT9313
+plastic,4,0,MIT9312 | NATL2A
+viral,4,0,MED4 | MIT9313
+darkness,3,0,NATL2A
+salt,3,1,AS9601 | MED4 | NATL1A
+diel,2,0,MED4
+growth_phase,2,0,MED4 | MIT9301
+temperature,1,0,MIT9301

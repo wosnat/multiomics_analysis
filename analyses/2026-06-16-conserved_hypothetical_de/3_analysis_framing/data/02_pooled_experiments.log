@@ -1,0 +1,21 @@
+[in] 91 Prochlorococcus DE experiments
+[filter] gene-DE omics ['MICROARRAY', 'PAIRED_RNASEQ_PROTEOME', 'PROTEOMICS', 'RNASEQ']: 74
+[filter] after dropping {'compartment'}-only experiments: 74
+[out] pooled_experiments.csv: 74 experiments
+
+[breadth axis] 13 distinct treatment types in the pooled set:
+  carbon         exp=16 (all_detected= 8)  strains: MED4 | MIT9303 | MIT9312 | MIT9313 | marinus subsp. marinus CCMP1375 (SS120)
+  nitrogen       exp=12 (all_detected=10)  strains: MED4 | MIT9313 | marinus subsp. marinus CCMP1375 (SS120)
+  light          exp=10 (all_detected= 2)  strains: MED4
+  phosphorus     exp= 7 (all_detected= 0)  strains: MED4 | MIT9312 | MIT9313 | NATL2A | marinus subsp. marinus CCMP1375 (SS120)
+  coculture      exp= 5 (all_detected= 4)  strains: MED4 | MIT9313 | NATL2A
+  iron           exp= 5 (all_detected= 0)  strains: MED4 | MIT9313
+  plastic        exp= 4 (all_detected= 0)  strains: MIT9312 | NATL2A
+  viral          exp= 4 (all_detected= 0)  strains: MED4 | MIT9313
+  darkness       exp= 3 (all_detected= 0)  strains: NATL2A
+  salt           exp= 3 (all_detected= 1)  strains: AS9601 | MED4 | NATL1A
+  diel           exp= 2 (all_detected= 0)  strains: MED4
+  growth_phase   exp= 2 (all_detected= 0)  strains: MED4 | MIT9301
+  temperature    exp= 1 (all_detected= 0)  strains: MIT9301
+
+[max possible breadth] = 13 treatment types

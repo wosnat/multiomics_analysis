@@ -1,0 +1,75 @@
+experiment_id,organism_name,treatment_type,omics_type,table_scope,is_time_course,publication_doi
+10.1101/2025.11.24.690089_coculture_alteromonas_hot1a3_med4_rnaseq,Prochlorococcus MED4,coculture,RNASEQ,all_detected_genes,False,10.1101/2025.11.24.690089
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,Prochlorococcus MED4,nitrogen,PROTEOMICS,all_detected_genes,True,10.1101/2025.11.24.690089
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,Prochlorococcus MED4,nitrogen,PROTEOMICS,all_detected_genes,True,10.1101/2025.11.24.690089
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,Prochlorococcus MED4,nitrogen,RNASEQ,all_detected_genes,True,10.1101/2025.11.24.690089
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,Prochlorococcus MED4,nitrogen,RNASEQ,all_detected_genes,False,10.1101/2025.11.24.690089
+10.1101/2025.08.05.668435_growth_state_freeliving_planktonic_enrichment_mit9301_rnaseq,Prochlorococcus MIT9301,growth_phase,RNASEQ,significant_only,False,10.1101/2025.08.05.668435
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,Prochlorococcus NATL2A,darkness,RNASEQ,significant_any_timepoint,True,10.1093/ismeco/ycae131
+10.1128/spectrum.03275-22_dark_low_glucose_med4_proteomics,Prochlorococcus MED4,carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_dark_high_glucose_med4_proteomics,Prochlorococcus MED4,carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_light_low_glucose_med4_proteomics,Prochlorococcus MED4,carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_light_high_glucose_med4_proteomics,Prochlorococcus MED4,carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/mbio.03425-22_thermal_acclimation_mit9301_rnaseq,Prochlorococcus MIT9301,temperature,RNASEQ,,False,10.1128/mbio.03425-22
+10.1073/pnas.2213271120_chitosan_addition_mit9303_rnaseq,Prochlorococcus MIT9303,carbon,RNASEQ,significant_only,False,10.1073/pnas.2213271120
+10.1073/pnas.2213271120_chitosan_addition_mit9313_rnaseq,Prochlorococcus MIT9313,carbon,RNASEQ,significant_only,False,10.1073/pnas.2213271120
+10.1128/spectrum.03275-22_dark_low_glucose_ss120_proteomics,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_dark_high_glucose_ss120_proteomics,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_light_low_glucose_ss120_proteomics,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.1128/spectrum.03275-22_light_high_glucose_ss120_proteomics,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),carbon,PROTEOMICS,all_detected_genes,False,10.1128/spectrum.03275-22
+10.3389/fmicb.2022.1038136_salt_low_salinity_acclimation_28_med4_rnaseq,Prochlorococcus MED4,salt,RNASEQ,significant_only,False,10.3389/fmicb.2022.1038136
+10.1038/s43705-022-00197-2_carbon_stress_elevated_pco2_800_ppm_mit9312_rnaseq,Prochlorococcus MIT9312,carbon,RNASEQ,significant_only,False,10.1038/s43705-022-00197-2
+10.3389/fmicb.2022.1038136_salt_low_salinity_acclimation_28_natl1a_rnaseq,Prochlorococcus NATL1A,salt,RNASEQ,significant_only,False,10.3389/fmicb.2022.1038136
+10.1038/s42003-019-0410-x_plastic_hdpe_plastic_leachate_50_mit9312_rnaseq,Prochlorococcus MIT9312,plastic,RNASEQ,filtered_subset,False,10.1038/s42003-019-0410-x
+10.1038/s42003-019-0410-x_plastic_pvc_plastic_leachate_2_mit9312_rnaseq,Prochlorococcus MIT9312,plastic,RNASEQ,filtered_subset,False,10.1038/s42003-019-0410-x
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,Prochlorococcus MIT9313,viral,RNASEQ,significant_any_timepoint,True,10.1111/1462-2920.14513
+10.1038/s42003-019-0410-x_plastic_hdpe_plastic_leachate_50_natl2a_rnaseq,Prochlorococcus NATL2A,plastic,RNASEQ,filtered_subset,False,10.1038/s42003-019-0410-x
+10.1038/s42003-019-0410-x_plastic_pvc_plastic_leachate_2_natl2a_rnaseq,Prochlorococcus NATL2A,plastic,RNASEQ,filtered_subset,False,10.1038/s42003-019-0410-x
+10.1038/ismej.2017.189_carbon_stress_elevated_co2_800_ppm_mit9312_rnaseq,Prochlorococcus MIT9312,carbon,RNASEQ,significant_only,False,10.1038/ismej.2017.189
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_coculture,Prochlorococcus NATL2A,darkness,RNASEQ,significant_any_timepoint,True,10.1128/mSystems.00040-18
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic,Prochlorococcus NATL2A,darkness,RNASEQ,significant_any_timepoint,True,10.1128/mSystems.00040-18
+10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,Prochlorococcus MED4,nitrogen,RNASEQ,filtered_subset,True,10.1038/ismej.2017.88
+10.1128/mSystems.00008-17_azaserine_ss120_proteomics,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),nitrogen,PROTEOMICS,significant_only,False,10.1128/mSystems.00008-17
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq,Prochlorococcus MED4,coculture,RNASEQ,all_detected_genes,False,10.1038/ismej.2016.70
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark,Prochlorococcus MED4,light,RNASEQ,significant_only,True,10.1371/journal.pone.0165375
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,Prochlorococcus MED4,light,RNASEQ,significant_only,True,10.1371/journal.pone.0165375
+10.1371/journal.pone.0165375_viral_phage_phm2_lysate_med4_rnaseq_dark,Prochlorococcus MED4,viral,RNASEQ,significant_only,True,10.1371/journal.pone.0165375
+10.1371/journal.pone.0165375_viral_phage_phm2_lysate_med4_rnaseq_light,Prochlorococcus MED4,viral,RNASEQ,significant_only,True,10.1371/journal.pone.0165375
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_05e6,Prochlorococcus MIT9313,coculture,RNASEQ,all_detected_genes,False,10.1038/ismej.2016.70
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_5e6,Prochlorococcus MIT9313,coculture,RNASEQ,all_detected_genes,False,10.1038/ismej.2016.70
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,Prochlorococcus NATL2A,coculture,RNASEQ,significant_any_timepoint,True,10.1038/ismej.2016.82
+10.1016/j.micres.2015.04.006_salt_saltacclimated_5_salt_as9601_rnaseq,Prochlorococcus AS9601,salt,RNASEQ,all_detected_genes,False,10.1016/j.micres.2015.04.006
+10.1038/ismej.2015.36_carbon_air_0036_co2_21_med4_microarray,Prochlorococcus MED4,carbon,MICROARRAY,filtered_subset,False,10.1038/ismej.2015.36
+10.1038/ismej.2015.36_carbon_ambient_co2_no_o2_med4_microarray,Prochlorococcus MED4,carbon,MICROARRAY,filtered_subset,False,10.1038/ismej.2015.36
+10.1038/ismej.2015.36_carbon_low_co2_0004_co2_med4_microarray,Prochlorococcus MED4,carbon,MICROARRAY,filtered_subset,False,10.1038/ismej.2015.36
+10.1038/ismej.2015.36_carbon_low_co2_and_no_med4_microarray,Prochlorococcus MED4,carbon,MICROARRAY,filtered_subset,False,10.1038/ismej.2015.36
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,Prochlorococcus NATL2A,phosphorus,RNASEQ,significant_only,True,10.1111/1462-2920.13104
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,Prochlorococcus NATL2A,phosphorus,RNASEQ,significant_only,True,10.1111/1462-2920.13104
+10.1186/1471-2180-14-11_expression_profiling_med4_rnaseq,Prochlorococcus MED4,growth_phase,RNASEQ,,False,10.1186/1471-2180-14-11
+10.1371/journal.pone.0043432_waldbauer_2012_med4_paired_diel,Prochlorococcus MED4,diel,PAIRED_RNASEQ_PROTEOME,,False,10.1371/journal.pone.0043432
+10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq,Prochlorococcus MIT9312,phosphorus,PROTEOMICS,significant_only,False,10.1186/2046-9063-8-7
+10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,Prochlorococcus NATL2A,phosphorus,PROTEOMICS,significant_only,False,10.1186/2046-9063-8-7
+10.1186/2046-9063-8-7_pi_limitation_ss120_itraq,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),phosphorus,PROTEOMICS,significant_only,False,10.1186/2046-9063-8-7
+10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light_2,Prochlorococcus MED4,iron,MICROARRAY,significant_any_timepoint,False,10.1038/ismej.2011.49
+10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light,Prochlorococcus MED4,iron,MICROARRAY,significant_any_timepoint,True,10.1038/ismej.2011.49
+10.1038/ismej.2011.49_growth_medium_ironreplete_control_med4_med4_microarray,Prochlorococcus MED4,iron,MICROARRAY,significant_any_timepoint,False,10.1038/ismej.2011.49
+10.1038/ismej.2011.49_iron_iron_starvation_mit9313_mit9313_microarray,Prochlorococcus MIT9313,iron,MICROARRAY,significant_any_timepoint,True,10.1038/ismej.2011.49
+10.1038/ismej.2011.49_growth_medium_ironreplete_control_mit9313_mit9313_microarray,Prochlorococcus MIT9313,iron,MICROARRAY,significant_any_timepoint,False,10.1038/ismej.2011.49
+10.1371/journal.pone.0005135_diel_cycling_med4_microarray,Prochlorococcus MED4,diel,MICROARRAY,,False,10.1371/journal.pone.0005135
+10.1038/nature06130_viral_phage_infected_med4_microarray,Prochlorococcus MED4,viral,MICROARRAY,significant_only,True,10.1038/nature06130
+10.1021/pr060460c_light_HL_vs_LL_med4_proteomics,Prochlorococcus MED4,light,PROTEOMICS,all_detected_genes,False,10.1021/pr060460c
+10.1021/pr060460c_light_ML_vs_LL_med4_proteomics,Prochlorococcus MED4,light,PROTEOMICS,all_detected_genes,False,10.1021/pr060460c
+10.1128/JB.01097-06_light_stress_blue_light_13_umol_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1128/JB.01097-06_light_stress_dcmu_white_light_13_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1128/JB.01097-06_light_stress_green_light_13_umol_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1038/msb4100087_growth_medium_growth_on_cyanate_as_med4_microarray,Prochlorococcus MED4,nitrogen,MICROARRAY,all_detected_genes,False,10.1038/msb4100087
+10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray,Prochlorococcus MED4,nitrogen,MICROARRAY,all_detected_genes,False,10.1038/msb4100087
+10.1128/JB.01097-06_light_stress_high_white_light_55_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,Prochlorococcus MED4,nitrogen,MICROARRAY,all_detected_genes,True,10.1038/msb4100087
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,Prochlorococcus MED4,phosphorus,MICROARRAY,filtered_subset,True,10.1073/pnas.0601301103
+10.1128/JB.01097-06_light_stress_red_light_13_umol_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1128/JB.01097-06_light_stress_white_light_13_umol_med4_microarray,Prochlorococcus MED4,light,MICROARRAY,filtered_subset,False,10.1128/JB.01097-06
+10.1038/msb4100087_growth_medium_growth_on_nitrite_as_mit9313_microarray,Prochlorococcus MIT9313,nitrogen,MICROARRAY,all_detected_genes,False,10.1038/msb4100087
+10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray,Prochlorococcus MIT9313,nitrogen,MICROARRAY,all_detected_genes,False,10.1038/msb4100087
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,Prochlorococcus MIT9313,nitrogen,MICROARRAY,all_detected_genes,True,10.1038/msb4100087
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,Prochlorococcus MIT9313,phosphorus,MICROARRAY,filtered_subset,True,10.1073/pnas.0601301103

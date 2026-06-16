@@ -53,7 +53,45 @@ the analysis cites them.
 
 ## Methods
 
-<!-- Populated from steps 3 (framing) and 4 (implementation). -->
+### Selection
+
+Candidate ortholog families are cyanorak curated groups in which **≥80% of the
+*Prochlorococcus* members carry no informative annotation** (AQ ≤ 1) and which are
+**conserved across many strains** of the 17-strain cyanorak backbone, reported in
+two tiers: *core* (≥14/17 strains) and *broad* (≥9/17). This yields 245 broad
+families, of which 97 are core and 50 are present in all 17 strains.
+
+Differential expression is pooled over the **74 gene-DE *Prochlorococcus*
+experiments** (RNAseq / microarray / proteomics; metabolomics and
+compartment-partitioning contrasts excluded) spanning **13 treatment types**.
+All experiments are used regardless of `table_scope`; the resulting limitation
+(significant-only tables lack a tested-but-flat denominator) is carried as a
+caveat rather than gating the analysis.
+
+### Response metric
+
+For each family, member-level DE is retrieved with
+`differential_expression_by_ortholog`, scoped to *Prochlorococcus* and the pooled
+experiments, and aggregated to two independent axes:
+
+- **Breadth** — the number of distinct treatment types in which at least one member
+  is significantly differentially expressed in at least one timepoint of at least
+  one experiment (0–13).
+- **Prominence** — best DE rank reached in any experiment, largest |log2 fold
+  change|, and the count of significant member×experiment×timepoint datapoints.
+
+Direction (up / down / mixed) is tracked per treatment and overall. Families are
+ranked primarily by breadth and secondarily by prominence.
+
+### Controls
+
+The metric was validated on characterized MED4 genes before application: the
+broad-stress chaperone-class and high-light-inducible genes versus a
+phosphate-specific marker and a housekeeping chaperone paralog. The breadth axis
+correctly separated broad responders (*hli*, 5 treatment types) from narrow ones
+(*htpG*, 1; *dnaK1*, 0), and the phosphate marker *pstS* (prominent in phosphorus,
+moderate breadth) confirmed that breadth and prominence are independent and must be
+reported separately.
 
 ## Results
 
