@@ -1,0 +1,18 @@
+[handoff] 85 shortlist families -> data/handoff_shortlist.csv (14 core14)
+
+[CORE 14 — broad AND prominent conserved hypotheticals]
+               og_id  tier  proc_strains  breadth  n_treatments_tested  response_rate  best_rank  max_abs_log2fc direction                  consensus_product
+cyanorak:CK_00019843  core            15        9                    9       1.000000        1.0            8.66     mixed     conserved hypothetical protein
+cyanorak:CK_00000141 broad            13        9                    9       1.000000        1.0            6.60     mixed uncharacterized conserved secreted
+cyanorak:CK_00001734  core            17        7                    9       0.777778        2.0            9.60     mixed     conserved hypothetical protein
+cyanorak:CK_00045004  core            14        7                    7       1.000000        1.0            9.30     mixed conserved hypothetical protein fam
+cyanorak:CK_00004021  core            14        7                    7       1.000000        3.0            7.33     mixed uncharacterized conserved membrane
+cyanorak:CK_00001345  core            17        6                    7       0.857143        8.0           13.27     mixed uncharacterized conserved secreted
+cyanorak:CK_00049482  core            17        6                    6       1.000000        2.0           13.05     mixed     conserved hypothetical protein
+cyanorak:CK_00003473  core            17        6                    7       0.857143        2.0           12.26     mixed uncharacterized secreted protein, 
+cyanorak:CK_00009151 broad             9        6                    6       1.000000        8.0           11.97     mixed     conserved hypothetical protein
+cyanorak:CK_00039303 broad            13        6                    6       1.000000       98.0           11.50     mixed     conserved hypothetical protein
+cyanorak:CK_00000498  core            17        6                    7       0.857143       71.0           11.29     mixed HesB-like domain-containing protei
+cyanorak:CK_00045754 broad            12        6                    6       1.000000        3.0           10.81     mixed     conserved hypothetical protein
+cyanorak:CK_00041192  core            17        6                    6       1.000000        3.0            6.58     mixed     conserved hypothetical protein
+cyanorak:CK_00000284  core            17        6                    7       0.857143        2.0            6.12     mixed     Conserved hypothetical protein

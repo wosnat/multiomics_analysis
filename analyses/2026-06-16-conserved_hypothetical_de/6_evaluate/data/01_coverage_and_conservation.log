@@ -1,0 +1,14 @@
+[coverage confound] Pearson r
+  breadth ~ n_treatments_tested : 0.90
+  proc_strains ~ n_treatments_tested (conservation IS coverage): 0.54
+  breadth ~ proc_strains : 0.55
+  response_rate ~ proc_strains (conservation beyond coverage?): 0.22
+
+[conservation by tier — hypotheticals]
+ tier   n  mean_breadth  median_breadth  mean_treatments_tested  mean_response_rate  mean_max_abs_log2fc  mean_proc_members  n_shortlist
+ core  97          4.61               4                    5.40               0.850                 6.58               16.4           45
+broad 148          3.05               3                    3.89               0.785                 4.11               10.3           40
+
+[OG size] breadth ~ proc_members r = 0.61; max|log2FC| ~ proc_members r = 0.48
+
+[out] figures: fig8_breadth_vs_coverage, fig9_conservation_by_tier (png+svg)

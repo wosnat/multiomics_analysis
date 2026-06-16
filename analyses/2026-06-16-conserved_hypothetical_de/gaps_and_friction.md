@@ -24,6 +24,18 @@ root. Resolution: invoke `uv run python analyses/.../scripts/NN.py` from the rep
 root; scripts already use `__file__`-relative output paths so CWD only matters for
 credential loading. Process note, no methodology change.
 
+## 2026-06-16 — Methodology gap: count-based "breadth" metrics are coverage-confounded
+
+The response-breadth metric (number of distinct conditions a family responds in)
+correlates with measurement coverage at r=0.90 — a family looks broadly responsive
+largely because it was assayed in more conditions (well-studied strains). This is a
+general trap for any count-of-conditions metric over a heterogeneously-sampled
+experiment set. Lesson for future analyses: pair any breadth/count metric with its
+coverage denominator (a response_rate) and/or lean on coverage-robust signals
+(magnitude, within-experiment rank). Surfaced only because step 6 ran the confound
+check — argues for making a coverage check a default step when a metric counts
+"how many conditions/experiments". Caught here; carried into the paper's limitations.
+
 ## 2026-06-16 — Scope split: selection here, characterization as a follow-on analysis
 
 The step-1 question was two-part: (a) select broadly-DE conserved hypotheticals, and
