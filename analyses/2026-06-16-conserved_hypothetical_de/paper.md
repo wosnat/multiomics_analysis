@@ -3,23 +3,28 @@
 ## Question
 
 Across *Prochlorococcus*, which **conserved hypothetical ortholog families** — gene
-families with no assigned function but wide conservation (many orthologs) — are
-**differentially expressed across many distinct conditions**, and what can the
-knowledge graph tell us about them?
+families with no assigned function but wide conservation (present in many strains) —
+are **broadly and/or prominently differentially expressed across many distinct
+conditions**? The goal is a ranked, defensible shortlist of *interesting* conserved
+hypothetical genes worth following up.
+
+This analysis is the **selection** half of the original question. The
+characterization half — what the knowledge graph can tell us about the shortlisted
+genes (cross-organism homologs, genomic neighborhood, co-expression, ontology of
+neighbors) — is a separate follow-on analysis that takes this shortlist as input
+(scope split recorded 2026-06-16; see `1_question/notebook.md` and
+`gaps_and_friction.md`).
 
 Operational intent (precise definitions verified/finalized in later steps):
 - **Uncharacterized** = no assigned function ("hypothetical protein" / conserved
-  hypothetical / lacking a functional name). Exact annotation field verified in step 2.
-- **Conserved** = the ortholog family has many members (broad conservation). The
-  unit of analysis is the **ortholog group**, not the single-strain locus tag.
+  hypothetical / lacking a functional name); operationalized as annotation quality
+  ≤ 1 (step 2).
+- **Conserved** = the ortholog family is present in many strains. The unit of
+  analysis is the **ortholog group**, not the single-strain locus tag.
 - **Broadly responsive** = differentially expressed across many distinct
   conditions/stresses, pooled at the ortholog-family level so coverage from all
-  *Prochlorococcus* strains contributes. MED4 supplies most of the condition
-  breadth; other strains test whether the response generalizes.
-- **What can we learn** = the characterizing evidence the KG holds — cross-organism
-  homologs, conserved genomic neighborhood, co-expression cluster membership, the
-  ontology of neighbors / co-expressed genes, and the response-profile fingerprint
-  across conditions.
+  *Prochlorococcus* strains contributes. **Prominently responsive** = top
+  within-experiment rank, large fold change, or many significant datapoints.
 
 ## Background
 
@@ -104,7 +109,35 @@ reported separately.
 
 ## Results
 
-<!-- Populated from step 5. -->
+All 245 conserved hypothetical families were scored, alongside the full
+conservation-matched backdrop of 1,710 conserved cyanorak families (≥9/17 strains;
+1,465 of them characterized), over 23,422 significant differential-expression
+datapoints.
+
+**Conserved hypotheticals respond about as broadly as characterized conserved
+genes.** Median breadth is 4 treatment types for both groups; characterized families
+have a slightly higher mean (4.48 vs 3.67) and a heavier broad tail, but 30 of the 245
+hypotheticals respond in ≥6 of 13 conditions and the most responsive match the
+broadest characterized families. The dark genes are not transcriptionally silent.
+
+**A shortlist of 85 interesting hypothetical families** was defined as those that are
+broad (≥6 treatment types; 30 families) or prominent (a top-3 within-experiment
+responder, |log2 fold change| ≥ 8, or ≥30 significant datapoints; 69 families), 14
+being both. The most responsive — e.g. `cyanorak:CK_00000141` and `CK_00019843`
+(breadth 9, reaching rank 1) and `CK_00045754` (|log2FC| 10.8) — are as broadly and
+prominently regulated as any characterized gene, yet carry no functional annotation in
+any strain.
+
+**Direction is condition-dependent.** Headline families are overall "mixed" because
+their direction flips across conditions (e.g. up under darkness, down under
+nitrogen/coculture/salt) — a regulatory signal in its own right, resolved per
+treatment in the direction heatmap.
+
+Figures (PNG + SVG): breadth distribution hypothetical vs characterized
+(`5_analyze/figures/fig5`); the breadth-versus-prominence backdrop coloured by gene
+category with direction as marker shape and characterized controls anchoring the axes
+(`fig6`); and a clustered direction-by-treatment heatmap of the 85-family shortlist
+(`fig7`).
 
 ## Discussion
 

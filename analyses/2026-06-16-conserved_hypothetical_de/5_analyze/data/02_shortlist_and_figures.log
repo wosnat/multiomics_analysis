@@ -1,0 +1,19 @@
+[shortlist] 85 headline hypothetical families of 245
+  broad (>=6): 30 | prominent: 69 | both: 14
+
+[top 12 shortlist]
+               og_id  tier  proc_strains dominant_category  breadth  n_significant_datapoints  best_rank  max_abs_log2fc direction  is_broad  is_prominent                consensus_product
+cyanorak:CK_00000141 broad            13           Unknown        9                        32        1.0            6.60     mixed      True          True uncharacterized conserved secret
+cyanorak:CK_00019843  core            15           Unknown        9                        31        1.0            8.66     mixed      True          True   conserved hypothetical protein
+cyanorak:CK_00055271  core            17           Unknown        8                        27        4.0            3.49     mixed      True         False   conserved hypothetical protein
+cyanorak:CK_00045004  core            14           Unknown        7                        38        1.0            9.30     mixed      True          True conserved hypothetical protein f
+cyanorak:CK_00001734  core            17           Unknown        7                        25        2.0            9.60     mixed      True          True   conserved hypothetical protein
+cyanorak:CK_00046153  core            17           Unknown        7                        21       17.0            7.80     mixed      True         False   conserved hypothetical protein
+cyanorak:CK_00004021  core            14           Unknown        7                        21        3.0            7.33     mixed      True          True uncharacterized conserved membra
+cyanorak:CK_00000653  core            17           Unknown        7                        19        4.0            6.80     mixed      True         False   conserved hypothetical protein
+cyanorak:CK_00001157  core            17           Unknown        7                        16        8.0            2.56     mixed      True         False   conserved hypothetical protein
+cyanorak:CK_00001473  core            17           Unknown        7                        14       14.0            6.64     mixed      True         False   conserved hypothetical protein
+cyanorak:CK_00045754 broad            12           Unknown        6                        35        3.0           10.81     mixed      True          True   conserved hypothetical protein
+cyanorak:CK_00000840  core            17           Unknown        6                        26       14.0            4.33     mixed      True         False   conserved hypothetical protein
+
+[out] figures: fig5_breadth_hypo_vs_characterized.png, fig6_backdrop_breadth_vs_prominence.png, fig7_direction_clustermap_shortlist.png

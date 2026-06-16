@@ -28,6 +28,29 @@ just-in-time formalization):
   homologs, conserved genomic neighborhood, co-expression cluster membership,
   ontology of neighbors / co-expressed genes, response-profile fingerprint.
 
+## Reopened 2026-06-16 — scope narrowed to selection
+
+**Original lock (above):** a two-part question — (a) *select* which conserved
+hypothetical families are broadly differentially expressed, and (b) *characterize*
+what the KG can tell us about them.
+
+**Trigger:** during step-5 co-define the researcher decided the two parts are better
+framed as two separate analyses (one analysis = one question).
+
+**Evolved question for THIS analysis (selection only):**
+
+> Across *Prochlorococcus*, which **conserved hypothetical ortholog families** are
+> broadly and/or prominently **differentially expressed across many conditions**? —
+> i.e. produce a ranked, defensible shortlist of *interesting* conserved hypothetical
+> genes.
+
+The characterization half (part b — homologs, genomic neighborhood, co-expression,
+ontology of neighbors) **spins out to a separate follow-on analysis** that takes this
+analysis's ranked shortlist as its input. This analysis ends at the shortlist +
+evaluation (step 6); it does not characterize the hits.
+
+Decision dated 2026-06-16; see `gaps_and_friction.md`.
+
 ## What I did
 
 Clarifying dialogue with the researcher (brainstorming-style, three forks put as

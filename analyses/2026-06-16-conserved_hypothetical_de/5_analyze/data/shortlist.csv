@@ -1,0 +1,86 @@
+og_id,tier,proc_strains,dominant_category,breadth,n_significant_datapoints,best_rank,max_abs_log2fc,direction,is_broad,is_prominent,consensus_product
+cyanorak:CK_00000141,broad,13,Unknown,9,32,1.0,6.6,mixed,True,True,uncharacterized conserved secreted protein
+cyanorak:CK_00019843,core,15,Unknown,9,31,1.0,8.66,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00055271,core,17,Unknown,8,27,4.0,3.49,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00045004,core,14,Unknown,7,38,1.0,9.3,mixed,True,True,conserved hypothetical protein family PM-17
+cyanorak:CK_00001734,core,17,Unknown,7,25,2.0,9.6,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00046153,core,17,Unknown,7,21,17.0,7.8,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00004021,core,14,Unknown,7,21,3.0,7.33,mixed,True,True,uncharacterized conserved membrane protein
+cyanorak:CK_00000653,core,17,Unknown,7,19,4.0,6.8,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00001157,core,17,Unknown,7,16,8.0,2.56,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00001473,core,17,Unknown,7,14,14.0,6.64,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00045754,broad,12,Unknown,6,35,3.0,10.81,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00000840,core,17,Unknown,6,26,14.0,4.33,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00001476,core,17,Unknown,6,25,6.0,4.12,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00043005,core,14,Unknown,6,25,5.0,4.46,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00041192,core,17,Unknown,6,24,3.0,6.58,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00003473,core,17,Unknown,6,22,2.0,12.26,mixed,True,True,"uncharacterized secreted protein, Prochlorococcus-specific"
+cyanorak:CK_00000679,core,17,Unknown,6,20,23.0,6.69,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00047022,core,14,Unknown,6,20,33.0,7.23,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00000284,core,17,Unknown,6,18,2.0,6.12,mixed,True,True,Conserved hypothetical protein
+cyanorak:CK_00049482,core,17,Unknown,6,18,2.0,13.05,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00001345,core,17,Unknown,6,18,8.0,13.27,mixed,True,True,uncharacterized conserved secreted protein
+cyanorak:CK_00045976,core,14,Unknown,6,18,19.0,4.02,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00005948,broad,13,Unknown,6,18,10.0,4.1,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00044538,core,16,Unknown,6,17,20.0,4.92,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00051095,broad,13,Unknown,6,17,4.0,5.04,mixed,True,False,Conserved hypothetical protein
+cyanorak:CK_00001731,core,15,Unknown,6,14,9.0,2.84,mixed,True,False,conserved hypothetical protein
+cyanorak:CK_00000498,core,17,Unknown,6,11,71.0,11.29,mixed,True,True,HesB-like domain-containing protein
+cyanorak:CK_00049623,broad,12,Unknown,6,11,4.0,5.11,mixed,True,False,Conserved hypothetical protein
+cyanorak:CK_00009151,broad,9,Unknown,6,11,8.0,11.97,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00039303,broad,13,Unknown,6,8,98.0,11.5,mixed,True,True,conserved hypothetical protein
+cyanorak:CK_00055728,core,17,Unknown,5,26,2.0,7.25,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00000893,core,17,Unknown,5,26,3.0,2.8,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00036942,core,17,Unknown,5,22,2.0,7.88,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00036391,core,16,Unknown,5,19,10.0,11.4,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00049418,broad,13,Unknown,5,19,1.0,6.63,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00054285,broad,13,Unknown,5,17,3.0,3.55,mixed,False,True,Conserved hypothetical protein
+cyanorak:CK_00001236,core,17,Unknown,5,15,16.0,8.19,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00000936,core,17,Unknown,5,15,47.0,11.5,mixed,False,True,uncharacterized conserved secreted protein
+cyanorak:CK_00000335,core,17,Unknown,5,15,30.0,10.97,mixed,False,True,Conserved hypotothetical protein
+cyanorak:CK_00003517,broad,13,Unknown,5,15,2.0,6.48,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00039912,broad,12,Unknown,5,15,1.0,6.72,mixed,False,True,Hypothetical protein
+cyanorak:CK_00049877,core,17,Unknown,5,13,17.0,12.98,mixed,False,True,"conserved hypothetical UPF0367 protein, cyanobacteria specific"
+cyanorak:CK_00003439,broad,9,Unknown,5,12,1.0,12.48,mixed,False,True,uncharacterized conserved membrane protein
+cyanorak:CK_00001349,broad,12,Unknown,5,11,2.0,12.4,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003569,broad,9,Unknown,5,11,2.0,3.15,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00056778,broad,9,Unknown,5,10,1.0,4.69,mixed,False,True,uncharacterized conserved secreted protein
+cyanorak:CK_00043487,broad,9,Unknown,5,10,1.0,5.87,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00001222,core,16,Unknown,5,9,37.0,11.97,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00043306,broad,9,Unknown,5,9,3.0,2.33,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00002114,core,16,Unknown,5,8,2.0,12.6,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00042789,core,14,Unknown,4,22,2.0,8.52,mixed,False,True,conserved hypothetical protein family PM-14
+cyanorak:CK_00001269,core,15,Unknown,4,20,6.0,11.04,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003991,broad,12,Unknown,4,20,1.0,6.55,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003570,broad,9,Unknown,4,18,3.0,4.58,mixed,False,True,possible M protein repeat
+cyanorak:CK_00001888,core,17,Unknown,4,14,56.0,11.04,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00051501,broad,13,Unknown,4,14,4.0,9.39,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00000958,core,17,Unknown,4,13,24.0,11.81,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00044315,core,14,Unknown,4,12,31.0,11.17,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00000706,core,17,Unknown,4,11,45.0,12.1,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00056279,core,17,Unknown,4,11,8.0,12.1,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00036878,broad,13,Unknown,4,11,1.0,4.99,mixed,False,True,Conserved hypothetical protein
+cyanorak:CK_00001691,core,17,Unknown,4,9,1.0,12.45,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00050122,broad,11,Unknown,4,9,1.0,4.1,down,False,True,Conserved hypothetical protein
+cyanorak:CK_00034724,broad,9,Unknown,4,9,2.0,6.62,mixed,False,True,uncharacterized conserved membrane protein
+cyanorak:CK_00004181,core,16,Unknown,4,8,1.0,3.48,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00051242,broad,9,Unknown,4,7,3.0,3.2,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003482,broad,9,Unknown,4,7,2.0,3.17,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00002637,core,14,Unknown,4,6,3.0,9.24,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00000133,broad,13,Unknown,4,6,7.0,12.48,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00001174,broad,10,Unknown,4,5,13.0,11.6,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003600,broad,9,Unknown,4,5,2.0,3.22,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00003576,broad,10,Unknown,4,4,35.0,12.48,mixed,False,True,"possible bacterial extracellular solute-binding protein, family 3"
+cyanorak:CK_00042537,core,14,Unknown,3,14,3.0,5.17,mixed,False,True,possible uncharacterized conserved secreted protein
+cyanorak:CK_00056305,broad,9,Unknown,3,12,2.0,5.79,mixed,False,True,Conserved hypothetical protein
+cyanorak:CK_00033671,broad,10,Unknown,3,10,5.0,12.23,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00002632,core,14,Unknown,3,9,1.0,3.42,mixed,False,True,uncharacterized conserved membrane protein
+cyanorak:CK_00053566,broad,9,Unknown,3,9,2.0,2.19,mixed,False,True,Conserved hypothetical protein
+cyanorak:CK_00048289,broad,9,Unknown,3,9,2.0,4.02,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00043162,broad,10,Unknown,3,6,60.0,10.81,down,False,True,uncharacterized conserved secreted protein
+cyanorak:CK_00003393,broad,9,Unknown,3,4,60.0,11.97,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00048124,broad,9,Unknown,3,3,3.0,3.03,up,False,True,uncharacterized conserved membrane protein
+cyanorak:CK_00042680,broad,12,Unknown,2,13,2.0,7.98,mixed,False,True,Conserved hypothetical protein
+cyanorak:CK_00044630,broad,9,Unknown,2,9,1.0,7.32,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00004178,broad,9,Unknown,1,10,1.0,8.41,mixed,False,True,conserved hypothetical protein
+cyanorak:CK_00047414,broad,10,Unknown,1,6,15.0,8.32,down,False,True,conserved hypothetical protein

@@ -1,3 +1,7 @@
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
 __pycache__/
+
+# 4.7MB significant-DE extract for all conserved OGs; regenerate with
+# 5_analyze/scripts/01_score_conserved_ogs.py
+5_analyze/data/de_long_significant.csv

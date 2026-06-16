@@ -24,6 +24,18 @@ root. Resolution: invoke `uv run python analyses/.../scripts/NN.py` from the rep
 root; scripts already use `__file__`-relative output paths so CWD only matters for
 credential loading. Process note, no methodology change.
 
+## 2026-06-16 — Scope split: selection here, characterization as a follow-on analysis
+
+The step-1 question was two-part: (a) select broadly-DE conserved hypotheticals, and
+(b) characterize what the KG can tell us about them. During step-5 co-define the
+researcher decided to frame these as two separate analyses — this one ends at the
+ranked shortlist (steps 5–6); the characterization (homologs, genomic neighborhood,
+co-expression, ontology of neighbors) becomes a new analysis taking this shortlist as
+input. Handled via the step-protocol **reopen path**: the step-1 lock was edited to
+record original + trigger + evolved (selection-only) question rather than silently
+rewritten. Methodology note: a naturally two-part question is cleaner as two
+single-question analyses; worth watching whether this recurs as a pattern.
+
 ## 2026-06-16 — differential_expression_by_ortholog has no per-datapoint rank/magnitude
 
 The ortholog-framed DE tool returns member **counts** per group×experiment×timepoint

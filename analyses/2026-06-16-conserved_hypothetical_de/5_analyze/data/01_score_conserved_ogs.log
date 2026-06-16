@@ -1,0 +1,19 @@
+[conserved set] 1710 OGs (>= 9/17 strains); 245 hypothetical, 1465 characterized
+[members] 27287 member genes across 17 strains
+  AS9601                             sig_rows=1659
+  MED4                               sig_rows=7197
+  MIT9301                            sig_rows=220
+  MIT9303                            sig_rows=3
+  MIT9312                            sig_rows=1010
+  MIT9313                            sig_rows=1443
+  NATL1A                             sig_rows=47
+  NATL2A                             sig_rows=11324
+  marinus subsp. marinus CCMP1375 (SS120) sig_rows=519
+[de] 23422 significant datapoints over 1705 OGs
+
+[coverage] 1705/1710 conserved families have >=1 significant response
+
+[breadth: hypothetical vs characterized]
+  group             n   mean  median  >=6 (broad)
+  hypothetical    245   3.67       4           30
+  characterized  1465   4.48       4          326
