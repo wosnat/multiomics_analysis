@@ -161,3 +161,19 @@ on a second analysis):
   papers; no `table_scope` value for "up-regulated only"; empty `table_scope_detail`.
   Not skill matters — KG-team items.
 - **Minor tooling:** `list_experiments` Python missing `timepoints`. Note only.
+
+## 2026-06-16 — status: skill promotions actioned
+
+The consolidation above framed three items as *candidates*; they were in fact
+**promoted to the research-methodology skill in commit `9c1de08`** (same session):
+- "Don't reinvent / re-wrap package machinery" → `SKILL.md` Rule 5.
+- "Verify log2FC sign before a direction claim" → `anti-hallucination.md` 3.4 (+ quick self-check).
+- "Locks are provisional" (lock-vs-data-reveal) → `step-protocol.md` **Reopen path**.
+  Promoted on **one occurrence** (overriding the usual two-analyses bar) because it
+  sharpened the in-flight co-define edits it pairs with — this **supersedes** the
+  "promote on a second occurrence" line in the 2026-06-15 lock-vs-data-reveal entry.
+
+Still open (not skill matters): KG-team items (2016 sign-loss; no "up-only"
+`table_scope` value; empty `table_scope_detail`) — to report upstream.
+`.claude/settings.json` `run_cypher` allow-rule left uncommitted (needs the
+researcher's go).
