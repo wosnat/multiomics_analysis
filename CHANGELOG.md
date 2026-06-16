@@ -11,6 +11,12 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 
 ## [Unreleased]
 
+## [0.1.0-alpha.2] — 2026-06-16
+
+First update after the initial clone target, harvesting lessons from the first
+two dogfood analyses (P-acquisition capacity in Prochlorococcus ecotypes;
+motility regulation in an Alteromonas coculture).
+
 ### Added
 - Preflight now reports which KG deployment you're connected to and warns
   (without blocking) if it isn't the production KG — so you can't unknowingly
@@ -18,11 +24,30 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
   if you mean to target a non-production KG.
 - Preflight checks that the required research plugin is enabled and tells you
   how to install it if it's missing, instead of failing partway into step 1.
+- Research-methodology guidance harvested from the first real analyses:
+  - **Co-define each step before doing it.** The flow now opens with a
+    plain-language proposal you agree to (a `co-define` phase + GATE 0), so you
+    shape each step rather than reacting to finished work.
+  - **Reach for the highest-level tool first** (Rule 5) — don't hand-roll or
+    re-wrap analysis the package already ships (e.g. call `pathway_enrichment`
+    rather than rebuilding Fisher ORA).
+  - **Plain language with the researcher** (Rule 9) — no internal codes,
+    step-IDs, or undefined jargon in conversation.
+  - **Direction (up/down) claims need a present sign** (anti-hallucination 3.4)
+    — check the all-gene log2FC sign distribution before comparing direction; a
+    table can read all-positive because the sign was lost, not because biology
+    went one way.
+  - **Reopen path** — when a later step's data contradicts an already-locked
+    earlier step, edit the lock instead of papering over it; locks are
+    provisional until their data has been pulled.
 
 ### Changed
-- Updated to the latest knowledge-graph tools — run `uv sync` after pulling.
-  This adds new lookups, including finding the genes and pathways a publication
-  discusses.
+- Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.3) — run
+  `uv sync` after pulling. Adds new lookups (finding the genes and pathways a
+  publication discusses) plus two fixes that bit the first dogfood:
+  genome-only and metabolomics-only strains now resolve in the single-organism
+  tools (e.g. `genes_by_ontology`) instead of being wrongly rejected, and gene
+  lookups no longer error on genes that have no expression data.
 - A typical analysis now runs without a permission prompt at nearly every step:
   the full set of read-only KG tools is pre-approved out of the box.
 - A fresh clone no longer needs a manual plugin install — the research plugin is
