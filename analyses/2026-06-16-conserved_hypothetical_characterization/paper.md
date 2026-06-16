@@ -75,7 +75,59 @@ release is 0.1.0-alpha.6 (built 2026-06-16); the input shortlist was produced on
 
 ## Methods
 
-<!-- populated at step 4 decide -->
+### Dossier schema and the convergence principle
+
+Each family is characterized by a row in a fixed schema (frozen in
+`3_analysis_framing/data/dossier_schema.csv`) with blocks for identity, the carried
+DE fingerprint, cross-organism homologs, genomic neighborhood, co-expression cluster
+membership, sequence/localization features, derived metrics, and direct publication
+mention. The organizing principle is that **these angles are not independent facts to
+be read side by side — agreement across them is the lead.** A dedicated convergence
+layer captures this. Its strongest signals are (i) **phyletic profiling** — the
+characterized family whose strain presence-absence pattern most closely matches the
+target (co-occurrence implying functional coupling, informative only for the
+variably-present families); (ii) **KG-scale co-response similarity** — correlation of
+the target's fine-grained per-(experiment × timepoint) log2 fold-change vector against
+characterized families, computed on shared measured datapoints and on response shape
+(not on the collapsed per-treatment direction summary, and guarded against the breadth
+coverage-confound); and (iii) **operon triple-convergence** — a neighbor that is
+same-strand, conserved-adjacent across strains, and co-expressed. Further signals are
+neighbor-and-cluster-mate overlap, neighborhood pathway coherence, homolog-context
+concordance, secretion convergence (SignalP + vesicle proteome + localization + label),
+and pangenome context (whether the family and its neighbors are core or flexible). The
+number of independent angles that agree, not any single column, sets the confidence.
+
+### Evidence hardness and confidence
+
+Every field is tagged **hard** or **soft**. Hard evidence (Pfam/COG domain, SignalP
+score, PSORTb localization, pangenome class, synteny conserved across strains, and
+cross-angle convergence) is trusted; soft evidence — `consensus_product`, ortholog-group
+`consensus_gene_name`, and cluster `functional_description` — is majority-vote
+descriptive labelling about a group rather than a measured fact about the individual
+gene, and is treated cautiously. Each family is assigned a lead of one or more of five
+types (function-rescued, neighborhood, co-expression, surface/secreted, lineage-novelty)
+with an evidence grade of high (hard evidence and/or multi-angle convergence), medium,
+or low (a descriptive label alone).
+
+### Cross-organism homologs
+
+Because the cyanorak backbone is cyanobacteria-only, cross-organism reach is read from
+eggnog ortholog groups at their broadest taxonomic level: a family is bacteria-wide,
+cyanobacteria-restricted, or *Prochlorococcus*-restricted according to the genera in
+that group, and where the broadest group carries a COG/gene symbol that identity is
+recovered (function rescue).
+
+### Representative strain, controls, and driving examples
+
+Mechanistic angles (neighborhood, co-expression, sequence, derived metrics) are anchored
+on one representative strain per family (MED4 where present, else the best-covered
+strain), since co-expression and derived-metric data concentrate in MED4; the DE
+fingerprint and homolog conservation remain family-level. GroEL (cyanorak CK_00008054)
+is a positive control that must classify as a high-grade known gene; the
+*Prochlorococcus*-specific family CK_00003473 is an absence control that must not be
+over-called. The extraction/classification module was developed on two driving families
+— CK_00000498 (a clean function-rescue) and CK_00000141 (paralogs plus neighborhood and
+cluster convergence) — before application to all 14.
 
 ## Results
 

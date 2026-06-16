@@ -1,0 +1,50 @@
+block,column,source_tool,evidence_class,description
+identity,og_id,genes_by_homolog_group,hard,cyanorak ortholog group id (stable)
+identity,consensus_product,genes_by_homolog_group,soft,majority-vote product label across members — descriptive only
+identity,proc_strains,handoff/cyanorak,hard,number of Prochlorococcus strains in the OG
+identity,proc_members,handoff/cyanorak,hard,number of Prochlorococcus member genes
+identity,rep_locus_tag,derived,hard,representative gene chosen for mechanistic angles (MED4 if present else best-covered strain)
+identity,rep_organism,derived,hard,organism of the representative gene
+de_fingerprint,breadth,handoff_shortlist(alpha.5),carried,number of treatment types with a significant response
+de_fingerprint,n_treatments_tested,handoff_shortlist(alpha.5),carried,treatments the family was measured in (coverage)
+de_fingerprint,response_rate,handoff_shortlist(alpha.5),carried,breadth / n_treatments_tested (coverage-normalized)
+de_fingerprint,best_rank,handoff_shortlist(alpha.5),carried,best within-experiment DE rank reached
+de_fingerprint,max_abs_log2fc,handoff_shortlist(alpha.5),carried,largest |log2 fold change|
+de_fingerprint,n_significant_datapoints,handoff_shortlist(alpha.5),carried,count of significant member×experiment×timepoint points
+de_fingerprint,direction,handoff_shortlist(alpha.5),carried,overall direction (up/down/mixed)
+de_fingerprint,direction_by_treatment,handoff_shortlist(alpha.5),carried,per-treatment direction dict
+homologs,cyanorak_genera,gene_homologs,hard,genera in the cyanorak OG (cyanobacteria-only by construction)
+homologs,broadest_eggnog_level,gene_homologs(eggnog),hard,taxonomic level of the broadest eggnog group (Prochloraceae/Cyanobacteria/Bacteria)
+homologs,eggnog_genera,gene_homologs(eggnog),hard,genera present in the broadest eggnog group
+homologs,has_cross_genus,gene_homologs(eggnog),hard,whether the broadest group spans more than one genus
+homologs,rescued_gene_name,gene_homologs(eggnog),soft,consensus gene symbol of broadest group (majority-vote) — corroborate with COG/domain
+homologs,rescued_cog,gene_homologs(eggnog),hard,COG id of the broadest eggnog group (e.g. COG0316=iscA)
+homologs,conservation_class,derived,derived,bacteria-wide / cyanobacteria-restricted / Prochlorococcus-restricted
+neighborhood,rep_neighbors,gene_neighbors,hard,flanking genes on the representative contig (names/products/categories/bp gap)
+neighborhood,neighbor_pathway_dominant,derived,derived,most common shared gene_category/pathway among the neighbors (excl. Unknown)
+neighborhood,neighbor_pathway_count,derived,derived,how many neighbors converge on that pathway (>=2 = coherent)
+neighborhood,conserved_synteny_partner,derived,hard,neighbor whose ortholog stays adjacent across multiple strains (synteny conservation)
+coexpression,clusters,gene_clusters_by_gene,hard,co-expression cluster ids + names the rep belongs to (membership is real)
+coexpression,cluster_functional_desc,gene_clusters_by_gene,soft,cluster enrichment label — about the cluster majority not this gene; caution
+convergence,phyletic_profile_match,derived(differential_expression_by_ortholog/genes_by_homolog_group),interpretation,Tier1: characterized family/pathway with the most similar 17-strain presence-absence profile (Rosetta-stone); signal only for variably-present families
+convergence,coresponse_top_matches,derived(differential_expression_by_gene/_by_ortholog),interpretation,Tier1: top characterized families by correlation of the fine-grained per-(experiment×timepoint) log2FC vector (NOT the collapsed direction_by_treatment); correlate on shared measured datapoints + shape only
+convergence,coresponse_support,derived,hard,number of shared measured (experiment×timepoint) datapoints backing each co-response match
+convergence,operon_triple,derived,hard,Tier1: neighbor that is same-strand+close AND conserved-adjacent across strains AND co-expressed (near-certain operonic partner)
+convergence,neighbor_cluster_overlap,derived,hard,Tier2: genes that are BOTH a genomic neighbor AND a co-expression cluster-mate (two angles agreeing)
+convergence,homolog_context_concordance,derived,interpretation,Tier2: whether the rescued function fits the neighborhood/cluster context (flagged interpretation)
+convergence,secretion_convergence,derived,hard,Tier2: agreement among SignalP / vesicle-proteome / PSORTb-Extracellular / 'secreted' product label (count of agreeing signals)
+convergence,pangenome_context,derived,interpretation,"Tier2: family Core/Flexible vs its neighbors' — Flexible-among-Flexible=genomic island/HGT, Core-among-Core=ancient core function"
+convergence,convergence_count,derived,derived,number of independent angles supporting the leading hypothesis (drives the lead evidence grade)
+sequence_loc,signal_peptide_prob,gene_ontology_terms,hard,SignalP probability (backs 'secreted')
+sequence_loc,signal_peptide_cleavage,gene_ontology_terms,hard,SignalP predicted cleavage site
+sequence_loc,predicted_localization,gene_ontology_terms/gene_derived_metrics,hard,PSORTb subcellular localization
+sequence_loc,pfam,gene_ontology_terms,hard,Pfam domain(s) if assigned
+sequence_loc,functional_go,gene_ontology_terms,hard,informative GO terms (usually empty for dark genes)
+derived_metrics,pangenome_membership,gene_derived_metrics,hard,MED4 Core vs Flexible (Wang 2014) — speaks to conservation
+derived_metrics,expression_level_class,gene_derived_metrics,soft,RPKM quartile class VEG/HEG/MEG/LEG/NEG
+derived_metrics,diel_metrics,gene_derived_metrics,hard,diel amplitude / peak time / lag where present
+derived_metrics,vesicle_proteome_member,gene_derived_metrics,hard,protein detected in MED4 vesicle proteome
+publications,discussed_in_publications,gene_overview,hard,DOIs (+ quote) discussing the gene directly — usually empty for dark genes
+lead,lead_type,derived,derived,function_rescued / neighborhood / coexpression / surface_secreted / lineage_novelty (may combine)
+lead,lead_evidence_grade,derived,derived,high (hard evidence and/or multi-angle convergence) / medium / low (descriptive label only)
+lead,lead_summary,derived,interpretation,one-line plain-language interpretation for future-omics use
