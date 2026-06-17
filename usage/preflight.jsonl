@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-17T06:31:09.242379+00:00", "event": "preflight", "template_version": "0.1.0-alpha.2", "explorer_version": "0.1.0a4", "explorer_pin": "v0.1.0-alpha.4", "kg_version": "0.1.0-alpha.6", "kg_uri": "bolt://132.75.249.47:17687", "kg_role": "production", "verdict": "ok"}
+{"timestamp": "2026-06-17T06:31:47.346863+00:00", "event": "preflight", "template_version": "0.1.0-alpha.2", "explorer_version": "0.1.0a4", "explorer_pin": "v0.1.0-alpha.4", "kg_version": "0.1.0-alpha.6", "kg_uri": "bolt://132.75.249.47:17687", "kg_role": "production", "verdict": "ok"}

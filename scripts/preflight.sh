@@ -74,7 +74,8 @@ fi
 # ── 1–3. Version triple + KG contract + API smoke (Python, via the synced venv) ──
 # Exit codes from the Python block: 0 = green, 2 = env unset, 3 = cannot connect,
 # 4 = version mismatch, 5 = other red.
-uv run python - <<'PY'
+# Force UTF-8 stdout so the ✓/⚠ glyphs don't crash on Windows consoles (cp1252).
+PYTHONUTF8=1 PYTHONIOENCODING=utf-8 uv run python - <<'PY'
 import sys
 import os
 import json

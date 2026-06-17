@@ -20,7 +20,7 @@ dependencies = [
 # The explorer is pulled from a pinned git tag — no sibling clone needed.
 # `uv sync` fetches and installs it into this project's venv.
 [tool.uv.sources]
-multiomics-explorer = { git = "https://github.com/wosnat/multiomics_explorer.git", tag = "v0.1.0-alpha.3" }
+multiomics-explorer = { git = "https://github.com/wosnat/multiomics_explorer.git", tag = "v0.1.0-alpha.4" }
 
 # NOTE: intentionally NOT a buildable package. This repo is a cloned
 # workspace, not a pip artifact — pyproject.toml exists only to declare
