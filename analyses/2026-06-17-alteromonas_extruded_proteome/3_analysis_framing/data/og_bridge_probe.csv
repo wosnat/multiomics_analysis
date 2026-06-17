@@ -1,0 +1,5 @@
+locus_tag,strain,route,product,rank1_group_id,rank1_taxonomic_level,rank1_member_organisms,genera,cross_genus
+EZ55_00132,EZ55,exoproteome,RidA family protein (tdcF),eggnog:4679E@72275,Alteromonadaceae,10,Alteromonas,single_genus
+EZ55_00497,EZ55,exoproteome,thioredoxin TrxA,eggnog:467AS@72275,Alteromonadaceae,10,Alteromonas,single_genus
+MIT1002_01157,MIT1002,vesicle,TonB-dependent receptor,eggnog:4651V@72275,Alteromonadaceae,8,Alteromonas,single_genus
+MIT1002_03495,MIT1002,vesicle,TonB-dependent receptor,eggnog:46A4N@72275,Alteromonadaceae,3,Alteromonas,single_genus
