@@ -1,0 +1,8 @@
+experiment_id,strain,route,omics_type,compartment,table_scope,genes_with_metric,metric_handles,publication_doi
+10.1101/2025.05.28.656624_ez55_exudate_proteome,Alteromonas macleodii EZ55,exoproteome,EXOPROTEOMICS,exoproteome,all_detected_genes,234,exoproteome_detection_replicates,10.1101/2025.05.28.656624
+10.1093/femsml/uqac025_vesicle_proteomics_mit1002,Alteromonas macleodii MIT1002,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,92,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
+10.1093/femsml/uqac025_vesicle_proteomics_bs11,Alteromonas macleodii BS11,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,90,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
+10.1093/femsml/uqac025_vesicle_proteomics_atcc27126,Alteromonas macleodii ATCC27126,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,88,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
+10.1093/femsml/uqac025_vesicle_proteomics_bgp6,Alteromonas macleodii BGP6,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,76,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
+10.1093/femsml/uqac025_vesicle_proteomics_ad45,Alteromonas macleodii AD45,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,73,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
+10.1093/femsml/uqac025_vesicle_proteomics_hot1a3,Alteromonas macleodii HOT1A3,vesicle,VESICLE_PROTEOMICS,vesicle,top_n,63,log2_mv_cell_enrichment;prop_abund_mvs_percent;prop_abund_cells_percent,10.1093/femsml/uqac025
