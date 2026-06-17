@@ -1,0 +1,53 @@
+og_group_id,og_product,routes,both_routes,n_strains,strains,n_genes,locus_tags
+eggnog:4651V@72275,TonB-dependent receptor,vesicle,False,1,MIT1002,1,MIT1002_01157
+eggnog:4651Q@72275,elongation factor Tu,vesicle,False,1,MIT1002,1,MIT1002_03533
+eggnog:46A4N@72275,TonB-dependent receptor,vesicle,False,1,MIT1002,1,MIT1002_03495
+eggnog:4643A@72275,DUF3450 domain-containing protein,vesicle,False,1,MIT1002,1,MIT1002_01163
+eggnog:464A7@72275,50S ribosomal protein L5,vesicle,False,1,MIT1002,1,MIT1002_03599
+eggnog:4641Y@72275,MotA/TolQ/ExbB proton channel family protein,vesicle,False,1,MIT1002,1,MIT1002_01164
+eggnog:466H7@72275,OmpA family protein,vesicle,False,1,MIT1002,1,MIT1002_03802
+eggnog:1PGTX@1224,esterase-like activity of phytase family protein,vesicle,False,1,MIT1002,1,MIT1002_00601
+eggnog:465I5@72275,F0F1 ATP synthase subunit beta,vesicle,False,1,MIT1002,1,MIT1002_04113
+eggnog:46480@72275,ADP-forming succinate--CoA ligase subunit beta,vesicle,False,1,MIT1002,1,MIT1002_01950
+eggnog:46670@72275,30S ribosomal protein S3,vesicle,False,1,MIT1002,1,MIT1002_00390
+eggnog:464WS@72275,elongation factor G,vesicle,False,1,MIT1002,1,MIT1002_01524
+eggnog:464KQ@72275,glutamate--ammonia ligase,vesicle,False,1,MIT1002,1,MIT1002_03183
+eggnog:464BU@72275,F0F1 ATP synthase subunit alpha,vesicle,False,1,MIT1002,1,MIT1002_04115
+eggnog:46443@72275,30S ribosomal protein S2,vesicle,False,1,MIT1002,1,MIT1002_01004
+eggnog:4658G@72275,succinate dehydrogenase iron-sulfur subunit,vesicle,False,1,MIT1002,1,MIT1002_01947
+eggnog:46448@72275,outer membrane channel protein TolC,vesicle,False,1,MIT1002,1,MIT1002_00670
+eggnog:464DV@72275,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase,vesicle,False,1,MIT1002,1,MIT1002_03002
+eggnog:464TW@72275,30S ribosomal protein S4,vesicle,False,1,MIT1002,1,MIT1002_03586
+eggnog:469TE@72275,50S ribosomal protein L10,vesicle,False,1,MIT1002,1,MIT1002_03735
+eggnog:4652M@72275,succinate--CoA ligase subunit alpha,vesicle,False,1,MIT1002,1,MIT1002_01951
+eggnog:463YH@72275,dihydrolipoyl dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_03001
+eggnog:463ZA@72275,malate dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_03492
+eggnog:464IZ@72275,50S ribosomal protein L4,vesicle,False,1,MIT1002,1,MIT1002_00385
+eggnog:467RN@72275,30S ribosomal protein S17,vesicle,False,1,MIT1002,1,MIT1002_00393
+eggnog:467AS@72275,thioredoxin TrxA,vesicle,False,1,MIT1002,1,MIT1002_00516
+eggnog:464ZZ@72275,phosphopyruvate hydratase,vesicle,False,1,MIT1002,1,MIT1002_00951
+eggnog:464QB@72275,translation elongation factor Ts,vesicle,False,1,MIT1002,1,MIT1002_01005
+eggnog:464AW@72275,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,vesicle,False,1,MIT1002,1,MIT1002_01949
+eggnog:464BF@72275,30S ribosomal protein S1,vesicle,False,1,MIT1002,1,MIT1002_02189
+eggnog:465NN@72275,acetaldehyde dehydrogenase ExaC,vesicle,False,1,MIT1002,1,MIT1002_03321
+eggnog:467N1@72275,30S ribosomal protein S13,vesicle,False,1,MIT1002,1,MIT1002_03588
+eggnog:46787@72275,50S ribosomal protein L7/L12,vesicle,False,1,MIT1002,1,MIT1002_03734
+eggnog:4647Z@72275,chaperonin GroEL,vesicle,False,1,MIT1002,1,MIT1002_03935
+eggnog:467R5@72275,50S ribosomal protein L28,vesicle,False,1,MIT1002,1,MIT1002_00054
+eggnog:467U2@72275,30S ribosomal protein S16,vesicle,False,1,MIT1002,1,MIT1002_01308
+eggnog:467SY@72275,acyl carrier protein,vesicle,False,1,MIT1002,1,MIT1002_01734
+eggnog:464R6@72275,NADP-dependent isocitrate dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_01830
+eggnog:4646I@72275,succinate dehydrogenase flavoprotein subunit,vesicle,False,1,MIT1002,1,MIT1002_01946
+eggnog:466EC@72275,bacterioferritin,vesicle,False,1,MIT1002,1,MIT1002_02126
+eggnog:464XG@72275,"cytochrome-c oxidase, cbb3-type subunit II",vesicle,False,1,MIT1002,1,MIT1002_02130
+eggnog:465BD@72275,glyceraldehyde-3-phosphate dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_02394
+eggnog:4661S@72275,alkaline phosphatase PhoX,vesicle,False,1,MIT1002,1,MIT1002_02422
+eggnog:467ZY@72275,nucleoid-associated protein HU-beta,vesicle,False,1,MIT1002,1,MIT1002_02756
+eggnog:465QK@72275,SapC family protein,vesicle,False,1,MIT1002,1,MIT1002_03036
+eggnog:464YM@72275,Na(+)-translocating NADH-quinone reductase subunit A,vesicle,False,1,MIT1002,1,MIT1002_03488
+eggnog:467T8@72275,30S ribosomal protein S18,vesicle,False,1,MIT1002,1,MIT1002_03817
+eggnog:464BH@72275,phosphoglycerate dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_02993
+eggnog:464WN@72275,FMN-dependent L-lactate dehydrogenase LldD,vesicle,False,1,MIT1002,1,MIT1002_03330
+eggnog:467UW@72275,30S ribosomal protein S14,vesicle,False,1,MIT1002,1,MIT1002_03598
+eggnog:46403@72275,DNA-directed RNA polymerase subunit beta^,vesicle,False,1,MIT1002,1,MIT1002_03732
+eggnog:46CFF@72275,FKBP-type peptidyl-prolyl cis-trans isomerase,vesicle,False,1,MIT1002,1,MIT1002_04007
