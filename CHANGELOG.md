@@ -11,6 +11,17 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 
 ## [Unreleased]
 
+### Changed
+- Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.4) — run
+  `uv sync` after pulling. Fixes a result-flattening bug: queries that mix
+  different `gene_derived_metrics` kinds no longer silently drop the scalar
+  `value` column when converting tool output to a dataframe.
+
+### Fixed
+- Preflight no longer crashes on Windows when printing its success line — the
+  Python check block now forces UTF-8 output so the ✓/⚠ status glyphs render on
+  cp1252 consoles instead of raising `UnicodeEncodeError` after all checks pass.
+
 ## [0.1.0-alpha.2] — 2026-06-16
 
 First update after the initial clone target, harvesting lessons from the first
