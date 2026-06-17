@@ -82,6 +82,7 @@ Each step folder except `1_question/` contains:
 - **`scripts/`** — Python scripts that do the step's work
 - **`data/`** — script outputs (CSV/TSV); inputs from prior steps referenced by relative path
 - **`figures/`** — PNG/PDF/SVG outputs
+- **`critical_review.md`** — at steps 3, 5, and 6 only: the fresh-context critic's findings plus the author's disposition for each (see the `critical-review` skill and [step-protocol.md GATE 4](step-protocol.md))
 
 Step 1's folder contains only `notebook.md` — step 1 is a conversation, not a computation.
 

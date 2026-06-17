@@ -112,7 +112,13 @@ steps in ordinary words, not internal codes.
 
 Each step advances through the rhythm **co-define → do → show → explore
 → decide**, with two researcher gates: agreement at **co-define**
-(before the work) and approval at **decide** (after it).
+(before the work) and approval at **decide** (after it). At the
+judgment-heavy steps (3 framing, 5 analyze, 6 evaluate), a fresh-context
+critic runs inside the decide phase **before** the researcher sees the
+step — see the `critical-review` skill and
+[step-protocol.md GATE 4](references/step-protocol.md). It reads the
+step's data files cold and challenges the claims, so the researcher
+reviews a vetted step, not a first draft.
 
 - **co-define** — before doing the work, say in plain words what you
   propose this step should do and why, and let the researcher shape it.

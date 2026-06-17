@@ -72,7 +72,9 @@ before the data has arrived, stop.
 
 On-demand tools that remain available: `superpowers:brainstorming` (step 1),
 `superpowers:verification-before-completion`, `superpowers:systematic-debugging`,
-`superpowers:requesting-code-review`.
+`superpowers:requesting-code-review`, and the `critical-review` skill — a
+fresh-context critic that challenges a step's claims against its data files
+(automatic in the decide phase at steps 3/5/6; on demand on any step).
 
 ## MCP server & credentials
 

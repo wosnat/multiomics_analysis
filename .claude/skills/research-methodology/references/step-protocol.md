@@ -80,11 +80,13 @@ Capture anomalies worth flagging as **Surprises** in `notebook.md`. If a researc
 
 3. **Append to `gaps_and_friction.md`** if friction was encountered this step (KG issues, MCP schema mismatches, methodology gaps, anti-hallucination corrections).
 
-4. **Present state to researcher:** show the `notebook.md` content, the `paper.md` diff, and any `gaps_and_friction.md` additions. Wait for explicit approval or redirect.
+4. **Critical review (steps 3, 5, 6 — automatic; other steps on demand):** before presenting to the researcher, dispatch the fresh-context critic via the `critical-review` skill. It reads this step's artifacts cold and challenges the claims along three dimensions (data integrity / science / methodology). Write its findings and your disposition for each to `{STEP_FOLDER}/critical_review.md`; resolve every Blocker (fix, or dispute with a specific data citation) before the step closes. See [GATE 4](#gate-4-critical-review-at-judgment-heavy-steps).
 
-5. **On approval, commit.** One commit, containing all of the step's changes.
+5. **Present state to researcher:** show the `notebook.md` content, the `paper.md` diff, any `gaps_and_friction.md` additions, and — where the review ran — `critical_review.md` with your dispositions. Wait for explicit approval or redirect.
 
-6. Begin next step (create its folder as needed — see [artifacts.md](artifacts.md) for progressive folder creation).
+6. **On approval, commit.** One commit, containing all of the step's changes (including `critical_review.md` where the review ran).
+
+7. Begin next step (create its folder as needed — see [artifacts.md](artifacts.md) for progressive folder creation).
 
 ## Redo path
 
@@ -149,6 +151,21 @@ B2's scope drift (decisions D5–D8 added mid-execution) slipped past because th
 Summary tables shown in chat must also appear as markdown tables in `notebook.md`. Prose paraphrases of numbers lose precision and are unreviewable.
 
 **Do not close the step if the Results section in `notebook.md` is prose where a table belongs.**
+
+### GATE 4: Critical review at judgment-heavy steps
+
+Across analyses, wrong narratives survived because the author was anchored to
+them — a step-3 control heatmap narrated "all 5 are UP" while the data file
+showed them negative was not caught until step 5; sign-stripped DE tables were
+built into a direction claim. The author who wrote the story cannot reliably see
+its holes; a fresh reader of the data files can.
+
+**At steps 3 (framing), 5 (analyze), and 6 (evaluate), do not present the step
+to the researcher until the `critical-review` critic has run and every Blocker
+it raised is resolved** — fixed, or disputed in `critical_review.md` with a
+specific data citation (not "I'm confident"). The critique and your dispositions
+are part of the decide-gate state and are committed with the step. Steps 1, 2,
+and 4 do not require it, but it may be invoked on demand on any step.
 
 ## Git discipline
 
