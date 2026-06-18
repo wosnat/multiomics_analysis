@@ -115,11 +115,15 @@ glutamate–ammonia ligase, DUF3450.
 (15–58 genes/strain, step-2 caveat): a small list cannot overlap much, so the
 agreement figures (incl. HOT1A3/AD45 being outliers) are a **lower bound**.
 
-`[interpretation]` The vesicle route's all-6 conserved core is genuine
-outer-membrane / secretion machinery (TolC, OmpA, MotA/TolQ/ExbB, PhoX) — a
-reproducible, biologically coherent extruded signature, distinct from the
-abundance-driven translation signal that dominates the secreted set and the
-cross-route core. This is the most defensible "extruded" signal in the analysis.
+`[interpretation]` The vesicle route's all-6 conserved core is **mixed**: 2 outer-
+membrane (TolC, OmpA), 1 inner-membrane proton channel (MotA/TolQ/ExbB), 1
+periplasmic phosphatase (PhoX), 1 cytoplasmic enzyme (glutamate–ammonia ligase =
+glutamine synthetase), 1 unknown (DUF3450). So it is a reproducible cross-strain
+signature that is **envelope-enriched** (4 of 6 are membrane/periplasmic, vs the
+secreted set's translation dominance), but it is not purely OM/secretion machinery —
+the cytoplasmic glutamine synthetase re-introduces the abundance/lysis confound here
+too. The envelope members (TolC, OmpA, PhoX) are the most defensible extruded signal;
+the conserved core as a whole is not uniformly "secretion machinery."
 
 ## Exoenzymes for organic-compound breakdown (researcher follow-on) `[KG]`
 
@@ -158,8 +162,10 @@ lifestyle); secreted → **proteolysis** (DegQ, M1 aminopeptidase in the EZ55 ex
 1. No carbohydrate-active enzymes (CAZy GH/PL/CE) surfaced in the extruded set,
    despite Alteromonas being a known polysaccharide degrader (annotation / `top_n`
    depth / fraction choice — undetermined).
-2. Coverage-bound: degradative identity often lives only in Pfam; a phytase
-   (MIT1002_00601) visible by product name did not classify. The list is a
+2. Coverage-bound: the classifier reads ontology annotations, not product names, so
+   a gene with no functional term is invisible. E.g. the phytase MIT1002_00601
+   (product name says "phytase") carries no EC/Pfam/GO-MF/CAZy term at all — only a
+   COG category + signal peptide — so it cannot be reached. The list is a
    conservative lower bound.
 
 Outputs: `data/exoenzyme_candidates.csv`, `data/exoenzyme_by_substrate.csv`,
@@ -181,15 +187,30 @@ Per strain: ~245–290 candidates (6.5–7.5%), uniform. Genome-wide substrate p
 (candidates): protein/peptide 885, organic-P 335, carbohydrate 264, nucleic acid
 213, lipid 181, amide 146.
 
+`[caveat — denominator hygiene]` The 1,918-gene genome set was **not** given the
+false-positive QC the 9-gene extruded set received. It admits intracellular
+signaling / regulatory enzymes that are not nutrient-scavenging exoenzymes — ~105
+c-di-GMP phosphodiesterases (GO-MF "cyclic-guanylate-specific phosphodiesterase
+activity"), phosphoprotein/phosphotyrosine phosphatases, chemotaxis CheX, plus a few
+structural-domain hits — mostly classified as organic phosphate. So the per-substrate
+genome pools (esp. organic-P 335) and the "broad arsenal" framing are inflated. Two
+things hold despite this: (a) ~98 of the 105 c-di-GMP genes are tier B, so the tier-A
+count (1,092) is barely affected; (b) cleaning the denominator would only *lower* the
+genome rate, making the extruded set look even less enriched — so the conclusion below
+is robust, not at risk.
+
 `[interpretation]` Three reads:
 1. The extruded measurement captures a tiny slice — 9 of ~1,918 genomic candidates.
 2. The extruded set is **not enriched** for exoenzymes (2.8% vs 6.9%; tier-A-only
    2.8% vs 3.9%) — consistent with extruded fractions being dominated by abundant
    cytoplasmic proteins, not selectively loaded with hydrolases. (Caveat: the
    genome candidate count includes ~826 tier-B genes lacking localization
-   annotation; the tier-A comparison is the fair one and still shows no enrichment.)
-3. The "no CAZymes extruded" negative is a **capture gap, not genome absence** — the
-   genomes carry 264 carbohydrate-active candidates (181 tier A), none sampled.
+   annotation AND the signaling-enzyme contamination above; the tier-A comparison is
+   the fair one and still shows no enrichment.)
+3. The "no carbohydrate enzymes extruded" negative is a **capture gap, not genome
+   absence** — the genomes carry 264 carbohydrate-substrate candidates (181 tier A),
+   none sampled. (Substrate class, mostly via EC 3.2; only a minority carry a CAZy-
+   database annotation — see OG-level note below.)
 
 Outputs: `data/exoenzyme_genome_background.csv`, `data/exoenzyme_genome_candidates.csv`.
 
@@ -224,6 +245,9 @@ Annotation-source contribution to the 387 genome OGs (non-exclusive): EC 208,
 Pfam 145, GO-MF 106, CAZy 11 — Pfam adds 145 OGs beyond EC (incl. PhoX), confirming
 the Pfam layer was load-bearing. Export evidence: 200 tier A (124 signal-only,
 54 signal+localization, 22 localization-only), 187 tier B (no export annotation).
+(These breakdowns are `06` stdout; they aggregate the `func_evidence` /
+`export_evidence` columns in `data/exoenzyme_genome_candidates.csv`, so they are
+recomputable from committed data, not free-floating.)
 
 By substrate (genome OGs / tier A / captured): protein/peptide 151 / 103 / 3;
 nucleic acid 55 / 6 / 0; carbohydrate 52 / 36 / 0; organic phosphate 40 / 12 / 1;
@@ -231,11 +255,14 @@ lipid/ester 33 / 18 / 0; amide/C-N 30 / 19 / 0; ester-other 20 / 5 / 0; sulfate 
 
 Conservation: of 387 genome exoenzyme OGs, **180 present in all 7 strains** (221 in ≥6).
 
-`[interpretation]` The genomes encode a broad, conserved exoenzyme arsenal (~387 OGs,
-~180 universal) across every substrate class; the extruded measurement captured ~1%
+`[interpretation]` The genomes encode a broad, conserved degradative-enzyme repertoire
+(~387 candidate OGs, ~180 universal) across every substrate class — though this pool
+inherits the genome-denominator contamination noted above (signaling phosphatases etc.),
+so "exoenzyme arsenal" is an upper estimate. The extruded measurement captured ~1%
 (proteases via the secreted route, PhoX via vesicles). The carbohydrate gap is exact:
-52 genomic CAZyme OGs (36 tier A), zero captured → a sampling/measurement gap, not a
-genomic absence.
+**52 carbohydrate-substrate OGs** (36 tier A) — classified mostly via EC 3.2, with only
+~11 OGs carrying a CAZy-database annotation (not "52 CAZyme OGs") — **zero captured** →
+a sampling/measurement gap, not a genomic absence.
 
 ‡ TonB-receptor with conflicting carboxypeptidase GO term — flagged annotation artifact.
 
@@ -269,6 +296,9 @@ export-evidence type; tier A/B). Outputs: `data/exoenzyme_og_genome.csv`,
       interpretation): no Blockers, 2 Concerns + 2 Notes, all fixed → `critical_review.md`
 - [x] Researcher-driven follow-ons added: secreted profile, vesicle agreement,
       exoenzyme analysis (extruded + genome + OG-level). Described-first, tagged;
-      QC + friction logged. **Critic has NOT re-run over these expansions** — flagged
-      for a re-review pass before step 6 (researcher choice).
-- [x] Researcher approved → commit
+      QC + friction logged.
+- [x] Critic PASS 2 over the expanded follow-ons (data-integrity + interpretation):
+      no Blockers, 2 data-integrity + 1 interpretation Concerns + 2 Notes, all fixed
+      or caveated → `critical_review.md` (genome-denominator hygiene caveat; CAZyme
+      mislabel fixed; vesicle-core relabelled mixed; phytase reason + stdout note fixed)
+- [x] Researcher approved → committed (a5b0934); fixes follow
