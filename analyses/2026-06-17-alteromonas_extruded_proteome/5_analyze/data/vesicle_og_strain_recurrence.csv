@@ -1,0 +1,102 @@
+og_group_id,n_strains,strains,gene_category,og_product
+eggnog:4641Y@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Intracellular trafficking,MotA/TolQ/ExbB proton channel family protein
+eggnog:464KQ@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Amino acid metabolism,glutamate--ammonia ligase
+eggnog:46448@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Cell wall and membrane,outer membrane channel protein TolC
+eggnog:4643A@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Unknown,DUF3450 domain-containing protein
+eggnog:4661S@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Unknown,alkaline phosphatase PhoX
+eggnog:466H7@72275,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,Cell wall and membrane,OmpA family protein
+eggnog:46787@72275,5,AD45;ATCC27126;BGP6;BS11;MIT1002,Translation,50S ribosomal protein L7/L12
+eggnog:464WW@72275,5,AD45;ATCC27126;BGP6;BS11;HOT1A3,Cell wall and membrane,XrtA/PEP-CTERM system exopolysaccharide export protein
+eggnog:467R5@72275,5,AD45;ATCC27126;BGP6;BS11;MIT1002,Translation,50S ribosomal protein L28
+eggnog:464A7@72275,5,AD45;ATCC27126;BGP6;BS11;MIT1002,Translation,50S ribosomal protein L5
+eggnog:464BF@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,30S ribosomal protein S1
+eggnog:464IZ@72275,4,AD45;BGP6;BS11;MIT1002,Translation,50S ribosomal protein L4
+eggnog:46443@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,30S ribosomal protein S2
+eggnog:464WS@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,elongation factor G
+eggnog:4652M@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,succinate--CoA ligase subunit alpha
+eggnog:4658G@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,succinate dehydrogenase iron-sulfur subunit
+eggnog:464BU@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,F0F1 ATP synthase subunit alpha
+eggnog:463ZA@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,malate dehydrogenase
+eggnog:4647Z@72275,4,ATCC27126;BGP6;BS11;MIT1002,Post-translational modification,chaperonin GroEL
+eggnog:46480@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,ADP-forming succinate--CoA ligase subunit beta
+eggnog:46670@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,30S ribosomal protein S3
+eggnog:467ZY@72275,4,ATCC27126;BGP6;BS11;MIT1002,Replication and repair,nucleoid-associated protein HU-beta
+eggnog:4651Q@72275,4,AD45;BGP6;BS11;MIT1002,Translation,elongation factor Tu
+eggnog:465I5@72275,4,ATCC27126;BGP6;BS11;MIT1002,Energy production,F0F1 ATP synthase subunit beta
+eggnog:466EC@72275,4,AD45;BGP6;HOT1A3;MIT1002,Inorganic ion transport,bacterioferritin
+eggnog:467T8@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,30S ribosomal protein S18
+eggnog:467SY@72275,4,ATCC27126;BGP6;BS11;MIT1002,Lipid metabolism,acyl carrier protein
+eggnog:467N1@72275,4,ATCC27126;BGP6;BS11;MIT1002,Translation,30S ribosomal protein S13
+eggnog:469TE@72275,4,AD45;ATCC27126;BS11;MIT1002,Translation,50S ribosomal protein L10
+eggnog:464R6@72275,3,ATCC27126;BGP6;MIT1002,Energy production,NADP-dependent isocitrate dehydrogenase
+eggnog:464QB@72275,3,ATCC27126;BS11;MIT1002,Translation,translation elongation factor Ts
+eggnog:4648W@72275,3,AD45;ATCC27126;BGP6,Inorganic ion transport,superoxide dismutase [Fe]
+eggnog:4686N@72275,3,AD45;BGP6;HOT1A3,Cell wall and membrane,outer membrane beta-barrel protein
+eggnog:466GG@72275,3,AD45;BS11;HOT1A3,Coenzyme metabolism,"6,7-dimethyl-8-ribityllumazine synthase"
+eggnog:4660B@72275,3,AD45;ATCC27126;BGP6,Cell wall and membrane,TIGR04219 family outer membrane beta-barrel protein
+eggnog:4651T@72275,3,ATCC27126;BGP6;BS11,Translation,polyribonucleotide nucleotidyltransferase
+eggnog:463YH@72275,3,ATCC27126;BGP6;MIT1002,Energy production,dihydrolipoyl dehydrogenase
+eggnog:465QK@72275,3,ATCC27126;BGP6;MIT1002,Unknown,SapC family protein
+eggnog:467AS@72275,3,ATCC27126;BGP6;MIT1002,Post-translational modification,thioredoxin TrxA
+eggnog:464ZZ@72275,3,ATCC27126;BGP6;MIT1002,Carbohydrate metabolism,phosphopyruvate hydratase
+eggnog:46A4N@72275,2,BS11;MIT1002,Inorganic ion transport,TonB-dependent receptor
+eggnog:466Z4@72275,2,ATCC27126;BS11,Nucleotide metabolism,nucleoside-diphosphate kinase
+eggnog:46CFF@72275,2,ATCC27126;MIT1002,Cell wall and membrane,FKBP-type peptidyl-prolyl cis-trans isomerase
+eggnog:46978@72275,2,ATCC27126;BS11,Unknown,phasin-related domain-containing protein
+eggnog:467RN@72275,2,ATCC27126;MIT1002,Translation,30S ribosomal protein S17
+eggnog:465TR@72275,2,BS11;HOT1A3,Cell wall and membrane,DUF481 domain-containing protein
+eggnog:465XH@72275,2,AD45;HOT1A3,Amino acid metabolism,aminopeptidase PepB
+eggnog:467CK@72275,2,AD45;BGP6,Cell wall and membrane,OmpW family outer membrane protein
+eggnog:465BD@72275,2,BGP6;MIT1002,Carbohydrate metabolism,glyceraldehyde-3-phosphate dehydrogenase
+eggnog:4651V@72275,2,HOT1A3;MIT1002,Inorganic ion transport,TonB-dependent receptor
+eggnog:464ET@72275,2,BGP6;HOT1A3,Amino acid metabolism,ketol-acid reductoisomerase
+eggnog:464AW@72275,2,BS11;MIT1002,Energy production,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+eggnog:464TW@72275,2,BS11;MIT1002,Translation,30S ribosomal protein S4
+eggnog:4647K@72275,2,ATCC27126;BGP6,Energy production,inorganic diphosphatase
+eggnog:4646I@72275,2,BS11;MIT1002,Energy production,succinate dehydrogenase flavoprotein subunit
+eggnog:464DV@72275,2,BGP6;MIT1002,Energy production,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase
+eggnog:464NY@72275,2,ATCC27126;BGP6,Carbohydrate metabolism,phosphoenolpyruvate synthase
+eggnog:46403@72275,2,ATCC27126;MIT1002,Transcription,DNA-directed RNA polymerase subunit beta^
+eggnog:46793@72275,2,AD45;BS11,Cell wall and membrane,peptidoglycan-associated lipoprotein Pal
+eggnog:466HW@72275,2,AD45;BS11,Translation,50S ribosomal protein L9
+eggnog:464XQ@72275,2,ATCC27126;BS11,Energy production,citrate synthase
+eggnog:464ZU@72275,2,ATCC27126;BS11,Inorganic ion transport,TonB-dependent receptor domain-containing protein
+eggnog:465FE@72275,2,ATCC27126;BGP6,Inorganic ion transport,TonB-dependent receptor
+eggnog:464BH@72275,1,MIT1002,Amino acid metabolism,phosphoglycerate dehydrogenase
+eggnog:4641P@72275,1,BS11,Lipid metabolism,acetate--CoA ligase
+eggnog:1PGTX@1224,1,MIT1002,Inorganic ion transport,esterase-like activity of phytase family protein
+eggnog:4643J@72275,1,AD45,Translation,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB
+eggnog:464CH@72275,1,BS11,Nucleotide metabolism,adenylosuccinate synthase
+eggnog:464J9@72275,1,BS11,Unknown,tetratricopeptide repeat protein
+eggnog:464WN@72275,1,MIT1002,Energy production,FMN-dependent L-lactate dehydrogenase LldD
+eggnog:464RY@72275,1,BS11,Translation,30S ribosomal protein S5
+eggnog:464JX@72275,1,ATCC27126,Nucleotide metabolism,ribose-phosphate pyrophosphokinase
+eggnog:464EJ@72275,1,BS11,Translation,50S ribosomal protein L2
+eggnog:464FC@72275,1,ATCC27126,Cell motility,flagellin N-terminal helical domain-containing protein
+eggnog:464FW@72275,1,ATCC27126,Cell wall and membrane,nucleotide sugar dehydrogenase
+eggnog:464HA@72275,1,BS11,Transcription,DNA-directed RNA polymerase subunit alpha
+eggnog:4654M@72275,1,BS11,Cell wall and membrane,DcaP family trimeric outer membrane transporter
+eggnog:464ZA@72275,1,ATCC27126,Amino acid metabolism,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
+eggnog:464YM@72275,1,MIT1002,Energy production,Na(+)-translocating NADH-quinone reductase subunit A
+eggnog:464XG@72275,1,MIT1002,Energy production,"cytochrome-c oxidase, cbb3-type subunit II"
+eggnog:464XP@72275,1,AD45,Cell wall and membrane,outer membrane protein assembly factor BamA
+eggnog:4650D@72275,1,BS11,Cell wall and membrane,UTP--glucose-1-phosphate uridylyltransferase GalU
+eggnog:464ZY@72275,1,AD45,Inorganic ion transport,TonB-dependent receptor plug domain-containing protein
+eggnog:465BF@72275,1,AD45,Replication and repair,ribonuclease T
+eggnog:46522@72275,1,BS11,Cell wall and membrane,UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+eggnog:465MG@72275,1,HOT1A3,Inorganic ion transport,TonB-dependent receptor
+eggnog:465NN@72275,1,MIT1002,Energy production,acetaldehyde dehydrogenase ExaC
+eggnog:4659E@72275,1,BS11,Energy production,isocitrate lyase
+eggnog:4653J@72275,1,AD45,Post-translational modification,thiol:disulfide interchange protein DsbA/DsbL
+eggnog:46577@72275,1,ATCC27126,Nucleotide metabolism,adenylate kinase
+eggnog:466RM@72275,1,BS11,Translation,50S ribosomal protein L14
+eggnog:466SE@72275,1,BS11,Translation,30S ribosomal protein S9
+eggnog:466X0@72275,1,BS11,Translation,50S ribosomal protein L19
+eggnog:467D4@72275,1,BGP6,Translation,50S ribosomal protein L22
+eggnog:466ZJ@72275,1,AD45,Translation,50S ribosomal protein L20
+eggnog:466YC@72275,1,BS11,Energy production,F0F1 ATP synthase subunit B
+eggnog:467KN@72275,1,AD45,Translation,outer membrane protein assembly factor BamE
+eggnog:467SV@72275,1,BS11,Translation,DUF3192 domain-containing protein
+eggnog:467EW@72275,1,BS11,Cell wall and membrane,CsgG/HfaB family protein
+eggnog:467U2@72275,1,MIT1002,Translation,30S ribosomal protein S16
+eggnog:467UW@72275,1,MIT1002,Translation,30S ribosomal protein S14

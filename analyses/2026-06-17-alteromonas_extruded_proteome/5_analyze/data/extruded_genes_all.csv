@@ -1,0 +1,319 @@
+locus_tag,strain,route,product,value,og_group_id,og_level,og_product
+EZ55_00132,Alteromonas macleodii EZ55,secreted,RidA family protein,3.0,eggnog:4679E@72275,Alteromonadaceae,RidA family protein
+EZ55_00497,Alteromonas macleodii EZ55,secreted,thioredoxin TrxA,3.0,eggnog:467AS@72275,Alteromonadaceae,thioredoxin TrxA
+EZ55_00502,Alteromonas macleodii EZ55,secreted,5-(carboxyamino)imidazole ribonucleotide mutase,3.0,eggnog:466US@72275,Alteromonadaceae,5-(carboxyamino)imidazole ribonucleotide mutase
+EZ55_00506,Alteromonas macleodii EZ55,secreted,Dps family protein,3.0,eggnog:466DT@72275,Alteromonadaceae,Dps family protein
+EZ55_00769,Alteromonas macleodii EZ55,secreted,pyridoxine 5^-phosphate synthase,3.0,eggnog:464QE@72275,Alteromonadaceae,pyridoxine 5^-phosphate synthase
+EZ55_00935,Alteromonas macleodii EZ55,secreted,DUF3718 domain-containing protein,3.0,eggnog:468CU@72275,Alteromonadaceae,DUF3718 domain-containing protein
+EZ55_01223,Alteromonas macleodii EZ55,secreted,superoxide dismutase [Fe],3.0,eggnog:4648W@72275,Alteromonadaceae,superoxide dismutase [Fe]
+EZ55_02037,Alteromonas macleodii EZ55,secreted,6-carboxytetrahydropterin synthase,3.0,eggnog:464QP@72275,Alteromonadaceae,6-carboxytetrahydropterin synthase
+EZ55_02128,Alteromonas macleodii EZ55,secreted,bacterioferritin,3.0,eggnog:466EC@72275,Alteromonadaceae,bacterioferritin
+EZ55_02129,Alteromonas macleodii EZ55,secreted,bacterioferritin,3.0,eggnog:466D7@72275,Alteromonadaceae,bacterioferritin
+EZ55_02231,Alteromonas macleodii EZ55,secreted,glycosyltransferase family protein,3.0,eggnog:4647V@72275,Alteromonadaceae,glycosyltransferase family protein
+EZ55_02282,Alteromonas macleodii EZ55,secreted,TonB-dependent receptor,3.0,eggnog:465WA@72275,Alteromonadaceae,TonB-dependent receptor
+EZ55_02671,Alteromonas macleodii EZ55,secreted,"6,7-dimethyl-8-ribityllumazine synthase",3.0,eggnog:466GG@72275,Alteromonadaceae,"6,7-dimethyl-8-ribityllumazine synthase"
+EZ55_02751,Alteromonas macleodii EZ55,secreted,glutamine-hydrolyzing GMP synthase,3.0,eggnog:4657S@72275,Alteromonadaceae,glutamine-hydrolyzing GMP synthase
+EZ55_03078,Alteromonas macleodii EZ55,secreted,glutathione synthase,3.0,eggnog:4651A@72275,Alteromonadaceae,glutathione synthase
+EZ55_03280,Alteromonas macleodii EZ55,secreted,hypothetical protein,3.0,eggnog:1N51X@1224,Proteobacteria,adenosine deaminase
+EZ55_03396,Alteromonas macleodii EZ55,secreted,TIGR04219 family outer membrane beta-barrel protein,3.0,eggnog:4660B@72275,Alteromonadaceae,TIGR04219 family outer membrane beta-barrel protein
+EZ55_03754,Alteromonas macleodii EZ55,secreted,carbon-nitrogen hydrolase,3.0,eggnog:465G5@72275,Alteromonadaceae,carbon-nitrogen hydrolase
+EZ55_03886,Alteromonas macleodii EZ55,secreted,OmpP1/FadL family transporter,3.0,eggnog:465E0@72275,Alteromonadaceae,OmpP1/FadL family transporter
+EZ55_04077,Alteromonas macleodii EZ55,secreted,M1 family aminopeptidase,3.0,eggnog:4666I@72275,Alteromonadaceae,M1 family aminopeptidase
+EZ55_00182,Alteromonas macleodii EZ55,secreted,ribonuclease E activity regulator RraA,2.0,eggnog:466UJ@72275,Alteromonadaceae,ribonuclease E activity regulator RraA
+EZ55_00188,Alteromonas macleodii EZ55,secreted,inorganic diphosphatase,2.0,eggnog:4647K@72275,Alteromonadaceae,inorganic diphosphatase
+EZ55_00359,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L3,2.0,eggnog:465E3@72275,Alteromonadaceae,50S ribosomal protein L3
+EZ55_00360,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L4,2.0,eggnog:464IZ@72275,Alteromonadaceae,50S ribosomal protein L4
+EZ55_00362,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L2,2.0,eggnog:464EJ@72275,Alteromonadaceae,50S ribosomal protein L2
+EZ55_00363,Alteromonas macleodii EZ55,secreted,30S ribosomal protein S19,2.0,eggnog:4677X@72275,Alteromonadaceae,30S ribosomal protein S19
+EZ55_00364,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L22,2.0,eggnog:467D4@72275,Alteromonadaceae,50S ribosomal protein L22
+EZ55_00367,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L29,2.0,eggnog:468D6@72275,Alteromonadaceae,50S ribosomal protein L29
+EZ55_00368,Alteromonas macleodii EZ55,secreted,30S ribosomal protein S17,2.0,eggnog:467RN@72275,Alteromonadaceae,30S ribosomal protein S17
+EZ55_00591,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L21,2.0,eggnog:467GE@72275,Alteromonadaceae,50S ribosomal protein L21
+EZ55_00790,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L13,2.0,eggnog:466GF@72275,Alteromonadaceae,50S ribosomal protein L13
+EZ55_01264,Alteromonas macleodii EZ55,secreted,adenylyl-sulfate kinase,2.0,eggnog:465TQ@72275,Alteromonadaceae,adenylyl-sulfate kinase
+EZ55_01303,Alteromonas macleodii EZ55,secreted,30S ribosomal protein S16,2.0,eggnog:467U2@72275,Alteromonadaceae,30S ribosomal protein S16
+EZ55_01306,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L19,2.0,eggnog:466X0@72275,Alteromonadaceae,50S ribosomal protein L19
+EZ55_01628,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L20,2.0,eggnog:466ZJ@72275,Alteromonadaceae,50S ribosomal protein L20
+EZ55_01751,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L32,2.0,eggnog:468BN@72275,Alteromonadaceae,50S ribosomal protein L32
+EZ55_01912,Alteromonas macleodii EZ55,secreted,ribosome assembly RNA-binding protein YhbY,2.0,eggnog:467Y2@72275,Alteromonadaceae,ribosome assembly RNA-binding protein YhbY
+EZ55_02569,Alteromonas macleodii EZ55,secreted,phasin-related domain-containing protein,2.0,eggnog:46978@72275,Alteromonadaceae,phasin-related domain-containing protein
+EZ55_02730,Alteromonas macleodii EZ55,secreted,nucleoid-associated protein HU-beta,2.0,eggnog:467ZY@72275,Alteromonadaceae,nucleoid-associated protein HU-beta
+EZ55_02733,Alteromonas macleodii EZ55,secreted,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,2.0,eggnog:46400@72275,Alteromonadaceae,ATP-dependent Clp endopeptidase proteolytic subunit ClpP
+EZ55_02884,Alteromonas macleodii EZ55,secreted,hypothetical protein,2.0,eggnog:46CA4@72275,Alteromonadaceae,hypothetical protein
+EZ55_03573,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L17,2.0,eggnog:466UW@72275,Alteromonadaceae,50S ribosomal protein L17
+EZ55_03575,Alteromonas macleodii EZ55,secreted,30S ribosomal protein S4,2.0,eggnog:464TW@72275,Alteromonadaceae,30S ribosomal protein S4
+EZ55_03586,Alteromonas macleodii EZ55,secreted,30S ribosomal protein S8,2.0,eggnog:46724@72275,Alteromonadaceae,30S ribosomal protein S8
+EZ55_03588,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L5,2.0,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+EZ55_03589,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L24,2.0,eggnog:467RK@72275,Alteromonadaceae,50S ribosomal protein L24
+EZ55_03590,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L14,2.0,eggnog:466RM@72275,Alteromonadaceae,50S ribosomal protein L14
+EZ55_03781,Alteromonas macleodii EZ55,secreted,RNA chaperone Hfq,2.0,eggnog:467WJ@72275,Alteromonadaceae,RNA chaperone Hfq
+EZ55_04131,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L34,2.0,eggnog:4690G@72275,Alteromonadaceae,50S ribosomal protein L34
+EZ55_00033,Alteromonas macleodii EZ55,secreted,c-type cytochrome,1.0,eggnog:466NK@72275,Alteromonadaceae,c-type cytochrome
+EZ55_00076,Alteromonas macleodii EZ55,secreted,YjbF family lipoprotein,1.0,eggnog:467X9@72275,Alteromonadaceae,YjbF family lipoprotein
+EZ55_00366,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L16,1.0,eggnog:466H8@72275,Alteromonadaceae,50S ribosomal protein L16
+EZ55_00820,Alteromonas macleodii EZ55,secreted,DegQ family serine endoprotease,1.0,eggnog:464ES@72275,Alteromonadaceae,DegQ family serine endoprotease
+EZ55_00941,Alteromonas macleodii EZ55,secreted,Lcl C-terminal domain-containing protein,1.0,eggnog:465UE@72275,Alteromonadaceae,Lcl C-terminal domain-containing protein
+EZ55_01008,Alteromonas macleodii EZ55,secreted,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",1.0,eggnog:464ZA@72275,Alteromonadaceae,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
+EZ55_01022,Alteromonas macleodii EZ55,secreted,3-hydroxyacyl-ACP dehydratase FabZ,1.0,eggnog:466WK@72275,Alteromonadaceae,3-hydroxyacyl-ACP dehydratase FabZ
+EZ55_01117,Alteromonas macleodii EZ55,secreted,alanine--tRNA ligase,1.0,eggnog:465GZ@72275,Alteromonadaceae,alanine--tRNA ligase
+EZ55_01340,Alteromonas macleodii EZ55,secreted,peptidoglycan-associated lipoprotein Pal,1.0,eggnog:46793@72275,Alteromonadaceae,peptidoglycan-associated lipoprotein Pal
+EZ55_01465,Alteromonas macleodii EZ55,secreted,DNA starvation/stationary phase protection protein Dps,1.0,eggnog:46761@72275,Alteromonadaceae,DNA starvation/stationary phase protection protein Dps
+EZ55_01534,Alteromonas macleodii EZ55,secreted,ribose-phosphate pyrophosphokinase,1.0,eggnog:464JX@72275,Alteromonadaceae,ribose-phosphate pyrophosphokinase
+EZ55_01550,Alteromonas macleodii EZ55,secreted,cyanase,1.0,eggnog:466EP@72275,Alteromonadaceae,cyanase
+EZ55_02004,Alteromonas macleodii EZ55,secreted,ADP-forming succinate--CoA ligase subunit beta,1.0,eggnog:46480@72275,Alteromonadaceae,ADP-forming succinate--CoA ligase subunit beta
+EZ55_02083,Alteromonas macleodii EZ55,secreted,SIMPL domain-containing protein,1.0,eggnog:46892@72275,Alteromonadaceae,SIMPL domain-containing protein
+EZ55_03442,Alteromonas macleodii EZ55,secreted,lactoylglutathione lyase family protein,1.0,eggnog:465EY@72275,Alteromonadaceae,lactoylglutathione lyase family protein
+EZ55_03483,Alteromonas macleodii EZ55,secreted,malate dehydrogenase,1.0,eggnog:463ZA@72275,Alteromonadaceae,malate dehydrogenase
+EZ55_03582,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L30,1.0,eggnog:468BZ@72275,Alteromonadaceae,50S ribosomal protein L30
+EZ55_03727,Alteromonas macleodii EZ55,secreted,50S ribosomal protein L10,1.0,eggnog:469TE@72275,Alteromonadaceae,50S ribosomal protein L10
+EZ55_03944,Alteromonas macleodii EZ55,secreted,type II 3-dehydroquinate dehydratase,1.0,eggnog:4671T@72275,Alteromonadaceae,type II 3-dehydroquinate dehydratase
+EZ55_04111,Alteromonas macleodii EZ55,secreted,F0F1 ATP synthase subunit beta,1.0,eggnog:465I5@72275,Alteromonadaceae,F0F1 ATP synthase subunit beta
+MIT1002_01157,Alteromonas macleodii MIT1002,vesicle,TonB-dependent receptor domain-containing protein,13.3,eggnog:4651V@72275,Alteromonadaceae,TonB-dependent receptor
+MIT1002_03533,Alteromonas macleodii MIT1002,vesicle,elongation factor Tu,6.9,eggnog:4651Q@72275,Alteromonadaceae,elongation factor Tu
+MIT1002_03495,Alteromonas macleodii MIT1002,vesicle,TonB-dependent receptor,5.7,eggnog:46A4N@72275,Alteromonadaceae,TonB-dependent receptor
+MIT1002_01163,Alteromonas macleodii MIT1002,vesicle,DUF3450 domain-containing protein,2.1,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+MIT1002_03599,Alteromonas macleodii MIT1002,vesicle,50S ribosomal protein L5,1.9,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+MIT1002_01164,Alteromonas macleodii MIT1002,vesicle,MotA/TolQ/ExbB proton channel family protein,1.8,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+MIT1002_03802,Alteromonas macleodii MIT1002,vesicle,OmpA family protein,1.7,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+MIT1002_00601,Alteromonas macleodii MIT1002,vesicle,esterase-like activity of phytase family protein,1.6,eggnog:1PGTX@1224,Proteobacteria,esterase-like activity of phytase family protein
+MIT1002_04113,Alteromonas macleodii MIT1002,vesicle,F0F1 ATP synthase subunit beta,1.5,eggnog:465I5@72275,Alteromonadaceae,F0F1 ATP synthase subunit beta
+MIT1002_01950,Alteromonas macleodii MIT1002,vesicle,ADP-forming succinate--CoA ligase subunit beta,1.4,eggnog:46480@72275,Alteromonadaceae,ADP-forming succinate--CoA ligase subunit beta
+MIT1002_00390,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S3,1.1,eggnog:46670@72275,Alteromonadaceae,30S ribosomal protein S3
+MIT1002_01524,Alteromonas macleodii MIT1002,vesicle,elongation factor G,1.1,eggnog:464WS@72275,Alteromonadaceae,elongation factor G
+MIT1002_03183,Alteromonas macleodii MIT1002,vesicle,glutamate--ammonia ligase,0.9,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+MIT1002_04115,Alteromonas macleodii MIT1002,vesicle,F0F1 ATP synthase subunit alpha,0.9,eggnog:464BU@72275,Alteromonadaceae,F0F1 ATP synthase subunit alpha
+MIT1002_01004,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S2,0.8,eggnog:46443@72275,Alteromonadaceae,30S ribosomal protein S2
+MIT1002_01947,Alteromonas macleodii MIT1002,vesicle,succinate dehydrogenase iron-sulfur subunit,0.8,eggnog:4658G@72275,Alteromonadaceae,succinate dehydrogenase iron-sulfur subunit
+MIT1002_00670,Alteromonas macleodii MIT1002,vesicle,outer membrane channel protein TolC,0.7,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+MIT1002_03002,Alteromonas macleodii MIT1002,vesicle,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase,0.7,eggnog:464DV@72275,Alteromonadaceae,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase
+MIT1002_03586,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S4,0.7,eggnog:464TW@72275,Alteromonadaceae,30S ribosomal protein S4
+MIT1002_03735,Alteromonas macleodii MIT1002,vesicle,50S ribosomal protein L10,0.7,eggnog:469TE@72275,Alteromonadaceae,50S ribosomal protein L10
+MIT1002_01951,Alteromonas macleodii MIT1002,vesicle,succinate--CoA ligase subunit alpha,0.6,eggnog:4652M@72275,Alteromonadaceae,succinate--CoA ligase subunit alpha
+MIT1002_03001,Alteromonas macleodii MIT1002,vesicle,dihydrolipoyl dehydrogenase,0.6,eggnog:463YH@72275,Alteromonadaceae,dihydrolipoyl dehydrogenase
+MIT1002_03492,Alteromonas macleodii MIT1002,vesicle,malate dehydrogenase,0.6,eggnog:463ZA@72275,Alteromonadaceae,malate dehydrogenase
+MIT1002_00385,Alteromonas macleodii MIT1002,vesicle,50S ribosomal protein L4,0.5,eggnog:464IZ@72275,Alteromonadaceae,50S ribosomal protein L4
+MIT1002_00393,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S17,0.5,eggnog:467RN@72275,Alteromonadaceae,30S ribosomal protein S17
+MIT1002_00516,Alteromonas macleodii MIT1002,vesicle,thioredoxin TrxA,0.5,eggnog:467AS@72275,Alteromonadaceae,thioredoxin TrxA
+MIT1002_00951,Alteromonas macleodii MIT1002,vesicle,phosphopyruvate hydratase,0.5,eggnog:464ZZ@72275,Alteromonadaceae,phosphopyruvate hydratase
+MIT1002_01005,Alteromonas macleodii MIT1002,vesicle,translation elongation factor Ts,0.5,eggnog:464QB@72275,Alteromonadaceae,translation elongation factor Ts
+MIT1002_01949,Alteromonas macleodii MIT1002,vesicle,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,0.5,eggnog:464AW@72275,Alteromonadaceae,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+MIT1002_02189,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S1,0.5,eggnog:464BF@72275,Alteromonadaceae,30S ribosomal protein S1
+MIT1002_03321,Alteromonas macleodii MIT1002,vesicle,acetaldehyde dehydrogenase ExaC,0.5,eggnog:465NN@72275,Alteromonadaceae,acetaldehyde dehydrogenase ExaC
+MIT1002_03588,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S13,0.5,eggnog:467N1@72275,Alteromonadaceae,30S ribosomal protein S13
+MIT1002_03734,Alteromonas macleodii MIT1002,vesicle,50S ribosomal protein L7/L12,0.5,eggnog:46787@72275,Alteromonadaceae,50S ribosomal protein L7/L12
+MIT1002_03935,Alteromonas macleodii MIT1002,vesicle,chaperonin GroEL,0.5,eggnog:4647Z@72275,Alteromonadaceae,chaperonin GroEL
+MIT1002_00054,Alteromonas macleodii MIT1002,vesicle,50S ribosomal protein L28,0.4,eggnog:467R5@72275,Alteromonadaceae,50S ribosomal protein L28
+MIT1002_01308,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S16,0.4,eggnog:467U2@72275,Alteromonadaceae,30S ribosomal protein S16
+MIT1002_01734,Alteromonas macleodii MIT1002,vesicle,acyl carrier protein,0.4,eggnog:467SY@72275,Alteromonadaceae,acyl carrier protein
+MIT1002_01830,Alteromonas macleodii MIT1002,vesicle,NADP-dependent isocitrate dehydrogenase,0.4,eggnog:464R6@72275,Alteromonadaceae,NADP-dependent isocitrate dehydrogenase
+MIT1002_01946,Alteromonas macleodii MIT1002,vesicle,succinate dehydrogenase flavoprotein subunit,0.4,eggnog:4646I@72275,Alteromonadaceae,succinate dehydrogenase flavoprotein subunit
+MIT1002_02126,Alteromonas macleodii MIT1002,vesicle,bacterioferritin,0.4,eggnog:466EC@72275,Alteromonadaceae,bacterioferritin
+MIT1002_02130,Alteromonas macleodii MIT1002,vesicle,"cytochrome-c oxidase, cbb3-type subunit II",0.4,eggnog:464XG@72275,Alteromonadaceae,"cytochrome-c oxidase, cbb3-type subunit II"
+MIT1002_02394,Alteromonas macleodii MIT1002,vesicle,glyceraldehyde-3-phosphate dehydrogenase,0.4,eggnog:465BD@72275,Alteromonadaceae,glyceraldehyde-3-phosphate dehydrogenase
+MIT1002_02422,Alteromonas macleodii MIT1002,vesicle,alkaline phosphatase PhoX,0.4,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+MIT1002_02756,Alteromonas macleodii MIT1002,vesicle,nucleoid-associated protein HU-beta,0.4,eggnog:467ZY@72275,Alteromonadaceae,nucleoid-associated protein HU-beta
+MIT1002_03036,Alteromonas macleodii MIT1002,vesicle,SapC family protein,0.4,eggnog:465QK@72275,Alteromonadaceae,SapC family protein
+MIT1002_03488,Alteromonas macleodii MIT1002,vesicle,Na(+)-translocating NADH-quinone reductase subunit A,0.4,eggnog:464YM@72275,Alteromonadaceae,Na(+)-translocating NADH-quinone reductase subunit A
+MIT1002_03817,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S18,0.4,eggnog:467T8@72275,Alteromonadaceae,30S ribosomal protein S18
+MIT1002_02993,Alteromonas macleodii MIT1002,vesicle,phosphoglycerate dehydrogenase,0.3,eggnog:464BH@72275,Alteromonadaceae,phosphoglycerate dehydrogenase
+MIT1002_03330,Alteromonas macleodii MIT1002,vesicle,FMN-dependent L-lactate dehydrogenase LldD,0.3,eggnog:464WN@72275,Alteromonadaceae,FMN-dependent L-lactate dehydrogenase LldD
+MIT1002_03598,Alteromonas macleodii MIT1002,vesicle,30S ribosomal protein S14,0.3,eggnog:467UW@72275,Alteromonadaceae,30S ribosomal protein S14
+MIT1002_03732,Alteromonas macleodii MIT1002,vesicle,DNA-directed RNA polymerase subunit beta^,0.3,eggnog:46403@72275,Alteromonadaceae,DNA-directed RNA polymerase subunit beta^
+MIT1002_04007,Alteromonas macleodii MIT1002,vesicle,FKBP-type peptidyl-prolyl cis-trans isomerase,0.3,eggnog:46CFF@72275,Alteromonadaceae,FKBP-type peptidyl-prolyl cis-trans isomerase
+AMBLS11_15985,Alteromonas macleodii BS11,vesicle,TonB-dependent receptor,7.1,eggnog:46A4N@72275,Alteromonadaceae,TonB-dependent receptor
+AMBLS11_16165,Alteromonas macleodii BS11,vesicle,elongation factor Tu,4.9,eggnog:4651Q@72275,Alteromonadaceae,elongation factor Tu
+AMBLS11_05325,Alteromonas macleodii BS11,vesicle,MotA/TolQ/ExbB proton channel family protein,3.1,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+AMBLS11_05320,Alteromonas macleodii BS11,vesicle,DUF3450 domain-containing protein,2.9,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+AMBLS11_13055,Alteromonas macleodii BS11,vesicle,isocitrate lyase,2.0,eggnog:4659E@72275,Alteromonadaceae,isocitrate lyase
+AMBLS11_18940,Alteromonas macleodii BS11,vesicle,F0F1 ATP synthase subunit alpha,1.8,eggnog:464BU@72275,Alteromonadaceae,F0F1 ATP synthase subunit alpha
+AMBLS11_04495,Alteromonas macleodii BS11,vesicle,DUF3192 domain-containing protein,1.6,eggnog:467SV@72275,Alteromonadaceae,DUF3192 domain-containing protein
+AMBLS11_08920,Alteromonas macleodii BS11,vesicle,ADP-forming succinate--CoA ligase subunit beta,1.6,eggnog:46480@72275,Alteromonadaceae,ADP-forming succinate--CoA ligase subunit beta
+AMBLS11_17365,Alteromonas macleodii BS11,vesicle,OmpA family protein,1.5,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+AMBLS11_18930,Alteromonas macleodii BS11,vesicle,F0F1 ATP synthase subunit beta,1.5,eggnog:465I5@72275,Alteromonadaceae,F0F1 ATP synthase subunit beta
+AMBLS11_16405,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L5,1.4,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+AMBLS11_11110,Alteromonas macleodii BS11,vesicle,DUF839 domain-containing protein,1.3,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+AMBLS11_03230,Alteromonas macleodii BS11,vesicle,TonB-dependent receptor plug domain-containing protein,1.1,eggnog:464ZU@72275,Alteromonadaceae,TonB-dependent receptor domain-containing protein
+AMBLS11_06950,Alteromonas macleodii BS11,vesicle,elongation factor G,1.1,eggnog:464WS@72275,Alteromonadaceae,elongation factor G
+AMBLS11_03520,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S9,1.0,eggnog:466SE@72275,Alteromonadaceae,30S ribosomal protein S9
+AMBLS11_08885,Alteromonas macleodii BS11,vesicle,citrate synthase,1.0,eggnog:464XQ@72275,Alteromonadaceae,citrate synthase
+AMBLS11_RS17290,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L7/L12,0.9,eggnog:46787@72275,Alteromonadaceae,50S ribosomal protein L7/L12
+AMBLS11_00250,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L28,0.8,eggnog:467R5@72275,Alteromonadaceae,50S ribosomal protein L28
+AMBLS11_01750,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S3,0.8,eggnog:46670@72275,Alteromonadaceae,30S ribosomal protein S3
+AMBLS11_07900,Alteromonas macleodii BS11,vesicle,acyl carrier protein,0.8,eggnog:467SY@72275,Alteromonadaceae,acyl carrier protein
+AMBLS11_08905,Alteromonas macleodii BS11,vesicle,succinate dehydrogenase iron-sulfur subunit,0.8,eggnog:4658G@72275,Alteromonadaceae,succinate dehydrogenase iron-sulfur subunit
+AMBLS11_08925,Alteromonas macleodii BS11,vesicle,succinate--CoA ligase subunit alpha,0.8,eggnog:4652M@72275,Alteromonadaceae,succinate--CoA ligase subunit alpha
+AMBLS11_12180,Alteromonas macleodii BS11,vesicle,"6,7-dimethyl-8-ribityllumazine synthase",0.7,eggnog:466GG@72275,Alteromonadaceae,"6,7-dimethyl-8-ribityllumazine synthase"
+AMBLS11_16095,Alteromonas macleodii BS11,vesicle,DcaP family trimeric outer membrane transporter,0.7,eggnog:4654M@72275,Alteromonadaceae,DcaP family trimeric outer membrane transporter
+AMBLS11_17040,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L10,0.7,eggnog:469TE@72275,Alteromonadaceae,50S ribosomal protein L10
+AMBLS11_04555,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S2,0.6,eggnog:46443@72275,Alteromonadaceae,30S ribosomal protein S2
+AMBLS11_08635,Alteromonas macleodii BS11,vesicle,polyribonucleotide nucleotidyltransferase,0.6,eggnog:4651T@72275,Alteromonadaceae,polyribonucleotide nucleotidyltransferase
+AMBLS11_11670,Alteromonas macleodii BS11,vesicle,phasin family protein,0.6,eggnog:46978@72275,Alteromonadaceae,phasin-related domain-containing protein
+AMBLS11_13190,Alteromonas macleodii BS11,vesicle,XrtA/PEP-CTERM system exopolysaccharide export protein,0.6,eggnog:464WW@72275,Alteromonadaceae,XrtA/PEP-CTERM system exopolysaccharide export protein
+AMBLS11_13880,Alteromonas macleodii BS11,vesicle,DUF481 domain-containing protein,0.6,eggnog:465TR@72275,Alteromonadaceae,DUF481 domain-containing protein
+AMBLS11_16355,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S13,0.6,eggnog:467N1@72275,Alteromonadaceae,30S ribosomal protein S13
+AMBLS11_16415,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L14,0.6,eggnog:466RM@72275,Alteromonadaceae,50S ribosomal protein L14
+AMBLS11_01735,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L2,0.5,eggnog:464EJ@72275,Alteromonadaceae,50S ribosomal protein L2
+AMBLS11_02400,Alteromonas macleodii BS11,vesicle,adenylosuccinate synthase,0.5,eggnog:464CH@72275,Alteromonadaceae,adenylosuccinate synthase
+AMBLS11_03655,Alteromonas macleodii BS11,vesicle,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,0.5,eggnog:46522@72275,Alteromonadaceae,UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+AMBLS11_05345,Alteromonas macleodii BS11,vesicle,tetratricopeptide repeat protein,0.5,eggnog:464J9@72275,Alteromonadaceae,tetratricopeptide repeat protein
+AMBLS11_05975,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L19,0.5,eggnog:466X0@72275,Alteromonadaceae,50S ribosomal protein L19
+AMBLS11_06155,Alteromonas macleodii BS11,vesicle,peptidoglycan-associated lipoprotein Pal,0.5,eggnog:46793@72275,Alteromonadaceae,peptidoglycan-associated lipoprotein Pal
+AMBLS11_12880,Alteromonas macleodii BS11,vesicle,nucleoside-diphosphate kinase,0.5,eggnog:466Z4@72275,Alteromonadaceae,nucleoside-diphosphate kinase
+AMBLS11_14840,Alteromonas macleodii BS11,vesicle,glutamate--ammonia ligase,0.5,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+AMBLS11_15970,Alteromonas macleodii BS11,vesicle,malate dehydrogenase,0.5,eggnog:463ZA@72275,Alteromonadaceae,malate dehydrogenase
+AMBLS11_16090,Alteromonas macleodii BS11,vesicle,acetate--CoA ligase,0.5,eggnog:4641P@72275,Alteromonadaceae,acetate--CoA ligase
+AMBLS11_16340,Alteromonas macleodii BS11,vesicle,DNA-directed RNA polymerase subunit alpha,0.5,eggnog:464HA@72275,Alteromonadaceae,DNA-directed RNA polymerase subunit alpha
+AMBLS11_17430,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S18,0.5,eggnog:467T8@72275,Alteromonadaceae,30S ribosomal protein S18
+AMBLS11_18040,Alteromonas macleodii BS11,vesicle,chaperonin GroEL,0.5,eggnog:4647Z@72275,Alteromonadaceae,chaperonin GroEL
+AMBLS11_18950,Alteromonas macleodii BS11,vesicle,F0F1 ATP synthase subunit B,0.5,eggnog:466YC@72275,Alteromonadaceae,F0F1 ATP synthase subunit B
+AMBLS11_01725,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L4,0.4,eggnog:464IZ@72275,Alteromonadaceae,50S ribosomal protein L4
+AMBLS11_02825,Alteromonas macleodii BS11,vesicle,outer membrane channel protein TolC,0.4,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+AMBLS11_04445,Alteromonas macleodii BS11,vesicle,UTP--glucose-1-phosphate uridylyltransferase GalU,0.4,eggnog:4650D@72275,Alteromonadaceae,UTP--glucose-1-phosphate uridylyltransferase GalU
+AMBLS11_08900,Alteromonas macleodii BS11,vesicle,succinate dehydrogenase flavoprotein subunit,0.4,eggnog:4646I@72275,Alteromonadaceae,succinate dehydrogenase flavoprotein subunit
+AMBLS11_08915,Alteromonas macleodii BS11,vesicle,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,0.4,eggnog:464AW@72275,Alteromonadaceae,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+AMBLS11_12725,Alteromonas macleodii BS11,vesicle,nucleoid-associated protein HU-beta,0.4,eggnog:467ZY@72275,Alteromonadaceae,nucleoid-associated protein HU-beta
+AMBLS11_16345,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S4,0.4,eggnog:464TW@72275,Alteromonadaceae,30S ribosomal protein S4
+AMBLS11_16380,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S5,0.4,eggnog:464RY@72275,Alteromonadaceae,30S ribosomal protein S5
+AMBLS11_17425,Alteromonas macleodii BS11,vesicle,50S ribosomal protein L9,0.4,eggnog:466HW@72275,Alteromonadaceae,50S ribosomal protein L9
+AMBLS11_04560,Alteromonas macleodii BS11,vesicle,translation elongation factor Ts,0.3,eggnog:464QB@72275,Alteromonadaceae,translation elongation factor Ts
+AMBLS11_09875,Alteromonas macleodii BS11,vesicle,30S ribosomal protein S1,0.3,eggnog:464BF@72275,Alteromonadaceae,30S ribosomal protein S1
+AMBLS11_17500,Alteromonas macleodii BS11,vesicle,CsgG/HfaB family protein,0.3,eggnog:467EW@72275,Alteromonadaceae,CsgG/HfaB family protein
+MASE_16265,Alteromonas macleodii ATCC27126,vesicle,TonB-dependent receptor,9.9,eggnog:465FE@72275,Alteromonadaceae,TonB-dependent receptor
+MASE_05220,Alteromonas macleodii ATCC27126,vesicle,DUF3450 domain-containing protein,2.1,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+MASE_07915,Alteromonas macleodii ATCC27126,vesicle,acyl carrier protein,2.0,eggnog:467SY@72275,Alteromonadaceae,acyl carrier protein
+MASE_09115,Alteromonas macleodii ATCC27126,vesicle,ADP-forming succinate--CoA ligase subunit beta,1.6,eggnog:46480@72275,Alteromonadaceae,ADP-forming succinate--CoA ligase subunit beta
+MASE_11260,Alteromonas macleodii ATCC27126,vesicle,alkaline phosphatase PhoX,1.6,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+MASE_12705,Alteromonas macleodii ATCC27126,vesicle,nucleoid-associated protein HU-beta,1.6,eggnog:467ZY@72275,Alteromonadaceae,nucleoid-associated protein HU-beta
+MASE_19735,Alteromonas macleodii ATCC27126,vesicle,F0F1 ATP synthase subunit beta,1.4,eggnog:465I5@72275,Alteromonadaceae,F0F1 ATP synthase subunit beta
+MASE_03050,Alteromonas macleodii ATCC27126,vesicle,TonB-dependent receptor domain-containing protein,1.2,eggnog:464ZU@72275,Alteromonadaceae,TonB-dependent receptor domain-containing protein
+MASE_05225,Alteromonas macleodii ATCC27126,vesicle,MotA/TolQ/ExbB proton channel family protein,1.2,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+MASE_16250,Alteromonas macleodii ATCC27126,vesicle,malate dehydrogenase,1.2,eggnog:463ZA@72275,Alteromonadaceae,malate dehydrogenase
+MASE_09100,Alteromonas macleodii ATCC27126,vesicle,succinate dehydrogenase iron-sulfur subunit,1.1,eggnog:4658G@72275,Alteromonadaceae,succinate dehydrogenase iron-sulfur subunit
+MASE_RS17530,Alteromonas macleodii ATCC27126,vesicle,50S ribosomal protein L7/L12,1.1,eggnog:46787@72275,Alteromonadaceae,50S ribosomal protein L7/L12
+MASE_02040,Alteromonas macleodii ATCC27126,vesicle,thioredoxin TrxA,1.0,eggnog:467AS@72275,Alteromonadaceae,thioredoxin TrxA
+MASE_19745,Alteromonas macleodii ATCC27126,vesicle,F0F1 ATP synthase subunit alpha,1.0,eggnog:464BU@72275,Alteromonadaceae,F0F1 ATP synthase subunit alpha
+MASE_16875,Alteromonas macleodii ATCC27126,vesicle,50S ribosomal protein L5,0.9,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+MASE_06930,Alteromonas macleodii ATCC27126,vesicle,elongation factor G,0.7,eggnog:464WS@72275,Alteromonadaceae,elongation factor G
+MASE_08500,Alteromonas macleodii ATCC27126,vesicle,NADP-dependent isocitrate dehydrogenase,0.7,eggnog:464R6@72275,Alteromonadaceae,NADP-dependent isocitrate dehydrogenase
+MASE_09120,Alteromonas macleodii ATCC27126,vesicle,succinate--CoA ligase subunit alpha,0.7,eggnog:4652M@72275,Alteromonadaceae,succinate--CoA ligase subunit alpha
+MASE_11930,Alteromonas macleodii ATCC27126,vesicle,phasin-related domain-containing protein,0.7,eggnog:46978@72275,Alteromonadaceae,phasin-related domain-containing protein
+MASE_17875,Alteromonas macleodii ATCC27126,vesicle,OmpA family protein,0.7,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+MASE_01430,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S3,0.6,eggnog:46670@72275,Alteromonadaceae,30S ribosomal protein S3
+MASE_04190,Alteromonas macleodii ATCC27126,vesicle,phosphopyruvate hydratase,0.6,eggnog:464ZZ@72275,Alteromonadaceae,phosphopyruvate hydratase
+MASE_04710,Alteromonas macleodii ATCC27126,vesicle,flagellin N-terminal helical domain-containing protein,0.6,eggnog:464FC@72275,Alteromonadaceae,flagellin N-terminal helical domain-containing protein
+MASE_00255,Alteromonas macleodii ATCC27126,vesicle,50S ribosomal protein L28,0.5,eggnog:467R5@72275,Alteromonadaceae,50S ribosomal protein L28
+MASE_00810,Alteromonas macleodii ATCC27126,vesicle,inorganic diphosphatase,0.5,eggnog:4647K@72275,Alteromonadaceae,inorganic diphosphatase
+MASE_02630,Alteromonas macleodii ATCC27126,vesicle,outer membrane channel protein TolC,0.5,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+MASE_04445,Alteromonas macleodii ATCC27126,vesicle,translation elongation factor Ts,0.5,eggnog:464QB@72275,Alteromonadaceae,translation elongation factor Ts
+MASE_05550,Alteromonas macleodii ATCC27126,vesicle,superoxide dismutase [Fe],0.5,eggnog:4648W@72275,Alteromonadaceae,superoxide dismutase [Fe]
+MASE_08435,Alteromonas macleodii ATCC27126,vesicle,phosphoenolpyruvate synthase,0.5,eggnog:464NY@72275,Alteromonadaceae,phosphoenolpyruvate synthase
+MASE_14245,Alteromonas macleodii ATCC27126,vesicle,SapC family protein,0.5,eggnog:465QK@72275,Alteromonadaceae,SapC family protein
+MASE_18735,Alteromonas macleodii ATCC27126,vesicle,chaperonin GroEL,0.5,eggnog:4647Z@72275,Alteromonadaceae,chaperonin GroEL
+MASE_01445,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S17,0.4,eggnog:467RN@72275,Alteromonadaceae,30S ribosomal protein S17
+MASE_04440,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S2,0.4,eggnog:46443@72275,Alteromonadaceae,30S ribosomal protein S2
+MASE_08780,Alteromonas macleodii ATCC27126,vesicle,polyribonucleotide nucleotidyltransferase,0.4,eggnog:4651T@72275,Alteromonadaceae,polyribonucleotide nucleotidyltransferase
+MASE_10095,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S1,0.4,eggnog:464BF@72275,Alteromonadaceae,30S ribosomal protein S1
+MASE_12175,Alteromonas macleodii ATCC27126,vesicle,adenylate kinase,0.4,eggnog:46577@72275,Alteromonadaceae,adenylate kinase
+MASE_12850,Alteromonas macleodii ATCC27126,vesicle,nucleoside-diphosphate kinase,0.4,eggnog:466Z4@72275,Alteromonadaceae,nucleoside-diphosphate kinase
+MASE_13235,Alteromonas macleodii ATCC27126,vesicle,XrtA/PEP-CTERM system exopolysaccharide export protein,0.4,eggnog:464WW@72275,Alteromonadaceae,XrtA/PEP-CTERM system exopolysaccharide export protein
+MASE_14015,Alteromonas macleodii ATCC27126,vesicle,dihydrolipoyl dehydrogenase,0.4,eggnog:463YH@72275,Alteromonadaceae,dihydrolipoyl dehydrogenase
+MASE_15050,Alteromonas macleodii ATCC27126,vesicle,glutamate--ammonia ligase,0.4,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+MASE_16540,Alteromonas macleodii ATCC27126,vesicle,nucleotide sugar dehydrogenase,0.4,eggnog:464FW@72275,Alteromonadaceae,nucleotide sugar dehydrogenase
+MASE_17550,Alteromonas macleodii ATCC27126,vesicle,50S ribosomal protein L10,0.4,eggnog:469TE@72275,Alteromonadaceae,50S ribosomal protein L10
+MASE_17950,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S18,0.4,eggnog:467T8@72275,Alteromonadaceae,30S ribosomal protein S18
+MASE_04425,Alteromonas macleodii ATCC27126,vesicle,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",0.3,eggnog:464ZA@72275,Alteromonadaceae,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
+MASE_06860,Alteromonas macleodii ATCC27126,vesicle,ribose-phosphate pyrophosphokinase,0.3,eggnog:464JX@72275,Alteromonadaceae,ribose-phosphate pyrophosphokinase
+MASE_09080,Alteromonas macleodii ATCC27126,vesicle,citrate synthase,0.3,eggnog:464XQ@72275,Alteromonadaceae,citrate synthase
+MASE_15840,Alteromonas macleodii ATCC27126,vesicle,TIGR04219 family outer membrane beta-barrel protein,0.3,eggnog:4660B@72275,Alteromonadaceae,TIGR04219 family outer membrane beta-barrel protein
+MASE_16820,Alteromonas macleodii ATCC27126,vesicle,30S ribosomal protein S13,0.3,eggnog:467N1@72275,Alteromonadaceae,30S ribosomal protein S13
+MASE_17535,Alteromonas macleodii ATCC27126,vesicle,DNA-directed RNA polymerase subunit beta^,0.3,eggnog:46403@72275,Alteromonadaceae,DNA-directed RNA polymerase subunit beta^
+MASE_19080,Alteromonas macleodii ATCC27126,vesicle,FKBP-type peptidyl-prolyl cis-trans isomerase,0.3,eggnog:46CFF@72275,Alteromonadaceae,FKBP-type peptidyl-prolyl cis-trans isomerase
+ALTBGP6_03431,Alteromonas macleodii BGP6,vesicle,TonB-dependent receptor,14.0,eggnog:465FE@72275,Alteromonadaceae,TonB-dependent receptor
+ALTBGP6_03469,Alteromonas macleodii BGP6,vesicle,elongation factor Tu,5.7,eggnog:4651Q@72275,Alteromonadaceae,elongation factor Tu
+ALTBGP6_01164,Alteromonas macleodii BGP6,vesicle,DUF3450 domain-containing protein,2.8,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+ALTBGP6_00891,Alteromonas macleodii BGP6,vesicle,porin family protein,2.7,eggnog:4686N@72275,Alteromonadaceae,outer membrane beta-barrel protein
+ALTBGP6_01738,Alteromonas macleodii BGP6,vesicle,acyl carrier protein,2.0,eggnog:467SY@72275,Alteromonadaceae,acyl carrier protein
+ALTBGP6_01165,Alteromonas macleodii BGP6,vesicle,MotA/TolQ/ExbB proton channel family protein,1.9,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+ALTBGP6_01995,Alteromonas macleodii BGP6,vesicle,ADP-forming succinate--CoA ligase subunit beta,1.9,eggnog:46480@72275,Alteromonadaceae,ADP-forming succinate--CoA ligase subunit beta
+ALTBGP6_02414,Alteromonas macleodii BGP6,vesicle,alkaline phosphatase PhoX,1.7,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+ALTBGP6_04051,Alteromonas macleodii BGP6,vesicle,F0F1 ATP synthase subunit beta,1.5,eggnog:465I5@72275,Alteromonadaceae,F0F1 ATP synthase subunit beta
+ALTBGP6_00605,Alteromonas macleodii BGP6,vesicle,outer membrane channel protein TolC,1.4,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+ALTBGP6_02726,Alteromonas macleodii BGP6,vesicle,nucleoid-associated protein HU-beta,1.4,eggnog:467ZY@72275,Alteromonadaceae,nucleoid-associated protein HU-beta
+ALTBGP6_03671,Alteromonas macleodii BGP6,vesicle,50S ribosomal protein L7/L12,1.2,eggnog:46787@72275,Alteromonadaceae,50S ribosomal protein L7/L12
+ALTBGP6_01996,Alteromonas macleodii BGP6,vesicle,succinate--CoA ligase subunit alpha,1.1,eggnog:4652M@72275,Alteromonadaceae,succinate--CoA ligase subunit alpha
+ALTBGP6_03739,Alteromonas macleodii BGP6,vesicle,OmpA family protein,1.1,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+ALTBGP6_01537,Alteromonas macleodii BGP6,vesicle,elongation factor G,1.0,eggnog:464WS@72275,Alteromonadaceae,elongation factor G
+ALTBGP6_03538,Alteromonas macleodii BGP6,vesicle,50S ribosomal protein L5,1.0,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+ALTBGP6_04053,Alteromonas macleodii BGP6,vesicle,F0F1 ATP synthase subunit alpha,1.0,eggnog:464BU@72275,Alteromonadaceae,F0F1 ATP synthase subunit alpha
+ALTBGP6_00055,Alteromonas macleodii BGP6,vesicle,50S ribosomal protein L28,0.8,eggnog:467R5@72275,Alteromonadaceae,50S ribosomal protein L28
+ALTBGP6_00488,Alteromonas macleodii BGP6,vesicle,thioredoxin TrxA,0.8,eggnog:467AS@72275,Alteromonadaceae,thioredoxin TrxA
+ALTBGP6_00955,Alteromonas macleodii BGP6,vesicle,phosphopyruvate hydratase,0.8,eggnog:464ZZ@72275,Alteromonadaceae,phosphopyruvate hydratase
+ALTBGP6_01992,Alteromonas macleodii BGP6,vesicle,succinate dehydrogenase iron-sulfur subunit,0.8,eggnog:4658G@72275,Alteromonadaceae,succinate dehydrogenase iron-sulfur subunit
+ALTBGP6_02106,Alteromonas macleodii BGP6,vesicle,bacterioferritin,0.8,eggnog:466EC@72275,Alteromonadaceae,bacterioferritin
+ALTBGP6_03428,Alteromonas macleodii BGP6,vesicle,malate dehydrogenase,0.8,eggnog:463ZA@72275,Alteromonadaceae,malate dehydrogenase
+ALTBGP6_00029,Alteromonas macleodii BGP6,vesicle,OmpW family outer membrane protein,0.7,eggnog:467CK@72275,Alteromonadaceae,OmpW family outer membrane protein
+ALTBGP6_01006,Alteromonas macleodii BGP6,vesicle,30S ribosomal protein S2,0.7,eggnog:46443@72275,Alteromonadaceae,30S ribosomal protein S2
+ALTBGP6_03191,Alteromonas macleodii BGP6,vesicle,glutamate--ammonia ligase,0.7,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+ALTBGP6_03754,Alteromonas macleodii BGP6,vesicle,30S ribosomal protein S18,0.7,eggnog:467T8@72275,Alteromonadaceae,30S ribosomal protein S18
+ALTBGP6_00367,Alteromonas macleodii BGP6,vesicle,30S ribosomal protein S3,0.6,eggnog:46670@72275,Alteromonadaceae,30S ribosomal protein S3
+ALTBGP6_02992,Alteromonas macleodii BGP6,vesicle,dihydrolipoyl dehydrogenase,0.6,eggnog:463YH@72275,Alteromonadaceae,dihydrolipoyl dehydrogenase
+ALTBGP6_03038,Alteromonas macleodii BGP6,vesicle,SapC family protein,0.6,eggnog:465QK@72275,Alteromonadaceae,SapC family protein
+ALTBGP6_00217,Alteromonas macleodii BGP6,vesicle,inorganic diphosphatase,0.5,eggnog:4647K@72275,Alteromonadaceae,inorganic diphosphatase
+ALTBGP6_01868,Alteromonas macleodii BGP6,vesicle,NADP-dependent isocitrate dehydrogenase,0.5,eggnog:464R6@72275,Alteromonadaceae,NADP-dependent isocitrate dehydrogenase
+ALTBGP6_02169,Alteromonas macleodii BGP6,vesicle,30S ribosomal protein S1,0.5,eggnog:464BF@72275,Alteromonadaceae,30S ribosomal protein S1
+ALTBGP6_02838,Alteromonas macleodii BGP6,vesicle,XrtA/PEP-CTERM system exopolysaccharide export protein,0.5,eggnog:464WW@72275,Alteromonadaceae,XrtA/PEP-CTERM system exopolysaccharide export protein
+ALTBGP6_02993,Alteromonas macleodii BGP6,vesicle,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase,0.5,eggnog:464DV@72275,Alteromonadaceae,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase
+ALTBGP6_03344,Alteromonas macleodii BGP6,vesicle,TIGR04219 family outer membrane beta-barrel protein,0.5,eggnog:4660B@72275,Alteromonadaceae,TIGR04219 family outer membrane beta-barrel protein
+ALTBGP6_03527,Alteromonas macleodii BGP6,vesicle,30S ribosomal protein S13,0.5,eggnog:467N1@72275,Alteromonadaceae,30S ribosomal protein S13
+ALTBGP6_03881,Alteromonas macleodii BGP6,vesicle,chaperonin GroEL,0.5,eggnog:4647Z@72275,Alteromonadaceae,chaperonin GroEL
+ALTBGP6_00362,Alteromonas macleodii BGP6,vesicle,50S ribosomal protein L4,0.4,eggnog:464IZ@72275,Alteromonadaceae,50S ribosomal protein L4
+ALTBGP6_00366,Alteromonas macleodii BGP6,vesicle,50S ribosomal protein L22,0.4,eggnog:467D4@72275,Alteromonadaceae,50S ribosomal protein L22
+ALTBGP6_01232,Alteromonas macleodii BGP6,vesicle,superoxide dismutase [Fe],0.4,eggnog:4648W@72275,Alteromonadaceae,superoxide dismutase [Fe]
+ALTBGP6_01854,Alteromonas macleodii BGP6,vesicle,phosphoenolpyruvate synthase,0.4,eggnog:464NY@72275,Alteromonadaceae,phosphoenolpyruvate synthase
+ALTBGP6_01924,Alteromonas macleodii BGP6,vesicle,polyribonucleotide nucleotidyltransferase,0.4,eggnog:4651T@72275,Alteromonadaceae,polyribonucleotide nucleotidyltransferase
+ALTBGP6_02386,Alteromonas macleodii BGP6,vesicle,glyceraldehyde-3-phosphate dehydrogenase,0.4,eggnog:465BD@72275,Alteromonadaceae,glyceraldehyde-3-phosphate dehydrogenase
+ALTBGP6_04008,Alteromonas macleodii BGP6,vesicle,ketol-acid reductoisomerase,0.4,eggnog:464ET@72275,Alteromonadaceae,ketol-acid reductoisomerase
+AMBAS45_10205,Alteromonas macleodii AD45,vesicle,bacterioferritin,9.9,eggnog:466EC@72275,Alteromonadaceae,bacterioferritin
+AMBAS45_05770,Alteromonas macleodii AD45,vesicle,TonB-dependent receptor plug domain-containing protein,9.0,eggnog:464ZY@72275,Alteromonadaceae,TonB-dependent receptor plug domain-containing protein
+AMBAS45_12950,Alteromonas macleodii AD45,vesicle,"6,7-dimethyl-8-ribityllumazine synthase",8.4,eggnog:466GG@72275,Alteromonadaceae,"6,7-dimethyl-8-ribityllumazine synthase"
+AMBAS45_15565,Alteromonas macleodii AD45,vesicle,glutamate--ammonia ligase,7.9,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+AMBAS45_04250,Alteromonas macleodii AD45,vesicle,outer membrane beta-barrel protein,4.6,eggnog:4686N@72275,Alteromonadaceae,outer membrane beta-barrel protein
+AMBAS45_04745,Alteromonas macleodii AD45,vesicle,outer membrane protein assembly factor BamA,3.0,eggnog:464XP@72275,Alteromonadaceae,outer membrane protein assembly factor BamA
+AMBAS45_18290,Alteromonas macleodii AD45,vesicle,OmpA family protein,2.5,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+AMBAS45_02905,Alteromonas macleodii AD45,vesicle,outer membrane channel protein TolC,1.9,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+AMBAS45_05420,Alteromonas macleodii AD45,vesicle,MotA/TolQ/ExbB proton channel family protein,1.8,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+AMBAS45_05415,Alteromonas macleodii AD45,vesicle,DUF3450 domain-containing protein,1.7,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+AMBAS45_03105,Alteromonas macleodii AD45,vesicle,thiol:disulfide interchange protein DsbA/DsbL,1.3,eggnog:4653J@72275,Alteromonadaceae,thiol:disulfide interchange protein DsbA/DsbL
+AMBAS45_13770,Alteromonas macleodii AD45,vesicle,XrtA/PEP-CTERM system exopolysaccharide export protein,1.3,eggnog:464WW@72275,Alteromonadaceae,XrtA/PEP-CTERM system exopolysaccharide export protein
+AMBAS45_00150,Alteromonas macleodii AD45,vesicle,OmpW family outer membrane protein,1.1,eggnog:467CK@72275,Alteromonadaceae,OmpW family outer membrane protein
+AMBAS45_17000,Alteromonas macleodii AD45,vesicle,elongation factor Tu,1.1,eggnog:4651Q@72275,Alteromonadaceae,elongation factor Tu
+AMBAS45_00260,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L28,0.9,eggnog:467R5@72275,Alteromonadaceae,50S ribosomal protein L28
+AMBAS45_17245,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L5,0.9,eggnog:464A7@72275,Alteromonadaceae,50S ribosomal protein L5
+AMBAS45_17945,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L10,0.9,eggnog:469TE@72275,Alteromonadaceae,50S ribosomal protein L10
+AMBAS45_16305,Alteromonas macleodii AD45,vesicle,TIGR04219 family outer membrane beta-barrel protein,0.7,eggnog:4660B@72275,Alteromonadaceae,TIGR04219 family outer membrane beta-barrel protein
+AMBAS45_18370,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L9,0.7,eggnog:466HW@72275,Alteromonadaceae,50S ribosomal protein L9
+AMBAS45_RS18175,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L7/L12,0.7,eggnog:46787@72275,Alteromonadaceae,50S ribosomal protein L7/L12
+AMBAS45_06310,Alteromonas macleodii AD45,vesicle,peptidoglycan-associated lipoprotein Pal,0.6,eggnog:46793@72275,Alteromonadaceae,peptidoglycan-associated lipoprotein Pal
+AMBAS45_07090,Alteromonas macleodii AD45,vesicle,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB,0.6,eggnog:4643J@72275,Alteromonadaceae,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB
+AMBAS45_11875,Alteromonas macleodii AD45,vesicle,alkaline phosphatase PhoX,0.6,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+AMBAS45_17705,Alteromonas macleodii AD45,vesicle,aminopeptidase PepB,0.6,eggnog:465XH@72275,Alteromonadaceae,aminopeptidase PepB
+AMBAS45_01655,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L4,0.5,eggnog:464IZ@72275,Alteromonadaceae,50S ribosomal protein L4
+AMBAS45_05760,Alteromonas macleodii AD45,vesicle,superoxide dismutase [Fe],0.5,eggnog:4648W@72275,Alteromonadaceae,superoxide dismutase [Fe]
+AMBAS45_05800,Alteromonas macleodii AD45,vesicle,ribonuclease T,0.5,eggnog:465BF@72275,Alteromonadaceae,ribonuclease T
+AMBAS45_06845,Alteromonas macleodii AD45,vesicle,outer membrane protein assembly factor BamE,0.5,eggnog:467KN@72275,Alteromonadaceae,outer membrane protein assembly factor BamE
+AMBAS45_07845,Alteromonas macleodii AD45,vesicle,50S ribosomal protein L20,0.5,eggnog:466ZJ@72275,Alteromonadaceae,50S ribosomal protein L20
+ACZ81_05530,Alteromonas macleodii HOT1A3,vesicle,TonB-dependent receptor,33.1,eggnog:4651V@72275,Alteromonadaceae,TonB-dependent receptor
+ACZ81_13015,Alteromonas macleodii HOT1A3,vesicle,"6,7-dimethyl-8-ribityllumazine synthase",8.5,eggnog:466GG@72275,Alteromonadaceae,"6,7-dimethyl-8-ribityllumazine synthase"
+ACZ81_10350,Alteromonas macleodii HOT1A3,vesicle,bacterioferritin,5.4,eggnog:466EC@72275,Alteromonadaceae,bacterioferritin
+ACZ81_04230,Alteromonas macleodii HOT1A3,vesicle,outer membrane beta-barrel protein,4.2,eggnog:4686N@72275,Alteromonadaceae,outer membrane beta-barrel protein
+ACZ81_02945,Alteromonas macleodii HOT1A3,vesicle,outer membrane channel protein TolC,3.8,eggnog:46448@72275,Alteromonadaceae,outer membrane channel protein TolC
+ACZ81_18370,Alteromonas macleodii HOT1A3,vesicle,OmpA family protein,2.4,eggnog:466H7@72275,Alteromonadaceae,OmpA family protein
+ACZ81_06575,Alteromonas macleodii HOT1A3,vesicle,TonB-dependent receptor,2.1,eggnog:465MG@72275,Alteromonadaceae,TonB-dependent receptor
+ACZ81_11825,Alteromonas macleodii HOT1A3,vesicle,alkaline phosphatase PhoX,1.9,eggnog:4661S@72275,Alteromonadaceae,alkaline phosphatase PhoX
+ACZ81_13870,Alteromonas macleodii HOT1A3,vesicle,XrtA/PEP-CTERM system exopolysaccharide export protein,1.8,eggnog:464WW@72275,Alteromonadaceae,XrtA/PEP-CTERM system exopolysaccharide export protein
+ACZ81_17795,Alteromonas macleodii HOT1A3,vesicle,aminopeptidase PepB,1.4,eggnog:465XH@72275,Alteromonadaceae,aminopeptidase PepB
+ACZ81_05565,Alteromonas macleodii HOT1A3,vesicle,MotA/TolQ/ExbB proton channel family protein,1.2,eggnog:4641Y@72275,Alteromonadaceae,MotA/TolQ/ExbB proton channel family protein
+ACZ81_19615,Alteromonas macleodii HOT1A3,vesicle,ketol-acid reductoisomerase,1.1,eggnog:464ET@72275,Alteromonadaceae,ketol-acid reductoisomerase
+ACZ81_15545,Alteromonas macleodii HOT1A3,vesicle,glutamate--ammonia ligase,0.9,eggnog:464KQ@72275,Alteromonadaceae,glutamate--ammonia ligase
+ACZ81_05560,Alteromonas macleodii HOT1A3,vesicle,DUF3450 domain-containing protein,0.8,eggnog:4643A@72275,Alteromonadaceae,DUF3450 domain-containing protein
+ACZ81_14595,Alteromonas macleodii HOT1A3,vesicle,DUF481 domain-containing protein,0.7,eggnog:465TR@72275,Alteromonadaceae,DUF481 domain-containing protein

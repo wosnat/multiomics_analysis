@@ -1,0 +1,146 @@
+og_group_id,og_product,routes,both_routes,n_strains,strains,n_genes,locus_tags
+eggnog:464A7@72275,50S ribosomal protein L5,secreted;vesicle,True,6,AD45;ATCC27126;BGP6;BS11;EZ55;MIT1002,6,ALTBGP6_03538;AMBAS45_17245;AMBLS11_16405;EZ55_03588;MASE_16875;MIT1002_03599
+eggnog:466EC@72275,bacterioferritin,secreted;vesicle,True,5,AD45;BGP6;EZ55;HOT1A3;MIT1002,5,ACZ81_10350;ALTBGP6_02106;AMBAS45_10205;EZ55_02128;MIT1002_02126
+eggnog:464IZ@72275,50S ribosomal protein L4,secreted;vesicle,True,5,AD45;BGP6;BS11;EZ55;MIT1002,5,ALTBGP6_00362;AMBAS45_01655;AMBLS11_01725;EZ55_00360;MIT1002_00385
+eggnog:467ZY@72275,nucleoid-associated protein HU-beta,secreted;vesicle,True,5,ATCC27126;BGP6;BS11;EZ55;MIT1002,5,ALTBGP6_02726;AMBLS11_12725;EZ55_02730;MASE_12705;MIT1002_02756
+eggnog:46480@72275,ADP-forming succinate--CoA ligase subunit beta,secreted;vesicle,True,5,ATCC27126;BGP6;BS11;EZ55;MIT1002,5,ALTBGP6_01995;AMBLS11_08920;EZ55_02004;MASE_09115;MIT1002_01950
+eggnog:463ZA@72275,malate dehydrogenase,secreted;vesicle,True,5,ATCC27126;BGP6;BS11;EZ55;MIT1002,5,ALTBGP6_03428;AMBLS11_15970;EZ55_03483;MASE_16250;MIT1002_03492
+eggnog:469TE@72275,50S ribosomal protein L10,secreted;vesicle,True,5,AD45;ATCC27126;BS11;EZ55;MIT1002,5,AMBAS45_17945;AMBLS11_17040;EZ55_03727;MASE_17550;MIT1002_03735
+eggnog:465I5@72275,F0F1 ATP synthase subunit beta,secreted;vesicle,True,5,ATCC27126;BGP6;BS11;EZ55;MIT1002,5,ALTBGP6_04051;AMBLS11_18930;EZ55_04111;MASE_19735;MIT1002_04113
+eggnog:467AS@72275,thioredoxin TrxA,secreted;vesicle,True,4,ATCC27126;BGP6;EZ55;MIT1002,4,ALTBGP6_00488;EZ55_00497;MASE_02040;MIT1002_00516
+eggnog:4648W@72275,superoxide dismutase [Fe],secreted;vesicle,True,4,AD45;ATCC27126;BGP6;EZ55,4,ALTBGP6_01232;AMBAS45_05760;EZ55_01223;MASE_05550
+eggnog:466GG@72275,"6,7-dimethyl-8-ribityllumazine synthase",secreted;vesicle,True,4,AD45;BS11;EZ55;HOT1A3,4,ACZ81_13015;AMBAS45_12950;AMBLS11_12180;EZ55_02671
+eggnog:4660B@72275,TIGR04219 family outer membrane beta-barrel protein,secreted;vesicle,True,4,AD45;ATCC27126;BGP6;EZ55,4,ALTBGP6_03344;AMBAS45_16305;EZ55_03396;MASE_15840
+eggnog:4647K@72275,inorganic diphosphatase,secreted;vesicle,True,3,ATCC27126;BGP6;EZ55,3,ALTBGP6_00217;EZ55_00188;MASE_00810
+eggnog:467RN@72275,30S ribosomal protein S17,secreted;vesicle,True,3,ATCC27126;EZ55;MIT1002,3,EZ55_00368;MASE_01445;MIT1002_00393
+eggnog:46978@72275,phasin-related domain-containing protein,secreted;vesicle,True,3,ATCC27126;BS11;EZ55,3,AMBLS11_11670;EZ55_02569;MASE_11930
+eggnog:464TW@72275,30S ribosomal protein S4,secreted;vesicle,True,3,BS11;EZ55;MIT1002,3,AMBLS11_16345;EZ55_03575;MIT1002_03586
+eggnog:46793@72275,peptidoglycan-associated lipoprotein Pal,secreted;vesicle,True,3,AD45;BS11;EZ55,3,AMBAS45_06310;AMBLS11_06155;EZ55_01340
+eggnog:464EJ@72275,50S ribosomal protein L2,secreted;vesicle,True,2,BS11;EZ55,2,AMBLS11_01735;EZ55_00362
+eggnog:467D4@72275,50S ribosomal protein L22,secreted;vesicle,True,2,BGP6;EZ55,2,ALTBGP6_00366;EZ55_00364
+eggnog:467U2@72275,30S ribosomal protein S16,secreted;vesicle,True,2,EZ55;MIT1002,2,EZ55_01303;MIT1002_01308
+eggnog:466X0@72275,50S ribosomal protein L19,secreted;vesicle,True,2,BS11;EZ55,2,AMBLS11_05975;EZ55_01306
+eggnog:466ZJ@72275,50S ribosomal protein L20,secreted;vesicle,True,2,AD45;EZ55,2,AMBAS45_07845;EZ55_01628
+eggnog:466RM@72275,50S ribosomal protein L14,secreted;vesicle,True,2,BS11;EZ55,2,AMBLS11_16415;EZ55_03590
+eggnog:464ZA@72275,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",secreted;vesicle,True,2,ATCC27126;EZ55,2,EZ55_01008;MASE_04425
+eggnog:464JX@72275,ribose-phosphate pyrophosphokinase,secreted;vesicle,True,2,ATCC27126;EZ55,2,EZ55_01534;MASE_06860
+eggnog:4643A@72275,DUF3450 domain-containing protein,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_05560;ALTBGP6_01164;AMBAS45_05415;AMBLS11_05320;MASE_05220;MIT1002_01163
+eggnog:4641Y@72275,MotA/TolQ/ExbB proton channel family protein,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_05565;ALTBGP6_01165;AMBAS45_05420;AMBLS11_05325;MASE_05225;MIT1002_01164
+eggnog:466H7@72275,OmpA family protein,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_18370;ALTBGP6_03739;AMBAS45_18290;AMBLS11_17365;MASE_17875;MIT1002_03802
+eggnog:464KQ@72275,glutamate--ammonia ligase,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_15545;ALTBGP6_03191;AMBAS45_15565;AMBLS11_14840;MASE_15050;MIT1002_03183
+eggnog:46448@72275,outer membrane channel protein TolC,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_02945;ALTBGP6_00605;AMBAS45_02905;AMBLS11_02825;MASE_02630;MIT1002_00670
+eggnog:4661S@72275,alkaline phosphatase PhoX,vesicle,False,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,ACZ81_11825;ALTBGP6_02414;AMBAS45_11875;AMBLS11_11110;MASE_11260;MIT1002_02422
+eggnog:46787@72275,50S ribosomal protein L7/L12,vesicle,False,5,AD45;ATCC27126;BGP6;BS11;MIT1002,5,ALTBGP6_03671;AMBAS45_RS18175;AMBLS11_RS17290;MASE_RS17530;MIT1002_03734
+eggnog:467R5@72275,50S ribosomal protein L28,vesicle,False,5,AD45;ATCC27126;BGP6;BS11;MIT1002,5,ALTBGP6_00055;AMBAS45_00260;AMBLS11_00250;MASE_00255;MIT1002_00054
+eggnog:464WW@72275,XrtA/PEP-CTERM system exopolysaccharide export protein,vesicle,False,5,AD45;ATCC27126;BGP6;BS11;HOT1A3,5,ACZ81_13870;ALTBGP6_02838;AMBAS45_13770;AMBLS11_13190;MASE_13235
+eggnog:4651Q@72275,elongation factor Tu,vesicle,False,4,AD45;BGP6;BS11;MIT1002,4,ALTBGP6_03469;AMBAS45_17000;AMBLS11_16165;MIT1002_03533
+eggnog:46670@72275,30S ribosomal protein S3,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_00367;AMBLS11_01750;MASE_01430;MIT1002_00390
+eggnog:464WS@72275,elongation factor G,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_01537;AMBLS11_06950;MASE_06930;MIT1002_01524
+eggnog:464BU@72275,F0F1 ATP synthase subunit alpha,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_04053;AMBLS11_18940;MASE_19745;MIT1002_04115
+eggnog:46443@72275,30S ribosomal protein S2,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_01006;AMBLS11_04555;MASE_04440;MIT1002_01004
+eggnog:4658G@72275,succinate dehydrogenase iron-sulfur subunit,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_01992;AMBLS11_08905;MASE_09100;MIT1002_01947
+eggnog:4652M@72275,succinate--CoA ligase subunit alpha,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_01996;AMBLS11_08925;MASE_09120;MIT1002_01951
+eggnog:464BF@72275,30S ribosomal protein S1,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_02169;AMBLS11_09875;MASE_10095;MIT1002_02189
+eggnog:467N1@72275,30S ribosomal protein S13,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_03527;AMBLS11_16355;MASE_16820;MIT1002_03588
+eggnog:4647Z@72275,chaperonin GroEL,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_03881;AMBLS11_18040;MASE_18735;MIT1002_03935
+eggnog:467SY@72275,acyl carrier protein,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_01738;AMBLS11_07900;MASE_07915;MIT1002_01734
+eggnog:467T8@72275,30S ribosomal protein S18,vesicle,False,4,ATCC27126;BGP6;BS11;MIT1002,4,ALTBGP6_03754;AMBLS11_17430;MASE_17950;MIT1002_03817
+eggnog:463YH@72275,dihydrolipoyl dehydrogenase,vesicle,False,3,ATCC27126;BGP6;MIT1002,3,ALTBGP6_02992;MASE_14015;MIT1002_03001
+eggnog:464ZZ@72275,phosphopyruvate hydratase,vesicle,False,3,ATCC27126;BGP6;MIT1002,3,ALTBGP6_00955;MASE_04190;MIT1002_00951
+eggnog:464QB@72275,translation elongation factor Ts,vesicle,False,3,ATCC27126;BS11;MIT1002,3,AMBLS11_04560;MASE_04445;MIT1002_01005
+eggnog:464R6@72275,NADP-dependent isocitrate dehydrogenase,vesicle,False,3,ATCC27126;BGP6;MIT1002,3,ALTBGP6_01868;MASE_08500;MIT1002_01830
+eggnog:465QK@72275,SapC family protein,vesicle,False,3,ATCC27126;BGP6;MIT1002,3,ALTBGP6_03038;MASE_14245;MIT1002_03036
+eggnog:4651T@72275,polyribonucleotide nucleotidyltransferase,vesicle,False,3,ATCC27126;BGP6;BS11,3,ALTBGP6_01924;AMBLS11_08635;MASE_08780
+eggnog:4686N@72275,outer membrane beta-barrel protein,vesicle,False,3,AD45;BGP6;HOT1A3,3,ACZ81_04230;ALTBGP6_00891;AMBAS45_04250
+eggnog:4651V@72275,TonB-dependent receptor,vesicle,False,2,HOT1A3;MIT1002,2,ACZ81_05530;MIT1002_01157
+eggnog:46A4N@72275,TonB-dependent receptor,vesicle,False,2,BS11;MIT1002,2,AMBLS11_15985;MIT1002_03495
+eggnog:464DV@72275,pyruvate dehydrogenase complex dihydrolipoyllysine-residue acetyltransferase,vesicle,False,2,BGP6;MIT1002,2,ALTBGP6_02993;MIT1002_03002
+eggnog:464AW@72275,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,vesicle,False,2,BS11;MIT1002,2,AMBLS11_08915;MIT1002_01949
+eggnog:4646I@72275,succinate dehydrogenase flavoprotein subunit,vesicle,False,2,BS11;MIT1002,2,AMBLS11_08900;MIT1002_01946
+eggnog:465BD@72275,glyceraldehyde-3-phosphate dehydrogenase,vesicle,False,2,BGP6;MIT1002,2,ALTBGP6_02386;MIT1002_02394
+eggnog:46403@72275,DNA-directed RNA polymerase subunit beta^,vesicle,False,2,ATCC27126;MIT1002,2,MASE_17535;MIT1002_03732
+eggnog:46CFF@72275,FKBP-type peptidyl-prolyl cis-trans isomerase,vesicle,False,2,ATCC27126;MIT1002,2,MASE_19080;MIT1002_04007
+eggnog:464ZU@72275,TonB-dependent receptor domain-containing protein,vesicle,False,2,ATCC27126;BS11,2,AMBLS11_03230;MASE_03050
+eggnog:464XQ@72275,citrate synthase,vesicle,False,2,ATCC27126;BS11,2,AMBLS11_08885;MASE_09080
+eggnog:465TR@72275,DUF481 domain-containing protein,vesicle,False,2,BS11;HOT1A3,2,ACZ81_14595;AMBLS11_13880
+eggnog:466Z4@72275,nucleoside-diphosphate kinase,vesicle,False,2,ATCC27126;BS11,2,AMBLS11_12880;MASE_12850
+eggnog:466HW@72275,50S ribosomal protein L9,vesicle,False,2,AD45;BS11,2,AMBAS45_18370;AMBLS11_17425
+eggnog:465FE@72275,TonB-dependent receptor,vesicle,False,2,ATCC27126;BGP6,2,ALTBGP6_03431;MASE_16265
+eggnog:464NY@72275,phosphoenolpyruvate synthase,vesicle,False,2,ATCC27126;BGP6,2,ALTBGP6_01854;MASE_08435
+eggnog:467CK@72275,OmpW family outer membrane protein,vesicle,False,2,AD45;BGP6,2,ALTBGP6_00029;AMBAS45_00150
+eggnog:464ET@72275,ketol-acid reductoisomerase,vesicle,False,2,BGP6;HOT1A3,2,ACZ81_19615;ALTBGP6_04008
+eggnog:465XH@72275,aminopeptidase PepB,vesicle,False,2,AD45;HOT1A3,2,ACZ81_17795;AMBAS45_17705
+eggnog:4679E@72275,RidA family protein,secreted,False,1,EZ55,1,EZ55_00132
+eggnog:466US@72275,5-(carboxyamino)imidazole ribonucleotide mutase,secreted,False,1,EZ55,1,EZ55_00502
+eggnog:466DT@72275,Dps family protein,secreted,False,1,EZ55,1,EZ55_00506
+eggnog:464QE@72275,pyridoxine 5^-phosphate synthase,secreted,False,1,EZ55,1,EZ55_00769
+eggnog:468CU@72275,DUF3718 domain-containing protein,secreted,False,1,EZ55,1,EZ55_00935
+eggnog:464QP@72275,6-carboxytetrahydropterin synthase,secreted,False,1,EZ55,1,EZ55_02037
+eggnog:466D7@72275,bacterioferritin,secreted,False,1,EZ55,1,EZ55_02129
+eggnog:4647V@72275,glycosyltransferase family protein,secreted,False,1,EZ55,1,EZ55_02231
+eggnog:465WA@72275,TonB-dependent receptor,secreted,False,1,EZ55,1,EZ55_02282
+eggnog:4657S@72275,glutamine-hydrolyzing GMP synthase,secreted,False,1,EZ55,1,EZ55_02751
+eggnog:4651A@72275,glutathione synthase,secreted,False,1,EZ55,1,EZ55_03078
+eggnog:1N51X@1224,adenosine deaminase,secreted,False,1,EZ55,1,EZ55_03280
+eggnog:465G5@72275,carbon-nitrogen hydrolase,secreted,False,1,EZ55,1,EZ55_03754
+eggnog:465E0@72275,OmpP1/FadL family transporter,secreted,False,1,EZ55,1,EZ55_03886
+eggnog:4666I@72275,M1 family aminopeptidase,secreted,False,1,EZ55,1,EZ55_04077
+eggnog:466UJ@72275,ribonuclease E activity regulator RraA,secreted,False,1,EZ55,1,EZ55_00182
+eggnog:465E3@72275,50S ribosomal protein L3,secreted,False,1,EZ55,1,EZ55_00359
+eggnog:4677X@72275,30S ribosomal protein S19,secreted,False,1,EZ55,1,EZ55_00363
+eggnog:468D6@72275,50S ribosomal protein L29,secreted,False,1,EZ55,1,EZ55_00367
+eggnog:467GE@72275,50S ribosomal protein L21,secreted,False,1,EZ55,1,EZ55_00591
+eggnog:466GF@72275,50S ribosomal protein L13,secreted,False,1,EZ55,1,EZ55_00790
+eggnog:465TQ@72275,adenylyl-sulfate kinase,secreted,False,1,EZ55,1,EZ55_01264
+eggnog:468BN@72275,50S ribosomal protein L32,secreted,False,1,EZ55,1,EZ55_01751
+eggnog:467Y2@72275,ribosome assembly RNA-binding protein YhbY,secreted,False,1,EZ55,1,EZ55_01912
+eggnog:46400@72275,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,secreted,False,1,EZ55,1,EZ55_02733
+eggnog:46CA4@72275,hypothetical protein,secreted,False,1,EZ55,1,EZ55_02884
+eggnog:466UW@72275,50S ribosomal protein L17,secreted,False,1,EZ55,1,EZ55_03573
+eggnog:46724@72275,30S ribosomal protein S8,secreted,False,1,EZ55,1,EZ55_03586
+eggnog:467RK@72275,50S ribosomal protein L24,secreted,False,1,EZ55,1,EZ55_03589
+eggnog:467WJ@72275,RNA chaperone Hfq,secreted,False,1,EZ55,1,EZ55_03781
+eggnog:4690G@72275,50S ribosomal protein L34,secreted,False,1,EZ55,1,EZ55_04131
+eggnog:466NK@72275,c-type cytochrome,secreted,False,1,EZ55,1,EZ55_00033
+eggnog:467X9@72275,YjbF family lipoprotein,secreted,False,1,EZ55,1,EZ55_00076
+eggnog:466H8@72275,50S ribosomal protein L16,secreted,False,1,EZ55,1,EZ55_00366
+eggnog:464ES@72275,DegQ family serine endoprotease,secreted,False,1,EZ55,1,EZ55_00820
+eggnog:465UE@72275,Lcl C-terminal domain-containing protein,secreted,False,1,EZ55,1,EZ55_00941
+eggnog:466WK@72275,3-hydroxyacyl-ACP dehydratase FabZ,secreted,False,1,EZ55,1,EZ55_01022
+eggnog:465GZ@72275,alanine--tRNA ligase,secreted,False,1,EZ55,1,EZ55_01117
+eggnog:46761@72275,DNA starvation/stationary phase protection protein Dps,secreted,False,1,EZ55,1,EZ55_01465
+eggnog:466EP@72275,cyanase,secreted,False,1,EZ55,1,EZ55_01550
+eggnog:46892@72275,SIMPL domain-containing protein,secreted,False,1,EZ55,1,EZ55_02083
+eggnog:465EY@72275,lactoylglutathione lyase family protein,secreted,False,1,EZ55,1,EZ55_03442
+eggnog:468BZ@72275,50S ribosomal protein L30,secreted,False,1,EZ55,1,EZ55_03582
+eggnog:4671T@72275,type II 3-dehydroquinate dehydratase,secreted,False,1,EZ55,1,EZ55_03944
+eggnog:1PGTX@1224,esterase-like activity of phytase family protein,vesicle,False,1,MIT1002,1,MIT1002_00601
+eggnog:465NN@72275,acetaldehyde dehydrogenase ExaC,vesicle,False,1,MIT1002,1,MIT1002_03321
+eggnog:464XG@72275,"cytochrome-c oxidase, cbb3-type subunit II",vesicle,False,1,MIT1002,1,MIT1002_02130
+eggnog:464YM@72275,Na(+)-translocating NADH-quinone reductase subunit A,vesicle,False,1,MIT1002,1,MIT1002_03488
+eggnog:464BH@72275,phosphoglycerate dehydrogenase,vesicle,False,1,MIT1002,1,MIT1002_02993
+eggnog:464WN@72275,FMN-dependent L-lactate dehydrogenase LldD,vesicle,False,1,MIT1002,1,MIT1002_03330
+eggnog:467UW@72275,30S ribosomal protein S14,vesicle,False,1,MIT1002,1,MIT1002_03598
+eggnog:4659E@72275,isocitrate lyase,vesicle,False,1,BS11,1,AMBLS11_13055
+eggnog:467SV@72275,DUF3192 domain-containing protein,vesicle,False,1,BS11,1,AMBLS11_04495
+eggnog:466SE@72275,30S ribosomal protein S9,vesicle,False,1,BS11,1,AMBLS11_03520
+eggnog:4654M@72275,DcaP family trimeric outer membrane transporter,vesicle,False,1,BS11,1,AMBLS11_16095
+eggnog:464CH@72275,adenylosuccinate synthase,vesicle,False,1,BS11,1,AMBLS11_02400
+eggnog:46522@72275,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,vesicle,False,1,BS11,1,AMBLS11_03655
+eggnog:464J9@72275,tetratricopeptide repeat protein,vesicle,False,1,BS11,1,AMBLS11_05345
+eggnog:4641P@72275,acetate--CoA ligase,vesicle,False,1,BS11,1,AMBLS11_16090
+eggnog:464HA@72275,DNA-directed RNA polymerase subunit alpha,vesicle,False,1,BS11,1,AMBLS11_16340
+eggnog:466YC@72275,F0F1 ATP synthase subunit B,vesicle,False,1,BS11,1,AMBLS11_18950
+eggnog:4650D@72275,UTP--glucose-1-phosphate uridylyltransferase GalU,vesicle,False,1,BS11,1,AMBLS11_04445
+eggnog:464RY@72275,30S ribosomal protein S5,vesicle,False,1,BS11,1,AMBLS11_16380
+eggnog:467EW@72275,CsgG/HfaB family protein,vesicle,False,1,BS11,1,AMBLS11_17500
+eggnog:464FC@72275,flagellin N-terminal helical domain-containing protein,vesicle,False,1,ATCC27126,1,MASE_04710
+eggnog:46577@72275,adenylate kinase,vesicle,False,1,ATCC27126,1,MASE_12175
+eggnog:464FW@72275,nucleotide sugar dehydrogenase,vesicle,False,1,ATCC27126,1,MASE_16540
+eggnog:464ZY@72275,TonB-dependent receptor plug domain-containing protein,vesicle,False,1,AD45,1,AMBAS45_05770
+eggnog:464XP@72275,outer membrane protein assembly factor BamA,vesicle,False,1,AD45,1,AMBAS45_04745
+eggnog:4653J@72275,thiol:disulfide interchange protein DsbA/DsbL,vesicle,False,1,AD45,1,AMBAS45_03105
+eggnog:4643J@72275,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB,vesicle,False,1,AD45,1,AMBAS45_07090
+eggnog:465BF@72275,ribonuclease T,vesicle,False,1,AD45,1,AMBAS45_05800
+eggnog:467KN@72275,outer membrane protein assembly factor BamE,vesicle,False,1,AD45,1,AMBAS45_06845
+eggnog:465MG@72275,TonB-dependent receptor,vesicle,False,1,HOT1A3,1,ACZ81_06575

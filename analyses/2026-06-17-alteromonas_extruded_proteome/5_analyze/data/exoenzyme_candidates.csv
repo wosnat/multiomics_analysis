@@ -1,0 +1,10 @@
+locus_tag,strain_short,route,product,substrates,tier,func_evidence,export_evidence,og_group_id,og_product
+MIT1002_02422,MIT1002,vesicle,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+AMBLS11_11110,BS11,vesicle,DUF839 domain-containing protein,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+MASE_11260,ATCC27126,vesicle,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+ALTBGP6_02414,BGP6,vesicle,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+AMBAS45_11875,AD45,vesicle,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+ACZ81_11825,HOT1A3,vesicle,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,Pfam Alkaline phosphatase PhoX,signal:Lipoprotein signal peptide (Sec/SPII),eggnog:4661S@72275,alkaline phosphatase PhoX
+EZ55_04077,EZ55,secreted,M1 family aminopeptidase,protein/peptide,A: degradative + exported,GO-MF metallopeptidase activity,signal:Signal peptide (Sec/SPI),eggnog:4666I@72275,M1 family aminopeptidase
+EZ55_00820,EZ55,secreted,DegQ family serine endoprotease,protein/peptide,A: degradative + exported,EC 3.4.21.107 (peptidase Do),loc:Periplasmic;signal:Signal peptide (Sec/SPI),eggnog:464ES@72275,DegQ family serine endoprotease
+ALTBGP6_03431,BGP6,vesicle,TonB-dependent receptor,protein/peptide,A: degradative + exported,GO-MF carboxypeptidase activity,loc:Outer membrane;signal:Signal peptide (Sec/SPI),eggnog:465FE@72275,TonB-dependent receptor

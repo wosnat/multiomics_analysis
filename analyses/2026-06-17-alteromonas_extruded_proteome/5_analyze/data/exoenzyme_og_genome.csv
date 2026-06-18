@@ -1,0 +1,388 @@
+og_group_id,og_product,substrate,best_tier,n_strains,strains,n_genes,captured_in_extruded
+eggnog:46473@72275,apolipoprotein N-acyltransferase,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4647N@72275,N-acetylmuramoyl-L-alanine amidase,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464GK@72275,serine hydrolase domain-containing protein,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464KP@72275,amidohydrolase,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464PP@72275,acylase,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464U8@72275,penicillin acylase family protein,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4659M@72275,5-oxoprolinase subunit PxpA,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465B7@72275,isoaspartyl peptidase/L-asparaginase family protein,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465U7@72275,adenosine deaminase family protein,amide/C-N,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467BC@72275,CinA family protein,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467MY@72275,cytidine deaminase,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468PJ@72275,hydroxyisourate hydrolase,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46BUP@72275,N-acetylmuramoyl-L-alanine amidase,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:COG3098@2,YqcC family protein,amide/C-N,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1MUAA@1224,succinylglutamate desuccinylase/aspartoacylase family protein,amide/C-N,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:4653Y@72275,amidohydrolase family protein,amide/C-N,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465YH@72275,exo-beta-N-acetylmuramidase NamZ family protein,amide/C-N,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:467DT@72275,chemoreceptor glutamine deamidase CheD,amide/C-N,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3,7,False
+eggnog:466Y0@72275,glucosaminidase domain-containing protein,amide/C-N,"B: degradative, export uncertain",5,ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,5,False
+eggnog:4660U@72275,amidase,amide/C-N,"B: degradative, export uncertain",4,ATCC27126;BGP6;EZ55;HOT1A3,4,False
+eggnog:468WK@72275,MBL fold metallo-hydrolase,amide/C-N,A: degradative + exported,3,AD45;EZ55;HOT1A3,3,False
+eggnog:466VA@72275,flagellar assembly peptidoglycan hydrolase FlgJ,amide/C-N,A: degradative + exported,2,BGP6;EZ55,2,False
+eggnog:1MVWU@1224,metal-dependent cyclase,amide/C-N,A: degradative + exported,1,BGP6,1,False
+eggnog:1MWP2@1224,amidohydrolase,amide/C-N,A: degradative + exported,1,ATCC27126,1,False
+eggnog:1RD3U@1224,glucosaminidase domain-containing protein,amide/C-N,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:465AG@72275,amidase,amide/C-N,A: degradative + exported,1,BS11,1,False
+eggnog:465DK@72275,N-acetylglucosamine-6-phosphate deacetylase,amide/C-N,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:466SW@72275,type 1 glutamine amidotransferase domain-containing protein,amide/C-N,A: degradative + exported,1,AD45,1,False
+eggnog:469VA@72275,N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase,amide/C-N,A: degradative + exported,1,AD45,1,False
+eggnog:COG2247@2,VCBS repeat-containing protein,amide/C-N,A: degradative + exported,1,ATCC27126,2,False
+eggnog:1NQYT@1224,5^-methylthioadenosine/S-adenosylhomocysteine nucleosidase,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:463ZT@72275,glycoside hydrolase family 16 protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4642X@72275,sugar phosphorylase,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4644J@72275,glycoside hydrolase family 28 protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,13,False
+eggnog:46462@72275,UDP-forming cellulose synthase catalytic subunit,carbohydrate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:464NU@72275,lytic murein transglycosylase,carbohydrate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4654R@72275,beta-galactosidase,carbohydrate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4657M@72275,transglycosylase SLT domain-containing protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465BV@72275,glycoside hydrolase family 3 protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,11,False
+eggnog:465FT@72275,lytic murein transglycosylase,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465UA@72275,TIM-barrel domain-containing protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465VT@72275,pectinesterase family protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4660R@72275,glycoside hydrolase family 88/105 protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46654@72275,alpha-amylase family protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466DD@72275,DNA-3-methyladenine glycosylase I,carbohydrate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467S6@72275,isoamylase early set domain-containing protein,carbohydrate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:469J1@72275,5^-methylthioadenosine/S-adenosylhomocysteine nucleosidase family protein,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46CUC@72275,glycosyl hydrolase family 8,carbohydrate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46534@72275,amylosucrase,carbohydrate,A: degradative + exported,6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,False
+eggnog:465CR@72275,pectinesterase family protein,carbohydrate,A: degradative + exported,6,ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465G4@72275,glycoside hydrolase family 3 N-terminal domain-containing protein,carbohydrate,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465K7@72275,family 20 glycosylhydrolase,carbohydrate,A: degradative + exported,6,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3,6,False
+eggnog:465TX@72275,glycoside hydrolase family 97 protein,carbohydrate,A: degradative + exported,6,ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:4679Q@72275,glycoside hydrolase family 31 protein,carbohydrate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:467Z0@72275,H-type lectin domain-containing protein,carbohydrate,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:468F2@72275,pectin acetylesterase-family hydrolase,carbohydrate,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1RE0A@1224,DNA-3-methyladenine glycosylase,carbohydrate,"B: degradative, export uncertain",5,ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:464G5@72275,glycosyl hydrolase 115 family protein,carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,4,False
+eggnog:464NJ@72275,"endo-1,4-beta-xylanase",carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,4,False
+eggnog:465P4@72275,alpha-N-arabinofuranosidase,carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,5,False
+eggnog:465R4@72275,glycoside hydrolase family 9 protein,carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,4,False
+eggnog:4665C@72275,sialate O-acetylesterase,carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,4,False
+eggnog:469U6@72275,glycoside hydrolase family 11 protein,carbohydrate,A: degradative + exported,4,ATCC27126;BGP6;BS11;EZ55,4,False
+eggnog:1MZDA@1224,GDP-mannose mannosyl hydrolase,carbohydrate,"B: degradative, export uncertain",2,ATCC27126;HOT1A3,2,False
+eggnog:1P1W9@1224,uracil-DNA glycosylase family protein,carbohydrate,"B: degradative, export uncertain",2,AD45;BGP6,2,False
+eggnog:464XA@72275,DNA-3-methyladenine glycosylase 2 family protein,carbohydrate,"B: degradative, export uncertain",2,BGP6;EZ55,2,False
+eggnog:467J0@72275,sucrose phosphorylase,carbohydrate,A: degradative + exported,2,BS11;MIT1002,2,False
+eggnog:46CP9@72275,alpha-amylase family glycosyl hydrolase,carbohydrate,A: degradative + exported,2,BGP6;EZ55,2,False
+eggnog:COG3209@2,RHS repeat-associated core domain-containing protein,carbohydrate,A: degradative + exported,2,ATCC27126;HOT1A3,2,False
+eggnog:1MW6P@1224,endo-beta-N-acetylglucosaminidase,carbohydrate,A: degradative + exported,1,AD45,1,False
+eggnog:1MW8T@1224,TIGR03915 family putative DNA repair protein,carbohydrate,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:1MXCY@1224,GH92 family glycosyl hydrolase,carbohydrate,A: degradative + exported,1,AD45,3,False
+eggnog:1N86N@1224,GH92 family glycosyl hydrolase,carbohydrate,A: degradative + exported,1,AD45,1,False
+eggnog:1RGQH@1224,hypothetical protein,carbohydrate,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:464CN@72275,glycogen debranching protein GlgX,carbohydrate,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:465DG@72275,alpha-amylase family glycosyl hydrolase,carbohydrate,A: degradative + exported,1,BS11,1,False
+eggnog:465PT@72275,glycoside hydrolase family 2,carbohydrate,A: degradative + exported,1,BS11,1,False
+eggnog:465S2@72275,glucoamylase family protein,carbohydrate,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:469DT@72275,hypothetical protein,carbohydrate,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:469Q3@72275,ADP-ribosylglycohydrolase family protein,carbohydrate,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:COG3291@2,beta strand repeat-containing protein,carbohydrate,A: degradative + exported,1,EZ55,1,False
+eggnog:COG3866@2,pectate lyase family protein,carbohydrate,A: degradative + exported,1,BS11,1,False
+eggnog:46528@72275,S-formylglutathione hydrolase,carbohydrate (ester),A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4645G@72275,acyl-CoA thioesterase,ester (other),"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464EY@72275,alkaline phosphatase D family protein,ester (other),A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464KU@72275,endonuclease/exonuclease/phosphatase family protein,ester (other),A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464UC@72275,endonuclease/exonuclease/phosphatase family protein,ester (other),"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465MK@72275,S1/P1 nuclease,ester (other),A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46684@72275,bifunctional metallophosphatase/5^-nucleotidase,ester (other),A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,9,False
+eggnog:467ME@72275,acyl-CoA thioesterase,ester (other),"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467PD@72275,acyl-CoA thioesterase,ester (other),"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467DG@72275,SGNH/GDSL hydrolase family protein,ester (other),"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:467EI@72275,acyl-CoA thioesterase,ester (other),"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465X6@72275,MBL fold metallo-hydrolase,ester (other),"B: degradative, export uncertain",4,BGP6;BS11;EZ55;HOT1A3,4,False
+eggnog:466XF@72275,purple acid phosphatase family protein,ester (other),A: degradative + exported,3,AD45;EZ55;HOT1A3,3,False
+eggnog:1N4JP@1224,HNH endonuclease,ester (other),"B: degradative, export uncertain",2,AD45;MIT1002,2,False
+eggnog:1RAEQ@1224,acyl-CoA thioesterase,ester (other),"B: degradative, export uncertain",2,ATCC27126;BGP6,2,False
+eggnog:1MW3G@1224,GSCFA domain-containing protein,ester (other),"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:1NE62@1224,HNH endonuclease signature motif containing protein,ester (other),"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1QTZN@1224,endonuclease/exonuclease/phosphatase family protein,ester (other),"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:4653B@72275,ribonuclease J,ester (other),"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:4661P@72275,tyrosine-type recombinase/integrase,ester (other),"B: degradative, export uncertain",1,AD45,1,False
+eggnog:4675W@72275,amidohydrolase family protein,ester (other),"B: degradative, export uncertain",1,ATCC27126,1,False
+eggnog:1R0KJ@1224,alpha/beta hydrolase-fold protein,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1RB1X@1224,alpha/beta hydrolase-fold protein,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:463Y8@72275,VTT domain-containing protein,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:463Z4@72275,rhamnogalacturonan acetylesterase,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4641H@72275,patatin-like phospholipase family protein,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464FA@72275,VolA/Pla-1 family phospholipase,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464M0@72275,patatin-like phospholipase family protein,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,13,False
+eggnog:464M1@72275,alpha/beta hydrolase,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464XJ@72275,6-phosphogluconolactonase,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464YV@72275,patatin-like phospholipase family protein,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:465IR@72275,alpha/beta fold hydrolase,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466ZZ@72275,arylesterase,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4672V@72275,phospholipase A,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4678H@72275,alternative ribosome rescue aminoacyl-tRNA hydrolase ArfB,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467IU@72275,D-aminoacyl-tRNA deacylase,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46A81@72275,esterase/lipase family protein,lipid/ester,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46D68@72275,response regulator,lipid/ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464WQ@72275,dienelactone hydrolase family protein,lipid/ester,A: degradative + exported,4,AD45;BGP6;EZ55;HOT1A3,4,False
+eggnog:467Z3@72275,acyloxyacyl hydrolase,lipid/ester,A: degradative + exported,4,AD45;ATCC27126;EZ55;HOT1A3,4,False
+eggnog:1QJMD@1224,esterase/lipase family protein,lipid/ester,A: degradative + exported,3,ATCC27126;BGP6;EZ55,3,False
+eggnog:467Z2@72275,alpha/beta hydrolase,lipid/ester,A: degradative + exported,3,EZ55;HOT1A3;MIT1002,3,False
+eggnog:1MUCD@1224,alpha/beta hydrolase,lipid/ester,"B: degradative, export uncertain",2,ATCC27126;EZ55,2,False
+eggnog:COG2819@2,alpha/beta hydrolase,lipid/ester,A: degradative + exported,2,ATCC27126;BGP6,2,False
+eggnog:1NRMA@1224,rhamnogalacturonan acetylesterase,lipid/ester,A: degradative + exported,1,MIT1002,1,False
+eggnog:1Q82E@1224,hypothetical protein,lipid/ester,A: degradative + exported,1,EZ55,1,False
+eggnog:1R49D@1224,serine hydrolase domain-containing protein,lipid/ester,A: degradative + exported,1,BS11,1,False
+eggnog:1R852@1224,CBASS cGAMP-activated phospholipase,lipid/ester,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:32VSR@2,lipase family protein,lipid/ester,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:4669M@72275,patatin-like phospholipase family protein,lipid/ester,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:4687P@72275,alpha/beta hydrolase fold domain-containing protein,lipid/ester,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:468T4@72275,alpha/beta hydrolase,lipid/ester,A: degradative + exported,1,EZ55,1,False
+eggnog:46DIJ@72275,SGNH/GDSL hydrolase family protein,lipid/ester,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:COG3386@2,SMP-30/gluconolactonase/LRE family protein,lipid/ester,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:464IE@72275,glycerophosphodiester phosphodiesterase,nucleic acid,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46500@72275,ExeM/NucH family extracellular endonuclease,nucleic acid,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,14,False
+eggnog:466G2@72275,HNH endonuclease,nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4676A@72275,ribonuclease HI,nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:467Q0@72275,3^-5^ exonuclease,nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4684U@72275,"RNA 2^,3^-cyclic phosphodiesterase",nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468BF@72275,YraN family protein,nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46CMU@72275,endonuclease,nucleic acid,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46DJV@72275,hypothetical protein,nucleic acid,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1R7CE@1224,bifunctional diguanylate cyclase/phosphodiesterase,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465I9@72275,bifunctional diguanylate cyclase/phosphodiesterase,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:4664E@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:466HU@72275,EAL domain-containing protein,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:466IR@72275,EAL domain-containing protein,nucleic acid,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,12,False
+eggnog:466XA@72275,LabA-like NYN domain-containing protein,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:468AM@72275,ribonuclease P protein component,nucleic acid,"B: degradative, export uncertain",6,ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46947@72275,GIY-YIG nuclease family protein,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46D4G@72275,bifunctional diguanylate cyclase/phosphodiesterase,nucleic acid,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:463ZV@72275,sensor domain-containing phosphodiesterase,nucleic acid,"B: degradative, export uncertain",5,AD45;ATCC27126;BGP6;EZ55;HOT1A3,5,False
+eggnog:464FM@72275,sensor domain-containing phosphodiesterase,nucleic acid,"B: degradative, export uncertain",5,AD45;BGP6;EZ55;HOT1A3;MIT1002,5,False
+eggnog:464N1@72275,AAA family ATPase,nucleic acid,"B: degradative, export uncertain",5,AD45;ATCC27126;BS11;EZ55;HOT1A3,6,False
+eggnog:466J8@72275,diguanylate phosphodiesterase,nucleic acid,"B: degradative, export uncertain",5,AD45;ATCC27126;BGP6;EZ55;MIT1002,6,False
+eggnog:469HC@72275,DNA/RNA non-specific endonuclease,nucleic acid,A: degradative + exported,5,AD45;ATCC27126;BGP6;EZ55;HOT1A3,5,False
+eggnog:46AJR@72275,bifunctional diguanylate cyclase/phosphodiesterase,nucleic acid,"B: degradative, export uncertain",5,AD45;ATCC27126;BGP6;EZ55;HOT1A3,5,False
+eggnog:465J1@72275,class I SAM-dependent methyltransferase,nucleic acid,"B: degradative, export uncertain",4,ATCC27126;EZ55;HOT1A3;MIT1002,5,False
+eggnog:46BNM@72275,RNase H1/viroplasmin domain-containing protein,nucleic acid,"B: degradative, export uncertain",3,EZ55;HOT1A3;MIT1002,3,False
+eggnog:1N7PN@1224,type II toxin-antitoxin system RelE/ParE family toxin,nucleic acid,"B: degradative, export uncertain",2,AD45;MIT1002,2,False
+eggnog:464FV@72275,ribonuclease E,nucleic acid,"B: degradative, export uncertain",2,BGP6;EZ55,2,False
+eggnog:46600@72275,NYN domain-containing protein,nucleic acid,"B: degradative, export uncertain",2,EZ55;HOT1A3,2,False
+eggnog:4666S@72275,DUF2034 domain-containing protein,nucleic acid,"B: degradative, export uncertain",2,EZ55;HOT1A3,2,False
+eggnog:46B2S@72275,class I SAM-dependent methyltransferase,nucleic acid,"B: degradative, export uncertain",2,AD45;BS11,2,False
+eggnog:1MU96@1224,type I restriction endonuclease subunit R,nucleic acid,"B: degradative, export uncertain",1,EZ55,2,False
+eggnog:1MVI1@1224,group II intron reverse transcriptase/maturase,nucleic acid,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:1MVJB@1224,phage terminase large subunit,nucleic acid,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:1MZ3N@1224,type II toxin-antitoxin system RelE/ParE family toxin,nucleic acid,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:1N1T4@1224,"putative toxin-antitoxin system toxin component, PIN family",nucleic acid,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:1N4VH@1224,MvaI/BcnI family restriction endonuclease,nucleic acid,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:1N99F@1224,TnsA endonuclease N-terminal domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:1NFDW@1224,restriction endonuclease subunit S,nucleic acid,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1NGTF@1224,PDDEXK-like family protein,nucleic acid,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:1R5E5@1224,SEC-C metal-binding domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:1R7R9@1224,GIY-YIG nuclease family protein,nucleic acid,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1RCZ1@1224,ribonuclease HI,nucleic acid,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:1RH1C@1224,very short patch repair endonuclease,nucleic acid,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:465Y9@72275,DUF2357 domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:467PT@72275,type II toxin-antitoxin system VapC family toxin,nucleic acid,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:468HU@72275,ankyrin repeat domain-containing protein,nucleic acid,A: degradative + exported,1,BGP6,1,False
+eggnog:468PZ@72275,very short patch repair endonuclease,nucleic acid,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:46BHY@72275,BrnT family toxin,nucleic acid,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:46C7D@72275,type II toxin-antitoxin system RelE family toxin,nucleic acid,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:COG0210@2,DNA-dependent ATPase I and helicase II,nucleic acid,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:COG1479@2,DUF262 domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:COG1715@2,restriction endonuclease,nucleic acid,"B: degradative, export uncertain",1,ATCC27126,1,False
+eggnog:COG2200@2,EAL domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:COG4223@2,S-layer homology domain-containing protein,nucleic acid,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:1QUAD@1224,ATP-binding protein,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1RGHM@1224,chemotaxis protein CheX,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:463Z6@72275,class 1 fructose-bisphosphatase,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:463ZJ@72275,diacylglycerol kinase family protein,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4640Q@72275,two-component system sensor histidine kinase EnvZ,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46416@72275,nitrogen regulation protein NR(II),organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46460@72275,alkaline phosphatase,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4653U@72275,ATP-binding protein,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46571@72275,phytase,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465CF@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465EB@72275,phosphate regulon sensor histidine kinase PhoR,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4661S@72275,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,True
+eggnog:466B3@72275,alkaline phosphatase PhoX,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46708@72275,alkaline phosphatase family protein,organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467H1@72275,phosphatidylglycerophosphatase A family protein,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467RB@72275,phosphohistidine phosphatase SixA,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467SN@72275,metalloregulator ArsR/SmtB family transcription factor,organic phosphate,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46APK@72275,"5^-nucleotidase, lipoprotein e(P4) family",organic phosphate,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1N8WK@1224,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:1RHB0@1224,phosphatase PAP2 family protein,organic phosphate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465KN@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46901@72275,protein-tyrosine phosphatase family protein,organic phosphate,A: degradative + exported,6,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3,6,False
+eggnog:46A6Q@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46A9Z@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:464NF@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",5,ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,5,False
+eggnog:4655H@72275,PAS domain S-box protein,organic phosphate,"B: degradative, export uncertain",5,AD45;ATCC27126;BGP6;BS11;EZ55,6,False
+eggnog:COG0546@2,HAD family hydrolase,organic phosphate,"B: degradative, export uncertain",5,AD45;ATCC27126;BGP6;EZ55;HOT1A3,6,False
+eggnog:COG5083@2,LNS2 domain-containing protein,organic phosphate,A: degradative + exported,4,AD45;BGP6;EZ55;MIT1002,4,False
+eggnog:4643S@72275,putative bifunctional diguanylate cyclase/phosphodiesterase,organic phosphate,"B: degradative, export uncertain",3,AD45;ATCC27126;HOT1A3,3,False
+eggnog:464NH@72275,protein kinase domain-containing protein,organic phosphate,A: degradative + exported,3,ATCC27126;BS11;MIT1002,3,False
+eggnog:467PS@72275,inosine/xanthosine triphosphatase,organic phosphate,"B: degradative, export uncertain",3,AD45;ATCC27126;BS11,3,False
+eggnog:COG0671@2,phosphatase PAP2 family protein,organic phosphate,"B: degradative, export uncertain",2,AD45;MIT1002,2,False
+eggnog:1N106@1224,serine/threonine protein phosphatase,organic phosphate,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1N5MC@1224,NAD(P)/FAD-dependent oxidoreductase,organic phosphate,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:1R95G@1224,endonuclease/exonuclease/phosphatase family protein,organic phosphate,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1RI8I@1224,PP2C family serine/threonine-protein phosphatase,organic phosphate,"B: degradative, export uncertain",1,HOT1A3,1,False
+eggnog:464H4@72275,bifunctional protein tyrosine phosphatase family protein/NAD(P)/FAD-dependent oxidoreductase,organic phosphate,A: degradative + exported,1,AD45,1,False
+eggnog:46707@72275,EAL domain-containing protein,organic phosphate,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:46AW5@72275,phosphoglycerate mutase family protein,organic phosphate,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:46CED@72275,GGDEF domain-containing protein,organic phosphate,A: degradative + exported,1,BGP6,1,False
+eggnog:1MV6S@1224,C1 family peptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1RBII@1224,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:463ZC@72275,rhomboid family intramembrane serine protease GlpG,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4640S@72275,OapA family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46410@72275,penicillin-binding protein 1B,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46415@72275,signal peptide peptidase SppA,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4641E@72275,insulinase family protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46453@72275,sigma E protease regulator RseP,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4645J@72275,trypsin-like peptidase domain-containing protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46468@72275,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4646K@72275,carboxy terminal-processing peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4646M@72275,D-alanyl-D-alanine carboxypeptidase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464B8@72275,signal peptidase I,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464BP@72275,M3 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464DA@72275,M13 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464ES@72275,DegQ family serine endoprotease,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,True
+eggnog:464GW@72275,M61 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464H8@72275,FtsH protease activity modulator HflK,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464I6@72275,peptidase domain-containing ABC transporter,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464IJ@72275,S9 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464J7@72275,gamma-glutamyltransferase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,14,False
+eggnog:464KX@72275,penicillin-binding protein 2,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464MC@72275,M28 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464MR@72275,M16 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464N3@72275,protease SohB,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464N6@72275,prepilin peptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464PM@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464T9@72275,ATP-dependent zinc metalloprotease FtsH,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464W2@72275,M1 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464YA@72275,S9 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464YC@72275,penicillin-binding protein 1A,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:464ZW@72275,S9 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4650A@72275,peptidoglycan glycosyltransferase FtsI,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4653N@72275,M28 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4656G@72275,PA2778 family cysteine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:46595@72275,dipeptidyl-peptidase 3 family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465BJ@72275,amidohydrolase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465F6@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465FN@72275,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465IE@72275,M1 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465JS@72275,protease modulator HflC,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465N6@72275,alpha/beta hydrolase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:465PD@72275,S46 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465QW@72275,M14 family zinc carboxypeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465S8@72275,M28 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465SN@72275,S9 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,14,False
+eggnog:465U0@72275,M56 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465UB@72275,M2 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465VU@72275,murein hydrolase activator EnvC family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465WS@72275,gamma-glutamyltransferase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465X9@72275,M20/M25/M40 family metallo-hydrolase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465XB@72275,S41 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465XU@72275,beta-barrel assembly-enhancing protease,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465Y3@72275,M23 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:465Y7@72275,dipeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46621@72275,prolyl oligopeptidase family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46641@72275,M48 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46656@72275,gamma-glutamyltransferase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4666I@72275,M1 family aminopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,True
+eggnog:46676@72275,marine proteobacterial sortase target protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4667R@72275,M13 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46694@72275,M24 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466A7@72275,serine hydrolase domain-containing protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466FY@72275,M23 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466TP@72275,peptidoglycan DD-metalloendopeptidase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466WH@72275,signal peptidase I,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466XQ@72275,S1 family peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466ZC@72275,alpha/beta hydrolase family protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:466ZN@72275,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4674J@72275,retropepsin-like aspartic protease family protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4679R@72275,M15 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467DU@72275,rhombosortase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467DX@72275,signal peptidase II,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467J8@72275,M23 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467M8@72275,retropepsin-like aspartic protease family protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467X1@72275,rhomboid family intramembrane serine protease,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:467ZM@72275,class GN sortase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468B3@72275,alpha/beta hydrolase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468JP@72275,M24 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468TS@72275,PepSY domain-containing protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:468YY@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,14,False
+eggnog:468ZD@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:4695J@72275,PepSY domain-containing protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46A1V@72275,M16 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46A34@72275,M28 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46A42@72275,alpha/beta fold hydrolase,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46ABX@72275,M16 family metallopeptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46ACR@72275,energy transducer TonB,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46AGT@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46B4A@72275,insulinase family protein,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46B7K@72275,retropepsin-like aspartic protease,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46CTI@72275,SOS response-associated peptidase family protein,protein/peptide,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46D60@72275,extracellular catalytic domain type 2 short-chain-length polyhydroxyalkanoate depolymerase,protein/peptide,A: degradative + exported,7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:1R7I0@1224,S41 family peptidase,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:1REVH@1224,leishmanolysin-related zinc metalloendopeptidase,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:463YZ@72275,leucyl aminopeptidase,protein/peptide,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;BS11;HOT1A3;MIT1002,6,False
+eggnog:46492@72275,M14 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",6,AD45;ATCC27126;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:4659X@72275,TraB/GumN family protein,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465TF@72275,exosortase A,protein/peptide,"B: degradative, export uncertain",6,AD45;BGP6;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:465VV@72275,S10 family peptidase,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46AEC@72275,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46APX@72275,CPBP family intramembrane glutamic endopeptidase,protein/peptide,"B: degradative, export uncertain",6,AD45;BGP6;BS11;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46AQ3@72275,D-Ala-D-Ala carboxypeptidase family metallohydrolase,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3,6,False
+eggnog:46DB3@72275,zinc-dependent metalloprotease,protein/peptide,A: degradative + exported,6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:1R23V@1224,aspartyl protease family protein,protein/peptide,A: degradative + exported,5,AD45;ATCC27126;BGP6;BS11;EZ55,5,False
+eggnog:1R8MB@1224,S41 family peptidase,protein/peptide,A: degradative + exported,5,AD45;ATCC27126;EZ55;HOT1A3;MIT1002,6,False
+eggnog:46618@72275,Xaa-Pro dipeptidase,protein/peptide,A: degradative + exported,5,ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,5,False
+eggnog:4668G@72275,"L,D-transpeptidase family protein",protein/peptide,A: degradative + exported,5,ATCC27126;BGP6;BS11;EZ55;HOT1A3,5,False
+eggnog:1MU1K@1224,M3 family metallopeptidase,protein/peptide,A: degradative + exported,4,AD45;ATCC27126;BGP6;EZ55,4,False
+eggnog:1MW20@1224,M20/M25/M40 family metallo-hydrolase,protein/peptide,A: degradative + exported,4,ATCC27126;BGP6;EZ55;HOT1A3,4,False
+eggnog:1R9AH@1224,pepsin-like aspartic protease,protein/peptide,"B: degradative, export uncertain",4,AD45;BS11;EZ55;HOT1A3,4,False
+eggnog:464D0@72275,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,4,AD45;ATCC27126;BGP6;BS11,5,False
+eggnog:468FP@72275,HyaD/HybD family hydrogenase maturation endopeptidase,protein/peptide,"B: degradative, export uncertain",4,BGP6;EZ55;HOT1A3;MIT1002,4,False
+eggnog:468RG@72275,CocE/NonD family hydrolase,protein/peptide,A: degradative + exported,4,AD45;ATCC27126;BGP6;EZ55,4,False
+eggnog:46B8Y@72275,M56 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",4,BGP6;EZ55;HOT1A3;MIT1002,4,False
+eggnog:465FE@72275,TonB-dependent receptor,protein/peptide,A: degradative + exported,3,BGP6;EZ55;HOT1A3,3,True
+eggnog:468JH@72275,zinc-dependent metalloprotease family protein,protein/peptide,A: degradative + exported,3,ATCC27126;BGP6;BS11,3,False
+eggnog:46A7W@72275,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,3,AD45;BS11;MIT1002,3,False
+eggnog:COG1404@2,S8 family serine peptidase,protein/peptide,A: degradative + exported,3,ATCC27126;BGP6;HOT1A3,3,False
+eggnog:COG2931@2,Hint domain-containing protein,protein/peptide,A: degradative + exported,3,ATCC27126;BGP6;HOT1A3,3,False
+eggnog:COG3227@2,M36 family metallopeptidase,protein/peptide,A: degradative + exported,3,ATCC27126;BGP6;EZ55,4,False
+eggnog:1MW57@1224,S8 family serine peptidase,protein/peptide,A: degradative + exported,2,ATCC27126;HOT1A3,2,False
+eggnog:1R5CZ@1224,trypsin-like serine protease,protein/peptide,A: degradative + exported,2,ATCC27126;BGP6,2,False
+eggnog:1R5SI@1224,M56 family metallopeptidase,protein/peptide,"B: degradative, export uncertain",2,HOT1A3;MIT1002,2,False
+eggnog:1RG74@1224,gluzincin family metallopeptidase,protein/peptide,A: degradative + exported,2,ATCC27126;HOT1A3,2,False
+eggnog:4676R@72275,transglutaminase-like cysteine peptidase,protein/peptide,A: degradative + exported,2,AD45;BS11,2,False
+eggnog:COG0793@2,S41 family peptidase,protein/peptide,A: degradative + exported,2,EZ55;HOT1A3,2,False
+eggnog:COG2755@2,SGNH hydrolase superfamily protein,protein/peptide,A: degradative + exported,2,ATCC27126;HOT1A3,3,False
+eggnog:1MU6J@1224,ATP-dependent zinc metalloprotease FtsH,protein/peptide,"B: degradative, export uncertain",1,BGP6,1,False
+eggnog:1MUJ3@1224,alpha/beta hydrolase family protein,protein/peptide,A: degradative + exported,1,BS11,1,False
+eggnog:1MVQK@1224,ATP-dependent protease ATP-binding subunit ClpX,protein/peptide,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:1MXZG@1224,exosortase A,protein/peptide,"B: degradative, export uncertain",1,ATCC27126,1,False
+eggnog:1Q1V6@1224,alpha/beta hydrolase family protein,protein/peptide,"B: degradative, export uncertain",1,MIT1002,1,False
+eggnog:1QGPW@1224,S49 family peptidase,protein/peptide,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:1QXPY@1224,M36 family metallopeptidase,protein/peptide,A: degradative + exported,1,BS11,1,False
+eggnog:1R59B@1224,PepSY domain-containing protein,protein/peptide,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:46405@72275,amidohydrolase,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:465UW@72275,S8 family serine peptidase,protein/peptide,A: degradative + exported,1,BS11,1,False
+eggnog:465VB@72275,type I secretion system permease/ATPase,protein/peptide,"B: degradative, export uncertain",1,ATCC27126,1,False
+eggnog:466QS@72275,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB,protein/peptide,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:467CF@72275,S1 family peptidase,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:469NK@72275,M14 family metallopeptidase,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:46A2U@72275,aspartyl protease family protein,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:46AYY@72275,cyanophycinase,protein/peptide,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:46CV0@72275,YgjP-like metallopeptidase domain-containing protein,protein/peptide,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:COG0680@2,HyaD/HybD family hydrogenase maturation endopeptidase,protein/peptide,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:COG0810@2,energy transducer TonB,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:COG1974@2,"DNA polymerase V, subunit D",protein/peptide,"B: degradative, export uncertain",1,EZ55,1,False
+eggnog:COG2932@2,XRE family transcriptional regulator,protein/peptide,"B: degradative, export uncertain",1,BS11,1,False
+eggnog:COG3591@2,S46 family peptidase,protein/peptide,A: degradative + exported,1,HOT1A3,1,False
+eggnog:COG4946@2,uncharacterized conserved secreted protein,protein/peptide,A: degradative + exported,1,AD45,1,False
+eggnog:4643R@72275,phosphoethanolamine transferase,sulfate ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,8,False
+eggnog:4653Z@72275,DUF3413 domain-containing protein,sulfate ester,"B: degradative, export uncertain",7,AD45;ATCC27126;BGP6;BS11;EZ55;HOT1A3;MIT1002,7,False
+eggnog:46674@72275,SUMF1/EgtB/PvdO family nonheme iron enzyme,sulfate ester,"B: degradative, export uncertain",6,AD45;ATCC27126;BGP6;EZ55;HOT1A3;MIT1002,6,False
+eggnog:1RASV@1224,SUMF1/EgtB/PvdO family nonheme iron enzyme,sulfate ester,"B: degradative, export uncertain",1,AD45,1,False
+eggnog:46DHH@72275,sulfatase-like hydrolase/transferase,sulfate ester,"B: degradative, export uncertain",1,MIT1002,1,False
