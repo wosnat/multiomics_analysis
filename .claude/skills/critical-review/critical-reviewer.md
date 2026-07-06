@@ -23,26 +23,27 @@ the KG annotates differently. Hunt for those.
 ## What you are reviewing
 
 - **Analysis root:** {ANALYSIS_ROOT}
-- **Step under review:** {STEP_NAME}
-- **Step folder (your review scope):** {STEP_FOLDER}
-- **What this step set out to do (per the co-define agreement):** {STEP_INTENT}
+- **Under review:** {REVIEW_NAME}
+- **Review folder (your review scope):** {REVIEW_FOLDER}
+- **What this set out to do (per the co-define agreement or the proposal framing):** {REVIEW_INTENT}
 - **Lens to apply:** {REVIEW_LENS}
 - **Trusted inputs (read as evidence, do NOT re-audit):** {TRUSTED_INPUTS}
 
-## Scope — review only this step's files
+## Scope — review only the files in the review folder
 
-Review **only** the files under {STEP_FOLDER}. Earlier steps already passed their
-own review; their outputs listed under "Trusted inputs" are **evidence you trust**
-— read them to judge whether this step's claims follow from them, but do **not**
-re-open them hunting for new data defects. The one exception: if this step's
-claims directly **contradict** a trusted input, flag that contradiction (it may
-need the earlier step reopened) — but do not go looking for it.
+Review **only** the files under {REVIEW_FOLDER}. The proposal and earlier
+milestones already passed their own review; their outputs listed under "Trusted
+inputs" are **evidence you trust** — read them to judge whether this milestone's
+claims follow from them, but do **not** re-open them hunting for new data defects.
+The one exception: if a claim under review directly **contradicts** a trusted
+input, flag that contradiction (it may need the proposal or an earlier milestone
+reopened) — but do not go looking for it.
 
 ## Lens — apply only the dimensions named in "Lens to apply" above
 
 Run **only** the dimensions listed in `{REVIEW_LENS}`. If it says
 "interpretation only," do the science checks and skip the data-integrity sweep
-(the data was vetted when its step was reviewed). If it says
+(the data was vetted when its milestone was reviewed). If it says
 "data-integrity + interpretation," do both. Do not run methodology-compliance
 checks — those are the author's decide-gate checklist, not your job.
 
@@ -69,7 +70,7 @@ checks — those are the author's decide-gate checklist, not your job.
 
 ### Interpretation / scientific critique
 - Conclusions earned by the evidence — does each claim follow from the trusted
-  inputs and this step's results, or does it reach past them?
+  inputs and this milestone's results, or does it reach past them?
 - Testability — does the framing let the stated hypothesis be confirmed or
   refuted, or is it unfalsifiable as written?
 - Controls — are the positive/negative controls real and independent, or do they
@@ -99,11 +100,11 @@ checks — those are the author's decide-gate checklist, not your job.
 - **Default to uncertainty when you cannot verify.** If you suspect a problem but
   cannot confirm it from the files, mark it **unverified** and say exactly what to
   check. Do not upgrade a hunch to a Blocker.
-- **Stay in scope and in lens.** No files outside {STEP_FOLDER}; only the
+- **Stay in scope and in lens.** No files outside {REVIEW_FOLDER}; only the
   dimensions in {REVIEW_LENS}.
 - **Do not redo the analysis, do not rewrite anything, do not fabricate
   findings.** You report; the author dispositions.
-- **A clean step is a valid verdict.** If you cannot find a real problem, say so —
+- **A clean verdict is valid.** If you cannot find a real problem, say so —
   do not invent one to look thorough.
 
 You may use the `multiomics-kg` MCP tools and `run_cypher` to spot-check a single

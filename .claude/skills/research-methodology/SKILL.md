@@ -1,6 +1,6 @@
 ---
 name: research-methodology
-description: Use when answering biological questions, analyzing expression data, planning or brainstorming a research analysis, reviewing results, or working with the multiomics KG in any capacity. Non-negotiable domain rules and research process for multi-omics KG work. CRITICAL — load BEFORE invoking brainstorming for step 1 of an analysis; loading after the step-1 dialogue means retrofitting.
+description: Use when answering biological questions, analyzing expression data, planning or brainstorming a research analysis, reviewing results, or working with the multiomics KG in any capacity. Non-negotiable domain rules and research process for multi-omics KG work. CRITICAL — load BEFORE invoking brainstorming for the Plan phase of an analysis; loading after the plan is committed means retrofitting.
 ---
 
 # Multi-omics research methodology
@@ -8,11 +8,11 @@ description: Use when answering biological questions, analyzing expression data,
 These rules apply to ALL research work — dialogue, analysis,
 execution. They are non-negotiable.
 
-> **Load this skill BEFORE invoking `superpowers:brainstorming` for step 1
-> of an analysis.** Step 1's capture location and terminal behavior are
-> overridden by this skill (see Rule 8 and
-> [research-notebook.md — Using brainstorming for step 1](references/research-notebook.md)).
-> Loading after step 1 is committed means retrofitting.
+> **Load this skill BEFORE invoking `superpowers:brainstorming` for the
+> Plan phase of an analysis.** Brainstorming's capture location and terminal
+> behavior are overridden by this skill (see Rule 8 and
+> [research-notebook.md — Using brainstorming for the Plan phase](references/research-notebook.md)).
+> Loading after the plan is committed means retrofitting.
 
 ## Rule 1: KG is the sole data source
 
@@ -103,90 +103,173 @@ the KG provides, what you must compute in scripts, and what to flag.
 See [Anti-hallucination](references/anti-hallucination.md) for
 concrete failure modes and prevention patterns.
 
-## Rule 8: The 6-step research flow
+## Rule 8: The research arc — Plan, then Run
 
-Every research analysis is structured as 6 steps. **Open the analysis
-by posting the six steps as a plain-language to-do list** so the
-researcher can see the whole path and where you are in it — name the
-steps in ordinary words, not internal codes.
+Every analysis is two phases: a **Plan** phase that converges on a
+research proposal, and a **Run** phase that executes against it.
+**Open the analysis by posting the arc as a plain-language to-do list**
+so the researcher sees the whole path and where you are — ordinary
+words, not internal codes.
 
-Each step advances through the rhythm **co-define → do → show → explore
-→ decide**, with two researcher gates: agreement at **co-define**
-(before the work) and approval at **decide** (after it). At the steps
-that make claims (5 analyze, 6 evaluate), a fresh-context critic runs
-inside the decide phase **before** the researcher sees the step — see
-the `critical-review` skill and
-[step-protocol.md GATE 4](references/step-protocol.md). It reviews only
-that step's own files (earlier steps are trusted inputs) with a lens
-matched to the step — data-integrity + interpretation at step 5,
-interpretation only at step 6 — so the researcher reviews a vetted step,
-not a first draft. Kept light: matched lens, step-scoped, artifact only
-when it finds something.
+The arc leans on the superpowers skills where they genuinely fit, and
+keeps its own machinery only where research work needs something they
+don't provide.
+
+### Plan — uses `superpowers:brainstorming`
+
+The Plan phase is one grounded brainstorming conversation that
+converges on a single **`proposal.md`** at the analysis root:
+
+- **Question** — the locked research question
+- **KG entries** — the publications, experiments, organisms, and data
+  types that bear on it, *enumerated from the KG, not memory*
+- **Framing** — stated concretely (see below)
+
+Three overrides apply to brainstorming here (see
+[research-notebook.md](references/research-notebook.md)): the design doc
+is `proposal.md` in the analysis folder, not `docs/superpowers/specs/`;
+the dialogue is grounded in live KG queries, not assumptions; and the
+terminal action is **begin the Run phase**, not `writing-plans`. The
+Plan phase is one commit.
+
+**Review the proposal before execution.** The proposal is the
+highest-leverage artifact — a flaw propagates through all three Run
+milestones and is the most expensive to unwind — so the Plan phase
+closes on a review, in order: (1) **self-review** — read `proposal.md`
+with fresh eyes for vagueness, a missing stats decision, an
+unnamed/uncheckable validation set, or contradiction, and fix inline;
+(2) **critical review** — the fresh-context critic runs on every
+proposal, interpretation-only (no data yet), via the `critical-review`
+skill; (3) **researcher approval** — present the proposal and the
+critic's findings, and begin the Run phase only on approval. See
+[step-protocol.md — The Plan phase](references/step-protocol.md).
+
+**Framing is enumerated, not sketched.** The recurring failure is a
+vague plan that looks fine, gets approved, then falls apart in
+execution and forces a redo. Concreteness surfaces a bad plan *at plan
+time*. Every framing states, specifically:
+
+- **Hypothesis** — in prose
+- **Approach** — how you'll analyze and why it answers the question,
+  concrete enough to poke holes in (not the code itself)
+- **Statistics plan** — a deliberate decision every time: the specific
+  statistical test(s) and thresholds, *or* an explicit "no formal
+  stats, because descriptive," with the reasoning. Never left implicit.
+- **Validation set** — the specific genes or pathways whose behavior is
+  already known, named, with the behavior expected if the method works
+  ("glnA should score high under N-limitation — if it doesn't,
+  something's wrong")
+
+**Two principles, working together.** *Just-in-time* governs **what**
+the plan commits to — only what the data so far supports; no
+speculative padding for what the analysis might later need.
+*Enumeration* governs **how** it states those commitments — concretely
+and reviewably. Ground the conversation in KG counts before you frame;
+start with the simplest framing that fits; add predictions or stability
+checks only when a specific finding forces them.
+
+See [Research notebook — Just-in-time formalization](references/research-notebook.md#just-in-time-formalization)
+for the per-phase concrete rules.
+
+### Run — the iterate loop
+
+The Run phase executes the proposal across three milestones, each in
+its own named folder: **`methods/` → `analysis/` → `evaluation/`**.
+Each milestone advances through the loop **co-define → do → show →
+explore → decide** — the researcher agrees the milestone's scope at
+*co-define* (before the work) and approves at *decide* (after it). One
+commit per milestone.
 
 - **co-define** — before doing the work, say in plain words what you
-  propose this step should do and why, and let the researcher shape it.
-  They steer the step; they don't just review it afterward. Begin the
-  work only once you've agreed. A researcher who sees only finished work
-  is reacting to your plan, not co-owning it — so surface the plan first.
+  propose this milestone should do and why, and let the researcher
+  shape it. Default to co-defining every milestone; the researcher may
+  wave through a routine one, but never skip co-define for a genuine
+  judgment call (what to compare, how to define a set, which controls).
 
-Default to co-defining every step; the researcher may wave through
-routine ones, but never skip co-define for a genuine judgment call (what
-to compare, how to define a set, which controls).
+Research execution is exploratory, so the Run loop is **ours, not
+`superpowers:executing-plans`** — that skill assumes a locked,
+pre-specified plan with bite-sized tasks, which fights how analysis
+actually unfolds. But call the superpowers skills at the beats where
+they do fit:
 
-1. **Research question** — user prompt + clarifying questions →
-   locked question
-2. **KG entries** — relevant publications, experiments, organisms,
-   data types identified from the KG
-3. **Analysis framing** — (a) selection: publications / experiments /
-   organisms / data types; (b) framing: hypothesis, target, positive
-   and negative controls, expected outcome — all in KG terms
-4. **Methods** — pick one item from step 3 as driving example;
-   produce an ad-hoc Python module
-5. **Analyze** — run the method; produce scored outputs, figures,
-   tables
-6. **Evaluate** — assess against framing; harvest caveats; finalize
-   paper
+- verifying a new method against hand-computed toy data →
+  `superpowers:test-driven-development`
+- an analysis that breaks or returns something surprising →
+  `superpowers:systematic-debugging`
+- before claiming a milestone is done →
+  `superpowers:verification-before-completion` (this *is* the
+  decide-gate checklist)
+- an adversarial second opinion before claims land → the
+  `critical-review` skill, at the **analysis** milestone (data-integrity
+  + interpretation) and the **evaluation** milestone (interpretation
+  only). It reviews only that milestone's own files (the proposal and
+  earlier milestones are trusted inputs), with a lens matched to the
+  milestone, so the researcher reviews a vetted milestone, not a first
+  draft. Kept light: matched lens, milestone-scoped, artifact only when
+  it finds something. See
+  [step-protocol.md GATE C](references/step-protocol.md).
 
-Steps 1–3 form the research proposal (locked at end of step 3
-decide). Steps 4–6 execute against it. Step 1 is a conversation
-(typically uses `superpowers:brainstorming` with overrides); steps
-2–6 produce scripts, data, figures, and QC alongside `notebook.md`.
+**Exploration is expected to exceed the plan.** You cannot foresee
+everything, and good exploration is *led by* the results. Findings you
+did not plan for are welcome — that is discovery, not scope drift. The
+only requirement is that they still pass through the decide gate before
+being committed as findings.
 
-### Just-in-time formalization
+**Delegate execution to a coding subagent; keep judgment in the main
+thread.** The KG queries and script iterations that make up *do* and
+*show* generate a lot of noise. Run them in a coding subagent
+(`superpowers:subagent-driven-development`) so the researcher-facing
+thread keeps only the artifacts and the decisions. The subagent writes
+and runs the scripts, queries the KG, and produces the tables and
+figures; it is re-invoked for each exploration question as it arises.
+Two rules keep this from quietly breaking the skill's guarantees:
 
-Plans, framings, predictions, metrics, decisions, and caveats enter
-the analysis **only when the data demands them**. Look at the data
-before drafting the plan; start with the simplest plan; expand only
-when a specific finding forces it. Step-1 sub-narratives belong to
-step 3, after step 2 has shown what's in the KG.
+- **The domain rules ride along.** The subagent loads
+  `research-methodology` (or at least the KG / gene-identity /
+  python-api / anti-hallucination references) into its own context — a
+  fresh agent that doesn't know locus-tags-not-names or
+  cumulative-vs-per-timepoint counts produces exactly the errors those
+  rules prevent. Keep the *same* subagent alive across invocations so
+  the rules and analysis context persist and it doesn't re-hallucinate
+  on a later call.
+- **Artifacts come back, not conclusions.** The subagent returns
+  committed scripts, data, figures, logs, and a factual run-manifest
+  (what ran, command lines, row counts, candidate anomalies). It does
+  not get to *conclude*. The main thread reads the real files and owns
+  what they mean — that is what preserves the anomaly-catch (a heatmap
+  narrated "all 5 UP" while the data file shows them negative).
 
-See [Research notebook — Just-in-time formalization](references/research-notebook.md#just-in-time-formalization) for per-step concrete rules.
+**The main thread owns `notebook.md`.** The subagent authors code, data,
+figures, and logs; the main thread authors the notebook — pasting the
+subagent's factual run-manifest verbatim into the mechanical sections
+and writing every interpretive section (Context, what the results mean,
+Surprises, Decisions, Advance rationale) itself, with the researcher.
+Single owner keeps the judgment record coherent and keeps conclusions
+where the researcher is. See
+[research-notebook.md — Code lifecycle](references/research-notebook.md#code-lifecycle-analysis-first-productize-later).
 
-### What replaces the old spec/plan/decisions machinery
+### What this replaces
 
-- **No `spec.md` / `plan.md`** — the 6-step flow replaces the
-  monolithic plan; each step's intent is captured in its own
-  `notebook.md`
-- **No global `decisions.md`** — decisions live in the step's
+- **No `spec.md` / `plan.md`** — `proposal.md` is the plan; the Run
+  milestones execute it
+- **No global `decisions.md`** — decisions live in the milestone's
   `notebook.md` where they were forced
-- **No `hypotheses.md`** — the hypothesis lives in step 3's
-  `notebook.md` (the framing)
-- **No cross-file labels** (H1/P3/D8/T4) — labels are
-  document-scoped; labels used must be paired with a short readable
-  name in the same paragraph
-- **Per-step `notebook.md` + single `paper.md`** at the analysis
-  root replace the single exploration notebook + methods.md +
-  caveats.md
-- **`gaps_and_friction.md`** (transitional) captures methodology /
-  KG / tooling friction, distinct from decisions
+- **No `hypotheses.md`** — the hypothesis lives in `proposal.md`
+- **No cross-file labels** (H1/P3/D8/T4) — labels are document-scoped
+  and must be paired with a short readable name in the same paragraph
+- **`proposal.md` + per-milestone `notebook.md` + single `paper.md`**
+  at the analysis root replace the single exploration notebook +
+  methods.md + caveats.md
+- **`gaps_and_friction.md`** (transitional) captures methodology / KG /
+  tooling friction, distinct from decisions
 
 See [Step protocol](references/step-protocol.md) for commit timing,
 decide-gate checklist, hard gates, and redo path. See
 [Research notebook](references/research-notebook.md) for notebook
 format, `paper.md` growth, `gaps_and_friction.md`, and the
-brainstorming override for step 1. See
-[Artifacts guide](references/artifacts.md) for directory structure
-and scaffold creation.
+brainstorming override for the Plan phase. See
+[Artifacts guide](references/artifacts.md) for directory structure and
+scaffold creation.
 
 ## Rule 9: Plain language; describe before interpreting
 
@@ -202,10 +285,12 @@ needed, say what it means in plain words the first time. The test: could
 the researcher restate what you just said back to you? If not, you've
 leaned on jargon.
 
-**Banned in steps 1–5** (these signal commitment before the analysis
-has earned it): "striking", "massive", "central finding",
-"biologically loaded", "biologically explosive", "reframes", "rich",
-"hand-wavy" as praise. Reserve interpretive vocabulary for step 6.
+**Banned before the evaluation milestone** — i.e. throughout the Plan
+phase and the methods and analysis milestones (these signal commitment
+before the analysis has earned it): "striking", "massive", "central
+finding", "biologically loaded", "biologically explosive", "reframes",
+"rich", "hand-wavy" as praise. Reserve interpretive vocabulary for the
+evaluation milestone.
 
 **Describe before interpreting.** Write the numbers and direction
 first ("5 markers show RNA log2FC < 0 and protein log2FC > 0 at
@@ -228,8 +313,8 @@ See [Anti-hallucination — 2.6 Emotive vocabulary and speculative proposals](re
 ## References — read on demand, not all at once
 
 - [Step protocol](references/step-protocol.md) — read at the start of every analysis execution; owns commit timing, decide-gate checklist, hard gates, redo path
-- [Research notebook](references/research-notebook.md) — read when starting or resuming an analysis; owns notebook format, paper.md growth, gaps_and_friction.md, brainstorming override for step 1
-- [Artifacts guide](references/artifacts.md) — read at scaffold time or when unsure about directory structure, per-step folders, QC naming
+- [Research notebook](references/research-notebook.md) — read when starting or resuming an analysis; owns notebook format, paper.md growth, gaps_and_friction.md, brainstorming override for the Plan phase
+- [Artifacts guide](references/artifacts.md) — read at scaffold time or when unsure about directory structure, per-milestone folders, QC naming
 - [Anti-hallucination](references/anti-hallucination.md) — read before presenting findings; covers tool-schema claims, publication attribution, field semantics, and the other anti-hallucination patterns
 - [KG rules](references/kg-rules.md) — read when scoping a new analysis or uncertain about data sourcing vs literature
 - [Gene identity](references/gene-identity.md) — read when working with gene names, paralogs, or orthologs

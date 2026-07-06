@@ -140,7 +140,7 @@ not the same as log2FC 3 on RNA-seq.
 Two related failure modes. Both reach for elaborate language or
 elaborate fixes when the data hasn't earned them yet.
 
-**(a) Emotive vocabulary in steps 1–5.** Describing a data observation
+**(a) Emotive vocabulary before the evaluation milestone.** Describing a data observation
 with words like "striking", "massive", "biologically loaded",
 "biologically explosive", "central finding", "reframes the analysis"
 before the formal analysis has run. The vocabulary commits to a
@@ -150,9 +150,10 @@ conclusion the analysis hasn't tested.
 discordance metric had been computed, the step-2 narrative described
 a 5-marker heatmap as "biologically loaded", "massive finding",
 "biologically explosive", and claimed the data "reframes the
-analysis with a strongly motivated default hypothesis." The 6-step
-flow puts hypothesis testing at step 5 and caveat harvesting at
-step 6 — step-2 enthusiasm biases later analysis.
+analysis with a strongly motivated default hypothesis." The arc
+puts hypothesis testing at the analysis milestone and caveat
+harvesting at the evaluation milestone — enthusiasm while still
+enumerating the KG entries biases later analysis.
 
 **(b) Anchor-on-loud-cells then narrate wrong.** Reading a heatmap
 or summary table by eye, fixating on the strongest-color cells,
@@ -180,8 +181,8 @@ sub-protocol") that came from a single nudge or a single occurrence
 analyses; one occurrence is a note, not a directive.
 
 **Prevention:**
-- In steps 1–5, write factual statements: numbers, directions,
-  conditions. Drop vocabulary like "massive", "striking", "explosive",
+- Before the evaluation milestone, write factual statements: numbers,
+  directions, conditions. Drop vocabulary like "massive", "striking", "explosive",
   "central", "reframes", "rich", "hand-wavy" used as praise.
 - Interpretation, where present, goes inline with `[interpretation]`,
   and lists competing alternatives.

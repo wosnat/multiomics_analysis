@@ -1,13 +1,13 @@
 # Artifacts guide
 
-Research questions produce files, not chat messages. Chat is for reasoning and dialogue; data, statistics, figures, and step narratives go to disk.
+Research questions produce files, not chat messages. Chat is for reasoning and dialogue; data, statistics, figures, and milestone narratives go to disk.
 
 ## Contents
 
 1. [When to create an analysis directory](#when-to-create-an-analysis-directory)
 2. [Directory structure per analysis](#directory-structure-per-analysis)
 3. [Scaffold creation](#scaffold-creation)
-4. [Per-step folders](#per-step-folders)
+4. [Per-milestone folders](#per-milestone-folders)
 5. [paper.md and gaps_and_friction.md](#papermd-and-gaps_and_frictionmd)
 6. [Data and figure conventions](#data-and-figure-conventions)
 7. [Git tracking](#git-tracking)
@@ -32,33 +32,30 @@ Simple lookups stay in chat:
 
 ```
 analyses/<slug>/
-  paper.md                  # academic-style writeup, grows from step 1
+  paper.md                  # academic-style writeup, grows across the arc
   gaps_and_friction.md      # transitional — methodology/KG/tooling friction log
   .gitignore                # per-analysis, created at scaffolding
-  1_question/
-    notebook.md
-  2_kg_selection/
-    notebook.md, scripts/, data/, figures/
-  3_analysis_framing/
-    notebook.md, scripts/, data/, figures/
-  4_methods/
+  proposal.md               # question + KG entries + enumerated framing (the plan)
+  proposal_notebook.md      # brainstorming record: grounding queries, counts, rejected alternatives
+  proposal_critical_review.md   # only when the proposal critic found something
+  methods/
     notebook.md
     <module_name>.py        # ad-hoc methods module
     scripts/, data/, figures/
-  5_analyze/
+  analysis/
     notebook.md, scripts/, data/, figures/
-  6_evaluate/
+  evaluation/
     notebook.md, scripts/, data/, figures/
 ```
 
 **Slug format:** `YYYY-MM-DD-<descriptor>` where descriptor is snake_case, 2–4 words reflecting the research question (e.g., `2026-04-23-n_limitation_signature`). Same-day collisions: append a letter suffix (`-a`, `-b`).
 
-**Why per-step folders:** keeps each step's artifacts self-contained and reviewable; avoids an analysis-wide `scripts/` or `results/` that becomes a dumping ground and loses step context.
+**Why per-milestone folders:** keeps each Run milestone's artifacts self-contained and reviewable; avoids an analysis-wide `scripts/` or `results/` that becomes a dumping ground and loses milestone context. The Plan phase is a conversation, so it produces two files at the root (`proposal.md` + `proposal_notebook.md`), not a folder.
 
 ## Scaffold creation
 
 **Who:** Claude proposes the slug; the user approves or counter-proposes.
-**When:** at the start of step 1, before any folder or file is written.
+**When:** at the start of the Plan phase, before any folder or file is written.
 
 1. **Propose a slug** based on the user's initial prompt. Confirm with the user before writing anything — no scaffold exists until the slug is confirmed.
 2. **Create the minimal scaffold:**
@@ -67,32 +64,32 @@ analyses/<slug>/
      paper.md              # skeleton with empty section headers: Question, Background, Methods, Results, Discussion, References
      gaps_and_friction.md  # header only; entries added as friction occurs
      .gitignore            # per-analysis (template below)
-     1_question/
-       notebook.md         # empty; populated by the step 1 dialogue
+     proposal.md           # empty; converges through the Plan-phase brainstorming
+     proposal_notebook.md  # empty; captures grounding queries and dialogue
    ```
-3. **Begin step 1 dialogue.** `1_question/notebook.md` grows through the clarifying exchange.
-4. **At step 1 decide:** `paper.md`'s Question section is populated; the first git commit includes the scaffold + step 1 artifacts.
+3. **Run the Plan-phase brainstorming.** `proposal.md` converges (question + KG entries + enumerated framing); `proposal_notebook.md` captures the grounding queries, counts, and rejected alternatives.
+4. **At Plan-phase approval:** `paper.md`'s Question and Background sections are populated; the first git commit includes the scaffold + the proposal.
 
-Step folders for 2–6 are created **progressively** — each folder (and its `scripts/` / `data/` / `figures/` subfolders as needed) is created when that step begins, not pre-created at scaffold time. This avoids empty folders cluttering the analysis during work in progress.
+Run-milestone folders (`methods/`, `analysis/`, `evaluation/`) are created **progressively** — each folder (and its `scripts/` / `data/` / `figures/` subfolders as needed) is created when that milestone begins, not pre-created at scaffold time. This avoids empty folders cluttering the analysis during work in progress.
 
-## Per-step folders
+## Per-milestone folders
 
-Each step folder except `1_question/` contains:
-- **`notebook.md`** — narrative + decide-gate checklist (see [research-notebook.md](research-notebook.md))
-- **`scripts/`** — Python scripts that do the step's work
-- **`data/`** — script outputs (CSV/TSV); inputs from prior steps referenced by relative path
+Each Run-milestone folder contains:
+- **`notebook.md`** — narrative + decide-gate checklist, owned by the main thread (see [research-notebook.md](research-notebook.md))
+- **`scripts/`** — Python scripts that do the milestone's work (authored by the coding subagent)
+- **`data/`** — script outputs (CSV/TSV); inputs from prior milestones referenced by relative path
 - **`figures/`** — PNG/PDF/SVG outputs
-- **`critical_review.md`** — at steps 5 and 6, **only when the critic found something**: its findings plus the author's disposition for each (a clean review is a one-line note in `notebook.md`, not a file). See the `critical-review` skill and [step-protocol.md GATE 4](step-protocol.md)
+- **`critical_review.md`** — at the analysis and evaluation milestones, **only when the critic found something**: its findings plus the author's disposition for each (a clean review is a one-line note in `notebook.md`, not a file). See the `critical-review` skill and [step-protocol.md GATE C](step-protocol.md)
 
-Step 1's folder contains only `notebook.md` — step 1 is a conversation, not a computation.
+The Plan phase has no folder — it produces `proposal.md` + `proposal_notebook.md` at the analysis root (plus `proposal_critical_review.md` when the proposal critic found something), because it is a conversation, not a computation.
 
 ### QC artifacts
 
 QC artifacts live in the same `scripts/` / `data/` / `figures/` subfolders with a **`qc_` filename prefix** (e.g., `scripts/qc_check_tp_coverage.py`, `data/qc_tp_coverage.csv`, `figures/qc_tp_coverage_histogram.png`). No separate `qc/` subfolder. The prefix sorts QC files together in listings without creating a binary main/QC split at the folder level.
 
-### Methods module (step 4 only)
+### Methods module (methods milestone only)
 
-`4_methods/<module_name>.py` holds the ad-hoc method module (scoring function, enrichment utility, etc.). Subsequent steps import from it by relative path. See [research-notebook.md — Code lifecycle](research-notebook.md) for the methodology-first → productization-later pattern.
+`methods/<module_name>.py` holds the ad-hoc method module (scoring function, enrichment utility, etc.). Subsequent milestones import from it by relative path. See [research-notebook.md — Code lifecycle](research-notebook.md) for the methodology-first → productization-later pattern.
 
 ### Script requirements
 
@@ -104,15 +101,15 @@ Scripts must be:
 
 ### Script naming
 
-- **Pipeline scripts (numbered within the step):** `01_select_experiments.py`, `02_compute_scores.py`
+- **Pipeline scripts (numbered within the milestone):** `01_select_experiments.py`, `02_compute_scores.py`
 - **QC scripts:** `qc_<what_is_checked>.py`
 - **Ad-hoc exploration scripts:** `explore_<what>.py` — kept in `scripts/` for reproducibility even if one-off
 
 ## paper.md and gaps_and_friction.md
 
 Both live at the analysis root. Content rules are in [research-notebook.md](research-notebook.md):
-- `paper.md` — academic-style writeup, skeleton sections from day 1, populated at each step's decide phase
-- `gaps_and_friction.md` — transitional friction log, distinct from decisions (which live in step notebooks)
+- `paper.md` — academic-style writeup, skeleton sections from day 1, populated at the Plan commit and each milestone's decide phase
+- `gaps_and_friction.md` — transitional friction log, distinct from decisions (which live in milestone notebooks or `proposal.md`)
 
 ## Data and figure conventions
 
@@ -129,18 +126,18 @@ Both live at the analysis root. Content rules are in [research-notebook.md](rese
 
 ## Git tracking
 
-For per-step commit timing, hard gates, and redo commits, see [step-protocol.md](step-protocol.md).
+For per-milestone commit timing, hard gates, and redo commits, see [step-protocol.md](step-protocol.md).
 
 ### Per-analysis .gitignore
 
-Created during scaffolding (at start of step 1). Default template:
+Created during scaffolding (at the start of the Plan phase). Default template:
 ```
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
 __pycache__/
 ```
 
-No blanket repo-level rules for `analyses/*/data/` or `analyses/*/figures/`. Tracking decisions are explicit, per-file, and logged in the step's `notebook.md`.
+No blanket repo-level rules for `analyses/*/data/` or `analyses/*/figures/`. Tracking decisions are explicit, per-file, and logged in the milestone's `notebook.md`.
 
 ### What to track vs gitignore
 
@@ -151,13 +148,13 @@ No blanket repo-level rules for `analyses/*/data/` or `analyses/*/figures/`. Tra
 | `notebook.md`, `paper.md`, `gaps_and_friction.md` | |
 | Scripts (all) | |
 
-Rule of thumb: if it's small and captures analytical decisions, track it. If it's large and reproducible by rerunning a script, gitignore it explicitly and document the regeneration command in the step's `notebook.md` or in `paper.md` Methods.
+Rule of thumb: if it's small and captures analytical decisions, track it. If it's large and reproducible by rerunning a script, gitignore it explicitly and document the regeneration command in the milestone's `notebook.md` or in `paper.md` Methods.
 
 ## Log verbosity
 
-Each step's scripts should emit enough diagnostic output to verify the step without rerunning. Two capture paths:
+Each milestone's scripts should emit enough diagnostic output to verify the milestone without rerunning. Two capture paths:
 
-- **Short logs:** paste into the step's `notebook.md` (Results or Surprises sections)
+- **Short logs:** paste into the milestone's `notebook.md` (Results or Surprises sections)
 - **Long logs:** per-script log file at `<step>/data/<script_name>.log`, referenced from `notebook.md`
 
 **Minimum content:** summary statistics (row counts, gene counts, filter funnel), diagnostic traces (marker gene values at key stages), edge-case results (tie-breaking outcomes, classification boundary cases).

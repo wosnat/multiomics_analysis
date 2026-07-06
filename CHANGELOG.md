@@ -12,6 +12,20 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 ## [Unreleased]
 
 ### Changed
+- **Research methodology restructured from a 6-step flow into a two-phase arc:
+  Plan → Run.** The Plan phase is one grounded `superpowers:brainstorming`
+  conversation converging on a single `proposal.md` (question + KG entries +
+  *enumerated* framing — hypothesis, approach, an explicit statistics decision,
+  and a named validation set), committed once. The Run phase is three milestones
+  (`methods/` → `analysis/` → `evaluation/`, one commit each) advancing through
+  `co-define → do → show → explore → decide`. The old `1_question/` … `6_evaluate/`
+  numbered folders are replaced by `proposal.md` + the three named milestone
+  folders. Execution (KG queries, scripts) is delegated to a coding subagent
+  (`superpowers:subagent-driven-development`) that returns artifacts, not
+  conclusions; the main thread owns `notebook.md` and all judgment. The hard
+  gates were re-lettered (GATE A–E); critical review now runs at the analysis and
+  evaluation milestones. Existing analyses under `analyses/` keep their original
+  numbered structure as git history — the new arc applies to new analyses.
 - Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.4) — run
   `uv sync` after pulling. Fixes a result-flattening bug: queries that mix
   different `gene_derived_metrics` kinds no longer silently drop the scalar

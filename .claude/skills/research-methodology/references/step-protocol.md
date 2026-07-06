@@ -1,190 +1,172 @@
-# Step protocol
+# Phase protocol
 
-Each analysis step advances through the rhythm **co-define → do → show → explore → decide** (phase content defined in [research-notebook.md](research-notebook.md)). This document owns **when things happen and what gates enforce them**.
+An analysis is two phases: a **Plan** phase that converges on `proposal.md`, and a **Run** phase that executes it across three milestones (`methods/` → `analysis/` → `evaluation/`). Each Run milestone advances through the rhythm **co-define → do → show → explore → decide** (phase content defined in [research-notebook.md](research-notebook.md)). This document owns **when things happen and what gates enforce them**.
 
-The **just-in-time formalization** principle applies throughout: terms, metrics, stability checks, decisions, and caveats enter the analysis only when the data demands them. Do not pre-specify framework inventories. See [research-notebook.md](research-notebook.md) for the full principle and its application to step 3 framing.
+The **just-in-time formalization** principle applies throughout: terms, metrics, stability checks, decisions, and caveats enter the analysis only when the data demands them. *Enumeration* is its partner — within what the plan does commit to, be concrete, because a vague-but-approved plan is what forces redos. See [research-notebook.md](research-notebook.md) for both principles and their application to the Plan phase framing.
 
 ## Commit structure
 
-**One commit per step**, at the end of the decide phase. The commit includes everything the step produced:
+**One commit for the Plan phase, then one commit per Run milestone** (methods, analysis, evaluation). Each commit includes everything the phase/milestone produced:
 
+**Plan commit:**
+- `proposal.md` (question + KG entries + enumerated framing)
+- `proposal_notebook.md` (the brainstorming record: KG-grounding queries, counts, rejected alternatives)
+- `proposal_critical_review.md` where the proposal critic found something
+- the scaffold (analysis folder, `paper.md` skeleton, `gaps_and_friction.md` header) — see [artifacts.md](artifacts.md)
+- `paper.md` Question + Background sections populated
+
+**Run milestone commit:**
 - `notebook.md` (narrative + decide-gate checklist)
 - `scripts/`, `data/`, `figures/` (main + `qc_*` files)
-- updates to `paper.md` (the step's synthesis section)
-- updates to `gaps_and_friction.md` (if the step encountered friction)
+- updates to `paper.md` (the milestone's synthesis section)
+- updates to `gaps_and_friction.md` (if the milestone encountered friction)
+- `critical_review.md` where the critic found something (analysis + evaluation milestones)
 
-No mid-step commits, no separate "do commit + decide commit" pattern. The decide phase is the atomic step boundary.
+No mid-milestone commits. The decide phase is the atomic milestone boundary.
 
-Step 1 is a special case: the commit includes both the scaffold (analysis folder, `paper.md` skeleton, `gaps_and_friction.md` header, `1_question/notebook.md`) and step 1's own outputs. See [artifacts.md](artifacts.md) for scaffold creation.
+## The Plan phase
 
-## Before starting a step
+The Plan phase is one grounded `superpowers:brainstorming` conversation (three overrides — see [research-notebook.md — Using brainstorming for the Plan phase](research-notebook.md)). The output is `proposal.md` plus its brainstorming record, committed once.
 
-- Previous step's commit exists
-- Previous step's `notebook.md` has the decide-gate checklist populated
-- Previous step's `paper.md` section is populated
+**Framing is enumerated.** The proposal's framing states, concretely: hypothesis; approach (how and why, not code); a deliberate statistics decision (the specific test and thresholds, or an explicit reasoned "none"); and a named validation set (the genes/pathways whose behavior is already known, with the behavior expected if the method works). See [research-notebook.md](research-notebook.md#just-in-time-formalization) for the floor.
 
-If any of these is missing, close the previous step first.
+**Close gate — review the proposal before execution.** The proposal is the highest-leverage artifact; a flaw in it propagates through all three Run milestones and is the most expensive to unwind. Before the Run phase begins, in order:
 
-## "co-define" phase
+1. **Self-review** — read `proposal.md` with fresh eyes: is the framing enumerated (stats decision actually made, validation set named and checkable)? any vagueness, placeholder, or internal contradiction? Fix inline. This is the direct catch for the vague-plan-that-forces-a-redo failure.
+2. **Critical review (automatic; interpretation only)** — dispatch the fresh-context critic via the `critical-review` skill over `proposal.md`. There is no data yet, so the lens is interpretation only (testability, controls, confounders, whether the statistics decision and validation set fit the question). Findings + dispositions go to `proposal_critical_review.md`; a clean review is a one-line note in `proposal_notebook.md`. Resolve every Blocker before proceeding. See [GATE C](#gate-c-critical-review-before-a-claim-bearing-artifact-is-shown).
+3. **Researcher review and approval** — present `proposal.md`, the critic's findings (or clean note), and the `paper.md` Question + Background. The researcher approves or redirects. Only on approval does the Plan commit land and the Run phase begin.
 
-Before doing any of the step's work, propose it to the researcher in plain language: what this step should produce, the main judgment calls you expect, and why. Let the researcher adjust the scope or approach. Begin the work only once you've agreed.
+## Before starting a Run milestone
 
-This is the front-end mirror of the decide gate: decide closes a step with researcher approval; co-define opens it with researcher agreement. The point is that the researcher shapes the work, not just reviews it afterward. No artifacts are produced here — it is a short conversation that sets the step's scope.
+- The Plan commit exists, `proposal.md` is populated
+- The previous milestone's commit exists (for analysis and evaluation)
+- The previous milestone's `notebook.md` has the decide-gate checklist populated and its `paper.md` section written
 
-Default to co-defining every step. The researcher may wave through routine steps, but never skip co-define for a genuine judgment call (what to compare, how to define a gene set, which controls). Keep it in plain language — no internal step-IDs or undefined jargon (see [SKILL.md Rule 9](../SKILL.md)).
+If any of these is missing, close the previous phase first.
 
-## "do" phase
+## Delegation (Run phase)
 
-Do the step's work — scope depends on the step:
+The KG queries and script iterations of *do* and *show* run in a coding subagent (`superpowers:subagent-driven-development`), keeping the researcher-facing thread clean. See [SKILL.md Rule 8 — Run](../SKILL.md) for the two guardrails. In gate terms:
 
-- **Step 1:** clarifying dialogue with the researcher (see [research-notebook.md — Using brainstorming for step 1](research-notebook.md))
-- **Steps 2, 4, 5:** write and run scripts; produce data and figures
-- **Steps 3, 6:** select, validate, or evaluate; produce scripts + data + figures for the QC side; write prose for the framing or evaluation side
+- The subagent authors **scripts, data, figures, logs, and a factual run-manifest**. It does not conclude.
+- The main thread authors **`notebook.md`, `paper.md`, `gaps_and_friction.md`, critical-review dispositions, and the decide-gate checklist** — pasting the subagent's run-manifest verbatim into the mechanical notebook sections and writing every interpretive section itself.
+- Keep the **same subagent** alive across a milestone's invocations so the domain rules and analysis context persist.
 
-Outputs land wherever the step naturally produces them: a conversation lands in `notebook.md`; scripts land in `scripts/`; their outputs land in `data/` and `figures/`. QC artifacts use the `qc_` filename prefix (see [artifacts.md](artifacts.md)).
+Where no subagents are available, the same work is done inline — same rules, same artifacts, same ownership.
 
-No commit yet. The step's outputs are uncommitted working-tree state until decide.
+## "co-define" phase (Run milestones)
 
-## "show" phase
+Before doing any of the milestone's work, propose it to the researcher in plain language: what it should produce, the main judgment calls you expect, and why. Let the researcher adjust scope or approach. Begin only once you've agreed.
 
-Populate `notebook.md` with what was produced. Recommended sections (see [research-notebook.md](research-notebook.md) for full content):
+This is the front-end mirror of the decide gate: decide closes a milestone with researcher approval; co-define opens it with researcher agreement. No artifacts are produced here — it is a short conversation that sets scope. Default to co-defining every milestone; the researcher may wave through routine ones, but never skip co-define for a genuine judgment call (what to compare, how to define a gene set, which controls). Keep it in plain language — no internal codes or undefined jargon (see [SKILL.md Rule 9](../SKILL.md)).
 
-- **Context** — what this step is for; what the prior step decided
-- **What I did** — scripts run with their command-line invocation for non-trivial cases; KG queries issued
-- **Results** — summary tables shown inline (as markdown tables, not prose paraphrases); links to full tables in `data/` and figures in `figures/`; cited publications resolved via `list_publications` (never from memory — see [anti-hallucination.md — Category 5](anti-hallucination.md#category-5-source-of-truth-verification-failures))
+## "do" phase (Run milestones)
 
-Summary tables in **Results** are the same tables presented to the researcher in chat — copied as markdown into the notebook, not paraphrased.
+The coding subagent does the milestone's work:
 
-## "explore" phase
+- **methods:** implement the approach the proposal committed to as an ad-hoc Python module; verify against hand-computed toy data (`superpowers:test-driven-development`)
+- **analysis:** run the method; produce scored outputs, figures, tables
+- **evaluation:** assess results against the framing; QC scripts for sensitivity/stability where a result triggers them
 
-Investigate anomalies, surprises, or gaps:
+Outputs land where they naturally belong: scripts in `scripts/`, their outputs in `data/` and `figures/`. QC artifacts use the `qc_` prefix (see [artifacts.md](artifacts.md)). No commit yet — outputs are uncommitted working-tree state until decide.
 
-- Ask follow-up clarifying questions (step 1)
-- Add `qc_*.py` checks; run sensitivity analyses; cross-validate against controls (steps 2–6)
+## "show" phase (Run milestones)
 
-Capture anomalies worth flagging as **Surprises** in `notebook.md`. If a researcher question during this phase produces a data point or changes interpretation, both the prose and the data live in the notebook — the narrative IS the exploration record. No separate chat-capture section.
+The main thread populates `notebook.md` from the subagent's returned artifacts and run-manifest. Recommended sections (see [research-notebook.md](research-notebook.md)):
 
-## "decide" phase
+- **Context** — what this milestone is for; what the proposal or prior milestone set up
+- **What I did** — scripts run with command lines for non-trivial cases; KG queries issued (lifted from the subagent's run-manifest)
+- **Results** — summary tables shown inline as markdown tables (not prose paraphrases); links to full tables in `data/` and figures in `figures/`; cited publications resolved via `list_publications` (never from memory — see [anti-hallucination.md — Category 5](anti-hallucination.md#category-5-source-of-truth-verification-failures))
 
-1. **Finalize `notebook.md`:**
+Summary tables in **Results** are the same tables presented to the researcher in chat — the real numbers the subagent produced, copied as markdown, not paraphrased.
+
+## "explore" phase (Run milestones)
+
+Investigate anomalies, surprises, or gaps. Each exploration question is a fresh invocation of the coding subagent, which returns the artifact that answers it; the main thread and researcher read it and interpret. Add `qc_*.py` checks; run sensitivity analyses; cross-validate against the validation set. Capture anomalies worth flagging as **Surprises** in `notebook.md`.
+
+**Exploration is expected to exceed the plan.** Findings you did not plan for are welcome — that is discovery, not scope drift — provided they still pass through the decide gate before being committed. If a researcher question produces a data point or changes interpretation, both the prose and the data live in the notebook; the narrative IS the exploration record.
+
+## "decide" phase (Run milestones)
+
+1. **Finalize `notebook.md`** (main thread):
    - Ensure Context / What I did / Results / Surprises are populated as applicable
-   - Add **Decisions** section if any forks were taken (prose + date; see [research-notebook.md](research-notebook.md))
-   - Write the **decide-gate checklist** at the end of notebook.md:
+   - Add a **Decisions** section if any forks were taken (prose + date; see [research-notebook.md](research-notebook.md))
+   - Write the **decide-gate checklist** at the end:
      - **Outputs produced** — filenames in `scripts/`, `data/`, `figures/`, with command lines for non-trivial scripts
-     - **Results presented** — summary tables shown inline; links to full tables and figures generated this step
+     - **Results presented** — summary tables shown inline; links to full tables and figures
      - **QC gate** — what was checked → result (one line per check)
-     - **Decisions made this step** — prose + date, if any; omit the section if none
-     - **Advance rationale** — one line, why this step is ready to close
+     - **Decisions made this milestone** — prose + date, if any; omit if none
+     - **Advance rationale** — one line, why this milestone is ready to close
 
-2. **Update `paper.md`:** write the synthesis paragraph (or figure inclusion, or methods sub-section) for the section this step populates — see [research-notebook.md — paper.md growth](research-notebook.md) for the section-to-step mapping.
+2. **Update `paper.md`:** write the synthesis for the section this milestone populates — see [research-notebook.md — paper.md growth](research-notebook.md) for the section-to-milestone mapping.
 
-3. **Append to `gaps_and_friction.md`** if friction was encountered this step (KG issues, MCP schema mismatches, methodology gaps, anti-hallucination corrections).
+3. **Append to `gaps_and_friction.md`** if friction was encountered (KG issues, MCP schema mismatches, methodology gaps, anti-hallucination corrections).
 
-4. **Critical review (step 5 and step 6 — automatic; other steps on demand):** before presenting to the researcher, dispatch the fresh-context critic via the `critical-review` skill. It reviews **only this step's own files** (earlier steps are trusted inputs, not re-audited) with a lens matched to the step: **step 5** gets data-integrity + interpretation (the heavy gate, where computed results first appear); **step 6** gets interpretation only (it judges whether conclusions are earned by step 5's already-vetted results). Methodology compliance is not the critic's job — it lives in your decide-gate checklist below. If the critic finds anything, write its findings and your disposition for each to `{STEP_FOLDER}/critical_review.md` and resolve every Blocker (fix, or dispute with a specific data citation) before the step closes; if it comes back clean, add a one-line `Critical review: clean (<lens>)` to `notebook.md` and write no file. See [GATE 4](#gate-4-critical-review-at-the-steps-that-make-claims).
+4. **Critical review (analysis and evaluation — automatic; methods on demand):** before presenting to the researcher, dispatch the fresh-context critic via the `critical-review` skill. It reviews **only this milestone's own files** (the proposal and earlier milestones are trusted inputs) with a lens matched to the milestone: **analysis** gets data-integrity + interpretation (the heavy gate, where computed results first appear); **evaluation** gets interpretation only (it judges whether conclusions are earned by the already-vetted analysis results). Methodology compliance is not the critic's job — it lives in your decide-gate checklist. If the critic finds anything, write its findings and your disposition for each to `{MILESTONE}/critical_review.md` and resolve every Blocker (fix, or dispute with a specific data citation) before the milestone closes; if it comes back clean, add a one-line `Critical review: clean (<lens>)` to `notebook.md` and write no file. See [GATE C](#gate-c-critical-review-before-a-claim-bearing-artifact-is-shown).
 
 5. **Present state to researcher:** show the `notebook.md` content, the `paper.md` diff, any `gaps_and_friction.md` additions, and — where the review produced findings — `critical_review.md` with your dispositions. Wait for explicit approval or redirect.
 
-6. **On approval, commit.** One commit, containing all of the step's changes (including `critical_review.md` where the review produced findings).
+6. **On approval, commit.** One commit, containing all of the milestone's changes.
 
-7. Begin next step (create its folder as needed — see [artifacts.md](artifacts.md) for progressive folder creation).
+7. Begin the next milestone (create its folder as needed — see [artifacts.md](artifacts.md)).
 
 ## Redo path
 
-When the researcher says "redo step N with X":
+When the researcher says "redo the analysis milestone with X" (or any milestone):
 
-1. **do:** update script or framing; rerun; regenerate outputs. New artifacts overwrite old in the step folder.
+1. **do:** update script or approach; rerun; regenerate outputs. New artifacts overwrite old in the milestone folder.
 2. **show / explore:** new tables, figures, Results; update Surprises if changed.
 3. **decide:** new decide-gate checklist, new `paper.md` synthesis, new `gaps_and_friction.md` entry if the redo surfaced friction. **New commit (never amend the previous).**
 
 The previous commit remains in git history as the record of what was tried. The working-tree `notebook.md` is overwritten because it now describes what actually happened in the successful attempt — it is not a log of prior attempts.
 
-If the redo invalidates downstream steps, the redo's `notebook.md` must list the downstream steps that consumed its outputs. The researcher decides whether to cascade the redo.
+If the redo invalidates downstream milestones, the redo's `notebook.md` must list the downstream milestones that consumed its outputs. The researcher decides whether to cascade. `gaps_and_friction.md` is append-only: redo friction entries accumulate.
 
-`gaps_and_friction.md` is append-only: redo friction entries accumulate.
+## Reopen path (a data reveal reopens the locked proposal)
 
-## Reopen path (a data reveal reopens an upstream lock)
+The redo path handles "redo milestone N and cascade downstream." A different case: while executing a Run milestone, the data itself contradicts an assumption baked into the **locked `proposal.md`** (the question or the framing). The lock is provisional until the data behind it has actually been pulled — "locked at end of the Plan phase" is not "frozen against what the data turns out to be." Grounding the Plan phase in live KG queries catches many such reveals during planning; the rest surface in the Run phase.
 
-The redo path above handles "redo step N and cascade downstream." A different
-case: while *executing* a later step, the data itself contradicts an assumption
-baked into an **already-locked** earlier step (typically the step-1 question or
-the step-3 framing). The locks are provisional until the data behind them has
-actually been pulled — "locked at end of step 3" is not "frozen against what the
-data turns out to be."
+When this happens: **reopen the proposal, don't paper over it.** Edit `proposal.md` to record (a) the original lock, (b) the data reveal that triggered the reopening, and (c) the evolved question/framing — then re-lock and continue. Add a `gaps_and_friction.md` entry. This is distinct from the redo path (which cascades *forward*); here a downstream reveal edits an *upstream* lock.
 
-When this happens: **reopen the owning step, don't paper over it.** Edit that
-step's `notebook.md` to record (a) the original lock, (b) the data reveal that
-triggered the reopening, and (c) the evolved question/framing — then re-lock and
-continue. Add a `gaps_and_friction.md` entry. This is distinct from the redo path
-(which cascades *forward* from an invalidated step); here a downstream reveal
-edits an *upstream* lock.
-
-This is the partner of the just-in-time-formalization principle: look at the data
-before fixing the framing, and let the framing follow the data when execution
-surfaces something the lock assumed away.
-
-**Real example (Alteromonas coculture analysis):** the step-1 question ("does
-motility go up or down in coculture?") was reopened when step 2 revealed that
-every usable coculture contrast runs in a medium with no added organic carbon —
-reframing it around a carbon-provision hypothesis. The step-1 lock was edited
-(original + evolved question + a decision), not silently replaced.
+**Real example (Alteromonas coculture analysis):** the question "does motility go up or down in coculture?" was reopened when enumerating the KG revealed that every usable coculture contrast runs in a medium with no added organic carbon — reframing it around a carbon-provision hypothesis. The original lock was edited (original + evolved question + a decision), not silently replaced.
 
 ## Hard gates
 
-### GATE 0: Co-define before doing
+### GATE A: Co-define before doing
 
-The first dogfood analysis executed an internal plan and surfaced finished work for review — the researcher reacted to results instead of shaping the step. **Do not start a step's work before proposing it in plain language and getting the researcher's agreement.** Co-define opens the step; decide closes it. (Routine steps may be waved through, but genuine judgment calls never are.)
+The first dogfood analysis executed an internal plan and surfaced finished work for review — the researcher reacted to results instead of shaping the milestone. **Do not start a Run milestone's work before proposing it in plain language and getting the researcher's agreement.** Co-define opens the milestone; decide closes it. (Routine milestones may be waved through, but genuine judgment calls never are.) The Plan phase's equivalent gate is brainstorming's present-design-and-approve step.
 
-### GATE 1: Step boundary
+### GATE B: Milestone boundary
 
-B1 and B2 partially wrote notebooks retroactively — exploration reasoning was lost and couldn't be verified against the actual data state at the time.
+Early analyses partially wrote notebooks retroactively — exploration reasoning was lost and couldn't be verified against the actual data state at the time.
 
-**Do not start step N+1 until step N is committed, including `notebook.md`, `paper.md` updates, and `gaps_and_friction.md` updates if applicable.**
+**Do not start milestone N+1 until milestone N is committed, including `notebook.md`, `paper.md` updates, and `gaps_and_friction.md` updates if applicable.** Likewise, do not start the Run phase until the Plan commit exists.
 
-### GATE 2: Researcher approval
+### GATE C: Critical review before a claim-bearing artifact is shown
 
-B2's scope drift (decisions D5–D8 added mid-execution) slipped past because there was no atomic gate between "I finished some work" and "I'm advancing." The decide phase presents state to the researcher; the researcher approves, requests a redo, or redirects.
+Across analyses, wrong narratives survived because the author was anchored to them — a control heatmap narrated "all 5 are UP" while the data file showed them negative; a per-arm starvation contrast narrated as "coculture vs axenic"; a control row double-counting pooled and per-timepoint genes. The author who wrote the story cannot reliably see its holes; a fresh reader of the data files can.
 
-**Do not commit the step without explicit researcher approval of the decide-gate state.**
+**Do not present a claim-bearing artifact to the researcher until the `critical-review` critic has run with the artifact's lens and every Blocker it raised is resolved** — fixed, or disputed with a specific file-and-number citation (not "I'm confident"). Three artifacts are reviewed automatically: **the proposal** (before the Run phase begins) — interpretation only, no data yet; **the analysis milestone** — data-integrity + interpretation, the heavy gate; **the evaluation milestone** — interpretation only. The critic reviews only that artifact's own files; earlier phases are trusted inputs. Where the critic finds anything, the findings and your dispositions are committed with the phase (`proposal_critical_review.md` for the proposal, `critical_review.md` in the milestone folder otherwise); a clean review is a one-line note in `proposal_notebook.md` or `notebook.md`. The methods milestone is not automatic (it may be reviewed on demand, interpretation-only, when the approach rests on a non-obvious judgment call — a constructed combining key, a derived comparison, non-self-evident controls). Keep it light — see the three bounding rules in the [critical-review skill](../../critical-review/SKILL.md).
 
-### GATE 3: Results presented, not paraphrased
+**Re-review on expansion.** The critic pass is point-in-time. If a milestone's computed claims **materially expand after its pass** — follow-on analyses, new scripts, new conclusions added during decide — re-dispatch the critic over the delta before closing, listing the already-reviewed files as trusted inputs.
 
-Summary tables shown in chat must also appear as markdown tables in `notebook.md`. Prose paraphrases of numbers lose precision and are unreviewable.
+### GATE D: Results presented, not paraphrased
 
-**Do not close the step if the Results section in `notebook.md` is prose where a table belongs.**
+Summary tables shown in chat must also appear as markdown tables in `notebook.md`. Prose paraphrases of numbers lose precision and are unreviewable. This matters more under delegation: the subagent produces the tables, but the main thread must surface the *real numbers*, not the subagent's summary of them.
 
-### GATE 4: Critical review at the steps that make claims
+**Do not close the milestone if the Results section in `notebook.md` is prose where a table belongs.**
 
-Across analyses, wrong narratives survived because the author was anchored to
-them — a control heatmap narrated "all 5 are UP" while the data file showed them
-negative; a per-arm starvation contrast narrated as "coculture vs axenic"; a
-control row double-counting pooled and per-timepoint genes. The author who wrote
-the story cannot reliably see its holes; a fresh reader of the data files can.
+### GATE E: Researcher approval
 
-**At step 5 (analyze) and step 6 (evaluate), do not present the step to the
-researcher until the `critical-review` critic has run with the step's lens and
-every Blocker it raised is resolved** — fixed, or disputed with a specific
-file-and-number citation (not "I'm confident"). The critic reviews only that
-step's own files; earlier steps are trusted inputs. Step 5 gets data-integrity +
-interpretation; step 6 gets interpretation only. Where the critic finds anything,
-the findings and your dispositions are committed with the step in
-`critical_review.md`; a clean review is a one-line note in the **Decide section**
-of `notebook.md`. Steps 1–4 do not require it (step 3 framing may be reviewed on
-demand, interpretation-only, when it rests on a non-obvious judgment call — a
-constructed combining key, a derived comparison, or non-self-evident controls).
-Keep it light — see the three bounding rules in the
-[critical-review skill](../../critical-review/SKILL.md).
+Scope drift (decisions added mid-execution) slips past when there is no atomic gate between "I finished some work" and "I'm advancing." The decide phase presents state to the researcher; the researcher approves, requests a redo, or redirects.
 
-**Re-review on expansion.** The critic pass is point-in-time. If a step's computed
-claims **materially expand after its pass** — follow-on analyses, new scripts, new
-conclusions added during decide — re-dispatch the critic over the delta before
-closing, listing the already-reviewed files as trusted inputs so it reviews only
-the new work. A long exploratory step can outgrow a single up-front gate.
+**Do not commit a milestone without explicit researcher approval of the decide-gate state.**
 
 ## Git discipline
 
 ### Per-analysis .gitignore
 
-Created during scaffolding (at start of step 1). Default:
+Created during scaffolding (at the start of the Plan phase). Default:
 ```
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
@@ -194,8 +176,8 @@ Everything else tracked by default. Explicit entries with a comment explaining w
 
 ### Scaffolding
 
-Scaffolding and step 1 land in the same commit. Claude creates the scaffold during step 1's do phase, before the dialogue begins (see [artifacts.md — Scaffold creation](artifacts.md)). No separate scaffolding commit.
+Scaffolding and the Plan phase land in the same commit. Claude creates the scaffold during the Plan phase, before the brainstorming dialogue begins (see [artifacts.md — Scaffold creation](artifacts.md)). No separate scaffolding commit.
 
 ### Redo commits
 
-Redo produces new commits, not amendments. The failed attempt's commit stays in history. Within the working tree, the step's `notebook.md` is overwritten to reflect the successful attempt.
+Redo produces new commits, not amendments. The failed attempt's commit stays in history. Within the working tree, the milestone's `notebook.md` is overwritten to reflect the successful attempt.

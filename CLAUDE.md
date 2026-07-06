@@ -14,7 +14,7 @@ edited here).
 ## Layout
 
 ```
-.claude/skills/research-methodology/   # Domain rules + the 6-step research flow (reference skill)
+.claude/skills/research-methodology/   # Domain rules + the Plan→Run research arc (reference skill)
 .claude/skills/recipes/                # On-demand analysis protocols land here as methods are formalized (none yet)
 .mcp.json                              # Registers the multiomics-kg MCP server (uv run)
 .env / .env.example                    # KG credentials (gitignored; copy the example)
@@ -34,48 +34,61 @@ a research chat.
 ## Research methodology
 
 **Load the `research-methodology` skill BEFORE invoking
-`superpowers:brainstorming` for step 1 of an analysis.** It contains the KG
-usage rules, gene-identity rules, anti-hallucination patterns,
-scripts-over-chat-reasoning, and the 6-step research flow. Loading after step 1
-is committed means retrofitting.
+`superpowers:brainstorming` for the Plan phase of an analysis.** It contains the
+KG usage rules, gene-identity rules, anti-hallucination patterns,
+scripts-over-chat-reasoning, and the Plan→Run research arc. Loading after the
+plan is committed means retrofitting.
 
-### The 6-step flow
+### The research arc: Plan, then Run
 
-Every research analysis advances through 6 steps:
+Every analysis is two phases:
 
-1. **Research question** — user prompt + clarifying questions → locked question
-   (uses `superpowers:brainstorming` with overrides)
-2. **KG entries** — relevant publications, experiments, organisms, data types
-3. **Analysis framing** — selection + framing (hypothesis, controls, expected
-   outcome) in KG terms
-4. **Methods** — ad-hoc Python module using one item from step 3 as a driving example
-5. **Analyze** — run the method; produce scored outputs, figures, tables
-6. **Evaluate** — assess against framing; harvest caveats; finalize paper
+**Plan** — one grounded `superpowers:brainstorming` conversation converging on
+`proposal.md` (one commit):
+- **Question** — user prompt + clarifying questions → locked question
+- **KG entries** — relevant publications, experiments, organisms, data types,
+  enumerated from the KG
+- **Framing** — enumerated concretely: hypothesis, approach, statistics plan (the
+  specific test or a reasoned "none"), and a named validation set (check
+  genes/pathways with expected behavior)
 
-Steps 1–3 form the research proposal (locked at end of step 3). Steps 4–6
-execute against it.
+**Run** — three milestones, each in its own folder, one commit each:
+- **methods** — ad-hoc Python module implementing the approach the proposal
+  committed to; toy-tested (`superpowers:test-driven-development`)
+- **analysis** — run the method; produce scored outputs, figures, tables
+- **evaluation** — assess against the framing; harvest caveats; finalize paper
 
-### Intra-step rhythm: do → show → explore → decide
+`proposal.md` is the plan (locked at the end of the Plan phase). The Run
+milestones execute against it. The Plan phase collapses onto brainstorming; the
+Run phase is the project's own iterate loop (it is not `executing-plans`, which
+assumes a locked, pre-specified plan).
 
-Every step advances through **do → show → explore → decide**. The **decide**
-phase produces a minimal `notebook.md` checklist and pauses for explicit
-researcher approval before committing. One commit per step, at decide close. See
+### Run-milestone rhythm: co-define → do → show → explore → decide
+
+Each Run milestone advances through **co-define → do → show → explore → decide**,
+with two researcher gates: agreement at **co-define** (before the work) and
+approval at **decide** (after it). The **decide** phase produces a minimal
+`notebook.md` checklist and pauses for explicit researcher approval before
+committing. Execution (KG queries, scripts) is delegated to a coding subagent
+(`superpowers:subagent-driven-development`) that returns artifacts, not
+conclusions; the main thread owns `notebook.md` and all judgment. See
 `.claude/skills/research-methodology/references/step-protocol.md` for commit
-timing, the decide-gate checklist, and hard gates.
+timing, the decide-gate checklist, hard gates, and the delegation rules.
 
-### Just-in-time formalization
+### Just-in-time formalization, with enumeration
 
 Terms, predictions, metrics, stability checks, decisions, and caveats enter the
-analysis **only when the data demands them**. Nothing is enumerated in advance
-"just in case." If you find yourself listing things the analysis might need
-before the data has arrived, stop.
+analysis **only when the data demands them** — but within what the plan *does*
+commit to, be concrete (a vague-but-approved plan forces redos). If you find
+yourself listing things the analysis might need before the data has arrived, stop.
 
-On-demand tools that remain available: `superpowers:brainstorming` (step 1),
-`superpowers:verification-before-completion`, `superpowers:systematic-debugging`,
-`superpowers:requesting-code-review`, and the `critical-review` skill — a
-fresh-context critic that challenges a step's claims against its own data files
-(automatic in the decide phase at step 5 with a data-integrity + interpretation
-lens and step 6 with interpretation only; on demand on any step).
+On-demand tools that remain available: `superpowers:verification-before-completion`,
+`superpowers:systematic-debugging`, `superpowers:requesting-code-review`, and the
+`critical-review` skill — a fresh-context critic that challenges a claim-bearing
+artifact against its own files (automatic on the proposal before the Run phase,
+interpretation-only; at the analysis milestone with a data-integrity +
+interpretation lens; and at the evaluation milestone with interpretation only; on
+demand at any point).
 
 ## MCP server & credentials
 
@@ -89,5 +102,5 @@ to confirm before starting.
 
 The hook in `hooks/log-mcp-usage.sh` appends one JSON line per MCP call to
 `usage/multiomics-kg-usage.jsonl` **inside this repo** (un-ignored). Commit
-`usage/` alongside your per-step analysis commits — the logs help improve the
+`usage/` alongside your per-milestone analysis commits — the logs help improve the
 tools. Forks are public; see the README before you start.
