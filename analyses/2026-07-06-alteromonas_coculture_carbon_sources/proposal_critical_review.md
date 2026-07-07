@@ -152,3 +152,74 @@ systems, matched-max null) is now internally consistent and constructible from t
 actual KG fields. This is the plan-time catch the arc exists for: the error would
 otherwise have surfaced only in the methods milestone as a scorer that silently
 dropped non-significant transporters and selected the least-up system.
+
+---
+
+## Third pass (2026-07-07) — re-review after the identification + degradation machinery was revised
+
+The identification half was materially revised (BRITE `ko02000` enumeration +
+substrate source; explicit transport-system boundary rule; the importer/organic
+classifier named as an audit output; CAZy right-sized; **new decision 13** — the
+degradation-pathway side as two-handle graded corroboration, direction-blind), so
+the critic was re-dispatched over the new machinery, interpretation only, with the
+scoring treated as a trusted (already-vetted) input. It found **no Blockers**, 3
+Concerns + 1 Note. The critic **spot-checked glycolate** and confirmed the
+decision-13 grounding exactly (9 genes / 5 reactions for C00160 in HOT1A3, `glcB`
+absent, and the set *majority glycolate-producing* — 6 producing vs 3 consuming),
+which sharpened Concern 1.
+
+### Concern 1 (interpretation) — the degradation "strong" rung over-reaches a direction-blind handle
+**Critic:** The top rung read "*strong* — a coherent consuming route exists (and,
+where testable, its enzymes are up …)". The co-expression clause was hedged
+"where testable," so "strong" could be granted on route-existence alone — but the
+proposal's own confounder text concedes the handle proves only metabolic reach,
+not flux. The glycolate spot-check shows the raw chemistry arm is dominated by
+*producing* reactions, so "consuming route exists" over-reaches on the very
+validation compound.
+**Disposition — FIXED.** Renamed and re-defined the ladder: the top rung is now
+*route-present + co-expressed* with co-expression **required, not optional**;
+route-present without co-expression is a distinct **weaker** rung labelled
+"metabolic potential only." The label can no longer attach to genome potential
+alone.
+
+### Concern 2 (interpretation) — co-expression billed as confound-free directional evidence
+**Critic:** "Co-expression … is the strongest available directional signal" is not
+reconciled with the growth-rate/regulon confound in the same section — a
+transporter and its catabolic enzymes are a co-regulated set and can co-rise under
+a general anabolic upshift.
+**Disposition — FIXED.** Qualified both the ladder and the confounder text:
+co-expression separates substrate *use* from *production* (direction) but does
+**not** escape the growth-rate confound, so even the top rung leans on
+specificity/coherence, not co-movement. The two passages now agree.
+
+### Concern 3 (interpretation) — boundary rule misses tandem identical unresolved cassettes
+**Critic:** The stop conditions (role clash, annotation break) do not fire for two
+adjacent, same-architecture ABC cassettes both annotated "Putative ABC
+transporter" — all roles are valid (no clash) and annotation is identical (no
+break) — so adjacency fuses them, the exact failure the rule was added to prevent.
+The audit guarantees this unresolved-tandem case occurs.
+**Disposition — FIXED.** Added stop condition (c): a **repeat of an already-filled
+component role** (a second binding protein or second ATPase in the run) marks the
+next cassette. Patched in the Approach reconstruction bullet and decision 7. Also
+noted the exact locus-tag gap is set on real data in methods.
+
+### Note (interpretation) — "chemically coherent" is a post-hoc, author-judged criterion
+**Critic:** Of the three "method works if" criteria, motility-down and the
+organic-matter-degradation signal are falsifiable, but "chemically coherent rather
+than random" is post-hoc and a committed author can satisfy it for almost any
+output — yet it carries part of the carbon claim's falsifiability.
+**Disposition — FIXED.** Pre-committed an operational bar: the passing modules must
+concentrate in a **small set of recognised marine-DOM / known-cyanobacterial-
+exudate chemical classes** (organic acids incl. glycolate, amino acids/peptides,
+sugars, osmolytes), a reference named from the literature **before the ranked
+catalog is read**; a scattered catalog, or one dominated by substrate-unresolved
+coarse modules, fails the bar.
+
+**Summary (third pass).** No Blockers; all 3 Concerns and the Note fixed inline.
+The critic confirmed the revised identification machinery is sound and the
+inorganic-control circularity is already adequately named/downgraded (that
+dimension came back clean). The highest-value fix was Concern 1 — the degradation
+ladder's top label ("strong") no longer attaches to direction-blind metabolic
+potential; it now requires co-expression, and the proposal states plainly that
+even that does not escape the growth-rate confound. The plan is internally
+consistent across the identification, scoring, and degradation machinery.

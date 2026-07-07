@@ -149,17 +149,53 @@ over its **transport systems**; the only within-system aggregation is collapsing
 multi-subunit transporters into one system.
 
 1. **Build modules + controls (per strain, from KG annotation).**
-   - Reconstruct transport **systems** by grouping subunits (binding protein +
-     permease(s) + ATPase) using genomic adjacency (`gene_neighbors`;
-     confirmed viable — subunits sit in consecutive locus tags, e.g. the HOT1A3
-     Fe³⁺ system `ACZ81_00580/00585/00590`) + shared substrate annotation.
-   - Classify each system: **importer vs exporter/efflux**, and **organic-carbon
-     vs inorganic**. Keep organic-C importers as candidate modules.
+   - **Enumerate transporters** by **unioning three sources** — the BRITE
+     transporters tree (`ko02000`; 310 HOT1A3 genes, hierarchical `[KG]`), the
+     **TCDB** transporter classification (`genes_by_ontology(ontology="tcdb")`;
+     ~10% of genes `[KG]`, coarse for ABC but purpose-built for transporters), and
+     product / `function_description` annotation search — so a transporter missed
+     by one handle is still caught by another. Then **reconstruct transport
+     systems** by grouping subunits (binding protein
+     + permease(s) + ATPase) using genomic adjacency (`gene_neighbors`; confirmed
+     viable — subunits sit in consecutive locus tags, e.g. the HOT1A3 Fe³⁺ system
+     `ACZ81_00580/00585/00590`) + shared substrate annotation. **Grouping needs an
+     explicit boundary rule** — adjacency alone will fuse two back-to-back systems,
+     or a transporter with an unrelated neighbour. The rule: group genes that are
+     both adjacent (within a small locus-tag gap — the exact gap set on the real
+     data in methods) **and** carry compatible transporter-component roles or
+     shared substrate annotation, and **stop at (a) a role clash, (b) an annotation
+     break, or (c) a repeat of an already-filled component role** — a second
+     binding protein or second ATPase in the run marks the start of the next
+     cassette. Rule (c) is what splits two adjacent, identically-annotated
+     *unresolved* ABC cassettes (both "Putative ABC transporter"), which (a) and
+     (b) miss. Confirmed on the full transporter set as the methods reconstruction
+     task (decision 7).
+   - **Classify each system** — importer vs exporter/efflux, and organic-carbon
+     vs inorganic — from the BRITE transporter class, TCDB family, and
+     product/COG/`function_description` keywords, each call carrying a
+     confident-vs-inferred flag. Keep organic-C importers as candidate modules.
+     This classifier is a **named output of the substrate-resolution audit**, not
+     a black box: it defines both the candidate set *and* the inorganic control
+     set, so the confident-flag audit that gates the controls (see Reference
+     controls) applies to it too.
    - Tag each module's substrate from **product / COG / `function_description`
-     (primary)** + **TCDB where it is substrate-specific** (the `2.A.x`
-     secondary-carrier families; note the ABC superfamily `tcdb:3.A.1` is
+     (primary)** + the **BRITE transporters tree** (`ko02000`, hierarchical — its
+     deeper levels name substrate classes, though many ABC leaves stay coarse,
+     e.g. "Putative ABC transporter") + **TCDB where it is substrate-specific**
+     (the `2.A.x` secondary-carrier families; the ABC superfamily `tcdb:3.A.1` is
      substrate-agnostic and carries no substrate signal) + **genomic neighbours**.
      Every tag carries a **confident-vs-inferred** flag.
+   - **Assign the finest substrate the evidence confidently supports — and no
+     finer.** If the annotation confidently pins a specific compound, use it; if
+     confidence only reaches a class ("branched-chain amino acids", "hexose
+     sugars"), the label **is** that class — a broad category is an honest tag, not
+     a failure. **Non-specific / promiscuous transporters** (a general amino-acid
+     permease, a broad sugar carrier) are tagged at their confident **class** and
+     carry their **candidate substrate options listed** (e.g. Leu / Ile / Val for a
+     branched-chain system), flagged *multi-substrate* — never force-collapsed onto
+     one compound, never silently dropped. Broad and multi-substrate modules are
+     reported distinctly, with their system count, so a reader sees they name a
+     **category of carbon**, not a single named source.
    - Tag each module **C-only** (sugars, organic acids, glycolate, lipids) vs
      **dual C+N** (amino acids, peptides, nucleosides) and report the two
      distinctly, for transparency. **C+N modules do count** as candidate carbon
@@ -170,11 +206,37 @@ multi-subunit transporters into one system.
      — so uptake of a C+N compound is genuine carbon acquisition, not a nitrogen
      signal to be filtered out. The distinct tag simply lets the reader see which
      candidates also carry nitrogen. Catabolism corroboration raises confidence
-     for **any** module (C-only or C+N) but is not an inclusion gate. (The
+     for **any** module (C-only or C+N) but is not a requirement for inclusion. (The
      live-exudate vs dead-cell distinction is out of scope here — both count as
      Prochlorococcus-derived carbon.)
-   - Pair each module with its **degradation pathway** (KEGG / EC / **CAZy** for
-     carbohydrates + neighbours).
+   - **Corroborate with breakdown (catabolism) evidence — only where the KG curates
+     direction, and never as part of the ranking.** The KG can't tell breakdown from
+     biosynthesis at the enzyme level: reaction direction is unreliable (that's *why*
+     the KG is direction-agnostic), and GO catabolic/biosynthetic process is absent
+     for **8 of the 9** glycolate enzymes tested — the one that carried a process
+     term was tagged *biosynthetic* `[KG]`. Direction is curated in exactly one
+     place: a **dedicated KEGG _degradation_ map** (e.g. branched-chain amino acids
+     `ko00280` = 32 HOT1A3 genes; lysine `ko00310`). So:
+     - **Find the most relevant _degradation_ map** for each module's substrate. The
+       match may be **exact, broader (a class map for a specific substrate), or
+       narrower** — record which; a broader map corroborates the *class*, not the
+       specific compound. It must be a **degradation / catabolic** map — a
+       direction-neutral metabolism map (e.g. glycolate's `ko00630` "glyoxylate and
+       dicarboxylate metabolism") does **not** count.
+     - **Test that map for upregulation** in the (experiment × timepoint): **reuse
+       the genome-wide `pathway_enrichment` (ORA, proper background, step 4)** — read
+       whether the map is over-represented among up-genes; for a map too small for
+       ORA, fall back to the **median up-percentile** of its genes (the transport
+       rank machinery). Either way the result is one **descriptive up / not-up
+       flag**.
+     - **Corroboration only — never in the ranking or the FDR family.** The module's
+       score and significance are entirely the uptake (transport) side; the
+       breakdown flag only raises or lowers confidence in the write-up.
+     - **Where no degradation map exists at any granularity** (most specific
+       compounds, including glycolate): breakdown direction is **"not determinable"**
+       — stated plainly, and the module rests on uptake + chemical specificity. Named
+       genes like `glcB` may still be reported as a **narrative soft-positive**, not
+       scored.
    - **Module granularity = the finest substrate the annotation resolves.**
      Different substrates **never share a module** — a glucose transporter and a
      fructose transporter are two modules, so a flat one cannot dilute an
@@ -184,8 +246,16 @@ multi-subunit transporters into one system.
      flagged *substrate-unresolved* — never merged with a resolved module. The
      achievable granularity is **annotation-limited and empirical**, so the
      **first methods task is a substrate-resolution audit** (per transporter:
-     specific compound / narrow class / broad class / unresolved), which *sets*
-     the module boundaries; the resolution achieved is reported.
+     specific compound / narrow class / broad class / multi-substrate with options
+     listed / unresolved — always the finest the evidence *confidently* supports),
+     which *sets* the module boundaries; the resolution achieved is reported. The KG already
+     shows this ceiling is real and uneven: in the BRITE transporters tree only
+     ~104 of 310 HOT1A3 transporter genes reach the finest level, and some of
+     those leaves are still substrate-agnostic `[KG]`. So the audit is expected to
+     return a **mix** — some transporters resolved to a specific compound, many
+     only to a class, some unresolved — and the module structure **adapts per
+     transporter** to whatever the annotation supports, rather than forcing a
+     uniform granularity.
    - **Guard against max inflating coarse modules.** Because the module effect is
      a *max*, a large *substrate-unresolved* module can be lit by a single strong
      member. Two guards: the matched-max null draws **same-size** random sets (so
@@ -247,9 +317,15 @@ multi-subunit transporters into one system.
    and expressed as a **count of independent results** — never a merged dataset
    or a combined p.
 
-4. **Enrichment guard.** The KG's built-in `pathway_enrichment` (ORA) per
-   experiment, as a coarse check that carbon pathways are over-represented among
-   up-genes — guards against a single-gene or cherry-picked read.
+4. **Enrichment guard (genome-wide) — also the source of the per-module breakdown
+   flag.** The KG's built-in `pathway_enrichment` (ORA) run **once per experiment on
+   that experiment's full DE**, against KG ontology terms. It serves two roles: (a) a
+   coarse genome-wide check that carbon / degradation pathways are over-represented
+   among up-genes (guards against a single-gene or cherry-picked read); and (b) the
+   read-off for each module's **breakdown flag** — whether that module's dedicated
+   degradation map (step 1) came out over-represented here. It is **not** the module
+   *ranking*, which is the transport side (steps 1–2). We do **not** build custom
+   gene sets for our own ORA.
 
 5. **Temporal overlay (corroboration only).** The same module method per
    time-course experiment; coculture and axenic trajectories reported
@@ -259,8 +335,9 @@ multi-subunit transporters into one system.
 
 **Output:** a ranked catalog of candidate carbon sources, each carrying — per
 (experiment × timepoint) — uptake evidence (rank/direction distribution of its systems),
-catabolism corroboration, C-only vs C+N tag, annotation confidence, inorganic-
-control contrast, and a cross-experiment support count.
+the breakdown flag where a degradation map exists (else "not determinable"), C-only
+vs C+N tag, annotation confidence, inorganic-control contrast, and a cross-experiment
+support count.
 
 ### Statistics decision (deliberate)
 
@@ -281,17 +358,26 @@ control contrast, and a cross-experiment support count.
   different substrates never share one. Fold-change is **not** compared across
   experiments. `pathway_enrichment` ORA kept as the coarse genome-wide guard.
   Toy-tested against a hand-computed example first.
-- **Multiple-testing correction (BH / FDR).** The module permutation p-values
-  are corrected by **Benjamini–Hochberg within each (experiment × timepoint)**,
-  across the substrate modules tested there → q-values; a module is called up in
-  that unit at **q < 0.10** (discovery-catalog FDR, stated with every call). FDR
-  not FWER because this is a discovery catalog and Bonferroni would waste power
-  given small system counts and the permutation p-floor. Only modules with
-  **≥2 systems** enter the FDR family; 1-system modules carry a bare percentile
-  (weak descriptive evidence), outside the correction. The **source per-gene DE
-  is already BH-corrected** by the original authors (`padj`) and is **not**
-  re-corrected. (Permutation p-values have a floor — 10⁴ perms → min p ≈ 10⁻⁴ —
-  so BH ties at the floor are handled in the methods milestone.)
+- **Multiple-testing correction (BH / FDR).** **One FDR family per (experiment ×
+  timepoint), and it is the modules' _transport_ test.** The tested unit is the
+  **module** (one permutation p per module, from its max-system up-percentile —
+  **not** one p per transport system). Those module p-values are corrected by
+  **Benjamini–Hochberg within each (experiment × timepoint)**, across the substrate
+  modules tested there → q-values; a module is called up in that unit at **q <
+  0.10** (discovery-catalog FDR, stated with every call). FDR not FWER because this
+  is a discovery catalog and Bonferroni would waste power given small system counts
+  and the permutation p-floor. Only modules with **≥2 systems** enter the FDR
+  family; 1-system modules carry a bare percentile (weak descriptive evidence),
+  outside the correction.
+  - **The breakdown flag is supporting evidence, outside the FDR family.** A
+    module's up / not-up breakdown flag (from its degradation map, step 1) is **not**
+    added to the transport FDR family and gets **no** FDR correction — folding it in
+    would double-correct and turn supporting evidence into a second gate. It is
+    reported per module as a descriptive (uncorrected) signal.
+  - The **source per-gene DE is already BH-corrected** by the original authors
+    (`padj`) and is **not** re-corrected. (Permutation p-values have a floor — 10⁴
+    perms → min p ≈ 10⁻⁴ — so BH ties at the floor are handled in the methods
+    milestone.)
 - **No pooling / no combined p.** Cross-experiment agreement is a **count** over
   independent per-experiment results (units passing FDR), not a meta-analytic
   statistic and not a further correction layer — the timepoints of one time
@@ -329,8 +415,13 @@ control contrast, and a cross-experiment support count.
 | Inorganic importers (Fe/Na/K/sulfate) | TCDB / annotation | should **not** track carbon provisioning | built-in negative class |
 
 **Method "works" if:** motility is down; the study's own organic-matter-
-degradation signal reappears; and the candidate list is chemically coherent
-rather than random. Organic-C modules moving more than the inorganic controls is
+degradation signal reappears; and the candidate list is **chemically coherent** —
+operationally, the passing modules **concentrate in a small set of recognised
+marine-DOM / known-cyanobacterial-exudate chemical classes** (organic acids
+including glycolate, amino acids / peptides, sugars, osmolytes), a reference set
+named from the literature **before the ranked catalog is read**, not fitted to it.
+A catalog scattered evenly across unrelated substrate types, or dominated by
+substrate-unresolved coarse modules, does **not** meet the bar. Organic-C modules moving more than the inorganic controls is
 **supportive, not decisive** — the growth-rate confound below can also produce it,
 so the carbon claim rests on specificity/coherence, not that bulk contrast.
 Glycolate is a **soft** positive — its surfacing corroborates, but its
@@ -367,6 +458,16 @@ Named now so they are not discovered as surprises mid-run:
 - **Inorganic control shares the module pipeline's annotation failure modes**
   (see Reference controls) — needs a confident-flag audit before bounding a
   false-positive rate.
+- **Breakdown direction is only knowable where the KG curates it.** The KG can't
+  tell breakdown from biosynthesis at the enzyme level (reaction direction
+  unreliable; GO catabolic/biosynthetic process absent for 8/9 glycolate enzymes),
+  so breakdown evidence is used **only** where a dedicated KEGG _degradation_ map
+  exists (class-level) — everywhere else it is "not determinable" and the module
+  rests on uptake + chemical specificity. Even where a map exists, its genes being
+  up does **not** escape the growth-rate/regulon confound (a transporter and its
+  catabolism are regulated as a unit and can rise together under a general anabolic
+  upshift), so the breakdown flag is supporting, never decisive; the carbon claim
+  still rests on chemical coherence.
 
 ---
 
@@ -384,8 +485,13 @@ Named now so they are not discovered as surprises mid-run:
 5. 2016.70 = **context only** (up-only; same strain, different partner).
 6. Substrate tag = product/COG (primary) + TCDB-where-specific + neighbours,
    with confident-vs-inferred flags (TCDB is often superfamily-level for ABC).
-7. Counting unit = **transport system** (subunits collapsed), pending a methods
-   viability confirmation on the full transporter set.
+7. Counting unit = **transport system** (subunits collapsed), reconstructed by
+   adjacency **+ compatible component-role / substrate annotation with an explicit
+   boundary rule** (stop at a role clash, an annotation break, or a **repeated
+   component role** — the last splits tandem identical unresolved cassettes),
+   confirmed on the full transporter set as a methods task. Transporters
+   enumerated from the **union** of the BRITE transporters tree (`ko02000`), TCDB,
+   and annotation search.
 8. Dual C+N substrates **included and counted** as candidate carbon sources,
    **tagged distinctly** for transparency (they also carry N). Working
    hypothesis: carbon from Prochlorococcus-derived organic matter (exudate
@@ -404,9 +510,31 @@ Named now so they are not discovered as surprises mid-run:
     score.
 11. Glucose-addition experiment **excluded** (too few DE proteins); exometabolomics
     and ortholog-agreement **deferred** (optional).
-12. **Module granularity = finest resolvable substrate** (annotation-limited;
-    set by a methods substrate-resolution audit). Different substrates never
-    share a module; unresolved transporters become own flagged coarse modules.
+12. **Module granularity = finest _confidently_ resolvable substrate**
+    (annotation-limited; set by a methods substrate-resolution audit that reads
+    BRITE-tree levels + fused product/COG/`function_description`/TCDB). Assign the
+    most specific substrate the evidence confidently supports and **no finer**;
+    broad categories are valid tags. The audit returns a **mix** —
+    specific-compound, class-level, **multi-substrate (options listed)**, and
+    unresolved — and the module structure adapts to each: different substrates
+    never share a module; **promiscuous transporters become one class-level module
+    with their substrate options highlighted**; unresolved ones become own flagged
+    coarse modules.
+13. **Breakdown (catabolism) evidence = a qualitative flag, only where the KG
+    curates direction, never in the ranking.** The KG can't separate breakdown from
+    biosynthesis at the enzyme level (reaction direction unreliable; GO
+    catabolic/biosynthetic process absent for 8/9 glycolate enzymes, the 1 tagged
+    *biosynthetic* — query 13). Direction is curated only in **dedicated KEGG
+    _degradation_ maps** (e.g. BCAA `ko00280` = 32 HOT1A3 genes, lysine `ko00310`).
+    Per module: find the most relevant degradation map (match may be exact / broader
+    / narrower — recorded; must be a catabolic map, not a direction-neutral
+    metabolism map); test it for upregulation by **reusing the genome-wide
+    `pathway_enrichment` (ORA, step 4)**, or the median up-percentile of its genes
+    for a map too small for ORA → a **descriptive up / not-up flag**. **Corroboration
+    only — not in the module score or FDR family.** Where no degradation map exists
+    (most specific compounds, incl. glycolate) breakdown is **"not determinable"**;
+    the module rests on uptake + specificity, and named genes like `glcB` are a
+    narrative soft-positive, not scored. (Researcher + grounding queries 11–13.)
 
 See `proposal_notebook.md` for the grounding queries, counts, and rejected
 alternatives behind each.

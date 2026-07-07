@@ -6,11 +6,22 @@
 
 - **Branch:** `methodology/plan-run-arc`. On the other clone: `git fetch && git
   checkout methodology/plan-run-arc && git pull`.
-- **Phase:** Plan phase **drafted, self-reviewed, and critic-vetted** (two critic
-  passes; the second caught and fixed two scoring Blockers). **Committed** so it
-  can be continued elsewhere — but **not yet formally approved**: the researcher
-  has a few remaining questions about the plan before final sign-off and starting
-  the Run phase.
+- **Phase:** Plan phase committed, then **refined through a researcher
+  pre-approval review** (this session) and **critic-vetted a third time** (clean of
+  Blockers). **Still not formally approved** — researcher is going to **reread the
+  revised `proposal.md`** before sign-off, then Run phase.
+- **What changed this session (all in `proposal.md` + logged in
+  `proposal_notebook.md`):** transporter enumeration now unions BRITE `ko02000` +
+  TCDB + annotation search; explicit transport-**system boundary rule** (decision
+  7); substrate tag = finest the evidence *confidently* supports, promiscuous
+  transporters get options listed (decision 12); the **breakdown/degradation side
+  was cut down** — grounding showed the KG can't recover breakdown direction
+  per-enzyme (reaction direction unreliable; GO process absent 8/9 for glycolate),
+  so it's now a **qualitative up/not-up flag from a dedicated KEGG _degradation_
+  map** (reusing genome-wide `pathway_enrichment` ORA), **corroboration only, not
+  in the ranking/FDR**; else "not determinable" → module rests on uptake +
+  specificity (decision 13). Terminology plain-language swept twice (no coined
+  labels). Third critic pass in `proposal_critical_review.md`.
 - **Analysis dir:** `analyses/2026-07-06-alteromonas_coculture_carbon_sources/`
   - `proposal.md` — the plan (question, KG entries, framing, scoring, stats,
     confounders, 12 locked decisions)
@@ -46,8 +57,12 @@ null, BH/FDR per (experiment × timepoint), no pooling. See `proposal.md`.
 
 ## Open threads to expect from the researcher
 
-- A few remaining plan questions (unspecified) before final approval.
+- **Researcher still needs to reread the revised `proposal.md`** (went home
+  mid-read) before approving. Approval → open the **methods** milestone by
+  co-defining it (first task: substrate-resolution audit + transport-system
+  reconstruction on the full transporter set).
 - The earlier steer "use the stored rank property" — resolved to ranking the
-  provided `log2fc` instead, because the stored directional `rank_up`/`rank_down`
-  are significant-genes-only (see `proposal_critical_review.md` second pass). Worth
-  reconfirming they're happy with that.
+  provided `log2fc` instead (stored `rank_up`/`rank_down` are significant-genes-only;
+  `proposal_critical_review.md` second pass).
+- The breakdown/degradation cut-down (decision 13) was agreed in-session but the
+  researcher hasn't reread the final wording — worth a confirm.

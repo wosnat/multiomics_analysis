@@ -38,6 +38,23 @@ signal. Feeds the watch-list in `docs/methodology-test-brief.md`.
   with two queries mid-conversation, so the plan commits only to what the data
   supports.
 
+## Pre-approval researcher review (watch-list #1)
+
+- **The approval gate — re-reading the enumerated proposal before sign-off —
+  caught an unused KG handle and quantified a risk, before any Run work.** A
+  targeted "is this grounded?" pass over the identification/scoring machinery
+  found (a) the plan named product/COG/TCDB + adjacency but **never referenced the
+  BRITE transporters tree** (`ko02000`, 310 genes, hierarchical) — a purpose-built
+  handle now folded in; (b) it leaned on **CAZy** for catabolism, which is ~1%
+  covered here → right-sized to KEGG/EC; and (c) the substrate-resolution ceiling
+  is now a **number** (104/310 reach the finest BRITE level) rather than an
+  assertion, which is what lets decision 12 say "adapts per transporter" honestly.
+- Also surfaced two transport-system-definition gaps that *read* fine in prose —
+  no system-boundary rule, and an un-operationalised importer/organic classifier —
+  and made both explicit as methods tasks. These are exactly the "reads rigorous,
+  bites in methods" holes the enumerated-plan + review-before-execute structure is
+  meant to open at plan time. Cost: a few edits, no re-grounding mid-run.
+
 ## Proposal critic (watch-list #2)
 
 - **The critic caught a real conflation a vague plan would have hidden.** Reading
@@ -86,6 +103,21 @@ signal. Feeds the watch-list in `docs/methodology-test-brief.md`.
 - Also a KG/tooling note (watch-list-adjacent): the raw-`run_cypher` check saw
   what the curated MCP view hid (the `rank_by_effect`→`rank` rename and the
   significant-only null population). Logged in `gaps_and_friction.md`.
+
+## Third critic pass — re-review after the identification/degradation revision (watch-list #2)
+
+- A **third** cold pass, run after this session added the transporter-ID and
+  degradation machinery, caught a real over-reach in the *newly-added* scheme: the
+  degradation "strong" rung could attach to direction-blind metabolic potential
+  alone, contradicting the proposal's own direction-blind caveat. The critic
+  sharpened it with a **glycolate spot-check** — the chemistry arm is *majority*
+  glycolate-*producing* (6 of 9), so "consuming route exists" over-reached on the
+  very validation compound. Fixed by requiring co-expression for the top rung.
+- Reinforces the second pass's lesson a second time: **each material revision
+  earns its own re-review.** Passes 1 and 2 were clean on the identification/
+  degradation area because that machinery didn't exist yet or wasn't detailed;
+  the third pass is where the just-added scheme got its adversarial read — and it
+  found something. Cost: four inline edits, no Run-phase redo.
 
 ## To re-evaluate after the Run phase
 
