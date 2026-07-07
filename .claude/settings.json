@@ -41,7 +41,8 @@
       "mcp__multiomics-kg__pathway_enrichment",
       "mcp__multiomics-kg__resolve_gene",
       "mcp__multiomics-kg__search_homolog_groups",
-      "mcp__multiomics-kg__search_ontology"
+      "mcp__multiomics-kg__search_ontology",
+      "mcp__multiomics-kg__run_cypher"
     ]
   },
   "hooks": {
