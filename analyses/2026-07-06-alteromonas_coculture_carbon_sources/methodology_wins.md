@@ -119,6 +119,23 @@ signal. Feeds the watch-list in `docs/methodology-test-brief.md`.
   the third pass is where the just-added scheme got its adversarial read — and it
   found something. Cost: four inline edits, no Run-phase redo.
 
+## Fourth critic pass — caught a Blocker at the final gate (watch-list #2, #6)
+
+- The **final** pre-approval pass found a real **Blocker** in machinery added *by a
+  previous critic pass*: the system-boundary rule (c) fragmented common ABC importers
+  with two permeases / two ATPases. The critic **KG-verified** it on the
+  branched-chain importer `livKHMGF` — the proposal's *own* worked example, which the
+  author never checked against the rule. Classic "reads fine, breaks in methods,"
+  caught at plan time instead of as a wrong system count mid-run.
+- It also caught a correctness error the earlier passes missed: the ≥2-system FDR
+  gate (a pass-2 disposition) rested on the false premise that a 1-system module is an
+  "uncorrected single-gene call" — it structurally excluded the single-transporter
+  specific substrates that *are* the deliverable. Reversed with reasoning.
+- Reinforces the strongest methodology lesson of this dogfood: **each material
+  revision earns its own cold re-review, and later passes catch what earlier ones
+  (and prior critics' own fixes) introduced.** Four passes, four rounds of real
+  catches, zero Run-phase redos so far.
+
 ## To re-evaluate after the Run phase
 
 - Watch-list #4 (does coding-subagent delegation keep the main thread clean, or

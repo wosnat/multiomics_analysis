@@ -238,6 +238,9 @@ explorer-MCP 0.1.0a4). Whole-KG: 124,751 genes, 197 experiments, 43 papers,
 
 ## Decisions log
 
+*Chronological — where entries conflict, the **later** entry wins. Superseded
+entries are kept for the record; the current spec is `proposal.md`.*
+
 - **2026-07-06** — Question widened from "what's happening in Weissberg 2025" to
   multi-strain "carbon sources used by Alteromonas in coculture with
   Prochlorococcus"; Weissberg 2025 remains the subject, others independent
@@ -263,9 +266,10 @@ explorer-MCP 0.1.0a4). Whole-KG: 124,751 genes, 197 experiments, 43 papers,
   significance = permutation null vs genome and vs inorganic controls; subunits
   collapsed to systems; toy-tested first. (Researcher.)
 - **2026-07-07** — Multiple testing: BH/FDR on module permutation p-values
-  **within each (experiment × timepoint)**, q < 0.10; ≥2-system modules only;
-  source per-gene DE not re-corrected; cross-unit agreement is a count, not a
-  further correction. (Researcher.)
+  **within each (experiment × timepoint)**, q < 0.10; ~~≥2-system modules only~~
+  *(superseded by the fourth-pass entry below — all modules incl. 1-system get a
+  proper q)*; source per-gene DE not re-corrected; cross-unit agreement is a count,
+  not a further correction. (Researcher.)
 - **2026-07-07** — Module granularity = finest resolvable substrate; different
   substrates never share a module (a flat fructose transporter must not dilute an
   up glucose one); unresolved transporters become own flagged coarse modules.
@@ -318,6 +322,21 @@ explorer-MCP 0.1.0a4). Whole-KG: 124,751 genes, 197 experiments, 43 papers,
   would double-correct and re-gate); 1-system modules likewise stay descriptive.
   No pooling across units; cross-unit agreement is the composition-tagged count.
   (Researcher question: one run? FDR per each? once per experiment×timepoint?)
+- **2026-07-07 (fourth critic pass — final pre-approval)** — Fixed one Blocker + 3
+  Concerns (see `proposal_critical_review.md` fourth pass): **(Blocker)** the
+  system-boundary rule (c) wrongly split real ABC importers with two permeases / two
+  ATPases (KG-verified on branched-chain `livKHMGF`) — rescoped so a repeated role
+  splits **only** indistinguishable unresolved/putative cassettes, never a
+  shared-substrate system. **(FDR)** dropped the ≥2-system exclusion — all modules
+  incl. 1-system get a proper q from their same-size null (a 1-system module is not
+  an uncorrected single-gene call; a system is several co-moving subunits), so
+  single-transporter substrates (glutamine/iron/phosphate) are no longer structurally
+  uncallable; system count travels with the call. **(coherence)** "chemically
+  coherent" downgraded to a weak/near-confirmatory check + pre-committed an
+  expected-negative (aromatic/xenobiotic importers should not dominate); the
+  falsifiable core is the per-module reproducible q<0.10 calls. **(over-claim)**
+  hypothesis + module definition qualified — breakdown is a corroboration flag "where
+  a degradation map exists," not a required component. (Researcher + critic.)
 - **2026-07-07 (enrichment-guard ontology)** — Decided the *principle* now, deferred
   the *tunable* to the pre-flight tool. Breakdown-flag role = **KEGG forced** (the
   degradation maps are KEGG). Genome-wide guard = **metabolism/pathway ontologies

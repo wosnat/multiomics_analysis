@@ -223,3 +223,78 @@ ladder's top label ("strong") no longer attaches to direction-blind metabolic
 potential; it now requires co-expression, and the proposal states plainly that
 even that does not escape the growth-rate confound. The plan is internally
 consistent across the identification, scoring, and degradation machinery.
+
+---
+
+## Fourth pass (2026-07-07) — final pre-approval, after the KEGG-KO + degradation-cut + enrichment-ontology round
+
+Re-dispatched over the machinery changed since pass 3 (breakdown cut-down, KEGG KO
+promotion, enrichment-ontology decision), interpretation only; the transport-side
+scoring was a trusted input. Found **1 Blocker + 3 Concerns + 2 Notes**. The Blocker
+was **KG-verified** by the critic. All fixed inline.
+
+### Blocker (interpretation) — system-boundary rule (c) fragments real ABC importers
+**Critic:** Rule (c) ("stop at a repeat of an already-filled component role") splits
+legitimate single ABC importers that carry two permeases and/or two ATPases — a
+common class. KG-verified: branched-chain amino-acid importer `livKHMGF` has
+`livH`/`livM` both permease (`K01997`/`K01998`) and `livG`/`livF` both ATP-binding
+(`K01995`/`K01996`), so rule (c) fragments one physical transporter into three,
+corrupting the counting unit the whole scoring rests on — and it hits the proposal's
+own Leu/Ile/Val example. Rule also not well-posed against the "shared substrate
+annotation" grouping clause.
+**Disposition — FIXED.** Rescoped: stop only at (a) role clash or (b) annotation
+break; **shared specific substrate (or a KO resolving subunits to one named system)
+holds a multi-permease/multi-ATPase system together**; the repeated-role stop is
+only a **tiebreaker for indistinguishable unresolved/putative cassettes**. Fixed in
+the boundary-rule text and decision 7 (not deferred to methods — the rule as written
+was wrong). Ironic note: rule (c) was itself a pass-3 recommendation; it over-fired.
+
+### Concern (interpretation) — ≥2-system FDR gate sidelines single-transporter substrates
+**Critic:** The gate excludes 1-system modules from FDR/count on the premise they're
+"uncorrected single-gene calls" — but the same-size null is well-defined for size 1,
+and a system is multi-subunit (co-moving genes, not one gene), so a 1-system module
+*can* be legitimately significant. Many specific substrates (glutamine, iron,
+phosphate) have exactly one transporter, so the gate structurally sidelines the
+analysis's own deliverable and enriches the ≥2-system tier for coarse lumped modules.
+**Disposition — FIXED (reverses pass-2 Concern B, which rested on the "single-gene"
+misconception).** All modules incl. 1-system now enter the FDR family with a proper
+q from their same-size null; **system count travels with every call** so thinness is
+visible; single-transporter substrates are no longer structurally uncallable.
+Corrected the "cannot be enriched"/"single-gene" wording. Flagged for researcher
+reconfirmation on reread.
+
+### Concern (interpretation) — "chemically coherent" is near-unfalsifiable
+**Critic:** The pre-committed class set (organic acids, amino acids, peptides, sugars,
+osmolytes) spans essentially all marine-heterotroph organic uptake, so "hits fall in
+it" is near-guaranteed — and with breakdown mostly not-determinable and the temporal
+read demoted, this weak bar is carrying load.
+**Disposition — FIXED.** Downgraded chemical coherence to an explicitly weak,
+near-confirmatory check; pre-committed an **expected-negative** (aromatic/xenobiotic
+importers should not dominate); stated the falsifiable core is the per-module
+reproducible q<0.10 calls, not class concentration.
+
+### Concern (interpretation) — hypothesis + module definition over-claim catabolism
+**Critic:** After the cut, "corroborated by their catabolism" (hypothesis) and
+"plus that substrate's degradation pathway" (module definition) describe evidence the
+method mostly won't have.
+**Disposition — FIXED.** Both qualified to "a breakdown-pathway corroboration flag
+*where a dedicated KEGG degradation map exists*"; the scored unit is the transport
+system(s); glucose example updated to note glycolysis gives no usable flag.
+
+### Note (interpretation) — breakdown flag vs guard may run at different KEGG levels
+**Disposition — FIXED.** Step 4 now states the breakdown flag is read at KEGG
+pathway-map level (via the median-percentile fallback if the genome-wide guard lands
+on a different KEGG granularity).
+
+### Note (interpretation) — stale notebook decision entries
+**Disposition — FIXED.** Added a "later entry wins" head note to the decisions log and
+struck the superseded ≥2-system line.
+
+**Summary (fourth pass).** One real Blocker — the boundary rule that would have
+mis-counted a common, important class of transporters (branched-chain and other
+multi-permease ABC importers), caught by a KG spot-check the author's own worked
+example should have caught but didn't. Fixed in the rule text. The most consequential
+Concern was the FDR gate that structurally excluded single-transporter substrates —
+the analysis's own deliverable — on a misconception; now all modules are tested and
+the thinness is shown, not gated. The inorganic-control circularity again came back
+clean. With these fixes the plan has no known Blockers.

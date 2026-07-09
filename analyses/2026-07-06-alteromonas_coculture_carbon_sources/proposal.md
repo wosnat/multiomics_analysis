@@ -111,10 +111,12 @@ contrast, but a temporal ramp **alone does not name a carbon source**.
 
 In coculture with *Prochlorococcus*, *Alteromonas* obtains its organic carbon
 from compounds the cyanobacterium releases (the medium supplies none). This
-appears as upregulation — coculture vs axenic — of specific **transport-system →
-degradation-pathway modules**, each module standing for one substrate. The
-modules that turn on reproducibly (in separate experiments, corroborated by
-their catabolism and genomic neighbourhood) name the candidate carbon sources.
+appears as upregulation — coculture vs axenic — of specific **transport-system
+modules** (one module = one substrate), **with a breakdown-pathway corroboration
+flag where a dedicated KEGG degradation map exists** (not determinable for most
+compounds — see the breakdown-evidence rule). The modules that turn on reproducibly
+(in separate experiments, and where testable corroborated by their catabolism and
+genomic neighbourhood) name the candidate carbon sources.
 We expect a **limited, chemically coherent** set (recognisable marine DOM
 components) rather than indiscriminate uptake, organic-carbon importers to move
 **more than inorganic-ion importers**, and motility to fall (a known coculture
@@ -131,10 +133,13 @@ exudate) should surface if present. `[interpretation]`
   together (binding protein + permease(s) + ATPase), rebuilt from genomic
   adjacency + shared annotation. The **counting unit** — a multi-subunit
   transporter votes once.
-- **Module** — *one substrate*: all the transport system(s) that import it **plus**
-  that substrate's degradation pathway. The unit of the final catalog and the
-  independent hypothesis ("is compound X a carbon source?"). E.g. the glucose
-  module = {glucose transport system(s)} + {glucose catabolism genes}.
+- **Module** — *one substrate*: all the transport system(s) that import it, **plus a
+  breakdown-pathway corroboration flag where a dedicated KEGG degradation map exists**
+  (absent for most compounds). The *scored* unit is the transport system(s); the
+  breakdown flag is corroboration only. The unit of the final catalog and the
+  independent hypothesis ("is compound X a carbon source?"). E.g. the glucose module
+  = {glucose transport system(s)} + (glycolysis is shared/always-on → no usable
+  breakdown flag).
 
 Hierarchy: **genes → systems → modules.** The mapping system→module is not
 strictly one-to-one — a promiscuous transporter may inform more than one module,
@@ -168,13 +173,19 @@ multi-subunit transporters into one system.
      data in methods) **and** carry compatible transporter-component roles —
      **read directly from the KEGG KO name where present** ("substrate-binding" /
      "permease" / "ATP-binding", grounded on the Fe³⁺ system `K02010/11/12` `[KG]`) —
-     or shared substrate annotation, and **stop at (a) a role clash, (b) an annotation
-     break, or (c) a repeat of an already-filled component role** — a second
-     binding protein or second ATPase in the run marks the start of the next
-     cassette. Rule (c) is what splits two adjacent, identically-annotated
-     *unresolved* ABC cassettes (both "Putative ABC transporter"), which (a) and
-     (b) miss. Confirmed on the full transporter set as the methods reconstruction
-     task (decision 7).
+     or shared substrate annotation, and **stop at (a) a role clash or (b) an
+     annotation break**. **Shared specific-substrate annotation (or a KO that
+     resolves the subunits to one named system) holds a system together even when a
+     component role repeats** — many real ABC importers legitimately carry two
+     permeases and/or two ATPases (e.g. the branched-chain amino-acid importer
+     `livKHMGF`: `livH`/`livM` both permease `K01997`/`K01998`, `livG`/`livF` both
+     ATP-binding `K01995`/`K01996` `[KG]`), and must **not** be split. Only as a
+     **tiebreaker for indistinguishable cassettes** — two adjacent subunits that are
+     both *unresolved / putative* (e.g. both "Putative ABC transporter") and share
+     **no** specific substrate — does a **repeat of an already-filled role** (a
+     second binding protein or ATPase) mark a new cassette. The small locus-tag gap
+     and this tiebreaker are confirmed on the full transporter set in methods
+     (decision 7).
    - **Classify each system** — importer vs exporter/efflux, and organic-carbon
      vs inorganic — from the **KEGG KO** / BRITE transporter class, TCDB family, and
      product/COG/`function_description` keywords, each call carrying a
@@ -312,9 +323,13 @@ multi-subunit transporters into one system.
      the null. Permutation rather than an asymptotic test because modules are
      small (often 1–5 systems) and systems are not independent.
    - **Report the per-system distribution** (each system's percentile and
-     significance call), not just the reduced score. A **1-system module cannot be
-     "enriched"** — its score is that one system's percentile, weak evidence; real
-     significance comes from multi-system coherence.
+     significance call), not just the reduced score. A **1-system module is scored
+     and tested like any other** — its same-size null is well-defined (draw random
+     single systems), and a transport system is itself several co-moving subunits
+     (not one gene), so a single reproducibly-up system *can* be significant. Its
+     evidence is simply **thinner** than a multi-system coherent module, so its
+     **system count travels with the call** and multi-system coherence reads as
+     stronger — but a 1-system module is **not** excluded from testing.
    - **Scope of the ranking:** genome-wide for `all_detected_genes` experiments
      (HOT1A3 — all 3947 genes have `log2fc`), but only the **significant set** for
      `significant_only` experiments (EZ55, ~300–400 genes have rows at all), where
@@ -349,7 +364,12 @@ multi-subunit transporters into one system.
      guard's question. The **exact level** within KEGG / EC is set **later, in
      methods**, by running `ontology_landscape` **per experiment** (weighted by that
      experiment's quantified genes) and confirming coverage — a just-in-time call the
-     tool makes on the real data, not guessed now.
+     tool makes on the real data, not guessed now. **The two roles may run at
+     different KEGG levels:** the breakdown flag (b) is read at **KEGG pathway-map
+     level** (where the degradation maps like `ko00280` are terms) — via the
+     median-up-percentile fallback if the genome-wide guard (a) settles on a
+     different KEGG granularity — so methods must not assume one `ontology_landscape`
+     level serves both.
 
 5. **Temporal overlay (corroboration only).** The same module method per
    time-course experiment; coculture and axenic trajectories reported
@@ -390,9 +410,14 @@ support count.
   modules tested there → q-values; a module is called up in that unit at **q <
   0.10** (discovery-catalog FDR, stated with every call). FDR not FWER because this
   is a discovery catalog and Bonferroni would waste power given small system counts
-  and the permutation p-floor. Only modules with **≥2 systems** enter the FDR
-  family; 1-system modules carry a bare percentile (weak descriptive evidence),
-  outside the correction.
+  and the permutation p-floor. **All modules — including 1-system modules — enter
+  the FDR family** and get a proper q from their same-size null (a 1-system module is
+  *not* an uncorrected single-gene call: its null is well-defined and a system is
+  several co-moving subunits). Their evidence is thinner, so **every call carries its
+  system count** and multi-system coherence reads as stronger — but single-transporter
+  substrates (glutamine, iron, phosphate — one transporter each) are **not**
+  structurally excluded from the catalog. *(This corrects the earlier ≥2-system-only
+  gate — see `proposal_critical_review.md` fourth pass.)*
   - **The breakdown flag is supporting evidence, outside the FDR family.** A
     module's up / not-up breakdown flag (from its degradation map, step 1) is **not**
     added to the transport FDR family and gets **no** FDR correction — folding it in
@@ -417,10 +442,12 @@ support count.
   rankable vs presence-only, which strains/partners. The two **EZ55 pCO₂ arms
   (400/800)** are the same lab / strains / cultures at two CO₂ levels, so they
   count as **one** strain-partner support with pCO₂ agreement as an internal
-  consistency check, **not** two independent supports. **1-system modules never
-  contribute to a support count** — a count is built only from ≥2-system modules
-  passing FDR (below); 1-system modules stay descriptive so uncorrected
-  single-gene calls can't reach a headline count.
+  consistency check, **not** two independent supports. **A 1-system module that
+  passes FDR does contribute to a support count**, but its **system count travels
+  with it** — a count made of thin 1-system supports is read as weaker than one from
+  multi-system coherent modules. (The earlier rule excluded 1-system modules on the
+  false premise that they were uncorrected single-gene calls; they get a proper q,
+  so the honest fix is to show the composition, not to exclude them.)
 - **Scope limit — `significant_only` (EZ55):** only the significant genes have
   rows (~300–400), so the `log2fc` ranking and the permutation null live **within
   that set**, not genome-wide. Usable, but a weaker, presence-weighted signal than
@@ -439,13 +466,19 @@ support count.
 | Inorganic importers (Fe/Na/K/sulfate) | TCDB / annotation | should **not** track carbon provisioning | built-in negative class |
 
 **Method "works" if:** motility is down; the study's own organic-matter-
-degradation signal reappears; and the candidate list is **chemically coherent** —
-operationally, the passing modules **concentrate in a small set of recognised
-marine-DOM / known-cyanobacterial-exudate chemical classes** (organic acids
-including glycolate, amino acids / peptides, sugars, osmolytes), a reference set
-named from the literature **before the ranked catalog is read**, not fitted to it.
-A catalog scattered evenly across unrelated substrate types, or dominated by
-substrate-unresolved coarse modules, does **not** meet the bar. Organic-C modules moving more than the inorganic controls is
+degradation signal reappears; and the per-module reproducible calls (a module passes
+q<0.10 in more than one independent experiment) hold up. The **chemical-coherence
+check is deliberately weak and near-confirmatory** — the marine-DOM class set (organic
+acids incl. glycolate, amino acids / peptides, sugars, osmolytes) spans nearly all
+characterised marine-heterotroph organic uptake, so "the hits fall in it" is almost
+guaranteed and is **not** load-bearing. To give it teeth, we pre-commit an
+**expected-negative**: **aromatic / xenobiotic-degradation importers** (benzoate,
+naphthalene, halo-aromatics — not plausible *Prochlorococcus* exudates) should
+**not** dominate the catalog; if they do, the method is flagging noise. A catalog
+scattered evenly across unrelated substrate types, or dominated by
+substrate-unresolved coarse modules or the expected-negative aromatics, does **not**
+meet the bar. The real falsifiable core is the per-module reproducible q<0.10 calls,
+not the class concentration. Organic-C modules moving more than the inorganic controls is
 **supportive, not decisive** — the growth-rate confound below can also produce it,
 so the carbon claim rests on specificity/coherence, not that bulk contrast.
 Glycolate is a **soft** positive — its surfacing corroborates, but its
@@ -515,11 +548,13 @@ Named now so they are not discovered as surprises mid-run:
 7. Counting unit = **transport system** (subunits collapsed), reconstructed by
    adjacency **+ compatible component-role / substrate annotation with an explicit
    boundary rule** (component roles read from the **KEGG KO** name where present —
-   substrate-binding / permease / ATP-binding; stop at a role clash, an annotation
-   break, or a **repeated component role** — the last splits tandem identical
-   unresolved cassettes), confirmed on the full transporter set as a methods task.
-   Transporters enumerated from the **union** of BRITE (`ko02000`), **KEGG KO**,
-   TCDB, and annotation search.
+   substrate-binding / permease / ATP-binding; stop at a role clash or an annotation
+   break). **A repeated role does _not_ split a system that shares a specific
+   substrate** — real ABC importers often have two permeases / two ATPases (e.g.
+   branched-chain `livKHMGF`); the repeated-role stop is only a **tiebreaker for
+   indistinguishable unresolved/putative cassettes**. Confirmed on the full
+   transporter set as a methods task. Transporters enumerated from the **union** of
+   BRITE (`ko02000`), **KEGG KO**, TCDB, and annotation search.
 8. Dual C+N substrates **included and counted** as candidate carbon sources,
    **tagged distinctly** for transparency (they also carry N). Working
    hypothesis: carbon from Prochlorococcus-derived organic matter (exudate
