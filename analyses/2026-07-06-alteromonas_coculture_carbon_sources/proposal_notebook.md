@@ -199,6 +199,22 @@ explorer-MCP 0.1.0a4). Whole-KG: 124,751 genes, 197 experiments, 43 papers,
     set, the trimming, the direction filter, and the four-level percentile scoring
     were all **removed**.
 
+14. **KEGG KO carries transporter substrate + component role (HOT1A3),
+    2026-07-07** (`gene_ontology_terms` kegg on 5 transporter genes; `search_ontology`
+    kegg): each test transporter gene has a KO whose name gives **both substrate and
+    role** — Fe³⁺ system `ACZ81_00580/00585/00590` → `K02012` iron(III) **substrate-
+    binding** / `K02011` **permease** / `K02010` **ATP-binding**; nitrate `ACZ81_03160`
+    → `K15576`; phosphate `ACZ81_04030` → `K02037` permease (all KO level 3). Search
+    confirms substrate-specific transporter KOs for our organic-C importers —
+    arginine `K09996`, histidine `K10014`, glutamine `K10036`, ribose `K10439`,
+    fructose `K10552`, osmoprotectant `K05845`, phosphonate `K02044`, … (1696 "transport
+    system substrate-binding protein" KOs). → **KO promoted to a primary substrate +
+    component-role source** (tag / classify / boundary-rule / decisions 6–7). Caveats:
+    KO overlaps BRITE `ko02000` (BRITE is KO-derived), so it widens *tagging*, not the
+    enumeration count; an uncharacterised ("putative") KO yields no substrate → the
+    unresolved case; genome-wide KO coverage ~31%, but strong for transporters (5/5
+    here).
+
 ## Rejected / deferred alternatives
 
 - **Enrichment-scan-only backbone (approach A):** under-resolves "which specific
@@ -302,6 +318,22 @@ explorer-MCP 0.1.0a4). Whole-KG: 124,751 genes, 197 experiments, 43 papers,
   would double-correct and re-gate); 1-system modules likewise stay descriptive.
   No pooling across units; cross-unit agreement is the composition-tagged count.
   (Researcher question: one run? FDR per each? once per experiment×timepoint?)
+- **2026-07-07 (enrichment-guard ontology)** — Decided the *principle* now, deferred
+  the *tunable* to the pre-flight tool. Breakdown-flag role = **KEGG forced** (the
+  degradation maps are KEGG). Genome-wide guard = **metabolism/pathway ontologies
+  KEGG (primary) + EC**, optionally GO-BP — **not** PFam/GO-MF, which `ontology_landscape`
+  ranks most statistically suitable (PFam #1, GO-MF #2, EC #9, KEGG #12; grounding
+  query 10) but are domain/molecular-function, not "pathways," so wrong for the
+  guard's question. Exact **level** within KEGG/EC set **later in methods** via
+  `ontology_landscape` per experiment (weighted by quantified genes) + coverage
+  check. (Researcher.)
+- **2026-07-07 (KEGG KO promoted to primary substrate + role source)** — Grounding
+  query 14 showed KO names carry transporter substrate **and** component role at a
+  specific level (finer than TCDB's ABC lump). Promoted KEGG KO to a **primary**
+  source in the substrate-tag step, the importer/organic classifier, and the
+  system-reconstruction **boundary rule** (component roles read straight from the KO
+  name); added to the enumeration union and decisions 6–7. Billed as a tagging win,
+  not net-widening (KO overlaps BRITE `ko02000`, which is KO-derived). (Researcher.)
 - **2026-07-07 (breakdown side cut down to a degradation-map flag)** — After
   grounding query 13 showed breakdown direction is not recoverable per-enzyme (GO
   process absent 8/9; reaction direction unreliable), **removed** the per-compound

@@ -149,21 +149,26 @@ over its **transport systems**; the only within-system aggregation is collapsing
 multi-subunit transporters into one system.
 
 1. **Build modules + controls (per strain, from KG annotation).**
-   - **Enumerate transporters** by **unioning three sources** — the BRITE
-     transporters tree (`ko02000`; 310 HOT1A3 genes, hierarchical `[KG]`), the
-     **TCDB** transporter classification (`genes_by_ontology(ontology="tcdb")`;
-     ~10% of genes `[KG]`, coarse for ABC but purpose-built for transporters), and
-     product / `function_description` annotation search — so a transporter missed
-     by one handle is still caught by another. Then **reconstruct transport
-     systems** by grouping subunits (binding protein
+   - **Enumerate transporters** by **unioning four sources** — the BRITE
+     transporters tree (`ko02000`; 310 HOT1A3 genes, hierarchical `[KG]`), **KEGG
+     KO** (`gene_ontology_terms` / `genes_by_ontology(ontology="kegg")`; the KO name
+     carries substrate **and** component role — see the tag step — though it overlaps
+     BRITE, which is KO-derived), the **TCDB** transporter classification
+     (`genes_by_ontology(ontology="tcdb")`; ~10% of genes `[KG]`, coarse for ABC but
+     purpose-built for transporters), and product / `function_description`
+     annotation search — so a transporter missed by one handle is still caught by
+     another. Then **reconstruct transport systems** by grouping subunits (binding
+     protein
      + permease(s) + ATPase) using genomic adjacency (`gene_neighbors`; confirmed
      viable — subunits sit in consecutive locus tags, e.g. the HOT1A3 Fe³⁺ system
      `ACZ81_00580/00585/00590`) + shared substrate annotation. **Grouping needs an
      explicit boundary rule** — adjacency alone will fuse two back-to-back systems,
      or a transporter with an unrelated neighbour. The rule: group genes that are
      both adjacent (within a small locus-tag gap — the exact gap set on the real
-     data in methods) **and** carry compatible transporter-component roles or
-     shared substrate annotation, and **stop at (a) a role clash, (b) an annotation
+     data in methods) **and** carry compatible transporter-component roles —
+     **read directly from the KEGG KO name where present** ("substrate-binding" /
+     "permease" / "ATP-binding", grounded on the Fe³⁺ system `K02010/11/12` `[KG]`) —
+     or shared substrate annotation, and **stop at (a) a role clash, (b) an annotation
      break, or (c) a repeat of an already-filled component role** — a second
      binding protein or second ATPase in the run marks the start of the next
      cassette. Rule (c) is what splits two adjacent, identically-annotated
@@ -171,20 +176,23 @@ multi-subunit transporters into one system.
      (b) miss. Confirmed on the full transporter set as the methods reconstruction
      task (decision 7).
    - **Classify each system** — importer vs exporter/efflux, and organic-carbon
-     vs inorganic — from the BRITE transporter class, TCDB family, and
+     vs inorganic — from the **KEGG KO** / BRITE transporter class, TCDB family, and
      product/COG/`function_description` keywords, each call carrying a
      confident-vs-inferred flag. Keep organic-C importers as candidate modules.
      This classifier is a **named output of the substrate-resolution audit**, not
      a black box: it defines both the candidate set *and* the inorganic control
      set, so the confident-flag audit that gates the controls (see Reference
      controls) applies to it too.
-   - Tag each module's substrate from **product / COG / `function_description`
-     (primary)** + the **BRITE transporters tree** (`ko02000`, hierarchical — its
-     deeper levels name substrate classes, though many ABC leaves stay coarse,
-     e.g. "Putative ABC transporter") + **TCDB where it is substrate-specific**
+   - Tag each module's substrate from **KEGG KO + product / COG /
+     `function_description` (primary)** — the KO name usually gives the substrate at
+     a specific level (grounded: `K02012` iron(III), `K10036` glutamine, `K10552`
+     fructose, `K05845` osmoprotectant `[KG]`), often finer than TCDB — plus the
+     **BRITE transporters tree** (`ko02000`, hierarchical; some ABC leaves stay
+     coarse, e.g. "Putative ABC transporter") + **TCDB where it is substrate-specific**
      (the `2.A.x` secondary-carrier families; the ABC superfamily `tcdb:3.A.1` is
      substrate-agnostic and carries no substrate signal) + **genomic neighbours**.
-     Every tag carries a **confident-vs-inferred** flag.
+     Every tag carries a **confident-vs-inferred** flag; an uncharacterised
+     ("putative") KO simply yields no substrate → the unresolved case.
    - **Assign the finest substrate the evidence confidently supports — and no
      finer.** If the annotation confidently pins a specific compound, use it; if
      confidence only reaches a class ("branched-chain amino acids", "hexose
@@ -256,14 +264,19 @@ multi-subunit transporters into one system.
      only to a class, some unresolved — and the module structure **adapts per
      transporter** to whatever the annotation supports, rather than forcing a
      uniform granularity.
-   - **Guard against max inflating coarse modules.** Because the module effect is
-     a *max*, a large *substrate-unresolved* module can be lit by a single strong
-     member. Two guards: the matched-max null draws **same-size** random sets (so
-     a big module is compared against big random sets), and unresolved/coarse
-     modules are reported **separately** with their system count shown — a "hit"
-     with many systems is read as a possible size artefact, not a specific carbon
-     source. Checked on the toy example (a large unresolved module with one strong
-     member should not beat its matched-size null).
+   - **Guard against a big vague module scoring high just for being big.** The
+     module's score is its **best (highest-ranked) system**, so a module holding
+     **many** systems has an unfair edge — the best of 20 tends to beat the best of
+     2 purely because you took more tries (like keeping the highest of more dice).
+     The **unresolved / coarse** modules are exactly the big ones, so they're most
+     at risk of a fake hit. Two guards: (1) each module is compared against **random
+     sets of the _same_ number of systems** (the same-size comparison used
+     throughout) — both sides get the same "more tries → higher best" boost, so it
+     cancels, and only a genuinely high best passes; (2) unresolved / coarse modules
+     are **reported separately, with their system count shown**, so a hit with many
+     systems is read as a possible size effect, not a named carbon source. Checked
+     on a hand-built toy: a large unresolved module with one strong member and the
+     rest flat should **not** beat its same-size comparison.
    - **Reference controls:** inorganic-ion importers. Fe / Na / K / sulfate are
      the reference negatives (should not track carbon provisioning); inorganic
      **N and P** are flagged separately as *interaction-coupled* (themselves
@@ -319,13 +332,24 @@ multi-subunit transporters into one system.
 
 4. **Enrichment guard (genome-wide) — also the source of the per-module breakdown
    flag.** The KG's built-in `pathway_enrichment` (ORA) run **once per experiment on
-   that experiment's full DE**, against KG ontology terms. It serves two roles: (a) a
-   coarse genome-wide check that carbon / degradation pathways are over-represented
-   among up-genes (guards against a single-gene or cherry-picked read); and (b) the
-   read-off for each module's **breakdown flag** — whether that module's dedicated
-   degradation map (step 1) came out over-represented here. It is **not** the module
-   *ranking*, which is the transport side (steps 1–2). We do **not** build custom
-   gene sets for our own ORA.
+   that experiment's full DE**. It serves two roles: (a) a coarse genome-wide check
+   that carbon / degradation pathways are over-represented among up-genes (guards
+   against a single-gene or cherry-picked read); and (b) the read-off for each
+   module's **breakdown flag** — whether that module's dedicated degradation map
+   (step 1) came out over-represented here. It is **not** the module *ranking*,
+   which is the transport side (steps 1–2). We do **not** build custom gene sets for
+   our own ORA.
+   - **Which ontology.** Role (b) is **forced to KEGG** — the breakdown maps *are*
+     KEGG pathways. Role (a) runs on **metabolism / pathway ontologies — KEGG
+     (primary, so it matches the breakdown maps and reads directly as "carbon
+     pathways") + EC**, optionally GO **BP** for process level. **Not** PFam / GO-MF:
+     the KG's `ontology_landscape` pre-flight ranks those most *statistically*
+     suitable (PFam #1, GO-MF #2, EC #9, KEGG #12 in HOT1A3 `[KG]`), but they are
+     protein-domain / molecular-function, not *pathways*, so they can't answer the
+     guard's question. The **exact level** within KEGG / EC is set **later, in
+     methods**, by running `ontology_landscape` **per experiment** (weighted by that
+     experiment's quantified genes) and confirming coverage — a just-in-time call the
+     tool makes on the real data, not guessed now.
 
 5. **Temporal overlay (corroboration only).** The same module method per
    time-course experiment; coculture and axenic trajectories reported
@@ -483,15 +507,19 @@ Named now so they are not discovered as surprises mid-run:
 4. Substrate granularity = the **finest the annotation resolves per transporter**
    (not pre-lumped); see decision 12.
 5. 2016.70 = **context only** (up-only; same strain, different partner).
-6. Substrate tag = product/COG (primary) + TCDB-where-specific + neighbours,
-   with confident-vs-inferred flags (TCDB is often superfamily-level for ABC).
+6. Substrate tag = **KEGG KO** + product/COG (primary) + BRITE + TCDB-where-specific
+   + neighbours, with confident-vs-inferred flags. KO names carry substrate **and**
+   component role at a specific level (e.g. iron(III) / glutamine / fructose /
+   osmoprotectant transport systems), usually finer than TCDB's ABC superfamily lump;
+   an uncharacterised ("putative") KO yields no substrate.
 7. Counting unit = **transport system** (subunits collapsed), reconstructed by
    adjacency **+ compatible component-role / substrate annotation with an explicit
-   boundary rule** (stop at a role clash, an annotation break, or a **repeated
-   component role** — the last splits tandem identical unresolved cassettes),
-   confirmed on the full transporter set as a methods task. Transporters
-   enumerated from the **union** of the BRITE transporters tree (`ko02000`), TCDB,
-   and annotation search.
+   boundary rule** (component roles read from the **KEGG KO** name where present —
+   substrate-binding / permease / ATP-binding; stop at a role clash, an annotation
+   break, or a **repeated component role** — the last splits tandem identical
+   unresolved cassettes), confirmed on the full transporter set as a methods task.
+   Transporters enumerated from the **union** of BRITE (`ko02000`), **KEGG KO**,
+   TCDB, and annotation search.
 8. Dual C+N substrates **included and counted** as candidate carbon sources,
    **tagged distinctly** for transparency (they also carry N). Working
    hypothesis: carbon from Prochlorococcus-derived organic matter (exudate
