@@ -2,6 +2,7 @@
 
 **Analysis slug:** `2026-07-06-alteromonas_coculture_carbon_sources`
 **Plan locked:** 2026-07-07 (framing refined from 2026-07-06)
+**Approved:** 2026-07-12 — researcher-approved after four critic passes; Run phase open.
 **KG release:** 0.1.0-alpha.6 (explorer-MCP 0.1.0a4; `kg_release_info` verdict `ok`, 16/16 asserts)
 
 ---

@@ -322,6 +322,11 @@ entries are kept for the record; the current spec is `proposal.md`.*
   would double-correct and re-gate); 1-system modules likewise stay descriptive.
   No pooling across units; cross-unit agreement is the composition-tagged count.
   (Researcher question: one run? FDR per each? once per experiment×timepoint?)
+- **2026-07-12 (PLAN PHASE APPROVED)** — Researcher approved the proposal after
+  four critic passes (refinements spanned 2026-07-07 → 07-12). Plan phase closed;
+  Run phase open. Next: co-define the **methods** milestone (first task =
+  substrate-resolution audit + transport-system reconstruction on the full
+  transporter set). (Researcher.)
 - **2026-07-07 (fourth critic pass — final pre-approval)** — Fixed one Blocker + 3
   Concerns (see `proposal_critical_review.md` fourth pass): **(Blocker)** the
   system-boundary rule (c) wrongly split real ABC importers with two permeases / two

@@ -6,10 +6,10 @@
 
 - **Branch:** `methodology/plan-run-arc`. On the other clone: `git fetch && git
   checkout methodology/plan-run-arc && git pull`.
-- **Phase:** Plan phase committed, then **refined through a researcher
-  pre-approval review** (this session) and **critic-vetted a third time** (clean of
-  Blockers). **Still not formally approved** — researcher is going to **reread the
-  revised `proposal.md`** before sign-off, then Run phase.
+- **Phase:** **Plan phase APPROVED (2026-07-12)** after four critic passes. Plan
+  phase closed; **Run phase open**. Next: **co-define the methods milestone** (first
+  task = substrate-resolution audit + transport-system reconstruction on the full
+  transporter set), delegating execution to a coding subagent.
 - **What changed this session (all in `proposal.md` + logged in
   `proposal_notebook.md`):** transporter enumeration now unions BRITE `ko02000` +
   TCDB + annotation search; explicit transport-**system boundary rule** (decision
@@ -55,14 +55,16 @@ null, BH/FDR per (experiment × timepoint), no pooling. See `proposal.md`.
 > reconstruction on the full transporter set. Keep delegating execution to a
 > coding subagent, log friction to `gaps_and_friction.md`, and keep the wins note.
 
-## Open threads to expect from the researcher
+## Open threads / notes for the methods milestone
 
-- **Researcher still needs to reread the revised `proposal.md`** (went home
-  mid-read) before approving. Approval → open the **methods** milestone by
-  co-defining it (first task: substrate-resolution audit + transport-system
-  reconstruction on the full transporter set).
-- The earlier steer "use the stored rank property" — resolved to ranking the
-  provided `log2fc` instead (stored `rank_up`/`rank_down` are significant-genes-only;
-  `proposal_critical_review.md` second pass).
-- The breakdown/degradation cut-down (decision 13) was agreed in-session but the
-  researcher hasn't reread the final wording — worth a confirm.
+- **Start the methods milestone by co-defining it** (researcher agreement gate
+  before work). First task = substrate-resolution audit (per transporter: how
+  finely can we resolve substrate, via KEGG KO + BRITE + product/TCDB) + confirm
+  transport-system reconstruction (incl. the boundary rule) on the full transporter
+  set. Delegate execution to a coding subagent that loads `research-methodology`;
+  artifacts come back, judgment stays in the main thread.
+- **One statistics reversal to keep an eye on:** the fourth critic pass dropped the
+  ≥2-system FDR gate (reversing a pass-2 decision) so single-transporter substrates
+  can pass — researcher approved the plan as a whole; reconfirm if it resurfaces.
+- Plain-language / no-coined-labels is a standing researcher preference (memory on
+  the origin machine only, not in-repo).
