@@ -75,3 +75,36 @@ tool-result file to build a compact table.
 **Downstream impact.** Process — for broad landscape scans, prefer
 `summary=true` first, then targeted non-verbose pulls, or plan to `jq` the saved
 file. Minor.
+
+### 2026-07-22 — Experiment `control` field flattens a within-coculture time contrast (KG fidelity)
+
+**What happened.** While confirming the exclusion of the Biller 2016 MIT1002
+cocultures (`10.1038/ismej.2016.82`), the two *Alteromonas*-side Experiment nodes
+report `treatment` = "24 / 48 hours after co-culturing with Prochlorococcus NATL2A"
+and `control` = **"Co-culture with Prochlorococcus NATL2A"** — with no reference
+timepoint. The source supplementary table (moesm99) and the ingestion config are
+unambiguous: the contrasts are **"log2FoldChange (24 vs 12 hrs after addition)"** and
+**"(48 vs 12 hrs after addition)"** — i.e. the reference is the **12 h coculture
+timepoint**, not a generic coculture state and not t0. The paper confirms there is
+**no axenic *Alteromonas* arm** in the study (axenic bottles are axenic
+*Prochlorococcus*; *Alteromonas* was only ever sampled in coculture). Source:
+`multiomics_biocypher_kg/.../biller 2016/paperconfig.yaml` (`supp_table_3`
+`statistical_analyses`: `24v12h` / `48v12h`) + the article methods (page 2832–2833).
+
+**Workaround (this analysis).** None needed — both experiments are already **excluded**
+(no coculture-vs-axenic handle on the *Alteromonas* side), so no computed output reads
+them. The lossy field does not affect any result here.
+
+**Downstream impact.** KG fidelity (upstream, not this repo). The `control` string
+drops the "12 hrs after addition" reference, so a reader querying the KG alone would
+misread the denominator (generic coculture, or t0) rather than the 12 h timepoint. The
+"both arms are coculture" fact — the one this analysis relies on for the exclusion — is
+still recoverable, so this is *lossy, not wrong*. **Recommended upstream fix:** in the
+`multiomics_biocypher_kg` `paperconfig.yaml`, set `control_condition` for both MIT1002
+experiments to "12 hours after co-culturing with Prochlorococcus NATL2A" and rebuild;
+ideally paired with a sweep for other time-contrast experiments whose reference
+timepoint is likewise collapsed into a generic `control` string. Flag to the KG
+maintainer; do **not** edit the KG from this analysis clone. My earlier reading that
+the reference was ≈ t0 was an `[interpretation]` corrected by the source table — a
+reminder to read the ingestion config / supplement, not the flattened node field, when
+a contrast's exact reference matters.

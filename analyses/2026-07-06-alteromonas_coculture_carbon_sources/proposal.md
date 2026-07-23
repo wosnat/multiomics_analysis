@@ -58,7 +58,13 @@ cause (nitrogen exchange, altered death/lysis kinetics, or slower physiological
 decline could equally produce a coculture-only ramp). It is therefore a
 **weaker** handle than the day-11 presence contrast and is weighted below it: a
 temporal ramp **corroborates** a module already supported by a presence
-contrast, but a temporal ramp **alone does not name a carbon source**.
+contrast, but a temporal ramp **alone does not name a carbon source**. Note too
+that each arm's baseline is its *own coculture (or axenic) exponential* state, so a
+module that is **constitutively up in coculture** — exactly what the day-11 presence
+contrast detects — is already "on" at the coculture arm's baseline and reads **flat**
+across the temporal ramp. Temporal flatness of a presence-up module is therefore
+**expected and non-contradictory**; the temporal read captures the starvation-ramp
+component, which is only partly aligned with constitutive coculture upregulation.
 
 | Experiment id | Omics | Condition | Timepoints |
 |---|---|---|---|
@@ -79,11 +85,32 @@ contrast, but a temporal ramp **alone does not name a carbon source**.
 
 ### Excluded, with reason
 
-- **MIT1002 cocultures** (`10.1038/ismej.2016.82`): the Alteromonas-side
-  contrasts are "24 h / 48 h after co-culturing **vs coculture**" — a
-  within-coculture *time* contrast, **not** presence/absence. No clean
-  coculture-vs-axenic handle on the Alteromonas side. Excluded from the
-  presence set.
+- **MIT1002 cocultures** (`10.1038/ismej.2016.82`, Biller 2016): the
+  *Alteromonas*-side DE is, per the source supplementary table (moesm99),
+  **"log2FoldChange (24 vs 12 hrs after addition)"** and **"(48 vs 12 hrs after
+  addition)"** — i.e. a within-coculture *time* contrast against the **12 h
+  coculture timepoint**, **not** presence/absence. The KG's `control` field flattens
+  this to "Co-culture with Prochlorococcus NATL2A" (reference timepoint dropped — see
+  `gaps_and_friction.md` 2026-07-22); the source table is unambiguous. Critically,
+  **the study has no axenic *Alteromonas* arm at all** (the axenic bottles are axenic
+  *Prochlorococcus*; *Alteromonas* was only ever sampled in coculture), so **no
+  presence contrast is constructible.** Excluded from the presence set.
+  - **Also excluded from the temporal corroboration** — it is *not* the equivalent of
+    the Weissberg 2025 temporal read. That read is a **difference of two trajectories**
+    (coculture *and* axenic, each vs its own exponential baseline); the subtraction is
+    what isolates the coculture-specific component. Biller MIT1002 is a **single
+    coculture-only trajectory** with no axenic arm to difference against, so a
+    12h→24h/48h rise cannot be separated from generic post-transfer adaptation and
+    growth recovery. And the confound is concrete: Fig 1a shows *Alteromonas* abundance
+    **declined the first day after introduction, then grew**, so the 12 h reference
+    sits near the growth trough and 24v12h / 48v12h are effectively a
+    **growth-recovery-vs-trough** contrast — the growth-rate/regulon confound (named
+    under Known confounders), here uncontrolled. On top of that it is a **third strain
+    (MIT1002) and third partner (NATL2A)** outside the current scope, and
+    **direction-incomplete** (0 significant-down genes → no motility check). It is
+    therefore *weaker* than the already-weak Weissberg temporal read, not equivalent to
+    it. At most a growth-recovery-confounded narrative aside for a module already named
+    on stronger evidence; **not scored, not counted.**
 - **Glucose-addition proteomics** (`10.1128/spectrum.03275-22`, Moreno-Cabezuelo):
   would have been a positive control / method-calibration for the sugar branch,
   but **too few DE proteins** (4–78 detected per contrast) to be worth the
@@ -237,18 +264,30 @@ multi-subunit transporters into one system.
      term was tagged *biosynthetic* `[KG]`. Direction is curated in exactly one
      place: a **dedicated KEGG _degradation_ map** (e.g. branched-chain amino acids
      `ko00280` = 32 HOT1A3 genes; lysine `ko00310`). So:
-     - **Find the most relevant _degradation_ map** for each module's substrate. The
-       match may be **exact, broader (a class map for a specific substrate), or
-       narrower** — record which; a broader map corroborates the *class*, not the
-       specific compound. It must be a **degradation / catabolic** map — a
+     - **Find the relevant _degradation_ map(s)** for each module's substrate —
+       **more than one is allowed.** A single map is the common case, but multiple are
+       genuinely relevant when (i) a **multi-substrate / promiscuous** module's options
+       degrade through *different* maps (e.g. an amino-acid permease spanning lysine
+       `ko00310` + histidine `ko00340`), (ii) one substrate has **parallel catabolic
+       routes**, or (iii) both an **exact** and a **broader class** map exist and both
+       inform. Each map's match is recorded as **exact, broader (a class map for a
+       specific substrate), or narrower** — a broader map corroborates the *class*, not
+       the specific compound. Every map must be a **degradation / catabolic** map — a
        direction-neutral metabolism map (e.g. glycolate's `ko00630` "glyoxylate and
        dicarboxylate metabolism") does **not** count.
-     - **Test that map for upregulation** in the (experiment × timepoint): **reuse
+     - **Test each map for upregulation** in the (experiment × timepoint): **reuse
        the genome-wide `pathway_enrichment` (ORA, proper background, step 4)** — read
        whether the map is over-represented among up-genes; for a map too small for
        ORA, fall back to the **median up-percentile** of its genes (the transport
-       rank machinery). Either way the result is one **descriptive up / not-up
-       flag**.
+       rank machinery). Each map yields **one descriptive up / not-up flag**, reported
+       **per map with its granularity** — never collapsed to "the best one." The
+       module-level breakdown read then **shows its composition** ("2 of 3 degradation
+       maps up"), never a bare "breakdown corroborated": "at least one of several maps
+       up" is *weaker* corroboration than "the single most-relevant map up," so the
+       denominator travels with the flag (the same composition-travels-with-the-count
+       discipline used for the cross-experiment support count). Because the flag stays
+       corroboration-only (below), multiple maps raise **no** multiple-testing concern
+       in the FDR family.
      - **Corroboration only — never in the ranking or the FDR family.** The module's
        score and significance are entirely the uptake (transport) side; the
        breakdown flag only raises or lowers confidence in the write-up.
@@ -313,24 +352,61 @@ multi-subunit transporters into one system.
      blind**. So a *directional, genome-wide* score has to come from `log2fc`.
      `rank_up` / `rank_down` are kept only as validation handles, not the score.
    - **Subunit → system:** a system's percentile = the **median** of its subunit
-     up-percentiles (subunits of one machine should co-move). Every subunit has a
-     `log2fc`, so nothing drops to null.
+     up-percentiles (subunits of one machine should co-move). In the
+     **`all_detected_genes`** experiments every subunit has a `log2fc`, so nothing
+     drops to null. In the **`significant_only`** experiments (EZ55) only significant
+     genes have rows, so a system can have subunits with **no row** — the median is
+     then taken over the present (most-DE) subunits, which biases it **upward** and
+     leaves the co-movement premise untestable there. The rule for scoring
+     partial-coverage systems in `significant_only` (a minimum-present-subunits
+     threshold, or score-on-present with the present-subunit count shown) is set in
+     **methods** on the real EZ55 subunit-coverage data — a just-in-time call, not
+     guessed now. This is a genuinely weaker, presence-weighted signal (already
+     flagged), and the partial-coverage bias travels with every EZ55 system call.
    - **Module effect = the highest (max) system up-percentile** in the module —
      the best uptake route; an unused redundant route (low percentile) does not
      penalise it. **Significance = a matched-max permutation null:** draw many
      random same-size system sets from the scored gene universe, take each set's
      max system-percentile, build the null, compare (also vs the inorganic-control
-     set). Because every detected gene carries a percentile, nothing drops out of
-     the null. Permutation rather than an asymptotic test because modules are
-     small (often 1–5 systems) and systems are not independent.
+     set). **"Matched" means matched on system *structure*, not just system count:**
+     each drawn system mirrors a real system's **subunit count**, so a single-gene
+     system is compared against random **single genes** and a k-subunit system
+     against random **k-gene medians**. This matters for single-gene secondary
+     carriers (below): without subunit-count matching, a single gene's unsmoothed
+     (higher-variance) percentile would be judged against median-smoothed multi-gene
+     systems and look more significant than it is. Because every detected gene
+     carries a percentile, nothing drops out of the null. Permutation rather than an
+     asymptotic test because modules are small (often 1–5 systems) and systems are
+     not independent. (The exact same-size, subunit-count-matched draw is fixed and
+     toy-tested in methods.)
    - **Report the per-system distribution** (each system's percentile and
      significance call), not just the reduced score. A **1-system module is scored
      and tested like any other** — its same-size null is well-defined (draw random
-     single systems), and a transport system is itself several co-moving subunits
-     (not one gene), so a single reproducibly-up system *can* be significant. Its
+     single systems), and *when the system is multi-subunit* it is itself several
+     co-moving subunits, so a single reproducibly-up system *can* be significant. Its
      evidence is simply **thinner** than a multi-system coherent module, so its
      **system count travels with the call** and multi-system coherence reads as
      stronger — but a 1-system module is **not** excluded from testing.
+   - **Single-gene systems (special care).** Many secondary carriers (TCDB `2.A.x`)
+     are **single-polypeptide** transporters, so a system — and hence a whole module —
+     can rest on **one gene**. This is the genuinely thin case: the module effect is
+     that one gene's percentile, with no co-movement and no median smoothing (it is
+     *not* covered by the "a system is several subunits" argument above). It is
+     **kept in the catalog and tested like any other** (pass-4 decision: don't
+     structurally exclude single-transporter substrates), with three cares:
+     (1) its null is **subunit-count-matched** to random single genes (above);
+     (2) it is flagged the **thinnest evidence tier** — a **gene count** (not just a
+     system count) and the **source per-gene DE `padj` + direction** travel with the
+     call, because a rank-of-`log2fc` percentile can be high without the source
+     authors calling the gene significant, so both are shown; (3) it **does not
+     headline on its own** and reads as needing corroboration. That corroboration
+     genuinely can arrive — a single-gene uptake call **paired with an up
+     degradation map** for the same substrate (breakdown flag, step 1) is materially
+     stronger than the gene alone, since the catabolism side is independent evidence;
+     likewise cross-experiment reproducibility, chemical coherence, or a **confident**
+     (not inferred) substrate tag. So a single-gene module **can** be a real,
+     reportable call — it simply carries its thinness visibly and leans on the
+     corroborating lines.
    - **Scope of the ranking:** genome-wide for `all_detected_genes` experiments
      (HOT1A3 — all 3947 genes have `log2fc`), but only the **significant set** for
      `significant_only` experiments (EZ55, ~300–400 genes have rows at all), where
@@ -344,7 +420,14 @@ multi-subunit transporters into one system.
    timepoint)**. Cross-experiment / cross-strain agreement is a **side-by-side
    matrix (modules × experiment × timepoint)** read for reproducibly-up modules
    and expressed as a **count of independent results** — never a merged dataset
-   or a combined p.
+   or a combined p. **Different omics platforms are different experiments.** A
+   paper that ran both transcriptomics and proteomics on the same contrast (e.g.
+   the HOT1A3 starvation trajectory has separate `…_rnaseq_*` and
+   `…_proteomics_*` experiment ids `[KG]`) contributes **separate**
+   `(experiment × timepoint)` units — each scored, ranked, and FDR-corrected on
+   its own — and they are **reported separately**, never collapsed into one
+   omics-agnostic module call. Their agreement is read from the matrix as
+   cross-platform corroboration (see the composition rule below), not by merging.
 
 4. **Enrichment guard (genome-wide) — also the source of the per-module breakdown
    flag.** The KG's built-in `pathway_enrichment` (ORA) run **once per experiment on
@@ -440,15 +523,29 @@ support count.
   equivalent: only the HOT1A3 day-11 experiment is `all_detected_genes` and
   fully **rankable**; the two EZ55 arms are `significant_only` (presence-only,
   see scope limit). So every reported count carries its make-up — how many
-  rankable vs presence-only, which strains/partners. The two **EZ55 pCO₂ arms
-  (400/800)** are the same lab / strains / cultures at two CO₂ levels, so they
-  count as **one** strain-partner support with pCO₂ agreement as an internal
-  consistency check, **not** two independent supports. **A 1-system module that
+  rankable vs presence-only, which strains/partners, **which omics**. The two
+  **EZ55 pCO₂ arms (400/800)** are the same lab / strains / cultures at two CO₂
+  levels, so they count as **one** strain-partner support with pCO₂ agreement as an
+  internal consistency check, **not** two independent supports. **The same applies
+  across omics platforms:** transcriptomics and proteomics of the *same* biological
+  contrast (same strain / partner / condition) are **one** strain-partner support
+  measured on two molecular layers — scored and reported separately, but counted
+  **once**, with transcript↔protein agreement carried as **cross-platform
+  corroboration** in the composition (a genuine strengthener — two layers, not a
+  near-replicate), **not** as two independent supports. Counting RNA and protein of
+  one contrast as two studies would launder a single result into two. **A 1-system module that
   passes FDR does contribute to a support count**, but its **system count travels
   with it** — a count made of thin 1-system supports is read as weaker than one from
   multi-system coherent modules. (The earlier rule excluded 1-system modules on the
   false premise that they were uncorrected single-gene calls; they get a proper q,
-  so the honest fix is to show the composition, not to exclude them.)
+  so the honest fix is to show the composition, not to exclude them.) **For
+  single-gene systems/modules the composition goes one level finer:** a **gene count**
+  (not just a system count) and the **source per-gene DE `padj` + direction** travel
+  with the call — the thinnest tier, shown as such. Such a call still counts and can
+  be real, but a support made of single-gene modules reads as weaker than one of
+  multi-subunit or multi-system modules, and it leans on its corroborating lines
+  (an up degradation map for the same substrate especially, plus cross-experiment
+  reproducibility, chemical coherence, or a confident substrate tag).
 - **Scope limit — `significant_only` (EZ55):** only the significant genes have
   rows (~300–400), so the `log2fc` ranking and the permutation null live **within
   that set**, not genome-wide. Usable, but a weaker, presence-weighted signal than
@@ -460,32 +557,66 @@ support count.
 
 | Set | KG handle | Expected in presence contrasts | Role |
 |---|---|---|---|
-| Motility / flagellar | HOT1A3 gene_category "Cell motility" (38 genes) | **DOWN** (Weissberg 2025 reports reduced motility) | direction sanity; testable where down-genes exist (690089, EZ55) |
+| Motility / flagellar | HOT1A3 flagellar genes — `genes_by_function("flagellar")`, 47 hits, 38 in the "Cell motility" category | **DOWN** (Weissberg 2025 reports reduced motility) | direction sanity; testable where down-genes exist (690089, EZ55) |
 | Glycolate utilization | `glcB` malate synthase G, `ACZ81_13685` (+ glycolate pathway) | **UP** if glycolate (canonical cyanobacterial exudate) is a source | positive |
 | Organic-matter degradation / peptidases | function search | **UP** (Weissberg 2025 finding) | positive, broad |
 | Ribosomal / translation | gene_category "Translation" | **~neutral**, not systematically up | negative (guards against reading a growth-rate shift as carbon) |
 | Inorganic importers (Fe/Na/K/sulfate) | TCDB / annotation | should **not** track carbon provisioning | built-in negative class |
 
-**Method "works" if:** motility is down; the study's own organic-matter-
-degradation signal reappears; and the per-module reproducible calls (a module passes
-q<0.10 in more than one independent experiment) hold up. The **chemical-coherence
-check is deliberately weak and near-confirmatory** — the marine-DOM class set (organic
-acids incl. glycolate, amino acids / peptides, sugars, osmolytes) spans nearly all
+**What "the method works" means — two separate questions, and neither one is
+"did we get a decisive answer."**
+
+**(1) Is the machinery trustworthy?** These are sanity checks on the *pipeline*,
+not on the biology: motility is **down** where down-genes exist; the study's own
+organic-matter-degradation / peptidase signal reappears **up**; ribosomal /
+translation stays **~neutral** (a growth-rate shift isn't being read as carbon);
+inorganic importers don't track carbon provisioning; and the catalog is **not**
+dominated by substrate-unresolved coarse modules or by the aromatic expected-negative.
+If these hold, the pipeline is behaving and its output can be trusted; if they fail,
+the pipeline itself is suspect. Within this, the **chemical-coherence check is
+deliberately weak and near-confirmatory** — the marine-DOM class set (organic acids
+incl. glycolate, amino acids / peptides, sugars, osmolytes) spans nearly all
 characterised marine-heterotroph organic uptake, so "the hits fall in it" is almost
-guaranteed and is **not** load-bearing. To give it teeth, we pre-commit an
-**expected-negative**: **aromatic / xenobiotic-degradation importers** (benzoate,
-naphthalene, halo-aromatics — not plausible *Prochlorococcus* exudates) should
-**not** dominate the catalog; if they do, the method is flagging noise. A catalog
-scattered evenly across unrelated substrate types, or dominated by
-substrate-unresolved coarse modules or the expected-negative aromatics, does **not**
-meet the bar. The real falsifiable core is the per-module reproducible q<0.10 calls,
-not the class concentration. Organic-C modules moving more than the inorganic controls is
-**supportive, not decisive** — the growth-rate confound below can also produce it,
-so the carbon claim rests on specificity/coherence, not that bulk contrast.
-Glycolate is a **soft** positive — its surfacing corroborates, but its
-**absence is uninformative** (it may simply not be exuded under these
-conditions, or glcB may be constitutively expressed), so a glycolate miss is
-**not** a method failure.
+guaranteed and is **not** load-bearing. To give it teeth we pre-commit two sharper
+checks. (a) **Coarse-module domination** — a catalog dominated by substrate-unresolved
+coarse modules does **not** meet the bar (real teeth: the audit is expected to return
+many coarse modules). (b) An **expected-negative**, **aromatic / xenobiotic-degradation
+importers** (benzoate, naphthalene, halo-aromatics — not plausible *Prochlorococcus*
+exudates) should **not** dominate the catalog; if they do, the method is flagging
+noise. This aromatic prong is a **cross-strain** check whose weight depends on how many
+aromatic importers each strain actually has — the **substrate-resolution audit counts
+them per strain**, so its falsification power is set there, not assumed. (For HOT1A3 in
+particular it may be near-vacuous — very few aromatic importers — so the prong leans on
+strains that have more, while HOT1A3's falsifiable weight rests on the coarse-module
+prong and the reproducible-q core.) A catalog scattered evenly across unrelated
+substrate types also fails the bar. Organic-C modules moving more than the inorganic
+controls is **supportive, not decisive** — the growth-rate confound (below) can also
+produce it, so the carbon claim rests on specificity/coherence, not that bulk contrast.
+Glycolate is a **soft** positive — its surfacing corroborates, but its **absence is
+uninformative** (it may simply not be exuded here, or glcB may be constitutive), so a
+glycolate miss is **not** a method failure.
+
+**(2) What a trustworthy run delivers — and it is deliberately *not* a decisive
+answer.** Even with the machinery validated, the evidence is KG-only,
+coculture-vs-axenic **confounded** (carbon is entangled with nitrogen exchange,
+oxidative-stress relief, and growth-rate differences — see Known confounders), and
+**annotation-limited**. So the honest expected output is a **graded candidate catalog,
+not a list of named carbon sources**: a handful of better-supported modules
+(reproducible q<0.10 across independent experiments, ideally with an up degradation map
+and a confident substrate tag), **many tentative "possible" modules**, and honest
+**"not determinable"** cases. **Ending with ranked possibilities rather than answers is
+an expected and acceptable result at the current evidence, not a method failure** — an
+upregulated importer is *candidate* evidence, never proof of carbon flux. The
+falsifiable core remains the per-module reproducible q<0.10 calls; everything above it
+is prioritization, tagged with its uncertainty.
+
+**(3) The decisive test is wet-lab — and prioritizing it is the point, not a
+shortfall.** Whether *Alteromonas* actually **grows on** a candidate compound (as sole
+or supplemented carbon source, under coculture-relevant conditions) is answerable only
+by a **growth experiment**, which the KG cannot stand in for. A ranked,
+uncertainty-tagged shortlist that nominates the highest-value compounds for such assays
+is therefore a **legitimate deliverable in its own right** — the intended output of
+this analysis, and the natural hand-off to follow-up growth experiments.
 
 ### Known confounders and scope limits
 
@@ -563,7 +694,12 @@ Named now so they are not discovered as surprises mid-run:
    C+N uptake is genuine carbon acquisition. (Researcher decision, overriding the
    critic's exclusion suggestion — see `proposal_critical_review.md` Concern 5.)
 9. **No pooling across experiments**, even within one paper — report each
-   individually; agreement by count over separate results.
+   individually; agreement by count over separate results. **Different omics
+   platforms are different experiments:** transcriptomics and proteomics of the
+   same contrast are separate `(experiment × timepoint)` units, scored and reported
+   separately, but counted **once** per strain-partner contrast with
+   transcript↔protein agreement as cross-platform corroboration (same treatment as
+   the EZ55 pCO₂ arms). (Researcher, 2026-07-23.)
 10. Score by **rank of KG-provided `log2fc`**, per **experiment × timepoint**
     (genome-wide for `all_detected_genes`, within the significant set for
     `significant_only`); system percentile = median of subunit percentiles;
@@ -571,7 +707,14 @@ Named now so they are not discovered as surprises mid-run:
     routes don't penalise); significance = **matched-max permutation null** (vs
     the scored universe and the inorganic controls); toy-tested first. Stored
     `rank_up` / `rank_down` are significant-only → validation handles, not the
-    score.
+    score. **"Matched" includes subunit count:** a single-gene system is nulled
+    against random single genes, a k-subunit system against random k-gene medians.
+    **Single-gene systems/modules** (common for TCDB `2.A.x` secondary carriers) are
+    **kept and tested** but flagged the **thinnest tier** — gene count + source
+    per-gene `padj`/direction travel with the call, they don't headline alone, and
+    they lean on corroboration (an up degradation map especially, cross-experiment
+    reproducibility, chemical coherence, or a confident substrate tag). (Researcher,
+    2026-07-23.)
 11. Glucose-addition experiment **excluded** (too few DE proteins); exometabolomics
     and ortholog-agreement **deferred** (optional).
 12. **Module granularity = finest _confidently_ resolvable substrate**
@@ -590,15 +733,20 @@ Named now so they are not discovered as surprises mid-run:
     catabolic/biosynthetic process absent for 8/9 glycolate enzymes, the 1 tagged
     *biosynthetic* — query 13). Direction is curated only in **dedicated KEGG
     _degradation_ maps** (e.g. BCAA `ko00280` = 32 HOT1A3 genes, lysine `ko00310`).
-    Per module: find the most relevant degradation map (match may be exact / broader
-    / narrower — recorded; must be a catabolic map, not a direction-neutral
-    metabolism map); test it for upregulation by **reusing the genome-wide
+    Per module: find the relevant degradation map(s) — **more than one is allowed**
+    (a multi-substrate module whose options span different maps, a substrate with
+    parallel catabolic routes, or an exact + broader-class pair; each match recorded
+    exact / broader / narrower; every map must be catabolic, not a direction-neutral
+    metabolism map); test **each** for upregulation by **reusing the genome-wide
     `pathway_enrichment` (ORA, step 4)**, or the median up-percentile of its genes
-    for a map too small for ORA → a **descriptive up / not-up flag**. **Corroboration
-    only — not in the module score or FDR family.** Where no degradation map exists
-    (most specific compounds, incl. glycolate) breakdown is **"not determinable"**;
-    the module rests on uptake + specificity, and named genes like `glcB` are a
-    narrative soft-positive, not scored. (Researcher + grounding queries 11–13.)
+    for a map too small for ORA → **one descriptive up / not-up flag per map**,
+    reported per map with its granularity and — where a module has several — with the
+    **composition shown** ("2 of 3 maps up"), never collapsed to the best one.
+    **Corroboration only — not in the module score or FDR family** (so multiple maps
+    raise no multiple-testing concern). Where no degradation map exists (most specific
+    compounds, incl. glycolate) breakdown is **"not determinable"**; the module rests
+    on uptake + specificity, and named genes like `glcB` are a narrative soft-positive,
+    not scored. (Researcher + grounding queries 11–13; multi-map allowance 2026-07-23.)
 
 See `proposal_notebook.md` for the grounding queries, counts, and rejected
 alternatives behind each.
