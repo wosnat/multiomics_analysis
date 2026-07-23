@@ -394,3 +394,47 @@ the rule in methods. The aromatic expected-negative being near-vacuous for HOT1A
 (but does not break) the falsifiability story; it self-corrects once the audit counts
 aromatic importers per strain. Two Notes are cheap honesty fixes. Nothing here reopens the
 locked question or the core method; all four are refinements at the proposal→methods seam.
+
+---
+
+## Sixth pass — 2026-07-23 (delta review of post-5th-pass edits)
+
+Fresh-context critic, interpretation-only, scoped to the **four researcher-directed
+edits made after the fifth pass** (multi-map breakdown; omics separation; single-gene
+special care; "method works" reframing), with the rest of `proposal.md` as trusted
+input. Verdict: **no Blockers, 1 Concern, 1 Note** — both self-inflicted consistency
+slips from those edits. Deltas 1 (multi-map) and 4 (works-if reframing) came back
+clean (cherry-picking path closed by composition-shown + corroboration-only;
+non-decisive framing retains a falsifiable core = per-module reproducible q<0.10).
+Both findings fixed 2026-07-23.
+
+### Concern (interpretation) — single-gene bullet contradicts the FDR-paragraph rationale
+**Critic:** The FDR bullet still justified 1-system modules with the blanket "a
+1-system module is *not* an uncorrected single-gene call: its null is well-defined and
+**a system is several co-moving subunits**," which the new "Single-gene systems" bullet
+explicitly denies ("*not* covered by the 'a system is several subunits' argument
+above"). The parallel "Report the per-system distribution" bullet **was** scoped ("*when
+the system is multi-subunit*…") but the FDR parenthetical was left unconditional — a fix
+applied in one place, not propagated to its sibling. Top-line conclusion (all modules
+get a proper q) survives; only the rationale was overbroad.
+**Disposition — FIXED.** Scoped the FDR parenthetical to match: multi-subunit systems
+get the co-movement rationale; a single-gene system "instead relies on its
+subunit-count-matched null and is flagged the thinnest tier — see 'Single-gene systems'
+above." (Critic noted the neighboring composition-travels parenthetical — "uncorrected
+single-gene calls" — is fine, since single-gene modules *are* corrected; left as is.)
+
+### Note (interpretation) — "strain-partner contrast" looser than the governing definition
+**Critic:** Approach step 3 and locked decision 9 said count "once per **strain-partner
+contrast**," but the governing composition bullet pins it to "same **strain / partner /
+condition**." Read literally, the looser phrase could collapse two different HOT1A3+MED4
+contrasts — the day-11 presence contrast and the starvation-trajectory temporal read —
+into one support, which is not intended (they are weighted differently).
+**Disposition — FIXED.** Step 3 and decision 9 now say "strain-partner-**condition**
+(biological) contrast," each with an explicit clause that it does **not** collapse the
+presence contrast and the temporal read.
+
+**Summary (sixth pass).** No Blockers. Two consistency slips introduced by the
+post-5th-pass edits, both fixed by propagating scoping I had already applied elsewhere.
+The single-gene method itself (subunit-count-matched null, thinnest-tier flagging, gene
+count + source `padj` traveling with the call) was found coherent and executable; only
+its cross-reference rationale was out of sync.

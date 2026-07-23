@@ -428,6 +428,10 @@ multi-subunit transporters into one system.
    its own — and they are **reported separately**, never collapsed into one
    omics-agnostic module call. Their agreement is read from the matrix as
    cross-platform corroboration (see the composition rule below), not by merging.
+   The "counted once" below is per **strain-partner-condition (biological) contrast**
+   — so it collapses only RNA and protein of the *same* contrast, never the day-11
+   presence contrast and the starvation-trajectory temporal read (different
+   conditions, weighted differently).
 
 4. **Enrichment guard (genome-wide) — also the source of the per-module breakdown
    flag.** The KG's built-in `pathway_enrichment` (ORA) run **once per experiment on
@@ -496,8 +500,10 @@ support count.
   is a discovery catalog and Bonferroni would waste power given small system counts
   and the permutation p-floor. **All modules — including 1-system modules — enter
   the FDR family** and get a proper q from their same-size null (a 1-system module is
-  *not* an uncorrected single-gene call: its null is well-defined and a system is
-  several co-moving subunits). Their evidence is thinner, so **every call carries its
+  *not* an uncorrected single-gene call: its null is well-defined, and *when the system
+  is multi-subunit* it is several co-moving subunits; a **single-gene** system instead
+  relies on its subunit-count-matched null and is flagged the thinnest tier — see
+  "Single-gene systems" above). Their evidence is thinner, so **every call carries its
   system count** and multi-system coherence reads as stronger — but single-transporter
   substrates (glutamine, iron, phosphate — one transporter each) are **not**
   structurally excluded from the catalog. *(This corrects the earlier ≥2-system-only
@@ -697,9 +703,10 @@ Named now so they are not discovered as surprises mid-run:
    individually; agreement by count over separate results. **Different omics
    platforms are different experiments:** transcriptomics and proteomics of the
    same contrast are separate `(experiment × timepoint)` units, scored and reported
-   separately, but counted **once** per strain-partner contrast with
-   transcript↔protein agreement as cross-platform corroboration (same treatment as
-   the EZ55 pCO₂ arms). (Researcher, 2026-07-23.)
+   separately, but counted **once** per strain-partner-**condition** (biological)
+   contrast with transcript↔protein agreement as cross-platform corroboration (same
+   treatment as the EZ55 pCO₂ arms; does **not** collapse the presence contrast and
+   the temporal read). (Researcher, 2026-07-23.)
 10. Score by **rank of KG-provided `log2fc`**, per **experiment × timepoint**
     (genome-wide for `all_detected_genes`, within the significant set for
     `significant_only`); system percentile = median of subunit percentiles;
