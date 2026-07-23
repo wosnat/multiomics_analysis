@@ -108,3 +108,26 @@ maintainer; do **not** edit the KG from this analysis clone. My earlier reading 
 the reference was ≈ t0 was an `[interpretation]` corrected by the source table — a
 reminder to read the ingestion config / supplement, not the flattened node field, when
 a contrast's exact reference matters.
+
+### 2026-07-23 — scorer unit tests green but wrong on real input type (delegation / verification)
+
+**What happened.** The toy-tested scoring module's `assign_reference_class` used
+`bool(row["in_candidate"])`. The subagent's pytest fixture passed Python booleans
+(`in_candidate=False`), so all 27 tests passed. But the real `parts_list_v2.csv` stores
+that field as the **string** `"False"`, and `bool("False")` is truthy — so on real data
+the helper returns `"candidate"` for *every* system (controls, TonB, set-asides all
+collapse), which would have silently destroyed the reference-class structure the whole
+null comparison depends on.
+
+**How caught.** Main-thread show-step verification read `scoring.py` and re-ran the
+helper on a real CSV string row (`in_candidate="False"`) → got `"candidate"` instead of
+`control-ABC`. The passing suite did not catch it.
+
+**Fix.** Parse the string explicitly (`str(...).strip().lower()=="true"`, robust to bool
+or string); changed the test fixture to the CSV string form so it guards the regression.
+
+**Downstream impact.** Verification discipline — "27 tests pass" is not evidence the
+code is correct on real input; a fixture whose input *type* doesn't match the real data
+hides a whole bug class. Reinforces the rule that the main thread re-derives / spot-runs
+on real data shapes rather than trusting the subagent's green suite. (Methodology
+finding for the methods-paper anomaly-catch log; watch-list #5.)

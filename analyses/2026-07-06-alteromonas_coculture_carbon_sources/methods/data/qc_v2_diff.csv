@@ -1,0 +1,81 @@
+change,organism_name,locus_tag,system_id,carrier_family,substrate,baseline_family,baseline_substrate
+ADDED,Alteromonas macleodii HOT1A3,ACZ81_05870,ACZ81_S0241,phenylpropionate-hcaT,hcaT :: MFS,,
+ADDED,Alteromonas macleodii HOT1A3,ACZ81_07825,ACZ81_S0300,NCS-nucleobase,adenine/guanine/hypoxanthine,,
+ADDED,Alteromonas macleodii HOT1A3,ACZ81_07865,ACZ81_S0303,NCS-nucleobase,nucleobase:cation,,
+ADDED,Alteromonas macleodii HOT1A3,ACZ81_18130,ACZ81_S0572,MFS-sugar,unresolved,,
+ADDED,Alteromonas macleodii HOT1A3,ACZ81_18465,ACZ81_S0065,ABC-subunit,unresolved,,
+ADDED,Alteromonas macleodii EZ55,EZ55_01217,EZ55_S0236,phenylpropionate-hcaT,hcaT :: MFS,,
+ADDED,Alteromonas macleodii EZ55,EZ55_01602,EZ55_S0297,NCS-nucleobase,adenine/guanine/hypoxanthine,,
+ADDED,Alteromonas macleodii EZ55,EZ55_01610,EZ55_S0300,NCS-nucleobase,nucleobase:cation,,
+ADDED,Alteromonas macleodii EZ55,EZ55_03747,EZ55_S0579,MFS-sugar,unresolved,,
+ADDED,Alteromonas macleodii EZ55,EZ55_03813,EZ55_S0063,ABC-subunit,unresolved,,
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_00870,ACZ81_S0003,ABC-subunit,multiple sugar,ABC-orphan-SBP,multiple sugar
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_01580,ACZ81_S0109,nucleoside-Nup,nucleoside,MFS-sugar,nucleoside
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_02465,ACZ81_S0009,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_02855,ACZ81_S0134,secondary-carrier-organic,AmpG family muropeptide MFS,secondary-carrier,AmpG family muropeptide MFS
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_03335,ACZ81_S0144,secondary-carrier-organic,benzoate membrane,secondary-carrier,benzoate membrane
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_05440,ACZ81_S0023,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_05445,ACZ81_S0023,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_05450,ACZ81_S0023,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_05455,ACZ81_S0023,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_05460,ACZ81_S0023,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_07450,ACZ81_S0293,SLC13-dicarboxylate,dicarboxylate/amino acid:cation,gluconate/organic-acid,dicarboxylate/amino acid:cation
+REMOVED,Alteromonas macleodii HOT1A3,ACZ81_07475,ACZ81_S0294,,,MFS-sugar,sugar PTS system EIIA component [EC:2.7.1.-]
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_07855,ACZ81_S0301,nucleoside-Nup,purine nucleoside,nucleoside/nucleobase,purine nucleoside
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_08220,ACZ81_S0311,secondary-carrier-organic,spinster family MFS,secondary-carrier,spinster family MFS
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_08425,ACZ81_S0316,SLC13-dicarboxylate,dicarboxylate/amino acid:cation (Na+ or H+),gluconate/organic-acid,dicarboxylate/amino acid:cation (Na+ or H+)
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_08690,ACZ81_S0321,NCS-nucleobase,nucleobase:cation,nucleoside/nucleobase,nucleobase:cation
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_09705,ACZ81_S0035,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_09860,ACZ81_S0350,secondary-carrier-organic,maltose/moltooligosaccharide,secondary-carrier,maltose/moltooligosaccharide
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_12835,ACZ81_S0042,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_14220,ACZ81_S0047,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_14225,ACZ81_S0047,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_14230,ACZ81_S0047,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_14235,ACZ81_S0047,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_14470,ACZ81_S0451,secondary-carrier-organic,sugar MFS,secondary-carrier,sugar MFS
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_15420,ACZ81_S0483,secondary-carrier-organic,L-fucose:H+,secondary-carrier,L-fucose:H+
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_15425,ACZ81_S0484,carbohydrate-porin,carbohydrate (non-specific porin),MFS-sugar,porin
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_15600,ACZ81_S0050,ABC-subunit,unresolved,ABC-orphan-SBP,unresolved
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_16565,ACZ81_S0524,NCS-nucleobase,nucleobase:cation,nucleoside/nucleobase,nucleobase:cation
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_16760,ACZ81_S0534,nucleoside-Nup,concentrative nucleoside,nucleoside/nucleobase,concentrative nucleoside
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_18100,ACZ81_S0063,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_18570,ACZ81_S0586,secondary-carrier-organic,sugar MFS,secondary-carrier,sugar MFS
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_18810,ACZ81_S0597,fatty-acid,long-chain fatty acid,gluconate/organic-acid,long-chain fatty acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_19175,ACZ81_S0068,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii HOT1A3,ACZ81_19780,ACZ81_S0641,secondary-carrier-organic,glycoside/pentoside/hexuronide:cation,secondary-carrier,glycoside/pentoside/hexuronide:cation
+CHANGED,Alteromonas macleodii EZ55,EZ55_00183,EZ55_S0003,ABC-subunit,multiple sugar,ABC-orphan-SBP,multiple sugar
+CHANGED,Alteromonas macleodii EZ55,EZ55_00340,EZ55_S0109,nucleoside-Nup,nucleoside,MFS-sugar,nucleoside
+CHANGED,Alteromonas macleodii EZ55,EZ55_00530,EZ55_S0009,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_00627,EZ55_S0139,secondary-carrier-organic,AmpG family muropeptide MFS,secondary-carrier,AmpG family muropeptide MFS
+CHANGED,Alteromonas macleodii EZ55,EZ55_00725,EZ55_S0149,secondary-carrier-organic,benzoate membrane,secondary-carrier,benzoate membrane
+CHANGED,Alteromonas macleodii EZ55,EZ55_01127,EZ55_S0022,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii EZ55,EZ55_01128,EZ55_S0022,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii EZ55,EZ55_01129,EZ55_S0022,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii EZ55,EZ55_01130,EZ55_S0022,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii EZ55,EZ55_01131,EZ55_S0022,ABC-subunit,dipeptide,ABC-peptide,dipeptide
+CHANGED,Alteromonas macleodii EZ55,EZ55_01565,EZ55_S0290,SLC13-dicarboxylate,dicarboxylate/amino acid:cation,gluconate/organic-acid,dicarboxylate/amino acid:cation
+REMOVED,Alteromonas macleodii EZ55,EZ55_01570,EZ55_S0291,,,MFS-sugar,sugar PTS system EIIA component [EC:2.7.1.-]
+CHANGED,Alteromonas macleodii EZ55,EZ55_01608,EZ55_S0298,nucleoside-Nup,purine nucleoside,nucleoside/nucleobase,purine nucleoside
+CHANGED,Alteromonas macleodii EZ55,EZ55_01684,EZ55_S0308,secondary-carrier-organic,spinster family MFS,secondary-carrier,spinster family MFS
+CHANGED,Alteromonas macleodii EZ55,EZ55_01726,EZ55_S0314,SLC13-dicarboxylate,dicarboxylate/amino acid:cation (Na+ or H+),gluconate/organic-acid,dicarboxylate/amino acid:cation (Na+ or H+)
+CHANGED,Alteromonas macleodii EZ55,EZ55_01780,EZ55_S0319,NCS-nucleobase,nucleobase:cation,nucleoside/nucleobase,nucleobase:cation
+CHANGED,Alteromonas macleodii EZ55,EZ55_01986,EZ55_S0034,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_02015,EZ55_S0349,secondary-carrier-organic,maltose/moltooligosaccharide,secondary-carrier,maltose/moltooligosaccharide
+CHANGED,Alteromonas macleodii EZ55,EZ55_02635,EZ55_S0040,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_02911,EZ55_S0045,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii EZ55,EZ55_02912,EZ55_S0045,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii EZ55,EZ55_02913,EZ55_S0045,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii EZ55,EZ55_02914,EZ55_S0045,ABC-subunit,peptide/nickel,ABC-peptide,peptide/nickel
+CHANGED,Alteromonas macleodii EZ55,EZ55_02979,EZ55_S0455,secondary-carrier-organic,sugar MFS,secondary-carrier,sugar MFS
+CHANGED,Alteromonas macleodii EZ55,EZ55_03194,EZ55_S0488,secondary-carrier-organic,L-fucose:H+,secondary-carrier,L-fucose:H+
+CHANGED,Alteromonas macleodii EZ55,EZ55_03195,EZ55_S0489,carbohydrate-porin,carbohydrate (non-specific porin),MFS-sugar,porin
+CHANGED,Alteromonas macleodii EZ55,EZ55_03232,EZ55_S0048,ABC-subunit,unresolved,ABC-orphan-SBP,unresolved
+REMOVED,Alteromonas macleodii EZ55,EZ55_03440,EZ55_S0530,,,secondary-carrier,unresolved
+CHANGED,Alteromonas macleodii EZ55,EZ55_03451,EZ55_S0532,NCS-nucleobase,nucleobase:cation,nucleoside/nucleobase,nucleobase:cation
+CHANGED,Alteromonas macleodii EZ55,EZ55_03490,EZ55_S0542,nucleoside-Nup,concentrative nucleoside,nucleoside/nucleobase,concentrative nucleoside
+CHANGED,Alteromonas macleodii EZ55,EZ55_03741,EZ55_S0061,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_03834,EZ55_S0594,secondary-carrier-organic,sugar MFS,secondary-carrier,sugar MFS
+CHANGED,Alteromonas macleodii EZ55,EZ55_03886,EZ55_S0606,fatty-acid,long-chain fatty acid,gluconate/organic-acid,long-chain fatty acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_03955,EZ55_S0066,APC,polar amino acid,ABC-orphan-SBP,polar amino acid
+CHANGED,Alteromonas macleodii EZ55,EZ55_04100,EZ55_S0653,secondary-carrier-organic,glycoside/pentoside/hexuronide:cation,secondary-carrier,glycoside/pentoside/hexuronide:cation
+CHANGED,Alteromonas macleodii EZ55,EZ55_04287,EZ55_S0677,fatty-acid,long-chain fatty acid,gluconate/organic-acid,long-chain fatty acid

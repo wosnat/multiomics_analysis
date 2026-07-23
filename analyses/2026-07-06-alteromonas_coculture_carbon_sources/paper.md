@@ -36,12 +36,59 @@ the HOT1A3 + MIT9313 cocultures. Full enumeration, scope, and exclusions are in
 
 ## Methods
 
-*(Framing locked in the Plan phase; implementation fills in at the methods
-milestone.)* Transport-system → degradation-pathway modules reconstructed from
-KG annotation, scored per experiment by rank (not fold-change), with inorganic-
-ion importers as reference controls. No pooling across experiments; cross-
-experiment agreement by count. See `proposal.md` for the full approach and the
-deliberate statistics decision.
+**Transporter enumeration and system reconstruction.** Transporter genes were
+enumerated per strain from the union of four KG annotation sources — the BRITE
+`ko02000` transporters tree, KEGG-KO transporter terms, the TCDB classification, and
+product/function-description keyword search — giving 684 (HOT1A3) and 697 (EZ55)
+candidate transporter genes `[KG]`. Because KEGG-KO annotation of ABC permease/ATPase
+subunits is sparse in these genomes (iron and the branched-chain `livK` binding
+protein carry specific KOs, but the `liv` permease/ATPase and the glutamine, fructose
+and osmoprotectant systems have no HOT1A3 gene `[KG]`), component role was assigned
+primarily from Pfam domains (`SBP_bac*`/`Peripla_BP*` = substrate-binding;
+`BPD_transp*`/`FecCD` = permease; `ABC_tran` = ATPase) carried in the near-fully
+populated `alternate_functional_descriptions` field, with KO/TCDB confirming where
+present. Multi-subunit systems were reconstructed by grouping consecutive-locus,
+same-strand genes sharing a transport role and substrate/family; a repeated permease
+or ATPase role does not split a system whose subunits share a substrate (validated on
+a peptide ABC importer with two permeases and two ATPases), and non-transport
+neighbours are surfaced but do not break a cassette — a co-located catabolic gene is
+recorded as both breakdown-side evidence and genomic-neighbourhood substrate support.
+
+A genome feature shapes the analysis: HOT1A3 carries 36 substrate-binding proteins but
+only 11 import permeases, alongside 85 single-gene secondary carriers `[KG]`. Complete
+multi-subunit ABC cassettes therefore exist mainly for peptides and inorganic
+substrates, while organic-carbon uptake (sugars, amino acids, organic acids) is
+dominated by orphan binding proteins and secondary carriers. The scored unit — the
+transport system — is thus single-gene for the majority of organic-carbon candidates.
+
+**Candidate and control sets.** Each transporter gene was classified (transport-role /
+carrier-family / regulator / enzyme / machinery / exporter / sensory / unresolved) with
+a recorded reason, dropping non-uptake genes and recognising organic-carbon carrier
+families the ABC/TCDB net alone missed (BCCT osmolyte, POT peptide, Na-solute
+symporter, TRAP, nucleobase/nucleoside, SLC13 dicarboxylate, MFS sugar/organic-acid),
+yielding 57 (HOT1A3) / 59 (EZ55) candidate organic-carbon systems. Four reference classes are
+tracked separately: candidates; inorganic ABC/secondary-carrier importers
+(`control-ABC`); iron/siderophore TonB receptors (`control-TonB`, single-gene,
+size-matched to the candidates); and bare unresolved TonB receptors (`ambiguous-TonB`,
+a control-for-the-control that flags whether the TonB receptor class moves as a
+coordinated iron regulon). B12/heme receptors are held out as interaction-coupled.
+
+**Scoring.** Per (experiment × timepoint), all detected genes are ranked by the
+KG-provided log2 fold-change into an up-percentile (rank/N; genome-wide for
+all-detected-genes experiments, within the significant set for significant-only
+experiments; ties take the average rank). A system's score is the median of its subunit
+percentiles (single-gene systems score on their one gene; partially covered systems on
+present subunits, count flagged); a module's effect is the maximum system percentile.
+Significance is a matched-max permutation null with random system-sets drawn matched on
+system count *and* each system's subunit count — a single-gene system compared against
+random single genes, a k-subunit system against random k-gene medians — and module
+p-values are Benjamini–Hochberg-corrected within each (experiment × timepoint), a module
+called up at q < 0.10. Degradation-pathway evidence is read off the genome-wide
+`pathway_enrichment` ORA as a per-module up/not-up flag, corroboration-only, outside the
+FDR family. The scoring module was verified against hand-computed toy data before use.
+No fold-changes are compared across experiments; cross-experiment agreement is a count
+of independent results. See `proposal.md` for the full approach and `methods/notebook.md`
+for the build, the reveals, and the decisions.
 
 ## Results
 

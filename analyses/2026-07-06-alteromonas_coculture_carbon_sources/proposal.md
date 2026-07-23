@@ -663,6 +663,25 @@ Named now so they are not discovered as surprises mid-run:
   catabolism are regulated as a unit and can rise together under a general anabolic
   upshift), so the breakdown flag is supporting, never decisive; the carbon claim
   still rests on chemical coherence.
+- **HOT1A3 organic-carbon uptake is dominated by single-gene units — focus note, not
+  a method change (methods finding, 2026-07-23).** KG-verified in HOT1A3: **36
+  substrate-binding proteins but only 11 import permeases**, and **85 single-gene
+  secondary carriers** (TCDB `2.A.x`). Complete multi-subunit ABC cassettes exist
+  mainly for **peptides + the inorganic controls**; sugar and amino-acid transporters
+  are **orphan binding proteins or secondary carriers**. So the **single-gene module
+  tier is the norm, not the exception**, for the organic-C catalog. The counting-unit
+  framing (a multi-subunit system votes once; single-gene modules are kept, tested,
+  and flagged thinnest-tier) is **unchanged** — only its focus shifts, and the
+  single-gene special-care rules (subunit-count-matched null, source `padj` and gene
+  count travelling with the call, corroboration incl. degradation-map pairing) become
+  the main path. Secondary carriers are **included** as candidate single-gene modules.
+  **Peptide-vs-rest annotation bias:** peptides get full-cassette multi-gene coherence
+  while sugars/amino-acids get thin single genes, so a peptide module can read as
+  "stronger" for annotation reasons rather than biology — flagged wherever multi-system
+  coherence is compared across substrate classes, so the catalog is not silently
+  over-ranked toward peptides. For an orphan binding protein the SBP is the
+  substrate-specific, most-regulated component, so scoring it is biologically sound
+  despite being one gene.
 
 ---
 

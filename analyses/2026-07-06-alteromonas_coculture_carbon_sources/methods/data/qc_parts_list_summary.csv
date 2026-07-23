@@ -1,0 +1,3 @@
+organism_name,total_gene_rows,total_systems,single_gene_systems,multi_subunit_systems,carrier__other,carrier__secondary-carrier,carrier__other-permease,carrier__ABC-orphan-SBP,carrier__ABC-cassette-complete,organicC__ambiguous,organicC__inorganic,organicC__dual-C+N,organicC__organic-C,conf__confident,conf__inferred,sbp3__transport-inferred,sbp3__sensory,sbp3__transport,aromatic_importer_genes
+Alteromonas macleodii HOT1A3,694,674,664,10,560,44,36,33,21,416,158,76,44,436,258,11,4,1,3
+Alteromonas macleodii EZ55,708,688,678,10,573,46,35,33,21,418,163,78,49,442,266,10,4,1,4

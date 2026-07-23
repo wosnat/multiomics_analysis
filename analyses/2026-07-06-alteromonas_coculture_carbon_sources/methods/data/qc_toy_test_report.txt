@@ -1,0 +1,78 @@
+TOY-TEST REPORT -- scoring.py (module-scoring machinery)
+=========================================================
+Built TEST-DRIVEN (tests written first, watched fail RED, then implemented GREEN).
+NOT run on real DE data -- all tests use a 12-gene synthetic universe with
+hand-computed expected values. Real run is a later milestone.
+
+PYTEST SUMMARY (scripts/test_scoring.py):
+    27 passed in 0.08s          [ALL PASS]
+
+Command: .venv/bin/python -m pytest test_scoring.py -q
+  (run from analyses/2026-07-06-alteromonas_coculture_carbon_sources/methods/scripts/)
+
+Synthetic universe (N=12), log2fc with a TIE (g06==g07==0.5):
+  g01=-3 g02=-2 g03=-1 g04=-0.5 g05=0 g06=0.5 g07=0.5 g08=1 g09=1.5 g10=2 g11=2.5 g12=3
+  up-percentile = average_rank / N  ->  g06=g07=6.5/12, g10=10/12, g12=1.0, g01=1/12
+
+WHAT EACH TEST CHECKS  (all PASS)
+---------------------------------
+1. rank -> up-percentile
+   test_percentile_average_rank_tie   g06 & g07 tie -> both 6.5/12 (average-rank).      PASS
+   test_percentile_extremes           g12=1.0 (most up), g01=1/12 (most down), g10=10/12. PASS
+
+2. subunit -> system (median over present)
+   test_single_gene_system            [g10] -> 10/12, n_present=1, subunit_count=1.       PASS
+   test_multi_subunit_system_median   [g08,g10,g12] -> median 10/12, n_present=3.         PASS
+   test_partial_coverage...           [g08,g10,gX(absent)] -> median over present 9/12,
+                                      n_present=2, subunit_count=3 (count travels).       PASS
+   test_system_needs_one_present...   [gX,gY] both absent -> None (system does not score).PASS
+
+3. system -> module (decision-12)
+   test_module_build_decision12       two "polar amino acid" systems merge -> 1 broad
+                                      module (broad=True); "maltose" single-system module
+                                      not broad; TWO "unresolved" systems stay as 2 own
+                                      modules (never merged); total 4 modules.            PASS
+   test_module_effect_max_over_systems max over 2 systems (0.5417, 0.75) -> 0.75.         PASS
+
+4. matched-max permutation null (seed=0)
+   test_null_single_gene_analytic     k=1, observed=10/12 -> analytic P=3/12=0.25;
+                                      MC p within 0.02.                                    PASS
+   test_null_single_gene_top_analytic k=1, observed=1.0 -> analytic P=1/12=0.083; within 0.02. PASS
+   test_null_subunit_count_matters    subunit-count matching: a k=3 system CANNOT reach a
+                                      median of 1.0 (max median = 11/12) -> p hits floor
+                                      1/(n+1); a k=1 system CAN reach 1.0 -> p~=1/12 > floor.
+                                      Proves the null is matched on subunit count.        PASS
+   test_null_floor_when_unreachable   observed=1.5 (above all) -> count 0 -> p=1/(n_perms+1). PASS
+   test_null_two_system_module_smoke  module [k=1,k=2] -> 0 < p <= 1.                      PASS
+
+5. BH / FDR
+   test_bh_fdr_hand_worked            p=[.001,.008,.039,.041,.9] -> q=[.005,.020,.05125,
+                                      .05125,.9] (classic BH, step-up monotone);
+                                      4 modules called up at q<0.10.                       PASS
+   test_bh_fdr_ties_at_floor          three identical floor p-values -> equal q (0.0001).  PASS
+
+6. breakdown flag (ORA read-off; map-selection STUBBED)
+   test_breakdown_flag_up             {q=0.03, dir=up} -> 'up'.                            PASS
+   test_breakdown_flag_not_up_high_q  {q=0.20, dir=up} -> 'not-up'.                        PASS
+   test_breakdown_flag_not_up_wrong_direction {q=0.01, dir=down} -> 'not-up'.             PASS
+   test_select_degradation_maps_is_stubbed  select_degradation_maps() raises
+                                      NotImplementedError (deferred interface).            PASS
+
+reference-class assignment (fixture, 8 rows -- parametrized)
+   candidate / set-aside(x3: 18465, 03813, unresolved-superfamily) / control-ABC /
+   control-TonB(iron) / interaction-coupled(btuB-B12) / ambiguous-TonB(bare).             PASS (8/8)
+
+SPEC AMBIGUITIES RESOLVED (flagged for main thread)
+---------------------------------------------------
+- up-percentile formula: used average_rank / N per the spec's explicit "= rank/N".
+  Range is (0,1]; most-down = 1/N (not exactly 0), most-up = 1.0.
+- module `broad` flag defined as (module holds >1 system) -- a merged resolved-class
+  module. A single-system resolved module is not broad.
+- permutation p estimator = (count+1)/(n_perms+1); floor = 1/(n_perms+1).
+- null draws k DISTINCT genes per system (sample w/o replacement) from the full
+  universe (module's own genes included).
+- reference-class btuB/heme carve-out is keyword-based on gene_summary.
+- breakdown_flag reads {qvalue, direction}; degradation-map SELECTION is a stub
+  (deferred), only the ORA read-off is implemented + tested.
+
+CONFIRMATION: machinery only -- no real DE data was scored in building or testing this.
