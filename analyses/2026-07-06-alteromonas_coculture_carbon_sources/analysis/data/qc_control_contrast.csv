@@ -1,0 +1,7 @@
+reference_class,tier,n_systems,median_percentile,mean_percentile
+candidate,single-gene,54,0.6157841398530529,0.5748482204018055
+candidate,multi-subunit,3,0.26463136559412215,0.42661092813107
+control-ABC,single-gene,16,0.655434507220674,0.5868539397010388
+control-ABC,multi-subunit,6,0.48055485178616675,0.5358711257495145
+"iron-TonB (REPORTED, not a control)",all,26,0.7569039777045858,0.6285202003469043
+ambiguous-TonB (dropped from scoring),all,40,0.5146947048391183,0.5311755763871295

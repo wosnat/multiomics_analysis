@@ -1,0 +1,408 @@
+reference_class,substrate,carrier_family,tier,n_systems,experiment_label,omics,arm,timepoint,module_percentile,q
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,HOT1A3 d11,rnaseq,coculture,day 11,0.670382569039777,0.6968003199680032
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,HOT1A3 d11,rnaseq,coculture,day 11,0.41525209019508486,0.8683681631836817
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,HOT1A3 d11,rnaseq,coculture,day 11,0.7651380795540917,0.5681003328238605
+control-ABC,sodium,ABC-subunit,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.5077273878895363,0.8679632036796321
+control-ABC,iron complex,ABC-subunit,multi-subunit,3,HOT1A3 d11,rnaseq,coculture,day 11,0.5405371167975678,0.9357939206079392
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,HOT1A3 d11,rnaseq,coculture,day 11,0.42057258677476567,0.8683681631836817
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,HOT1A3 d11,rnaseq,coculture,day 11,0.40334431213579935,0.8683681631836817
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.43349379275399036,0.8683681631836817
+control-ABC,phosphonate,ABC-subunit,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.04535089941727895,0.9672032796720328
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,HOT1A3 d11,rnaseq,coculture,day 11,0.7866734228527996,0.8614215501526771
+control-ABC,solute:Na+,SSS,single-gene,3,HOT1A3 d11,rnaseq,coculture,day 11,0.9630098809222194,0.5681003328238605
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.809982265011401,0.6344365563443657
+control-ABC,serine/threonine,APC,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.7932607043324044,0.6344365563443657
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,HOT1A3 d11,rnaseq,coculture,day 11,0.7375221687357487,0.8679632036796321
+control-ABC,bile acid:Na+,SSS,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.1955915885482645,0.9357939206079392
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.6399797314416013,0.8614215501526771
+control-TonB,outer-membrane,other,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.09931593615404104,0.9672032796720328
+control-TonB,TonB-dependent,other,single-gene,12,HOT1A3 d11,rnaseq,coculture,day 11,1.0,0.0836916308369163
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,HOT1A3 d11,rnaseq,coculture,day 11,0.9946795034203192,0.5552444755524447
+control-TonB,outer membrane,other,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.03217633645806942,0.9672032796720328
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,HOT1A3 d11,rnaseq,coculture,day 11,0.9906257917405624,0.5681003328238605
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,HOT1A3 d11,rnaseq,coculture,day 11,0.8350646060298961,0.8679632036796321
+ambiguous-TonB,outer membrane,exporter,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.5900684063845959,0.8614215501526771
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,HOT1A3 d11,rnaseq,coculture,day 11,0.9997466430200151,0.0836916308369163
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,HOT1A3 d11,rnaseq,coculture,day 11,0.41373194831517607,0.9357939206079392
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.8634405877881935,0.5681003328238605
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,HOT1A3 d11,rnaseq,coculture,day 11,0.16696224980998225,0.9357939206079392
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,EZ55-400,rnaseq,coculture,EZ55-400,0.5966587112171837,0.7589241075892411
+control-TonB,TonB-dependent,other,single-gene,3,EZ55-400,rnaseq,coculture,EZ55-400,0.8162291169451074,0.7589241075892411
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,1,EZ55-400,rnaseq,coculture,EZ55-400,0.9689737470167065,0.17748225177482252
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,2,EZ55-400,rnaseq,coculture,EZ55-400,0.4200477326968974,0.8263173682631738
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,1,EZ55-400,rnaseq,coculture,EZ55-400,0.3914081145584726,0.7589241075892411
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,EZ55-800,rnaseq,coculture,EZ55-800,0.16489361702127658,0.951104889511049
+control-TonB,TonB-dependent,other,single-gene,2,EZ55-800,rnaseq,coculture,EZ55-800,0.48936170212765956,0.951104889511049
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,1,EZ55-800,rnaseq,coculture,EZ55-800,0.05319148936170213,0.951104889511049
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,1,EZ55-800,rnaseq,coculture,EZ55-800,1.0,0.028497150284971504
+ambiguous-TonB,Fe(3+) dicitrate,gluconate/organic-acid,single-gene,1,EZ55-800,rnaseq,coculture,EZ55-800,0.9840425531914894,0.0504949505049495
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,co d18,rnaseq,coculture,day 18,0.07651380795540917,0.9824017598240176
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,co d18,rnaseq,coculture,day 18,0.30808208766151507,0.9535238783813925
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,co d18,rnaseq,coculture,day 18,0.29718773752216876,0.9535238783813925
+control-ABC,sodium,ABC-subunit,single-gene,1,co d18,rnaseq,coculture,day 18,0.5254623764884723,0.9211864527832931
+control-ABC,iron complex,ABC-subunit,single-gene,3,co d18,rnaseq,coculture,day 18,0.8267038256903978,0.7970433725858184
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,co d18,rnaseq,coculture,day 18,0.7349885989359007,0.7473343574733436
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,co d18,rnaseq,coculture,day 18,0.6354193058018749,0.7473343574733436
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,co d18,rnaseq,coculture,day 18,0.08386116037496832,0.9535238783813925
+control-ABC,phosphonate,ABC-subunit,single-gene,1,co d18,rnaseq,coculture,day 18,0.36762097795794274,0.9535238783813925
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,co d18,rnaseq,coculture,day 18,0.33139092982011653,0.9535238783813925
+control-ABC,solute:Na+,SSS,single-gene,3,co d18,rnaseq,coculture,day 18,0.46237648847225743,0.9535238783813925
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,co d18,rnaseq,coculture,day 18,0.18343045350899417,0.9535238783813925
+control-ABC,serine/threonine,APC,single-gene,1,co d18,rnaseq,coculture,day 18,0.9440081074233595,0.6033896610338966
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,co d18,rnaseq,coculture,day 18,0.47048391183177096,0.9535238783813925
+control-ABC,bile acid:Na+,SSS,single-gene,1,co d18,rnaseq,coculture,day 18,0.14669369141119837,0.9535238783813925
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,co d18,rnaseq,coculture,day 18,0.7367620977957943,0.7473343574733436
+control-TonB,outer-membrane,other,single-gene,1,co d18,rnaseq,coculture,day 18,0.7101596148973904,0.7473343574733436
+control-TonB,TonB-dependent,other,single-gene,12,co d18,rnaseq,coculture,day 18,0.9939194324803649,0.6033896610338966
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,co d18,rnaseq,coculture,day 18,0.9921459336204712,0.6033896610338966
+control-TonB,outer membrane,other,single-gene,1,co d18,rnaseq,coculture,day 18,0.9903724347605777,0.2753724627537246
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,co d18,rnaseq,coculture,day 18,0.9166455535850012,0.9535238783813925
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,co d18,rnaseq,coculture,day 18,0.9336204712439827,0.7473343574733436
+ambiguous-TonB,outer membrane,exporter,single-gene,1,co d18,rnaseq,coculture,day 18,0.13301241449201925,0.9535238783813925
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,co d18,rnaseq,coculture,day 18,0.9792247276412465,0.7473343574733436
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,co d18,rnaseq,coculture,day 18,0.9113250570053205,0.7473343574733436
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,co d18,rnaseq,coculture,day 18,0.6235115277425893,0.7970433725858184
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,co d18,rnaseq,coculture,day 18,0.4856853306308589,0.9274472552744725
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,co d31,rnaseq,coculture,day 31,0.1816569546491006,0.9342065793420657
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,co d31,rnaseq,coculture,day 31,0.8403851026095769,0.3428657134286571
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,co d31,rnaseq,coculture,day 31,0.4588294907524702,0.8251783517300444
+control-ABC,sodium,ABC-subunit,single-gene,1,co d31,rnaseq,coculture,day 31,0.708132759057512,0.663008699130087
+control-ABC,iron complex,ABC-subunit,single-gene,3,co d31,rnaseq,coculture,day 31,0.8206232581707626,0.7133072407045009
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,co d31,rnaseq,coculture,day 31,0.8776285786673423,0.3428657134286571
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,co d31,rnaseq,coculture,day 31,0.8155561185710666,0.3428657134286571
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,co d31,rnaseq,coculture,day 31,0.33139092982011653,0.8251783517300444
+control-ABC,phosphonate,ABC-subunit,single-gene,1,co d31,rnaseq,coculture,day 31,0.06561945781606283,0.9342065793420657
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,co d31,rnaseq,coculture,day 31,0.5882949075247023,0.8251783517300444
+control-ABC,solute:Na+,SSS,single-gene,3,co d31,rnaseq,coculture,day 31,0.665315429440081,0.8251783517300444
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,co d31,rnaseq,coculture,day 31,0.1940714466683557,0.8695290470952906
+control-ABC,serine/threonine,APC,single-gene,1,co d31,rnaseq,coculture,day 31,0.7228274638966303,0.663008699130087
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,co d31,rnaseq,coculture,day 31,0.6584747909804916,0.8251783517300444
+control-ABC,bile acid:Na+,SSS,single-gene,1,co d31,rnaseq,coculture,day 31,0.3204965796807702,0.8251783517300444
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,co d31,rnaseq,coculture,day 31,0.6544210793007348,0.7133072407045009
+control-TonB,outer-membrane,other,single-gene,1,co d31,rnaseq,coculture,day 31,0.929566759564226,0.3428657134286571
+control-TonB,TonB-dependent,other,single-gene,12,co d31,rnaseq,coculture,day 31,0.9888522928806689,0.4410683931606839
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,co d31,rnaseq,coculture,day 31,0.9941727894603496,0.3428657134286571
+control-TonB,outer membrane,other,single-gene,1,co d31,rnaseq,coculture,day 31,0.9868254370407905,0.3428657134286571
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,co d31,rnaseq,coculture,day 31,0.9369141119837852,0.8251783517300444
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,co d31,rnaseq,coculture,day 31,0.9764378008614137,0.3428657134286571
+ambiguous-TonB,outer membrane,exporter,single-gene,1,co d31,rnaseq,coculture,day 31,0.40587788193564733,0.8251783517300444
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,co d31,rnaseq,coculture,day 31,0.9298201165442108,0.8251783517300444
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,co d31,rnaseq,coculture,day 31,0.882949075247023,0.5904309569043096
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,co d31,rnaseq,coculture,day 31,0.8041550544717507,0.5904309569043096
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,co d31,rnaseq,coculture,day 31,0.23004813782619712,0.8654884511548845
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,co d60,rnaseq,coculture,day 60,0.22092728654674437,0.9039942159630191
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,co d60,rnaseq,coculture,day 60,0.9972130732201672,0.0026997300269973002
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,co d60,rnaseq,coculture,day 60,0.640233088421586,0.7701593477015934
+control-ABC,sodium,ABC-subunit,single-gene,1,co d60,rnaseq,coculture,day 60,0.5312895870281227,0.7974327567243276
+control-ABC,iron complex,ABC-subunit,single-gene,3,co d60,rnaseq,coculture,day 60,0.777299214593362,0.7974327567243276
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,co d60,rnaseq,coculture,day 60,0.8966303521662021,0.260973902609739
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,co d60,rnaseq,coculture,day 60,0.4492019255130479,0.8471016534710164
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,co d60,rnaseq,coculture,day 60,0.3744616164175323,0.8471016534710164
+control-ABC,phosphonate,ABC-subunit,single-gene,1,co d60,rnaseq,coculture,day 60,0.07879402077527235,0.9238076192380762
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,co d60,rnaseq,coculture,day 60,0.5262224474284266,0.8526451702655821
+control-ABC,solute:Na+,SSS,single-gene,3,co d60,rnaseq,coculture,day 60,0.7494299467950342,0.8471016534710164
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,co d60,rnaseq,coculture,day 60,0.15252090195084875,0.9039942159630191
+control-ABC,serine/threonine,APC,single-gene,1,co d60,rnaseq,coculture,day 60,0.6463136559412211,0.7962126864236653
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,co d60,rnaseq,coculture,day 60,0.7542437294147454,0.7974327567243276
+control-ABC,bile acid:Na+,SSS,single-gene,1,co d60,rnaseq,coculture,day 60,0.6237648847225741,0.7962126864236653
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,co d60,rnaseq,coculture,day 60,0.7463896630352166,0.7701593477015934
+control-TonB,outer-membrane,other,single-gene,1,co d60,rnaseq,coculture,day 60,0.9224727641246516,0.36536346365363465
+control-TonB,TonB-dependent,other,single-gene,12,co d60,rnaseq,coculture,day 60,0.8728147960476311,0.9039942159630191
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,co d60,rnaseq,coculture,day 60,0.9951862173802888,0.3023697630236976
+control-TonB,outer membrane,other,single-gene,1,co d60,rnaseq,coculture,day 60,0.9799847985812009,0.260973902609739
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,co d60,rnaseq,coculture,day 60,0.9341271852039523,0.8471016534710164
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,co d60,rnaseq,coculture,day 60,0.9873321510007601,0.3023697630236976
+ambiguous-TonB,outer membrane,exporter,single-gene,1,co d60,rnaseq,coculture,day 60,0.31770965290093744,0.8471016534710164
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,co d60,rnaseq,coculture,day 60,0.9787180136812769,0.7701593477015934
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,co d60,rnaseq,coculture,day 60,0.8299974664302001,0.7701593477015934
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,co d60,rnaseq,coculture,day 60,0.8517861667088928,0.5800562800862771
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,co d60,rnaseq,coculture,day 60,0.3417785659994933,0.8471016534710164
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,co d89,rnaseq,coculture,day 89,0.1816569546491006,0.9112088791120888
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,co d89,rnaseq,coculture,day 89,0.996199645300228,0.0026997300269973002
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,co d89,rnaseq,coculture,day 89,0.4441347859133519,0.7696801748396589
+control-ABC,sodium,ABC-subunit,single-gene,1,co d89,rnaseq,coculture,day 89,0.7012921205979225,0.6275833955066031
+control-ABC,iron complex,ABC-subunit,single-gene,3,co d89,rnaseq,coculture,day 89,0.898150494046111,0.6275833955066031
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,co d89,rnaseq,coculture,day 89,0.8436787433493793,0.42655734426557346
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,co d89,rnaseq,coculture,day 89,0.6711426399797314,0.6275833955066031
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,co d89,rnaseq,coculture,day 89,0.176083101089435,0.8531146885311469
+control-ABC,phosphonate,ABC-subunit,single-gene,1,co d89,rnaseq,coculture,day 89,0.4775779072713453,0.7696801748396589
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,co d89,rnaseq,coculture,day 89,0.5386369394476818,0.8372684470683367
+control-ABC,solute:Na+,SSS,single-gene,3,co d89,rnaseq,coculture,day 89,0.8431720293894097,0.6948430156984302
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,co d89,rnaseq,coculture,day 89,0.18723080820876614,0.8531146885311469
+control-ABC,serine/threonine,APC,single-gene,1,co d89,rnaseq,coculture,day 89,0.7273878895363567,0.6275833955066031
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,co d89,rnaseq,coculture,day 89,0.6627818596402331,0.7696801748396589
+control-ABC,bile acid:Na+,SSS,single-gene,1,co d89,rnaseq,coculture,day 89,0.5928553331644287,0.6948430156984302
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,co d89,rnaseq,coculture,day 89,0.6759564225994427,0.6313511505992259
+control-TonB,outer-membrane,other,single-gene,1,co d89,rnaseq,coculture,day 89,0.8180896883709147,0.6275833955066031
+control-TonB,TonB-dependent,other,single-gene,12,co d89,rnaseq,coculture,day 89,0.921966050164682,0.7756815227568151
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,co d89,rnaseq,coculture,day 89,0.9918925766404865,0.5005299470052995
+control-TonB,outer membrane,other,single-gene,1,co d89,rnaseq,coculture,day 89,0.981251583481125,0.2632236776322368
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,co d89,rnaseq,coculture,day 89,0.954649100582721,0.7696801748396589
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,co d89,rnaseq,coculture,day 89,0.9883455789206993,0.3932606739326067
+ambiguous-TonB,outer membrane,exporter,single-gene,1,co d89,rnaseq,coculture,day 89,0.40233088421586016,0.7696801748396589
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,co d89,rnaseq,coculture,day 89,0.9802381555611858,0.6275833955066031
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,co d89,rnaseq,coculture,day 89,0.8482391689891057,0.6275833955066031
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,co d89,rnaseq,coculture,day 89,0.8674942994679503,0.6047395260473952
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,co d89,rnaseq,coculture,day 89,0.19837851532809728,0.8531146885311469
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,co d60+89,rnaseq,coculture,days 60+89,0.19153787686850773,0.9018098190180983
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,co d60+89,rnaseq,coculture,days 60+89,0.997466430200152,0.0026997300269973002
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,co d60+89,rnaseq,coculture,days 60+89,0.529516088168229,0.756974302569743
+control-ABC,sodium,ABC-subunit,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.6052698251836838,0.756974302569743
+control-ABC,iron complex,ABC-subunit,single-gene,3,co d60+89,rnaseq,coculture,days 60+89,0.8593868761084368,0.7235276472352765
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,co d60+89,rnaseq,coculture,days 60+89,0.8837091461869775,0.32216778322167783
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,co d60+89,rnaseq,coculture,days 60+89,0.5553585001266785,0.756974302569743
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.25918419052444897,0.8202859714028596
+control-ABC,phosphonate,ABC-subunit,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.24094248796554346,0.8202859714028596
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,co d60+89,rnaseq,coculture,days 60+89,0.5224220927286547,0.8202859714028596
+control-ABC,solute:Na+,SSS,single-gene,3,co d60+89,rnaseq,coculture,days 60+89,0.8026349125918419,0.756974302569743
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.1580947555105143,0.8740895141255105
+control-ABC,serine/threonine,APC,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.6807702052191538,0.7275772422757724
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,co d60+89,rnaseq,coculture,days 60+89,0.7071193311375729,0.756974302569743
+control-ABC,bile acid:Na+,SSS,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.5882949075247023,0.756974302569743
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.7104129718773752,0.7235276472352765
+control-TonB,outer-membrane,other,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.899417278946035,0.47380261973802623
+control-TonB,TonB-dependent,other,single-gene,12,co d60+89,rnaseq,coculture,days 60+89,0.9065112743856093,0.8202859714028596
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,co d60+89,rnaseq,coculture,days 60+89,0.9931593615404104,0.42061793820617943
+control-TonB,outer membrane,other,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.9817582974410946,0.2578242175782422
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,co d60+89,rnaseq,coculture,days 60+89,0.9429946795034203,0.8202859714028596
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,co d60+89,rnaseq,coculture,days 60+89,0.9860653661008361,0.352989701029897
+ambiguous-TonB,outer membrane,exporter,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.34557892069926527,0.8202859714028596
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,co d60+89,rnaseq,coculture,days 60+89,0.9804915125411705,0.7235276472352765
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,co d60+89,rnaseq,coculture,days 60+89,0.8431720293894097,0.7235276472352765
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.8649607296681023,0.527604382418901
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,co d60+89,rnaseq,coculture,days 60+89,0.2571573346845706,0.8202859714028596
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,ax d18,rnaseq,axenic,day 18,0.456549277932607,0.8316589393692209
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,ax d18,rnaseq,axenic,day 18,0.7869267798327844,0.5336466353364664
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,ax d18,rnaseq,axenic,day 18,0.6977451228781353,0.7576117388261174
+control-ABC,sodium,ABC-subunit,single-gene,1,ax d18,rnaseq,axenic,day 18,0.42462629845452243,0.8316589393692209
+control-ABC,iron complex,ABC-subunit,multi-subunit,3,ax d18,rnaseq,axenic,day 18,0.7055991892576641,0.8316589393692209
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,ax d18,rnaseq,axenic,day 18,0.750950088674943,0.6139957432828146
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,ax d18,rnaseq,axenic,day 18,0.5378768685077274,0.8316589393692209
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,ax d18,rnaseq,axenic,day 18,0.28173296174309603,0.9244646963875041
+control-ABC,phosphonate,ABC-subunit,single-gene,1,ax d18,rnaseq,axenic,day 18,0.03470990625791741,0.9642035796420358
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,ax d18,rnaseq,axenic,day 18,0.8087154801114771,0.8316589393692209
+control-ABC,solute:Na+,SSS,single-gene,3,ax d18,rnaseq,axenic,day 18,0.9789713706612617,0.48271172882711727
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d18,rnaseq,axenic,day 18,0.4570559918925766,0.8316589393692209
+control-ABC,serine/threonine,APC,single-gene,1,ax d18,rnaseq,axenic,day 18,0.9505953889029642,0.48271172882711727
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,ax d18,rnaseq,axenic,day 18,0.41347859133519127,0.9642035796420358
+control-ABC,bile acid:Na+,SSS,single-gene,1,ax d18,rnaseq,axenic,day 18,0.41829237395490243,0.8316589393692209
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d18,rnaseq,axenic,day 18,0.5958956169242463,0.8316589393692209
+control-TonB,outer-membrane,other,single-gene,1,ax d18,rnaseq,axenic,day 18,0.061565746136306054,0.9642035796420358
+control-TonB,TonB-dependent,other,single-gene,12,ax d18,rnaseq,axenic,day 18,0.9982265011401064,0.48271172882711727
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,ax d18,rnaseq,axenic,day 18,0.9921459336204712,0.48271172882711727
+control-TonB,outer membrane,other,single-gene,1,ax d18,rnaseq,axenic,day 18,0.036483405117810994,0.9642035796420358
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,ax d18,rnaseq,axenic,day 18,0.9766911578413985,0.8316589393692209
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,ax d18,rnaseq,axenic,day 18,0.9171522675449708,0.8316589393692209
+ambiguous-TonB,outer membrane,exporter,single-gene,1,ax d18,rnaseq,axenic,day 18,0.28933367114263997,0.9244646963875041
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,ax d18,rnaseq,axenic,day 18,0.954649100582721,0.8316589393692209
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,ax d18,rnaseq,axenic,day 18,0.23638206232581707,0.9642035796420358
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,ax d18,rnaseq,axenic,day 18,0.9300734735241956,0.48271172882711727
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,ax d18,rnaseq,axenic,day 18,0.045604256397263745,0.9642035796420358
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,ax d31,rnaseq,axenic,day 31,0.22422092728654675,0.8972102789721028
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,ax d31,rnaseq,axenic,day 31,0.7884469217126931,0.6164383561643835
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,ax d31,rnaseq,axenic,day 31,0.5903217633645806,0.8333166683331666
+control-ABC,sodium,ABC-subunit,single-gene,1,ax d31,rnaseq,axenic,day 31,0.3260704332404358,0.8972102789721028
+control-ABC,iron complex,ABC-subunit,single-gene,3,ax d31,rnaseq,axenic,day 31,0.6584747909804916,0.8972102789721028
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,ax d31,rnaseq,axenic,day 31,0.7129465416772232,0.6164383561643835
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,ax d31,rnaseq,axenic,day 31,0.7289080314162655,0.6164383561643835
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,ax d31,rnaseq,axenic,day 31,0.15353432987078794,0.8972102789721028
+control-ABC,phosphonate,ABC-subunit,single-gene,1,ax d31,rnaseq,axenic,day 31,0.11223714213326577,0.8972102789721028
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,ax d31,rnaseq,axenic,day 31,0.7228274638966303,0.8972102789721028
+control-ABC,solute:Na+,SSS,single-gene,3,ax d31,rnaseq,axenic,day 31,0.9465416772232075,0.6164383561643835
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d31,rnaseq,axenic,day 31,0.6442868001013428,0.8333166683331666
+control-ABC,serine/threonine,APC,single-gene,1,ax d31,rnaseq,axenic,day 31,0.9551558145426906,0.5844915508449156
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,ax d31,rnaseq,axenic,day 31,0.4945528249303268,0.8972102789721028
+control-ABC,bile acid:Na+,SSS,single-gene,1,ax d31,rnaseq,axenic,day 31,0.27919939194324805,0.8972102789721028
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d31,rnaseq,axenic,day 31,0.745882949075247,0.6968003199680032
+control-TonB,outer-membrane,other,single-gene,1,ax d31,rnaseq,axenic,day 31,0.12591841905244489,0.8972102789721028
+control-TonB,TonB-dependent,other,single-gene,12,ax d31,rnaseq,axenic,day 31,0.99366607550038,0.5844915508449156
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,ax d31,rnaseq,axenic,day 31,0.9923992906004561,0.5844915508449156
+control-TonB,outer membrane,other,single-gene,1,ax d31,rnaseq,axenic,day 31,0.17506967316949582,0.8972102789721028
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,ax d31,rnaseq,axenic,day 31,0.9946795034203192,0.5844915508449156
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,ax d31,rnaseq,axenic,day 31,0.8776285786673423,0.8446001553690785
+ambiguous-TonB,outer membrane,exporter,single-gene,1,ax d31,rnaseq,axenic,day 31,0.41626551811502405,0.8972102789721028
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,ax d31,rnaseq,axenic,day 31,0.9450215353432987,0.8972102789721028
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,ax d31,rnaseq,axenic,day 31,0.320749936660755,0.8972102789721028
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,ax d31,rnaseq,axenic,day 31,0.8264504687104129,0.6164383561643835
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,ax d31,rnaseq,axenic,day 31,0.10463643273372182,0.8972102789721028
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,ax d60+89,rnaseq,axenic,days 60+89,0.32733721814035976,0.8109989001099891
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,ax d60+89,rnaseq,axenic,days 60+89,0.9972130732201672,0.0026997300269973002
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,ax d60+89,rnaseq,axenic,days 60+89,0.7121864707372688,0.5075492450754925
+control-ABC,sodium,ABC-subunit,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.5728401317456296,0.7787821217878211
+control-ABC,iron complex,ABC-subunit,multi-subunit,3,ax d60+89,rnaseq,axenic,days 60+89,0.6561945781606284,0.8109989001099891
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,ax d60+89,rnaseq,axenic,days 60+89,0.8274638966303521,0.4009099090090991
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,ax d60+89,rnaseq,axenic,days 60+89,0.7276412465163415,0.5075492450754925
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.27058525462376487,0.8109989001099891
+control-ABC,phosphonate,ABC-subunit,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.07980744869521156,0.9229077092290771
+control-ABC,trk/ktr system potassium,secondary-carrier-inorganic,single-gene,2,ax d60+89,rnaseq,axenic,days 60+89,0.6757030656194578,0.8109989001099891
+control-ABC,solute:Na+,SSS,single-gene,3,ax d60+89,rnaseq,axenic,days 60+89,0.968583734481885,0.4009099090090991
+control-ABC,NRAMP family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.30909551558145426,0.8109989001099891
+control-ABC,serine/threonine,APC,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.8147960476311122,0.5075492450754925
+control-ABC,neurotransmitter:Na+,SSS,single-gene,2,ax d60+89,rnaseq,axenic,days 60+89,0.649100582721054,0.8109989001099891
+control-ABC,bile acid:Na+,SSS,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.36863440587788193,0.8109989001099891
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.7352419559158855,0.5200837059151228
+control-TonB,outer-membrane,other,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.5013934633899164,0.8109989001099891
+control-TonB,TonB-dependent,other,single-gene,12,ax d60+89,rnaseq,axenic,days 60+89,0.9855586521408665,0.5075492450754925
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,ax d60+89,rnaseq,axenic,days 60+89,0.9898657208006081,0.4574114017169712
+control-TonB,outer membrane,other,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.7582974410945021,0.5200837059151228
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,17,ax d60+89,rnaseq,axenic,days 60+89,0.9832784393210033,0.5200837059151228
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,4,ax d60+89,rnaseq,axenic,days 60+89,0.9850519381808969,0.4009099090090991
+ambiguous-TonB,outer membrane,exporter,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.4071446668355713,0.8109989001099891
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,14,ax d60+89,rnaseq,axenic,days 60+89,0.997466430200152,0.4009099090090991
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,ax d60+89,rnaseq,axenic,days 60+89,0.5538383582467697,0.8109989001099891
+ambiguous-TonB,energy transducer TonB,other,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.9394476817836331,0.4009099090090991
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,ax d60+89,rnaseq,axenic,days 60+89,0.16873574866987587,0.8611100428418695
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P co d18,proteomics,coculture,day 18,0.7173033707865168,0.3246246803891039
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P co d18,proteomics,coculture,day 18,0.1150561797752809,0.9743925607439257
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P co d18,proteomics,coculture,day 18,0.02202247191011236,0.9978002199780022
+control-ABC,sodium,ABC-subunit,single-gene,1,P co d18,proteomics,coculture,day 18,0.7946067415730337,0.3246246803891039
+control-ABC,iron complex,ABC-subunit,single-gene,2,P co d18,proteomics,coculture,day 18,0.8876404494382022,0.3246246803891039
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P co d18,proteomics,coculture,day 18,0.9752808988764045,0.31456854314568544
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P co d18,proteomics,coculture,day 18,0.033707865168539325,0.9978002199780022
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P co d18,proteomics,coculture,day 18,0.5680898876404494,0.5527917796455648
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P co d18,proteomics,coculture,day 18,0.17707865168539325,0.9534309726922043
+control-ABC,solute:Na+,SSS,single-gene,1,P co d18,proteomics,coculture,day 18,0.8970786516853932,0.31456854314568544
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P co d18,proteomics,coculture,day 18,0.7973033707865168,0.3246246803891039
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P co d18,proteomics,coculture,day 18,0.8669662921348315,0.31456854314568544
+control-TonB,outer-membrane,other,single-gene,1,P co d18,proteomics,coculture,day 18,0.8813483146067416,0.31456854314568544
+control-TonB,TonB-dependent,other,single-gene,12,P co d18,proteomics,coculture,day 18,0.9887640449438202,0.31456854314568544
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P co d18,proteomics,coculture,day 18,0.9910112359550561,0.31456854314568544
+control-TonB,outer membrane,other,single-gene,1,P co d18,proteomics,coculture,day 18,0.9159550561797752,0.31456854314568544
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P co d18,proteomics,coculture,day 18,0.9847191011235955,0.32776722327767227
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P co d18,proteomics,coculture,day 18,0.45348314606741574,0.9534309726922043
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P co d18,proteomics,coculture,day 18,0.7887640449438202,0.3246246803891039
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P co d18,proteomics,coculture,day 18,0.9977528089887641,0.31456854314568544
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P co d18,proteomics,coculture,day 18,0.9613483146067415,0.31456854314568544
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P co d18,proteomics,coculture,day 18,0.6984269662921349,0.40475952404759524
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P co d31,proteomics,coculture,day 31,0.3955056179775281,0.8403159684031598
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P co d31,proteomics,coculture,day 31,0.02696629213483146,0.9843015698430156
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P co d31,proteomics,coculture,day 31,0.11595505617977528,0.9843015698430156
+control-ABC,sodium,ABC-subunit,single-gene,1,P co d31,proteomics,coculture,day 31,0.8534831460674157,0.41355864413558646
+control-ABC,iron complex,ABC-subunit,single-gene,2,P co d31,proteomics,coculture,day 31,0.7456179775280899,0.7411566535654127
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P co d31,proteomics,coculture,day 31,0.8089887640449438,0.41355864413558646
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P co d31,proteomics,coculture,day 31,0.6253932584269664,0.5191480851914808
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P co d31,proteomics,coculture,day 31,0.37617977528089885,0.8403159684031598
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P co d31,proteomics,coculture,day 31,0.014831460674157304,0.9843015698430156
+control-ABC,solute:Na+,SSS,single-gene,1,P co d31,proteomics,coculture,day 31,0.5038202247191012,0.7713371519990858
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P co d31,proteomics,coculture,day 31,0.22112359550561797,0.9492050794920508
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P co d31,proteomics,coculture,day 31,0.8184269662921348,0.41355864413558646
+control-TonB,outer-membrane,other,single-gene,1,P co d31,proteomics,coculture,day 31,0.8026966292134832,0.41355864413558646
+control-TonB,TonB-dependent,other,single-gene,12,P co d31,proteomics,coculture,day 31,0.9968539325842697,0.41355864413558646
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P co d31,proteomics,coculture,day 31,0.9937078651685394,0.41355864413558646
+control-TonB,outer membrane,other,single-gene,1,P co d31,proteomics,coculture,day 31,0.8804494382022472,0.41355864413558646
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P co d31,proteomics,coculture,day 31,0.9932584269662922,0.41355864413558646
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P co d31,proteomics,coculture,day 31,0.2247191011235955,0.9843015698430156
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P co d31,proteomics,coculture,day 31,0.38741573033707866,0.8403159684031598
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P co d31,proteomics,coculture,day 31,1.0,0.1055894410558944
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P co d31,proteomics,coculture,day 31,0.9029213483146067,0.41355864413558646
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P co d31,proteomics,coculture,day 31,0.7586516853932584,0.4647535246475352
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P co d60,proteomics,coculture,day 60,0.6161797752808988,0.5073635493593498
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P co d60,proteomics,coculture,day 60,0.027415730337078652,0.9892010798920108
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P co d60,proteomics,coculture,day 60,0.010337078651685393,0.9892010798920108
+control-ABC,sodium,ABC-subunit,single-gene,1,P co d60,proteomics,coculture,day 60,0.7739325842696629,0.42995700429957007
+control-ABC,iron complex,ABC-subunit,multi-subunit,2,P co d60,proteomics,coculture,day 60,0.8175280898876405,0.5073635493593498
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P co d60,proteomics,coculture,day 60,0.36269662921348317,0.7750558277505583
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P co d60,proteomics,coculture,day 60,0.5986516853932584,0.5073635493593498
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P co d60,proteomics,coculture,day 60,0.49303370786516854,0.6502290947375851
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P co d60,proteomics,coculture,day 60,0.012134831460674157,0.9892010798920108
+control-ABC,solute:Na+,SSS,single-gene,1,P co d60,proteomics,coculture,day 60,0.8229213483146067,0.3697830216978302
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P co d60,proteomics,coculture,day 60,0.5096629213483146,0.6502290947375851
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P co d60,proteomics,coculture,day 60,0.8435955056179776,0.36320812363208127
+control-TonB,outer-membrane,other,single-gene,1,P co d60,proteomics,coculture,day 60,0.9649438202247191,0.27057294270572946
+control-TonB,TonB-dependent,other,single-gene,12,P co d60,proteomics,coculture,day 60,0.9973033707865169,0.27057294270572946
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P co d60,proteomics,coculture,day 60,0.9937078651685394,0.29403726294037263
+control-TonB,outer membrane,other,single-gene,1,P co d60,proteomics,coculture,day 60,0.9379775280898877,0.29403726294037263
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P co d60,proteomics,coculture,day 60,0.9919101123595505,0.34674032596740323
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P co d60,proteomics,coculture,day 60,0.329438202247191,0.9892010798920108
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P co d60,proteomics,coculture,day 60,0.52,0.6502290947375851
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P co d60,proteomics,coculture,day 60,1.0,0.1055894410558944
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P co d60,proteomics,coculture,day 60,0.9591011235955056,0.29403726294037263
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P co d60,proteomics,coculture,day 60,0.8934831460674157,0.3186538489008242
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P co d89,proteomics,coculture,day 89,0.2817977528089888,0.9291176145543342
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P co d89,proteomics,coculture,day 89,0.4287640449438202,0.7781721827817217
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P co d89,proteomics,coculture,day 89,0.012584269662921348,0.9875012498750126
+control-ABC,sodium,ABC-subunit,single-gene,1,P co d89,proteomics,coculture,day 89,0.7442696629213483,0.6083613860836139
+control-ABC,iron complex,ABC-subunit,single-gene,2,P co d89,proteomics,coculture,day 89,0.6247191011235955,0.7815689019333361
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P co d89,proteomics,coculture,day 89,0.5164044943820225,0.7520105132343909
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P co d89,proteomics,coculture,day 89,0.5244943820224719,0.7520105132343909
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P co d89,proteomics,coculture,day 89,0.5892134831460674,0.741875812418758
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P co d89,proteomics,coculture,day 89,0.014382022471910113,0.9875012498750126
+control-ABC,solute:Na+,SSS,single-gene,1,P co d89,proteomics,coculture,day 89,0.2543820224719101,0.9075314690753147
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P co d89,proteomics,coculture,day 89,0.45617977528089887,0.7781721827817217
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P co d89,proteomics,coculture,day 89,0.6485393258426966,0.741875812418758
+control-TonB,outer-membrane,other,single-gene,1,P co d89,proteomics,coculture,day 89,0.9712359550561798,0.22877712228777125
+control-TonB,TonB-dependent,other,single-gene,12,P co d89,proteomics,coculture,day 89,0.9977528089887641,0.22877712228777125
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P co d89,proteomics,coculture,day 89,0.9964044943820225,0.24461553844615538
+control-TonB,outer membrane,other,single-gene,1,P co d89,proteomics,coculture,day 89,0.9280898876404494,0.245642102456421
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P co d89,proteomics,coculture,day 89,0.9968539325842697,0.24461553844615538
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P co d89,proteomics,coculture,day 89,0.19191011235955055,0.9875012498750126
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P co d89,proteomics,coculture,day 89,0.6143820224719101,0.741875812418758
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P co d89,proteomics,coculture,day 89,1.0,0.1055894410558944
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P co d89,proteomics,coculture,day 89,0.9478651685393259,0.2755224477552245
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P co d89,proteomics,coculture,day 89,0.9101123595505618,0.2652306197951633
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P co d60+89,proteomics,coculture,days 60+89,0.45303370786516856,0.6906087169060872
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P co d60+89,proteomics,coculture,days 60+89,0.11865168539325843,0.9914008599140086
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P co d60+89,proteomics,coculture,days 60+89,0.008089887640449439,0.9914008599140086
+control-ABC,sodium,ABC-subunit,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.7604494382022472,0.5066093390660934
+control-ABC,iron complex,ABC-subunit,multi-subunit,2,P co d60+89,proteomics,coculture,days 60+89,0.7186516853932584,0.6906087169060872
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P co d60+89,proteomics,coculture,days 60+89,0.43640449438202245,0.6906087169060872
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P co d60+89,proteomics,coculture,days 60+89,0.5676404494382022,0.6906087169060872
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.5433707865168539,0.6906087169060872
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.009887640449438202,0.9914008599140086
+control-ABC,solute:Na+,SSS,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.5752808988764045,0.6906087169060872
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.48269662921348316,0.6906087169060872
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.7662921348314606,0.5066093390660934
+control-TonB,outer-membrane,other,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.9707865168539326,0.1957804219578042
+control-TonB,TonB-dependent,other,single-gene,12,P co d60+89,proteomics,coculture,days 60+89,0.9982022471910112,0.1957804219578042
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P co d60+89,proteomics,coculture,days 60+89,0.9950561797752809,0.25682431756824314
+control-TonB,outer membrane,other,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.9361797752808989,0.25682431756824314
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P co d60+89,proteomics,coculture,days 60+89,0.9941573033707866,0.25682431756824314
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P co d60+89,proteomics,coculture,days 60+89,0.2503370786516854,0.9914008599140086
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.5689887640449438,0.6906087169060872
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P co d60+89,proteomics,coculture,days 60+89,1.0,0.1055894410558944
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P co d60+89,proteomics,coculture,days 60+89,0.9555056179775281,0.25682431756824314
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P co d60+89,proteomics,coculture,days 60+89,0.9069662921348315,0.25682431756824314
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P ax d18,proteomics,axenic,day 18,0.5456179775280899,0.4996973986811845
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P ax d18,proteomics,axenic,day 18,0.27146067415730335,0.7973102689731026
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P ax d18,proteomics,axenic,day 18,0.863370786516854,0.297477944513241
+control-ABC,sodium,ABC-subunit,single-gene,1,P ax d18,proteomics,axenic,day 18,0.08808988764044944,0.9082091790820918
+control-ABC,iron complex,ABC-subunit,multi-subunit,2,P ax d18,proteomics,axenic,day 18,0.7492134831460674,0.4996973986811845
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P ax d18,proteomics,axenic,day 18,0.8768539325842697,0.297477944513241
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P ax d18,proteomics,axenic,day 18,0.6449438202247191,0.37058960770589605
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8548314606741573,0.297477944513241
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8179775280898877,0.297477944513241
+control-ABC,solute:Na+,SSS,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8449438202247191,0.297477944513241
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8741573033707866,0.297477944513241
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P ax d18,proteomics,axenic,day 18,0.9442696629213483,0.297477944513241
+control-TonB,outer-membrane,other,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8930337078651686,0.297477944513241
+control-TonB,TonB-dependent,other,single-gene,12,P ax d18,proteomics,axenic,day 18,0.9820224719101124,0.3089119659462626
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P ax d18,proteomics,axenic,day 18,0.9676404494382023,0.4171818112306416
+control-TonB,outer membrane,other,single-gene,1,P ax d18,proteomics,axenic,day 18,0.9191011235955057,0.297477944513241
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P ax d18,proteomics,axenic,day 18,0.988314606741573,0.297477944513241
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P ax d18,proteomics,axenic,day 18,0.38247191011235954,0.8900728974721576
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P ax d18,proteomics,axenic,day 18,0.9838202247191011,0.297477944513241
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P ax d18,proteomics,axenic,day 18,0.9725842696629213,0.4141085891410859
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P ax d18,proteomics,axenic,day 18,0.9635955056179776,0.297477944513241
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P ax d18,proteomics,axenic,day 18,0.8278651685393258,0.297477944513241
+control-ABC,iron(III),ABC-subunit,multi-subunit,1,P ax d31,proteomics,axenic,day 31,0.4997752808988764,0.5736794741578474
+control-ABC,nitrate/nitrite,ABC-subunit,multi-subunit,1,P ax d31,proteomics,axenic,day 31,0.4993258426966292,0.5736794741578474
+control-ABC,phosphate,ABC-subunit,multi-subunit,1,P ax d31,proteomics,axenic,day 31,0.8184269662921348,0.2554677865546779
+control-ABC,sodium,ABC-subunit,single-gene,1,P ax d31,proteomics,axenic,day 31,0.3586516853932584,0.7022797720227978
+control-ABC,iron complex,ABC-subunit,single-gene,2,P ax d31,proteomics,axenic,day 31,0.8453932584269663,0.38193680631936805
+control-ABC,ynjB ::,ABC-subunit,multi-subunit,1,P ax d31,proteomics,axenic,day 31,0.8741573033707866,0.2047487558936414
+control-ABC,molybdate,ABC-subunit,multi-subunit,1,P ax d31,proteomics,axenic,day 31,0.889438202247191,0.11250303541074465
+control-ABC,PhnD/SsuA/transferrin family,ABC-subunit,single-gene,1,P ax d31,proteomics,axenic,day 31,0.5568539325842696,0.5683196386243728
+control-ABC,phosphonate,ABC-subunit,single-gene,1,P ax d31,proteomics,axenic,day 31,0.2696629213483146,0.7610191361816199
+control-ABC,solute:Na+,SSS,single-gene,1,P ax d31,proteomics,axenic,day 31,0.8161797752808989,0.2554677865546779
+control-ABC,neurotransmitter:Na+,SSS,single-gene,1,P ax d31,proteomics,axenic,day 31,0.9114606741573034,0.1655834416558344
+control-ABC,Nramp family divalent metal,secondary-carrier-inorganic,single-gene,1,P ax d31,proteomics,axenic,day 31,0.9303370786516854,0.14716528347165284
+control-TonB,outer-membrane,other,single-gene,1,P ax d31,proteomics,axenic,day 31,0.976629213483146,0.11250303541074465
+control-TonB,TonB-dependent,other,single-gene,12,P ax d31,proteomics,axenic,day 31,0.9946067415730337,0.14716528347165284
+control-TonB,iron complex outermembrane recepter protein,other,single-gene,12,P ax d31,proteomics,axenic,day 31,0.9959550561797753,0.14106089391060894
+control-TonB,outer membrane,other,single-gene,1,P ax d31,proteomics,axenic,day 31,0.9640449438202248,0.11250303541074465
+ambiguous-TonB,TonB-dependent,enzyme;other,single-gene,16,P ax d31,proteomics,axenic,day 31,0.9991011235955056,0.11250303541074465
+ambiguous-TonB,periplasmic protein TonB,other,single-gene,2,P ax d31,proteomics,axenic,day 31,0.37617977528089885,0.8548145185481452
+ambiguous-TonB,outer membrane,exporter,single-gene,1,P ax d31,proteomics,axenic,day 31,0.9689887640449438,0.11250303541074465
+ambiguous-TonB,iron complex outermembrane recepter protein,other,single-gene,13,P ax d31,proteomics,axenic,day 31,0.9914606741573033,0.1988967769889678
+ambiguous-TonB,catecholate siderophore,other,single-gene,2,P ax d31,proteomics,axenic,day 31,0.988314606741573,0.11250303541074465
+ambiguous-TonB,hemoglobin/transferrin/lactoferrin,other,single-gene,1,P ax d31,proteomics,axenic,day 31,0.9622471910112359,0.11250303541074465

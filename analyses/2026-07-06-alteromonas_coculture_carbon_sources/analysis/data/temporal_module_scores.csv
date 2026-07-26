@@ -1,0 +1,537 @@
+omics,arm,timepoint,module_id,substrate,carrier_family,tier,pct,q,up_flag,soft_flag
+rnaseq,coculture,day 18,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.4860653661008361,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.1993919432480365,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8867494299467951,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.14770711933113756,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.29921459336204714,0.9282708092827082,False,False
+rnaseq,coculture,day 18,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3633139092982012,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.8211299721307322,0.3441989134419891,False,False
+rnaseq,coculture,day 18,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.11299721307322017,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::pedG ::,pedG ::,APC,single-gene,0.18419052444894857,0.9282708092827082,False,False
+rnaseq,coculture,day 18,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.20876615150747402,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.16772232074993665,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8685077273878895,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.6409931593615404,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.11274385609323537,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.6496072966810236,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7785659994932861,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.6949581960983026,0.9282708092827082,False,False
+rnaseq,coculture,day 18,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.2472764124651634,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.2571573346845706,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.43374714973397516,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.20673929566759564,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.8168229034709906,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.5013934633899164,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.21687357486698758,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.6873574866987585,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.13985305295160882,0.9810018998100191,False,False
+rnaseq,coculture,day 18,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7365087408158095,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::TRAP,TRAP,TRAP,single-gene,0.27919939194324805,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.6202178870027869,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.5903217633645806,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9589561692424626,0.3441989134419891,False,True
+rnaseq,coculture,day 18,resolved::choline,choline,BCCT,single-gene,0.3696478337978211,0.9282708092827082,False,False
+rnaseq,coculture,day 18,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.25943754750443376,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.43602736255383834,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.9837851532809729,0.3441989134419891,False,True
+rnaseq,coculture,day 18,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.9979731441601216,0.12418758124187582,False,True
+rnaseq,coculture,day 18,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.071700025335698,0.9484251574842516,False,False
+rnaseq,coculture,day 18,resolved::APC family,APC family,APC,single-gene,0.5376235115277426,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.18267038256903978,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.7152267544970864,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9713706612617178,0.3441989134419891,False,True
+rnaseq,coculture,day 18,resolved::amino acid,amino acid,APC,single-gene,0.21864707372688116,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.935900684063846,0.43761338151899093,False,True
+rnaseq,coculture,day 18,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.5616924246262984,0.9282708092827082,False,False
+rnaseq,coculture,day 18,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.957182670382569,0.3441989134419891,False,True
+rnaseq,coculture,day 18,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.29237395490245754,0.9282708092827082,False,False
+rnaseq,coculture,day 31,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.48087154801114773,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.3590068406384596,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8006080567519636,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.06460602989612364,0.9407059294070593,False,False
+rnaseq,coculture,day 31,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.5112743856093236,0.8877112288771122,False,False
+rnaseq,coculture,day 31,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3318976437800861,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.9518621738028883,0.03679632036796321,True,True
+rnaseq,coculture,day 31,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.2485431973650874,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::pedG ::,pedG ::,APC,single-gene,0.1793767418292374,0.9182252506456673,False,False
+rnaseq,coculture,day 31,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.31770965290093744,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.36736762097795794,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8870027869267798,0.7755335577553356,False,False
+rnaseq,coculture,day 31,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.8191031162908539,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.13123891563212567,0.9238803392388033,False,False
+rnaseq,coculture,day 31,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.8092221940714467,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7704585761337724,0.6721077892210778,False,False
+rnaseq,coculture,day 31,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.9179123384849253,0.6357221420715071,False,True
+rnaseq,coculture,day 31,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.12135799341271852,0.9238803392388033,False,False
+rnaseq,coculture,day 31,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.32911071700025335,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.3410184950595389,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.38636939447681784,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.8178363313909298,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.8180896883709147,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.42057258677476567,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.812515834811249,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.33696478337978214,0.9238803392388033,False,False
+rnaseq,coculture,day 31,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.9217126931846973,0.6357221420715071,False,True
+rnaseq,coculture,day 31,resolved::TRAP,TRAP,TRAP,single-gene,0.2153534329870788,0.9013948605139486,False,False
+rnaseq,coculture,day 31,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.8234101849505954,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.36863440587788193,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9989865720800608,0.03679632036796321,True,True
+rnaseq,coculture,day 31,resolved::choline,choline,BCCT,single-gene,0.5241955915885482,0.8877112288771122,False,False
+rnaseq,coculture,day 31,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.25259690904484416,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.6067899670635926,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.8961236382062325,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.823916898910565,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.3711679756777299,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::APC family,APC family,APC,single-gene,0.84899923992906,0.6357221420715071,False,False
+rnaseq,coculture,day 31,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.05903217633645807,0.9407059294070593,False,False
+rnaseq,coculture,day 31,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.9386876108436787,0.6357221420715071,False,True
+rnaseq,coculture,day 31,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9926526475804408,0.11958804119588042,False,True
+rnaseq,coculture,day 31,resolved::amino acid,amino acid,APC,single-gene,0.3055485178616671,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.7691917912338485,0.6721077892210778,False,False
+rnaseq,coculture,day 31,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.6247783126425133,0.8877112288771122,False,False
+rnaseq,coculture,day 31,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.7256143906764632,0.7559479346183028,False,False
+rnaseq,coculture,day 31,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.4585761337724854,0.8877112288771122,False,False
+rnaseq,coculture,day 60,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.5752470230554851,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.3577400557385356,0.8705305939994235,False,False
+rnaseq,coculture,day 60,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8051684823916899,0.8991511105299728,False,False
+rnaseq,coculture,day 60,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.10463643273372182,0.9379925643799257,False,False
+rnaseq,coculture,day 60,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.6219913858626805,0.8045013680450137,False,False
+rnaseq,coculture,day 60,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3242969343805422,0.8921793534932221,False,False
+rnaseq,coculture,day 60,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.9217126931846973,0.08509149085091491,True,True
+rnaseq,coculture,day 60,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.24144920192551306,0.8991511105299728,False,False
+rnaseq,coculture,day 60,resolved::pedG ::,pedG ::,APC,single-gene,0.4983531796300988,0.8687555486875556,False,False
+rnaseq,coculture,day 60,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.5670129212059792,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.4119584494552825,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8606536610083608,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.1573346845705599,0.9379925643799257,False,False
+rnaseq,coculture,day 60,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.13402584241195845,0.9379925643799257,False,False
+rnaseq,coculture,day 60,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.6807702052191538,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7633645806941981,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.8961236382062325,0.5363063693630636,False,False
+rnaseq,coculture,day 60,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.07727387889536357,0.9452565854525659,False,False
+rnaseq,coculture,day 60,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.43881428933367117,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.37674182923739546,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.4066379528756017,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.9690904484418545,0.24530880245308803,False,True
+rnaseq,coculture,day 60,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.9830250823410185,0.31342580027711514,False,True
+rnaseq,coculture,day 60,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.6835571319989866,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.7403090955155814,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.21763364580694197,0.9523047695230477,False,False
+rnaseq,coculture,day 60,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.6280719533823157,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::TRAP,TRAP,TRAP,single-gene,0.17101596148973905,0.9379925643799257,False,False
+rnaseq,coculture,day 60,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.8882695718267039,0.5363063693630636,False,False
+rnaseq,coculture,day 60,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.393716746896377,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9994932860400304,0.045995400459954004,True,True
+rnaseq,coculture,day 60,resolved::choline,choline,BCCT,single-gene,0.6224980998226501,0.8045013680450137,False,False
+rnaseq,coculture,day 60,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.27235875348365846,0.8991511105299728,False,False
+rnaseq,coculture,day 60,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.6924246262984545,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.969850519381809,0.24530880245308803,False,True
+rnaseq,coculture,day 60,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.9827717253610337,0.20352964703529647,False,True
+rnaseq,coculture,day 60,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.43653407651380793,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::APC family,APC family,APC,single-gene,0.8897897137066126,0.5363063693630636,False,False
+rnaseq,coculture,day 60,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.10945021535343298,0.9379925643799257,False,False
+rnaseq,coculture,day 60,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.8330377501900177,0.7104198671041986,False,False
+rnaseq,coculture,day 60,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9845452242209273,0.20352964703529647,False,True
+rnaseq,coculture,day 60,resolved::amino acid,amino acid,APC,single-gene,0.43957436027362556,0.8687555486875556,False,False
+rnaseq,coculture,day 60,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.23790220420572586,0.8991511105299728,False,False
+rnaseq,coculture,day 60,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7314416012161135,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.7372688117557639,0.8045013680450137,False,False
+rnaseq,coculture,day 60,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.49176589815049404,0.8687555486875556,False,False
+rnaseq,coculture,day 89,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.38978971370661264,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.50316696224981,0.9098244021751671,False,False
+rnaseq,coculture,day 89,resolved::polar amino acid,polar amino acid,APC,single-gene,0.787433493792754,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.08335444641499873,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.7671649353939701,0.5404459554044595,False,False
+rnaseq,coculture,day 89,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3549531289587028,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.8834557892069926,0.17478252174782524,False,False
+rnaseq,coculture,day 89,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.15480111477071193,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::pedG ::,pedG ::,APC,single-gene,0.0879148720547251,0.9192080791920808,False,False
+rnaseq,coculture,day 89,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.09754243729414745,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.26045097542437295,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.9179123384849253,0.6184081591840817,False,True
+rnaseq,coculture,day 89,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.29060045604256396,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.29870787940207755,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.9087914872054725,0.5404459554044595,False,True
+rnaseq,coculture,day 89,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7463896630352166,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.8652140866480872,0.5837582908375829,False,False
+rnaseq,coculture,day 89,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.11274385609323537,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.5305295160881682,0.9098244021751671,False,False
+rnaseq,coculture,day 89,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.45325563719280465,0.9187581241875812,False,False
+rnaseq,coculture,day 89,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.5393970103876362,0.9098244021751671,False,False
+rnaseq,coculture,day 89,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.9594628832024322,0.4864013598640136,False,True
+rnaseq,coculture,day 89,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.9115784139853053,0.6184081591840817,False,True
+rnaseq,coculture,day 89,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.7461363060552318,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.8216366860907018,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.3042817329617431,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7550038003546997,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::TRAP,TRAP,TRAP,single-gene,0.18951102102862935,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.7762857866734229,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.5690397770458576,0.9098244021751671,False,False
+rnaseq,coculture,day 89,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9982265011401064,0.11498850114988501,False,True
+rnaseq,coculture,day 89,resolved::choline,choline,BCCT,single-gene,0.36382062325817077,0.9192080791920808,False,False
+rnaseq,coculture,day 89,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.24094248796554346,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.7005320496579681,0.9098244021751671,False,False
+rnaseq,coculture,day 89,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.9465416772232075,0.5243475652434757,False,True
+rnaseq,coculture,day 89,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.8520395236888776,0.5837582908375829,False,False
+rnaseq,coculture,day 89,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.22346085634659235,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::APC family,APC family,APC,single-gene,0.9328604003040284,0.5404459554044595,False,True
+rnaseq,coculture,day 89,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.1968583734481885,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.8826957182670383,0.5837582908375829,False,False
+rnaseq,coculture,day 89,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9934127185203953,0.1678832116788321,False,True
+rnaseq,coculture,day 89,resolved::amino acid,amino acid,APC,single-gene,0.44008107423359516,0.9187581241875812,False,False
+rnaseq,coculture,day 89,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.3321510007600709,0.9192080791920808,False,False
+rnaseq,coculture,day 89,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7360020268558399,0.6184081591840817,False,False
+rnaseq,coculture,day 89,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.8500126678489992,0.5837582908375829,False,False
+rnaseq,coculture,day 89,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.495566252850266,0.9098244021751671,False,False
+rnaseq,coculture,days 60+89,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.4806181910311629,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.42057258677476567,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::polar amino acid,polar amino acid,APC,single-gene,0.77349885989359,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.08411451735495312,0.9398393493983934,False,False
+rnaseq,coculture,days 60+89,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.7441094502153535,0.5363063693630636,False,False
+rnaseq,coculture,days 60+89,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3215100076007094,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.914365340765138,0.11498850114988501,False,True
+rnaseq,coculture,days 60+89,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.18849759310869013,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::pedG ::,pedG ::,APC,single-gene,0.26298454522422093,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.30073473524195593,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.3149227261211046,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8991639219660502,0.6996411469964116,False,False
+rnaseq,coculture,days 60+89,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.2135799341271852,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.20699265264758043,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.8375981758297442,0.5862644504780291,False,False
+rnaseq,coculture,days 60+89,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7567772992145934,0.6996411469964116,False,False
+rnaseq,coculture,days 60+89,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.8882695718267039,0.5363063693630636,False,False
+rnaseq,coculture,days 60+89,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.08310108943501393,0.9398393493983934,False,False
+rnaseq,coculture,days 60+89,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.47453762351152773,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.40233088421586016,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.46085634659234864,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.9683303775019002,0.26983968269839687,False,True
+rnaseq,coculture,days 60+89,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.9777045857613377,0.4165869127372977,False,True
+rnaseq,coculture,days 60+89,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.7109196858373448,0.7071187618080298,False,False
+rnaseq,coculture,days 60+89,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.7869267798327844,0.6672399426723994,False,False
+rnaseq,coculture,days 60+89,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.2467696985051938,0.9403059694030597,False,False
+rnaseq,coculture,days 60+89,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.6909044844185457,0.7191380861913809,False,False
+rnaseq,coculture,days 60+89,resolved::TRAP,TRAP,TRAP,single-gene,0.17076260450975425,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.8588801621484672,0.5473452654734526,False,False
+rnaseq,coculture,days 60+89,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.47023055485178616,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9992399290600456,0.0597940205979402,True,True
+rnaseq,coculture,days 60+89,resolved::choline,choline,BCCT,single-gene,0.4816316189511021,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.24550291360526982,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.610083607803395,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.9657968077020522,0.26983968269839687,False,True
+rnaseq,coculture,days 60+89,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.9761844438814289,0.26983968269839687,False,True
+rnaseq,coculture,days 60+89,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.3068153027615911,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::APC family,APC family,APC,single-gene,0.9163921966050165,0.4990500949905009,False,True
+rnaseq,coculture,days 60+89,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.13858626805168484,0.9230100245789373,False,False
+rnaseq,coculture,days 60+89,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.864200658728148,0.5473452654734526,False,False
+rnaseq,coculture,days 60+89,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.991132505700532,0.14565210145652102,False,True
+rnaseq,coculture,days 60+89,resolved::amino acid,amino acid,APC,single-gene,0.4261464403344312,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.2695718267038257,0.905342799053428,False,False
+rnaseq,coculture,days 60+89,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7327083861160375,0.6996411469964116,False,False
+rnaseq,coculture,days 60+89,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.8039016974917659,0.6577342265773423,False,False
+rnaseq,coculture,days 60+89,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.4849252596909045,0.905342799053428,False,False
+rnaseq,axenic,day 18,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.3023815556118571,0.8962532318196752,False,False
+rnaseq,axenic,day 18,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.4973397517101596,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::polar amino acid,polar amino acid,APC,single-gene,0.6789967063592602,0.922107789221078,False,False
+rnaseq,axenic,day 18,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.25462376488472255,0.8873662633736628,False,False
+rnaseq,axenic,day 18,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.9214593362047124,0.18398160183981602,False,True
+rnaseq,axenic,day 18,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.4780846212313149,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.7726121104636432,0.5496450354964504,False,False
+rnaseq,axenic,day 18,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.4861920445908285,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::pedG ::,pedG ::,APC,single-gene,0.9549024575627059,0.5496450354964504,False,True
+rnaseq,axenic,day 18,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.2280212819863187,0.8873662633736628,False,False
+rnaseq,axenic,day 18,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.3412718520395237,0.8240635395919866,False,False
+rnaseq,axenic,day 18,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8839625031669622,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.55966556878642,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.24220927286546745,0.8873662633736628,False,False
+rnaseq,axenic,day 18,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.7512034456549278,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7694451482138333,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.8079554091715226,0.6413072978416443,False,False
+rnaseq,axenic,day 18,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.938434253863694,0.5496450354964504,False,True
+rnaseq,axenic,day 18,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.4266531542944008,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.4104383075753737,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.688117557638713,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.8735748669875855,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.5677729921459336,0.8962532318196752,False,False
+rnaseq,axenic,day 18,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.8654674436280719,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.8581200912085128,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.27742589308335447,0.922107789221078,False,False
+rnaseq,axenic,day 18,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7230808208766152,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::TRAP,TRAP,TRAP,single-gene,0.3724347605776539,0.8114355231143553,False,False
+rnaseq,axenic,day 18,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.6845705599189258,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.825183683810489,0.6319060401652142,False,False
+rnaseq,axenic,day 18,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.4375475044337471,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::choline,choline,BCCT,single-gene,0.142133265771472,0.913322304133223,False,False
+rnaseq,axenic,day 18,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.5279959462883203,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.9399543957436027,0.5496450354964504,False,True
+rnaseq,axenic,day 18,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.4841651887509501,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.6007093995439574,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.12667848999239928,0.913322304133223,False,False
+rnaseq,axenic,day 18,resolved::APC family,APC family,APC,single-gene,0.8961236382062325,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.5057005320496579,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.8862427159868255,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9617430960222955,0.5496450354964504,False,True
+rnaseq,axenic,day 18,resolved::amino acid,amino acid,APC,single-gene,0.8935900684063846,0.5496450354964504,False,False
+rnaseq,axenic,day 18,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.36610083607803395,0.8114355231143553,False,False
+rnaseq,axenic,day 18,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7273878895363567,0.697815932692445,False,False
+rnaseq,axenic,day 18,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.43881428933367117,0.7972085144426734,False,False
+rnaseq,axenic,day 18,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.4127185203952369,0.7972085144426734,False,False
+rnaseq,axenic,day 31,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.34532556371928047,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.4089181656954649,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::polar amino acid,polar amino acid,APC,single-gene,0.9820116544210793,0.8131558937129543,False,True
+rnaseq,axenic,day 31,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.28198631872308083,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.8449455282493032,0.8131558937129543,False,False
+rnaseq,axenic,day 31,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3944768178363314,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.746516341525209,0.8131558937129543,False,False
+rnaseq,axenic,day 31,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.2639979731441601,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::pedG ::,pedG ::,APC,single-gene,0.4983531796300988,0.8131558937129543,False,False
+rnaseq,axenic,day 31,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.25335697998479856,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.2556371928046618,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.78616670889283,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.2946541677223207,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.5601722827463896,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.8320243222700785,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.8145426906511274,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.7390423106156575,0.8131558937129543,False,False
+rnaseq,axenic,day 31,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.8383582467696985,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.25842411958449457,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.5252090195084874,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.4859386876108437,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.9161388396250316,0.8131558937129543,False,True
+rnaseq,axenic,day 31,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.4504687104129719,0.912008799120088,False,False
+rnaseq,axenic,day 31,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.6622751456802635,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.688117557638713,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.5062072460096275,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.5016468203699012,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::TRAP,TRAP,TRAP,single-gene,0.16544210793007347,0.8710901637109018,False,False
+rnaseq,axenic,day 31,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.5153280972890804,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.667848999239929,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.5457309348872561,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::choline,choline,BCCT,single-gene,0.24246262984545225,0.8131558937129543,False,False
+rnaseq,axenic,day 31,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.45452242209272864,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.9366607550038003,0.8131558937129543,False,True
+rnaseq,axenic,day 31,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.7674182923739549,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.9364073980238156,0.8131558937129543,False,True
+rnaseq,axenic,day 31,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.0899417278946035,0.912008799120088,False,False
+rnaseq,axenic,day 31,resolved::APC family,APC family,APC,single-gene,0.8659741575880415,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.33037750190017734,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.8056751963516595,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.3564732708386116,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::amino acid,amino acid,APC,single-gene,0.7897137066126172,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.44261464403344314,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.5452242209272865,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.3889029642766658,0.8131558937129543,False,False
+rnaseq,axenic,day 31,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.27818596402330886,0.8131558937129543,False,False
+rnaseq,axenic,days 60+89,unresolved::ACZ81_S0001,unresolved,APC,multi-subunit,0.36559412211806436,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.41322523435520647,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::polar amino acid,polar amino acid,APC,single-gene,0.713199898657208,0.8887333488873335,False,False
+rnaseq,axenic,days 60+89,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.09399543957436027,0.909009099090091,False,False
+rnaseq,axenic,days 60+89,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.8479858120091208,0.17075792420757924,False,False
+rnaseq,axenic,days 60+89,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.3402584241195845,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::peptide/nickel,peptide/nickel,ABC-subunit,multi-subunit,0.6708892829997466,0.5875145818751458,False,False
+rnaseq,axenic,days 60+89,unresolved::ACZ81_S0050,unresolved,ABC-subunit,single-gene,0.1996453002280213,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::pedG ::,pedG ::,APC,single-gene,0.2569039777045858,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.2561439067646314,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.3795287560172283,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.7841398530529516,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::nucleoside,nucleoside,nucleoside-Nup,single-gene,0.5064606029896124,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,single-gene,0.14846719027109198,0.8887333488873335,False,False
+rnaseq,axenic,days 60+89,resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,single-gene,0.9931593615404104,0.0942905709429057,True,True
+rnaseq,axenic,days 60+89,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.8601469470483912,0.5397888782550316,False,False
+rnaseq,axenic,days 60+89,resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,single-gene,0.7712186470737269,0.6296528241912651,False,False
+rnaseq,axenic,days 60+89,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.8419052444894857,0.5397888782550316,False,False
+rnaseq,axenic,days 60+89,resolved::GntP family,GntP family,gluconate/organic-acid,single-gene,0.45249556625285026,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,single-gene,0.4119584494552825,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,single-gene,0.5601722827463896,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.9782112997213073,0.14652820432242492,False,True
+rnaseq,axenic,days 60+89,resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,single-gene,0.9789713706612617,0.2732126787321268,False,True
+rnaseq,axenic,days 60+89,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.7441094502153535,0.6296528241912651,False,False
+rnaseq,axenic,days 60+89,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.8386116037496834,0.5397888782550316,False,False
+rnaseq,axenic,days 60+89,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.4375475044337471,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7512034456549278,0.6296528241912651,False,False
+rnaseq,axenic,days 60+89,resolved::TRAP,TRAP,TRAP,single-gene,0.24271598682543705,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,single-gene,0.6336458069419812,0.777740407777404,False,False
+rnaseq,axenic,days 60+89,resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,single-gene,0.6450468710412972,0.777740407777404,False,False
+rnaseq,axenic,days 60+89,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9989865720800608,0.07359264073592642,True,True
+rnaseq,axenic,days 60+89,resolved::choline,choline,BCCT,single-gene,0.25285026602482896,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.4844185457309349,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::sugar MFS,sugar MFS,secondary-carrier-organic,single-gene,0.6853306308588801,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,single-gene,0.9896123638206232,0.0942905709429057,True,True
+rnaseq,axenic,days 60+89,resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,single-gene,0.9893590068406385,0.0942905709429057,True,True
+rnaseq,axenic,days 60+89,resolved::glycerol,glycerol,glycerol/glp,single-gene,0.22016721560678998,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::APC family,APC family,APC,single-gene,0.9437547504433748,0.2732126787321268,False,True
+rnaseq,axenic,days 60+89,resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,single-gene,0.24448948568533063,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.9242462629845453,0.3353482833534828,False,True
+rnaseq,axenic,days 60+89,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9883455789206993,0.0942905709429057,True,True
+rnaseq,axenic,days 60+89,resolved::amino acid,amino acid,APC,single-gene,0.6916645553585001,0.7170682931706829,False,False
+rnaseq,axenic,days 60+89,resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,single-gene,0.9901190777805928,0.0942905709429057,True,True
+rnaseq,axenic,days 60+89,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7590575120344566,0.6296528241912651,False,False
+rnaseq,axenic,days 60+89,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.539650367367621,0.8626811737430908,False,False
+rnaseq,axenic,days 60+89,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.3212566506207246,0.8626811737430908,False,False
+proteomics,coculture,day 18,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.5352808988764045,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8435955056179776,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.251685393258427,0.9295470452954705,False,False
+proteomics,coculture,day 18,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.7096629213483147,0.6517465900468776,False,False
+proteomics,coculture,day 18,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.6683146067415731,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::pedG ::,pedG ::,APC,single-gene,0.5559550561797753,0.6517465900468776,False,False
+proteomics,coculture,day 18,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.18157303370786518,0.9355635864984929,False,False
+proteomics,coculture,day 18,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.6287640449438202,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.7793258426966292,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.5047191011235955,0.6534013265340133,False,False
+proteomics,coculture,day 18,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.7761797752808989,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.04,0.9777022297770223,False,False
+proteomics,coculture,day 18,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.22382022471910112,0.9295470452954705,False,False
+proteomics,coculture,day 18,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.10516853932584269,0.9764841697648418,False,False
+proteomics,coculture,day 18,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.9982022471910112,0.10318968103189682,False,True
+proteomics,coculture,day 18,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.8804494382022472,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.5793258426966292,0.6517465900468776,False,False
+proteomics,coculture,day 18,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.7586516853932584,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.8148314606741573,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.021123595505617977,0.9777022297770223,False,False
+proteomics,coculture,day 18,resolved::amino acid,amino acid,APC,single-gene,0.5474157303370787,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.8265168539325842,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.8791011235955056,0.6517465900468776,False,False
+proteomics,coculture,day 18,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.5716853932584269,0.6517465900468776,False,False
+proteomics,coculture,day 31,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.5779775280898877,0.803919608039196,False,False
+proteomics,coculture,day 31,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8287640449438203,0.803919608039196,False,False
+proteomics,coculture,day 31,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.10921348314606742,0.9586519608908676,False,False
+proteomics,coculture,day 31,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.3235955056179775,0.9384261573842615,False,False
+proteomics,coculture,day 31,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.515056179775281,0.803919608039196,False,False
+proteomics,coculture,day 31,resolved::pedG ::,pedG ::,APC,single-gene,0.30157303370786515,0.9384261573842615,False,False
+proteomics,coculture,day 31,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.49303370786516854,0.803919608039196,False,False
+proteomics,coculture,day 31,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.8395505617977528,0.5886268516005543,False,False
+proteomics,coculture,day 31,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.4602247191011236,0.9384261573842615,False,False
+proteomics,coculture,day 31,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.5352808988764045,0.803919608039196,False,False
+proteomics,coculture,day 31,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.07820224719101124,0.9586519608908676,False,False
+proteomics,coculture,day 31,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.2543820224719101,0.9384261573842615,False,False
+proteomics,coculture,day 31,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.8948314606741573,0.5886268516005543,False,False
+proteomics,coculture,day 31,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.3860674157303371,0.9122087791220878,False,False
+proteomics,coculture,day 31,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.969438202247191,0.5886268516005543,False,True
+proteomics,coculture,day 31,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.8714606741573033,0.5886268516005543,False,False
+proteomics,coculture,day 31,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.844494382022472,0.5886268516005543,False,False
+proteomics,coculture,day 31,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.8440449438202248,0.5886268516005543,False,False
+proteomics,coculture,day 31,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.12764044943820224,0.9586519608908676,False,False
+proteomics,coculture,day 31,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.025168539325842697,0.9752024797520248,False,False
+proteomics,coculture,day 31,resolved::amino acid,amino acid,APC,single-gene,0.818876404494382,0.5886268516005543,False,False
+proteomics,coculture,day 31,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.76,0.6001799820017999,False,False
+proteomics,coculture,day 31,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.7510112359550561,0.6001799820017999,False,False
+proteomics,coculture,day 31,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.743370786516854,0.6001799820017999,False,False
+proteomics,coculture,day 60,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.4350561797752809,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::polar amino acid,polar amino acid,APC,single-gene,0.8880898876404495,0.7532846715328467,False,False
+proteomics,coculture,day 60,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.11865168539325843,0.9619765296197653,False,False
+proteomics,coculture,day 60,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.4710112359550562,0.8234965977086502,False,False
+proteomics,coculture,day 60,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.6130337078651685,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::pedG ::,pedG ::,APC,single-gene,0.44,0.8234965977086502,False,False
+proteomics,coculture,day 60,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.34831460674157305,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.4786516853932584,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.7164044943820225,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.29842696629213483,0.8388361163883612,False,False
+proteomics,coculture,day 60,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.13393258426966292,0.9619765296197653,False,False
+proteomics,coculture,day 60,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.05662921348314607,0.9833799228772774,False,False
+proteomics,coculture,day 60,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.6791011235955056,0.7532846715328467,False,False
+proteomics,coculture,day 60,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.35730337078651686,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.9689887640449438,0.6657619952290484,False,True
+proteomics,coculture,day 60,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7330337078651685,0.7532846715328467,False,False
+proteomics,coculture,day 60,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.8894382022471911,0.6657619952290484,False,False
+proteomics,coculture,day 60,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.7964044943820224,0.6657619952290484,False,False
+proteomics,coculture,day 60,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.34606741573033706,0.8234965977086502,False,False
+proteomics,coculture,day 60,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.005393258426966292,0.9943005699430058,False,False
+proteomics,coculture,day 60,resolved::amino acid,amino acid,APC,single-gene,0.837752808988764,0.6657619952290484,False,False
+proteomics,coculture,day 60,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.807191011235955,0.6657619952290484,False,False
+proteomics,coculture,day 60,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.8458426966292135,0.6657619952290484,False,False
+proteomics,coculture,day 60,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.844494382022472,0.6657619952290484,False,False
+proteomics,coculture,day 89,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.5235955056179775,0.797020297970203,False,False
+proteomics,coculture,day 89,resolved::polar amino acid,polar amino acid,APC,single-gene,0.9087640449438202,0.7394260573942606,False,True
+proteomics,coculture,day 89,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.17168539325842697,0.9272464057942031,False,False
+proteomics,coculture,day 89,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.5573033707865168,0.797020297970203,False,False
+proteomics,coculture,day 89,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.7132584269662922,0.7455254474552545,False,False
+proteomics,coculture,day 89,resolved::pedG ::,pedG ::,APC,single-gene,0.6022471910112359,0.797020297970203,False,False
+proteomics,coculture,day 89,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.4633707865168539,0.797020297970203,False,False
+proteomics,coculture,day 89,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.592808988764045,0.797020297970203,False,False
+proteomics,coculture,day 89,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.6808988764044944,0.797020297970203,False,False
+proteomics,coculture,day 89,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.2143820224719101,0.9272464057942031,False,False
+proteomics,coculture,day 89,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.1204494382022472,0.9272464057942031,False,False
+proteomics,coculture,day 89,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.11191011235955056,0.9272464057942031,False,False
+proteomics,coculture,day 89,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.3806741573033708,0.8030354859250918,False,False
+proteomics,coculture,day 89,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.36089887640449436,0.8030354859250918,False,False
+proteomics,coculture,day 89,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.9851685393258427,0.6935306469353065,False,True
+proteomics,coculture,day 89,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.5231460674157303,0.797020297970203,False,False
+proteomics,coculture,day 89,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.8737078651685394,0.7394260573942606,False,False
+proteomics,coculture,day 89,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.7649438202247191,0.7394260573942606,False,False
+proteomics,coculture,day 89,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.42337078651685395,0.8030354859250918,False,False
+proteomics,coculture,day 89,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.007640449438202248,0.9919008099190081,False,False
+proteomics,coculture,day 89,resolved::amino acid,amino acid,APC,single-gene,0.7815730337078651,0.7394260573942606,False,False
+proteomics,coculture,day 89,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7577528089887641,0.7394260573942606,False,False
+proteomics,coculture,day 89,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.7982022471910112,0.7394260573942606,False,False
+proteomics,coculture,day 89,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.8062921348314607,0.7394260573942606,False,False
+proteomics,coculture,days 60+89,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.4759550561797753,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::polar amino acid,polar amino acid,APC,single-gene,0.9051685393258427,0.7673232676732327,False,True
+proteomics,coculture,days 60+89,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.13662921348314608,0.9573951695739517,False,False
+proteomics,coculture,days 60+89,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.5164044943820225,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.6782022471910112,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::pedG ::,pedG ::,APC,single-gene,0.5244943820224719,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.4017977528089888,0.8118767070661355,False,False
+proteomics,coculture,days 60+89,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.5397752808988764,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.7038202247191011,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.2507865168539326,0.8961903809619038,False,False
+proteomics,coculture,days 60+89,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.12359550561797752,0.9573951695739517,False,False
+proteomics,coculture,days 60+89,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.07820224719101124,0.9586519608908676,False,False
+proteomics,coculture,days 60+89,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.5402247191011236,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.3541573033707865,0.8118767070661355,False,False
+proteomics,coculture,days 60+89,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.9802247191011236,0.6949019383775907,False,True
+proteomics,coculture,days 60+89,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.6328089887640449,0.7776722327767223,False,False
+proteomics,coculture,days 60+89,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.8862921348314606,0.6949019383775907,False,False
+proteomics,coculture,days 60+89,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.7869662921348315,0.6949019383775907,False,False
+proteomics,coculture,days 60+89,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.37887640449438204,0.8118767070661355,False,False
+proteomics,coculture,days 60+89,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.004943820224719101,0.9946005399460054,False,False
+proteomics,coculture,days 60+89,resolved::amino acid,amino acid,APC,single-gene,0.8152808988764045,0.6949019383775907,False,False
+proteomics,coculture,days 60+89,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.788314606741573,0.6949019383775907,False,False
+proteomics,coculture,days 60+89,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.8251685393258427,0.6949019383775907,False,False
+proteomics,coculture,days 60+89,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.830561797752809,0.6949019383775907,False,False
+proteomics,axenic,day 18,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.7743820224719101,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::polar amino acid,polar amino acid,APC,single-gene,0.9465168539325842,0.3324299149032466,False,True
+proteomics,axenic,day 18,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.8017977528089888,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.5649438202247191,0.4343565643435657,False,False
+proteomics,axenic,day 18,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.6328089887640449,0.42327195851843386,False,False
+proteomics,axenic,day 18,resolved::pedG ::,pedG ::,APC,single-gene,0.8471910112359551,0.3324299149032466,False,False
+proteomics,axenic,day 18,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.6224719101123596,0.42327195851843386,False,False
+proteomics,axenic,day 18,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.9208988764044944,0.25163197965917694,False,True
+proteomics,axenic,day 18,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8813483146067416,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.7564044943820225,0.3324299149032466,False,False
+proteomics,axenic,day 18,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.922247191011236,0.25163197965917694,False,True
+proteomics,axenic,day 18,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.38786516853932584,0.6323889350195415,False,False
+proteomics,axenic,day 18,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.9896629213483146,0.22797720227977203,False,True
+proteomics,axenic,day 18,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.9020224719101123,0.28077192280771923,False,True
+proteomics,axenic,day 18,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.8719101123595505,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.7361797752808988,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.9591011235955056,0.23517648235176483,False,True
+proteomics,axenic,day 18,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.7528089887640449,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.927191011235955,0.25163197965917694,False,True
+proteomics,axenic,day 18,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.9640449438202248,0.23517648235176483,False,True
+proteomics,axenic,day 18,resolved::amino acid,amino acid,APC,single-gene,0.8103370786516854,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7276404494382023,0.3324299149032466,False,False
+proteomics,axenic,day 18,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.9707865168539326,0.23517648235176483,False,True
+proteomics,axenic,day 18,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.14247191011235955,0.8598140185981403,False,False
+proteomics,axenic,day 31,resolved::multiple sugar,multiple sugar,ABC-subunit,single-gene,0.4759550561797753,0.5409893793229372,False,False
+proteomics,axenic,day 31,resolved::polar amino acid,polar amino acid,APC,single-gene,0.7914606741573034,0.5348192453481925,False,False
+proteomics,axenic,day 31,resolved::branched-chain amino acid,branched-chain amino acid,APC,single-gene,0.6462921348314606,0.48828058370633526,False,False
+proteomics,axenic,day 31,resolved::dipeptide,dipeptide,ABC-subunit,multi-subunit,0.7973033707865168,0.30103656301036563,False,False
+proteomics,axenic,day 31,unresolved::ACZ81_S0024,unresolved,APC,single-gene,0.5231460674157303,0.5348192453481925,False,False
+proteomics,axenic,day 31,resolved::pedG ::,pedG ::,APC,single-gene,0.609438202247191,0.5130434324988554,False,False
+proteomics,axenic,day 31,unresolved::ACZ81_S0064,unresolved,APC,single-gene,0.5878651685393258,0.5130434324988554,False,False
+proteomics,axenic,day 31,resolved::betaine/carnitine,betaine/carnitine,BCCT,single-gene,0.9604494382022472,0.2966103389661034,False,True
+proteomics,axenic,day 31,resolved::solute:Na+,solute:Na+,SSS,single-gene,0.8939325842696629,0.3905609439056094,False,False
+proteomics,axenic,day 31,resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,single-gene,0.9024719101123595,0.30103656301036563,False,True
+proteomics,axenic,day 31,"resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,single-gene,0.7101123595505618,0.42325767423257676,False,False
+proteomics,axenic,day 31,resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,single-gene,0.8480898876404495,0.3156775231567752,False,False
+proteomics,axenic,day 31,resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,single-gene,0.933932584269663,0.2966103389661034,False,True
+proteomics,axenic,day 31,resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,single-gene,0.7658426966292134,0.41104460982473184,False,False
+proteomics,axenic,day 31,resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,single-gene,0.868314606741573,0.41104460982473184,False,False
+proteomics,axenic,day 31,resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,single-gene,0.510561797752809,0.5348192453481925,False,False
+proteomics,axenic,day 31,resolved::L-lactate,L-lactate,gluconate/organic-acid,single-gene,0.946067415730337,0.2966103389661034,False,True
+proteomics,axenic,day 31,unresolved::ACZ81_S0450,unresolved,APC,single-gene,0.8822471910112359,0.30103656301036563,False,False
+proteomics,axenic,day 31,resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,single-gene,0.9478651685393259,0.2966103389661034,False,True
+proteomics,axenic,day 31,resolved::cation/acetate,cation/acetate,SSS,single-gene,0.8844943820224719,0.30103656301036563,False,False
+proteomics,axenic,day 31,resolved::amino acid,amino acid,APC,single-gene,0.3451685393258427,0.6526347365263474,False,False
+proteomics,axenic,day 31,resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,single-gene,0.7186516853932584,0.42325767423257676,False,False
+proteomics,axenic,day 31,resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,single-gene,0.981123595505618,0.2966103389661034,False,True
+proteomics,axenic,day 31,resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,single-gene,0.8498876404494382,0.3156775231567752,False,False

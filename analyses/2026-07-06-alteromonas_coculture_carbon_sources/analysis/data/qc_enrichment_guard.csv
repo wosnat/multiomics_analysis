@@ -1,0 +1,155 @@
+ontology,level,cluster,direction,term_id,term_name,count,bg_count,gene_ratio,fold_enrichment,pvalue,p_adjust,signed_score
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.11.-.-,Acting on a peroxide as acceptor,4,14,4/163,6.918492550394391,0.002027919007514271,0.08720051732311365,-1.0594809385776716
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.2.-.-,Acting on the aldehyde or oxo group of donors,4,22,4/111,6.465192465192466,0.002930149642196754,0.12599643461446042,0.8996417441615944
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.1.-.-,Acting on the CH-OH group of donors,4,71,4/163,1.3642097986693165,0.3369683905424826,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.13.-.-,Acting on single donors with incorporation of molecular oxygen (oxygenases). The oxygen incorporated need not be derived from O2,0,8,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.14.-.-,"Acting on paired donors, with incorporation or reduction of molecular oxygen. The oxygen incorporated need not be derived from O2",0,25,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.16.-.-,Oxidizing metal ions,1,5,1/163,4.842944785276074,0.1902096958504026,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.17.-.-,Acting on CH or CH2 groups,0,14,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.2.-.-,Acting on the aldehyde or oxo group of donors,1,22,1/163,1.100669269380926,0.6055889508229712,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.3.-.-,Acting on the CH-CH group of donors,1,30,1/163,0.807157464212679,0.7191672826354257,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.4.-.-,Acting on the CH-NH2 group of donors,0,12,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.5.-.-,Acting on the CH-NH group of donors,0,12,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.6.-.-,Acting on NADH or NADPH,1,8,1/163,3.0268404907975457,0.2865901090803672,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:1.8.-.-,Acting on a sulfur group of donors,3,20,3/163,3.6322085889570555,0.04704304595429023,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.1.-.-,Transferring one-carbon groups,1,77,1/163,0.314476934108836,0.9623631011538899,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.2.-.-,Transferring aldehyde or ketonic groups,0,6,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.3.-.-,Acyltransferases,2,85,2/163,0.5697582100324793,0.8734775589157744,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.4.-.-,Glycosyltransferases,2,57,2/163,0.8496394360133462,0.6899365135321003,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.5.-.-,"Transferring alkyl or aryl groups, other than methyl groups",2,36,2/163,1.345262440354465,0.4418591927447521,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.6.-.-,Transferring nitrogenous groups,0,19,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.7.-.-,Transferring phosphorus-containing groups,9,230,9/163,0.9475326753801013,0.6174035446059487,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:2.8.-.-,Transferring sulfur-containing groups,1,23,1/163,1.0528140837556683,0.621968314139113,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:3.1.-.-,Acting on ester bonds,6,136,6/163,1.0682966438108985,0.49486888188051736,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:3.2.-.-,Glycosylases,0,36,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:3.4.-.-,Acting on peptide bonds (peptidases),5,89,5/163,1.3603777486730544,0.30585007941004183,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,71,1/163,0.3410524496673291,0.9512874795824849,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:3.6.-.-,Acting on acid anhydrides,1,62,1/163,0.3905600633287156,0.9283280873847395,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:4.1.-.-,Carbon-carbon lyases,1,39,1/163,0.6208903570866762,0.8085125106060436,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:4.2.-.-,Carbon-oxygen lyases,1,55,1/163,0.44026770775237034,0.903280358494242,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:4.3.-.-,Carbon-nitrogen lyases,0,12,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:4.4.-.-,Carbon-sulfur lyases,0,8,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:4.6.-.-,Phosphorus-oxygen lyases,0,5,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:5.1.-.-,Racemases and epimerases,0,15,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:5.2.-.-,Cis-trans-isomerases,0,12,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:5.3.-.-,Intramolecular oxidoreductases,0,16,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:5.4.-.-,Intramolecular transferases,0,24,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:5.6.-.-,Isomerases altering macromolecular conformation,0,14,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:6.1.-.-,Forming carbon-oxygen bonds,0,23,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:6.2.-.-,Forming carbon-sulfur bonds,0,7,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:6.3.-.-,Forming carbon-nitrogen bonds,0,41,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:6.4.-.-,Forming carbon-carbon bonds,0,6,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:7.1.-.-,Catalysing the translocation of hydrons,1,27,1/163,0.8968416269029766,0.6809955477500942,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:7.2.-.-,Catalysing the translocation of inorganic cations,0,14,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:7.5.-.-,Catalysing the translocation carbohydrates and their derivatives,0,5,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,ec:7.6.-.-,Catalysing the translocation of other compounds,0,8,0/163,0.0,1.0,1.0,0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.1.-.-,Acting on the CH-OH group of donors,1,71,1/111,0.5008247684304022,0.8704594928896148,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.11.-.-,Acting on a peroxide as acceptor,0,14,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.13.-.-,Acting on single donors with incorporation of molecular oxygen (oxygenases). The oxygen incorporated need not be derived from O2,1,8,1/111,4.44481981981982,0.20420260632163223,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.14.-.-,"Acting on paired donors, with incorporation or reduction of molecular oxygen. The oxygen incorporated need not be derived from O2",1,25,1/111,1.4223423423423422,0.510978899147138,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.16.-.-,Oxidizing metal ions,0,5,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.17.-.-,Acting on CH or CH2 groups,1,14,1/111,2.5398970398970397,0.3296984847395719,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.3.-.-,Acting on the CH-CH group of donors,0,30,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.4.-.-,Acting on the CH-NH2 group of donors,0,12,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.5.-.-,Acting on the CH-NH group of donors,0,12,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.6.-.-,Acting on NADH or NADPH,0,8,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:1.8.-.-,Acting on a sulfur group of donors,0,20,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.1.-.-,Transferring one-carbon groups,1,77,1/111,0.4617994617994618,0.8911963994197991,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.2.-.-,Transferring aldehyde or ketonic groups,0,6,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.3.-.-,Acyltransferases,4,85,4/111,1.6733439321674615,0.2159587627431739,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.4.-.-,Glycosyltransferases,2,57,2/111,1.2476687213529318,0.48017985157811505,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.5.-.-,"Transferring alkyl or aryl groups, other than methyl groups",0,36,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.6.-.-,Transferring nitrogenous groups,2,19,2/111,3.7430061640587957,0.09828189120733231,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.7.-.-,Transferring phosphorus-containing groups,5,230,5/111,0.77301214257736,0.7850404889647674,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:2.8.-.-,Transferring sulfur-containing groups,0,23,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:3.1.-.-,Acting on ester bonds,4,136,4/111,1.0458399576046633,0.5368343127984944,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:3.2.-.-,Glycosylases,3,36,3/111,2.9632132132132134,0.07908744208012218,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:3.4.-.-,Acting on peptide bonds (peptidases),2,89,2/111,0.7990687316530013,0.7211561186709841,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",4,71,4/111,2.003299073721609,0.13797702536475742,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:3.6.-.-,Acting on acid anhydrides,2,62,2/111,1.1470502760825343,0.5251632900813843,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:4.1.-.-,Carbon-carbon lyases,1,39,1/111,0.9117579117579119,0.6730566938201503,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:4.2.-.-,Carbon-oxygen lyases,2,55,2/111,1.293038493038493,0.46148074303737785,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:4.3.-.-,Carbon-nitrogen lyases,1,12,1/111,2.9632132132132134,0.29021451834751777,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:4.4.-.-,Carbon-sulfur lyases,0,8,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:4.6.-.-,Phosphorus-oxygen lyases,0,5,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:5.1.-.-,Racemases and epimerases,0,15,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:5.2.-.-,Cis-trans-isomerases,0,12,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:5.3.-.-,Intramolecular oxidoreductases,0,16,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:5.4.-.-,Intramolecular transferases,1,24,1/111,1.4816066066066067,0.4967393025588196,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:5.6.-.-,Isomerases altering macromolecular conformation,0,14,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:6.1.-.-,Forming carbon-oxygen bonds,0,23,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:6.2.-.-,Forming carbon-sulfur bonds,0,7,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:6.3.-.-,Forming carbon-nitrogen bonds,0,41,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:6.4.-.-,Forming carbon-carbon bonds,0,6,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:7.1.-.-,Catalysing the translocation of hydrons,0,27,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:7.2.-.-,Catalysing the translocation of inorganic cations,0,14,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:7.5.-.-,Catalysing the translocation carbohydrates and their derivatives,0,5,0/111,0.0,1.0,1.0,-0.0
+ec,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,ec:7.6.-.-,Catalysing the translocation of other compounds,1,8,1/111,4.44481981981982,0.20420260632163223,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09101,Carbohydrate metabolism,14,200,14/111,2.4890990990990987,0.0012499384880340846,0.02124895429657944,1.672662437585421
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09104,Nucleotide metabolism,9,87,9/111,3.6784715750232997,0.0006503712790553698,0.02124895429657944,1.672662437585421
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09171,Infectious disease: bacterial,5,20,5/163,6.053680981595092,0.0010573513568842663,0.035949946134065054,-1.4443017560097728
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09151,Immune system,3,8,3/163,9.080521472392638,0.0033220805470928305,0.05647536930057812,-1.2481409204841138
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09132,Signal transduction,13,166,13/163,1.896333801463523,0.018506960107906444,0.17998388678109503,-0.7447663737594307
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09143,Cell growth and death,4,28,4/163,3.4592462751971955,0.02646821864427868,0.17998388678109503,-0.7447663737594307
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09164,Neurodegenerative disease,3,15,3/163,4.842944785276074,0.021816769608675866,0.17998388678109503,-0.7447663737594307
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09149,Aging,3,18,3/163,4.035787321063395,0.035749474763121174,0.20258035699101998,-0.6934026678799213
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09166,Cardiovascular disease,3,22,3/163,3.302007808142778,0.05987420211220856,0.2908175531164416,-0.5363793839493629
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09142,Cell motility,7,95,7/163,1.7842428156280272,0.09586452410390868,0.36215486883698833,-0.4411056717367061
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09161,Cancer: overview,3,26,3/163,2.7940066068900427,0.08980663144033932,0.36215486883698833,-0.4411056717367061
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09102,Energy metabolism,7,131,7/111,1.900075648167251,0.0741290680231348,0.6992643858929448,0.1553585901696551
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09105,Amino acid metabolism,10,217,10/111,1.6386432515464773,0.08226639834034645,0.6992643858929448,0.1553585901696551
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09159,Environmental adaptation,2,22,2/163,2.201338538761852,0.22972978995429588,0.781081285844606,-0.10730376745842912
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09162,Cancer: specific types,1,7,1/163,3.4592462751971955,0.2558022318709682,0.7906614439648106,-0.10200943874340025
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09106,Metabolism of other amino acids,4,68,4/111,2.0916799152093266,0.12304019313729675,0.8366733133336178,0.07744408311992222
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09110,Biosynthesis of other secondary metabolites,3,51,3/111,2.091679915209327,0.17186717818848393,0.9739140097347422,0.011479386803432544
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09101,Carbohydrate metabolism,7,200,7/163,0.8475153374233129,0.7293957284856336,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09102,Energy metabolism,6,131,6/163,1.1090713248723834,0.4581606349123078,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09103,Lipid metabolism,2,72,2/163,0.6726312201772325,0.8058411434648634,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09104,Nucleotide metabolism,1,87,1/163,0.2783301600733376,0.9755371180360254,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09105,Amino acid metabolism,5,217,5/163,0.5579429476124509,0.9517903109103458,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09106,Metabolism of other amino acids,0,68,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09107,Glycan biosynthesis and metabolism,2,87,2/163,0.5566603201466752,0.8817274562915355,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09108,Metabolism of cofactors and vitamins,8,175,8/163,1.1069588080631025,0.4363898705362372,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09109,Metabolism of terpenoids and polyketides,0,35,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09110,Biosynthesis of other secondary metabolites,2,51,2/163,0.9495970167207988,0.6297523334303914,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09111,Xenobiotics biodegradation and metabolism,1,50,1/163,0.4842944785276074,0.8802311648857172,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09122,Translation,0,82,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09123,"Folding, sorting and degradation",3,54,3/163,1.345262440354465,0.3869596372571346,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09124,Replication and repair,0,56,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09131,Membrane transport,0,86,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09141,Transport and catabolism,1,17,1/163,1.424395525081198,0.5124921892506491,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09145,Cellular community - prokaryotes,2,124,2/163,0.3905600633287156,0.9679233445647621,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09152,Endocrine system,1,23,1/163,1.0528140837556683,0.621968314139113,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09154,Digestive system,0,16,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09163,Immune disease,0,5,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09167,Endocrine and metabolic disease,0,17,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09175,Drug resistance: antimicrobial,0,43,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|down,down,kegg.subcategory:09176,Drug resistance: antineoplastic,0,13,0/163,0.0,1.0,1.0,0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09103,Lipid metabolism,1,72,1/111,0.4938688688688689,0.8741692442542311,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09107,Glycan biosynthesis and metabolism,1,87,1/111,0.4087190638914777,0.9186968249263061,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09108,Metabolism of cofactors and vitamins,5,175,5/111,1.015958815958816,0.5516329742869135,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09109,Metabolism of terpenoids and polyketides,0,35,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09111,Xenobiotics biodegradation and metabolism,1,50,1/111,0.7111711711711711,0.7619654993359102,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09122,Translation,0,82,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09123,"Folding, sorting and degradation",0,54,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09124,Replication and repair,1,56,1/111,0.6349742599742599,0.7998792720382354,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09131,Membrane transport,1,86,1/111,0.41347161114602976,0.9162902509441248,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09132,Signal transduction,1,166,1/111,0.21420818408770217,0.9920818581324868,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09141,Transport and catabolism,1,17,1/111,2.0916799152093266,0.3848786726096051,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09142,Cell motility,1,95,1/111,0.3743006164058795,0.93563656780565,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09143,Cell growth and death,0,28,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09145,Cellular community - prokaryotes,0,124,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09149,Aging,0,18,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09151,Immune system,0,8,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09152,Endocrine system,0,23,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09154,Digestive system,1,16,1/111,2.22240990990991,0.3670047282796751,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09159,Environmental adaptation,0,22,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09161,Cancer: overview,1,26,1/111,1.3676368676368675,0.524819118982596,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09162,Cancer: specific types,0,7,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09163,Immune disease,0,5,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09164,Neurodegenerative disease,0,15,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09166,Cardiovascular disease,0,22,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09167,Endocrine and metabolic disease,0,17,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09171,Infectious disease: bacterial,0,20,0/111,0.0,1.0,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09175,Drug resistance: antimicrobial,1,43,1/111,0.8269432222920595,0.7086620135584146,1.0,-0.0
+kegg,1,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq|day 11|up,up,kegg.subcategory:09176,Drug resistance: antineoplastic,1,13,1/111,2.735273735273735,0.3102364213877784,1.0,-0.0

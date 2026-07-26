@@ -1,0 +1,47 @@
+reference_class,module_id,substrate,carrier_family,broad,tier,n_systems,n_genes,module_percentile,p,q
+candidate,candidate::resolved::dipeptide,dipeptide,ABC-subunit,False,multi-subunit,1,5,0.8023815556118571,0.058994100589941006,0.45228810452288104
+candidate,candidate::unresolved::ACZ81_S0001,unresolved,APC,False,multi-subunit,1,2,0.26463136559412215,0.8616138386161384,0.9084091590840916
+candidate,candidate::resolved::peptide/nickel,peptide/nickel,ABC-subunit,False,multi-subunit,1,4,0.2128198631872308,0.9394060593940606,0.9394060593940606
+candidate,candidate::resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,False,single-gene,1,1,0.9992399290600456,0.0012998700129987,0.0597940205979402
+candidate,candidate::resolved::benzoate membrane,benzoate membrane,secondary-carrier-organic,False,single-gene,1,1,0.9972130732201672,0.0038996100389961006,0.08969103089691031
+candidate,"candidate::resolved::di-/tricarboxylate (citrate, CitMHS)","di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,False,single-gene,1,1,0.9941727894603496,0.0065993400659934,0.10118988101189881
+candidate,candidate::resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,False,single-gene,1,1,0.9701038763617937,0.030296970302969704,0.3484151584841516
+candidate,candidate::resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,False,single-gene,1,1,0.9473017481631619,0.05629437056294371,0.45228810452288104
+candidate,candidate::resolved::nucleoside,nucleoside,nucleoside-Nup,False,single-gene,1,1,0.9262731188244236,0.07789221077892211,0.5118630994043453
+candidate,candidate::unresolved::ACZ81_S0450,unresolved,APC,False,single-gene,1,1,0.8799087914872055,0.12378762123787622,0.6418913664189136
+candidate,candidate::resolved::amino acid,amino acid,APC,False,single-gene,1,1,0.8776285786673423,0.1255874412558744,0.6418913664189136
+candidate,candidate::resolved::solute:Na+,solute:Na+,SSS,True,single-gene,3,3,0.9151254117050924,0.23027697230276972,0.6485351464853515
+candidate,candidate::resolved::choline/glycine/proline betaine,choline/glycine/proline betaine,BCCT,True,single-gene,2,2,0.8877628578667343,0.21207879212078792,0.6485351464853515
+candidate,candidate::resolved::sugar MFS,sugar MFS,secondary-carrier-organic,True,single-gene,2,2,0.8520395236888776,0.27407259274072593,0.6485351464853515
+candidate,candidate::resolved::concentrative nucleoside,concentrative nucleoside,nucleoside-Nup,False,single-gene,1,1,0.8069419812515835,0.1962803719628037,0.6485351464853515
+candidate,candidate::resolved::short-chain fatty acids,short-chain fatty acids,gluconate/organic-acid,False,single-gene,1,1,0.7988345578920699,0.20537946205379462,0.6485351464853515
+candidate,candidate::resolved::proton-dependent oligopeptide,proton-dependent oligopeptide,POT,False,single-gene,1,1,0.7955409171522675,0.2086791320867913,0.6485351464853515
+candidate,candidate::resolved::purine nucleoside,purine nucleoside,nucleoside-Nup,False,single-gene,1,1,0.7846465670129212,0.21987801219878012,0.6485351464853515
+candidate,candidate::resolved::APC family,APC family,APC,False,single-gene,1,1,0.7669115784139853,0.23677632236776322,0.6485351464853515
+candidate,candidate::resolved::L-lactate,L-lactate,gluconate/organic-acid,False,single-gene,1,1,0.7620977957942742,0.2420757924207579,0.6485351464853515
+candidate,candidate::resolved::gluconate:H+,gluconate:H+,gluconate/organic-acid,False,single-gene,1,1,0.7225741069166456,0.28257174282571745,0.6485351464853515
+candidate,candidate::resolved::dicarboxylate/amino acid:cation (Na+ or H+),dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,False,single-gene,1,1,0.713199898657208,0.28987101289871015,0.6485351464853515
+candidate,candidate::resolved::adenine/guanine/hypoxanthine,adenine/guanine/hypoxanthine,NCS-nucleobase,False,single-gene,1,1,0.6957182670382569,0.30816918308169183,0.6485351464853515
+candidate,candidate::resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,False,single-gene,1,1,0.6934380542183937,0.31016898310168983,0.6485351464853515
+candidate,candidate::resolved::spinster family MFS,spinster family MFS,secondary-carrier-organic,False,single-gene,1,1,0.6607550038003547,0.3427657234276572,0.659650701596507
+candidate,candidate::resolved::sugar porter family MFS,sugar porter family MFS,MFS-sugar,False,single-gene,1,1,0.6592348619204459,0.3441655834416558,0.659650701596507
+candidate,candidate::resolved::TRAP,TRAP,TRAP,False,single-gene,1,1,0.6222447428426653,0.3848615138486151,0.7081451854814518
+candidate,candidate::resolved::betaine/carnitine,betaine/carnitine,BCCT,False,single-gene,1,1,0.5913351912845198,0.41355864413558646,0.7316806780860377
+candidate,candidate::resolved::dicarboxylate/amino acid:cation,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,False,single-gene,1,1,0.50950088674943,0.49235076492350766,0.8024664200246642
+candidate,candidate::resolved::GntP family,GntP family,gluconate/organic-acid,False,single-gene,1,1,0.4823916898910565,0.5181481851814819,0.8024664200246642
+candidate,candidate::resolved::multiple sugar,multiple sugar,ABC-subunit,False,single-gene,1,1,0.48061819103116293,0.5193480651934806,0.8024664200246642
+candidate,candidate::unresolved::ACZ81_S0024,unresolved,APC,False,single-gene,1,1,0.4760577653914365,0.5233476652334766,0.8024664200246642
+candidate,candidate::resolved::nucleobase:cation,nucleobase:cation,NCS-nucleobase,True,single-gene,3,3,0.603749683303775,0.7773222677732227,0.8905585631913
+candidate,candidate::unresolved::ACZ81_S0050,unresolved,ABC-subunit,False,single-gene,1,1,0.3802888269571827,0.6204379562043796,0.8905585631913
+candidate,candidate::resolved::pedG ::,pedG ::,APC,False,single-gene,1,1,0.3790220420572587,0.6214378562143785,0.8905585631913
+candidate,candidate::resolved::hcaT :: MFS,hcaT :: MFS,phenylpropionate-hcaT,False,single-gene,1,1,0.355966556878642,0.6455354464553544,0.8905585631913
+candidate,candidate::unresolved::ACZ81_S0064,unresolved,APC,False,single-gene,1,1,0.29769445148213836,0.7053294670532947,0.8905585631913
+candidate,candidate::resolved::branched-chain amino acid,branched-chain amino acid,APC,False,single-gene,1,1,0.27311882442361285,0.7274272572742726,0.8905585631913
+candidate,candidate::resolved::solute carrier family 13 (sodium-dependent dicarboxylate,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,False,single-gene,1,1,0.24499619964530023,0.7558244175582441,0.8905585631913
+candidate,candidate::resolved::glycoside/pentoside/hexuronide:cation,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,False,single-gene,1,1,0.21890043070686596,0.7795220477952205,0.8905585631913
+candidate,candidate::resolved::long-chain fatty acid,long-chain fatty acid,fatty-acid,False,single-gene,1,1,0.21712693184697238,0.7815218478152185,0.8905585631913
+candidate,candidate::resolved::cation/acetate,cation/acetate,SSS,False,single-gene,1,1,0.20775272358753483,0.791920807919208,0.8905585631913
+candidate,candidate::resolved::glycerol,glycerol,glycerol/glp,False,single-gene,1,1,0.1991385862680517,0.8001199880011999,0.8905585631913
+candidate,candidate::resolved::AmpG family muropeptide MFS,AmpG family muropeptide MFS,secondary-carrier-organic,False,single-gene,1,1,0.18545730934887256,0.8131186881311869,0.8905585631913
+candidate,candidate::resolved::choline,choline,BCCT,False,single-gene,1,1,0.13225234355206486,0.8689131086891311,0.9084091590840916
+candidate,candidate::resolved::polar amino acid,polar amino acid,APC,True,single-gene,6,6,0.6774765644793515,0.9036096390360964,0.9236898532368985

@@ -92,7 +92,89 @@ for the build, the reveals, and the decisions.
 
 ## Results
 
-*(Fills in at the analysis milestone.)*
+Scoring the *Alteromonas* transporter modules per (experiment × timepoint) recovers the
+expected controls: in the primary HOT1A3 day-11 coculture-vs-axenic contrast
+(`all_detected_genes`, 111 up / 163 down) motility/flagellar transporters sit at the down
+end (median up-percentile 0.18) and ribosomal genes are neutral (0.50), while the
+genome-wide pathway guard finds **Carbohydrate metabolism** and **Nucleotide metabolism**
+over-represented among up-genes (padj 0.021 each).
+
+At the module level the signal is thin: only 2 of 46 candidate modules pass q < 0.10
+(a carbohydrate MFS transporter, log2FC 3.5; and `benE` benzoate, log2FC 2.9), with a
+citrate/dicarboxylate importer just above (q = 0.10). On a size-matched basis the
+candidate organic-carbon systems are **not** elevated over the inorganic control set
+(single-gene medians 0.62 vs 0.66), so the bulk organic-vs-inorganic contrast carries no
+weight — as anticipated, the carbon signal is specificity-based, not bulk.
+
+Aggregating transporters by **compound class** (a family-size-independent read) gives a
+clearer picture (Fig. 1). The most-elevated classes are **sugars/carbohydrates** and
+**nucleosides/nucleobases** (class median up-percentile ≈ 0.70 vs the inorganic reference
+0.59), converging with the genome-wide enrichment of carbohydrate and nucleotide
+metabolism. Organic acids and osmolytes are modestly elevated; **amino-acid transporters
+are conspicuously not induced** (class median 0.38, below the inorganic reference, across
+15 transporters) and peptides are neutral. The shifts are modest (~0.1 percentile).
+
+Across strains, the **sugar/carbohydrate** signal reproduces (Fig. 2): it passes q < 0.10 in
+both HOT1A3 (carbohydrate MFS) and the EZ55 400-ppm arm (L-fucose), and is the top class by
+median percentile in each (0.77, 0.83) — though EZ55 is `significant_only` and its
+q-values arise within a much smaller (3–5-module) test family than HOT1A3's, so the
+comparable quantity is the within-experiment permutation p. The **organic-acid** class is
+a weaker second: supported by the EZ55 800-ppm arm (acetate) and by the HOT1A3 starvation
+time course, where L-lactate rises coculture-specifically at day 31 (coculture q = 0.037
+vs axenic n.s., sustained to day 60; axenic catches up only at late starvation — Fig. 3)
+while the day-11 citrate hit reads flat across the ramp (expected for a constitutively
+coculture-induced module). The temporal read is
+corroboration-only and thin (a single informative RNA timepoint; proteomics detected no
+up-modules).
+
+Degradation-pathway (breakdown) corroboration is **not determinable** for sugars and
+organic acids, which feed central metabolism with no dedicated catabolic map (35 of 43
+candidate substrates); of the 8 with a genuine degradation map none is over-represented
+among up-genes in the primary strain. The aromatic **`benE`** hit does not resolve into a
+supported carbon source: it is the HOT1A3-specific #2 module but is absent from both EZ55
+significant sets, and aromatic *degradation* is over-represented only in the EZ55 800-ppm
+arm — transporter and catabolism never co-occur in one strain/condition. Finally, iron
+acquisition (TonB/siderophore receptors) is the single most up-regulated transporter class
+in coculture (median 0.76), indicating that iron is interaction-coupled rather than a
+clean negative control.
+
+### Figures
+
+- **Fig. 1** (`analysis/figures/figA_compound_class_landscape.svg`) — Transporter compound
+  classes ranked by median coculture-vs-axenic up-percentile in HOT1A3 day-11, against the
+  inorganic-control reference (0.59). Sugars/carbohydrates and nucleosides are the most
+  induced; amino-acid transporters sit well below the reference; iron receptors (dropped
+  from scoring, shown as a confound) are the single most up-regulated class.
+- **Fig. 2** (`figB_cross_experiment_classes.svg`) — Candidate class median up-percentile
+  across HOT1A3, EZ55-400 and EZ55-800; the sugar/carbohydrate class is elevated in both
+  HOT1A3 and EZ55-400 (EZ55 arms are `significant_only` and thin — some bars are single
+  modules).
+- **Fig. 3** (`figC_temporal_lactate.svg`) — L-lactate transporter up-percentile across the
+  HOT1A3 starvation time course: coculture rises early (day 31, q<0.10) while the axenic
+  arm reaches comparable levels only at late starvation (days 60+89) — a coculture-specific
+  *earlier* ramp, corroboration-only.
+- **Fig. 4** (`figD_transporter_landscape.svg`) — the *Alteromonas* candidate carbon-transporter
+  repertoire by compound class (HOT1A3), single- vs multi-subunit: amino acids are the largest
+  class yet are not induced; the response is selective, not proportional to repertoire.
+- **Fig. 5** (`figE_experiment_substrate_heatmap.svg`) — candidate module up-percentile across
+  all experiments/timepoints (presence | RNA-seq temporal | proteomics temporal), class-ordered,
+  `*` = q<0.10. Sugars/nucleosides are consistently up, branched-chain amino acids consistently
+  down; the late-axenic ramp reddens broadly.
+- **Fig. 6** (`figE2_control_heatmap.svg`) — the same for the control classes on the same scale:
+  inorganic (control-ABC) transporters are neutral, iron/siderophore (TonB) receptors are
+  predominantly up (interaction-coupled), and nitrate passes q<0.10 — so the candidate structure
+  in Fig. 5 is specific, not a global up-shift.
+- **Fig. 7** (`figF_rna_vs_proteomics.svg`) — RNA-seq vs proteomics up-percentile per module
+  (coculture temporal): proteomics is underpowered (0 modules reach q<0.10 in any arm; protein
+  median ≥ RNA), so the transcript-level signal is neither confirmed nor refuted at the protein
+  level; a few modules (e.g. acetate) show RNA-up/protein-flat.
+- **Fig. 8** (`figG_ez55_vs_hot1a3.svg`) — module up-percentile in EZ55 vs HOT1A3 for the six
+  substrates scored in both strains (EZ55 sparse): fucose and carbohydrate-porin reproduce, but
+  carbohydrate-MFS and maltose do not, and the single shared organic acid (acetate) is
+  anti-correlated — cross-strain reproducibility is partial and class-level.
+- **Fig. 9** (`figH_analysis_funnel.svg`) — analysis funnel: 4028 genes → 684 transporter genes →
+  57 organic-C candidate systems (curated) → 46 modules scored → 2 pass q<0.10 → the reproducible
+  class-level signal (sugars, + organic acids), a prioritized shortlist for wet-lab growth assays.
 
 ## Discussion
 

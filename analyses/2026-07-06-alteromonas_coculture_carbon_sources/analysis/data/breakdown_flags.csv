@@ -1,0 +1,72 @@
+substrate,degradation_map,match_granularity,exists,ora_padj,ora_direction,ora_up_count,ora_bg_count,ora_fold,flag,experiment
+APC family,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,0.2974761362937302,up,3.0,32.0,3.333614864864865,not-up,HOT1A3 — primary
+APC family,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,1.0,up,3.0,37.0,1.0888030888030888,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+APC family,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,1.0,up,0.0,37.0,0.0,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+APC family,ko00310 Lysine degradation,broader,yes,1.0,up,0.0,15.0,0.0,not-up,HOT1A3 — primary
+APC family,ko00310 Lysine degradation,broader,yes,1.0,up,2.0,18.0,1.492063492063492,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+APC family,ko00310 Lysine degradation,broader,yes,0.6138492681350065,up,1.0,18.0,2.2094017094017095,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+AmpG family muropeptide MFS,,,no,,,,,,not-determinable,HOT1A3 (primary)
+BCCT family,,,no,,,,,,not-determinable,HOT1A3 (primary)
+GntP family,,,no,,,,,,not-determinable,HOT1A3 (primary)
+L-fucose:H+,,,no,,,,,,not-determinable,HOT1A3 (primary)
+L-lactate,,,no,,,,,,not-determinable,HOT1A3 (primary)
+TRAP,,,no,,,,,,not-determinable,HOT1A3 (primary)
+adenine/guanine/hypoxanthine,,,no,,,,,,not-determinable,HOT1A3 (primary)
+amino acid,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,0.2974761362937302,up,3.0,32.0,3.333614864864865,not-up,HOT1A3 — primary
+amino acid,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,1.0,up,3.0,37.0,1.0888030888030888,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+amino acid,"ko00280 Valine, leucine and isoleucine degradation",broader,yes,1.0,up,0.0,37.0,0.0,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+amino acid,ko00310 Lysine degradation,broader,yes,1.0,up,0.0,15.0,0.0,not-up,HOT1A3 — primary
+amino acid,ko00310 Lysine degradation,broader,yes,1.0,up,2.0,18.0,1.492063492063492,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+amino acid,ko00310 Lysine degradation,broader,yes,0.6138492681350065,up,1.0,18.0,2.2094017094017095,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+benzoate membrane,ko00362 Benzoate degradation,exact,yes,1.0,up,0.0,10.0,0.0,not-up,HOT1A3 — primary
+benzoate membrane,ko00362 Benzoate degradation,exact,yes,1.0,up,0.0,24.0,0.0,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+benzoate membrane,ko00362 Benzoate degradation,exact,yes,0.006802171705754102,up,4.0,24.0,6.628205128205129,up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+benzoate membrane,ko01220 Degradation of aromatic compounds,broader,yes,0.39350206609368316,up,1.0,6.0,5.926426426426427,not-up,HOT1A3 — primary
+benzoate membrane,ko01220 Degradation of aromatic compounds,broader,yes,1.0,up,1.0,21.0,0.6394557823129252,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+benzoate membrane,ko01220 Degradation of aromatic compounds,broader,yes,9.469762546078068e-08,up,8.0,21.0,15.150183150183151,up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+betaine/carnitine,,,no,,,,,,not-determinable,HOT1A3 (primary)
+branched-chain amino acid,"ko00280 Valine, leucine and isoleucine degradation",exact,yes,0.2974761362937302,up,3.0,32.0,3.333614864864865,not-up,HOT1A3 — primary
+branched-chain amino acid,"ko00280 Valine, leucine and isoleucine degradation",exact,yes,1.0,up,3.0,37.0,1.0888030888030888,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+branched-chain amino acid,"ko00280 Valine, leucine and isoleucine degradation",exact,yes,1.0,up,0.0,37.0,0.0,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+carbohydrate (MFS),,,no,,,,,,not-determinable,HOT1A3 (primary)
+carbohydrate (non-specific porin),,,no,,,,,,not-determinable,HOT1A3 (primary)
+cation/acetate,,,no,,,,,,not-determinable,HOT1A3 (primary)
+choline,,,no,,,,,,not-determinable,HOT1A3 (primary)
+choline/glycine/proline betaine,,,no,,,,,,not-determinable,HOT1A3 (primary)
+concentrative nucleoside,,,no,,,,,,not-determinable,HOT1A3 (primary)
+"di-/tricarboxylate (citrate, CitMHS)",,,no,,,,,,not-determinable,HOT1A3 (primary)
+dicarboxylate/amino acid:cation,,,no,,,,,,not-determinable,HOT1A3 (primary)
+dicarboxylate/amino acid:cation (Na+ or H+),,,no,,,,,,not-determinable,HOT1A3 (primary)
+dipeptide,,,no,,,,,,not-determinable,HOT1A3 (primary)
+gluconate:H+,,,no,,,,,,not-determinable,HOT1A3 (primary)
+glycerol,,,no,,,,,,not-determinable,HOT1A3 (primary)
+glycoside/pentoside/hexuronide:cation,,,no,,,,,,not-determinable,HOT1A3 (primary)
+hcaT :: MFS,ko00362 Benzoate degradation,broader,yes,1.0,up,0.0,10.0,0.0,not-up,HOT1A3 — primary
+hcaT :: MFS,ko00362 Benzoate degradation,broader,yes,1.0,up,0.0,24.0,0.0,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+hcaT :: MFS,ko00362 Benzoate degradation,broader,yes,0.006802171705754102,up,4.0,24.0,6.628205128205129,up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+hcaT :: MFS,ko01220 Degradation of aromatic compounds,broader,yes,0.39350206609368316,up,1.0,6.0,5.926426426426427,not-up,HOT1A3 — primary
+hcaT :: MFS,ko01220 Degradation of aromatic compounds,broader,yes,1.0,up,1.0,21.0,0.6394557823129252,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+hcaT :: MFS,ko01220 Degradation of aromatic compounds,broader,yes,9.469762546078068e-08,up,8.0,21.0,15.150183150183151,up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+long-chain fatty acid,ko00071 Fatty acid degradation,exact,yes,1.0,up,0.0,23.0,0.0,not-up,HOT1A3 — primary
+long-chain fatty acid,ko00071 Fatty acid degradation,exact,yes,1.0,up,2.0,29.0,0.9261083743842364,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+long-chain fatty acid,ko00071 Fatty acid degradation,exact,yes,0.6542486204641669,up,1.0,29.0,1.3713527851458887,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+maltose/moltooligosaccharide,,,no,,,,,,not-determinable,HOT1A3 (primary)
+multiple sugar,,,no,,,,,,not-determinable,HOT1A3 (primary)
+nucleobase:cation,,,no,,,,,,not-determinable,HOT1A3 (primary)
+nucleoside,,,no,,,,,,not-determinable,HOT1A3 (primary)
+pedG ::,,,no,,,,,,not-determinable,HOT1A3 (primary)
+peptide/nickel,,,no,,,,,,not-determinable,HOT1A3 (primary)
+polar amino acid,ko00310 Lysine degradation,broader,yes,1.0,up,0.0,15.0,0.0,not-up,HOT1A3 — primary
+polar amino acid,ko00310 Lysine degradation,broader,yes,1.0,up,2.0,18.0,1.492063492063492,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+polar amino acid,ko00310 Lysine degradation,broader,yes,0.6138492681350065,up,1.0,18.0,2.2094017094017095,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+proton-dependent oligopeptide,,,no,,,,,,not-determinable,HOT1A3 (primary)
+purine nucleoside,,,no,,,,,,not-determinable,HOT1A3 (primary)
+short-chain fatty acids,ko00071 Fatty acid degradation,broader,yes,1.0,up,0.0,23.0,0.0,not-up,HOT1A3 — primary
+short-chain fatty acids,ko00071 Fatty acid degradation,broader,yes,1.0,up,2.0,29.0,0.9261083743842364,not-up,EZ55 — secondary (EZ55 400; sig-only table -> genome bg)
+short-chain fatty acids,ko00071 Fatty acid degradation,broader,yes,0.6542486204641669,up,1.0,29.0,1.3713527851458887,not-up,EZ55 — secondary (EZ55 800; sig-only table -> genome bg)
+solute carrier family 13 (sodium-dependent dicarboxylate,,,no,,,,,,not-determinable,HOT1A3 (primary)
+solute:Na+,,,no,,,,,,not-determinable,HOT1A3 (primary)
+spinster family MFS,,,no,,,,,,not-determinable,HOT1A3 (primary)
+sugar MFS,,,no,,,,,,not-determinable,HOT1A3 (primary)
+sugar porter family MFS,,,no,,,,,,not-determinable,HOT1A3 (primary)
+unresolved,,,no,,,,,,not-determinable,HOT1A3 (primary)

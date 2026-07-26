@@ -1,0 +1,6 @@
+reference_class,module_id,substrate,carrier_family,broad,tier,n_systems,n_genes,module_percentile,p,q
+candidate,candidate::resolved::L-fucose:H+,L-fucose:H+,secondary-carrier-organic,False,single-gene,1,1,0.9856801909307876,0.0170982901709829,0.0854914508549145
+candidate,candidate::resolved::solute:Na+,solute:Na+,SSS,False,single-gene,1,1,0.9140811455847255,0.08689131086891311,0.21722827717228277
+candidate,candidate::resolved::carbohydrate (non-specific porin),carbohydrate (non-specific porin),carbohydrate-porin,False,single-gene,1,1,0.8257756563245824,0.1755824417558244,0.292637402926374
+candidate,candidate::resolved::BCCT family,BCCT family,BCCT,False,single-gene,1,1,0.7326968973747017,0.2722727727227277,0.3403409659034096
+candidate,candidate::resolved::carbohydrate (MFS),carbohydrate (MFS),MFS-sugar,False,single-gene,1,1,0.441527446300716,0.5542445755424458,0.5542445755424458

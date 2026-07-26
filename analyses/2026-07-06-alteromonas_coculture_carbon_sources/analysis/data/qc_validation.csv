@@ -1,0 +1,5 @@
+set,n,median_percentile,expected
+motility/flagellar (Cell motility),123,0.18444388142893337,low (down)
+ribosomal/Translation,198,0.503800354699772,~0.5 neutral
+glcB glycolate,1,0.028122624778312642,up if used (positive/soft)
+hcaT aromatic/phenylpropionate,1,0.355966556878642,up if used (positive/soft)

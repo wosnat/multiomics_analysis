@@ -1,0 +1,80 @@
+system_id,module_id,reference_class,tier,substrate,carrier_family,n_present,subunit_count,system_percentile
+ACZ81_S0023,candidate::resolved::dipeptide,candidate,multi-subunit,dipeptide,ABC-subunit,5,5,0.8023815556118571
+ACZ81_S0001,candidate::unresolved::ACZ81_S0001,candidate,multi-subunit,unresolved,APC,2,2,0.26463136559412215
+ACZ81_S0047,candidate::resolved::peptide/nickel,candidate,multi-subunit,peptide/nickel,ABC-subunit,4,4,0.2128198631872308
+ACZ81_S0572,candidate::resolved::carbohydrate (MFS),candidate,single-gene,carbohydrate (MFS),MFS-sugar,1,1,0.9992399290600456
+ACZ81_S0144,candidate::resolved::benzoate membrane,candidate,single-gene,benzoate membrane,secondary-carrier-organic,1,1,0.9972130732201672
+ACZ81_S0254,"candidate::resolved::di-/tricarboxylate (citrate, CitMHS)",candidate,single-gene,"di-/tricarboxylate (citrate, CitMHS)",gluconate/organic-acid,1,1,0.9941727894603496
+ACZ81_S0483,candidate::resolved::L-fucose:H+,candidate,single-gene,L-fucose:H+,secondary-carrier-organic,1,1,0.9701038763617937
+ACZ81_S0484,candidate::resolved::carbohydrate (non-specific porin),candidate,single-gene,carbohydrate (non-specific porin),carbohydrate-porin,1,1,0.9473017481631619
+ACZ81_S0109,candidate::resolved::nucleoside,candidate,single-gene,nucleoside,nucleoside-Nup,1,1,0.9262731188244236
+ACZ81_S0339,candidate::resolved::solute:Na+,candidate,single-gene,solute:Na+,SSS,1,1,0.9151254117050924
+ACZ81_S0505,candidate::resolved::choline/glycine/proline betaine,candidate,single-gene,choline/glycine/proline betaine,BCCT,1,1,0.8877628578667343
+ACZ81_S0450,candidate::unresolved::ACZ81_S0450,candidate,single-gene,unresolved,APC,1,1,0.8799087914872055
+ACZ81_S0539,candidate::resolved::amino acid,candidate,single-gene,amino acid,APC,1,1,0.8776285786673423
+ACZ81_S0586,candidate::resolved::sugar MFS,candidate,single-gene,sugar MFS,secondary-carrier-organic,1,1,0.8520395236888776
+ACZ81_S0534,candidate::resolved::concentrative nucleoside,candidate,single-gene,concentrative nucleoside,nucleoside-Nup,1,1,0.8069419812515835
+ACZ81_S0402,candidate::resolved::short-chain fatty acids,candidate,single-gene,short-chain fatty acids,gluconate/organic-acid,1,1,0.7988345578920699
+ACZ81_S0201,candidate::resolved::proton-dependent oligopeptide,candidate,single-gene,proton-dependent oligopeptide,POT,1,1,0.7955409171522675
+ACZ81_S0301,candidate::resolved::purine nucleoside,candidate,single-gene,purine nucleoside,nucleoside-Nup,1,1,0.7846465670129212
+ACZ81_S0522,candidate::resolved::APC family,candidate,single-gene,APC family,APC,1,1,0.7669115784139853
+ACZ81_S0410,candidate::resolved::L-lactate,candidate,single-gene,L-lactate,gluconate/organic-acid,1,1,0.7620977957942742
+ACZ81_S0334,candidate::resolved::choline/glycine/proline betaine,candidate,single-gene,choline/glycine/proline betaine,BCCT,1,1,0.7506967316949582
+ACZ81_S0526,candidate::resolved::gluconate:H+,candidate,single-gene,gluconate:H+,gluconate/organic-acid,1,1,0.7225741069166456
+ACZ81_S0316,candidate::resolved::dicarboxylate/amino acid:cation (Na+ or H+),candidate,single-gene,dicarboxylate/amino acid:cation (Na+ or H+),SLC13-dicarboxylate,1,1,0.713199898657208
+ACZ81_S0300,candidate::resolved::adenine/guanine/hypoxanthine,candidate,single-gene,adenine/guanine/hypoxanthine,NCS-nucleobase,1,1,0.6957182670382569
+ACZ81_S0350,candidate::resolved::maltose/moltooligosaccharide,candidate,single-gene,maltose/moltooligosaccharide,secondary-carrier-organic,1,1,0.6934380542183937
+ACZ81_S0009,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.6774765644793515
+ACZ81_S0311,candidate::resolved::spinster family MFS,candidate,single-gene,spinster family MFS,secondary-carrier-organic,1,1,0.6607550038003547
+ACZ81_S0587,candidate::resolved::sugar porter family MFS,candidate,single-gene,sugar porter family MFS,MFS-sugar,1,1,0.6592348619204459
+ACZ81_S0451,candidate::resolved::sugar MFS,candidate,single-gene,sugar MFS,secondary-carrier-organic,1,1,0.6303521662021788
+ACZ81_S0390,candidate::resolved::TRAP,candidate,single-gene,TRAP,TRAP,1,1,0.6222447428426653
+ACZ81_S0255,candidate::resolved::solute:Na+,candidate,single-gene,solute:Na+,SSS,1,1,0.6093235368634405
+ACZ81_S0303,candidate::resolved::nucleobase:cation,candidate,single-gene,nucleobase:cation,NCS-nucleobase,1,1,0.603749683303775
+ACZ81_S0077,candidate::resolved::betaine/carnitine,candidate,single-gene,betaine/carnitine,BCCT,1,1,0.5913351912845198
+ACZ81_S0524,candidate::resolved::nucleobase:cation,candidate,single-gene,nucleobase:cation,NCS-nucleobase,1,1,0.5556118571066633
+ACZ81_S0293,candidate::resolved::dicarboxylate/amino acid:cation,candidate,single-gene,dicarboxylate/amino acid:cation,SLC13-dicarboxylate,1,1,0.50950088674943
+ACZ81_S0040,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.4970863947301748
+ACZ81_S0284,candidate::resolved::GntP family,candidate,single-gene,GntP family,gluconate/organic-acid,1,1,0.4823916898910565
+ACZ81_S0003,candidate::resolved::multiple sugar,candidate,single-gene,multiple sugar,ABC-subunit,1,1,0.48061819103116293
+ACZ81_S0024,candidate::unresolved::ACZ81_S0024,candidate,single-gene,unresolved,APC,1,1,0.4760577653914365
+ACZ81_S0050,candidate::unresolved::ACZ81_S0050,candidate,single-gene,unresolved,ABC-subunit,1,1,0.3802888269571827
+ACZ81_S0051,candidate::resolved::pedG ::,candidate,single-gene,pedG ::,APC,1,1,0.3790220420572587
+ACZ81_S0241,candidate::resolved::hcaT :: MFS,candidate,single-gene,hcaT :: MFS,phenylpropionate-hcaT,1,1,0.355966556878642
+ACZ81_S0095,candidate::resolved::solute:Na+,candidate,single-gene,solute:Na+,SSS,1,1,0.3417785659994933
+ACZ81_S0321,candidate::resolved::nucleobase:cation,candidate,single-gene,nucleobase:cation,NCS-nucleobase,1,1,0.3225234355206486
+ACZ81_S0042,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.31036230048137825
+ACZ81_S0064,candidate::unresolved::ACZ81_S0064,candidate,single-gene,unresolved,APC,1,1,0.29769445148213836
+ACZ81_S0015,candidate::resolved::branched-chain amino acid,candidate,single-gene,branched-chain amino acid,APC,1,1,0.27311882442361285
+ACZ81_S0396,candidate::resolved::solute carrier family 13 (sodium-dependent dicarboxylate,candidate,single-gene,solute carrier family 13 (sodium-dependent dicarboxylate,gluconate/organic-acid,1,1,0.24499619964530023
+ACZ81_S0641,candidate::resolved::glycoside/pentoside/hexuronide:cation,candidate,single-gene,glycoside/pentoside/hexuronide:cation,secondary-carrier-organic,1,1,0.21890043070686596
+ACZ81_S0597,candidate::resolved::long-chain fatty acid,candidate,single-gene,long-chain fatty acid,fatty-acid,1,1,0.21712693184697238
+ACZ81_S0536,candidate::resolved::cation/acetate,candidate,single-gene,cation/acetate,SSS,1,1,0.20775272358753483
+ACZ81_S0496,candidate::resolved::glycerol,candidate,single-gene,glycerol,glycerol/glp,1,1,0.1991385862680517
+ACZ81_S0134,candidate::resolved::AmpG family muropeptide MFS,candidate,single-gene,AmpG family muropeptide MFS,secondary-carrier-organic,1,1,0.18545730934887256
+ACZ81_S0063,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.16620217887002786
+ACZ81_S0035,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.14618697745122877
+ACZ81_S0442,candidate::resolved::choline,candidate,single-gene,choline,BCCT,1,1,0.13225234355206486
+ACZ81_S0068,candidate::resolved::polar amino acid,candidate,single-gene,polar amino acid,APC,1,1,0.06992652647580441
+ACZ81_S0016,control-ABC::resolved::phosphate,control-ABC,multi-subunit,phosphate,ABC-subunit,3,3,0.7651380795540917
+ACZ81_S0002,control-ABC::resolved::iron(III),control-ABC,multi-subunit,iron(III),ABC-subunit,3,3,0.670382569039777
+ACZ81_S0027,control-ABC::resolved::iron complex,control-ABC,multi-subunit,iron complex,ABC-subunit,2,2,0.5405371167975678
+ACZ81_S0032,control-ABC::resolved::ynjB ::,control-ABC,multi-subunit,ynjB ::,ABC-subunit,3,3,0.42057258677476567
+ACZ81_S0010,control-ABC::resolved::nitrate/nitrite,control-ABC,multi-subunit,nitrate/nitrite,ABC-subunit,3,3,0.41525209019508486
+ACZ81_S0038,control-ABC::resolved::molybdate,control-ABC,multi-subunit,molybdate,ABC-subunit,3,3,0.40334431213579935
+ACZ81_S0481,control-ABC::resolved::solute:Na+,control-ABC,single-gene,solute:Na+,SSS,1,1,0.9630098809222194
+ACZ81_S0582,control-ABC::resolved::solute:Na+,control-ABC,single-gene,solute:Na+,SSS,1,1,0.9351406131238915
+ACZ81_S0096,control-ABC::resolved::solute:Na+,control-ABC,single-gene,solute:Na+,SSS,1,1,0.862933873828224
+ACZ81_S0127,control-ABC::resolved::NRAMP family divalent metal,control-ABC,single-gene,NRAMP family divalent metal,secondary-carrier-inorganic,1,1,0.809982265011401
+ACZ81_S0177,control-ABC::resolved::serine/threonine,control-ABC,single-gene,serine/threonine,APC,1,1,0.7932607043324044
+ACZ81_S0071,control-ABC::resolved::trk/ktr system potassium,control-ABC,single-gene,trk/ktr system potassium,secondary-carrier-inorganic,1,1,0.7866734228527996
+ACZ81_S0517,control-ABC::resolved::neurotransmitter:Na+,control-ABC,single-gene,neurotransmitter:Na+,SSS,1,1,0.7375221687357487
+ACZ81_S0280,control-ABC::resolved::trk/ktr system potassium,control-ABC,single-gene,trk/ktr system potassium,secondary-carrier-inorganic,1,1,0.6708892829997466
+ACZ81_S0488,control-ABC::resolved::Nramp family divalent metal,control-ABC,single-gene,Nramp family divalent metal,secondary-carrier-inorganic,1,1,0.6399797314416013
+ACZ81_S0019,control-ABC::resolved::sodium,control-ABC,single-gene,sodium,ABC-subunit,1,1,0.5077273878895363
+ACZ81_S0353,control-ABC::resolved::neurotransmitter:Na+,control-ABC,single-gene,neurotransmitter:Na+,SSS,1,1,0.50316696224981
+ACZ81_S0055,control-ABC::resolved::PhnD/SsuA/transferrin family,control-ABC,single-gene,PhnD/SsuA/transferrin family,ABC-subunit,1,1,0.43349379275399036
+ACZ81_S0049,control-ABC::resolved::iron complex,control-ABC,single-gene,iron complex,ABC-subunit,1,1,0.2857866734228528
+ACZ81_S0041,control-ABC::resolved::iron complex,control-ABC,single-gene,iron complex,ABC-subunit,1,1,0.21915378768685076
+ACZ81_S0423,control-ABC::resolved::bile acid:Na+,control-ABC,single-gene,bile acid:Na+,SSS,1,1,0.1955915885482645
+ACZ81_S0058,control-ABC::resolved::phosphonate,control-ABC,single-gene,phosphonate,ABC-subunit,1,1,0.04535089941727895

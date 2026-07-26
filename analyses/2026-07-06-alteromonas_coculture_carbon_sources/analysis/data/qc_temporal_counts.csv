@@ -1,0 +1,6 @@
+omics,timepoint,n_coculture_up,n_axenic_up,n_coculture_specific,coculture_specific_substrates
+rnaseq,day 18,0,0,0,
+rnaseq,day 31,2,0,2,L-lactate; peptide/nickel
+rnaseq,days 60+89,1,6,0,
+proteomics,day 18,0,0,0,
+proteomics,day 31,0,0,0,

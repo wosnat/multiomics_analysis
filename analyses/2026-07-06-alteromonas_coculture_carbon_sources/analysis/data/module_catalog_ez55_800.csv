@@ -1,0 +1,4 @@
+reference_class,module_id,substrate,carrier_family,broad,tier,n_systems,n_genes,module_percentile,p,q
+candidate,candidate::resolved::cation/acetate,cation/acetate,SSS,False,single-gene,1,1,0.9893617021276596,0.015498450154984501,0.046495350464953504
+candidate,candidate::resolved::BCCT family,BCCT family,BCCT,False,single-gene,1,1,0.22872340425531915,0.7745225477452254,0.7802219778022198
+candidate,candidate::resolved::maltose/moltooligosaccharide,maltose/moltooligosaccharide,secondary-carrier-organic,False,single-gene,1,1,0.22340425531914893,0.7802219778022198,0.7802219778022198

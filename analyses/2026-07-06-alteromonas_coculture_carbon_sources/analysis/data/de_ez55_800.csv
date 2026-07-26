@@ -1,0 +1,189 @@
+locus_tag,gene_name,product,gene_category,log2fc,padj,expression_status,timepoint
+EZ55_03523,,hypothetical protein,Unknown,-3.428038242,2.94e-06,significant_down,mid-exponential
+EZ55_03522,katB,catalase,Energy production,-2.72191529,4.16e-06,significant_down,mid-exponential
+EZ55_00390,glnK,P-II family nitrogen regulator,Transcription,-2.702353323,2.63e-05,significant_down,mid-exponential
+EZ55_03827,,TonB-dependent receptor,Inorganic ion transport,2.179284548,1.39e-06,significant_up,mid-exponential
+EZ55_00391,amtB,ammonium transporter,Inorganic ion transport,-2.172232596,1.05e-05,significant_down,mid-exponential
+EZ55_00433,katA,catalase,Energy production,-2.036643339,0.000152382,significant_down,mid-exponential
+EZ55_02634,,HvfA family oxazolone/thioamide-modified RiPP metallophore,Unknown,-2.029912154,0.000507593,significant_down,mid-exponential
+EZ55_00416,,TorF family putative porin,Unknown,-1.864663402,6.68e-05,significant_down,mid-exponential
+EZ55_03366,,endonuclease/exonuclease/phosphatase family protein,Replication and repair,1.745074693,0.001150184,significant_up,mid-exponential
+EZ55_02929,,marine proteobacterial sortase target protein,Unknown,-1.716646228,0.000885169,significant_down,mid-exponential
+EZ55_03498,actP,sodium:solute symporter family protein,Unknown,1.706009247,0.000122122,significant_up,mid-exponential
+EZ55_02117,fecA,TonB-dependent receptor family protein,Inorganic ion transport,1.699225191,2.98e-12,significant_up,mid-exponential
+EZ55_03499,,DUF4212 domain-containing protein,Unknown,1.695495047,0.000208008,significant_up,mid-exponential
+EZ55_04002,,DUF748 domain-containing protein,Cell wall and membrane,1.680037561,3.08e-08,significant_up,mid-exponential
+EZ55_00896,hutU,urocanate hydratase,Amino acid metabolism,-1.676390919,6.9e-06,significant_down,mid-exponential
+EZ55_02006,,TonB-dependent receptor,Inorganic ion transport,-1.676183586,0.00039769,significant_down,mid-exponential
+EZ55_02372,maoP,DUF413 domain-containing protein,Unknown,1.673511296,0.017059472,significant_up,mid-exponential
+EZ55_00897,hutH,histidine ammonia-lyase,Amino acid metabolism,-1.671933713,7.53e-06,significant_down,mid-exponential
+EZ55_02919,pfpI,type 1 glutamine amidotransferase domain-containing protein,Unknown,1.667434987,0.002098743,significant_up,mid-exponential
+EZ55_02930,srtA,class GN sortase,Cell wall and membrane,-1.666655636,0.002030595,significant_down,mid-exponential
+EZ55_03376,,EF-hand domain-containing protein,Unknown,1.666392261,0.003205175,significant_up,mid-exponential
+EZ55_01444,,pyridoxamine 5^-phosphate oxidase family protein,Unknown,1.654548167,0.000173525,significant_up,mid-exponential
+EZ55_00205,galK,galactokinase,Carbohydrate metabolism,-1.652555679,0.000339265,significant_down,mid-exponential
+EZ55_03258,,hypothetical protein,Unknown,1.641923405,1e-05,significant_up,mid-exponential
+EZ55_03095,osmC,OsmC family protein,Post-translational modification,1.614630997,0.001174314,significant_up,mid-exponential
+EZ55_00060,,acyloxyacyl hydrolase,Cell wall and membrane,1.613662678,0.000106005,significant_up,mid-exponential
+EZ55_03508,,DcaP family trimeric outer membrane transporter,Cell wall and membrane,1.590894821,6.32e-05,significant_up,mid-exponential
+EZ55_04342,,MauE/DoxX family redox-associated membrane protein,Post-translational modification,1.569888663,0.000105238,significant_up,mid-exponential
+EZ55_02165,,DoxX family protein,Unknown,1.561703947,0.028939129,significant_up,mid-exponential
+EZ55_03363,,porin family protein,Cell wall and membrane,1.55514963,0.005898777,significant_up,mid-exponential
+EZ55_01922,,hemerythrin domain-containing protein,Unknown,1.553874487,0.002544444,significant_up,mid-exponential
+EZ55_01810,,2OG-Fe(II) oxygenase,Post-translational modification,1.549089093,0.020440822,significant_up,mid-exponential
+EZ55_02884,,hypothetical protein,Unknown,-1.538205888,0.001991484,significant_down,mid-exponential
+EZ55_04087,,YqaA family protein,Unknown,1.531806541,2e-08,significant_up,mid-exponential
+EZ55_01931,proB,glutamate 5-kinase,Amino acid metabolism,-1.518647246,0.000146884,significant_down,mid-exponential
+EZ55_00595,sodN,"superoxide dismutase, Ni",Unknown,1.516710776,7.16e-08,significant_up,mid-exponential
+EZ55_01620,,CPBP family intramembrane glutamic endopeptidase,Unknown,1.508387918,2.97e-11,significant_up,mid-exponential
+EZ55_02423,gntA,guanitoxin biosynthesis heme-dependent pre-guanitoxin N-hydroxylase GntA,Unknown,1.493034067,0.000436644,significant_up,mid-exponential
+EZ55_02591,,EF-hand domain-containing protein,Unknown,1.486576097,0.002793425,significant_up,mid-exponential
+EZ55_02586,,hypothetical protein,Unknown,1.481514999,0.023828913,significant_up,mid-exponential
+EZ55_04283,,alkane 1-monooxygenase,Lipid metabolism,1.477844463,0.000166326,significant_up,mid-exponential
+EZ55_02384,,hypothetical protein,Unknown,1.477497234,0.001035594,significant_up,mid-exponential
+EZ55_02014,,glycoside hydrolase family 13 protein,Carbohydrate metabolism,-1.466843759,0.000133062,significant_down,mid-exponential
+EZ55_02164,,DODA-type extradiol aromatic ring-opening family dioxygenase,Unknown,1.463478094,0.001742036,significant_up,mid-exponential
+EZ55_02918,,SDR family oxidoreductase,Unknown,1.461857509,0.001876385,significant_up,mid-exponential
+EZ55_04065,ilvC,ketol-acid reductoisomerase,Amino acid metabolism,1.458053294,0.002537885,significant_up,mid-exponential
+EZ55_00312,cheD,chemoreceptor glutamine deamidase CheD,Cell motility,1.457810451,2.3e-06,significant_up,mid-exponential
+EZ55_02298,dat,D-amino acid aminotransferase,Amino acid metabolism,-1.453644712,2.36e-05,significant_down,mid-exponential
+EZ55_03008,,SIMPL domain-containing protein,Unknown,-1.446655234,0.000424476,significant_down,mid-exponential
+EZ55_04303,,radical SAM protein,Unknown,1.443649381,3.88e-07,significant_up,mid-exponential
+EZ55_00310,aer2,methyl-accepting chemotaxis protein,Signal transduction,1.425726721,2.97e-07,significant_up,mid-exponential
+EZ55_00161,yacH,DUF3300 domain-containing protein,Unknown,-1.406938212,0.006720357,significant_down,mid-exponential
+EZ55_00907,,PA2778 family cysteine peptidase,Cell motility,1.404008944,0.000185366,significant_up,mid-exponential
+EZ55_01815,ahpF,alkyl hydroperoxide reductase subunit F,Post-translational modification,-1.392737362,0.007468304,significant_down,mid-exponential
+EZ55_01814,ahpC,alkyl hydroperoxide reductase subunit C,Post-translational modification,-1.390797971,0.000992033,significant_down,mid-exponential
+EZ55_01485,prpE,propionyl-CoA synthetase,Lipid metabolism,1.388605226,9.65e-05,significant_up,mid-exponential
+EZ55_02371,,hypothetical protein,Unknown,1.386108493,0.032468716,significant_up,mid-exponential
+EZ55_03365,,VTT domain-containing protein,Lipid metabolism,1.38396744,0.006037419,significant_up,mid-exponential
+EZ55_01229,,bacterioferritin-associated ferredoxin,Inorganic ion transport,1.381234839,3.82e-05,significant_up,mid-exponential
+EZ55_01776,,DUF3718 domain-containing protein,Unknown,1.378037848,0.034926529,significant_up,mid-exponential
+EZ55_00311,cheR,CheR family methyltransferase,Cell motility,1.377520483,6.69e-07,significant_up,mid-exponential
+EZ55_04282,xylC,benzaldehyde dehydrogenase,Energy production,1.371418047,0.000392971,significant_up,mid-exponential
+EZ55_04341,,DUF305 domain-containing protein,Unknown,1.370258147,0.000819816,significant_up,mid-exponential
+EZ55_01559,glgP,glycogen/starch/alpha-glucan phosphorylase,Carbohydrate metabolism,-1.366734673,7.53e-05,significant_down,mid-exponential
+EZ55_02476,,hypothetical protein,Unknown,1.364101427,0.000675404,significant_up,mid-exponential
+EZ55_04304,paaA,Phenylacetic acid catabolic protein,Unknown,1.352292105,2.79e-06,significant_up,mid-exponential
+EZ55_02386,,CC0125/CC1285 family lipoprotein,Unknown,1.349222784,6.18e-05,significant_up,mid-exponential
+EZ55_03988,gabD1,NAD-dependent succinate-semialdehyde dehydrogenase,Energy production,1.34875085,0.004829627,significant_up,mid-exponential
+EZ55_02592,,hypothetical protein,Unknown,1.347544691,1.14e-07,significant_up,mid-exponential
+EZ55_04285,,2Fe-2S iron-sulfur cluster-binding protein,Energy production,1.347419173,0.000387944,significant_up,mid-exponential
+EZ55_01932,proA,glutamate-5-semialdehyde dehydrogenase,Amino acid metabolism,-1.343231283,0.002174918,significant_down,mid-exponential
+EZ55_00893,hutG,formimidoylglutamase,Amino acid metabolism,-1.336572925,4.3e-07,significant_down,mid-exponential
+EZ55_04286,areB,NAD(P)-dependent alcohol dehydrogenase,Energy production,1.328880996,0.000858919,significant_up,mid-exponential
+EZ55_00157,,MauE/DoxX family redox-associated membrane protein,Post-translational modification,1.328684593,0.001233783,significant_up,mid-exponential
+EZ55_03165,prpC,bifunctional 2-methylcitrate synthase/citrate synthase,Energy production,-1.326023967,0.002544717,significant_down,mid-exponential
+EZ55_01450,trpG,aminodeoxychorismate/anthranilate synthase component II,Amino acid metabolism,-1.322906798,5.15e-06,significant_down,mid-exponential
+EZ55_02422,,glycosyltransferase family 2 protein,Unknown,1.321820649,0.01016496,significant_up,mid-exponential
+EZ55_02317,amy1,alpha-amylase family protein,Carbohydrate metabolism,-1.314489083,0.001248782,significant_down,mid-exponential
+EZ55_02755,,hypothetical protein,Unknown,1.310677909,2.77e-05,significant_up,mid-exponential
+EZ55_01691,mccA,acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha,Lipid metabolism,-1.305241889,0.002894478,significant_down,mid-exponential
+EZ55_03257,,hypothetical protein,Unknown,1.302261189,0.000277117,significant_up,mid-exponential
+EZ55_04260,xylH,2-hydroxymuconate tautomerase,Carbohydrate metabolism,1.295771492,0.000647245,significant_up,mid-exponential
+EZ55_04302,,MaoC family dehydratase,Lipid metabolism,1.285371488,5.94e-06,significant_up,mid-exponential
+EZ55_00284,,efflux RND transporter periplasmic adaptor subunit,Cell wall and membrane,-1.276950874,0.007268955,significant_down,mid-exponential
+EZ55_03865,,CsbD family protein,Unknown,1.263363809,0.003276626,significant_up,mid-exponential
+EZ55_04199,,copper resistance CopC family protein,Unknown,-1.261723429,0.000842148,significant_down,mid-exponential
+EZ55_01831,ynjD,ATP-binding cassette domain-containing protein,Unknown,-1.260695231,0.000462051,significant_down,mid-exponential
+EZ55_03164,prpB,methylisocitrate lyase,Carbohydrate metabolism,-1.256571705,0.002215107,significant_down,mid-exponential
+EZ55_00783,dpm1,glycosyltransferase family 2 protein,Cell wall and membrane,-1.252316406,0.02349323,significant_down,mid-exponential
+EZ55_03092,sodC,superoxide dismutase family protein,Inorganic ion transport,1.249941285,0.000120564,significant_up,mid-exponential
+EZ55_00193,,MarR family winged helix-turn-helix transcriptional regulator,Transcription,-1.244974027,0.00181698,significant_down,mid-exponential
+EZ55_03693,pdsS,proteobacterial dedicated sortase system histidine kinase,Signal transduction,-1.234134484,1.62e-05,significant_down,mid-exponential
+EZ55_00432,,hypothetical protein,Unknown,1.231136528,0.000316765,significant_up,mid-exponential
+EZ55_01447,trpB,tryptophan synthase subunit beta,Amino acid metabolism,-1.222519792,0.001506794,significant_down,mid-exponential
+EZ55_04153,,TolC family protein,Cell wall and membrane,-1.220415853,0.006196698,significant_down,mid-exponential
+EZ55_02415,,hypothetical protein,Unknown,1.219170216,0.003820782,significant_up,mid-exponential
+EZ55_02299,ybgK,5-oxoprolinase subunit C family protein,Amino acid metabolism,-1.21752465,6.66e-05,significant_down,mid-exponential
+EZ55_04152,copG,DUF411 domain-containing protein,Unknown,-1.212885679,0.004329947,significant_down,mid-exponential
+EZ55_00204,galT,UDP-glucose--hexose-1-phosphate uridylyltransferase,Energy production,-1.20525314,0.003713123,significant_down,mid-exponential
+EZ55_03057,,putative porin,Unknown,-1.20349136,0.007064404,significant_down,mid-exponential
+EZ55_02015,,MFS transporter,Carbohydrate metabolism,-1.202210435,4.77e-05,significant_down,mid-exponential
+EZ55_03259,,hypothetical protein,Unknown,1.195744799,7e-05,significant_up,mid-exponential
+EZ55_00313,cheB,protein-glutamate methylesterase/protein-glutamine glutaminase,Cell motility,1.194393042,3.49e-05,significant_up,mid-exponential
+EZ55_02878,,BCCT family transporter,Cell wall and membrane,-1.193720518,0.000440989,significant_down,mid-exponential
+EZ55_00462,,NAD(FAD)-dependent dehydrogenase,Unknown,-1.191304848,0.015962645,significant_down,mid-exponential
+EZ55_02767,sufA,HesB/IscA family protein,Unknown,-1.190100046,0.005639438,significant_down,mid-exponential
+EZ55_00366,rplP,50S ribosomal protein L16,Translation,1.189253774,0.004255818,significant_up,mid-exponential
+EZ55_04080,,hypothetical protein,Unknown,1.187835891,8.49e-05,significant_up,mid-exponential
+EZ55_02442,,glycoside hydrolase family 88/105 protein,Unknown,1.184047517,0.003180432,significant_up,mid-exponential
+EZ55_02980,nagA,N-acetylglucosamine-6-phosphate deacetylase,Carbohydrate metabolism,-1.180139419,0.001501206,significant_down,mid-exponential
+EZ55_04261,,hypothetical protein,Unknown,1.176515163,0.000342359,significant_up,mid-exponential
+EZ55_03067,,AAA family ATPase,Cell cycle and division,1.170903547,0.019821396,significant_up,mid-exponential
+EZ55_03227,,choice-of-anchor H family protein,Unknown,-1.167268451,0.020726481,significant_down,mid-exponential
+EZ55_00597,,hypothetical protein,Unknown,1.165881265,6.7e-05,significant_up,mid-exponential
+EZ55_01692,liuC,enoyl-CoA hydratase/isomerase family protein,Lipid metabolism,-1.165131818,0.002509579,significant_down,mid-exponential
+EZ55_02378,,sigma-54-dependent transcriptional regulator,Signal transduction,1.164899336,0.000458432,significant_up,mid-exponential
+EZ55_02983,chb,family 20 glycosylhydrolase,Carbohydrate metabolism,-1.162200958,0.003552131,significant_down,mid-exponential
+EZ55_01353,yjjU,patatin-like phospholipase family protein,Unknown,-1.159279443,0.004045866,significant_down,mid-exponential
+EZ55_03166,acnD,Fe/S-dependent 2-methylisocitrate dehydratase AcnD,Energy production,-1.153889184,0.024576101,significant_down,mid-exponential
+EZ55_01774,,acyl-CoA dehydrogenase C-terminal domain-containing protein,Lipid metabolism,-1.149455623,0.004638042,significant_down,mid-exponential
+EZ55_01449,trpD,anthranilate phosphoribosyltransferase,Amino acid metabolism,-1.145435071,0.000159417,significant_down,mid-exponential
+EZ55_00797,,spondin domain-containing protein,Unknown,-1.139918909,0.022634552,significant_down,mid-exponential
+EZ55_02318,qor,NADPH:quinone oxidoreductase family protein,Energy production,-1.135142804,0.000250068,significant_down,mid-exponential
+EZ55_00268,mrr,DUF2034 domain-containing protein,Replication and repair,1.132043285,0.006080996,significant_up,mid-exponential
+EZ55_02403,malQ,4-alpha-glucanotransferase,Carbohydrate metabolism,-1.130075543,0.001426807,significant_down,mid-exponential
+EZ55_00285,helA,efflux RND transporter permease subunit,Inorganic ion transport,-1.123918081,0.016081185,significant_down,mid-exponential
+EZ55_00309,cheW,chemotaxis protein CheW,Cell motility,1.123210162,0.000373637,significant_up,mid-exponential
+EZ55_02174,,host attachment protein,Cell motility,1.12283684,0.002253805,significant_up,mid-exponential
+EZ55_02424,ycgI,DUF1989 domain-containing protein,Unknown,1.11357291,8.67e-08,significant_up,mid-exponential
+EZ55_03014,aceE,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",Energy production,-1.111747178,7.47e-05,significant_down,mid-exponential
+EZ55_00368,rpsQ,30S ribosomal protein S17,Translation,1.108447016,0.0119321,significant_up,mid-exponential
+EZ55_02434,uxaA,UxaA family hydrolase,Carbohydrate metabolism,1.106336291,0.018431167,significant_up,mid-exponential
+EZ55_04249,benB,aromatic-ring-hydroxylating dioxygenase subunit beta,Secondary metabolites,1.104125785,0.01280834,significant_up,mid-exponential
+EZ55_02385,,hypothetical protein,Unknown,1.101726616,0.002061636,significant_up,mid-exponential
+EZ55_03971,pckA,phosphoenolpyruvate carboxykinase,Coenzyme metabolism,1.10135278,0.002500589,significant_up,mid-exponential
+EZ55_00873,pepN,M1 family metallopeptidase,Amino acid metabolism,-1.100021282,0.002697699,significant_down,mid-exponential
+EZ55_02982,gspK,BadF/BadG/BcrA/BcrD ATPase family protein,Carbohydrate metabolism,-1.098340173,0.003094558,significant_down,mid-exponential
+EZ55_00367,rpmC,50S ribosomal protein L29,Translation,1.095893945,0.014585392,significant_up,mid-exponential
+EZ55_01448,trpCF,bifunctional indole-3-glycerol-phosphate synthase TrpC/phosphoribosylanthranilate isomerase TrpF,Amino acid metabolism,-1.093697408,0.00075834,significant_down,mid-exponential
+EZ55_01201,,hypothetical protein,Unknown,1.093389888,0.001261953,significant_up,mid-exponential
+EZ55_00283,czcC,TolC family protein,Cell wall and membrane,-1.09221639,0.001248115,significant_down,mid-exponential
+EZ55_04251,benD,"1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase",Lipid metabolism,1.087655051,0.015843579,significant_up,mid-exponential
+EZ55_02300,kipI,5-oxoprolinase subunit B family protein,Amino acid metabolism,-1.08216812,0.000213969,significant_down,mid-exponential
+EZ55_00596,,hypothetical protein,Unknown,1.080210859,0.00270273,significant_up,mid-exponential
+EZ55_01809,yhcX,bifunctional GNAT family N-acetyltransferase/carbon-nitrogen hydrolase family protein,Transcription,1.079918496,7.95e-05,significant_up,mid-exponential
+EZ55_01235,,SDR family oxidoreductase,Unknown,-1.073683215,0.000528043,significant_down,mid-exponential
+EZ55_00363,rpsS,30S ribosomal protein S19,Translation,1.073274082,0.007458357,significant_up,mid-exponential
+EZ55_02766,sufT,putative Fe-S cluster assembly protein SufT,Unknown,-1.07037012,0.01198931,significant_down,mid-exponential
+EZ55_03611,,outer membrane beta-barrel protein,Cell wall and membrane,-1.067293309,0.002453751,significant_down,mid-exponential
+EZ55_01690,mvaB,hydroxymethylglutaryl-CoA lyase,Amino acid metabolism,-1.06436299,0.00587957,significant_down,mid-exponential
+EZ55_03821,syrP,TauD/TfdA family dioxygenase,Secondary metabolites,1.063634029,0.000231746,significant_up,mid-exponential
+EZ55_01508,,carboxymuconolactone decarboxylase family protein,Unknown,-1.058038396,0.011870018,significant_down,mid-exponential
+EZ55_01651,gumL,polysaccharide pyruvyl transferase family protein,Unknown,1.057491685,0.00016193,significant_up,mid-exponential
+EZ55_00906,,PA2779 family protein,Unknown,1.052333486,0.02186362,significant_up,mid-exponential
+EZ55_02418,osmY,BON domain-containing protein,Unknown,1.049743638,0.035622557,significant_up,mid-exponential
+EZ55_02230,yedP,HAD-IIB family hydrolase,Unknown,1.044742037,0.000197275,significant_up,mid-exponential
+EZ55_03037,,methyl-accepting chemotaxis protein,Cell motility,1.04419548,0.024936781,significant_up,mid-exponential
+EZ55_02772,iscS,IscS subfamily cysteine desulfurase,Amino acid metabolism,-1.044175757,4.35e-06,significant_down,mid-exponential
+EZ55_00894,hutI,imidazolonepropionase,Secondary metabolites,-1.041344791,0.000326514,significant_down,mid-exponential
+EZ55_02490,,halomucin,Unknown,-1.040114187,0.001524404,significant_down,mid-exponential
+EZ55_01398,,DUF2937 family protein,Unknown,1.039735091,6.11e-05,significant_up,mid-exponential
+EZ55_01791,,mechanosensitive ion channel family protein,Cell wall and membrane,1.038805485,0.028086416,significant_up,mid-exponential
+EZ55_03111,yaaA,peroxide stress protein YaaA,Unknown,-1.037898883,0.000810555,significant_down,mid-exponential
+EZ55_01621,,mechanosensitive ion channel family protein,Cell wall and membrane,1.037372219,5.34e-08,significant_up,mid-exponential
+EZ55_01910,,hypothetical protein,Unknown,1.035402524,0.037511962,significant_up,mid-exponential
+EZ55_03692,pdsR,proteobacterial dedicated sortase system response regulator,Signal transduction,-1.035321701,8.33e-05,significant_down,mid-exponential
+EZ55_02008,,TonB-dependent receptor,Coenzyme metabolism,-1.033767897,0.013871935,significant_down,mid-exponential
+EZ55_01446,trpA,tryptophan synthase subunit alpha,Amino acid metabolism,-1.03114356,0.005201113,significant_down,mid-exponential
+EZ55_01693,liuB,carboxyl transferase domain-containing protein,Lipid metabolism,-1.030211687,0.002859495,significant_down,mid-exponential
+EZ55_02981,nagB-II,glucosamine-6-phosphate deaminase NagB-II,Cell wall and membrane,-1.030142795,0.012911756,significant_down,mid-exponential
+EZ55_04250,benC,"benzoate 1,2-dioxygenase electron transfer component BenC",Energy production,1.028890049,0.005167654,significant_up,mid-exponential
+EZ55_01769,,hypothetical protein,Unknown,1.025018332,0.024033018,significant_up,mid-exponential
+EZ55_04200,copD,copper resistance D family protein,Inorganic ion transport,-1.02447815,0.004850751,significant_down,mid-exponential
+EZ55_03493,,fasciclin domain-containing protein,Cell wall and membrane,1.023317112,0.029320977,significant_up,mid-exponential
+EZ55_02441,,TonB-dependent receptor,Inorganic ion transport,1.01667055,0.027446367,significant_up,mid-exponential
+EZ55_02380,,sensor histidine kinase,Signal transduction,1.012427883,0.001617647,significant_up,mid-exponential
+EZ55_00361,rplW,50S ribosomal protein L23,Translation,1.012386402,0.008330472,significant_up,mid-exponential
+EZ55_02769,sufD,Fe-S cluster assembly protein SufD,Post-translational modification,-1.011912145,0.005702999,significant_down,mid-exponential
+EZ55_03822,ytbE,aldo/keto reductase,Unknown,1.011150451,0.002091482,significant_up,mid-exponential
+EZ55_02768,sufS,aminotransferase class V-fold PLP-dependent enzyme,Amino acid metabolism,-1.010734246,0.012228226,significant_down,mid-exponential
+EZ55_01773,,acetyl-CoA C-acyltransferase,Lipid metabolism,-1.009045681,0.005547038,significant_down,mid-exponential
+EZ55_02383,,hypothetical protein,Unknown,1.008828176,0.027094222,significant_up,mid-exponential
+EZ55_01862,,hypothetical protein,Unknown,1.007859753,4.13e-05,significant_up,mid-exponential
+EZ55_04201,,YybH family protein,Unknown,-1.004920056,0.007502471,significant_down,mid-exponential
+EZ55_02202,,hypothetical protein,Unknown,1.002536206,0.000133639,significant_up,mid-exponential
+EZ55_00318,aer2,methyl-accepting chemotaxis protein,Signal transduction,-1.001689369,0.012532772,significant_down,mid-exponential
+EZ55_02922,,MFS transporter,Carbohydrate metabolism,1.000768675,0.049794212,significant_up,mid-exponential
+EZ55_00297,,hypothetical protein,Unknown,-1.000677092,0.007556096,significant_down,mid-exponential
