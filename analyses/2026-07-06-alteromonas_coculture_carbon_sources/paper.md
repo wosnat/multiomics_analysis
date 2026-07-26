@@ -178,7 +178,67 @@ clean negative control.
 
 ## Discussion
 
-*(Fills in at the evaluation milestone.)*
+Inferring carbon sources from the consumer's uptake machinery yields a **graded,
+class-level candidate catalog rather than named compounds** — the outcome the design
+anticipated given KG-only, annotation-limited, coculture-confounded evidence. The
+best-supported candidate carbon class is **sugars/carbohydrates**: it is among the
+most-induced transporter classes in the primary strain (near-tied with nucleosides),
+is corroborated independently by
+genome-wide carbohydrate-metabolism enrichment, and reproduces in a second strain — though
+that reproduction is *partial and class-level* (L-fucose and a carbohydrate porin recur,
+while the strongest single HOT1A3 carbohydrate-MFS transporter does not). **Nucleosides/
+nucleobases** are a strong signal in the primary strain (again enrichment-corroborated) but
+could not be tested cross-strain. **Organic acids** are a weaker second candidate, up as
+*different compounds in different strains and conditions* (citrate at day 11, just below
+the FDR bar; acetate in EZ55; lactate in the starvation time course). This chemically-coherent set — sugars,
+nucleosides, organic acids — is consistent with the labile marine dissolved-organic-matter
+a phototroph would exude or release. `[interpretation]`
+
+Two negative results are as informative as the positives. **Amino-acid transporters are
+conspicuously not induced** (the largest transporter class, yet a below-reference median,
+with branched-chain amino-acid uptake actively down), which argues against bulk amino-acid
+transfer as the mode of carbon (or nitrogen) acquisition in this interaction. And
+**iron-acquisition machinery is the single most up-regulated transporter class** — a
+reminder that coculture induces far more than carbon uptake, and that iron behaves as an
+interaction-coupled variable rather than a clean negative control.
+
+**Did the method deliver what it promised?** The validation checks passed in the primary
+strain and the EZ55 400-ppm arm (motility down; ribosomal neutral; controls specific — the
+inorganic set stays flat while sugars are induced), though the EZ55 800-ppm arm's motility
+check failed (see Limitations), and the falsifiable core behaved honestly: the pre-committed aromatic
+expected-negative did *not* resolve into a supported carbon source (its transporter is
+strain-specific and never forms a coherent transporter-plus-catabolism unit), even though
+`benE` was individually prominent in the primary strain — a partial complication, not a
+clean pass, faithfully reported. The method's real product is what the proposal committed
+to: a **prioritized shortlist for experimental testing**, not a decision.
+
+That decisive test is wet-lab. The natural follow-up is **growth assays of *Alteromonas*
+on the prioritized classes as sole or supplemented carbon sources** — sugars first
+(fucose, and mono-/oligosaccharides), then organic acids (lactate, acetate,
+di-/tricarboxylates) — under coculture-relevant conditions, ideally paired with direct
+exometabolomics of the *Prochlorococcus* partner (absent from the current KG). Only growth
+can convert these transcriptional candidates into demonstrated carbon use.
+
+## Limitations
+
+- **Correlational, consumer-side inference.** An up-regulated importer is candidate
+  evidence, never proof of carbon flux; the coculture-vs-axenic contrast conflates carbon
+  with nitrogen exchange, oxidative-stress relief, growth-rate/cell-cycle differences, and
+  iron competition. The claim stays at "candidate."
+- **Transcript-level, and possibly transcript-only.** The signal is from mRNA;
+  proteomics was too sparse/underpowered (0 modules significant) to confirm or refute it.
+- **Class-level resolution, no specific compound.** Annotation limits (KO-sparse ABC
+  subunits; single-gene-dominated organic-C transporters) cap resolution at chemical class;
+  no single compound reproduces across experiments.
+- **Thin, heterogeneous evidence.** Only one fully-rankable experiment (HOT1A3 day-11);
+  EZ55 is `significant_only` with a 3–5-module FDR family and only six substrates shared
+  with HOT1A3, and its 800-ppm motility validation fails; the temporal read is
+  corroboration-only from a single informative timepoint.
+- **No producer-side measurement.** The KG holds no *Prochlorococcus* coculture
+  exometabolome, so what is actually released is inferred, not observed.
+- **KG as sole data source.** Findings are bounded by the graph's annotation depth and
+  the specific experiments it contains; direction of catabolism is knowable only where a
+  dedicated degradation map exists (rare for these substrates).
 
 ## References
 
