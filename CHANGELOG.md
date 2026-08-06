@@ -26,10 +26,46 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
   gates were re-lettered (GATE A–E); critical review now runs at the analysis and
   evaluation milestones. Existing analyses under `analyses/` keep their original
   numbered structure as git history — the new arc applies to new analyses.
+- **The arc hardened by its first full dogfood.** It was run end to end on one
+  real analysis (which organic carbon compounds *Alteromonas* takes up in
+  coculture with *Prochlorococcus*), and the four places it fell short were
+  fixed:
+  - **The methods milestone now gets an automatic critical review whenever it
+    produces a data file** later milestones consume — a parts list, a curated
+    candidate set, a classification table. Such a file carries claims (substrate
+    labels, confidence flags, class assignments) that every downstream number
+    inherits, and later milestones read it as a trusted input, so nothing else
+    re-checks it. Run on demand in the dogfood, that review found a regulatory
+    protein sitting in the candidate set as a confident sugar importer, plus a
+    gene count cited from the KG that was 30% high and had already reached the
+    paper. A methods milestone that only produces a tested function still gets
+    the review only on request.
+  - **A milestone that keeps producing after its review gets a second,
+    delta-only pass.** Exploration happens *after* the critic by construction —
+    you ask for follow-ups, and new figures and claims land during decide. In
+    the dogfood the first pass came back clean and the delta pass over what
+    followed caught a figure caption citing the wrong module's number, which had
+    inverted the interpretation drawn from it.
+  - **Toy tests use the real data's form, and one real row is spot-run by hand.**
+    A green suite proves nothing when the fixture's values are the wrong type: in
+    the dogfood, 27 passing tests hid a string-vs-boolean bug that would have
+    collapsed every control class the moment the scorer met a real CSV.
+  - **The decide gate now checks the friction log** — every friction the notebook
+    points at actually exists, and a review finding that exposed a gap the plan
+    didn't anticipate is logged as friction, not only as a fix. The log tends to
+    go quiet in exactly the late milestones where the lessons are most expensive.
 - Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.4) — run
   `uv sync` after pulling. Fixes a result-flattening bug: queries that mix
   different `gene_derived_metrics` kinds no longer silently drop the scalar
   `value` column when converting tool output to a dataframe.
+
+### Added
+- `docs/methodology-review-2026-08.md` — what the first full dogfood showed, with
+  the evidence behind each of the four changes above, plus four further findings
+  that occurred only once and are being watched rather than acted on.
+- `docs/methodology-test-brief.md` retargeted to a second round: it now asks
+  whether the four changes earn their place and whether those four watch items
+  recur.
 
 ### Fixed
 - Preflight no longer crashes on Windows when printing its success line — the
