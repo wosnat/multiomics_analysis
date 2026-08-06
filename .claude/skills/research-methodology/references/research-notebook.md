@@ -127,6 +127,8 @@ These can co-occur — a methodology gap can force both a decision and a frictio
 
 Each entry is prose with a date, a short name, what happened, and — if relevant — the workaround and the downstream impact on methodology/KG/tooling.
 
+**Write the entry when it happens, not at the end.** The log decays late in a run, when the milestones are heaviest and the lessons most expensive. Two recurring leaks to watch: a `notebook.md` that points at an entry never written, and a **critic finding that exposed a gap the framing didn't anticipate** — that is friction (what the *next* analysis needs to know), not only a disposition (what you fixed in *this* one). The decide gate checks both — see [step-protocol.md — "decide" phase](step-protocol.md).
+
 **Why this is transitional.** The methodology itself is under development. Every analysis teaches us something about what's missing or awkward. `gaps_and_friction.md` is the learning record that feeds back into methodology and KG/tooling improvements. Mandatory while the methodology is being stabilized — likely the first 3–5 analyses. Once the pattern settles, revisit: keep, make optional, or fold into `notebook.md`. Retirement criterion: when two consecutive analyses produce a near-empty `gaps_and_friction.md` (only incidental friction, no methodology gaps), propose retiring the requirement.
 
 Append-only. Redo friction entries accumulate.
@@ -192,6 +194,13 @@ Code lives in the analysis directory. Goal: correct methodology, not good softwa
 **Methods modules describe methodology, not implementation scaffolding.** For novel utilities (scoring functions, metrics, gene-set operations), the module should be minimal — the formula with a worked example, expected I/O, and the minimum code to compute it. Regular extraction/plotting scripts are straightforward enough not to need a separate utility.
 
 **Toy-data verification before real data** (`superpowers:test-driven-development`). When building a reusable utility, verify with hand-calculated toy examples first. Create small synthetic input, compute expected output by hand, run the utility, compare, log the verification in `methods/notebook.md`. Applies to anything in a shared utility; one-off scripts don't need it.
+
+**A green suite is not evidence the code is correct on real input.** Two rules close the gap:
+
+- **Fixtures use the real artifact's serialization form.** Build the toy input the way the data actually arrives — if the pipeline reads a CSV, the fixture's fields are the *strings* a CSV yields, not the Python objects you had in mind. A fixture whose input *type* differs from the real data hides every bug in the parsing layer while reporting all-green.
+- **The main thread spot-runs the utility on one real row** before the milestone closes, and logs the result as a QC-gate line. Re-deriving one real case by hand is what catches what the suite structurally cannot.
+
+*Why (Alteromonas coculture, 2026-07-23):* a reference-class assigner used `bool(row["in_candidate"])`; the real CSV stores that field as the string `"False"`, and `bool("False")` is truthy — on real data every system would have collapsed into one class, destroying the control structure the whole null comparison rested on. All 27 tests passed, because the fixture used Python booleans. A spot-run on one real CSV row caught it.
 
 **Refine through the notebook QC cycle.** The do → show → explore → decide loop is how methodology gets validated. Formula corrections, edge cases, direction logic — all discovered through the researcher walking through concrete examples.
 

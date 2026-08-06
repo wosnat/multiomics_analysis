@@ -202,12 +202,18 @@ they do fit:
 - an adversarial second opinion before claims land → the
   `critical-review` skill, at the **analysis** milestone (data-integrity
   + interpretation) and the **evaluation** milestone (interpretation
-  only). It reviews only that milestone's own files (the proposal and
+  only) — and at the **methods** milestone too whenever it emits a data
+  artifact that downstream milestones consume (a parts list, a
+  classification table, a curated gene set): that file carries claims —
+  labels, confidence flags, class assignments — so it gets the
+  data-integrity lens, not a pass because "methods is only code."
+  The critic reviews only that milestone's own files (the proposal and
   earlier milestones are trusted inputs), with a lens matched to the
   milestone, so the researcher reviews a vetted milestone, not a first
   draft. Kept light: matched lens, milestone-scoped, artifact only when
-  it finds something. See
-  [step-protocol.md GATE C](references/step-protocol.md).
+  it finds something. **A milestone that keeps producing after its
+  critic pass earns a delta pass** over the new work before it closes.
+  See [step-protocol.md GATE C](references/step-protocol.md).
 
 **Exploration is expected to exceed the plan.** You cannot foresee
 everything, and good exploration is *led by* the results. Findings you

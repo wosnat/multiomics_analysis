@@ -1,6 +1,6 @@
 ---
 name: critical-review
-description: Use before the researcher sees a claim-bearing artifact of a research analysis — the proposal at the close of the Plan phase, and the analysis and evaluation milestones at their decide phase — and on demand at any point. Dispatches a fresh-context critic that re-checks the artifact's own claims against its own files. The proposal gets interpretation only; the analysis milestone gets data-integrity + interpretation; the evaluation milestone gets interpretation only. The critic reviews only that artifact's files; earlier phases are trusted inputs, not re-audited.
+description: Use before the researcher sees a claim-bearing artifact of a research analysis — the proposal at the close of the Plan phase, the analysis and evaluation milestones at their decide phase, the methods milestone when it emits a data artifact, and any milestone whose claims expanded after its earlier pass — plus on demand at any point. Dispatches a fresh-context critic that re-checks the artifact's own claims against its own files. The proposal gets interpretation only; the analysis and data-emitting methods milestones get data-integrity + interpretation; the evaluation milestone gets interpretation only. The critic reviews only that artifact's files; earlier phases are trusted inputs, not re-audited.
 ---
 
 # Critical review
@@ -49,13 +49,26 @@ results first appear, so it gets the full pass: **data-integrity + interpretatio
 The data-integrity half is what pays off here — it opens the CSVs and checks the
 signs, counts, truncation, and conflation that the narrative glosses.
 
-The pass is point-in-time, but the analysis milestone often keeps growing during
-decide (the researcher asks for follow-on analyses, new scripts and claims land
-after the critic already ran). **If a milestone's computed claims materially
-expand after its critic pass** — new analyses, new data files, new conclusions
-added during decide — **re-run the critic over the delta before closing.** Tell
-the re-dispatch which prior files are already-reviewed (list them as trusted
-inputs) so it reviews only the new work, not the whole milestone again.
+**Methods milestone (automatic when it emits a data artifact; otherwise on
+demand).** A methods milestone whose only output is a toy-tested function can
+wait for the analysis pass. But when the method includes **constructing the
+entity set** — a parts list, a curated candidate set, a classification table —
+that file carries claims (substrate labels, confidence flags, class assignments)
+and every downstream score inherits them. Then it gets the full
+**data-integrity + interpretation** lens, on the same footing as the analysis
+milestone. Do not skip it because the milestone is labelled "methods": the errors
+this catches are exactly the ones no later pass will, because later milestones
+read the parts list as a *trusted input*.
+
+**Delta pass (expected, not exceptional).** A critic pass is point-in-time, and
+the **explore** phase runs *after* it by construction — the researcher asks for
+follow-on analyses, and new scripts, figures and conclusions land during decide.
+**If a milestone's claims materially expand after its pass, re-run the critic
+over the delta before closing.** Tell the re-dispatch which prior files are
+already-reviewed (list them as trusted inputs) so it reviews only the new work,
+not the whole milestone again. Treat a milestone that explored after its pass and
+closed without a delta pass as having closed unreviewed work — the clean first
+verdict does not cover what came after it.
 
 **Evaluation milestone (automatic; light).** Evaluation produces conclusions, not
 new computation, so a data-integrity sweep has little to bite. Run **interpretation
@@ -66,8 +79,8 @@ evidence** — it judges whether the conclusions follow from them; it does not
 re-open those files hunting for new data defects (the analysis review already did
 that).
 
-**Any point, on demand.** A methods milestone resting on a non-obvious choice, or
-a redo you want re-checked, can be reviewed at will.
+**Any point, on demand.** A methods milestone that emits no data but rests on a
+non-obvious choice, or a redo you want re-checked, can be reviewed at will.
 
 **Not run by a subagent:** routine **methodology compliance** (locus tags present,
 computations in scripts, results tabled not paraphrased, decide-gate checklist
@@ -94,8 +107,9 @@ Placeholders:
   proposal's framing)
 - `{REVIEW_LENS}` — which dimensions to apply: `interpretation only` for the
   proposal and the evaluation milestone; `data-integrity + interpretation` for the
-  analysis milestone; for other on-demand runs, choose by what was produced (data
-  files → include data-integrity; conclusions only → interpretation only)
+  analysis milestone and for a methods milestone that emitted a data artifact; for
+  other on-demand runs, choose by what was produced (data files → include
+  data-integrity; conclusions only → interpretation only)
 - `{TRUSTED_INPUTS}` — prior output files this artifact builds on, which the critic
   reads as evidence but does **not** re-audit (e.g. the analysis milestone's data/
   for an evaluation review). Empty for the proposal and the analysis milestone.
@@ -137,8 +151,11 @@ Placeholders:
 ## Red flags
 
 **Never:**
-- Skip the proposal review because "the plan is obvious," or the analysis-milestone
-  review because "the result is obvious."
+- Skip the proposal review because "the plan is obvious," the analysis-milestone
+  review because "the result is obvious," or a data-emitting methods review
+  because "methods is only code."
+- Close a milestone that grew after its critic pass without a delta pass over the
+  new work.
 - Start the Run phase, or close a milestone, with an unresolved Blocker.
 - Re-audit an already-reviewed proposal or earlier milestone as part of a later
   milestone's review.
