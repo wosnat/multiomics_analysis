@@ -17,8 +17,8 @@ repo's call.
 
 ## What to carry
 
-Two commits on branch `methodology/review-2026-08` in
-`git@github.com:wosnat/multiomics_analysis.git`:
+Two commits, now on `main` in `git@github.com:wosnat/multiomics_analysis.git`
+(merged from `methodology/review-2026-08`):
 
 - **`bc3e35b`** — the four skill changes + the review + the retargeted test brief
 - **the follow-up commit** — the `[Unreleased]` CHANGELOG entry describing them
@@ -57,14 +57,13 @@ agree.
 
 > I'm carrying methodology work into this template — the Plan→Run research arc,
 > hardened by its first full dogfood. It goes under `[Unreleased]`; **I am not
-> cutting a release in this pass**, so don't touch `VERSION`. The work lives on
-> branch `methodology/review-2026-08` in
-> `git@github.com:wosnat/multiomics_analysis.git` (a consumer clone of this
-> template; its `upstream` push is disabled, which is why this is a manual
-> carry).
+> cutting a release in this pass**, so don't touch `VERSION`. The work is on
+> `main` in `git@github.com:wosnat/multiomics_analysis.git`, commits `bc3e35b`
+> and `2809387` (a consumer clone of this template; its `upstream` push is
+> disabled, which is why this is a manual carry).
 >
-> Add that repo as a temporary remote and fetch the branch, then bring across
-> **only** these files, at their state on that branch:
+> Add that repo as a temporary remote and fetch it, then bring across **only**
+> these files, at their state there:
 >
 > - `.claude/skills/research-methodology/SKILL.md`
 > - `.claude/skills/research-methodology/references/step-protocol.md`
