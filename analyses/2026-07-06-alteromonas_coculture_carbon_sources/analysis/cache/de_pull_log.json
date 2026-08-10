@@ -1,0 +1,19 @@
+{
+ "experiment_id": "10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq",
+ "organism": "Alteromonas macleodii HOT1A3",
+ "total_matching": 3947,
+ "distinct_genes": 3947,
+ "table_scope": {
+  "all_detected_genes": 3947
+ },
+ "rows_by_status": {
+  "not_significant": 3673,
+  "significant_down": 163,
+  "significant_up": 111
+ },
+ "sign_negative": 2136,
+ "sign_positive": 1809,
+ "sign_zero": 2,
+ "pct_negative": 54.12,
+ "duplicate_rows": 0
+}

@@ -1,0 +1,9 @@
+arm,set,n_in_significant_set,median_up_pct,expected
+400ppm,motility_Cell_motility,18,0.1352,down
+400ppm,peptidase_protease,10,0.5742,up
+400ppm,ribosomal_Translation,14,0.1926,~neutral
+400ppm,glcB_EZ55_02804,0,,up if glycolate (soft); absent from sig set => blank
+800ppm,motility_Cell_motility,7,0.6791,down
+800ppm,peptidase_protease,2,0.5668,up
+800ppm,ribosomal_Translation,5,0.5882,~neutral
+800ppm,glcB_EZ55_02804,0,,up if glycolate (soft); absent from sig set => blank

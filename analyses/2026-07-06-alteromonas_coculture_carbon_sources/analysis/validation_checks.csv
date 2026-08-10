@@ -1,0 +1,7 @@
+validation_set,n,median_percentile,mean_percentile,q25,q75,min,max,expected_direction
+motility_Cell_motility,123,0.1842,0.29,0.0916,0.4208,0.0096,0.9792,down (low percentiles)
+ribosomal_Translation,198,0.5037,0.5032,0.282,0.7023,0.0099,0.9891,~neutral (~0.5)
+peptidase_protease,93,0.5651,0.5192,0.3135,0.7448,0.001,0.9967,up (high percentiles)
+inorganic_control_systems,84,0.5029,0.4938,0.2427,0.7186,0.022,0.9997,not high
+whole_genome_baseline,3947,0.5,0.5,0.25,0.75,0.0,1.0,~0.5 by construction
+glcB_ACZ81_13685,1,0.0279,0.0279,0.0279,0.0279,0.0279,0.0279,up if glycolate a source (soft; absence uninformative)

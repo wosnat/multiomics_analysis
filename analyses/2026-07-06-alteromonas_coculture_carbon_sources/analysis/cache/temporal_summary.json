@@ -1,0 +1,42 @@
+{
+ "n_modules": 33,
+ "coc_called_up": {
+  "day 18": [
+   "carbohydrate"
+  ],
+  "day 31": [
+   "L-lactate",
+   "peptide/nickel"
+  ],
+  "day 60": [
+   "L-lactate",
+   "peptide/nickel"
+  ],
+  "day 89": [
+   "L-lactate"
+  ],
+  "days 60+89": [
+   "L-lactate",
+   "peptide/nickel"
+  ]
+ },
+ "ax_called_up": {
+  "day 18": [],
+  "day 31": [],
+  "days 60+89": [
+   "L-lactate"
+  ]
+ },
+ "coculture_specific": {
+  "day 18": [
+   "carbohydrate"
+  ],
+  "day 31": [
+   "L-lactate",
+   "peptide/nickel"
+  ],
+  "days 60+89": [
+   "peptide/nickel"
+  ]
+ }
+}

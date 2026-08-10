@@ -1,0 +1,166 @@
+substrate_call,timepoint,n_systems,coc_effect,coc_q,coc_called_up,ax_effect,ax_q,ax_called_up,coculture_specific
+3-phenylpropionic acid,day 18,2,0.6949,0.9769,False,0.8079,0.6832,False,False
+L-lactate,day 18,1,0.9589,0.3025,False,0.4374,0.8107,False,False
+adenine/guanine/hypoxanthine,day 18,1,0.2065,0.9769,False,0.688,0.656,False,False
+amino acid,day 18,3,0.6873,0.9769,False,0.8936,0.656,False,False
+aminobenzoyl-glutamate,day 18,1,0.0661,0.9769,False,0.9149,0.4499,False,False
+benzoate,day 18,1,0.6495,0.9769,False,0.7511,0.656,False,False
+betaine/carnitine,day 18,1,0.1675,0.9769,False,0.3411,0.8792,False,False
+branched-chain amino acid,day 18,1,0.1475,0.9769,False,0.2544,0.8792,False,False
+carbohydrate,day 18,1,0.998,0.0759,True,0.6006,0.7114,False,True
+carboxylate,day 18,2,0.279,0.9769,False,0.9384,0.4499,False,False
+choline,day 18,1,0.3695,0.9769,False,0.1419,0.9262,False,False
+choline/glycine/proline betaine,day 18,2,0.1396,0.9797,False,0.2772,0.9262,False,False
+dipeptide,day 18,1,0.299,0.9769,False,0.9214,0.1584,False,False
+fucose,day 18,1,0.8443,0.3025,False,0.5909,0.6832,False,False
+fucose/galactose/glucose,day 18,3,0.9838,0.3025,False,0.9399,0.656,False,False
+gluconate,day 18,2,0.257,0.9769,False,0.5056,0.8792,False,False
+glycerol,day 18,1,0.0715,0.9769,False,0.1265,0.9262,False,False
+glycine,day 18,2,0.5195,0.9769,False,0.762,0.7114,False,False
+maltose/moltooligosaccharide,day 18,1,0.7364,0.9769,False,0.723,0.656,False,False
+nicotinamide mononucleotide,day 18,1,0.5114,0.9769,False,0.3021,0.8792,False,False
+nucleoside,day 18,2,0.8168,0.9769,False,0.8862,0.656,False,False
+oligopeptide,day 18,1,0.7785,0.9769,False,0.7694,0.656,False,False
+peptide,day 18,2,0.3784,0.9769,False,0.493,0.8792,False,False
+peptide/nickel,day 18,1,0.8211,0.3025,False,0.7726,0.4499,False,False
+phospholipid/cholesterol/gamma-HCH,day 18,1,0.278,0.9769,False,0.3426,0.8792,False,False
+polar amino acid,day 18,6,0.8132,0.9769,False,0.6789,0.9262,False,False
+proline,day 18,2,0.6338,0.9769,False,0.8839,0.656,False,False
+putative spermidine/putrescine,day 18,1,0.1128,0.9769,False,0.4861,0.8107,False,False
+putative tryptophan/tyrosine,day 18,1,0.3867,0.9769,False,0.4455,0.8107,False,False
+serine/threonine,day 18,1,0.944,0.3025,False,0.9506,0.4499,False,False
+sugar,day 18,4,0.5674,0.9769,False,0.8654,0.7114,False,False
+vitamin B12,day 18,1,0.5682,0.9769,False,0.9204,0.4499,False,False
+xylose,day 18,1,0.5616,0.9769,False,0.7273,0.656,False,False
+3-phenylpropionic acid,day 31,2,0.9179,0.779,False,0.739,0.8348,False,False
+L-lactate,day 31,1,0.999,0.0165,True,0.5456,0.8348,False,True
+adenine/guanine/hypoxanthine,day 31,1,0.3862,0.9109,False,0.4858,0.8348,False,False
+amino acid,day 31,3,0.8125,0.9109,False,0.7897,0.8348,False,False
+aminobenzoyl-glutamate,day 31,1,0.1508,0.9645,False,0.7121,0.8348,False,False
+benzoate,day 31,1,0.8092,0.779,False,0.832,0.6852,False,False
+betaine/carnitine,day 31,1,0.3672,0.9109,False,0.2554,0.867,False,False
+branched-chain amino acid,day 31,1,0.0644,0.9645,False,0.2818,0.867,False,False
+carbohydrate,day 31,1,0.8239,0.779,False,0.9364,0.6852,False,False
+carboxylate,day 31,2,0.2471,0.9645,False,0.8383,0.7299,False,False
+choline,day 31,1,0.5241,0.9109,False,0.2423,0.867,False,False
+choline/glycine/proline betaine,day 31,2,0.3368,0.9645,False,0.5061,0.867,False,False
+dipeptide,day 31,1,0.5112,0.9109,False,0.8449,0.6852,False,False
+fucose,day 31,1,0.7216,0.779,False,0.5668,0.8348,False,False
+fucose/galactose/glucose,day 31,3,0.8961,0.779,False,0.9366,0.6852,False,False
+gluconate,day 31,2,0.3289,0.9645,False,0.3302,0.9393,False,False
+glycerol,day 31,1,0.371,0.9109,False,0.0897,0.9393,False,False
+glycine,day 31,2,0.6632,0.9109,False,0.6893,0.8348,False,False
+maltose/moltooligosaccharide,day 31,1,0.9217,0.779,False,0.5015,0.8348,False,False
+nicotinamide mononucleotide,day 31,1,0.7146,0.779,False,0.3847,0.867,False,False
+nucleoside,day 31,2,0.9387,0.779,False,0.9161,0.6852,False,False
+oligopeptide,day 31,1,0.7704,0.779,False,0.8145,0.6852,False,False
+peptide,day 31,2,0.425,0.9645,False,0.6627,0.8348,False,False
+peptide/nickel,day 31,1,0.9518,0.0165,True,0.7465,0.6852,False,True
+phospholipid/cholesterol/gamma-HCH,day 31,1,0.2235,0.9645,False,0.1875,0.9543,False,False
+polar amino acid,day 31,6,0.8006,0.9478,False,0.8066,0.867,False,False
+proline,day 31,2,0.645,0.9109,False,0.7116,0.8348,False,False
+putative spermidine/putrescine,day 31,1,0.2484,0.9478,False,0.2638,0.867,False,False
+putative tryptophan/tyrosine,day 31,1,0.4706,0.9109,False,0.3127,0.867,False,False
+serine/threonine,day 31,1,0.7228,0.779,False,0.9551,0.6852,False,False
+sugar,day 31,4,0.7273,0.9478,False,0.6622,0.8827,False,False
+vitamin B12,day 31,1,0.5788,0.9109,False,0.892,0.6852,False,False
+xylose,day 31,1,0.6247,0.9109,False,0.5451,0.8348,False,False
+3-phenylpropionic acid,day 60,2,0.8961,0.9093,False,,,,no_axenic_match
+L-lactate,day 60,1,0.9995,0.033,True,,,,no_axenic_match
+adenine/guanine/hypoxanthine,day 60,1,0.4065,0.9216,False,,,,no_axenic_match
+amino acid,day 60,3,0.7402,0.9216,False,,,,no_axenic_match
+aminobenzoyl-glutamate,day 60,1,0.3449,0.9216,False,,,,no_axenic_match
+benzoate,day 60,1,0.6807,0.9093,False,,,,no_axenic_match
+betaine/carnitine,day 60,1,0.4118,0.9216,False,,,,no_axenic_match
+branched-chain amino acid,day 60,1,0.1044,0.9861,False,,,,no_axenic_match
+carbohydrate,day 60,1,0.9828,0.1782,False,,,,no_axenic_match
+carboxylate,day 60,2,0.1708,0.9883,False,,,,no_axenic_match
+choline,day 60,1,0.6224,0.9093,False,,,,no_axenic_match
+choline/glycine/proline betaine,day 60,2,0.2174,0.9883,False,,,,no_axenic_match
+dipeptide,day 60,1,0.6219,0.9093,False,,,,no_axenic_match
+fucose,day 60,1,0.39,0.9216,False,,,,no_axenic_match
+fucose/galactose/glucose,day 60,3,0.9698,0.5887,False,,,,no_axenic_match
+gluconate,day 60,2,0.4387,0.9216,False,,,,no_axenic_match
+glycerol,day 60,1,0.4364,0.9216,False,,,,no_axenic_match
+glycine,day 60,2,0.72,0.9216,False,,,,no_axenic_match
+maltose/moltooligosaccharide,day 60,1,0.628,0.9093,False,,,,no_axenic_match
+nicotinamide mononucleotide,day 60,1,0.4777,0.9216,False,,,,no_axenic_match
+nucleoside,day 60,2,0.9691,0.5238,False,,,,no_axenic_match
+oligopeptide,day 60,1,0.7633,0.9093,False,,,,no_axenic_match
+peptide,day 60,2,0.4567,0.9216,False,,,,no_axenic_match
+peptide/nickel,day 60,1,0.9217,0.0643,True,,,,no_axenic_match
+phospholipid/cholesterol/gamma-HCH,day 60,1,0.1619,0.9883,False,,,,no_axenic_match
+polar amino acid,day 60,6,0.8051,0.9216,False,,,,no_axenic_match
+proline,day 60,2,0.6019,0.9216,False,,,,no_axenic_match
+putative spermidine/putrescine,day 60,1,0.2413,0.9216,False,,,,no_axenic_match
+putative tryptophan/tyrosine,day 60,1,0.3634,0.9216,False,,,,no_axenic_match
+serine/threonine,day 60,1,0.6462,0.9093,False,,,,no_axenic_match
+sugar,day 60,4,0.6835,0.9216,False,,,,no_axenic_match
+vitamin B12,day 60,1,0.6059,0.9093,False,,,,no_axenic_match
+xylose,day 60,1,0.7314,0.9093,False,,,,no_axenic_match
+3-phenylpropionic acid,day 89,2,0.8652,0.7153,False,,,,no_axenic_match
+L-lactate,day 89,1,0.9982,0.066,True,,,,no_axenic_match
+adenine/guanine/hypoxanthine,day 89,1,0.5393,0.9008,False,,,,no_axenic_match
+amino acid,day 89,3,0.8216,0.9008,False,,,,no_axenic_match
+aminobenzoyl-glutamate,day 89,1,0.5438,0.9008,False,,,,no_axenic_match
+benzoate,day 89,1,0.9088,0.6052,False,,,,no_axenic_match
+betaine/carnitine,day 89,1,0.2603,0.9316,False,,,,no_axenic_match
+branched-chain amino acid,day 89,1,0.0831,0.9453,False,,,,no_axenic_match
+carbohydrate,day 89,1,0.852,0.6905,False,,,,no_axenic_match
+carboxylate,day 89,2,0.3776,0.9453,False,,,,no_axenic_match
+choline,day 89,1,0.3637,0.9316,False,,,,no_axenic_match
+choline/glycine/proline betaine,day 89,2,0.3041,0.9453,False,,,,no_axenic_match
+dipeptide,day 89,1,0.7671,0.6052,False,,,,no_axenic_match
+fucose,day 89,1,0.3267,0.9316,False,,,,no_axenic_match
+fucose/galactose/glucose,day 89,3,0.9465,0.6905,False,,,,no_axenic_match
+gluconate,day 89,2,0.5304,0.9316,False,,,,no_axenic_match
+glycerol,day 89,1,0.2233,0.9316,False,,,,no_axenic_match
+glycine,day 89,2,0.6224,0.9316,False,,,,no_axenic_match
+maltose/moltooligosaccharide,day 89,1,0.7549,0.7153,False,,,,no_axenic_match
+nicotinamide mononucleotide,day 89,1,0.6569,0.8075,False,,,,no_axenic_match
+nucleoside,day 89,2,0.9595,0.6052,False,,,,no_axenic_match
+oligopeptide,day 89,1,0.7463,0.7153,False,,,,no_axenic_match
+peptide,day 89,2,0.5568,0.9316,False,,,,no_axenic_match
+peptide/nickel,day 89,1,0.8834,0.1996,False,,,,no_axenic_match
+phospholipid/cholesterol/gamma-HCH,day 89,1,0.17,0.9641,False,,,,no_axenic_match
+polar amino acid,day 89,6,0.7739,0.9316,False,,,,no_axenic_match
+proline,day 89,2,0.6308,0.9316,False,,,,no_axenic_match
+putative spermidine/putrescine,day 89,1,0.1546,0.9453,False,,,,no_axenic_match
+putative tryptophan/tyrosine,day 89,1,0.3773,0.9316,False,,,,no_axenic_match
+serine/threonine,day 89,1,0.7273,0.7153,False,,,,no_axenic_match
+sugar,day 89,4,0.7461,0.9316,False,,,,no_axenic_match
+vitamin B12,day 89,1,0.8317,0.6905,False,,,,no_axenic_match
+xylose,day 89,1,0.7359,0.7153,False,,,,no_axenic_match
+3-phenylpropionic acid,days 60+89,2,0.8882,0.8009,False,0.7712,0.7594,False,False
+L-lactate,days 60+89,1,0.9992,0.033,True,0.999,0.0462,True,False
+adenine/guanine/hypoxanthine,days 60+89,1,0.4607,0.923,False,0.5601,0.7594,False,False
+amino acid,days 60+89,3,0.7869,0.923,False,0.8386,0.7594,False,False
+aminobenzoyl-glutamate,days 60+89,1,0.4331,0.923,False,0.8971,0.4125,False,False
+benzoate,days 60+89,1,0.8376,0.7646,False,0.9932,0.1155,False,False
+betaine/carnitine,days 60+89,1,0.3147,0.923,False,0.3794,0.8903,False,False
+branched-chain amino acid,days 60+89,1,0.0839,0.9644,False,0.0938,0.9171,False,False
+carbohydrate,days 60+89,1,0.9762,0.2695,False,0.9894,0.121,False,False
+carboxylate,days 60+89,2,0.2392,0.9644,False,0.8419,0.5297,False,False
+choline,days 60+89,1,0.4815,0.923,False,0.2527,0.8903,False,False
+choline/glycine/proline betaine,days 60+89,2,0.2466,0.9644,False,0.4374,0.8903,False,False
+dipeptide,days 60+89,1,0.744,0.5868,False,0.8479,0.2033,False,False
+fucose,days 60+89,1,0.3431,0.923,False,0.815,0.3257,False,False
+fucose/galactose/glucose,days 60+89,3,0.9658,0.5868,False,0.9896,0.2033,False,False
+gluconate,days 60+89,2,0.4744,0.923,False,0.4524,0.8903,False,False
+glycerol,days 60+89,1,0.3066,0.923,False,0.22,0.8903,False,False
+glycine,days 60+89,2,0.6181,0.923,False,0.761,0.7594,False,False
+maltose/moltooligosaccharide,days 60+89,1,0.6908,0.8145,False,0.7511,0.5297,False,False
+nicotinamide mononucleotide,days 60+89,1,0.5573,0.923,False,0.444,0.8771,False,False
+nucleoside,days 60+89,2,0.9683,0.5271,False,0.9782,0.2403,False,False
+oligopeptide,days 60+89,1,0.7567,0.8009,False,0.8601,0.4702,False,False
+peptide,days 60+89,2,0.4981,0.923,False,0.628,0.8771,False,False
+peptide/nickel,days 60+89,1,0.9143,0.0808,True,0.6708,0.5194,False,True
+phospholipid/cholesterol/gamma-HCH,days 60+89,1,0.1799,0.9644,False,0.2826,0.916,False,False
+polar amino acid,days 60+89,6,0.7734,0.923,False,0.6668,0.9171,False,False
+proline,days 60+89,2,0.5986,0.923,False,0.6295,0.8903,False,False
+putative spermidine/putrescine,days 60+89,1,0.1883,0.923,False,0.1994,0.8903,False,False
+putative tryptophan/tyrosine,days 60+89,1,0.3545,0.923,False,0.3186,0.8903,False,False
+serine/threonine,days 60+89,1,0.6807,0.8145,False,0.8147,0.5194,False,False
+sugar,days 60+89,4,0.7108,0.923,False,0.744,0.8903,False,False
+vitamin B12,days 60+89,1,0.7372,0.8009,False,0.874,0.4528,False,False
+xylose,days 60+89,1,0.7326,0.8009,False,0.759,0.5297,False,False

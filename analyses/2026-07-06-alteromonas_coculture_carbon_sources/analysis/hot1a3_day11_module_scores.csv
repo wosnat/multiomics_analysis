@@ -1,0 +1,34 @@
+substrate_call,resolution_level,confidence_flag,n_systems,n_systems_detected,module_effect,p_perm,q_perm,called_up,p_vs_control,p_vs_control_100
+benzoate,specific_compound,confident,1,1,0.997212,0.0028,0.092391,True,0.025697,0.021198
+carboxylate,broad_class,inferred,2,2,0.994171,0.006199,0.10229,False,0.064394,0.061294
+fucose/galactose/glucose,multi_substrate,inferred,3,3,0.970096,0.087191,0.411045,False,0.136586,0.117288
+aminobenzoyl-glutamate,specific_compound,confident,1,1,0.965281,0.037296,0.294771,False,0.050395,0.040796
+carbohydrate,broad_class,inferred,1,1,0.947288,0.053595,0.294771,False,0.09549,0.082092
+3-phenylpropionic acid,specific_compound,inferred,2,2,0.926254,0.143486,0.519148,False,0.20098,0.173283
+fucose,specific_compound,inferred,1,1,0.920933,0.012299,0.135286,False,0.108289,0.087191
+proline,specific_compound,inferred,2,2,0.915104,0.168183,0.519148,False,0.229477,0.191081
+choline/glycine/proline betaine,multi_substrate,confident,2,2,0.887734,0.212279,0.519148,False,0.288471,0.249775
+amino acid,broad_class,inferred,3,3,0.877598,0.323368,0.555444,False,0.391661,0.340666
+vitamin B12,specific_compound,confident,1,1,0.838571,0.161584,0.519148,False,0.205879,0.171383
+nucleoside,narrow_class,inferred,2,2,0.806893,0.348765,0.555444,False,0.378762,0.329967
+dipeptide,narrow_class,confident,1,1,0.802331,0.053295,0.294771,False,0.218478,0.182482
+oligopeptide,narrow_class,confident,1,1,0.795489,0.19958,0.519148,False,0.213479,0.175682
+serine/threonine,multi_substrate,confident,1,1,0.793208,0.218778,0.519148,False,0.210179,0.172483
+glycine,specific_compound,inferred,2,2,0.787633,0.379562,0.569343,False,0.386561,0.328267
+L-lactate,specific_compound,confident,1,1,0.762038,0.235976,0.519148,False,0.237376,0.216978
+peptide,narrow_class,confident,2,2,0.746706,0.353465,0.555444,False,0.39546,0.378662
+gluconate,specific_compound,inferred,2,2,0.722504,0.471253,0.647973,False,0.445055,0.418358
+adenine/guanine/hypoxanthine,multi_substrate,confident,1,1,0.695641,0.306269,0.555444,False,0.289371,0.285071
+maltose/moltooligosaccharide,multi_substrate,confident,1,1,0.69336,0.30007,0.555444,False,0.284372,0.272873
+sugar,broad_class,confident,4,4,0.660669,0.808419,0.889261,False,0.822118,0.79622
+xylose,specific_compound,inferred,1,1,0.659149,0.346965,0.555444,False,0.344666,0.328267
+phospholipid/cholesterol/gamma-HCH,multi_substrate,confident,1,1,0.655854,0.227777,0.519148,False,0.340566,0.322268
+betaine/carnitine,multi_substrate,confident,1,1,0.591232,0.408959,0.586767,False,0.384562,0.356764
+polar amino acid,narrow_class,confident,6,6,0.496959,0.985901,0.985901,False,0.986801,0.978902
+putative spermidine/putrescine,multi_substrate,confident,1,1,0.380132,0.620838,0.798031,False,0.587841,0.592441
+putative tryptophan/tyrosine,multi_substrate,confident,1,1,0.360872,0.637636,0.798031,False,0.620138,0.609739
+nicotinamide mononucleotide,specific_compound,confident,1,1,0.339331,0.652935,0.798031,False,0.640236,0.632037
+branched-chain amino acid,narrow_class,confident,1,1,0.272935,0.729327,0.859564,False,0.70483,0.684732
+peptide/nickel,multi_substrate,confident,1,1,0.21262,0.936606,0.965875,False,0.768723,0.769323
+glycerol,specific_compound,inferred,1,1,0.198936,0.79832,0.889261,False,0.779122,0.786621
+choline,specific_compound,inferred,1,1,0.132032,0.866013,0.921885,False,0.858714,0.847215

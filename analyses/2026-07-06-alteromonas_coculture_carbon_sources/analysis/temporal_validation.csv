@@ -1,0 +1,33 @@
+arm,timepoint,set,n,median_up_pct,expected
+coculture,day 18,motility_Cell_motility,123,0.4888,down
+coculture,day 18,peptidase_protease,93,0.522,up as starvation proceeds
+coculture,day 18,ribosomal_Translation,198,0.7919,~neutral
+coculture,day 18,glcB_ACZ81_13685,1,0.778,up if glycolate (soft)
+coculture,day 31,motility_Cell_motility,123,0.2306,down
+coculture,day 31,peptidase_protease,93,0.5699,up as starvation proceeds
+coculture,day 31,ribosomal_Translation,198,0.7667,~neutral
+coculture,day 31,glcB_ACZ81_13685,1,0.1219,up if glycolate (soft)
+coculture,day 60,motility_Cell_motility,123,0.1858,down
+coculture,day 60,peptidase_protease,93,0.4939,up as starvation proceeds
+coculture,day 60,ribosomal_Translation,198,0.6583,~neutral
+coculture,day 60,glcB_ACZ81_13685,1,0.8601,up if glycolate (soft)
+coculture,day 89,motility_Cell_motility,123,0.1891,down
+coculture,day 89,peptidase_protease,93,0.5332,up as starvation proceeds
+coculture,day 89,ribosomal_Translation,198,0.7812,~neutral
+coculture,day 89,glcB_ACZ81_13685,1,0.6987,up if glycolate (soft)
+coculture,days 60+89,motility_Cell_motility,123,0.1782,down
+coculture,days 60+89,peptidase_protease,93,0.4954,up as starvation proceeds
+coculture,days 60+89,ribosomal_Translation,198,0.733,~neutral
+coculture,days 60+89,glcB_ACZ81_13685,1,0.8059,up if glycolate (soft)
+axenic,day 18,motility_Cell_motility,123,0.1728,down
+axenic,day 18,peptidase_protease,93,0.4311,up as starvation proceeds
+axenic,day 18,ribosomal_Translation,198,0.7463,~neutral
+axenic,day 18,glcB_ACZ81_13685,1,0.2704,up if glycolate (soft)
+axenic,day 31,motility_Cell_motility,123,0.182,down
+axenic,day 31,peptidase_protease,93,0.4957,up as starvation proceeds
+axenic,day 31,ribosomal_Translation,198,0.7809,~neutral
+axenic,day 31,glcB_ACZ81_13685,1,0.0819,up if glycolate (soft)
+axenic,days 60+89,motility_Cell_motility,123,0.111,down
+axenic,days 60+89,peptidase_protease,93,0.4625,up as starvation proceeds
+axenic,days 60+89,ribosomal_Translation,198,0.731,~neutral
+axenic,days 60+89,glcB_ACZ81_13685,1,0.202,up if glycolate (soft)

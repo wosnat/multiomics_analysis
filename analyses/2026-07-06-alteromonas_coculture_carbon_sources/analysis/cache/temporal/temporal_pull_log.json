@@ -1,0 +1,78 @@
+{
+ "arms": {
+  "coculture": {
+   "experiment_id": "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_hot1a3_rnaseq_coculture",
+   "table_scope": [
+    "all_detected_genes"
+   ],
+   "total_rows": 19735,
+   "timepoints": {
+    "day 18": {
+     "n_genes": 3947,
+     "negative": 1921,
+     "positive": 2026,
+     "zero": 0,
+     "pct_negative": 48.67
+    },
+    "day 31": {
+     "n_genes": 3947,
+     "negative": 2015,
+     "positive": 1932,
+     "zero": 0,
+     "pct_negative": 51.05
+    },
+    "day 60": {
+     "n_genes": 3947,
+     "negative": 1908,
+     "positive": 2039,
+     "zero": 0,
+     "pct_negative": 48.34
+    },
+    "day 89": {
+     "n_genes": 3947,
+     "negative": 1977,
+     "positive": 1967,
+     "zero": 3,
+     "pct_negative": 50.09
+    },
+    "days 60+89": {
+     "n_genes": 3947,
+     "negative": 1900,
+     "positive": 2047,
+     "zero": 0,
+     "pct_negative": 48.14
+    }
+   }
+  },
+  "axenic": {
+   "experiment_id": "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_hot1a3_rnaseq_axenic",
+   "table_scope": [
+    "all_detected_genes"
+   ],
+   "total_rows": 11841,
+   "timepoints": {
+    "day 18": {
+     "n_genes": 3947,
+     "negative": 2062,
+     "positive": 1884,
+     "zero": 1,
+     "pct_negative": 52.24
+    },
+    "day 31": {
+     "n_genes": 3947,
+     "negative": 2098,
+     "positive": 1849,
+     "zero": 0,
+     "pct_negative": 53.15
+    },
+    "days 60+89": {
+     "n_genes": 3947,
+     "negative": 1919,
+     "positive": 2027,
+     "zero": 1,
+     "pct_negative": 48.62
+    }
+   }
+  }
+ }
+}

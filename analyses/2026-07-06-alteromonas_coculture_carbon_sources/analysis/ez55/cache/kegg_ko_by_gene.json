@@ -1,0 +1,3058 @@
+{
+ "EZ55_00037": [
+  {
+   "term_id": "kegg.orthology:K03498",
+   "term_name": "trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein"
+  }
+ ],
+ "EZ55_00038": [
+  {
+   "term_id": "kegg.orthology:K03499",
+   "term_name": "trkA, ktrA, ktrC; trk/ktr system potassium uptake protein"
+  }
+ ],
+ "EZ55_00043": [
+  {
+   "term_id": "kegg.orthology:K04096",
+   "term_name": "smf; DNA processing protein"
+  }
+ ],
+ "EZ55_00098": [
+  {
+   "term_id": "kegg.orthology:K02277",
+   "term_name": "coxD, ctaF; cytochrome c oxidase subunit IV [EC:7.1.1.9]"
+  }
+ ],
+ "EZ55_00100": [
+  {
+   "term_id": "kegg.orthology:K03315",
+   "term_name": "nhaC; Na+:H+ antiporter, NhaC family"
+  }
+ ],
+ "EZ55_00101": [
+  {
+   "term_id": "kegg.orthology:K03451",
+   "term_name": "TC.BCT; betaine/carnitine transporter, BCCT family"
+  }
+ ],
+ "EZ55_00107": [
+  {
+   "term_id": "kegg.orthology:K16088",
+   "term_name": "TC.FEV.OM1, fhuE, fpvA, fptA; outer-membrane receptor for ferric coprogen and ferric-rhodotorulic acid"
+  }
+ ],
+ "EZ55_00138": [
+  {
+   "term_id": "kegg.orthology:K02012",
+   "term_name": "afuA, fbpA; iron(III) transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00139": [
+  {
+   "term_id": "kegg.orthology:K02011",
+   "term_name": "afuB, fbpB; iron(III) transport system permease protein"
+  }
+ ],
+ "EZ55_00140": [
+  {
+   "term_id": "kegg.orthology:K02010",
+   "term_name": "afuC, fbpC; iron(III) transport system ATP-binding protein [EC:7.2.2.7]"
+  }
+ ],
+ "EZ55_00147": [
+  {
+   "term_id": "kegg.orthology:K05596",
+   "term_name": "argP, iciA; LysR family transcriptional regulator, arginine and lysine transport system/DNA replication regulator"
+  }
+ ],
+ "EZ55_00148": [
+  {
+   "term_id": "kegg.orthology:K06895",
+   "term_name": "lysE, argO; L-lysine exporter family protein LysE/ArgO"
+  }
+ ],
+ "EZ55_00149": [
+  {
+   "term_id": "kegg.orthology:K11741",
+   "term_name": "sugE; quaternary ammonium compound-resistance protein SugE"
+  }
+ ],
+ "EZ55_00152": [
+  {
+   "term_id": "kegg.orthology:K03585",
+   "term_name": "acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_00153": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  },
+  {
+   "term_id": "kegg.orthology:K18299",
+   "term_name": "mexF; multidrug efflux pump"
+  }
+ ],
+ "EZ55_00165": [
+  {
+   "term_id": "kegg.orthology:K00799",
+   "term_name": "GST, gst; glutathione S-transferase [EC:2.5.1.18]"
+  }
+ ],
+ "EZ55_00168": [
+  {
+   "term_id": "kegg.orthology:K06213",
+   "term_name": "mgtE; magnesium transporter"
+  }
+ ],
+ "EZ55_00169": [
+  {
+   "term_id": "kegg.orthology:K05786",
+   "term_name": "rarD; chloramphenicol-sensitive protein RarD"
+  }
+ ],
+ "EZ55_00183": [
+  {
+   "term_id": "kegg.orthology:K02027",
+   "term_name": "ABC.MS.S; multiple sugar transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00195": [
+  {
+   "term_id": "kegg.orthology:K04046",
+   "term_name": "yegD; hypothetical chaperone protein"
+  }
+ ],
+ "EZ55_00206": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  }
+ ],
+ "EZ55_00211": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  }
+ ],
+ "EZ55_00213": [
+  {
+   "term_id": "kegg.orthology:K00864",
+   "term_name": "glpK, GK; glycerol kinase [EC:2.7.1.30]"
+  }
+ ],
+ "EZ55_00236": [
+  {
+   "term_id": "kegg.orthology:K03569",
+   "term_name": "mreB; rod shape-determining protein MreB and related proteins"
+  }
+ ],
+ "EZ55_00237": [
+  {
+   "term_id": "kegg.orthology:K03570",
+   "term_name": "mreC; rod shape-determining protein MreC"
+  }
+ ],
+ "EZ55_00238": [
+  {
+   "term_id": "kegg.orthology:K03571",
+   "term_name": "mreD; rod shape-determining protein MreD"
+  }
+ ],
+ "EZ55_00283": [
+  {
+   "term_id": "kegg.orthology:K15725",
+   "term_name": "czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_00284": [
+  {
+   "term_id": "kegg.orthology:K15727",
+   "term_name": "czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_00285": [
+  {
+   "term_id": "kegg.orthology:K15726",
+   "term_name": "czcA, cusA, cnrA; heavy metal efflux system protein"
+  }
+ ],
+ "EZ55_00286": [
+  {
+   "term_id": "kegg.orthology:K16264",
+   "term_name": "czcD, zitB; cobalt-zinc-cadmium efflux system protein"
+  }
+ ],
+ "EZ55_00299": [
+  {
+   "term_id": "kegg.orthology:K15726",
+   "term_name": "czcA, cusA, cnrA; heavy metal efflux system protein"
+  }
+ ],
+ "EZ55_00300": [
+  {
+   "term_id": "kegg.orthology:K15727",
+   "term_name": "czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_00301": [
+  {
+   "term_id": "kegg.orthology:K15725",
+   "term_name": "czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_00340": [
+  {
+   "term_id": "kegg.orthology:K05820",
+   "term_name": "hcaT; MFS transporter, PPP family, 3-phenylpropionic acid transporter"
+  }
+ ],
+ "EZ55_00371": [
+  {
+   "term_id": "kegg.orthology:K03316",
+   "term_name": "nhaP, nhaS1, nhaS2; Na+:H+ antiporter"
+  }
+ ],
+ "EZ55_00391": [
+  {
+   "term_id": "kegg.orthology:K03320",
+   "term_name": "amt, AMT, MEP; ammonium transporter, Amt family"
+  }
+ ],
+ "EZ55_00401": [
+  {
+   "term_id": "kegg.orthology:K21136",
+   "term_name": "triA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_00423": [
+  {
+   "term_id": "kegg.orthology:K02507",
+   "term_name": "hofQ; protein transport protein HofQ"
+  },
+  {
+   "term_id": "kegg.orthology:K02666",
+   "term_name": "pilQ; type IV pilus assembly protein PilQ"
+  }
+ ],
+ "EZ55_00456": [
+  {
+   "term_id": "kegg.orthology:K16087",
+   "term_name": "TC.FEV.OM3, tbpA, hemR, lbpA, hpuB, bhuR, hugA, hmbR; hemoglobin/transferrin/lactoferrin receptor protein"
+  }
+ ],
+ "EZ55_00459": [
+  {
+   "term_id": "kegg.orthology:K02005",
+   "term_name": "ABC.CD.TX; HlyD family secretion protein"
+  },
+  {
+   "term_id": "kegg.orthology:K13888",
+   "term_name": "macA; membrane fusion protein, macrolide-specific efflux system"
+  }
+ ],
+ "EZ55_00460": [
+  {
+   "term_id": "kegg.orthology:K02003",
+   "term_name": "ABC.CD.A; putative ABC transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K05685",
+   "term_name": "macB; macrolide transport system ATP-binding/permease protein [EC:7.6.2.-]"
+  }
+ ],
+ "EZ55_00464": [
+  {
+   "term_id": "kegg.orthology:K03071",
+   "term_name": "secB; preprotein translocase subunit SecB"
+  }
+ ],
+ "EZ55_00488": [
+  {
+   "term_id": "kegg.orthology:K03116",
+   "term_name": "tatA; sec-independent protein translocase protein TatA"
+  },
+  {
+   "term_id": "kegg.orthology:K03425",
+   "term_name": "tatE; sec-independent protein translocase protein TatE"
+  }
+ ],
+ "EZ55_00489": [
+  {
+   "term_id": "kegg.orthology:K03117",
+   "term_name": "tatB; sec-independent protein translocase protein TatB"
+  }
+ ],
+ "EZ55_00490": [
+  {
+   "term_id": "kegg.orthology:K03118",
+   "term_name": "tatC; sec-independent protein translocase protein TatC"
+  }
+ ],
+ "EZ55_00501": [
+  {
+   "term_id": "kegg.orthology:K03313",
+   "term_name": "nhaA; Na+:H+ antiporter, NhaA family"
+  }
+ ],
+ "EZ55_00530": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00538": [
+  {
+   "term_id": "kegg.orthology:K09771",
+   "term_name": "TC.SMR3; small multidrug resistance family-3 protein"
+  }
+ ],
+ "EZ55_00589": [
+  {
+   "term_id": "kegg.orthology:K07238",
+   "term_name": "TC.ZIP, zupT, ZRT3, ZIP2; zinc transporter, ZIP family"
+  }
+ ],
+ "EZ55_00600": [
+  {
+   "term_id": "kegg.orthology:K06194",
+   "term_name": "nlpD; lipoprotein NlpD"
+  }
+ ],
+ "EZ55_00620": [
+  {
+   "term_id": "kegg.orthology:K08483",
+   "term_name": "ptsI; phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9]"
+  },
+  {
+   "term_id": "kegg.orthology:K08484",
+   "term_name": "ptsP; phosphotransferase system, enzyme I, PtsP [EC:2.7.3.9]"
+  }
+ ],
+ "EZ55_00621": [
+  {
+   "term_id": "kegg.orthology:K07090",
+   "term_name": "K07090; uncharacterized protein"
+  }
+ ],
+ "EZ55_00627": [
+  {
+   "term_id": "kegg.orthology:K08218",
+   "term_name": "ampG; MFS transporter, PAT family, beta-lactamase induction signal transducer AmpG"
+  }
+ ],
+ "EZ55_00642": [
+  {
+   "term_id": "kegg.orthology:K08714",
+   "term_name": "VGSC; voltage-gated sodium channel"
+  }
+ ],
+ "EZ55_00644": [
+  {
+   "term_id": "kegg.orthology:K12340",
+   "term_name": "tolC, bepC, cyaE, raxC, sapF, rsaF, hasF; outer membrane protein"
+  }
+ ],
+ "EZ55_00653": [
+  {
+   "term_id": "kegg.orthology:K04043",
+   "term_name": "dnaK, HSPA9; molecular chaperone DnaK"
+  }
+ ],
+ "EZ55_00666": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_00678": [
+  {
+   "term_id": "kegg.orthology:K03321",
+   "term_name": "TC.SULP; sulfate permease, SulP family"
+  }
+ ],
+ "EZ55_00688": [
+  {
+   "term_id": "kegg.orthology:K15576",
+   "term_name": "nrtA, nasF, cynA; nitrate/nitrite transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00689": [
+  {
+   "term_id": "kegg.orthology:K15577",
+   "term_name": "nrtB, nasE, cynB; nitrate/nitrite transport system permease protein"
+  }
+ ],
+ "EZ55_00690": [
+  {
+   "term_id": "kegg.orthology:K15578",
+   "term_name": "nrtC, nasD; nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4]"
+  }
+ ],
+ "EZ55_00694": [
+  {
+   "term_id": "kegg.orthology:K16092",
+   "term_name": "btuB; vitamin B12 transporter"
+  }
+ ],
+ "EZ55_00707": [
+  {
+   "term_id": "kegg.orthology:K03585",
+   "term_name": "acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_00708": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  }
+ ],
+ "EZ55_00725": [
+  {
+   "term_id": "kegg.orthology:K05782",
+   "term_name": "benE; benzoate membrane transport protein"
+  }
+ ],
+ "EZ55_00731": [
+  {
+   "term_id": "kegg.orthology:K02040",
+   "term_name": "pstS; phosphate transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00736": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_00737": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_00738": [
+  {
+   "term_id": "kegg.orthology:K03559",
+   "term_name": "exbD; biopolymer transport protein ExbD"
+  }
+ ],
+ "EZ55_00739": [
+  {
+   "term_id": "kegg.orthology:K03832",
+   "term_name": "tonB; periplasmic protein TonB"
+  }
+ ],
+ "EZ55_00743": [
+  {
+   "term_id": "kegg.orthology:K01897",
+   "term_name": "ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]"
+  }
+ ],
+ "EZ55_00762": [
+  {
+   "term_id": "kegg.orthology:K04744",
+   "term_name": "lptD, imp, ostA; LPS-assembly protein"
+  }
+ ],
+ "EZ55_00765": [
+  {
+   "term_id": "kegg.orthology:K03981",
+   "term_name": "dsbC; thiol:disulfide interchange protein DsbC [EC:5.3.4.1]"
+  }
+ ],
+ "EZ55_00785": [
+  {
+   "term_id": "kegg.orthology:K07243",
+   "term_name": "FTR, FTH1, efeU; high-affinity iron transporter"
+  }
+ ],
+ "EZ55_00795": [
+  {
+   "term_id": "kegg.orthology:K03599",
+   "term_name": "sspA, mglA; stringent starvation protein A"
+  }
+ ],
+ "EZ55_00800": [
+  {
+   "term_id": "kegg.orthology:K06213",
+   "term_name": "mgtE; magnesium transporter"
+  }
+ ],
+ "EZ55_00801": [
+  {
+   "term_id": "kegg.orthology:K08485",
+   "term_name": "ptsO, npr; phosphocarrier protein NPr"
+  },
+  {
+   "term_id": "kegg.orthology:K11189",
+   "term_name": "K11189"
+  }
+ ],
+ "EZ55_00803": [
+  {
+   "term_id": "kegg.orthology:K02806",
+   "term_name": "ptsN; nitrogen PTS system EIIA component [EC:2.7.1.-]"
+  }
+ ],
+ "EZ55_00806": [
+  {
+   "term_id": "kegg.orthology:K06861",
+   "term_name": "lptB; lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]"
+  }
+ ],
+ "EZ55_00807": [
+  {
+   "term_id": "kegg.orthology:K09774",
+   "term_name": "lptA; lipopolysaccharide export system protein LptA"
+  }
+ ],
+ "EZ55_00808": [
+  {
+   "term_id": "kegg.orthology:K11719",
+   "term_name": "lptC; lipopolysaccharide export system protein LptC"
+  }
+ ],
+ "EZ55_00811": [
+  {
+   "term_id": "kegg.orthology:K07301",
+   "term_name": "yrbG; cation:H+ antiporter"
+  }
+ ],
+ "EZ55_00812": [
+  {
+   "term_id": "kegg.orthology:K02065",
+   "term_name": "mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_00813": [
+  {
+   "term_id": "kegg.orthology:K02066",
+   "term_name": "mlaE, linK; phospholipid/cholesterol/gamma-HCH transport system permease protein"
+  }
+ ],
+ "EZ55_00814": [
+  {
+   "term_id": "kegg.orthology:K02067",
+   "term_name": "mlaD, linM; phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00815": [
+  {
+   "term_id": "kegg.orthology:K07323",
+   "term_name": "mlaC; phospholipid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00816": [
+  {
+   "term_id": "kegg.orthology:K07122",
+   "term_name": "mlaB; phospholipid transport system transporter-binding protein"
+  }
+ ],
+ "EZ55_00833": [
+  {
+   "term_id": "kegg.orthology:K12257",
+   "term_name": "secDF; SecD/SecF fusion protein"
+  }
+ ],
+ "EZ55_00834": [
+  {
+   "term_id": "kegg.orthology:K11105",
+   "term_name": "cvrA, nhaP2; potassium/hydrogen antiporter"
+  }
+ ],
+ "EZ55_00838": [
+  {
+   "term_id": "kegg.orthology:K03298",
+   "term_name": "TC.DME; drug/metabolite transporter, DME family"
+  }
+ ],
+ "EZ55_00841": [
+  {
+   "term_id": "kegg.orthology:K01999",
+   "term_name": "livK; branched-chain amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_00850": [
+  {
+   "term_id": "kegg.orthology:K03585",
+   "term_name": "acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_00851": [
+  {
+   "term_id": "kegg.orthology:K03296",
+   "term_name": "TC.HAE1; hydrophobic/amphiphilic exporter-1 (mainly G- bacteria), HAE1 family"
+  }
+ ],
+ "EZ55_00852": [
+  {
+   "term_id": "kegg.orthology:K18139",
+   "term_name": "oprM, emhC, ttgC, cusC, adeK, smeF, mtrE, cmeC, gesC; outer membrane protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_00858": [
+  {
+   "term_id": "kegg.orthology:K02037",
+   "term_name": "pstC; phosphate transport system permease protein"
+  }
+ ],
+ "EZ55_00859": [
+  {
+   "term_id": "kegg.orthology:K02038",
+   "term_name": "pstA; phosphate transport system permease protein"
+  }
+ ],
+ "EZ55_00860": [
+  {
+   "term_id": "kegg.orthology:K02036",
+   "term_name": "pstB; phosphate transport system ATP-binding protein [EC:7.3.2.1]"
+  }
+ ],
+ "EZ55_00861": [
+  {
+   "term_id": "kegg.orthology:K02039",
+   "term_name": "phoU; phosphate transport system protein"
+  }
+ ],
+ "EZ55_00862": [
+  {
+   "term_id": "kegg.orthology:K03306",
+   "term_name": "TC.PIT; inorganic phosphate transporter, PiT family"
+  }
+ ],
+ "EZ55_00892": [
+  {
+   "term_id": "kegg.orthology:K07862",
+   "term_name": "sstT; serine/threonine transporter"
+  }
+ ],
+ "EZ55_00899": [
+  {
+   "term_id": "kegg.orthology:K07274",
+   "term_name": "mipA, ompV; MipA family protein"
+  }
+ ],
+ "EZ55_00910": [
+  {
+   "term_id": "kegg.orthology:K16052",
+   "term_name": "ynaI, mscMJ; MscS family membrane protein"
+  }
+ ],
+ "EZ55_00915": [
+  {
+   "term_id": "kegg.orthology:K07552",
+   "term_name": "bcr, tcaB; MFS transporter, DHA1 family, multidrug resistance protein"
+  },
+  {
+   "term_id": "kegg.orthology:K08154",
+   "term_name": "emrD; MFS transporter, DHA1 family, 2-module integral membrane pump EmrD"
+  }
+ ],
+ "EZ55_00937": [
+  {
+   "term_id": "kegg.orthology:K06518",
+   "term_name": "cidA; holin-like protein"
+  }
+ ],
+ "EZ55_00950": [
+  {
+   "term_id": "kegg.orthology:K02450",
+   "term_name": "gspA; general secretion pathway protein A"
+  }
+ ],
+ "EZ55_00951": [
+  {
+   "term_id": "kegg.orthology:K02451",
+   "term_name": "gspB; general secretion pathway protein B"
+  }
+ ],
+ "EZ55_00962": [
+  {
+   "term_id": "kegg.orthology:K03553",
+   "term_name": "recA; recombination protein RecA"
+  }
+ ],
+ "EZ55_00963": [
+  {
+   "term_id": "kegg.orthology:K09697",
+   "term_name": "natA; sodium transport system ATP-binding protein [EC:7.2.2.4]"
+  }
+ ],
+ "EZ55_00964": [
+  {
+   "term_id": "kegg.orthology:K09696",
+   "term_name": "natB; sodium transport system permease protein"
+  }
+ ],
+ "EZ55_00967": [
+  {
+   "term_id": "kegg.orthology:K02193",
+   "term_name": "ccmA; heme exporter protein A [EC:7.6.2.5]"
+  }
+ ],
+ "EZ55_00968": [
+  {
+   "term_id": "kegg.orthology:K02194",
+   "term_name": "ccmB; heme exporter protein B"
+  }
+ ],
+ "EZ55_00969": [
+  {
+   "term_id": "kegg.orthology:K02195",
+   "term_name": "ccmC; heme exporter protein C"
+  }
+ ],
+ "EZ55_00970": [
+  {
+   "term_id": "kegg.orthology:K02196",
+   "term_name": "ccmD; heme exporter protein D"
+  }
+ ],
+ "EZ55_00972": [
+  {
+   "term_id": "kegg.orthology:K02198",
+   "term_name": "ccmF; cytochrome c-type biogenesis protein CcmF"
+  }
+ ],
+ "EZ55_00979": [
+  {
+   "term_id": "kegg.orthology:K03305",
+   "term_name": "TC.POT; proton-dependent oligopeptide transporter, POT family"
+  }
+ ],
+ "EZ55_00980": [
+  {
+   "term_id": "kegg.orthology:K10107",
+   "term_name": "kpsE; capsular polysaccharide transport system permease protein"
+  }
+ ],
+ "EZ55_00981": [
+  {
+   "term_id": "kegg.orthology:K09689",
+   "term_name": "kpsT; capsular polysaccharide transport system ATP-binding protein [EC:7.6.2.12]"
+  }
+ ],
+ "EZ55_00982": [
+  {
+   "term_id": "kegg.orthology:K09688",
+   "term_name": "kpsM; capsular polysaccharide transport system permease protein"
+  }
+ ],
+ "EZ55_00989": [
+  {
+   "term_id": "kegg.orthology:K02237",
+   "term_name": "comEA; competence protein ComEA"
+  }
+ ],
+ "EZ55_01020": [
+  {
+   "term_id": "kegg.orthology:K07277",
+   "term_name": "SAM50, TOB55, bamA; outer membrane protein insertion porin family"
+  }
+ ],
+ "EZ55_01030": [
+  {
+   "term_id": "kegg.orthology:K03455",
+   "term_name": "KEA1_2_3, kefB, kefC; K+:H+ antiporter"
+  }
+ ],
+ "EZ55_01063": [
+  {
+   "term_id": "kegg.orthology:K02407",
+   "term_name": "fliD; flagellar hook-associated protein 2"
+  }
+ ],
+ "EZ55_01074": [
+  {
+   "term_id": "kegg.orthology:K02409",
+   "term_name": "fliF; flagellar M-ring protein FliF"
+  }
+ ],
+ "EZ55_01076": [
+  {
+   "term_id": "kegg.orthology:K02411",
+   "term_name": "fliH; flagellar assembly protein FliH"
+  }
+ ],
+ "EZ55_01077": [
+  {
+   "term_id": "kegg.orthology:K02412",
+   "term_name": "fliI; flagellum-specific ATP synthase [EC:7.4.2.8]"
+  }
+ ],
+ "EZ55_01082": [
+  {
+   "term_id": "kegg.orthology:K02417",
+   "term_name": "fliN; flagellar motor switch protein FliN"
+  }
+ ],
+ "EZ55_01083": [
+  {
+   "term_id": "kegg.orthology:K02418",
+   "term_name": "fliO, fliZ; flagellar protein FliO/FliZ"
+  }
+ ],
+ "EZ55_01084": [
+  {
+   "term_id": "kegg.orthology:K02419",
+   "term_name": "fliP; flagellar biosynthesis protein FliP"
+  }
+ ],
+ "EZ55_01085": [
+  {
+   "term_id": "kegg.orthology:K02420",
+   "term_name": "fliQ; flagellar biosynthesis protein FliQ"
+  }
+ ],
+ "EZ55_01086": [
+  {
+   "term_id": "kegg.orthology:K02421",
+   "term_name": "fliR; flagellar biosynthesis protein FliR"
+  }
+ ],
+ "EZ55_01087": [
+  {
+   "term_id": "kegg.orthology:K02401",
+   "term_name": "flhB; flagellar biosynthesis protein FlhB"
+  }
+ ],
+ "EZ55_01090": [
+  {
+   "term_id": "kegg.orthology:K02400",
+   "term_name": "flhA; flagellar biosynthesis protein FlhA"
+  }
+ ],
+ "EZ55_01111": [
+  {
+   "term_id": "kegg.orthology:K03321",
+   "term_name": "TC.SULP; sulfate permease, SulP family"
+  }
+ ],
+ "EZ55_01124": [
+  {
+   "term_id": "kegg.orthology:K01573",
+   "term_name": "oadG; oxaloacetate decarboxylase (Na+ extruding) subunit gamma"
+  }
+ ],
+ "EZ55_01125": [
+  {
+   "term_id": "kegg.orthology:K01571",
+   "term_name": "oadA; oxaloacetate decarboxylase (Na+ extruding) subunit alpha [EC:7.2.4.2]"
+  }
+ ],
+ "EZ55_01126": [
+  {
+   "term_id": "kegg.orthology:K01572",
+   "term_name": "K01572"
+  }
+ ],
+ "EZ55_01127": [
+  {
+   "term_id": "kegg.orthology:K12372",
+   "term_name": "dppF; dipeptide transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K19230",
+   "term_name": "sapF; cationic peptide transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_01128": [
+  {
+   "term_id": "kegg.orthology:K02031",
+   "term_name": "ddpD; peptide/nickel transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K02032",
+   "term_name": "ddpF; peptide/nickel transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K13896",
+   "term_name": "yejF; microcin C transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K19229",
+   "term_name": "sapD; cationic peptide transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_01129": [
+  {
+   "term_id": "kegg.orthology:K12370",
+   "term_name": "dppC; dipeptide transport system permease protein"
+  },
+  {
+   "term_id": "kegg.orthology:K19228",
+   "term_name": "sapC; cationic peptide transport system permease protein"
+  }
+ ],
+ "EZ55_01130": [
+  {
+   "term_id": "kegg.orthology:K12369",
+   "term_name": "dppB; dipeptide transport system permease protein"
+  },
+  {
+   "term_id": "kegg.orthology:K15581",
+   "term_name": "oppB; oligopeptide transport system permease protein"
+  },
+  {
+   "term_id": "kegg.orthology:K19227",
+   "term_name": "sapB; cationic peptide transport system permease protein"
+  }
+ ],
+ "EZ55_01131": [
+  {
+   "term_id": "kegg.orthology:K12368",
+   "term_name": "dppA; dipeptide transport system substrate-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K19226",
+   "term_name": "sapA; cationic peptide transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_01146": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01153": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_01154": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_01155": [
+  {
+   "term_id": "kegg.orthology:K03559",
+   "term_name": "exbD; biopolymer transport protein ExbD"
+  }
+ ],
+ "EZ55_01156": [
+  {
+   "term_id": "kegg.orthology:K03832",
+   "term_name": "tonB; periplasmic protein TonB"
+  }
+ ],
+ "EZ55_01163": [
+  {
+   "term_id": "kegg.orthology:K03811",
+   "term_name": "pnuC; nicotinamide mononucleotide transporter"
+  }
+ ],
+ "EZ55_01171": [
+  {
+   "term_id": "kegg.orthology:K18567",
+   "term_name": "pbuE; MFS transporter, DHA1 family, purine base/nucleoside efflux pump"
+  },
+  {
+   "term_id": "kegg.orthology:K19577",
+   "term_name": "ydhP; MFS transporter, DHA1 family, inner membrane transport protein"
+  }
+ ],
+ "EZ55_01176": [
+  {
+   "term_id": "kegg.orthology:K03543",
+   "term_name": "emrA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_01180": [
+  {
+   "term_id": "kegg.orthology:K06200",
+   "term_name": "cstA; carbon starvation protein"
+  }
+ ],
+ "EZ55_01217": [
+  {
+   "term_id": "kegg.orthology:K05820",
+   "term_name": "hcaT; MFS transporter, PPP family, 3-phenylpropionic acid transporter"
+  }
+ ],
+ "EZ55_01225": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01228": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01232": [
+  {
+   "term_id": "kegg.orthology:K21218",
+   "term_name": "motY; sodium-type flagellar protein MotY"
+  }
+ ],
+ "EZ55_01266": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  },
+  {
+   "term_id": "kegg.orthology:K11928",
+   "term_name": "putP; sodium/proline symporter"
+  }
+ ],
+ "EZ55_01272": [
+  {
+   "term_id": "kegg.orthology:K07114",
+   "term_name": "yfbK; Ca-activated chloride channel homolog"
+  }
+ ],
+ "EZ55_01273": [
+  {
+   "term_id": "kegg.orthology:K07114",
+   "term_name": "yfbK; Ca-activated chloride channel homolog"
+  }
+ ],
+ "EZ55_01291": [
+  {
+   "term_id": "kegg.orthology:K03106",
+   "term_name": "SRP54, ffh; signal recognition particle subunit SRP54 [EC:3.6.5.4]"
+  }
+ ],
+ "EZ55_01298": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  }
+ ],
+ "EZ55_01300": [
+  {
+   "term_id": "kegg.orthology:K06147",
+   "term_name": "ABCB-BAC; ATP-binding cassette, subfamily B, bacterial"
+  },
+  {
+   "term_id": "kegg.orthology:K11085",
+   "term_name": "msbA; ATP-binding cassette, subfamily B, bacterial MsbA [EC:7.5.2.6]"
+  }
+ ],
+ "EZ55_01336": [
+  {
+   "term_id": "kegg.orthology:K03562",
+   "term_name": "tolQ; biopolymer transport protein TolQ"
+  }
+ ],
+ "EZ55_01337": [
+  {
+   "term_id": "kegg.orthology:K03560",
+   "term_name": "tolR; biopolymer transport protein TolR"
+  }
+ ],
+ "EZ55_01338": [
+  {
+   "term_id": "kegg.orthology:K03646",
+   "term_name": "tolA; colicin import membrane protein"
+  }
+ ],
+ "EZ55_01339": [
+  {
+   "term_id": "kegg.orthology:K03641",
+   "term_name": "tolB; TolB protein"
+  }
+ ],
+ "EZ55_01340": [
+  {
+   "term_id": "kegg.orthology:K03640",
+   "term_name": "pal; peptidoglycan-associated lipoprotein"
+  }
+ ],
+ "EZ55_01365": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  }
+ ],
+ "EZ55_01368": [
+  {
+   "term_id": "kegg.orthology:K16090",
+   "term_name": "fiu; catecholate siderophore receptor"
+  }
+ ],
+ "EZ55_01373": [
+  {
+   "term_id": "kegg.orthology:K09857",
+   "term_name": "pqiC; intermembrane transport lipoprotein PqiC"
+  }
+ ],
+ "EZ55_01374": [
+  {
+   "term_id": "kegg.orthology:K06192",
+   "term_name": "pqiB, letB; intermembrane transport protein PqiB/LetB"
+  }
+ ],
+ "EZ55_01375": [
+  {
+   "term_id": "kegg.orthology:K03808",
+   "term_name": "pqiA, letA; intermembrane transport protein PqiA/LetA"
+  }
+ ],
+ "EZ55_01383": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01384": [
+  {
+   "term_id": "kegg.orthology:K15276",
+   "term_name": "SLC35B2, PAPST1; solute carrier family 35 (adenosine 3^-phospho 5^-phosphosulfate transporter), member B2"
+  }
+ ],
+ "EZ55_01394": [
+  {
+   "term_id": "kegg.orthology:K07301",
+   "term_name": "yrbG; cation:H+ antiporter"
+  }
+ ],
+ "EZ55_01406": [
+  {
+   "term_id": "kegg.orthology:K02015",
+   "term_name": "ABC.FEV.P; iron complex transport system permease protein"
+  },
+  {
+   "term_id": "kegg.orthology:K06073",
+   "term_name": "btuC; vitamin B12 transport system permease protein"
+  }
+ ],
+ "EZ55_01407": [
+  {
+   "term_id": "kegg.orthology:K02013",
+   "term_name": "ABC.FEV.A; iron complex transport system ATP-binding protein [EC:7.2.2.-]"
+  },
+  {
+   "term_id": "kegg.orthology:K06074",
+   "term_name": "btuD; vitamin B12 transport system ATP-binding protein [EC:7.6.2.8]"
+  }
+ ],
+ "EZ55_01411": [
+  {
+   "term_id": "kegg.orthology:K03499",
+   "term_name": "trkA, ktrA, ktrC; trk/ktr system potassium uptake protein"
+  }
+ ],
+ "EZ55_01412": [
+  {
+   "term_id": "kegg.orthology:K03498",
+   "term_name": "trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein"
+  }
+ ],
+ "EZ55_01415": [
+  {
+   "term_id": "kegg.orthology:K06147",
+   "term_name": "ABCB-BAC; ATP-binding cassette, subfamily B, bacterial"
+  }
+ ],
+ "EZ55_01436": [
+  {
+   "term_id": "kegg.orthology:K02003",
+   "term_name": "ABC.CD.A; putative ABC transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_01437": [
+  {
+   "term_id": "kegg.orthology:K02004",
+   "term_name": "ABC.CD.P; putative ABC transport system permease protein"
+  }
+ ],
+ "EZ55_01440": [
+  {
+   "term_id": "kegg.orthology:K11744",
+   "term_name": "tqsA; AI-2 transport protein TqsA"
+  }
+ ],
+ "EZ55_01463": [
+  {
+   "term_id": "kegg.orthology:K06186",
+   "term_name": "bamE, smpA; outer membrane protein assembly factor BamE"
+  }
+ ],
+ "EZ55_01473": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01479": [
+  {
+   "term_id": "kegg.orthology:K04043",
+   "term_name": "dnaK, HSPA9; molecular chaperone DnaK"
+  }
+ ],
+ "EZ55_01500": [
+  {
+   "term_id": "kegg.orthology:K06189",
+   "term_name": "corC, tlyC; hemolysin (HlyC) family protein"
+  }
+ ],
+ "EZ55_01513": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01519": [
+  {
+   "term_id": "kegg.orthology:K03310",
+   "term_name": "TC.AGCS; alanine or glycine:cation symporter, AGCS family"
+  }
+ ],
+ "EZ55_01552": [
+  {
+   "term_id": "kegg.orthology:K06212",
+   "term_name": "focA; formate transporter"
+  },
+  {
+   "term_id": "kegg.orthology:K21993",
+   "term_name": "fdhC; formate transporter"
+  }
+ ],
+ "EZ55_01570": [
+  {
+   "term_id": "kegg.orthology:K02777",
+   "term_name": "crr; sugar PTS system EIIA component [EC:2.7.1.-]"
+  }
+ ],
+ "EZ55_01582": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  }
+ ],
+ "EZ55_01584": [
+  {
+   "term_id": "kegg.orthology:K03455",
+   "term_name": "KEA1_2_3, kefB, kefC; K+:H+ antiporter"
+  },
+  {
+   "term_id": "kegg.orthology:K11745",
+   "term_name": "kefC; glutathione-regulated potassium-efflux system protein KefC"
+  },
+  {
+   "term_id": "kegg.orthology:K11747",
+   "term_name": "kefB; glutathione-regulated potassium-efflux system protein KefB"
+  }
+ ],
+ "EZ55_01585": [
+  {
+   "term_id": "kegg.orthology:K11748",
+   "term_name": "kefG; glutathione-regulated potassium-efflux system ancillary protein KefG"
+  }
+ ],
+ "EZ55_01595": [
+  {
+   "term_id": "kegg.orthology:K07127",
+   "term_name": "uraH, pucM, hiuH; 5-hydroxyisourate hydrolase [EC:3.5.2.17]"
+  }
+ ],
+ "EZ55_01602": [
+  {
+   "term_id": "kegg.orthology:K06901",
+   "term_name": "pbuG, azgA, ghxP, ghxQ, adeQ; adenine/guanine/hypoxanthine permease"
+  }
+ ],
+ "EZ55_01609": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01610": [
+  {
+   "term_id": "kegg.orthology:K03458",
+   "term_name": "TC.NCS2; nucleobase:cation symporter-2, NCS2 family"
+  },
+  {
+   "term_id": "kegg.orthology:K16345",
+   "term_name": "xanP; xanthine permease XanP"
+  },
+  {
+   "term_id": "kegg.orthology:K16346",
+   "term_name": "xanQ; xanthine permease XanQ"
+  }
+ ],
+ "EZ55_01632": [
+  {
+   "term_id": "kegg.orthology:K20920",
+   "term_name": "vpsM; polysaccharide biosynthesis protein VpsM"
+  }
+ ],
+ "EZ55_01633": [
+  {
+   "term_id": "kegg.orthology:K20988",
+   "term_name": "vpsN; polysaccharide biosynthesis/export protein VpsN"
+  }
+ ],
+ "EZ55_01634": [
+  {
+   "term_id": "kegg.orthology:K16554",
+   "term_name": "exoP, vpsO; polysaccharide biosynthesis transport protein [EC:2.7.10.3]"
+  },
+  {
+   "term_id": "kegg.orthology:K16692",
+   "term_name": "etk-wzc; tyrosine-protein kinase Etk/Wzc [EC:2.7.10.3]"
+  }
+ ],
+ "EZ55_01673": [
+  {
+   "term_id": "kegg.orthology:K09808",
+   "term_name": "lolC_E_F; lipoprotein-releasing system permease protein"
+  }
+ ],
+ "EZ55_01723": [
+  {
+   "term_id": "kegg.orthology:K09810",
+   "term_name": "lolD; lipoprotein-releasing system ATP-binding protein [EC:7.6.2.-]"
+  }
+ ],
+ "EZ55_01724": [
+  {
+   "term_id": "kegg.orthology:K09808",
+   "term_name": "lolC_E_F; lipoprotein-releasing system permease protein"
+  }
+ ],
+ "EZ55_01726": [
+  {
+   "term_id": "kegg.orthology:K03309",
+   "term_name": "TC.DAACS; dicarboxylate/amino acid:cation (Na+ or H+) symporter, DAACS family"
+  }
+ ],
+ "EZ55_01737": [
+  {
+   "term_id": "kegg.orthology:K00799",
+   "term_name": "GST, gst; glutathione S-transferase [EC:2.5.1.18]"
+  }
+ ],
+ "EZ55_01780": [
+  {
+   "term_id": "kegg.orthology:K03457",
+   "term_name": "TC.NCS1; nucleobase:cation symporter-1, NCS1 family"
+  }
+ ],
+ "EZ55_01783": [
+  {
+   "term_id": "kegg.orthology:K09823",
+   "term_name": "zur; Fur family transcriptional regulator, zinc uptake regulator"
+  }
+ ],
+ "EZ55_01790": [
+  {
+   "term_id": "kegg.orthology:K16348",
+   "term_name": "ecnB; entericidin B"
+  }
+ ],
+ "EZ55_01816": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01829": [
+  {
+   "term_id": "kegg.orthology:K05777",
+   "term_name": "ynjB; putative thiamine transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_01830": [
+  {
+   "term_id": "kegg.orthology:K05778",
+   "term_name": "ynjC; putative thiamine transport system permease protein"
+  }
+ ],
+ "EZ55_01831": [
+  {
+   "term_id": "kegg.orthology:K05779",
+   "term_name": "ynjD; putative thiamine transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_01843": [
+  {
+   "term_id": "kegg.orthology:K11748",
+   "term_name": "kefG; glutathione-regulated potassium-efflux system ancillary protein KefG"
+  }
+ ],
+ "EZ55_01848": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_01849": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_01850": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_01851": [
+  {
+   "term_id": "kegg.orthology:K01990",
+   "term_name": "ABC-2.A; ABC-2 type transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_01858": [
+  {
+   "term_id": "kegg.orthology:K02168",
+   "term_name": "betT, betS; choline/glycine/proline betaine transport protein"
+  }
+ ],
+ "EZ55_01905": [
+  {
+   "term_id": "kegg.orthology:K03643",
+   "term_name": "lptE, rlpB; LPS-assembly lipoprotein"
+  }
+ ],
+ "EZ55_01918": [
+  {
+   "term_id": "kegg.orthology:K03075",
+   "term_name": "secG; preprotein translocase subunit SecG"
+  }
+ ],
+ "EZ55_01930": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  },
+  {
+   "term_id": "kegg.orthology:K11928",
+   "term_name": "putP; sodium/proline symporter"
+  }
+ ],
+ "EZ55_01969": [
+  {
+   "term_id": "kegg.orthology:K03832",
+   "term_name": "tonB; periplasmic protein TonB"
+  }
+ ],
+ "EZ55_01975": [
+  {
+   "term_id": "kegg.orthology:K06203",
+   "term_name": "cysZ; CysZ protein"
+  }
+ ],
+ "EZ55_01980": [
+  {
+   "term_id": "kegg.orthology:K02238",
+   "term_name": "comEC; competence protein ComEC"
+  }
+ ],
+ "EZ55_01981": [
+  {
+   "term_id": "kegg.orthology:K11085",
+   "term_name": "msbA; ATP-binding cassette, subfamily B, bacterial MsbA [EC:7.5.2.6]"
+  }
+ ],
+ "EZ55_01986": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_02006": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02015": [
+  {
+   "term_id": "kegg.orthology:K16211",
+   "term_name": "malY, malT; maltose/moltooligosaccharide transporter"
+  }
+ ],
+ "EZ55_02088": [
+  {
+   "term_id": "kegg.orthology:K03308",
+   "term_name": "TC.NSS; neurotransmitter:Na+ symporter, NSS family"
+  }
+ ],
+ "EZ55_02089": [
+  {
+   "term_id": "kegg.orthology:K03315",
+   "term_name": "nhaC; Na+:H+ antiporter, NhaC family"
+  }
+ ],
+ "EZ55_02095": [
+  {
+   "term_id": "kegg.orthology:K07003",
+   "term_name": "K07003; uncharacterized protein"
+  }
+ ],
+ "EZ55_02100": [
+  {
+   "term_id": "kegg.orthology:K15738",
+   "term_name": "uup; ABC transport system ATP-binding/permease protein"
+  }
+ ],
+ "EZ55_02114": [
+  {
+   "term_id": "kegg.orthology:K07240",
+   "term_name": "chrA; chromate transporter"
+  }
+ ],
+ "EZ55_02117": [
+  {
+   "term_id": "kegg.orthology:K16091",
+   "term_name": "fecA; Fe(3+) dicitrate transport protein"
+  }
+ ],
+ "EZ55_02127": [
+  {
+   "term_id": "kegg.orthology:K03455",
+   "term_name": "KEA1_2_3, kefB, kefC; K+:H+ antiporter"
+  }
+ ],
+ "EZ55_02131": [
+  {
+   "term_id": "kegg.orthology:K00404",
+   "term_name": "ccoN; cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9]"
+  }
+ ],
+ "EZ55_02132": [
+  {
+   "term_id": "kegg.orthology:K00405",
+   "term_name": "ccoO; cytochrome c oxidase cbb3-type subunit II"
+  }
+ ],
+ "EZ55_02133": [
+  {
+   "term_id": "kegg.orthology:K00407",
+   "term_name": "ccoQ; cytochrome c oxidase cbb3-type subunit IV"
+  }
+ ],
+ "EZ55_02134": [
+  {
+   "term_id": "kegg.orthology:K00406",
+   "term_name": "ccoP; cytochrome c oxidase cbb3-type subunit III"
+  }
+ ],
+ "EZ55_02136": [
+  {
+   "term_id": "kegg.orthology:K01533",
+   "term_name": "copB; P-type Cu2+ transporter [EC:7.2.2.9]"
+  }
+ ],
+ "EZ55_02138": [
+  {
+   "term_id": "kegg.orthology:K09792",
+   "term_name": "K09792; uncharacterized protein"
+  }
+ ],
+ "EZ55_02169": [
+  {
+   "term_id": "kegg.orthology:K19416",
+   "term_name": "yccA; modulator of FtsH protease"
+  }
+ ],
+ "EZ55_02178": [
+  {
+   "term_id": "kegg.orthology:K06199",
+   "term_name": "crcB, FEX; fluoride exporter"
+  }
+ ],
+ "EZ55_02181": [
+  {
+   "term_id": "kegg.orthology:K03466",
+   "term_name": "ftsK, spoIIIE; DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family"
+  }
+ ],
+ "EZ55_02208": [
+  {
+   "term_id": "kegg.orthology:K07287",
+   "term_name": "bamC; outer membrane protein assembly factor BamC"
+  }
+ ],
+ "EZ55_02212": [
+  {
+   "term_id": "kegg.orthology:K03548",
+   "term_name": "perM; putative permease"
+  }
+ ],
+ "EZ55_02235": [
+  {
+   "term_id": "kegg.orthology:K03327",
+   "term_name": "SLC47A, MATE, DTX; MATE family, multidrug and toxin extrusion protein"
+  }
+ ],
+ "EZ55_02282": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02296": [
+  {
+   "term_id": "kegg.orthology:K03711",
+   "term_name": "fur, zur, furB; Fur family transcriptional regulator, ferric uptake regulator"
+  }
+ ],
+ "EZ55_02304": [
+  {
+   "term_id": "kegg.orthology:K03585",
+   "term_name": "acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_02305": [
+  {
+   "term_id": "kegg.orthology:K03296",
+   "term_name": "TC.HAE1; hydrophobic/amphiphilic exporter-1 (mainly G- bacteria), HAE1 family"
+  }
+ ],
+ "EZ55_02306": [
+  {
+   "term_id": "kegg.orthology:K03296",
+   "term_name": "TC.HAE1; hydrophobic/amphiphilic exporter-1 (mainly G- bacteria), HAE1 family"
+  }
+ ],
+ "EZ55_02322": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02327": [
+  {
+   "term_id": "kegg.orthology:K02017",
+   "term_name": "modC; molybdate transport system ATP-binding protein [EC:7.3.2.5]"
+  }
+ ],
+ "EZ55_02328": [
+  {
+   "term_id": "kegg.orthology:K02018",
+   "term_name": "modB; molybdate transport system permease protein"
+  }
+ ],
+ "EZ55_02329": [
+  {
+   "term_id": "kegg.orthology:K02020",
+   "term_name": "modA; molybdate transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_02351": [
+  {
+   "term_id": "kegg.orthology:K11939",
+   "term_name": "rhtA; inner membrane transporter RhtA"
+  }
+ ],
+ "EZ55_02395": [
+  {
+   "term_id": "kegg.orthology:K03310",
+   "term_name": "TC.AGCS; alanine or glycine:cation symporter, AGCS family"
+  }
+ ],
+ "EZ55_02480": [
+  {
+   "term_id": "kegg.orthology:K14445",
+   "term_name": "SLC13A2_3_5; solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2/3/5"
+  }
+ ],
+ "EZ55_02484": [
+  {
+   "term_id": "kegg.orthology:K03442",
+   "term_name": "mscS; small conductance mechanosensitive channel"
+  }
+ ],
+ "EZ55_02529": [
+  {
+   "term_id": "kegg.orthology:K01897",
+   "term_name": "ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]"
+  }
+ ],
+ "EZ55_02542": [
+  {
+   "term_id": "kegg.orthology:K02013",
+   "term_name": "ABC.FEV.A; iron complex transport system ATP-binding protein [EC:7.2.2.-]"
+  },
+  {
+   "term_id": "kegg.orthology:K05776",
+   "term_name": "modF; molybdate transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_02546": [
+  {
+   "term_id": "kegg.orthology:K02106",
+   "term_name": "atoE; short-chain fatty acids transporter"
+  }
+ ],
+ "EZ55_02572": [
+  {
+   "term_id": "kegg.orthology:K03314",
+   "term_name": "nhaB; Na+:H+ antiporter, NhaB family"
+  }
+ ],
+ "EZ55_02573": [
+  {
+   "term_id": "kegg.orthology:K03611",
+   "term_name": "dsbB; protein dithiol:quinone oxidoreductase [EC:1.8.5.9]"
+  }
+ ],
+ "EZ55_02580": [
+  {
+   "term_id": "kegg.orthology:K01897",
+   "term_name": "ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]"
+  }
+ ],
+ "EZ55_02613": [
+  {
+   "term_id": "kegg.orthology:K21990",
+   "term_name": "yfdC; formate-nitrite transporter family protein"
+  }
+ ],
+ "EZ55_02616": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02617": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02635": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_02647": [
+  {
+   "term_id": "kegg.orthology:K00427",
+   "term_name": "lldP, lctP; L-lactate permease"
+  },
+  {
+   "term_id": "kegg.orthology:K03303",
+   "term_name": "lutP, lctP; lactate permease"
+  }
+ ],
+ "EZ55_02654": [
+  {
+   "term_id": "kegg.orthology:K05807",
+   "term_name": "bamD; outer membrane protein assembly factor BamD"
+  }
+ ],
+ "EZ55_02663": [
+  {
+   "term_id": "kegg.orthology:K02557",
+   "term_name": "motB; chemotaxis protein MotB"
+  }
+ ],
+ "EZ55_02664": [
+  {
+   "term_id": "kegg.orthology:K02556",
+   "term_name": "motA; chemotaxis protein MotA"
+  }
+ ],
+ "EZ55_02702": [
+  {
+   "term_id": "kegg.orthology:K08084",
+   "term_name": "fimT; type IV fimbrial biogenesis protein FimT"
+  }
+ ],
+ "EZ55_02703": [
+  {
+   "term_id": "kegg.orthology:K02456",
+   "term_name": "gspG; general secretion pathway protein G"
+  },
+  {
+   "term_id": "kegg.orthology:K02458",
+   "term_name": "gspI; general secretion pathway protein I"
+  },
+  {
+   "term_id": "kegg.orthology:K02459",
+   "term_name": "gspJ; general secretion pathway protein J"
+  },
+  {
+   "term_id": "kegg.orthology:K02655",
+   "term_name": "pilE; type IV pilus assembly protein PilE"
+  },
+  {
+   "term_id": "kegg.orthology:K12285",
+   "term_name": "mshO; MSHA biogenesis protein MshO"
+  }
+ ],
+ "EZ55_02704": [
+  {
+   "term_id": "kegg.orthology:K08084",
+   "term_name": "fimT; type IV fimbrial biogenesis protein FimT"
+  }
+ ],
+ "EZ55_02708": [
+  {
+   "term_id": "kegg.orthology:K02655",
+   "term_name": "pilE; type IV pilus assembly protein PilE"
+  }
+ ],
+ "EZ55_02718": [
+  {
+   "term_id": "kegg.orthology:K03980",
+   "term_name": "murJ, mviN; putative peptidoglycan lipid II flippase"
+  }
+ ],
+ "EZ55_02723": [
+  {
+   "term_id": "kegg.orthology:K03453",
+   "term_name": "TC.BASS; bile acid:Na+ symporter, BASS family"
+  }
+ ],
+ "EZ55_02757": [
+  {
+   "term_id": "kegg.orthology:K17713",
+   "term_name": "bamB; outer membrane protein assembly factor BamB"
+  }
+ ],
+ "EZ55_02769": [
+  {
+   "term_id": "kegg.orthology:K09015",
+   "term_name": "sufD; Fe-S cluster assembly protein SufD"
+  }
+ ],
+ "EZ55_02770": [
+  {
+   "term_id": "kegg.orthology:K09013",
+   "term_name": "sufC; Fe-S cluster assembly ATP-binding protein"
+  }
+ ],
+ "EZ55_02771": [
+  {
+   "term_id": "kegg.orthology:K09014",
+   "term_name": "sufB; Fe-S cluster assembly protein SufB"
+  }
+ ],
+ "EZ55_02781": [
+  {
+   "term_id": "kegg.orthology:K03074",
+   "term_name": "secF; preprotein translocase subunit SecF"
+  }
+ ],
+ "EZ55_02782": [
+  {
+   "term_id": "kegg.orthology:K03072",
+   "term_name": "secD; preprotein translocase subunit SecD"
+  }
+ ],
+ "EZ55_02783": [
+  {
+   "term_id": "kegg.orthology:K03210",
+   "term_name": "yajC; preprotein translocase subunit YajC"
+  }
+ ],
+ "EZ55_02789": [
+  {
+   "term_id": "kegg.orthology:K10716",
+   "term_name": "kch, trkA, mthK, pch; voltage-gated potassium channel"
+  }
+ ],
+ "EZ55_02796": [
+  {
+   "term_id": "kegg.orthology:K02003",
+   "term_name": "ABC.CD.A; putative ABC transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_02797": [
+  {
+   "term_id": "kegg.orthology:K02004",
+   "term_name": "ABC.CD.P; putative ABC transport system permease protein"
+  }
+ ],
+ "EZ55_02829": [
+  {
+   "term_id": "kegg.orthology:K03328",
+   "term_name": "TC.PST; polysaccharide transporter, PST family"
+  }
+ ],
+ "EZ55_02839": [
+  {
+   "term_id": "kegg.orthology:K01991",
+   "term_name": "wza, gfcE; polysaccharide biosynthesis/export protein"
+  }
+ ],
+ "EZ55_02858": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_02909": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  },
+  {
+   "term_id": "kegg.orthology:K16087",
+   "term_name": "TC.FEV.OM3, tbpA, hemR, lbpA, hpuB, bhuR, hugA, hmbR; hemoglobin/transferrin/lactoferrin receptor protein"
+  }
+ ],
+ "EZ55_02911": [
+  {
+   "term_id": "kegg.orthology:K02035",
+   "term_name": "ABC.PE.S; peptide/nickel transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_02912": [
+  {
+   "term_id": "kegg.orthology:K02033",
+   "term_name": "ABC.PE.P; peptide/nickel transport system permease protein"
+  }
+ ],
+ "EZ55_02913": [
+  {
+   "term_id": "kegg.orthology:K02034",
+   "term_name": "ABC.PE.P1; peptide/nickel transport system permease protein"
+  }
+ ],
+ "EZ55_02914": [
+  {
+   "term_id": "kegg.orthology:K02031",
+   "term_name": "ddpD; peptide/nickel transport system ATP-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K02032",
+   "term_name": "ddpF; peptide/nickel transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_02929": [
+  {
+   "term_id": "kegg.orthology:K07114",
+   "term_name": "yfbK; Ca-activated chloride channel homolog"
+  }
+ ],
+ "EZ55_02931": [
+  {
+   "term_id": "kegg.orthology:K15726",
+   "term_name": "czcA, cusA, cnrA; heavy metal efflux system protein"
+  }
+ ],
+ "EZ55_02932": [
+  {
+   "term_id": "kegg.orthology:K15727",
+   "term_name": "czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_02945": [
+  {
+   "term_id": "kegg.orthology:K03291",
+   "term_name": "MFS.SET; MFS transporter, SET family, sugar efflux transporter"
+  }
+ ],
+ "EZ55_02979": [
+  {
+   "term_id": "kegg.orthology:K02429",
+   "term_name": "fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein"
+  }
+ ],
+ "EZ55_02984": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03009": [
+  {
+   "term_id": "kegg.orthology:K18138",
+   "term_name": "acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump"
+  },
+  {
+   "term_id": "kegg.orthology:K18299",
+   "term_name": "mexF; multidrug efflux pump"
+  }
+ ],
+ "EZ55_03010": [
+  {
+   "term_id": "kegg.orthology:K18298",
+   "term_name": "mexE; membrane fusion protein, multidrug efflux system"
+  }
+ ],
+ "EZ55_03020": [
+  {
+   "term_id": "kegg.orthology:K02650",
+   "term_name": "pilA; type IV pilus assembly protein PilA"
+  },
+  {
+   "term_id": "kegg.orthology:K02682",
+   "term_name": "ppdD; prepilin peptidase dependent protein D"
+  }
+ ],
+ "EZ55_03021": [
+  {
+   "term_id": "kegg.orthology:K02653",
+   "term_name": "pilC; type IV pilus assembly protein PilC"
+  }
+ ],
+ "EZ55_03022": [
+  {
+   "term_id": "kegg.orthology:K02464",
+   "term_name": "gspO; general secretion pathway protein O [EC:3.4.23.43 2.1.1.-]"
+  },
+  {
+   "term_id": "kegg.orthology:K02654",
+   "term_name": "pilD, pppA; leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]"
+  }
+ ],
+ "EZ55_03039": [
+  {
+   "term_id": "kegg.orthology:K03070",
+   "term_name": "secA; preprotein translocase subunit SecA [EC:7.4.2.8]"
+  }
+ ],
+ "EZ55_03048": [
+  {
+   "term_id": "kegg.orthology:K03588",
+   "term_name": "ftsW, spoVE, rodA; peptidoglycan glycosyltransferase [EC:2.4.99.28]"
+  }
+ ],
+ "EZ55_03050": [
+  {
+   "term_id": "kegg.orthology:K01000",
+   "term_name": "mraY; phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]"
+  }
+ ],
+ "EZ55_03060": [
+  {
+   "term_id": "kegg.orthology:K07787",
+   "term_name": "cusA, silA; copper/silver efflux system protein"
+  }
+ ],
+ "EZ55_03061": [
+  {
+   "term_id": "kegg.orthology:K07798",
+   "term_name": "cusB, silB; membrane fusion protein, copper/silver efflux system"
+  }
+ ],
+ "EZ55_03076": [
+  {
+   "term_id": "kegg.orthology:K03442",
+   "term_name": "mscS; small conductance mechanosensitive channel"
+  }
+ ],
+ "EZ55_03082": [
+  {
+   "term_id": "kegg.orthology:K02670",
+   "term_name": "pilU; twitching motility protein PilU"
+  }
+ ],
+ "EZ55_03083": [
+  {
+   "term_id": "kegg.orthology:K02669",
+   "term_name": "pilT; twitching motility protein PilT"
+  }
+ ],
+ "EZ55_03091": [
+  {
+   "term_id": "kegg.orthology:K00799",
+   "term_name": "GST, gst; glutathione S-transferase [EC:2.5.1.18]"
+  }
+ ],
+ "EZ55_03100": [
+  {
+   "term_id": "kegg.orthology:K08156",
+   "term_name": "araJ; MFS transporter, DHA1 family, arabinose polymer utilization protein"
+  },
+  {
+   "term_id": "kegg.orthology:K18567",
+   "term_name": "pbuE; MFS transporter, DHA1 family, purine base/nucleoside efflux pump"
+  },
+  {
+   "term_id": "kegg.orthology:K19577",
+   "term_name": "ydhP; MFS transporter, DHA1 family, inner membrane transport protein"
+  }
+ ],
+ "EZ55_03110": [
+  {
+   "term_id": "kegg.orthology:K00666",
+   "term_name": "K00666; fatty-acyl-CoA synthase [EC:6.2.1.-]"
+  },
+  {
+   "term_id": "kegg.orthology:K01897",
+   "term_name": "ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]"
+  }
+ ],
+ "EZ55_03129": [
+  {
+   "term_id": "kegg.orthology:K03325",
+   "term_name": "ACR3, arsB; arsenite transporter"
+  }
+ ],
+ "EZ55_03146": [
+  {
+   "term_id": "kegg.orthology:K12984",
+   "term_name": "waaE, kdtX; (heptosyl)LPS beta-1,4-glucosyltransferase [EC:2.4.1.-]"
+  }
+ ],
+ "EZ55_03156": [
+  {
+   "term_id": "kegg.orthology:K03297",
+   "term_name": "emrE, qac, mmr, smr; small multidrug resistance pump"
+  }
+ ],
+ "EZ55_03161": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03169": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  }
+ ],
+ "EZ55_03181": [
+  {
+   "term_id": "kegg.orthology:K02016",
+   "term_name": "ABC.FEV.S; iron complex transport system substrate-binding protein"
+  },
+  {
+   "term_id": "kegg.orthology:K06858",
+   "term_name": "btuF; vitamin B12 transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03194": [
+  {
+   "term_id": "kegg.orthology:K02429",
+   "term_name": "fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein"
+  }
+ ],
+ "EZ55_03195": [
+  {
+   "term_id": "kegg.orthology:K07267",
+   "term_name": "oprB; porin"
+  }
+ ],
+ "EZ55_03200": [
+  {
+   "term_id": "kegg.orthology:K00799",
+   "term_name": "GST, gst; glutathione S-transferase [EC:2.5.1.18]"
+  }
+ ],
+ "EZ55_03211": [
+  {
+   "term_id": "kegg.orthology:K03281",
+   "term_name": "clcA, clcB, CLC-E, CLC-F; chloride channel protein, CIC family"
+  }
+ ],
+ "EZ55_03232": [
+  {
+   "term_id": "kegg.orthology:K02055",
+   "term_name": "ABC.SP.S; putative spermidine/putrescine transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03237": [
+  {
+   "term_id": "kegg.orthology:K07091",
+   "term_name": "lptF; lipopolysaccharide export system permease protein"
+  }
+ ],
+ "EZ55_03238": [
+  {
+   "term_id": "kegg.orthology:K11720",
+   "term_name": "lptG; lipopolysaccharide export system permease protein"
+  }
+ ],
+ "EZ55_03264": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_03265": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_03289": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03301": [
+  {
+   "term_id": "kegg.orthology:K02440",
+   "term_name": "glpF; glycerol uptake facilitator"
+  }
+ ],
+ "EZ55_03313": [
+  {
+   "term_id": "kegg.orthology:K07088",
+   "term_name": "K07088"
+  }
+ ],
+ "EZ55_03319": [
+  {
+   "term_id": "kegg.orthology:K01990",
+   "term_name": "ABC-2.A; ABC-2 type transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_03320": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_03341": [
+  {
+   "term_id": "kegg.orthology:K02168",
+   "term_name": "betT, betS; choline/glycine/proline betaine transport protein"
+  }
+ ],
+ "EZ55_03363": [
+  {
+   "term_id": "kegg.orthology:K03286",
+   "term_name": "TC.OOP; OmpA-OmpF porin, OOP family"
+  }
+ ],
+ "EZ55_03368": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03412": [
+  {
+   "term_id": "kegg.orthology:K16053",
+   "term_name": "ybdG, mscM; miniconductance mechanosensitive channel"
+  }
+ ],
+ "EZ55_03416": [
+  {
+   "term_id": "kegg.orthology:K03308",
+   "term_name": "TC.NSS; neurotransmitter:Na+ symporter, NSS family"
+  }
+ ],
+ "EZ55_03424": [
+  {
+   "term_id": "kegg.orthology:K03559",
+   "term_name": "exbD; biopolymer transport protein ExbD"
+  }
+ ],
+ "EZ55_03426": [
+  {
+   "term_id": "kegg.orthology:K20543",
+   "term_name": "bcsC; cellulose synthase operon protein C"
+  }
+ ],
+ "EZ55_03428": [
+  {
+   "term_id": "kegg.orthology:K20541",
+   "term_name": "bcsB; cellulose synthase operon protein B"
+  }
+ ],
+ "EZ55_03429": [
+  {
+   "term_id": "kegg.orthology:K00694",
+   "term_name": "bcsA; cellulose synthase (UDP-forming) [EC:2.4.1.12]"
+  }
+ ],
+ "EZ55_03451": [
+  {
+   "term_id": "kegg.orthology:K03457",
+   "term_name": "TC.NCS1; nucleobase:cation symporter-1, NCS1 family"
+  },
+  {
+   "term_id": "kegg.orthology:K10975",
+   "term_name": "allP; allantoin permease"
+  }
+ ],
+ "EZ55_03452": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03464": [
+  {
+   "term_id": "kegg.orthology:K03299",
+   "term_name": "TC.GNTP; gluconate:H+ symporter, GntP family"
+  },
+  {
+   "term_id": "kegg.orthology:K06156",
+   "term_name": "gntU; Gnt-I system low-affinity gluconate transporter"
+  }
+ ],
+ "EZ55_03490": [
+  {
+   "term_id": "kegg.orthology:K03317",
+   "term_name": "TC.CNT; concentrative nucleoside transporter, CNT family"
+  }
+ ],
+ "EZ55_03498": [
+  {
+   "term_id": "kegg.orthology:K14393",
+   "term_name": "actP; cation/acetate symporter"
+  }
+ ],
+ "EZ55_03509": [
+  {
+   "term_id": "kegg.orthology:K14683",
+   "term_name": "SLC34A, NPT, nptA; solute carrier family 34 (sodium-dependent phosphate cotransporter)"
+  }
+ ],
+ "EZ55_03542": [
+  {
+   "term_id": "kegg.orthology:K02021",
+   "term_name": "ABC.MR; putative ABC transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_03550": [
+  {
+   "term_id": "kegg.orthology:K20444",
+   "term_name": "rfbC; O-antigen biosynthesis protein [EC:2.4.1.-]"
+  }
+ ],
+ "EZ55_03580": [
+  {
+   "term_id": "kegg.orthology:K03076",
+   "term_name": "secY; preprotein translocase subunit SecY"
+  }
+ ],
+ "EZ55_03604": [
+  {
+   "term_id": "kegg.orthology:K21217",
+   "term_name": "motX; sodium-type polar flagellar protein MotX"
+  }
+ ],
+ "EZ55_03609": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03614": [
+  {
+   "term_id": "kegg.orthology:K00425",
+   "term_name": "cydA; cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]"
+  }
+ ],
+ "EZ55_03615": [
+  {
+   "term_id": "kegg.orthology:K00426",
+   "term_name": "cydB; cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]"
+  }
+ ],
+ "EZ55_03627": [
+  {
+   "term_id": "kegg.orthology:K02044",
+   "term_name": "phnD; phosphonate transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03632": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03644": [
+  {
+   "term_id": "kegg.orthology:K13408",
+   "term_name": "cvaA, mchE, raxA; membrane fusion protein"
+  }
+ ],
+ "EZ55_03645": [
+  {
+   "term_id": "kegg.orthology:K06147",
+   "term_name": "ABCB-BAC; ATP-binding cassette, subfamily B, bacterial"
+  },
+  {
+   "term_id": "kegg.orthology:K13409",
+   "term_name": "cvaB, mchF, raxB; ATP-binding cassette, subfamily B, bacterial CvaB/MchF/RaxB"
+  }
+ ],
+ "EZ55_03672": [
+  {
+   "term_id": "kegg.orthology:K09811",
+   "term_name": "ftsX; cell division transport system permease protein"
+  }
+ ],
+ "EZ55_03673": [
+  {
+   "term_id": "kegg.orthology:K09812",
+   "term_name": "ftsE; cell division transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_03674": [
+  {
+   "term_id": "kegg.orthology:K03110",
+   "term_name": "ftsY; fused signal recognition particle receptor"
+  }
+ ],
+ "EZ55_03677": [
+  {
+   "term_id": "kegg.orthology:K05595",
+   "term_name": "marC; multiple antibiotic resistance protein"
+  }
+ ],
+ "EZ55_03690": [
+  {
+   "term_id": "kegg.orthology:K01992",
+   "term_name": "ABC-2.P; ABC-2 type transport system permease protein"
+  }
+ ],
+ "EZ55_03691": [
+  {
+   "term_id": "kegg.orthology:K01990",
+   "term_name": "ABC-2.A; ABC-2 type transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_03699": [
+  {
+   "term_id": "kegg.orthology:K07089",
+   "term_name": "K07089; uncharacterized protein"
+  }
+ ],
+ "EZ55_03700": [
+  {
+   "term_id": "kegg.orthology:K06200",
+   "term_name": "cstA; carbon starvation protein"
+  }
+ ],
+ "EZ55_03709": [
+  {
+   "term_id": "kegg.orthology:K03832",
+   "term_name": "tonB; periplasmic protein TonB"
+  }
+ ],
+ "EZ55_03710": [
+  {
+   "term_id": "kegg.orthology:K03559",
+   "term_name": "exbD; biopolymer transport protein ExbD"
+  }
+ ],
+ "EZ55_03711": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_03712": [
+  {
+   "term_id": "kegg.orthology:K03561",
+   "term_name": "exbB; biopolymer transport protein ExbB"
+  }
+ ],
+ "EZ55_03714": [
+  {
+   "term_id": "kegg.orthology:K16089",
+   "term_name": "TC.FEV.OM2, cirA, cfrA, hmuR; outer membrane receptor for ferrienterochelin and colicins"
+  },
+  {
+   "term_id": "kegg.orthology:K19611",
+   "term_name": "fepA, pfeA, iroN, pirA; ferric enterobactin receptor"
+  }
+ ],
+ "EZ55_03717": [
+  {
+   "term_id": "kegg.orthology:K16090",
+   "term_name": "fiu; catecholate siderophore receptor"
+  }
+ ],
+ "EZ55_03733": [
+  {
+   "term_id": "kegg.orthology:K03073",
+   "term_name": "secE; preprotein translocase subunit SecE"
+  }
+ ],
+ "EZ55_03735": [
+  {
+   "term_id": "kegg.orthology:K06147",
+   "term_name": "ABCB-BAC; ATP-binding cassette, subfamily B, bacterial"
+  },
+  {
+   "term_id": "kegg.orthology:K18893",
+   "term_name": "vcaM; ATP-binding cassette, subfamily B, multidrug efflux pump"
+  }
+ ],
+ "EZ55_03741": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03746": [
+  {
+   "term_id": "kegg.orthology:K03442",
+   "term_name": "mscS; small conductance mechanosensitive channel"
+  }
+ ],
+ "EZ55_03777": [
+  {
+   "term_id": "kegg.orthology:K12942",
+   "term_name": "abgT; aminobenzoyl-glutamate transport protein"
+  }
+ ],
+ "EZ55_03792": [
+  {
+   "term_id": "kegg.orthology:K09823",
+   "term_name": "zur; Fur family transcriptional regulator, zinc uptake regulator"
+  }
+ ],
+ "EZ55_03795": [
+  {
+   "term_id": "kegg.orthology:K03286",
+   "term_name": "TC.OOP; OmpA-OmpF porin, OOP family"
+  }
+ ],
+ "EZ55_03806": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  },
+  {
+   "term_id": "kegg.orthology:K16087",
+   "term_name": "TC.FEV.OM3, tbpA, hemR, lbpA, hpuB, bhuR, hugA, hmbR; hemoglobin/transferrin/lactoferrin receptor protein"
+  }
+ ],
+ "EZ55_03813": [
+  {
+   "term_id": "kegg.orthology:K02003",
+   "term_name": "ABC.CD.A; putative ABC transport system ATP-binding protein"
+  }
+ ],
+ "EZ55_03814": [
+  {
+   "term_id": "kegg.orthology:K02004",
+   "term_name": "ABC.CD.P; putative ABC transport system permease protein"
+  }
+ ],
+ "EZ55_03826": [
+  {
+   "term_id": "kegg.orthology:K03307",
+   "term_name": "TC.SSS; solute:Na+ symporter, SSS family"
+  }
+ ],
+ "EZ55_03827": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03828": [
+  {
+   "term_id": "kegg.orthology:K16264",
+   "term_name": "czcD, zitB; cobalt-zinc-cadmium efflux system protein"
+  }
+ ],
+ "EZ55_03832": [
+  {
+   "term_id": "kegg.orthology:K03315",
+   "term_name": "nhaC; Na+:H+ antiporter, NhaC family"
+  }
+ ],
+ "EZ55_03834": [
+  {
+   "term_id": "kegg.orthology:K02429",
+   "term_name": "fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein"
+  }
+ ],
+ "EZ55_03837": [
+  {
+   "term_id": "kegg.orthology:K08138",
+   "term_name": "xylE; MFS transporter, SP family, xylose:H+ symportor"
+  },
+  {
+   "term_id": "kegg.orthology:K08139",
+   "term_name": "HXT; MFS transporter, SP family, sugar:H+ symporter"
+  }
+ ],
+ "EZ55_03838": [
+  {
+   "term_id": "kegg.orthology:K16012",
+   "term_name": "cydC; ATP-binding cassette, subfamily C, bacterial CydC"
+  }
+ ],
+ "EZ55_03839": [
+  {
+   "term_id": "kegg.orthology:K16013",
+   "term_name": "cydD; ATP-binding cassette, subfamily C, bacterial CydD"
+  }
+ ],
+ "EZ55_03840": [
+  {
+   "term_id": "kegg.orthology:K00424",
+   "term_name": "cydX; cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7]"
+  }
+ ],
+ "EZ55_03841": [
+  {
+   "term_id": "kegg.orthology:K00426",
+   "term_name": "cydB; cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]"
+  }
+ ],
+ "EZ55_03842": [
+  {
+   "term_id": "kegg.orthology:K00425",
+   "term_name": "cydA; cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]"
+  }
+ ],
+ "EZ55_03846": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03851": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03862": [
+  {
+   "term_id": "kegg.orthology:K07003",
+   "term_name": "K07003; uncharacterized protein"
+  }
+ ],
+ "EZ55_03882": [
+  {
+   "term_id": "kegg.orthology:K02014",
+   "term_name": "TC.FEV.OM; iron complex outermembrane recepter protein"
+  }
+ ],
+ "EZ55_03886": [
+  {
+   "term_id": "kegg.orthology:K06076",
+   "term_name": "fadL; long-chain fatty acid transport protein"
+  }
+ ],
+ "EZ55_03890": [
+  {
+   "term_id": "kegg.orthology:K01989",
+   "term_name": "K01989; putative tryptophan/tyrosine transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03913": [
+  {
+   "term_id": "kegg.orthology:K16087",
+   "term_name": "TC.FEV.OM3, tbpA, hemR, lbpA, hpuB, bhuR, hugA, hmbR; hemoglobin/transferrin/lactoferrin receptor protein"
+  },
+  {
+   "term_id": "kegg.orthology:K16089",
+   "term_name": "TC.FEV.OM2, cirA, cfrA, hmuR; outer membrane receptor for ferrienterochelin and colicins"
+  }
+ ],
+ "EZ55_03922": [
+  {
+   "term_id": "kegg.orthology:K02300",
+   "term_name": "cyoD; cytochrome o ubiquinol oxidase subunit IV"
+  }
+ ],
+ "EZ55_03923": [
+  {
+   "term_id": "kegg.orthology:K02299",
+   "term_name": "cyoC; cytochrome o ubiquinol oxidase subunit III"
+  }
+ ],
+ "EZ55_03924": [
+  {
+   "term_id": "kegg.orthology:K02274",
+   "term_name": "coxA, ctaD; cytochrome c oxidase subunit I [EC:7.1.1.9]"
+  },
+  {
+   "term_id": "kegg.orthology:K02298",
+   "term_name": "cyoB; cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3]"
+  }
+ ],
+ "EZ55_03925": [
+  {
+   "term_id": "kegg.orthology:K02297",
+   "term_name": "cyoA; cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3]"
+  }
+ ],
+ "EZ55_03939": [
+  {
+   "term_id": "kegg.orthology:K04078",
+   "term_name": "groES, HSPE1; chaperonin GroES"
+  }
+ ],
+ "EZ55_03942": [
+  {
+   "term_id": "kegg.orthology:K04084",
+   "term_name": "dsbD, dipZ; thioredoxin:protein disulfide reductase [EC:1.8.4.16]"
+  }
+ ],
+ "EZ55_03955": [
+  {
+   "term_id": "kegg.orthology:K02030",
+   "term_name": "ABC.PA.S; polar amino acid transport system substrate-binding protein"
+  }
+ ],
+ "EZ55_03964": [
+  {
+   "term_id": "kegg.orthology:K10716",
+   "term_name": "kch, trkA, mthK, pch; voltage-gated potassium channel"
+  }
+ ],
+ "EZ55_03974": [
+  {
+   "term_id": "kegg.orthology:K02452",
+   "term_name": "gspC; general secretion pathway protein C"
+  }
+ ],
+ "EZ55_03975": [
+  {
+   "term_id": "kegg.orthology:K02453",
+   "term_name": "gspD; general secretion pathway protein D"
+  }
+ ],
+ "EZ55_03976": [
+  {
+   "term_id": "kegg.orthology:K02454",
+   "term_name": "gspE; general secretion pathway protein E [EC:7.4.2.8]"
+  }
+ ],
+ "EZ55_03977": [
+  {
+   "term_id": "kegg.orthology:K02455",
+   "term_name": "gspF; general secretion pathway protein F"
+  }
+ ],
+ "EZ55_03978": [
+  {
+   "term_id": "kegg.orthology:K02456",
+   "term_name": "gspG; general secretion pathway protein G"
+  }
+ ],
+ "EZ55_03979": [
+  {
+   "term_id": "kegg.orthology:K02457",
+   "term_name": "gspH; general secretion pathway protein H"
+  }
+ ],
+ "EZ55_03980": [
+  {
+   "term_id": "kegg.orthology:K02458",
+   "term_name": "gspI; general secretion pathway protein I"
+  }
+ ],
+ "EZ55_03981": [
+  {
+   "term_id": "kegg.orthology:K02459",
+   "term_name": "gspJ; general secretion pathway protein J"
+  }
+ ],
+ "EZ55_03982": [
+  {
+   "term_id": "kegg.orthology:K02460",
+   "term_name": "gspK; general secretion pathway protein K"
+  }
+ ],
+ "EZ55_03983": [
+  {
+   "term_id": "kegg.orthology:K02461",
+   "term_name": "gspL; general secretion pathway protein L"
+  }
+ ],
+ "EZ55_03984": [
+  {
+   "term_id": "kegg.orthology:K02462",
+   "term_name": "gspM; general secretion pathway protein M"
+  }
+ ],
+ "EZ55_03985": [
+  {
+   "term_id": "kegg.orthology:K02463",
+   "term_name": "gspN; general secretion pathway protein N"
+  }
+ ],
+ "EZ55_03994": [
+  {
+   "term_id": "kegg.orthology:K03669",
+   "term_name": "mdoH; membrane glycosyltransferase [EC:2.4.1.-]"
+  }
+ ],
+ "EZ55_04000": [
+  {
+   "term_id": "kegg.orthology:K06158",
+   "term_name": "ABCF3; ATP-binding cassette, subfamily F, member 3"
+  }
+ ],
+ "EZ55_04015": [
+  {
+   "term_id": "kegg.orthology:K03292",
+   "term_name": "TC.GPH; glycoside/pentoside/hexuronide:cation symporter, GPH family"
+  }
+ ],
+ "EZ55_04028": [
+  {
+   "term_id": "kegg.orthology:K05548",
+   "term_name": "benK; MFS transporter, AAHS family, benzoate transport protein"
+  },
+  {
+   "term_id": "kegg.orthology:K08138",
+   "term_name": "xylE; MFS transporter, SP family, xylose:H+ symportor"
+  },
+  {
+   "term_id": "kegg.orthology:K08139",
+   "term_name": "HXT; MFS transporter, SP family, sugar:H+ symporter"
+  }
+ ],
+ "EZ55_04043": [
+  {
+   "term_id": "kegg.orthology:K03327",
+   "term_name": "SLC47A, MATE, DTX; MATE family, multidrug and toxin extrusion protein"
+  }
+ ],
+ "EZ55_04048": [
+  {
+   "term_id": "kegg.orthology:K02259",
+   "term_name": "COX15, ctaA; heme a synthase [EC:1.17.99.9]"
+  }
+ ],
+ "EZ55_04050": [
+  {
+   "term_id": "kegg.orthology:K14998",
+   "term_name": "SURF1, SHY1; surfeit locus 1 family protein"
+  }
+ ],
+ "EZ55_04052": [
+  {
+   "term_id": "kegg.orthology:K02276",
+   "term_name": "coxC, ctaE; cytochrome c oxidase subunit III [EC:7.1.1.9]"
+  }
+ ],
+ "EZ55_04053": [
+  {
+   "term_id": "kegg.orthology:K02258",
+   "term_name": "COX11, ctaG; cytochrome c oxidase assembly protein subunit 11"
+  }
+ ],
+ "EZ55_04054": [
+  {
+   "term_id": "kegg.orthology:K02274",
+   "term_name": "coxA, ctaD; cytochrome c oxidase subunit I [EC:7.1.1.9]"
+  },
+  {
+   "term_id": "kegg.orthology:K02298",
+   "term_name": "cyoB; cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3]"
+  }
+ ],
+ "EZ55_04055": [
+  {
+   "term_id": "kegg.orthology:K02275",
+   "term_name": "coxB, ctaC; cytochrome c oxidase subunit II [EC:7.1.1.9]"
+  }
+ ],
+ "EZ55_04066": [
+  {
+   "term_id": "kegg.orthology:K07552",
+   "term_name": "bcr, tcaB; MFS transporter, DHA1 family, multidrug resistance protein"
+  }
+ ],
+ "EZ55_04068": [
+  {
+   "term_id": "kegg.orthology:K07278",
+   "term_name": "tamA; translocation and assembly module TamA"
+  }
+ ],
+ "EZ55_04069": [
+  {
+   "term_id": "kegg.orthology:K09800",
+   "term_name": "tamB; translocation and assembly module TamB"
+  }
+ ],
+ "EZ55_04100": [
+  {
+   "term_id": "kegg.orthology:K03292",
+   "term_name": "TC.GPH; glycoside/pentoside/hexuronide:cation symporter, GPH family"
+  }
+ ],
+ "EZ55_04104": [
+  {
+   "term_id": "kegg.orthology:K12216",
+   "term_name": "icmN, lphA, dotK; intracellular multiplication protein IcmN"
+  }
+ ],
+ "EZ55_04108": [
+  {
+   "term_id": "kegg.orthology:K00799",
+   "term_name": "GST, gst; glutathione S-transferase [EC:2.5.1.18]"
+  },
+  {
+   "term_id": "kegg.orthology:K11209",
+   "term_name": "yghU, yfcG; GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]"
+  }
+ ],
+ "EZ55_04110": [
+  {
+   "term_id": "kegg.orthology:K02114",
+   "term_name": "ATPF1E, atpC; F-type H+-transporting ATPase subunit epsilon"
+  }
+ ],
+ "EZ55_04111": [
+  {
+   "term_id": "kegg.orthology:K02112",
+   "term_name": "ATPF1B, atpD; F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]"
+  }
+ ],
+ "EZ55_04112": [
+  {
+   "term_id": "kegg.orthology:K02115",
+   "term_name": "ATPF1G, atpG; F-type H+-transporting ATPase subunit gamma"
+  }
+ ],
+ "EZ55_04113": [
+  {
+   "term_id": "kegg.orthology:K02111",
+   "term_name": "ATPF1A, atpA; F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]"
+  }
+ ],
+ "EZ55_04114": [
+  {
+   "term_id": "kegg.orthology:K02113",
+   "term_name": "ATPF1D, atpH; F-type H+-transporting ATPase subunit delta"
+  }
+ ],
+ "EZ55_04115": [
+  {
+   "term_id": "kegg.orthology:K02109",
+   "term_name": "ATPF0B, atpF; F-type H+-transporting ATPase subunit b"
+  }
+ ],
+ "EZ55_04116": [
+  {
+   "term_id": "kegg.orthology:K02110",
+   "term_name": "ATPF0C, atpE; F-type H+-transporting ATPase subunit c"
+  }
+ ],
+ "EZ55_04117": [
+  {
+   "term_id": "kegg.orthology:K02108",
+   "term_name": "ATPF0A, atpB; F-type H+-transporting ATPase subunit a"
+  }
+ ],
+ "EZ55_04118": [
+  {
+   "term_id": "kegg.orthology:K02116",
+   "term_name": "atpI; ATP synthase protein I"
+  }
+ ],
+ "EZ55_04128": [
+  {
+   "term_id": "kegg.orthology:K03217",
+   "term_name": "yidC, spoIIIJ, OXA1, ccfA; YidC/Oxa1 family membrane protein insertase"
+  }
+ ],
+ "EZ55_04144": [
+  {
+   "term_id": "kegg.orthology:K07240",
+   "term_name": "chrA; chromate transporter"
+  }
+ ],
+ "EZ55_04154": [
+  {
+   "term_id": "kegg.orthology:K07798",
+   "term_name": "cusB, silB; membrane fusion protein, copper/silver efflux system"
+  }
+ ],
+ "EZ55_04155": [
+  {
+   "term_id": "kegg.orthology:K07787",
+   "term_name": "cusA, silA; copper/silver efflux system protein"
+  }
+ ],
+ "EZ55_04157": [
+  {
+   "term_id": "kegg.orthology:K07156",
+   "term_name": "copC, pcoC; copper resistance protein C"
+  }
+ ],
+ "EZ55_04158": [
+  {
+   "term_id": "kegg.orthology:K07245",
+   "term_name": "pcoD; copper resistance protein D"
+  }
+ ],
+ "EZ55_04187": [
+  {
+   "term_id": "kegg.orthology:K17686",
+   "term_name": "copA, ctpA, ATP7; P-type Cu+ transporter [EC:7.2.2.8]"
+  }
+ ],
+ "EZ55_04199": [
+  {
+   "term_id": "kegg.orthology:K07156",
+   "term_name": "copC, pcoC; copper resistance protein C"
+  }
+ ],
+ "EZ55_04200": [
+  {
+   "term_id": "kegg.orthology:K07245",
+   "term_name": "pcoD; copper resistance protein D"
+  }
+ ],
+ "EZ55_04206": [
+  {
+   "term_id": "kegg.orthology:K17686",
+   "term_name": "copA, ctpA, ATP7; P-type Cu+ transporter [EC:7.2.2.8]"
+  }
+ ],
+ "EZ55_04287": [
+  {
+   "term_id": "kegg.orthology:K06076",
+   "term_name": "fadL; long-chain fatty acid transport protein"
+  }
+ ],
+ "EZ55_04313": [
+  {
+   "term_id": "kegg.orthology:K07240",
+   "term_name": "chrA; chromate transporter"
+  }
+ ],
+ "EZ55_04323": [
+  {
+   "term_id": "kegg.orthology:K19058",
+   "term_name": "merC; mercuric ion transport protein"
+  }
+ ],
+ "EZ55_04324": [
+  {
+   "term_id": "kegg.orthology:K08364",
+   "term_name": "merP; periplasmic mercuric ion binding protein"
+  }
+ ],
+ "EZ55_04325": [
+  {
+   "term_id": "kegg.orthology:K08363",
+   "term_name": "merT; mercuric ion transport protein"
+  }
+ ],
+ "EZ55_04332": [
+  {
+   "term_id": "kegg.orthology:K15726",
+   "term_name": "czcA, cusA, cnrA; heavy metal efflux system protein"
+  }
+ ],
+ "EZ55_04333": [
+  {
+   "term_id": "kegg.orthology:K15727",
+   "term_name": "czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_04334": [
+  {
+   "term_id": "kegg.orthology:K15725",
+   "term_name": "czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system"
+  }
+ ],
+ "EZ55_04337": [
+  {
+   "term_id": "kegg.orthology:K19591",
+   "term_name": "cueR; MerR family transcriptional regulator, copper efflux regulator"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+substrate_call,system_index,locus_tags,n_genes_used,system_percentile
+benzoate,0,ACZ81_03335,1,0.997212
+carboxylate,0,ACZ81_06075,1,0.994171
+carboxylate,1,ACZ81_11845;ACZ81_11850;ACZ81_11855,3,0.871769
+fucose/galactose/glucose,0,ACZ81_14470,1,0.630258
+fucose/galactose/glucose,1,ACZ81_15420,1,0.970096
+fucose/galactose/glucose,2,ACZ81_18570,1,0.852002
+aminobenzoyl-glutamate,0,ACZ81_18280,1,0.965281
+carbohydrate,0,ACZ81_15425,1,0.947288
+3-phenylpropionic acid,0,ACZ81_01580,1,0.926254
+3-phenylpropionic acid,1,ACZ81_05870,1,0.355803
+fucose,0,ACZ81_18125;ACZ81_18130,2,0.920933
+proline,0,ACZ81_06100,1,0.609225
+proline,1,ACZ81_09445,1,0.915104
+choline/glycine/proline betaine,0,ACZ81_09090,1,0.750634
+choline/glycine/proline betaine,1,ACZ81_16020,1,0.887734
+amino acid,0,ACZ81_07450,1,0.509377
+amino acid,1,ACZ81_08425,1,0.713127
+amino acid,2,ACZ81_16835,1,0.877598
+vitamin B12,0,ACZ81_03190,1,0.838571
+nucleoside,0,ACZ81_07855,1,0.784592
+nucleoside,1,ACZ81_16760,1,0.806893
+dipeptide,0,ACZ81_05440;ACZ81_05445;ACZ81_05450;ACZ81_05455;ACZ81_05460,5,0.802331
+oligopeptide,0,ACZ81_04685,1,0.795489
+serine/threonine,0,ACZ81_04155,1,0.793208
+glycine,0,ACZ81_07230,1,0.551951
+glycine,1,ACZ81_11670,1,0.787633
+L-lactate,0,ACZ81_12890,1,0.762038
+peptide,0,ACZ81_02855,1,0.185251
+peptide,1,ACZ81_18465;ACZ81_18470,2,0.746706
+gluconate,0,ACZ81_07020,1,0.482261
+gluconate,1,ACZ81_16630,1,0.722504
+adenine/guanine/hypoxanthine,0,ACZ81_07825,1,0.695641
+maltose/moltooligosaccharide,0,ACZ81_09860,1,0.69336
+sugar,0,ACZ81_00870,1,0.480487
+sugar,1,ACZ81_07475,1,0.373036
+sugar,2,ACZ81_08220,1,0.660669
+sugar,3,ACZ81_19780,1,0.218702
+xylose,0,ACZ81_18585,1,0.659149
+phospholipid/cholesterol/gamma-HCH,0,ACZ81_03775;ACZ81_03780;ACZ81_03785;ACZ81_03790;ACZ81_03795,5,0.655854
+betaine/carnitine,0,ACZ81_00385,1,0.591232
+polar amino acid,0,ACZ81_09705,1,0.145971
+polar amino acid,1,ACZ81_12280,1,0.496959
+polar amino acid,2,ACZ81_12835,1,0.310188
+polar amino acid,3,ACZ81_17450,1,0.232134
+polar amino acid,4,ACZ81_18100,1,0.165991
+polar amino acid,5,ACZ81_19175,1,0.069691
+putative spermidine/putrescine,0,ACZ81_15600,1,0.380132
+putative tryptophan/tyrosine,0,ACZ81_18830,1,0.360872
+nicotinamide mononucleotide,0,ACZ81_05610,1,0.339331
+branched-chain amino acid,0,ACZ81_03920,1,0.272935
+peptide/nickel,0,ACZ81_14220;ACZ81_14225;ACZ81_14230;ACZ81_14235,4,0.21262
+glycerol,0,ACZ81_15825,1,0.198936
+choline,0,ACZ81_14055,1,0.132032

@@ -1,0 +1,3596 @@
+{
+ "EZ55_02235": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01161": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00982": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02708": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03021": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04028": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00285": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03161": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02133": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02206": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03994": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02771": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02181": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02664": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04157": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04052": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01370": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03984": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04013": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03129": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04199": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01479": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04114": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00736": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01131": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00340": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00284": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02089": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03010": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03039": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03830": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00838": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02770": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02088": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03886": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03897": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00690": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00709": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01394": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00707": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03777": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01709": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03735": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00981": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00328": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00301": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00283": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01440": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03863": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02349": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01519": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00738": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02931": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03929": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03915": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00326": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03700": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_00910": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04066": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01969": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03060": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00331": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04346": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01030": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00401": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01673": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00148": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03289": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00694": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02842": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03048": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03852": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03827": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02212": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03795": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02480": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01232": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01308": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01826": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03634": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03146": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01384": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00731": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02616": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00300": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02718": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01126": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02909": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03057": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00678": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01086": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01261": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03711": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01816": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01552": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00211": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01169": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03974": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01981": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02006": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00236": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01966": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02432": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00114": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01724": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02178": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01415": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03076": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03319": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00688": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01791": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01156": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03717": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03490": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00808": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01676": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00833": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02008": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02702": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03741": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00107": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01300": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01792": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00970": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01500": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01858": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02282": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03022": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04340": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00899": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01340": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02351": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03009": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03304": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00739": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01849": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02878": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04111": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00653": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00293": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03939": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03824": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03847": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01633": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01383": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00811": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01375": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_03923": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04334": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00147": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_01339": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02529": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00968": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02322": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01176": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01905": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04155": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02296": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03301": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04054": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03978": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03814": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01374": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_01112": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03110": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03240": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01217": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03194": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01084": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00611": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03429": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01831": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01830": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03181": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03363": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03305": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02932": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01411": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03862": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00969": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03083": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04325": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01473": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00238": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03264": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03061": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03834": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04053": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03806": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02285": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02879": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02452": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03842": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03808": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03913": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00530": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01829": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01406": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01583": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00195": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03302": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03890": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00785": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01565": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00612": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03975": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01127": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00501": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03487": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00915": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01272": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02588": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04104": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00140": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02769": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00980": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03341": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02132": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01585": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03925": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03426": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01790": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00168": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01366": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00860": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01407": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01074": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00795": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02573": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01145": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02829": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04098": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04108": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04154": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01111": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02858": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03550": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00951": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00464": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02131": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03839": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00837": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03640": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03691": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01273": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01125": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01688": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00371": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04082": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00642": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02304": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01128": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00213": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03609": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03195": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04116": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02896": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03712": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01225": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01632": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03464": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01706": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01737": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00531": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04324": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01980": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00423": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03969": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04118": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03983": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00904": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03922": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01090": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03677": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01361": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00972": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02945": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00198": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03851": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02922": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00725": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03673": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02789": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03813": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03439": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02704": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03412": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04206": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03709": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01463": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04337": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_04000": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01610": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03747": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00101": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02723": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00038": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00529": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00850": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00456": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00892": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04115": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02306": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03985": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03082": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03327": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04069": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_01083": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02617": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01171": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01582": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04287": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00979": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00989": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04200": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03714": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01355": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01584": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03428": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00206": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02114": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01020": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01373": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_04068": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04187": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01082": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02138": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04112": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02127": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01437": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01615": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00708": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03976": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01129": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02613": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01570": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00800": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03792": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_03614": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02095": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01289": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00098": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03924": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02991": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03313": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01412": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00620": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03982": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00814": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03209": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01266": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02979": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02169": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03632": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01602": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03832": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00521": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03020": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01609": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02572": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03627": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00212": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02912": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03841": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04165": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02839": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03690": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03828": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03320": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02546": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03746": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02395": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01634": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01146": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01298": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01368": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04158": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00169": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03955": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04323": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03344": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03091": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00862": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03211": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04128": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04050": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02208": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01933": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02134": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03542": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03758": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00149": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02911": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04110": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04313": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04333": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01076": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01180": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03200": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02431": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03699": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03360": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02984": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00085": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00689": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00950": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00762": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02542": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00789": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00627": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03193": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01371": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04144": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00815": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00801": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00743": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03369": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03837": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00489": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03424": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03964": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02635": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03977": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01859": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01338": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01595": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01124": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03505": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03501": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03508": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02327": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00812": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00834": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00138": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00806": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03368": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03451": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04336": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03580": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02484": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00807": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03265": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04113": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03840": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03288": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04055": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03906": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00538": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03050": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00851": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01621": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00858": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04117": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00621": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00913": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00644": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01608": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00490": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00139": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02176": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00183": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00852": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00962": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00478": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00937": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02136": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01723": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02757": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00460": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00299": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01851": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01365": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03644": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02594": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02797": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00841": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00803": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "EZ55_03981": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00153": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00967": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03156": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03601": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02286": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00964": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00037": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03215": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01085": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02855": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03238": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00391": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03979": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00152": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00813": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03452": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01843": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03328": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_04100": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03674": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02654": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03826": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04043": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02913": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00816": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00519": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00737": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04062": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02117": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01155": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02649": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02929": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01290": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02329": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02781": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03509": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03882": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02328": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00963": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01154": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01850": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01848": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02580": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01780": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03317": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03733": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01918": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03980": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02147": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02782": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02914": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01228": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00488": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00765": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01336": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04015": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00237": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00416": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01726": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00589": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00286": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03846": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02647": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02663": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01077": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00165": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_00459": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02703": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04332": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03486": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03098": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02796": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01513": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03416": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03942": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01299": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01130": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00471": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03232": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_04073": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03237": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00402": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00734": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01249": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01291": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01684": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01337": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_04048": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01153": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03807": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01063": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03169": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01472": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02015": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03710": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_02305": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03645": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02430": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01087": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01163": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03154": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03604": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01436": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00859": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03498": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01930": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_03615": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_01975": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_02441": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00666": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_00861": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_01783": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_00043": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "EZ55_03838": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_01986": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "EZ55_03672": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "EZ55_02783": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ }
+}

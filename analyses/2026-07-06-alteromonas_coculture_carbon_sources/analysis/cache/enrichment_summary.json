@@ -1,0 +1,42 @@
+{
+ "kegg_terms_tested": 290,
+ "kegg_up_significant": 3,
+ "ec_up_significant": 0,
+ "kegg_n_significant_all": 3,
+ "ec_n_significant_all": 0,
+ "top_kegg_up": [
+  [
+   "Purine metabolism",
+   5.33,
+   0.005128
+  ],
+  [
+   "2-Oxocarboxylic acid metabolism",
+   6.38,
+   0.0061
+  ],
+  [
+   "Propanoate metabolism",
+   6.67,
+   0.01042
+  ]
+ ],
+ "breakdown_flags": [
+  [
+   "branched-chain amino acid",
+   "tested, not enriched (up)"
+  ],
+  [
+   "benzoate",
+   "tested, not enriched (up)"
+  ],
+  [
+   "aminobenzoyl-glutamate",
+   "tested, not enriched (up)"
+  ],
+  [
+   "3-phenylpropionic acid",
+   "tested, not enriched (up)"
+  ]
+ ]
+}
