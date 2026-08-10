@@ -1,0 +1,64 @@
+{
+ "brite_total_genes": 310,
+ "kegg_all_genes": 2296,
+ "kegg_transporter_genes": 219,
+ "tcdb_total_genes": 427,
+ "func_search_per_kw": {
+  "transporter": {
+   "total_matching": 244,
+   "kept": 241
+  },
+  "permease": {
+   "total_matching": 86,
+   "kept": 86
+  },
+  "\"ABC transporter\"": {
+   "total_matching": 86,
+   "kept": 84
+  },
+  "symporter": {
+   "total_matching": 26,
+   "kept": 24
+  },
+  "antiporter": {
+   "total_matching": 15,
+   "kept": 15
+  },
+  "porin": {
+   "total_matching": 16,
+   "kept": 14
+  },
+  "\"TonB-dependent\"": {
+   "total_matching": 62,
+   "kept": 62
+  },
+  "channel": {
+   "total_matching": 47,
+   "kept": 43
+  },
+  "efflux": {
+   "total_matching": 70,
+   "kept": 59
+  },
+  "exporter": {
+   "total_matching": 15,
+   "kept": 14
+  },
+  "\"transport system\"": {
+   "total_matching": 56,
+   "kept": 56
+  },
+  "uptake": {
+   "total_matching": 22,
+   "kept": 18
+  },
+  "importer": {
+   "total_matching": 0,
+   "kept": 0
+  }
+ },
+ "func_transporter_genes": 415,
+ "union_total": 592,
+ "gene_details_returned": 592,
+ "gene_details_not_found": []
+}

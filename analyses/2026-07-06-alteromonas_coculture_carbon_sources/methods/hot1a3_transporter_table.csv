@@ -1,0 +1,533 @@
+system_id,locus_tags,gene_names,n_genes,KO_ids,component_roles,substrate_call,resolution_level,confidence_flag,source,substrate_evidence,substrate_options,importer_or_exporter,organic_or_inorganic,gene_categories
+HOT1A3_TS001,ACZ81_00080,trkH,1,kegg.orthology:K03498,-,potassium,specific_compound,inferred,kegg_ko_keyword,"trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS002,ACZ81_00085,trkA,1,kegg.orthology:K03499,SBP,potassium,specific_compound,inferred,kegg_ko_keyword,"trkA, ktrA, ktrC; trk/ktr system potassium uptake protein",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS003,ACZ81_00110,dprA,1,kegg.orthology:K04096,-,unresolved,unresolved,none,,smf; DNA processing protein,,importer,unknown,Replication and repair
+HOT1A3_TS004,ACZ81_00295,,1,,SBP,phosphate,specific_compound,inferred,function_description,"COG0226 ABC-type phosphate transport system, periplasmic component",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS005,ACZ81_00360,cyc,1,kegg.orthology:K02277,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"coxD, ctaF; cytochrome c oxidase subunit IV [EC:7.1.1.9]",,non_transporter,unknown,Energy production
+HOT1A3_TS006,ACZ81_00380,nhaC,1,kegg.orthology:K03315,-,unresolved,unresolved,none,,"nhaC; Na+:H+ antiporter, NhaC family",,importer,unknown,Energy production
+HOT1A3_TS007,ACZ81_00385,cudT,1,kegg.orthology:K03451,-,betaine/carnitine,multi_substrate,confident,kegg_ko,"TC.BCT; betaine/carnitine transporter, BCCT family",betaine; carnitine,importer,organic,Inorganic ion transport
+HOT1A3_TS008,ACZ81_00430,,1,kegg.orthology:K16088,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,"TC.FEV.OM1, fhuE, fpvA, fptA; outer-membrane receptor for ferric coprogen and ferric-rhodotorulic acid",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS009,ACZ81_00470,,1,,-,serine/threonine,multi_substrate,inferred,product,threonine/serine exporter family protein,serine; threonine,exporter,organic,Unknown
+HOT1A3_TS010,ACZ81_00580;ACZ81_00585;ACZ81_00590,;sfuB;,3,kegg.orthology:K02012;kegg.orthology:K02011;kegg.orthology:K02010,SBP;PERM;ATP,iron(III),specific_compound,confident,kegg_ko,"afuA, fbpA; iron(III) transport system substrate-binding protein",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS011,ACZ81_00615,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS012,ACZ81_00630,cmpX,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS013,ACZ81_00640,mgtE,1,kegg.orthology:K06213,-,magnesium,specific_compound,confident,kegg_ko,mgtE; magnesium transporter,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS014,ACZ81_00660,nhaP,1,kegg.orthology:K03316,-,unresolved,unresolved,none,,"nhaP, nhaS1, nhaS2; Na+:H+ antiporter",,importer,unknown,Inorganic ion transport
+HOT1A3_TS015,ACZ81_00685,argP,1,kegg.orthology:K05596,-,unresolved,unresolved,none,,"argP, iciA; LysR family transcriptional regulator, arginine and lysine transport system/DNA replication regulator",,importer,unknown,Transcription
+HOT1A3_TS016,ACZ81_00690,argO,1,kegg.orthology:K06895,PERM,lysine,specific_compound,inferred,kegg_ko_keyword,"lysE, argO; L-lysine exporter family protein LysE/ArgO",,exporter,organic,Unknown
+HOT1A3_TS017,ACZ81_00695,sugE,1,kegg.orthology:K11741,-,unresolved,unresolved,none,,sugE; quaternary ammonium compound-resistance protein SugE,,importer,unknown,Inorganic ion transport
+HOT1A3_TS018,ACZ81_00710;ACZ81_00715,acrA;ttgB,2,kegg.orthology:K03585;kegg.orthology:K18138,-;PERM,unresolved,unresolved,none,,"acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS019,ACZ81_00775,gstA,1,kegg.orthology:K00799,-,unresolved,unresolved,none,,"GST, gst; glutathione S-transferase [EC:2.5.1.18]",,importer,unknown,Post-translational modification
+HOT1A3_TS020,ACZ81_00790,mgtE,1,kegg.orthology:K06213,-,magnesium,specific_compound,confident,kegg_ko,mgtE; magnesium transporter,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS021,ACZ81_00795,rarD,1,kegg.orthology:K05786,-,unresolved,unresolved,none,,rarD; chloramphenicol-sensitive protein RarD,,importer,unknown,Unknown
+HOT1A3_TS022,ACZ81_00870,,1,kegg.orthology:K02027,SBP,sugar,broad_class,confident,kegg_ko,ABC.MS.S; multiple sugar transport system substrate-binding protein,,importer,organic,Carbohydrate metabolism
+HOT1A3_TS023,ACZ81_00930,yegD,1,kegg.orthology:K04046,-,unresolved,unresolved,none,,yegD; hypothetical chaperone protein,,importer,unknown,Post-translational modification
+HOT1A3_TS024,ACZ81_00945,yajR,1,,PERM,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS025,ACZ81_00985,sglT,1,kegg.orthology:K03307,-,The Solute:Sodium Symporter (SSS),specific_compound,inferred,tcdb_family,The Solute:Sodium Symporter (SSS) Family,,importer,inorganic,Unknown
+HOT1A3_TS026,ACZ81_01010,,1,kegg.orthology:K03307,-,The Solute:Sodium Symporter (SSS),specific_compound,inferred,tcdb_family,The Solute:Sodium Symporter (SSS) Family,,importer,inorganic,Unknown
+HOT1A3_TS027,ACZ81_01015,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS028,ACZ81_01020,glpK,1,kegg.orthology:K00864,-,glycerol,specific_compound,inferred,reclassified: enzyme / biosynthesis (not a membrane solute transporter),Key enzyme in the regulation of glycerol uptake and metabolism. Catalyzes the phosphorylation of glycerol to yield sn- glycerol 3-phosphate,,non_transporter,organic,Energy production
+HOT1A3_TS029,ACZ81_01130,mreB,1,kegg.orthology:K03569,-,unresolved,unresolved,none,,mreB; rod shape-determining protein MreB and related proteins,,importer,unknown,Cell cycle and division
+HOT1A3_TS030,ACZ81_01135,mreC,1,kegg.orthology:K03570,-,unresolved,unresolved,none,,mreC; rod shape-determining protein MreC,,importer,unknown,Cell wall and membrane
+HOT1A3_TS031,ACZ81_01140,mreD,1,kegg.orthology:K03571,-,unresolved,unresolved,none,,mreD; rod shape-determining protein MreD,,importer,unknown,Cell wall and membrane
+HOT1A3_TS032,ACZ81_01375,czcA,1,kegg.orthology:K15726,PERM,unresolved,unresolved,none,,"czcA, cusA, cnrA; heavy metal efflux system protein",,exporter,unknown,Inorganic ion transport
+HOT1A3_TS033,ACZ81_01380,czcB,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS034,ACZ81_01385,czcC,1,kegg.orthology:K15725,-,unresolved,unresolved,none,,"czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS035,ACZ81_01515,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS036,ACZ81_01525,,1,,-,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Carbohydrate metabolism
+HOT1A3_TS037,ACZ81_01540,,1,,-,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS038,ACZ81_01580,,1,kegg.orthology:K05820,PERM,3-phenylpropionic acid,specific_compound,inferred,kegg_ko_keyword,"hcaT; MFS transporter, PPP family, 3-phenylpropionic acid transporter",,importer,organic,Amino acid metabolism
+HOT1A3_TS039,ACZ81_01730,nhaP,1,kegg.orthology:K03316,-,unresolved,unresolved,none,,"nhaP, nhaS1, nhaS2; Na+:H+ antiporter",,importer,unknown,Inorganic ion transport
+HOT1A3_TS040,ACZ81_01830,amtB,1,kegg.orthology:K03320,-,ammonium,specific_compound,confident,kegg_ko,"amt, AMT, MEP; ammonium transporter, Amt family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS041,ACZ81_01865;ACZ81_01870,;,2,kegg.orthology:K21136,-;PERM,unresolved,unresolved,none,,"triA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS042,ACZ81_01940,,1,,-,unresolved,unresolved,none,,TorF family putative porin,,importer,unknown,Unknown
+HOT1A3_TS043,ACZ81_01975,pilQ,1,kegg.orthology:K02507,-,unresolved,unresolved,none,,hofQ; protein transport protein HofQ,,importer,unknown,Intracellular trafficking
+HOT1A3_TS044,ACZ81_02120;ACZ81_02125,pvdR;macB,2,kegg.orthology:K02005;kegg.orthology:K02003,-;ATP,unresolved,unresolved,none,,ABC.CD.TX; HlyD family secretion protein,,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS045,ACZ81_02150,secB,1,kegg.orthology:K03071,-,unresolved,unresolved,none,,secB; preprotein translocase subunit SecB,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS046,ACZ81_02185,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS047,ACZ81_02215,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor domain-containing protein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS048,ACZ81_02250,tatA,1,kegg.orthology:K03116,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),tatA; sec-independent protein translocase protein TatA,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS049,ACZ81_02255,tatB,1,kegg.orthology:K03117,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),tatB; sec-independent protein translocase protein TatB,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS050,ACZ81_02260,tatC,1,kegg.orthology:K03118,-,arginine,specific_compound,inferred,reclassified: protein-export/secretion (not a solute importer),twin-arginine translocase subunit TatC,,non_transporter,organic,Intracellular trafficking
+HOT1A3_TS051,ACZ81_02315,nhaA,1,kegg.orthology:K03313,-,sodium,specific_compound,inferred,function_description,Na(+)/H(+) antiporter that extrudes sodium in exchange for external protons,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS052,ACZ81_02410,mleN,1,,-,unresolved,unresolved,none,,Na+/H+ antiporter NhaC family protein,,importer,unknown,Energy production
+HOT1A3_TS053,ACZ81_02420,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS054,ACZ81_02460;ACZ81_02465,;,2,kegg.orthology:K02030,-;SBP,phosphate,specific_compound,inferred,function_description,phosphate-selective porin O and P,,importer,inorganic,Amino acid metabolism;Inorganic ion transport
+HOT1A3_TS055,ACZ81_02475,,1,,-,unresolved,unresolved,none,,NRAMP family divalent metal transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS056,ACZ81_02510,,1,kegg.orthology:K09771,-,unresolved,unresolved,none,,TC.SMR3; small multidrug resistance family-3 protein,,exporter,unknown,Unknown
+HOT1A3_TS057,ACZ81_02675,,1,kegg.orthology:K07238,-,zinc,specific_compound,confident,kegg_ko,"TC.ZIP, zupT, ZRT3, ZIP2; zinc transporter, ZIP family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS058,ACZ81_02730,nlpD,1,kegg.orthology:K06194,-,unresolved,unresolved,none,,nlpD; lipoprotein NlpD,,importer,unknown,Cell cycle and division
+HOT1A3_TS059,ACZ81_02820,ptsP,1,kegg.orthology:K08483,-,unresolved,unresolved,none,,ptsI; phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9],,importer,unknown,Signal transduction
+HOT1A3_TS060,ACZ81_02825,,1,kegg.orthology:K07090,-,unresolved,unresolved,none,,K07090; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS061,ACZ81_02855,ampG,1,kegg.orthology:K08218,PERM,peptide,narrow_class,confident,brite_leaf,Peptide-acetyl-CoA transporter (PAT) [TC:2.A.1.25],,importer,organic,Carbohydrate metabolism
+HOT1A3_TS062,ACZ81_02940,,1,kegg.orthology:K08714,-,voltage-gated sodium,specific_compound,confident,kegg_ko,VGSC; voltage-gated sodium channel,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS063,ACZ81_02945,tolC,1,kegg.orthology:K12340,-,unresolved,unresolved,none,,"tolC, bepC, cyaE, raxC, sapF, rsaF, hasF; outer membrane protein",,importer,unknown,Cell wall and membrane
+HOT1A3_TS064,ACZ81_02990,,1,kegg.orthology:K04043,-,unresolved,unresolved,none,,"dnaK, HSPA9; molecular chaperone DnaK",,importer,unknown,Post-translational modification
+HOT1A3_TS065,ACZ81_03055,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Coenzyme metabolism
+HOT1A3_TS066,ACZ81_03115,,1,kegg.orthology:K03321,PERM,sulfate,specific_compound,confident,kegg_ko,"TC.SULP; sulfate permease, SulP family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS067,ACZ81_03160;ACZ81_03165;ACZ81_03170,nrtC;nrtB;nasD,3,kegg.orthology:K15576;kegg.orthology:K15577;kegg.orthology:K15578,SBP;PERM;ATP,nitrate/nitrite,multi_substrate,confident,kegg_ko,"nrtA, nasF, cynA; nitrate/nitrite transport system substrate-binding protein",nitrate; nitrite,importer,inorganic,Inorganic ion transport
+HOT1A3_TS068,ACZ81_03190,btuB,1,kegg.orthology:K16092,-,vitamin B12,specific_compound,confident,kegg_ko,btuB; vitamin B12 transporter,,importer,organic,Coenzyme metabolism
+HOT1A3_TS069,ACZ81_03245;ACZ81_03250,;acrF,2,kegg.orthology:K03585;kegg.orthology:K18138,-;PERM,unresolved,unresolved,none,,"acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS070,ACZ81_03255,,1,,SBP,phosphate,specific_compound,inferred,function_description,Phosphate ABC transporter substrate-binding protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS071,ACZ81_03335,benE,1,kegg.orthology:K05782,-,benzoate,specific_compound,confident,kegg_ko,benE; benzoate membrane transport protein,,importer,organic,Secondary metabolites
+HOT1A3_TS072,ACZ81_03365,pstS,1,kegg.orthology:K02040,SBP,phosphate,specific_compound,confident,kegg_ko,pstS; phosphate transport system substrate-binding protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS073,ACZ81_03375,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor domain-containing protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS074,ACZ81_03385,,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS075,ACZ81_03390,,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS076,ACZ81_03395,,1,kegg.orthology:K03559,-,unresolved,unresolved,none,,exbD; biopolymer transport protein ExbD,,importer,unknown,Intracellular trafficking
+HOT1A3_TS077,ACZ81_03400,,1,kegg.orthology:K03832,-,unresolved,unresolved,none,,tonB; periplasmic protein TonB,,importer,unknown,Cell wall and membrane
+HOT1A3_TS078,ACZ81_03420,,1,kegg.orthology:K01897,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]",,non_transporter,unknown,Lipid metabolism
+HOT1A3_TS079,ACZ81_03515,lptD,1,kegg.orthology:K04744,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),"lptD, imp, ostA; LPS-assembly protein",,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS080,ACZ81_03535,dsbC,1,kegg.orthology:K03981,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),dsbC; thiol:disulfide interchange protein DsbC [EC:5.3.4.1],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS081,ACZ81_03640,,1,kegg.orthology:K07243,PERM,high-affinity iron,specific_compound,confident,kegg_ko,"FTR, FTH1, efeU; high-affinity iron transporter",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS082,ACZ81_03690,sspA,1,kegg.orthology:K03599,-,unresolved,unresolved,none,,"sspA, mglA; stringent starvation protein A",,importer,unknown,Post-translational modification
+HOT1A3_TS083,ACZ81_03715,mgtE,1,kegg.orthology:K06213,-,magnesium,specific_compound,confident,kegg_ko,mgtE; magnesium transporter,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS084,ACZ81_03720,ptsO,1,kegg.orthology:K08485,-,unresolved,unresolved,none,,"ptsO, npr; phosphocarrier protein NPr",,importer,unknown,Carbohydrate metabolism
+HOT1A3_TS085,ACZ81_03730,ptsN,1,kegg.orthology:K02806,-,unresolved,unresolved,none,,ptsN; nitrogen PTS system EIIA component [EC:2.7.1.-],,importer,unknown,Carbohydrate metabolism
+HOT1A3_TS086,ACZ81_03745,lptB,1,kegg.orthology:K06861,ATP,saccharide,broad_class,confident,brite_leaf,Lipopolysaccharide transporter,,exporter,organic,Unknown
+HOT1A3_TS087,ACZ81_03750,lptA,1,kegg.orthology:K09774,-,unresolved,unresolved,none,,lptA; lipopolysaccharide export system protein LptA,,exporter,unknown,Unknown
+HOT1A3_TS088,ACZ81_03755,lptC,1,kegg.orthology:K11719,-,unresolved,unresolved,none,,lptC; lipopolysaccharide export system protein LptC,,exporter,unknown,Unknown
+HOT1A3_TS089,ACZ81_03770,yrbG,1,kegg.orthology:K07301,-,calcium,specific_compound,inferred,product,calcium/sodium antiporter,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS090,ACZ81_03775;ACZ81_03780;ACZ81_03785;ACZ81_03790;ACZ81_03795,mlaF;mlaE;mlaD;ttg2D;yrbB,5,kegg.orthology:K02065;kegg.orthology:K02066;kegg.orthology:K02067;kegg.orthology:K07323;kegg.orthology:K07122,ATP;PERM;SBP;SBP;SBP,phospholipid/cholesterol/gamma-HCH,multi_substrate,confident,kegg_ko,"mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein",phospholipid; cholesterol; gamma-hch,importer,organic,Secondary metabolites;Unknown
+HOT1A3_TS091,ACZ81_03890,secD,1,kegg.orthology:K12257,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secDF; SecD/SecF fusion protein,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS092,ACZ81_03895,nhaP2,1,kegg.orthology:K11105,-,potassium,specific_compound,inferred,kegg_ko_keyword,"cvrA, nhaP2; potassium/hydrogen antiporter",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS093,ACZ81_03900,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS094,ACZ81_03905,ywfM,1,kegg.orthology:K03298,-,unresolved,unresolved,none,,"TC.DME; drug/metabolite transporter, DME family",,importer,unknown,Amino acid metabolism
+HOT1A3_TS095,ACZ81_03920,,1,kegg.orthology:K01999,SBP,branched-chain amino acid,narrow_class,confident,kegg_ko,livK; branched-chain amino acid transport system substrate-binding protein,leucine; isoleucine; valine,importer,organic,Amino acid metabolism
+HOT1A3_TS096,ACZ81_03990;ACZ81_03995,;,2,kegg.orthology:K03585;kegg.orthology:K03296,-;PERM,unresolved,unresolved,none,,"acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS097,ACZ81_04000,nodT,1,kegg.orthology:K18139,-,unresolved,unresolved,none,,"oprM, emhC, ttgC, cusC, adeK, smeF, mtrE, cmeC, gesC; outer membrane protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS098,ACZ81_04030;ACZ81_04035;ACZ81_04040,pstC;pstA;pstB,3,kegg.orthology:K02037;kegg.orthology:K02038;kegg.orthology:K02036,PERM;PERM;ATP,phosphate,specific_compound,confident,kegg_ko,pstC; phosphate transport system permease protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS099,ACZ81_04045,phoU,1,kegg.orthology:K02039,-,phosphate,specific_compound,confident,kegg_ko,phoU; phosphate transport system protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS100,ACZ81_04050,pitA,1,kegg.orthology:K03306,PERM,inorganic phosphate,specific_compound,confident,kegg_ko,"TC.PIT; inorganic phosphate transporter, PiT family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS101,ACZ81_04155,sstT,1,kegg.orthology:K07862,-,serine/threonine,multi_substrate,confident,kegg_ko,sstT; serine/threonine transporter,serine; threonine,importer,organic,Amino acid metabolism
+HOT1A3_TS102,ACZ81_04190,,1,kegg.orthology:K07274,-,unresolved,unresolved,none,,"mipA, ompV; MipA family protein",,importer,unknown,Cell wall and membrane
+HOT1A3_TS103,ACZ81_04210,ybiT,1,,ATP,unresolved,unresolved,none,,ABC-F family ATPase,,importer,unknown,Unknown
+HOT1A3_TS104,ACZ81_04225,,1,kegg.orthology:K16052,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,"ynaI, mscMJ; MscS family membrane protein",,importer,inorganic,Cell wall and membrane
+HOT1A3_TS105,ACZ81_RS20765,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS106,ACZ81_04240,,1,kegg.orthology:K16089,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,"TC.FEV.OM2, cirA, cfrA, hmuR; outer membrane receptor for ferrienterochelin and colicins",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS107,ACZ81_04250;ACZ81_04255,rbbA;yhhJ,2,kegg.orthology:K13926;kegg.orthology:K01992,ATP;PERM,unresolved,unresolved,none,,rbbA; ribosome-dependent ATPase,,exporter,unknown,Defense mechanisms
+HOT1A3_TS108,ACZ81_04260,,1,kegg.orthology:K07552,PERM,unresolved,unresolved,none,,"bcr, tcaB; MFS transporter, DHA1 family, multidrug resistance protein",,exporter,unknown,Amino acid metabolism
+HOT1A3_TS109,ACZ81_04290,czcC,1,kegg.orthology:K15725,-,unresolved,unresolved,none,,"czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS110,ACZ81_04295;ACZ81_04300,czcB;czcA,2,kegg.orthology:K15727;kegg.orthology:K15726,-;PERM,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane;Inorganic ion transport
+HOT1A3_TS111,ACZ81_04320;ACZ81_04325,;,2,kegg.orthology:K03296,-;PERM,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS112,ACZ81_04350,,1,kegg.orthology:K07112,-,unresolved,unresolved,none,,K07112; uncharacterized protein,,importer,unknown,Unknown
+HOT1A3_TS113,ACZ81_04355,,1,kegg.orthology:K07112,-,unresolved,unresolved,none,,K07112; uncharacterized protein,,importer,unknown,Unknown
+HOT1A3_TS114,ACZ81_04365,,1,kegg.orthology:K07090,-,unresolved,unresolved,none,,K07090; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS115,ACZ81_04470,,1,kegg.orthology:K06518,-,unresolved,unresolved,none,,cidA; holin-like protein,,importer,unknown,Unknown
+HOT1A3_TS116,ACZ81_04540,gspA,1,kegg.orthology:K02450,-,unresolved,unresolved,none,,gspA; general secretion pathway protein A,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS117,ACZ81_04545,gspB,1,kegg.orthology:K02451,-,unresolved,unresolved,none,,gspB; general secretion pathway protein B,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS118,ACZ81_04600,recA,1,kegg.orthology:K03553,-,unresolved,unresolved,none,,recA; recombination protein RecA,,importer,unknown,Replication and repair
+HOT1A3_TS119,ACZ81_04605;ACZ81_04610,natA;natB,2,kegg.orthology:K09697;kegg.orthology:K09696,ATP;PERM,sodium,specific_compound,confident,kegg_ko,natA; sodium transport system ATP-binding protein [EC:7.2.2.4],,exporter,inorganic,Energy production
+HOT1A3_TS120,ACZ81_04625,ccmA,1,kegg.orthology:K02193,ATP,heme,specific_compound,inferred,kegg_ko_keyword,ccmA; heme exporter protein A [EC:7.6.2.5],,exporter,organic,Post-translational modification
+HOT1A3_TS121,ACZ81_04630;ACZ81_04635,ccmB;ccmC,2,kegg.orthology:K02194;kegg.orthology:K02195,-;PERM,heme,specific_compound,inferred,kegg_ko_keyword,ccmB; heme exporter protein B,,exporter,organic,Post-translational modification
+HOT1A3_TS122,ACZ81_04640,ccmD,1,kegg.orthology:K02196,-,heme,specific_compound,inferred,kegg_ko_keyword,ccmD; heme exporter protein D,,exporter,organic,Intracellular trafficking
+HOT1A3_TS123,ACZ81_04650,ccmF,1,kegg.orthology:K02198,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),ccmF; cytochrome c-type biogenesis protein CcmF,,non_transporter,unknown,Post-translational modification
+HOT1A3_TS124,ACZ81_04685,dtpT,1,kegg.orthology:K03305,-,oligopeptide,narrow_class,confident,kegg_ko,"TC.POT; proton-dependent oligopeptide transporter, POT family",,importer,organic,Amino acid metabolism
+HOT1A3_TS125,ACZ81_04690;ACZ81_04695;ACZ81_04700,kpsE;kpsT;kpsM,3,kegg.orthology:K10107;kegg.orthology:K09689;kegg.orthology:K09688,PERM;ATP;PERM,saccharide,broad_class,confident,kegg_ko,kpsE; capsular polysaccharide transport system permease protein,,exporter,organic,Carbohydrate metabolism;Cell wall and membrane
+HOT1A3_TS126,ACZ81_04740,,1,kegg.orthology:K02237,-,unresolved,unresolved,none,,comEA; competence protein ComEA,,importer,unknown,Replication and repair
+HOT1A3_TS127,ACZ81_04875,yaeT,1,kegg.orthology:K07277,-,unresolved,unresolved,none,,"SAM50, TOB55, bamA; outer membrane protein insertion porin family",,importer,unknown,Cell wall and membrane
+HOT1A3_TS128,ACZ81_04925,kefB,1,kegg.orthology:K03455,-,unresolved,unresolved,none,,"KEA1_2_3, kefB, kefC; K+:H+ antiporter",,importer,unknown,Inorganic ion transport
+HOT1A3_TS129,ACZ81_05080,fliD,1,kegg.orthology:K02407,-,unresolved,unresolved,none,,fliD; flagellar hook-associated protein 2,,importer,unknown,Cell motility
+HOT1A3_TS130,ACZ81_05170,fliF,1,kegg.orthology:K02409,-,unresolved,unresolved,none,,fliF; flagellar M-ring protein FliF,,importer,unknown,Cell motility
+HOT1A3_TS131,ACZ81_05180;ACZ81_05185,fliH;fliI,2,kegg.orthology:K02411;kegg.orthology:K02412,-;ATP,unresolved,unresolved,none,,fliH; flagellar assembly protein FliH,,exporter,unknown,Cell motility
+HOT1A3_TS132,ACZ81_05210,fliN,1,kegg.orthology:K02417,-,unresolved,unresolved,none,,fliN; flagellar motor switch protein FliN,,importer,unknown,Cell motility
+HOT1A3_TS133,ACZ81_05215,fliO,1,kegg.orthology:K02418,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"fliO, fliZ; flagellar protein FliO/FliZ",,non_transporter,unknown,Cell motility
+HOT1A3_TS134,ACZ81_05220,fliP,1,kegg.orthology:K02419,-,unresolved,unresolved,none,,fliP; flagellar biosynthesis protein FliP,,exporter,unknown,Cell motility
+HOT1A3_TS135,ACZ81_05225,fliQ,1,kegg.orthology:K02420,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),fliQ; flagellar biosynthesis protein FliQ,,non_transporter,unknown,Cell motility
+HOT1A3_TS136,ACZ81_05230,fliR,1,kegg.orthology:K02421,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),fliR; flagellar biosynthesis protein FliR,,non_transporter,unknown,Cell motility
+HOT1A3_TS137,ACZ81_05235,flhB,1,kegg.orthology:K02401,-,unresolved,unresolved,none,,flhB; flagellar biosynthesis protein FlhB,,exporter,unknown,Cell motility
+HOT1A3_TS138,ACZ81_05250,flhA,1,kegg.orthology:K02400,-,unresolved,unresolved,none,,flhA; flagellar biosynthesis protein FlhA,,exporter,unknown,Cell motility
+HOT1A3_TS139,ACZ81_05355,,1,kegg.orthology:K03321,PERM,sulfate,specific_compound,confident,kegg_ko,"TC.SULP; sulfate permease, SulP family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS140,ACZ81_05370,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor domain-containing protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS141,ACZ81_05425,oadG,1,kegg.orthology:K01573,-,sodium,specific_compound,inferred,reclassified: enzyme / biosynthesis (not a membrane solute transporter),Lyase and sodium transporter,,non_transporter,inorganic,Energy production
+HOT1A3_TS142,ACZ81_05430,oadA,1,kegg.orthology:K01571,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),oadA; oxaloacetate decarboxylase (Na+ extruding) subunit alpha [EC:7.2.4.2],,non_transporter,unknown,Energy production
+HOT1A3_TS143,ACZ81_05435,oadB,1,kegg.orthology:K01572,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),K01572,,non_transporter,unknown,Energy production
+HOT1A3_TS144,ACZ81_05440;ACZ81_05445;ACZ81_05450;ACZ81_05455;ACZ81_05460,dppF;sapD;sapC;dppB;sapA,5,kegg.orthology:K12372;kegg.orthology:K02031;kegg.orthology:K12370;kegg.orthology:K12369;kegg.orthology:K12368,ATP;ATP;PERM;PERM;SBP,dipeptide,narrow_class,confident,kegg_ko,dppF; dipeptide transport system ATP-binding protein,,importer,organic,Amino acid metabolism;Defense mechanisms;Inorganic ion transport
+HOT1A3_TS145,ACZ81_05525,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS146,ACZ81_05530,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS147,ACZ81_05565,,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS148,ACZ81_05570,exbB2,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS149,ACZ81_05575,exbD2,1,kegg.orthology:K03559,-,unresolved,unresolved,none,,exbD; biopolymer transport protein ExbD,,importer,unknown,Intracellular trafficking
+HOT1A3_TS150,ACZ81_05580,tonB2,1,kegg.orthology:K03832,-,unresolved,unresolved,none,,tonB; periplasmic protein TonB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS151,ACZ81_05600,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS152,ACZ81_05610,pnuC,1,kegg.orthology:K03811,-,nicotinamide mononucleotide,specific_compound,confident,kegg_ko,pnuC; nicotinamide mononucleotide transporter,,importer,organic,Coenzyme metabolism
+HOT1A3_TS153,ACZ81_05640,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS154,ACZ81_05675,yiaV,1,kegg.orthology:K03543,-,unresolved,unresolved,none,,"emrA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Defense mechanisms
+HOT1A3_TS155,ACZ81_05695,cstA,1,kegg.orthology:K06200,-,unresolved,unresolved,none,,cstA; carbon starvation protein,,importer,unknown,Signal transduction
+HOT1A3_TS156,ACZ81_05870,hcaT,1,kegg.orthology:K05820,PERM,3-phenylpropionic acid,specific_compound,inferred,kegg_ko_keyword,"hcaT; MFS transporter, PPP family, 3-phenylpropionic acid transporter",,importer,organic,Amino acid metabolism
+HOT1A3_TS157,ACZ81_05900,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS158,ACZ81_05915,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS159,ACZ81_05935,motY,1,kegg.orthology:K21218,-,unresolved,unresolved,none,,motY; sodium-type flagellar protein MotY,,importer,unknown,Cell wall and membrane
+HOT1A3_TS160,ACZ81_06015,,1,,-,unresolved,unresolved,none,,MATE family efflux transporter,,exporter,unknown,Defense mechanisms
+HOT1A3_TS161,ACZ81_06075,,1,,PERM,carboxylate,broad_class,inferred,function_description,COG0471 Di- and tricarboxylate transporters,,importer,organic,Inorganic ion transport
+HOT1A3_TS162,ACZ81_06100,putP,1,kegg.orthology:K03307,-,proline,specific_compound,inferred,product,sodium/proline symporter PutP,,importer,organic,Amino acid metabolism
+HOT1A3_TS163,ACZ81_06130,,1,kegg.orthology:K07114,-,Ca-activated chloride,specific_compound,confident,kegg_ko,yfbK; Ca-activated chloride channel homolog,,importer,inorganic,Transcription
+HOT1A3_TS164,ACZ81_06135,batA,1,kegg.orthology:K07114,-,Ca-activated chloride,specific_compound,confident,kegg_ko,yfbK; Ca-activated chloride channel homolog,,importer,inorganic,Unknown
+HOT1A3_TS165,ACZ81_06185,yfjD,1,,-,unresolved,unresolved,none,,HlyC/CorC family transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS166,ACZ81_06190,ypjD,1,,PERM,unresolved,unresolved,none,,cytochrome C assembly family protein,,importer,unknown,Unknown
+HOT1A3_TS167,ACZ81_06195,ffh,1,kegg.orthology:K03106,-,unresolved,unresolved,none,,"SRP54, ffh; signal recognition particle subunit SRP54 [EC:3.6.5.4]",,importer,unknown,Intracellular trafficking
+HOT1A3_TS168,ACZ81_06230,,1,kegg.orthology:K18138,PERM,unresolved,unresolved,none,,"acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump",,exporter,unknown,Defense mechanisms
+HOT1A3_TS169,ACZ81_06235;ACZ81_06240,;draA,2,kegg.orthology:K06147,-;ATP,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS170,ACZ81_06275,,1,,-,unresolved,unresolved,none,,trimeric intracellular cation channel family protein,,importer,unknown,Unknown
+HOT1A3_TS171,ACZ81_06415,tolQ,1,kegg.orthology:K03562,-,unresolved,unresolved,none,,tolQ; biopolymer transport protein TolQ,,importer,unknown,Intracellular trafficking
+HOT1A3_TS172,ACZ81_06420,tolR,1,kegg.orthology:K03560,-,unresolved,unresolved,none,,tolR; biopolymer transport protein TolR,,importer,unknown,Intracellular trafficking
+HOT1A3_TS173,ACZ81_06425,tolA,1,kegg.orthology:K03646,-,unresolved,unresolved,none,,tolA; colicin import membrane protein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS174,ACZ81_06430,tolB,1,kegg.orthology:K03641,-,unresolved,unresolved,none,,tolB; TolB protein,,importer,unknown,Intracellular trafficking
+HOT1A3_TS175,ACZ81_06435,pal,1,kegg.orthology:K03640,-,unresolved,unresolved,none,,pal; peptidoglycan-associated lipoprotein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS176,ACZ81_06510,,1,,-,phosphate,specific_compound,inferred,product,OprO/OprP family phosphate-selective porin,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS177,ACZ81_06540,,1,,SBP,phosphate,specific_compound,inferred,function_description,"ABC-type phosphate transport system, periplasmic component",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS178,ACZ81_06560,,1,kegg.orthology:K18138,PERM,unresolved,unresolved,none,,"acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump",,exporter,unknown,Defense mechanisms
+HOT1A3_TS179,ACZ81_06565,,1,,-,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS180,ACZ81_06575,,1,kegg.orthology:K16090,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,fiu; catecholate siderophore receptor,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS181,ACZ81_06590,,1,,PERM,unresolved,unresolved,none,,efflux RND transporter permease subunit,,exporter,unknown,Defense mechanisms
+HOT1A3_TS182,ACZ81_06595,,1,,-,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS183,ACZ81_06605,ymbA,1,kegg.orthology:K09857,-,unresolved,unresolved,none,,pqiC; intermembrane transport lipoprotein PqiC,,importer,unknown,Unknown
+HOT1A3_TS184,ACZ81_06610,pqiB,1,kegg.orthology:K06192,-,unresolved,unresolved,none,,"pqiB, letB; intermembrane transport protein PqiB/LetB",,importer,unknown,Secondary metabolites
+HOT1A3_TS185,ACZ81_06615,pqiA,1,kegg.orthology:K03808,-,unresolved,unresolved,none,,"pqiA, letA; intermembrane transport protein PqiA/LetA",,importer,unknown,Unknown
+HOT1A3_TS186,ACZ81_06635,,1,kegg.orthology:K07301,-,calcium,specific_compound,inferred,product,calcium/sodium antiporter,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS187,ACZ81_06695;ACZ81_06700,;,2,kegg.orthology:K02015;kegg.orthology:K02013,PERM;ATP,iron complex,specific_compound,confident,kegg_ko,ABC.FEV.P; iron complex transport system permease protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS188,ACZ81_06720,ktrA,1,kegg.orthology:K03499,SBP,potassium,specific_compound,inferred,kegg_ko_keyword,"trkA, ktrA, ktrC; trk/ktr system potassium uptake protein",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS189,ACZ81_06725,ktrB,1,kegg.orthology:K03498,-,potassium,specific_compound,inferred,kegg_ko_keyword,"trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS190,ACZ81_06740,atmA,1,kegg.orthology:K06147,ATP,unresolved,unresolved,none,,"ABCB-BAC; ATP-binding cassette, subfamily B, bacterial",,importer,unknown,Defense mechanisms
+HOT1A3_TS191,ACZ81_06840;ACZ81_06845,ybbA;ybbP,2,kegg.orthology:K02003;kegg.orthology:K02004,ATP;PERM,unresolved,unresolved,none,,ABC.CD.A; putative ABC transport system ATP-binding protein,,importer,unknown,Secondary metabolites
+HOT1A3_TS192,ACZ81_06860,tqsA,1,kegg.orthology:K11744,-,unresolved,unresolved,none,,tqsA; AI-2 transport protein TqsA,,importer,unknown,Unknown
+HOT1A3_TS193,ACZ81_06975,bamE,1,kegg.orthology:K06186,-,unresolved,unresolved,none,,"bamE, smpA; outer membrane protein assembly factor BamE",,importer,unknown,Translation
+HOT1A3_TS194,ACZ81_07020,,1,,PERM,gluconate,specific_compound,inferred,function_description,COG2610 H gluconate symporter and related permeases,,importer,organic,Amino acid metabolism
+HOT1A3_TS195,ACZ81_07025,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS196,ACZ81_07045,dnaK,1,kegg.orthology:K04043,-,unresolved,unresolved,none,,"dnaK, HSPA9; molecular chaperone DnaK",,importer,unknown,Post-translational modification
+HOT1A3_TS197,ACZ81_07150,corC,1,kegg.orthology:K06189,-,magnesium,specific_compound,inferred,product,CNNM family magnesium/cobalt transport protein CorC,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS198,ACZ81_07200,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS199,ACZ81_07230,alsT,1,kegg.orthology:K03310,-,glycine,specific_compound,inferred,kegg_ko_keyword,"TC.AGCS; alanine or glycine:cation symporter, AGCS family",,importer,organic,Amino acid metabolism
+HOT1A3_TS200,ACZ81_07395,fnt,1,kegg.orthology:K06212,-,nitrite,specific_compound,inferred,product,formate/nitrite transporter family protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS201,ACZ81_07450,gltP,1,,-,amino acid,broad_class,inferred,product,dicarboxylate/amino acid:cation symporter,,importer,organic,Intracellular trafficking
+HOT1A3_TS202,ACZ81_07475,crr,1,kegg.orthology:K02777,-,sugar,broad_class,inferred,kegg_ko_keyword,crr; sugar PTS system EIIA component [EC:2.7.1.-],,importer,organic,Carbohydrate metabolism
+HOT1A3_TS203,ACZ81_07720,czcA,1,kegg.orthology:K18138,PERM,unresolved,unresolved,none,,"acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump",,exporter,unknown,Defense mechanisms
+HOT1A3_TS204,ACZ81_07725,ttgA,1,,-,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS205,ACZ81_07730,kefC,1,kegg.orthology:K03455,-,unresolved,unresolved,none,,"KEA1_2_3, kefB, kefC; K+:H+ antiporter",,importer,unknown,Inorganic ion transport
+HOT1A3_TS206,ACZ81_07735,ywrO,1,kegg.orthology:K11748,-,unresolved,unresolved,none,,kefG; glutathione-regulated potassium-efflux system ancillary protein KefG,,exporter,unknown,Unknown
+HOT1A3_TS207,ACZ81_07785,uraH,1,kegg.orthology:K07127,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"uraH, pucM, hiuH; 5-hydroxyisourate hydrolase [EC:3.5.2.17]",,non_transporter,unknown,Unknown
+HOT1A3_TS208,ACZ81_07825,yjcD,1,kegg.orthology:K06901,PERM,adenine/guanine/hypoxanthine,multi_substrate,confident,kegg_ko,"pbuG, azgA, ghxP, ghxQ, adeQ; adenine/guanine/hypoxanthine permease",adenine; guanine; hypoxanthine,importer,organic,Unknown
+HOT1A3_TS209,ACZ81_07855,,1,,PERM,nucleoside,narrow_class,inferred,product,purine nucleoside permease,,importer,organic,Nucleotide metabolism
+HOT1A3_TS210,ACZ81_07860,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS211,ACZ81_07865,xanQ,1,kegg.orthology:K03458,PERM,unresolved,unresolved,none,,"TC.NCS2; nucleobase:cation symporter-2, NCS2 family",,importer,unknown,Nucleotide metabolism
+HOT1A3_TS212,ACZ81_07890,,1,,-,unresolved,unresolved,none,,sulfite exporter TauE/SafE family protein,,exporter,unknown,Unknown
+HOT1A3_TS213,ACZ81_07920,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS214,ACZ81_07975,,1,kegg.orthology:K20920,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),vpsM; polysaccharide biosynthesis protein VpsM,,non_transporter,unknown,Unknown
+HOT1A3_TS215,ACZ81_07980,gumB,1,kegg.orthology:K20988,-,unresolved,unresolved,none,,vpsN; polysaccharide biosynthesis/export protein VpsN,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS216,ACZ81_07985,,1,kegg.orthology:K16554,-,saccharide,broad_class,confident,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),"exoP, vpsO; polysaccharide biosynthesis transport protein [EC:2.7.10.3]",,non_transporter,organic,Cell cycle and division
+HOT1A3_TS217,ACZ81_08165,lolC,1,kegg.orthology:K09808,PERM,unresolved,unresolved,none,,lolC_E_F; lipoprotein-releasing system permease protein,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS218,ACZ81_08180,,1,,PERM,unresolved,unresolved,none,,energy-coupling factor ABC transporter permease,,importer,unknown,Unknown
+HOT1A3_TS219,ACZ81_08220,,1,,-,sugar,broad_class,inferred,function_description,Sugar (and other) transporter,,importer,organic,Carbohydrate metabolism
+HOT1A3_TS220,ACZ81_08240,,1,,-,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS221,ACZ81_08330,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS222,ACZ81_08345,,1,,-,unresolved,unresolved,none,,Na+/H+ antiporter NhaC family protein,,importer,unknown,Energy production
+HOT1A3_TS223,ACZ81_08415;ACZ81_08420,lolD;lolE,2,kegg.orthology:K09810;kegg.orthology:K09808,ATP;PERM,unresolved,unresolved,none,,lolD; lipoprotein-releasing system ATP-binding protein [EC:7.6.2.-],,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS224,ACZ81_08425,gltT,1,kegg.orthology:K03309,-,amino acid,broad_class,inferred,kegg_ko_keyword,"TC.DAACS; dicarboxylate/amino acid:cation (Na+ or H+) symporter, DAACS family",,importer,organic,Intracellular trafficking
+HOT1A3_TS225,ACZ81_08480,,1,kegg.orthology:K00799,-,unresolved,unresolved,none,,"GST, gst; glutathione S-transferase [EC:2.5.1.18]",,importer,unknown,Post-translational modification
+HOT1A3_TS226,ACZ81_08690,,1,kegg.orthology:K03457,PERM,unresolved,unresolved,none,,"TC.NCS1; nucleobase:cation symporter-1, NCS1 family",,importer,unknown,Nucleotide metabolism
+HOT1A3_TS227,ACZ81_RS20815,ecnAB,1,kegg.orthology:K16348,-,unresolved,unresolved,none,,ecnB; entericidin B,,importer,unknown,Unknown
+HOT1A3_TS228,ACZ81_08715,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS229,ACZ81_08720,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS230,ACZ81_08850,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS231,ACZ81_08900,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS232,ACZ81_08915;ACZ81_08920;ACZ81_08925,ynjB;ynjC;ynjD,3,kegg.orthology:K05777;kegg.orthology:K05778;kegg.orthology:K05779,SBP;PERM;ATP,unresolved,unresolved,none,,ynjB; putative thiamine transport system substrate-binding protein,,importer,unknown,Inorganic ion transport;Unknown
+HOT1A3_TS233,ACZ81_08980,,1,kegg.orthology:K11748,-,unresolved,unresolved,none,,kefG; glutathione-regulated potassium-efflux system ancillary protein KefG,,exporter,unknown,Unknown
+HOT1A3_TS234,ACZ81_09005;ACZ81_09010;ACZ81_09015;ACZ81_09020,;;;drrA,4,kegg.orthology:K02014;kegg.orthology:K01992;kegg.orthology:K01992;kegg.orthology:K01990,-;PERM;PERM;ATP,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Defense mechanisms;Inorganic ion transport;Unknown
+HOT1A3_TS235,ACZ81_09090,betT,1,kegg.orthology:K02168,-,choline/glycine/proline betaine,multi_substrate,confident,kegg_ko,"betT, betS; choline/glycine/proline betaine transport protein",choline; glycine; proline betaine,importer,organic,Cell wall and membrane
+HOT1A3_TS236,ACZ81_09095,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Coenzyme metabolism
+HOT1A3_TS237,ACZ81_09325,lptE,1,kegg.orthology:K03643,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),"lptE, rlpB; LPS-assembly lipoprotein",,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS238,ACZ81_09390,secG,1,kegg.orthology:K03075,-,unresolved,unresolved,none,,secG; preprotein translocase subunit SecG,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS239,ACZ81_09445,putP,1,kegg.orthology:K03307,-,proline,specific_compound,inferred,product,sodium/proline symporter PutP,,importer,organic,Amino acid metabolism
+HOT1A3_TS240,ACZ81_09460,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS241,ACZ81_09595,yhjX,1,,PERM,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS242,ACZ81_09610,yhjX,1,,PERM,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS243,ACZ81_09620,,1,kegg.orthology:K03832,-,unresolved,unresolved,none,,tonB; periplasmic protein TonB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS244,ACZ81_09650,cysZ,1,kegg.orthology:K06203,-,sulfate,specific_compound,inferred,product,sulfate transporter CysZ,,importer,inorganic,Amino acid metabolism
+HOT1A3_TS245,ACZ81_09675,comA,1,kegg.orthology:K02238,-,unresolved,unresolved,none,,comEC; competence protein ComEC,,importer,unknown,Unknown
+HOT1A3_TS246,ACZ81_09680,msbA,1,kegg.orthology:K11085,ATP,lipid,broad_class,inferred,product,lipid A export permease/ATP-binding protein MsbA,,exporter,organic,Defense mechanisms
+HOT1A3_TS247,ACZ81_09705,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Amino acid metabolism
+HOT1A3_TS248,ACZ81_09815,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS249,ACZ81_09825,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Coenzyme metabolism
+HOT1A3_TS250,ACZ81_09860,,1,kegg.orthology:K16211,PERM,maltose/moltooligosaccharide,multi_substrate,confident,kegg_ko,"malY, malT; maltose/moltooligosaccharide transporter",maltose; moltooligosaccharide,importer,organic,Carbohydrate metabolism
+HOT1A3_TS251,ACZ81_10200,,1,kegg.orthology:K03308,-,sodium,specific_compound,inferred,product,sodium-dependent transporter,,importer,inorganic,Unknown
+HOT1A3_TS252,ACZ81_10205,nhaC,1,kegg.orthology:K03315,-,unresolved,unresolved,none,,"nhaC; Na+:H+ antiporter, NhaC family",,importer,unknown,Energy production
+HOT1A3_TS253,ACZ81_10235,,1,kegg.orthology:K07003,PERM,unresolved,unresolved,none,,K07003; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS254,ACZ81_10260,uup,1,kegg.orthology:K15738,ATP,unresolved,unresolved,none,,uup; ABC transport system ATP-binding/permease protein,,importer,unknown,Unknown
+HOT1A3_TS255,ACZ81_10345,ybaL,1,kegg.orthology:K03455,-,unresolved,unresolved,none,,"KEA1_2_3, kefB, kefC; K+:H+ antiporter",,importer,unknown,Inorganic ion transport
+HOT1A3_TS256,ACZ81_10365,ccoN,1,kegg.orthology:K00404,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),ccoN; cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9],,non_transporter,unknown,Energy production
+HOT1A3_TS257,ACZ81_10370,ccoO,1,kegg.orthology:K00405,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),ccoO; cytochrome c oxidase cbb3-type subunit II,,non_transporter,unknown,Energy production
+HOT1A3_TS258,ACZ81_10375,ccoQ,1,kegg.orthology:K00407,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),ccoQ; cytochrome c oxidase cbb3-type subunit IV,,non_transporter,unknown,Post-translational modification
+HOT1A3_TS259,ACZ81_10380,ccoP,1,kegg.orthology:K00406,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),ccoP; cytochrome c oxidase cbb3-type subunit III,,non_transporter,unknown,Energy production
+HOT1A3_TS260,ACZ81_10390,ccoI,1,kegg.orthology:K01533,ATP,unresolved,unresolved,none,,copB; P-type Cu2+ transporter [EC:7.2.2.9],,importer,unknown,Inorganic ion transport
+HOT1A3_TS261,ACZ81_10400,braZ,1,kegg.orthology:K09792,-,unresolved,unresolved,none,,K09792; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS262,ACZ81_10440,,1,,-,lysine,specific_compound,inferred,function_description,Lysine exporter protein (LysE YggA),,exporter,organic,Amino acid metabolism
+HOT1A3_TS263,ACZ81_10550,yccA,1,kegg.orthology:K19416,-,unresolved,unresolved,none,,yccA; modulator of FtsH protease,,importer,unknown,Unknown
+HOT1A3_TS264,ACZ81_10585,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor plug domain-containing protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS265,ACZ81_10595,fluC,1,kegg.orthology:K06199,-,unresolved,unresolved,none,,"crcB, FEX; fluoride exporter",,exporter,unknown,Cell cycle and division
+HOT1A3_TS266,ACZ81_10610,ftsK,1,kegg.orthology:K03466,ATP,unresolved,unresolved,none,,"ftsK, spoIIIE; DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family",,importer,unknown,Cell cycle and division
+HOT1A3_TS267,ACZ81_10735,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS268,ACZ81_10745,bamC,1,kegg.orthology:K07287,-,unresolved,unresolved,none,,bamC; outer membrane protein assembly factor BamC,,importer,unknown,Cell wall and membrane
+HOT1A3_TS269,ACZ81_10765,perM,1,kegg.orthology:K03548,PERM,unresolved,unresolved,none,,perM; putative permease,,importer,unknown,Unknown
+HOT1A3_TS270,ACZ81_10880,mdtK,1,kegg.orthology:K03327,-,unresolved,unresolved,none,,"SLC47A, MATE, DTX; MATE family, multidrug and toxin extrusion protein",,exporter,unknown,Defense mechanisms
+HOT1A3_TS271,ACZ81_11100,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS272,ACZ81_11115,,1,,PERM,unresolved,unresolved,none,,efflux RND transporter permease subunit,,exporter,unknown,Defense mechanisms
+HOT1A3_TS273,ACZ81_11120,,1,,-,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane
+HOT1A3_TS274,ACZ81_11170,fur,1,kegg.orthology:K03711,-,unresolved,unresolved,none,,"fur, zur, furB; Fur family transcriptional regulator, ferric uptake regulator",,importer,unknown,Transcription
+HOT1A3_TS275,ACZ81_11205;ACZ81_11210,;mdtB,2,kegg.orthology:K03585;kegg.orthology:K03296,-;PERM,unresolved,unresolved,none,,"acrA, mexA, adeI, smeD, mtrC, cmeA; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS276,ACZ81_11215,,1,kegg.orthology:K03296,PERM,unresolved,unresolved,none,,"TC.HAE1; hydrophobic/amphiphilic exporter-1 (mainly G- bacteria), HAE1 family",,exporter,unknown,Defense mechanisms
+HOT1A3_TS277,ACZ81_11295,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS278,ACZ81_11320;ACZ81_11325;ACZ81_11330,;modB;modA,3,kegg.orthology:K02017;kegg.orthology:K02018;kegg.orthology:K02020,ATP;PERM;SBP,molybdate,specific_compound,confident,kegg_ko,modC; molybdate transport system ATP-binding protein [EC:7.3.2.5],,importer,inorganic,Inorganic ion transport
+HOT1A3_TS279,ACZ81_11430,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor domain-containing protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS280,ACZ81_11450,rhtA,1,kegg.orthology:K11939,PERM,unresolved,unresolved,none,,rhtA; inner membrane transporter RhtA,,importer,unknown,Unknown
+HOT1A3_TS281,ACZ81_11670,dagA,1,kegg.orthology:K03310,-,glycine,specific_compound,inferred,kegg_ko_keyword,"TC.AGCS; alanine or glycine:cation symporter, AGCS family",,importer,organic,Amino acid metabolism
+HOT1A3_TS282,ACZ81_11845;ACZ81_11850;ACZ81_11855,;;,3,,SBP;PERM;PERM,carboxylate,broad_class,inferred,function_description,"COG1638 TRAP-type C4-dicarboxylate transport system, periplasmic component",,importer,organic,Carbohydrate metabolism
+HOT1A3_TS283,ACZ81_11895,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS284,ACZ81_11950,,1,,SBP,phosphate,specific_compound,inferred,function_description,Phosphate ABC transporter substrate-binding protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS285,ACZ81_12100,sdcS,1,kegg.orthology:K14445,PERM,solute carrier family 13 (sodium-dependent dicarboxylate,specific_compound,confident,kegg_ko,"SLC13A2_3_5; solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2/3/5",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS286,ACZ81_12120,mscS,1,kegg.orthology:K03442,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mscS; small conductance mechanosensitive channel,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS287,ACZ81_12280,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Amino acid metabolism
+HOT1A3_TS288,ACZ81_12330,,1,kegg.orthology:K01897,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]",,non_transporter,unknown,Lipid metabolism
+HOT1A3_TS289,ACZ81_12395,modF,1,kegg.orthology:K02013,ATP,iron complex,specific_compound,confident,kegg_ko,ABC.FEV.A; iron complex transport system ATP-binding protein [EC:7.2.2.-],,importer,inorganic,Inorganic ion transport
+HOT1A3_TS290,ACZ81_12425,atoE,1,kegg.orthology:K02106,-,unresolved,unresolved,none,,atoE; short-chain fatty acids transporter,,importer,unknown,Lipid metabolism
+HOT1A3_TS291,ACZ81_12545,nhaB,1,kegg.orthology:K03314,-,sodium,specific_compound,inferred,product,sodium/proton antiporter NhaB,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS292,ACZ81_12550,dsbB,1,kegg.orthology:K03611,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),dsbB; protein dithiol:quinone oxidoreductase [EC:1.8.5.9],,non_transporter,unknown,Post-translational modification
+HOT1A3_TS293,ACZ81_12585,fadD,1,kegg.orthology:K01897,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"ACSL, fadD; long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]",,non_transporter,unknown,Lipid metabolism
+HOT1A3_TS294,ACZ81_12625,,1,,-,unresolved,unresolved,none,,cation diffusion facilitator family transporter,,exporter,unknown,Inorganic ion transport
+HOT1A3_TS295,ACZ81_12655,,1,,-,unresolved,unresolved,none,,sulfite exporter TauE/SafE family protein,,exporter,unknown,Unknown
+HOT1A3_TS296,ACZ81_12745,yfdC,1,kegg.orthology:K21990,-,formate-nitrite,specific_compound,confident,kegg_ko,yfdC; formate-nitrite transporter family protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS297,ACZ81_12760,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS298,ACZ81_12835,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Unknown
+HOT1A3_TS299,ACZ81_12890,lldP,1,kegg.orthology:K00427,PERM,L-lactate,specific_compound,confident,kegg_ko,"lldP, lctP; L-lactate permease",,importer,organic,Energy production
+HOT1A3_TS300,ACZ81_12900,,1,,-,unresolved,unresolved,none,,DcaP family trimeric outer membrane transporter,,importer,unknown,Cell wall and membrane
+HOT1A3_TS301,ACZ81_12925,yfiO,1,kegg.orthology:K05807,-,unresolved,unresolved,none,,bamD; outer membrane protein assembly factor BamD,,importer,unknown,Cell wall and membrane
+HOT1A3_TS302,ACZ81_12970,motB,1,kegg.orthology:K02557,-,unresolved,unresolved,none,,motB; chemotaxis protein MotB,,importer,unknown,Cell motility
+HOT1A3_TS303,ACZ81_12975,pomA,1,kegg.orthology:K02556,-,unresolved,unresolved,none,,motA; chemotaxis protein MotA,,importer,unknown,Cell motility
+HOT1A3_TS304,ACZ81_13175,fimT,1,kegg.orthology:K08084,-,unresolved,unresolved,none,,fimT; type IV fimbrial biogenesis protein FimT,,importer,unknown,Cell motility
+HOT1A3_TS305,ACZ81_13180,gspJ,1,kegg.orthology:K02456,-,unresolved,unresolved,none,,gspG; general secretion pathway protein G,,exporter,unknown,Cell motility
+HOT1A3_TS306,ACZ81_13185,VP0657,1,kegg.orthology:K08084,-,unresolved,unresolved,none,,fimT; type IV fimbrial biogenesis protein FimT,,importer,unknown,Cell motility
+HOT1A3_TS307,ACZ81_13205,pilE,1,kegg.orthology:K02655,-,unresolved,unresolved,none,,pilE; type IV pilus assembly protein PilE,,importer,unknown,Cell motility
+HOT1A3_TS308,ACZ81_13255,murJ,1,kegg.orthology:K03980,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),"murJ, mviN; putative peptidoglycan lipid II flippase",,non_transporter,unknown,Unknown
+HOT1A3_TS309,ACZ81_13280,,1,kegg.orthology:K03453,-,sodium,specific_compound,inferred,product,bile acid:sodium symporter family protein,,importer,inorganic,Unknown
+HOT1A3_TS310,ACZ81_13450,yfgL,1,kegg.orthology:K17713,-,unresolved,unresolved,none,,bamB; outer membrane protein assembly factor BamB,,importer,unknown,Cell wall and membrane
+HOT1A3_TS311,ACZ81_13510;ACZ81_13515,sufD;sufC,2,kegg.orthology:K09015;kegg.orthology:K09013,PERM;ATP,unresolved,unresolved,none,,sufD; Fe-S cluster assembly protein SufD,,importer,unknown,Post-translational modification
+HOT1A3_TS312,ACZ81_13520,sufB,1,kegg.orthology:K09014,PERM,unresolved,unresolved,none,,sufB; Fe-S cluster assembly protein SufB,,importer,unknown,Post-translational modification
+HOT1A3_TS313,ACZ81_13570,secF,1,kegg.orthology:K03074,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secF; preprotein translocase subunit SecF,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS314,ACZ81_13575,secD,1,kegg.orthology:K03072,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secD; preprotein translocase subunit SecD,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS315,ACZ81_13580,yajC,1,kegg.orthology:K03210,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),yajC; preprotein translocase subunit YajC,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS316,ACZ81_13610,VP1064,1,kegg.orthology:K10716,-,voltage-gated potassium,specific_compound,confident,kegg_ko,"kch, trkA, mthK, pch; voltage-gated potassium channel",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS317,ACZ81_13645;ACZ81_13650,;,2,kegg.orthology:K02003;kegg.orthology:K02004,ATP;PERM,unresolved,unresolved,none,,ABC.CD.A; putative ABC transport system ATP-binding protein,,importer,unknown,Defense mechanisms
+HOT1A3_TS318,ACZ81_13810,,1,kegg.orthology:K03328,-,saccharide,broad_class,confident,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),"TC.PST; polysaccharide transporter, PST family",,non_transporter,organic,Unknown
+HOT1A3_TS319,ACZ81_13845,,1,kegg.orthology:K03328,-,saccharide,broad_class,confident,kegg_ko,"TC.PST; polysaccharide transporter, PST family",,exporter,organic,Unknown
+HOT1A3_TS320,ACZ81_13870,wza,1,kegg.orthology:K01991,-,unresolved,unresolved,none,,"wza, gfcE; polysaccharide biosynthesis/export protein",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS321,ACZ81_13885,,1,,-,unresolved,unresolved,none,,porin family protein,,importer,unknown,Unknown
+HOT1A3_TS322,ACZ81_13940,suxA,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Cell wall and membrane
+HOT1A3_TS323,ACZ81_13955,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS324,ACZ81_14055,,1,,-,choline,specific_compound,inferred,product,choline transporter,,importer,organic,Cell wall and membrane
+HOT1A3_TS325,ACZ81_14060,,1,,-,unresolved,unresolved,none,,TorF family putative porin,,importer,unknown,Unknown
+HOT1A3_TS326,ACZ81_14140,,1,,-,unresolved,unresolved,none,,M56 family metallopeptidase,,importer,unknown,Intracellular trafficking
+HOT1A3_TS327,ACZ81_14210,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS328,ACZ81_14220;ACZ81_14225;ACZ81_14230;ACZ81_14235,nikA;nikB;;,4,kegg.orthology:K02035;kegg.orthology:K02033;kegg.orthology:K02034;kegg.orthology:K02031,SBP;PERM;PERM;ATP,peptide/nickel,multi_substrate,confident,kegg_ko,ABC.PE.S; peptide/nickel transport system substrate-binding protein,peptide; nickel,importer,organic,Amino acid metabolism;Inorganic ion transport
+HOT1A3_TS329,ACZ81_14260,,1,,-,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Carbohydrate metabolism
+HOT1A3_TS330,ACZ81_14265,,1,kegg.orthology:K07114,-,Ca-activated chloride,specific_compound,confident,kegg_ko,yfbK; Ca-activated chloride channel homolog,,importer,inorganic,Unknown
+HOT1A3_TS331,ACZ81_14275,czcA,1,kegg.orthology:K15726,PERM,unresolved,unresolved,none,,"czcA, cusA, cnrA; heavy metal efflux system protein",,exporter,unknown,Inorganic ion transport
+HOT1A3_TS332,ACZ81_14280,czcB,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS333,ACZ81_14340,,1,kegg.orthology:K03291,-,sugar,broad_class,inferred,kegg_ko_keyword,"MFS.SET; MFS transporter, SET family, sugar efflux transporter",,exporter,organic,Amino acid metabolism
+HOT1A3_TS334,ACZ81_14470,gluP,1,kegg.orthology:K02429,-,fucose/galactose/glucose,multi_substrate,inferred,kegg_ko_keyword,"fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein",fucose; galactose; glucose,importer,organic,Carbohydrate metabolism
+HOT1A3_TS335,ACZ81_14495,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS336,ACZ81_14525,,1,,PERM,unresolved,unresolved,none,,EamA family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS337,ACZ81_14625,mexF,1,kegg.orthology:K18138,PERM,unresolved,unresolved,none,,"acrB, mexB, adeJ, smeE, mtrD, cmeB; multidrug efflux pump",,exporter,unknown,Defense mechanisms
+HOT1A3_TS338,ACZ81_14630,mexE,1,kegg.orthology:K18298,-,unresolved,unresolved,none,,"mexE; membrane fusion protein, multidrug efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS339,ACZ81_14680,ppdD,1,kegg.orthology:K02650,-,unresolved,unresolved,none,,pilA; type IV pilus assembly protein PilA,,importer,unknown,Cell motility
+HOT1A3_TS340,ACZ81_14685,pilC,1,kegg.orthology:K02653,-,unresolved,unresolved,none,,pilC; type IV pilus assembly protein PilC,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS341,ACZ81_14690,pilD,1,kegg.orthology:K02464,-,unresolved,unresolved,none,,gspO; general secretion pathway protein O [EC:3.4.23.43 2.1.1.-],,exporter,unknown,Cell motility
+HOT1A3_TS342,ACZ81_14720,secA,1,kegg.orthology:K03070,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secA; preprotein translocase subunit SecA [EC:7.4.2.8],,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS343,ACZ81_14765,ftsW,1,kegg.orthology:K03588,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"ftsW, spoVE, rodA; peptidoglycan glycosyltransferase [EC:2.4.99.28]",,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS344,ACZ81_14775,mraY,1,kegg.orthology:K01000,-,phosphate,specific_compound,inferred,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"Catalyzes the initial step of the lipid cycle reactions in the biosynthesis of the cell wall peptidoglycan: transfers peptidoglycan precursor phospho-MurNAc-pentapeptide from UDP-MurNAc-pentapeptide onto the lipid carrier undecaprenyl phosphate, yielding undecaprenyl-pyrophosphoryl-MurNAc-pentapeptide, known as lipid I",,non_transporter,inorganic,Cell wall and membrane
+HOT1A3_TS345,ACZ81_14810,,1,,-,unresolved,unresolved,none,,putative porin,,importer,unknown,Unknown
+HOT1A3_TS346,ACZ81_14825,cusA,1,kegg.orthology:K07787,PERM,copper,specific_compound,inferred,kegg_ko_keyword,"cusA, silA; copper/silver efflux system protein",,exporter,inorganic,Inorganic ion transport
+HOT1A3_TS347,ACZ81_14830,cusB,1,kegg.orthology:K07798,-,copper,specific_compound,inferred,kegg_ko_keyword,"cusB, silB; membrane fusion protein, copper/silver efflux system",,exporter,inorganic,Cell wall and membrane
+HOT1A3_TS348,ACZ81_14900,mscS,1,kegg.orthology:K03442,-,lipid,broad_class,inferred,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,"Mechanosensitive channel that participates in the regulation of osmotic pressure changes within the cell, opening in response to stretch forces in the membrane lipid bilayer, without the need for other proteins. Contributes to normal resistance to hypoosmotic shock. Forms an ion channel of 1.0 nanosiemens conductance with a slight preference for anions",,importer,inorganic,Cell wall and membrane
+HOT1A3_TS349,ACZ81_14930,pilU,1,kegg.orthology:K02670,ATP,unresolved,unresolved,none,,pilU; twitching motility protein PilU,,importer,unknown,Cell motility
+HOT1A3_TS350,ACZ81_14935,pilT,1,kegg.orthology:K02669,ATP,unresolved,unresolved,none,,pilT; twitching motility protein PilT,,importer,unknown,Cell motility
+HOT1A3_TS351,ACZ81_14975,,1,kegg.orthology:K00799,-,unresolved,unresolved,none,,"GST, gst; glutathione S-transferase [EC:2.5.1.18]",,importer,unknown,Coenzyme metabolism
+HOT1A3_TS352,ACZ81_15000,ygaZ,1,,PERM,unresolved,unresolved,none,,AzlC family ABC transporter permease,,importer,unknown,Amino acid metabolism
+HOT1A3_TS353,ACZ81_15015,araJ,1,kegg.orthology:K08156,PERM,arabinose,specific_compound,inferred,kegg_ko_keyword,"araJ; MFS transporter, DHA1 family, arabinose polymer utilization protein",,exporter,organic,Amino acid metabolism
+HOT1A3_TS354,ACZ81_15110,arsB,1,kegg.orthology:K03325,PERM,unresolved,unresolved,none,,"ACR3, arsB; arsenite transporter",,exporter,unknown,Inorganic ion transport
+HOT1A3_TS355,ACZ81_15200,kdtX,1,kegg.orthology:K12984,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"waaE, kdtX; (heptosyl)LPS beta-1,4-glucosyltransferase [EC:2.4.1.-]",,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS356,ACZ81_15240,,1,,PERM,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS357,ACZ81_15250,emrE,1,kegg.orthology:K03297,-,unresolved,unresolved,none,,"emrE, qac, mmr, smr; small multidrug resistance pump",,exporter,unknown,Intracellular trafficking
+HOT1A3_TS358,ACZ81_15275,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS359,ACZ81_15310,nanT,1,kegg.orthology:K03307,-,The Solute:Sodium Symporter (SSS),specific_compound,inferred,tcdb_family,The Solute:Sodium Symporter (SSS) Family,,importer,inorganic,Amino acid metabolism
+HOT1A3_TS360,ACZ81_15370,btuF,1,kegg.orthology:K02016,SBP,iron complex,specific_compound,confident,kegg_ko,ABC.FEV.S; iron complex transport system substrate-binding protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS361,ACZ81_15415,nhaD,1,,PERM,unresolved,unresolved,none,,ArsB/NhaD family transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS362,ACZ81_15420,fucP,1,kegg.orthology:K02429,PERM,fucose/galactose/glucose,multi_substrate,inferred,kegg_ko_keyword,"fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein",fucose; galactose; glucose,importer,organic,Carbohydrate metabolism
+HOT1A3_TS363,ACZ81_15425,rpfN,1,kegg.orthology:K07267,-,carbohydrate,broad_class,inferred,product,carbohydrate porin,,importer,organic,Cell wall and membrane
+HOT1A3_TS364,ACZ81_15450,,1,kegg.orthology:K00799,-,unresolved,unresolved,none,,"GST, gst; glutathione S-transferase [EC:2.5.1.18]",,importer,unknown,Post-translational modification
+HOT1A3_TS365,ACZ81_15495,VP1164,1,,-,manganese,specific_compound,inferred,product,putative manganese transporter,,exporter,inorganic,Unknown
+HOT1A3_TS366,ACZ81_15505,eriC,1,kegg.orthology:K03281,-,chloride,specific_compound,confident,kegg_ko,"clcA, clcB, CLC-E, CLC-F; chloride channel protein, CIC family",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS367,ACZ81_15525,mntH,1,,-,unresolved,unresolved,none,,Nramp family divalent metal transporter,,importer,unknown,Inorganic ion transport
+HOT1A3_TS368,ACZ81_15600,,1,kegg.orthology:K02055,SBP,putative spermidine/putrescine,multi_substrate,confident,kegg_ko,ABC.SP.S; putative spermidine/putrescine transport system substrate-binding protein,putative spermidine; putrescine,importer,organic,Amino acid metabolism
+HOT1A3_TS369,ACZ81_15625;ACZ81_15630,lptF;lptG,2,kegg.orthology:K07091;kegg.orthology:K11720,PERM;PERM,saccharide,broad_class,confident,kegg_ko,lptF; lipopolysaccharide export system permease protein,,exporter,organic,Unknown
+HOT1A3_TS370,ACZ81_15640,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Coenzyme metabolism
+HOT1A3_TS371,ACZ81_15700,,1,kegg.orthology:K07089,PERM,unresolved,unresolved,none,,K07089; uncharacterized protein,,importer,unknown,Unknown
+HOT1A3_TS372,ACZ81_15705,,1,,-,unresolved,unresolved,none,,cation diffusion facilitator family transporter,,exporter,unknown,Inorganic ion transport
+HOT1A3_TS373,ACZ81_15755,yhhT,1,,-,unresolved,unresolved,none,,AI-2E family transporter,,importer,unknown,Unknown
+HOT1A3_TS374,ACZ81_15760,fcuA,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS375,ACZ81_15825,glpF,1,kegg.orthology:K02440,-,glycerol,specific_compound,inferred,kegg_ko_keyword,glpF; glycerol uptake facilitator,,importer,organic,Intracellular trafficking
+HOT1A3_TS376,ACZ81_15830,yigM,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS377,ACZ81_15840,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor plug domain-containing protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS378,ACZ81_15850,mntP,1,,-,manganese,specific_compound,inferred,product,manganese efflux pump MntP,,exporter,inorganic,Inorganic ion transport
+HOT1A3_TS379,ACZ81_15880,,1,kegg.orthology:K07088,-,unresolved,unresolved,none,,K07088,,exporter,unknown,Unknown
+HOT1A3_TS380,ACZ81_15900,,1,,SBP,unresolved,unresolved,none,,type 1 periplasmic-binding domain-containing protein,,importer,unknown,Amino acid metabolism
+HOT1A3_TS381,ACZ81_15910;ACZ81_15915,pedB;pedC,2,kegg.orthology:K01990;kegg.orthology:K01992,ATP;PERM,unresolved,unresolved,none,,ABC-2.A; ABC-2 type transport system ATP-binding protein,,exporter,unknown,Defense mechanisms
+HOT1A3_TS382,ACZ81_15950,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Coenzyme metabolism
+HOT1A3_TS383,ACZ81_15955,,1,,-,unresolved,unresolved,none,,porin family protein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS384,ACZ81_16020,betT,1,kegg.orthology:K02168,-,choline/glycine/proline betaine,multi_substrate,confident,kegg_ko,"betT, betS; choline/glycine/proline betaine transport protein",choline; glycine; proline betaine,importer,organic,Cell wall and membrane
+HOT1A3_TS385,ACZ81_16035,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Cell wall and membrane
+HOT1A3_TS386,ACZ81_16115,,1,,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,mechanosensitive ion channel family protein,,importer,inorganic,Cell wall and membrane
+HOT1A3_TS387,ACZ81_16130,,1,kegg.orthology:K03286,-,unresolved,unresolved,none,,"TC.OOP; OmpA-OmpF porin, OOP family",,importer,unknown,Cell wall and membrane
+HOT1A3_TS388,ACZ81_16150,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS389,ACZ81_16155,,1,,-,unresolved,unresolved,none,,sulfite exporter TauE/SafE family protein,,exporter,unknown,Unknown
+HOT1A3_TS390,ACZ81_16360,,1,kegg.orthology:K16053,-,unresolved,unresolved,none,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,"ybdG, mscM; miniconductance mechanosensitive channel",,importer,inorganic,Cell wall and membrane
+HOT1A3_TS391,ACZ81_16380,,1,kegg.orthology:K03308,-,sodium,specific_compound,inferred,product,sodium-dependent transporter,,importer,inorganic,Unknown
+HOT1A3_TS392,ACZ81_16420,,1,kegg.orthology:K03559,-,unresolved,unresolved,none,,exbD; biopolymer transport protein ExbD,,importer,unknown,Intracellular trafficking
+HOT1A3_TS393,ACZ81_16430,,1,kegg.orthology:K20543,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),bcsC; cellulose synthase operon protein C,,non_transporter,unknown,Post-translational modification
+HOT1A3_TS394,ACZ81_16440,,1,kegg.orthology:K20541,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),bcsB; cellulose synthase operon protein B,,non_transporter,unknown,Unknown
+HOT1A3_TS395,ACZ81_16445,bcsA,1,kegg.orthology:K00694,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),bcsA; cellulose synthase (UDP-forming) [EC:2.4.1.12],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS396,ACZ81_16495,,1,,PERM,unresolved,unresolved,none,,APC family permease,,importer,unknown,Amino acid metabolism
+HOT1A3_TS397,ACZ81_16565,ybbW,1,kegg.orthology:K03457,PERM,unresolved,unresolved,none,,"TC.NCS1; nucleobase:cation symporter-1, NCS1 family",,importer,unknown,Nucleotide metabolism
+HOT1A3_TS398,ACZ81_16570,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS399,ACZ81_16630,gntU,1,kegg.orthology:K03299,PERM,gluconate,specific_compound,inferred,kegg_ko_keyword,"TC.GNTP; gluconate:H+ symporter, GntP family",,importer,organic,Amino acid metabolism
+HOT1A3_TS400,ACZ81_16740,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS401,ACZ81_16745,,1,,SBP,phosphate,specific_compound,inferred,function_description,"COG3221 ABC-type phosphate phosphonate transport system, periplasmic component",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS402,ACZ81_16760,yeiM,1,kegg.orthology:K03317,-,nucleoside,narrow_class,confident,kegg_ko,"TC.CNT; concentrative nucleoside transporter, CNT family",,importer,organic,Intracellular trafficking
+HOT1A3_TS403,ACZ81_16800,actP,1,kegg.orthology:K14393,-,sodium,specific_compound,inferred,product,sodium:solute symporter family protein,,importer,inorganic,Unknown
+HOT1A3_TS404,ACZ81_16815,,1,,-,lipid,broad_class,inferred,reclassified: mechanosensitive ion channel; organic call is a spurious 'membrane lipid bilayer' match,"Mechanosensitive channel that participates in the regulation of osmotic pressure changes within the cell, opening in response to stretch forces in the membrane lipid bilayer, without the need for other proteins. Contributes to normal resistance to hypoosmotic shock. Forms an ion channel of 1.0 nanosiemens conductance with a slight preference for anions",,importer,inorganic,Cell wall and membrane
+HOT1A3_TS405,ACZ81_16835,,1,,SBP,amino acid,broad_class,inferred,product,amino acid ABC transporter substrate-binding protein,,importer,organic,Amino acid metabolism
+HOT1A3_TS406,ACZ81_16850,,1,,-,unresolved,unresolved,none,,DcaP family trimeric outer membrane transporter,,importer,unknown,Cell wall and membrane
+HOT1A3_TS407,ACZ81_17015,,1,kegg.orthology:K02021,ATP,unresolved,unresolved,none,,ABC.MR; putative ABC transport system ATP-binding protein,,importer,unknown,Defense mechanisms
+HOT1A3_TS408,ACZ81_17060,,1,kegg.orthology:K20444,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),rfbC; O-antigen biosynthesis protein [EC:2.4.1.-],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS409,ACZ81_17070,,1,kegg.orthology:K20444,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),rfbC; O-antigen biosynthesis protein [EC:2.4.1.-],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS410,ACZ81_17250,,1,kegg.orthology:K20444,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),rfbC; O-antigen biosynthesis protein [EC:2.4.1.-],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS411,ACZ81_17300,secY,1,kegg.orthology:K03076,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secY; preprotein translocase subunit SecY,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS412,ACZ81_17395,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Coenzyme metabolism
+HOT1A3_TS413,ACZ81_17420,motX,1,kegg.orthology:K21217,-,unresolved,unresolved,none,,motX; sodium-type polar flagellar protein MotX,,importer,unknown,Cell motility
+HOT1A3_TS414,ACZ81_17450,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Amino acid metabolism
+HOT1A3_TS415,ACZ81_17460,,1,,-,unresolved,unresolved,none,,porin family protein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS416,ACZ81_17475,cydA,1,kegg.orthology:K00425,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cydA; cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7],,non_transporter,unknown,Energy production
+HOT1A3_TS417,ACZ81_17480,cydB,1,kegg.orthology:K00426,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cydB; cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7],,non_transporter,unknown,Energy production
+HOT1A3_TS418,ACZ81_17535,,1,kegg.orthology:K02044,SBP,phosphonate,specific_compound,confident,kegg_ko,phnD; phosphonate transport system substrate-binding protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS419,ACZ81_17560,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS420,ACZ81_17570,,1,,SBP,unresolved,unresolved,none,,amidohydrolase family protein,,importer,unknown,Secondary metabolites
+HOT1A3_TS421,ACZ81_17595,,1,,-,unresolved,unresolved,none,,MotA/TolQ/ExbB proton channel family protein,,importer,unknown,Intracellular trafficking
+HOT1A3_TS422,ACZ81_17615;ACZ81_17620,;cvaB,2,kegg.orthology:K13408;kegg.orthology:K06147,-;ATP,glycine,specific_compound,inferred,function_description,"COG2274 ABC-type bacteriocin lantibiotic exporters, contain an N-terminal double-glycine peptidase domain",,exporter,organic,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS423,ACZ81_17760;ACZ81_17765,ftsX;ftsE,2,kegg.orthology:K09811;kegg.orthology:K09812,PERM;ATP,unresolved,unresolved,none,,ftsX; cell division transport system permease protein,,importer,unknown,Cell cycle and division
+HOT1A3_TS424,ACZ81_17770,ftsY,1,kegg.orthology:K03110,-,unresolved,unresolved,none,,ftsY; fused signal recognition particle receptor,,importer,unknown,Intracellular trafficking
+HOT1A3_TS425,ACZ81_17785,yhgN,1,kegg.orthology:K05595,-,unresolved,unresolved,none,,marC; multiple antibiotic resistance protein,,importer,unknown,Intracellular trafficking
+HOT1A3_TS426,ACZ81_17850;ACZ81_17855,yadH;yadG,2,kegg.orthology:K01992;kegg.orthology:K01990,PERM;ATP,unresolved,unresolved,none,,ABC-2.P; ABC-2 type transport system permease protein,,exporter,unknown,Defense mechanisms
+HOT1A3_TS427,ACZ81_17890,,1,kegg.orthology:K07089,PERM,unresolved,unresolved,none,,K07089; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS428,ACZ81_17895,cstA,1,kegg.orthology:K06200,-,unresolved,unresolved,none,,cstA; carbon starvation protein,,importer,unknown,Signal transduction
+HOT1A3_TS429,ACZ81_17940,,1,kegg.orthology:K03832,-,unresolved,unresolved,none,,tonB; periplasmic protein TonB,,importer,unknown,Cell wall and membrane
+HOT1A3_TS430,ACZ81_17945,,1,kegg.orthology:K03559,-,unresolved,unresolved,none,,exbD; biopolymer transport protein ExbD,,importer,unknown,Intracellular trafficking
+HOT1A3_TS431,ACZ81_17950,,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS432,ACZ81_17955,,1,kegg.orthology:K03561,-,unresolved,unresolved,none,,exbB; biopolymer transport protein ExbB,,importer,unknown,Intracellular trafficking
+HOT1A3_TS433,ACZ81_17965,fepA,1,kegg.orthology:K16089,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,"TC.FEV.OM2, cirA, cfrA, hmuR; outer membrane receptor for ferrienterochelin and colicins",,importer,inorganic,Inorganic ion transport
+HOT1A3_TS434,ACZ81_17980,,1,kegg.orthology:K16090,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,fiu; catecholate siderophore receptor,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS435,ACZ81_18060,secE,1,kegg.orthology:K03073,-,unresolved,unresolved,none,reclassified: protein-export/secretion (not a solute importer),secE; preprotein translocase subunit SecE,,non_transporter,unknown,Intracellular trafficking
+HOT1A3_TS436,ACZ81_18070,vcaM,1,kegg.orthology:K06147,ATP,unresolved,unresolved,none,,"ABCB-BAC; ATP-binding cassette, subfamily B, bacterial",,exporter,unknown,Defense mechanisms
+HOT1A3_TS437,ACZ81_18100,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Amino acid metabolism
+HOT1A3_TS438,ACZ81_18125;ACZ81_18130,;,2,kegg.orthology:K03442,-;PERM,fucose,specific_compound,inferred,function_description,COG0738 Fucose permease,,importer,organic,Carbohydrate metabolism;Cell wall and membrane
+HOT1A3_TS439,ACZ81_18185,,1,,SBP,unresolved,unresolved,none,,transporter substrate-binding domain-containing protein,,importer,unknown,Amino acid metabolism
+HOT1A3_TS440,ACZ81_18280,ydaH,1,kegg.orthology:K12942,-,aminobenzoyl-glutamate,specific_compound,confident,kegg_ko,abgT; aminobenzoyl-glutamate transport protein,,importer,organic,Coenzyme metabolism
+HOT1A3_TS441,ACZ81_18355,fur,1,kegg.orthology:K09823,-,unresolved,unresolved,none,,"zur; Fur family transcriptional regulator, zinc uptake regulator",,importer,unknown,Transcription
+HOT1A3_TS442,ACZ81_18370,,1,kegg.orthology:K03286,-,unresolved,unresolved,none,,"TC.OOP; OmpA-OmpF porin, OOP family",,importer,unknown,Cell wall and membrane
+HOT1A3_TS443,ACZ81_18425,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS444,ACZ81_18430;ACZ81_18435,;,2,,-;PERM,unresolved,unresolved,none,,efflux RND transporter periplasmic adaptor subunit,,exporter,unknown,Cell wall and membrane;Defense mechanisms
+HOT1A3_TS445,ACZ81_18465;ACZ81_18470,;,2,kegg.orthology:K02003;kegg.orthology:K02004,ATP;PERM,peptide,narrow_class,inferred,function_description,"ABC-type antimicrobial peptide transport system, ATPase component",,importer,organic,Defense mechanisms
+HOT1A3_TS446,ACZ81_18520,,1,,-,unresolved,unresolved,none,,TSUP family transporter,,importer,unknown,Unknown
+HOT1A3_TS447,ACZ81_18530,yidK,1,kegg.orthology:K03307,-,The Solute:Sodium Symporter (SSS),specific_compound,inferred,tcdb_family,The Solute:Sodium Symporter (SSS) Family,,importer,inorganic,Unknown
+HOT1A3_TS448,ACZ81_18535,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS449,ACZ81_18540,,1,kegg.orthology:K16264,-,zinc,specific_compound,inferred,kegg_ko_keyword,"czcD, zitB; cobalt-zinc-cadmium efflux system protein",,exporter,inorganic,Inorganic ion transport
+HOT1A3_TS450,ACZ81_18550,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS451,ACZ81_18570,gluP,1,kegg.orthology:K02429,-,fucose/galactose/glucose,multi_substrate,inferred,kegg_ko_keyword,"fucP, deoP, nagP, agaP; MFS transporter, FHS family, fucose-galactose-glucose:H+ symporter family protein",fucose; galactose; glucose,importer,organic,Carbohydrate metabolism
+HOT1A3_TS452,ACZ81_18585,xylE,1,kegg.orthology:K08138,-,xylose,specific_compound,inferred,kegg_ko_keyword,"xylE; MFS transporter, SP family, xylose:H+ symportor",,importer,organic,Inorganic ion transport
+HOT1A3_TS453,ACZ81_18590,,1,kegg.orthology:K16012,ATP,unresolved,unresolved,none,,"cydC; ATP-binding cassette, subfamily C, bacterial CydC",,importer,unknown,Energy production
+HOT1A3_TS454,ACZ81_18595,cydD,1,kegg.orthology:K16013,ATP,unresolved,unresolved,none,,"cydD; ATP-binding cassette, subfamily C, bacterial CydD",,importer,unknown,Defense mechanisms
+HOT1A3_TS455,ACZ81_RS18600,cydX,1,kegg.orthology:K00424,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cydX; cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7],,non_transporter,unknown,Unknown
+HOT1A3_TS456,ACZ81_18600,cydB,1,kegg.orthology:K00426,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cydB; cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7],,non_transporter,unknown,Energy production
+HOT1A3_TS457,ACZ81_18605,cydA,1,kegg.orthology:K00425,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cydA; cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7],,non_transporter,unknown,Energy production
+HOT1A3_TS458,ACZ81_18625,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS459,ACZ81_18630,,1,,-,unresolved,unresolved,none,,sulfite exporter TauE/SafE family protein,,exporter,unknown,Unknown
+HOT1A3_TS460,ACZ81_18645,irp,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS461,ACZ81_18650,,1,,-,zinc,specific_compound,inferred,product,ZrgA family zinc uptake protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS462,ACZ81_18685,,1,kegg.orthology:K07003,PERM,unresolved,unresolved,none,,K07003; uncharacterized protein,,exporter,unknown,Unknown
+HOT1A3_TS463,ACZ81_18690,,1,,-,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS464,ACZ81_18785,,1,kegg.orthology:K02014,-,iron/siderophore,specific_compound,inferred,kegg_ko_keyword,TC.FEV.OM; iron complex outermembrane recepter protein,,importer,inorganic,Inorganic ion transport
+HOT1A3_TS465,ACZ81_18810,fadL,1,kegg.orthology:K06076,-,unresolved,unresolved,none,,fadL; long-chain fatty acid transport protein,,importer,unknown,Lipid metabolism
+HOT1A3_TS466,ACZ81_18830,,1,kegg.orthology:K01989,SBP,putative tryptophan/tyrosine,multi_substrate,confident,kegg_ko,K01989; putative tryptophan/tyrosine transport system substrate-binding protein,putative tryptophan; tyrosine,importer,organic,Unknown
+HOT1A3_TS467,ACZ81_18865,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS468,ACZ81_18910,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS469,ACZ81_18945,hupA,1,kegg.orthology:K16087,-,unresolved,unresolved,none,,"TC.FEV.OM3, tbpA, hemR, lbpA, hpuB, bhuR, hugA, hmbR; hemoglobin/transferrin/lactoferrin receptor protein",,importer,unknown,Inorganic ion transport
+HOT1A3_TS470,ACZ81_18955,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS471,ACZ81_18990,cyoD,1,kegg.orthology:K02300,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cyoD; cytochrome o ubiquinol oxidase subunit IV,,non_transporter,unknown,Energy production
+HOT1A3_TS472,ACZ81_18995,cyoC,1,kegg.orthology:K02299,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cyoC; cytochrome o ubiquinol oxidase subunit III,,non_transporter,unknown,Energy production
+HOT1A3_TS473,ACZ81_19000,cyoB,1,kegg.orthology:K02274,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"coxA, ctaD; cytochrome c oxidase subunit I [EC:7.1.1.9]",,non_transporter,unknown,Energy production
+HOT1A3_TS474,ACZ81_19005,cyoA,1,kegg.orthology:K02297,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),cyoA; cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3],,non_transporter,unknown,Energy production
+HOT1A3_TS475,ACZ81_19025,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS476,ACZ81_19080,groES,1,kegg.orthology:K04078,-,unresolved,unresolved,none,,"groES, HSPE1; chaperonin GroES",,exporter,unknown,Post-translational modification
+HOT1A3_TS477,ACZ81_19095,dsbD,1,kegg.orthology:K04084,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"dsbD, dipZ; thioredoxin:protein disulfide reductase [EC:1.8.4.16]",,non_transporter,unknown,Energy production
+HOT1A3_TS478,ACZ81_19175,,1,kegg.orthology:K02030,SBP,polar amino acid,narrow_class,confident,kegg_ko,ABC.PA.S; polar amino acid transport system substrate-binding protein,glutamate; aspartate; glutamine; arginine,importer,organic,Amino acid metabolism
+HOT1A3_TS479,ACZ81_19220,,1,kegg.orthology:K10716,-,voltage-gated potassium,specific_compound,confident,kegg_ko,"kch, trkA, mthK, pch; voltage-gated potassium channel",,importer,inorganic,Signal transduction
+HOT1A3_TS480,ACZ81_19245,,1,,-,unresolved,unresolved,none,,MFS transporter,,importer,unknown,Carbohydrate metabolism
+HOT1A3_TS481,ACZ81_19275,gspC,1,kegg.orthology:K02452,-,unresolved,unresolved,none,,gspC; general secretion pathway protein C,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS482,ACZ81_19280;ACZ81_19285,gspD;gspE,2,kegg.orthology:K02453;kegg.orthology:K02454,-;ATP,unresolved,unresolved,none,,gspD; general secretion pathway protein D,,exporter,unknown,Cell motility
+HOT1A3_TS483,ACZ81_19290,gspF,1,kegg.orthology:K02455,-,unresolved,unresolved,none,,gspF; general secretion pathway protein F,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS484,ACZ81_19295,gspG,1,kegg.orthology:K02456,-,unresolved,unresolved,none,,gspG; general secretion pathway protein G,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS485,ACZ81_19300,gspH,1,kegg.orthology:K02457,-,unresolved,unresolved,none,,gspH; general secretion pathway protein H,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS486,ACZ81_19305,gspI,1,kegg.orthology:K02458,-,unresolved,unresolved,none,,gspI; general secretion pathway protein I,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS487,ACZ81_19310,gspJ,1,kegg.orthology:K02459,-,unresolved,unresolved,none,,gspJ; general secretion pathway protein J,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS488,ACZ81_19315,gspK,1,kegg.orthology:K02460,-,unresolved,unresolved,none,,gspK; general secretion pathway protein K,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS489,ACZ81_19320,gspL,1,kegg.orthology:K02461,-,unresolved,unresolved,none,,gspL; general secretion pathway protein L,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS490,ACZ81_19325,gspM,1,kegg.orthology:K02462,-,unresolved,unresolved,none,,gspM; general secretion pathway protein M,,exporter,unknown,Intracellular trafficking
+HOT1A3_TS491,ACZ81_19330,gspN,1,kegg.orthology:K02463,-,unresolved,unresolved,none,,gspN; general secretion pathway protein N,,exporter,unknown,Unknown
+HOT1A3_TS492,ACZ81_19375,mdoH,1,kegg.orthology:K03669,-,unresolved,unresolved,none,reclassified: surface-polysaccharide / cell-envelope biosynthesis-export (not a solute importer),mdoH; membrane glycosyltransferase [EC:2.4.1.-],,non_transporter,unknown,Cell wall and membrane
+HOT1A3_TS493,ACZ81_19405,yheS,1,kegg.orthology:K06158,ATP,unresolved,unresolved,none,,"ABCF3; ATP-binding cassette, subfamily F, member 3",,importer,unknown,Unknown
+HOT1A3_TS494,ACZ81_19505,dinF,1,kegg.orthology:K03327,-,unresolved,unresolved,none,,"SLC47A, MATE, DTX; MATE family, multidrug and toxin extrusion protein",,exporter,unknown,Defense mechanisms
+HOT1A3_TS495,ACZ81_19530,ctaA,1,kegg.orthology:K02259,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"COX15, ctaA; heme a synthase [EC:1.17.99.9]",,non_transporter,unknown,Post-translational modification
+HOT1A3_TS496,ACZ81_19540,surf1,1,kegg.orthology:K14998,-,unresolved,unresolved,none,,"SURF1, SHY1; surfeit locus 1 family protein",,importer,unknown,Unknown
+HOT1A3_TS497,ACZ81_19550,coxC,1,kegg.orthology:K02276,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"coxC, ctaE; cytochrome c oxidase subunit III [EC:7.1.1.9]",,non_transporter,unknown,Energy production
+HOT1A3_TS498,ACZ81_19555,ctaG,1,kegg.orthology:K02258,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"COX11, ctaG; cytochrome c oxidase assembly protein subunit 11",,non_transporter,unknown,Post-translational modification
+HOT1A3_TS499,ACZ81_19560,ctaD,1,kegg.orthology:K02274,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"coxA, ctaD; cytochrome c oxidase subunit I [EC:7.1.1.9]",,non_transporter,unknown,Energy production
+HOT1A3_TS500,ACZ81_19565,coxB,1,kegg.orthology:K02275,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),"coxB, ctaC; cytochrome c oxidase subunit II [EC:7.1.1.9]",,non_transporter,unknown,Energy production
+HOT1A3_TS501,ACZ81_19600,yadS,1,,-,unresolved,unresolved,none,,trimeric intracellular cation channel family protein,,importer,unknown,Unknown
+HOT1A3_TS502,ACZ81_19620,bcr,1,kegg.orthology:K07552,-,unresolved,unresolved,none,,"bcr, tcaB; MFS transporter, DHA1 family, multidrug resistance protein",,exporter,unknown,Amino acid metabolism
+HOT1A3_TS503,ACZ81_19630,ytfM,1,kegg.orthology:K07278,-,unresolved,unresolved,none,,tamA; translocation and assembly module TamA,,importer,unknown,Cell wall and membrane
+HOT1A3_TS504,ACZ81_19635,ytfN,1,kegg.orthology:K09800,-,unresolved,unresolved,none,,tamB; translocation and assembly module TamB,,importer,unknown,Unknown
+HOT1A3_TS505,ACZ81_19655,,1,,PERM,unresolved,unresolved,none,,DMT family transporter,,importer,unknown,Amino acid metabolism
+HOT1A3_TS506,ACZ81_19700,,1,,-,unresolved,unresolved,none,,DUF6482 family protein,,importer,unknown,Unknown
+HOT1A3_TS507,ACZ81_19770,,1,,-,unresolved,unresolved,none,,TonB-dependent receptor,,importer,unknown,Inorganic ion transport
+HOT1A3_TS508,ACZ81_19780,,1,kegg.orthology:K03292,-,sugar,broad_class,inferred,function_description,MFS/sugar transport protein,,importer,organic,Carbohydrate metabolism
+HOT1A3_TS509,ACZ81_19800,yiaD,1,kegg.orthology:K12216,-,unresolved,unresolved,none,,"icmN, lphA, dotK; intracellular multiplication protein IcmN",,importer,unknown,Cell wall and membrane
+HOT1A3_TS510,ACZ81_19820,gst5,1,kegg.orthology:K00799,-,unresolved,unresolved,none,,"GST, gst; glutathione S-transferase [EC:2.5.1.18]",,importer,unknown,Post-translational modification
+HOT1A3_TS511,ACZ81_19830,atpC,1,kegg.orthology:K02114,ATP,unresolved,unresolved,none,,"ATPF1E, atpC; F-type H+-transporting ATPase subunit epsilon",,importer,unknown,Energy production
+HOT1A3_TS512,ACZ81_19835,atpD,1,kegg.orthology:K02112,ATP,unresolved,unresolved,none,,"ATPF1B, atpD; F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]",,importer,unknown,Energy production
+HOT1A3_TS513,ACZ81_19840,atpG,1,kegg.orthology:K02115,ATP,unresolved,unresolved,none,,"ATPF1G, atpG; F-type H+-transporting ATPase subunit gamma",,importer,unknown,Energy production
+HOT1A3_TS514,ACZ81_19845;ACZ81_19850;ACZ81_19855;ACZ81_19860;ACZ81_19865,atpA;atpH;atpF;atpE;atpB,5,kegg.orthology:K02111;kegg.orthology:K02113;kegg.orthology:K02109;kegg.orthology:K02110;kegg.orthology:K02108,ATP;ATP;ATP;ATP;ATP,sodium,specific_compound,inferred,function_description,"F(1)F(0) ATP synthase produces ATP from ADP in the presence of a proton or sodium gradient. F-type ATPases consist of two structural domains, F(1) containing the extramembraneous catalytic core and F(0) containing the membrane proton channel, linked together by a central stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic domain of F(1) is coupled via a rotary mechanism of the central stalk subunits to proton translocation. ; FUNCTION: This protein is part of the stalk that links CF(0) to CF(1). It either transmits conformational changes from CF(0) to CF(1) or is implicated in proton conduction",,importer,inorganic,Energy production
+HOT1A3_TS515,ACZ81_19870,atpI,1,kegg.orthology:K02116,-,unresolved,unresolved,none,reclassified: enzyme / biosynthesis (not a membrane solute transporter),atpI; ATP synthase protein I,,non_transporter,unknown,Energy production
+HOT1A3_TS516,ACZ81_19925,yidC,1,kegg.orthology:K03217,-,unresolved,unresolved,none,,"yidC, spoIIIJ, OXA1, ccfA; YidC/Oxa1 family membrane protein insertase",,importer,unknown,Intracellular trafficking
+HOT1A3_TS517,ACZ81_19970,,1,,-,unresolved,unresolved,none,,ion channel,,importer,unknown,Inorganic ion transport
+HOT1A3_TS518,ACZ81_19985,cadR,1,kegg.orthology:K19591,-,unresolved,unresolved,none,,"cueR; MerR family transcriptional regulator, copper efflux regulator",,exporter,unknown,Transcription
+HOT1A3_TS519,ACZ81_20015,czcC,1,kegg.orthology:K15725,-,unresolved,unresolved,none,,"czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS520,ACZ81_20020,,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS521,ACZ81_RS21580,,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS522,ACZ81_20055,,1,kegg.orthology:K08363,-,unresolved,unresolved,none,,merT; mercuric ion transport protein,,importer,unknown,Unknown
+HOT1A3_TS523,ACZ81_20060,merP,1,kegg.orthology:K08364,-,unresolved,unresolved,none,,merP; periplasmic mercuric ion binding protein,,importer,unknown,Inorganic ion transport
+HOT1A3_TS524,ACZ81_20065,merC,1,kegg.orthology:K19058,-,unresolved,unresolved,none,,merC; mercuric ion transport protein,,importer,unknown,Unknown
+HOT1A3_TS525,ACZ81_20140,,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS526,ACZ81_20145,,1,kegg.orthology:K15727,-,unresolved,unresolved,none,,"czcB, cusB, cnrB; membrane fusion protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS527,ACZ81_20150,czcC,1,kegg.orthology:K15725,-,unresolved,unresolved,none,,"czcC, cusC, cnrC; outer membrane protein, heavy metal efflux system",,exporter,unknown,Cell wall and membrane
+HOT1A3_TS528,ACZ81_RS21385,,1,,-,unresolved,unresolved,none,,hypothetical protein,,importer,unknown,Cell wall and membrane
+HOT1A3_TS529,ACZ81_20345,,1,kegg.orthology:K07245,-,unresolved,unresolved,none,,pcoD; copper resistance protein D,,importer,unknown,Inorganic ion transport
+HOT1A3_TS530,ACZ81_20350,,1,kegg.orthology:K07156,-,unresolved,unresolved,none,,"copC, pcoC; copper resistance protein C",,importer,unknown,Unknown
+HOT1A3_TS531,ACZ81_20675,,1,kegg.orthology:K07156,-,unresolved,unresolved,none,,"copC, pcoC; copper resistance protein C",,importer,unknown,Unknown
+HOT1A3_TS532,ACZ81_20680,copD,1,kegg.orthology:K07245,-,unresolved,unresolved,none,,pcoD; copper resistance protein D,,importer,unknown,Inorganic ion transport

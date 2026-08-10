@@ -1,0 +1,3601 @@
+{
+ "ACZ81_00080": [
+  {
+   "term_id": "tcdb:2.A.38.1",
+   "term_name": "2.A.38.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.38.4",
+   "term_name": "2.A.38.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_00085": [
+  {
+   "term_id": "tcdb:2.A.38.1",
+   "term_name": "2.A.38.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.38.4",
+   "term_name": "2.A.38.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_00360": [
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_00380": [
+  {
+   "term_id": "tcdb:2.A.35",
+   "term_name": "The NhaC Na+:H+ Antiporter (NhaC) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_00385": [
+  {
+   "term_id": "tcdb:2.A.15",
+   "term_name": "The Betaine/Carnitine/Choline Transporter (BCCT) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_00430": [
+  {
+   "term_id": "tcdb:1.B.14.1.10",
+   "term_name": "1.B.14.1.10",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.14.1.3",
+   "term_name": "1.B.14.1.3",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.14.1.8",
+   "term_name": "1.B.14.1.8",
+   "level": 4
+  }
+ ],
+ "ACZ81_00580": [
+  {
+   "term_id": "tcdb:3.A.1.10",
+   "term_name": "3.A.1.10",
+   "level": 3
+  }
+ ],
+ "ACZ81_00585": [
+  {
+   "term_id": "tcdb:3.A.1.10",
+   "term_name": "3.A.1.10",
+   "level": 3
+  }
+ ],
+ "ACZ81_00590": [
+  {
+   "term_id": "tcdb:3.A.1.10",
+   "term_name": "3.A.1.10",
+   "level": 3
+  }
+ ],
+ "ACZ81_00640": [
+  {
+   "term_id": "tcdb:1.A.26.1",
+   "term_name": "1.A.26.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_00660": [
+  {
+   "term_id": "tcdb:2.A.36",
+   "term_name": "The Monovalent Cation:Proton Antiporter-1 (CPA1) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_00690": [
+  {
+   "term_id": "tcdb:2.A.75.1",
+   "term_name": "2.A.75.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_00695": [
+  {
+   "term_id": "tcdb:2.A.7.1",
+   "term_name": "2.A.7.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_00710": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:8.A.1.6",
+   "term_name": "8.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_00715": [
+  {
+   "term_id": "tcdb:2.A.6.2.16",
+   "term_name": "2.A.6.2.16",
+   "level": 4
+  }
+ ],
+ "ACZ81_00775": [
+  {
+   "term_id": "tcdb:1.A.12.2.2",
+   "term_name": "1.A.12.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.12.3.2",
+   "term_name": "1.A.12.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_00790": [
+  {
+   "term_id": "tcdb:1.A.26.1",
+   "term_name": "1.A.26.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_00795": [
+  {
+   "term_id": "tcdb:2.A.7.7",
+   "term_name": "2.A.7.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_00870": [
+  {
+   "term_id": "tcdb:3.A.1.1",
+   "term_name": "3.A.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_00930": [
+  {
+   "term_id": "tcdb:1.A.33",
+   "term_name": "The Cation Channel-forming Heat Shock Protein-70 (Hsp70) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_00985": [
+  {
+   "term_id": "tcdb:2.A.21",
+   "term_name": "The Solute:Sodium Symporter (SSS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_01010": [
+  {
+   "term_id": "tcdb:2.A.21",
+   "term_name": "The Solute:Sodium Symporter (SSS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_01130": [
+  {
+   "term_id": "tcdb:1.A.33.1",
+   "term_name": "1.A.33.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:9.B.157.1",
+   "term_name": "9.B.157.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_01135": [
+  {
+   "term_id": "tcdb:9.B.157.1",
+   "term_name": "9.B.157.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_01140": [
+  {
+   "term_id": "tcdb:9.B.157.1",
+   "term_name": "9.B.157.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_01375": [
+  {
+   "term_id": "tcdb:2.A.6.1.2",
+   "term_name": "2.A.6.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_01380": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_01385": [
+  {
+   "term_id": "tcdb:1.B.17.2.2",
+   "term_name": "1.B.17.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_01580": [
+  {
+   "term_id": "tcdb:2.A.1.27",
+   "term_name": "2.A.1.27",
+   "level": 3
+  }
+ ],
+ "ACZ81_01730": [
+  {
+   "term_id": "tcdb:2.A.36",
+   "term_name": "The Monovalent Cation:Proton Antiporter-1 (CPA1) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_01830": [
+  {
+   "term_id": "tcdb:1.A.11",
+   "term_name": "The Ammonium Transporter Channel (Amt) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_01865": [
+  {
+   "term_id": "tcdb:2.A.6.2.27",
+   "term_name": "2.A.6.2.27",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:8.A.1",
+   "term_name": "The Membrane Fusion Protein (MFP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_01975": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_02120": [
+  {
+   "term_id": "tcdb:8.A.1",
+   "term_name": "The Membrane Fusion Protein (MFP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02125": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:3.A.1.122.1",
+   "term_name": "3.A.1.122.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.122.12",
+   "term_name": "3.A.1.122.12",
+   "level": 4
+  }
+ ],
+ "ACZ81_02150": [
+  {
+   "term_id": "tcdb:3.A.5",
+   "term_name": "The General Secretory Pathway (Sec) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02250": [
+  {
+   "term_id": "tcdb:2.A.64",
+   "term_name": "The Twin Arginine Targeting (Tat) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02255": [
+  {
+   "term_id": "tcdb:2.A.64",
+   "term_name": "The Twin Arginine Targeting (Tat) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02260": [
+  {
+   "term_id": "tcdb:2.A.64",
+   "term_name": "The Twin Arginine Targeting (Tat) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02315": [
+  {
+   "term_id": "tcdb:2.A.33.1",
+   "term_name": "2.A.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_02465": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_02510": [
+  {
+   "term_id": "tcdb:2.A.7.26",
+   "term_name": "2.A.7.26",
+   "level": 3
+  }
+ ],
+ "ACZ81_02675": [
+  {
+   "term_id": "tcdb:2.A.5.5",
+   "term_name": "2.A.5.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_02730": [
+  {
+   "term_id": "tcdb:1.A.34.1.2",
+   "term_name": "1.A.34.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_02820": [
+  {
+   "term_id": "tcdb:8.A.7",
+   "term_name": "The Phosphotransferase System Enzyme I (EI) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_02855": [
+  {
+   "term_id": "tcdb:2.A.1.25",
+   "term_name": "2.A.1.25",
+   "level": 3
+  }
+ ],
+ "ACZ81_02940": [
+  {
+   "term_id": "tcdb:1.A.1.14",
+   "term_name": "1.A.1.14",
+   "level": 3
+  }
+ ],
+ "ACZ81_02945": [
+  {
+   "term_id": "tcdb:1.B.17",
+   "term_name": "The Outer Membrane Factor (OMF) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_02990": [
+  {
+   "term_id": "tcdb:1.A.33.1",
+   "term_name": "1.A.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03055": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_03115": [
+  {
+   "term_id": "tcdb:2.A.53.3",
+   "term_name": "2.A.53.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_03160": [
+  {
+   "term_id": "tcdb:3.A.1.16.1",
+   "term_name": "3.A.1.16.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.16.2",
+   "term_name": "3.A.1.16.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_03165": [
+  {
+   "term_id": "tcdb:3.A.1.16.1",
+   "term_name": "3.A.1.16.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.16.2",
+   "term_name": "3.A.1.16.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_03170": [
+  {
+   "term_id": "tcdb:3.A.1.16.1",
+   "term_name": "3.A.1.16.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03190": [
+  {
+   "term_id": "tcdb:1.B.14.3",
+   "term_name": "1.B.14.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_03245": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:8.A.1.6",
+   "term_name": "8.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_03250": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_03335": [
+  {
+   "term_id": "tcdb:2.A.46.1",
+   "term_name": "2.A.46.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03365": [
+  {
+   "term_id": "tcdb:3.A.1.7",
+   "term_name": "3.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_03385": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03390": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03395": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03400": [
+  {
+   "term_id": "tcdb:2.C.1.1",
+   "term_name": "2.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03420": [
+  {
+   "term_id": "tcdb:4.C.1.1",
+   "term_name": "4.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03515": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03535": [
+  {
+   "term_id": "tcdb:3.A.7.11.1",
+   "term_name": "3.A.7.11.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03640": [
+  {
+   "term_id": "tcdb:2.A.108.1",
+   "term_name": "2.A.108.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.108.2",
+   "term_name": "2.A.108.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_03690": [
+  {
+   "term_id": "tcdb:1.A.12.3.1",
+   "term_name": "1.A.12.3.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_03715": [
+  {
+   "term_id": "tcdb:1.A.26.1",
+   "term_name": "1.A.26.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03720": [
+  {
+   "term_id": "tcdb:4.A.2.1",
+   "term_name": "4.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03745": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03750": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03755": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_03770": [
+  {
+   "term_id": "tcdb:2.A.19.5",
+   "term_name": "2.A.19.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_03775": [
+  {
+   "term_id": "tcdb:3.A.1.27",
+   "term_name": "3.A.1.27",
+   "level": 3
+  }
+ ],
+ "ACZ81_03780": [
+  {
+   "term_id": "tcdb:3.A.1.27",
+   "term_name": "3.A.1.27",
+   "level": 3
+  }
+ ],
+ "ACZ81_03785": [
+  {
+   "term_id": "tcdb:3.A.1.27",
+   "term_name": "3.A.1.27",
+   "level": 3
+  }
+ ],
+ "ACZ81_03790": [
+  {
+   "term_id": "tcdb:3.A.1.27.3",
+   "term_name": "3.A.1.27.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_03795": [
+  {
+   "term_id": "tcdb:3.A.1.27.3",
+   "term_name": "3.A.1.27.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_03890": [
+  {
+   "term_id": "tcdb:2.A.6.4",
+   "term_name": "2.A.6.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_03895": [
+  {
+   "term_id": "tcdb:2.A.36.6",
+   "term_name": "2.A.36.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_03905": [
+  {
+   "term_id": "tcdb:2.A.7.3",
+   "term_name": "2.A.7.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_03920": [
+  {
+   "term_id": "tcdb:3.A.1.4",
+   "term_name": "3.A.1.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_03990": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:8.A.1.6",
+   "term_name": "8.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_03995": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_04000": [
+  {
+   "term_id": "tcdb:1.B.17",
+   "term_name": "The Outer Membrane Factor (OMF) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_04030": [
+  {
+   "term_id": "tcdb:3.A.1.7",
+   "term_name": "3.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_04035": [
+  {
+   "term_id": "tcdb:3.A.1.7",
+   "term_name": "3.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_04040": [
+  {
+   "term_id": "tcdb:3.A.1.7",
+   "term_name": "3.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_04050": [
+  {
+   "term_id": "tcdb:2.A.20",
+   "term_name": "The Inorganic Phosphate Transporter (PiT) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_04155": [
+  {
+   "term_id": "tcdb:2.A.23.4",
+   "term_name": "2.A.23.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_04190": [
+  {
+   "term_id": "tcdb:9.B.99.1",
+   "term_name": "9.B.99.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_04225": [
+  {
+   "term_id": "tcdb:1.A.23.4",
+   "term_name": "1.A.23.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_04240": [
+  {
+   "term_id": "tcdb:1.B.14.1",
+   "term_name": "1.B.14.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.B.14.10",
+   "term_name": "1.B.14.10",
+   "level": 3
+  }
+ ],
+ "ACZ81_04255": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_04260": [
+  {
+   "term_id": "tcdb:2.A.1.2.9",
+   "term_name": "2.A.1.2.9",
+   "level": 4
+  }
+ ],
+ "ACZ81_04290": [
+  {
+   "term_id": "tcdb:1.B.17.2.2",
+   "term_name": "1.B.17.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_04295": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_04300": [
+  {
+   "term_id": "tcdb:2.A.6.1.2",
+   "term_name": "2.A.6.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_04325": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_04470": [
+  {
+   "term_id": "tcdb:1.E.14.2",
+   "term_name": "1.E.14.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_04540": [
+  {
+   "term_id": "tcdb:9.B.42",
+   "term_name": "The ExeAB (ExeAB) Secretin Assembly/Export Complex Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_04545": [
+  {
+   "term_id": "tcdb:9.B.42",
+   "term_name": "The ExeAB (ExeAB) Secretin Assembly/Export Complex Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_04605": [
+  {
+   "term_id": "tcdb:3.A.1.115",
+   "term_name": "3.A.1.115",
+   "level": 3
+  }
+ ],
+ "ACZ81_04610": [
+  {
+   "term_id": "tcdb:3.A.1.115",
+   "term_name": "3.A.1.115",
+   "level": 3
+  }
+ ],
+ "ACZ81_04625": [
+  {
+   "term_id": "tcdb:3.A.1.107",
+   "term_name": "3.A.1.107",
+   "level": 3
+  }
+ ],
+ "ACZ81_04630": [
+  {
+   "term_id": "tcdb:3.A.1.107",
+   "term_name": "3.A.1.107",
+   "level": 3
+  }
+ ],
+ "ACZ81_04635": [
+  {
+   "term_id": "tcdb:3.A.1.107",
+   "term_name": "3.A.1.107",
+   "level": 3
+  }
+ ],
+ "ACZ81_04640": [
+  {
+   "term_id": "tcdb:3.A.1.107",
+   "term_name": "3.A.1.107",
+   "level": 3
+  }
+ ],
+ "ACZ81_04650": [
+  {
+   "term_id": "tcdb:9.B.14.1",
+   "term_name": "9.B.14.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_04685": [
+  {
+   "term_id": "tcdb:2.A.17",
+   "term_name": "The Proton-dependent Oligopeptide Transporter (POT/PTR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_04690": [
+  {
+   "term_id": "tcdb:3.A.1.101",
+   "term_name": "3.A.1.101",
+   "level": 3
+  }
+ ],
+ "ACZ81_04695": [
+  {
+   "term_id": "tcdb:3.A.1.101",
+   "term_name": "3.A.1.101",
+   "level": 3
+  }
+ ],
+ "ACZ81_04700": [
+  {
+   "term_id": "tcdb:3.A.1.101",
+   "term_name": "3.A.1.101",
+   "level": 3
+  }
+ ],
+ "ACZ81_04740": [
+  {
+   "term_id": "tcdb:3.A.11.1",
+   "term_name": "3.A.11.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.11.2",
+   "term_name": "3.A.11.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_04875": [
+  {
+   "term_id": "tcdb:1.B.33",
+   "term_name": "The Outer Membrane Protein Insertion Porin (Bam Complex) (OmpIP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_04925": [
+  {
+   "term_id": "tcdb:2.A.37",
+   "term_name": "The Monovalent Cation:Proton Antiporter-2 (CPA2) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_05170": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.6.3",
+   "term_name": "3.A.6.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_05180": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05185": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.6.3",
+   "term_name": "3.A.6.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_05210": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.6.3",
+   "term_name": "3.A.6.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_05215": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05220": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05225": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05230": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05235": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_05250": [
+  {
+   "term_id": "tcdb:3.A.6.2",
+   "term_name": "3.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.6.3",
+   "term_name": "3.A.6.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_05355": [
+  {
+   "term_id": "tcdb:2.A.53.3",
+   "term_name": "2.A.53.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_05425": [
+  {
+   "term_id": "tcdb:3.B.1.1.1",
+   "term_name": "3.B.1.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05430": [
+  {
+   "term_id": "tcdb:3.B.1.1.1",
+   "term_name": "3.B.1.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05435": [
+  {
+   "term_id": "tcdb:3.B.1.1.1",
+   "term_name": "3.B.1.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05440": [
+  {
+   "term_id": "tcdb:3.A.1.5.5",
+   "term_name": "3.A.1.5.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_05445": [
+  {
+   "term_id": "tcdb:3.A.1.5.21",
+   "term_name": "3.A.1.5.21",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.24",
+   "term_name": "3.A.1.5.24",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.5",
+   "term_name": "3.A.1.5.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_05450": [
+  {
+   "term_id": "tcdb:3.A.1.5.5",
+   "term_name": "3.A.1.5.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_05455": [
+  {
+   "term_id": "tcdb:3.A.1.5.1",
+   "term_name": "3.A.1.5.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.18",
+   "term_name": "3.A.1.5.18",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.19",
+   "term_name": "3.A.1.5.19",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.25",
+   "term_name": "3.A.1.5.25",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:3.A.1.5.5",
+   "term_name": "3.A.1.5.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_05460": [
+  {
+   "term_id": "tcdb:3.A.1.5.5",
+   "term_name": "3.A.1.5.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_05530": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_05565": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05570": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05575": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_05580": [
+  {
+   "term_id": "tcdb:2.C.1.1",
+   "term_name": "2.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_05610": [
+  {
+   "term_id": "tcdb:4.B.1.1",
+   "term_name": "4.B.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_05675": [
+  {
+   "term_id": "tcdb:8.A.1.1",
+   "term_name": "8.A.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_05870": [
+  {
+   "term_id": "tcdb:2.A.1.27",
+   "term_name": "2.A.1.27",
+   "level": 3
+  }
+ ],
+ "ACZ81_05900": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_05915": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_05935": [
+  {
+   "term_id": "tcdb:1.A.30.1",
+   "term_name": "1.A.30.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_06100": [
+  {
+   "term_id": "tcdb:2.A.21.2",
+   "term_name": "2.A.21.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06130": [
+  {
+   "term_id": "tcdb:1.A.13.2.2",
+   "term_name": "1.A.13.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.13.2.3",
+   "term_name": "1.A.13.2.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_06135": [
+  {
+   "term_id": "tcdb:1.A.13.2.2",
+   "term_name": "1.A.13.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.13.2.3",
+   "term_name": "1.A.13.2.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_06195": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.7",
+   "term_name": "3.A.5.7",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.8",
+   "term_name": "3.A.5.8",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.9",
+   "term_name": "3.A.5.9",
+   "level": 3
+  }
+ ],
+ "ACZ81_06230": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06240": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.109",
+   "term_name": "3.A.1.109",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.21",
+   "term_name": "3.A.1.21",
+   "level": 3
+  }
+ ],
+ "ACZ81_06415": [
+  {
+   "term_id": "tcdb:1.A.30.2.2",
+   "term_name": "1.A.30.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_06420": [
+  {
+   "term_id": "tcdb:1.A.30.2.2",
+   "term_name": "1.A.30.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_06425": [
+  {
+   "term_id": "tcdb:2.C.1.2",
+   "term_name": "2.C.1.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06430": [
+  {
+   "term_id": "tcdb:2.C.1.2",
+   "term_name": "2.C.1.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06435": [
+  {
+   "term_id": "tcdb:2.C.1.2",
+   "term_name": "2.C.1.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06560": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_06575": [
+  {
+   "term_id": "tcdb:1.B.14.1.11",
+   "term_name": "1.B.14.1.11",
+   "level": 4
+  }
+ ],
+ "ACZ81_06635": [
+  {
+   "term_id": "tcdb:2.A.19.5",
+   "term_name": "2.A.19.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_06695": [
+  {
+   "term_id": "tcdb:3.A.1.13",
+   "term_name": "3.A.1.13",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.14",
+   "term_name": "3.A.1.14",
+   "level": 3
+  }
+ ],
+ "ACZ81_06700": [
+  {
+   "term_id": "tcdb:3.A.1.13",
+   "term_name": "3.A.1.13",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.14",
+   "term_name": "3.A.1.14",
+   "level": 3
+  }
+ ],
+ "ACZ81_06720": [
+  {
+   "term_id": "tcdb:2.A.38.1",
+   "term_name": "2.A.38.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.38.4",
+   "term_name": "2.A.38.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_06725": [
+  {
+   "term_id": "tcdb:2.A.38.1",
+   "term_name": "2.A.38.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.38.4",
+   "term_name": "2.A.38.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_06740": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.109",
+   "term_name": "3.A.1.109",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.21",
+   "term_name": "3.A.1.21",
+   "level": 3
+  }
+ ],
+ "ACZ81_06840": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_06845": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_06975": [
+  {
+   "term_id": "tcdb:1.B.33.1",
+   "term_name": "1.B.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_07025": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_07045": [
+  {
+   "term_id": "tcdb:1.A.33.1",
+   "term_name": "1.A.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_07150": [
+  {
+   "term_id": "tcdb:9.A.40.1.2",
+   "term_name": "9.A.40.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_07200": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_07230": [
+  {
+   "term_id": "tcdb:2.A.25",
+   "term_name": "The Alanine or Glycine:Cation Symporter (AGCS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_07395": [
+  {
+   "term_id": "tcdb:1.A.16.1.1",
+   "term_name": "1.A.16.1.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.16.1.3",
+   "term_name": "1.A.16.1.3",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.16.2",
+   "term_name": "1.A.16.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_07475": [
+  {
+   "term_id": "tcdb:4.A.1.1.1",
+   "term_name": "4.A.1.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_07720": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_07730": [
+  {
+   "term_id": "tcdb:2.A.37",
+   "term_name": "The Monovalent Cation:Proton Antiporter-2 (CPA2) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.37.1.1",
+   "term_name": "2.A.37.1.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.37.1.2",
+   "term_name": "2.A.37.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_07735": [
+  {
+   "term_id": "tcdb:2.A.37.1.2",
+   "term_name": "2.A.37.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_07785": [
+  {
+   "term_id": "tcdb:9.B.35.1.2",
+   "term_name": "9.B.35.1.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:9.B.35.2",
+   "term_name": "9.B.35.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_07825": [
+  {
+   "term_id": "tcdb:2.A.1.40",
+   "term_name": "2.A.1.40",
+   "level": 3
+  }
+ ],
+ "ACZ81_07860": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_07865": [
+  {
+   "term_id": "tcdb:2.A.40",
+   "term_name": "The Nucleobase/Ascorbate Transporter (NAT) or Nucleobase:Cation Symporter-2 (NCS2) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.40.4.2",
+   "term_name": "2.A.40.4.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.40.4.3",
+   "term_name": "2.A.40.4.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_07975": [
+  {
+   "term_id": "tcdb:1.B.66.3.1",
+   "term_name": "1.B.66.3.1",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.66.3.2",
+   "term_name": "1.B.66.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_07980": [
+  {
+   "term_id": "tcdb:1.B.18",
+   "term_name": "The Outer Membrane Auxiliary (OMA) Protein Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_07985": [
+  {
+   "term_id": "tcdb:8.A.3.1",
+   "term_name": "8.A.3.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_08165": [
+  {
+   "term_id": "tcdb:3.A.1.125",
+   "term_name": "3.A.1.125",
+   "level": 3
+  }
+ ],
+ "ACZ81_08415": [
+  {
+   "term_id": "tcdb:3.A.1.125",
+   "term_name": "3.A.1.125",
+   "level": 3
+  }
+ ],
+ "ACZ81_08420": [
+  {
+   "term_id": "tcdb:3.A.1.125",
+   "term_name": "3.A.1.125",
+   "level": 3
+  }
+ ],
+ "ACZ81_08425": [
+  {
+   "term_id": "tcdb:2.A.23",
+   "term_name": "The Dicarboxylate/Amino Acid:Cation (Na+ or H+) Symporter (DAACS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_08480": [
+  {
+   "term_id": "tcdb:1.A.12.2.2",
+   "term_name": "1.A.12.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.12.3.2",
+   "term_name": "1.A.12.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_08690": [
+  {
+   "term_id": "tcdb:2.A.39",
+   "term_name": "The Nucleobase:Cation Symporter-1 (NCS1) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_08850": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_08980": [
+  {
+   "term_id": "tcdb:2.A.37.1.2",
+   "term_name": "2.A.37.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_09005": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_09010": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_09015": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_09020": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_09090": [
+  {
+   "term_id": "tcdb:2.A.15.1.3",
+   "term_name": "2.A.15.1.3",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.15.1.4",
+   "term_name": "2.A.15.1.4",
+   "level": 4
+  }
+ ],
+ "ACZ81_09325": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_09390": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_09445": [
+  {
+   "term_id": "tcdb:2.A.21.2",
+   "term_name": "2.A.21.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_09620": [
+  {
+   "term_id": "tcdb:2.C.1.1",
+   "term_name": "2.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_09675": [
+  {
+   "term_id": "tcdb:3.A.11.1",
+   "term_name": "3.A.11.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.11.2",
+   "term_name": "3.A.11.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_09680": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  }
+ ],
+ "ACZ81_09705": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_09815": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_09860": [
+  {
+   "term_id": "tcdb:2.A.2.6",
+   "term_name": "2.A.2.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_10200": [
+  {
+   "term_id": "tcdb:2.A.22.4",
+   "term_name": "2.A.22.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.22.5",
+   "term_name": "2.A.22.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_10205": [
+  {
+   "term_id": "tcdb:2.A.35",
+   "term_name": "The NhaC Na+:H+ Antiporter (NhaC) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_10260": [
+  {
+   "term_id": "tcdb:3.A.1.120.6",
+   "term_name": "3.A.1.120.6",
+   "level": 4
+  }
+ ],
+ "ACZ81_10345": [
+  {
+   "term_id": "tcdb:2.A.37",
+   "term_name": "The Monovalent Cation:Proton Antiporter-2 (CPA2) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_10365": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_10370": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_10375": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_10380": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_10390": [
+  {
+   "term_id": "tcdb:3.A.3.5",
+   "term_name": "3.A.3.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_10550": [
+  {
+   "term_id": "tcdb:1.A.14.2.1",
+   "term_name": "1.A.14.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_10595": [
+  {
+   "term_id": "tcdb:1.A.43.1",
+   "term_name": "1.A.43.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.43.2",
+   "term_name": "1.A.43.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.43.3",
+   "term_name": "1.A.43.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_10610": [
+  {
+   "term_id": "tcdb:3.A.12",
+   "term_name": "The Septal DNA Translocator (S-DNA-T) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_10745": [
+  {
+   "term_id": "tcdb:1.B.33.1",
+   "term_name": "1.B.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_10765": [
+  {
+   "term_id": "tcdb:2.A.86.1",
+   "term_name": "2.A.86.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_10880": [
+  {
+   "term_id": "tcdb:2.A.66.1",
+   "term_name": "2.A.66.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_11100": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_11205": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:8.A.1.6",
+   "term_name": "8.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_11210": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_11215": [
+  {
+   "term_id": "tcdb:2.A.6.2",
+   "term_name": "2.A.6.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_11295": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_11320": [
+  {
+   "term_id": "tcdb:3.A.1.8",
+   "term_name": "3.A.1.8",
+   "level": 3
+  }
+ ],
+ "ACZ81_11325": [
+  {
+   "term_id": "tcdb:3.A.1.8",
+   "term_name": "3.A.1.8",
+   "level": 3
+  }
+ ],
+ "ACZ81_11330": [
+  {
+   "term_id": "tcdb:3.A.1.8",
+   "term_name": "3.A.1.8",
+   "level": 3
+  }
+ ],
+ "ACZ81_11450": [
+  {
+   "term_id": "tcdb:2.A.7.3.6",
+   "term_name": "2.A.7.3.6",
+   "level": 4
+  }
+ ],
+ "ACZ81_11670": [
+  {
+   "term_id": "tcdb:2.A.25",
+   "term_name": "The Alanine or Glycine:Cation Symporter (AGCS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_12100": [
+  {
+   "term_id": "tcdb:2.A.47.1",
+   "term_name": "2.A.47.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12120": [
+  {
+   "term_id": "tcdb:1.A.23.2",
+   "term_name": "1.A.23.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_12280": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_12330": [
+  {
+   "term_id": "tcdb:4.C.1.1",
+   "term_name": "4.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12395": [
+  {
+   "term_id": "tcdb:3.A.1.14",
+   "term_name": "3.A.1.14",
+   "level": 3
+  }
+ ],
+ "ACZ81_12425": [
+  {
+   "term_id": "tcdb:2.A.73.1",
+   "term_name": "2.A.73.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12545": [
+  {
+   "term_id": "tcdb:2.A.34.1",
+   "term_name": "2.A.34.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12550": [
+  {
+   "term_id": "tcdb:5.A.2.1",
+   "term_name": "5.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12585": [
+  {
+   "term_id": "tcdb:4.C.1.1",
+   "term_name": "4.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12745": [
+  {
+   "term_id": "tcdb:1.A.16.4",
+   "term_name": "1.A.16.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_12760": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_12835": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_12890": [
+  {
+   "term_id": "tcdb:2.A.14",
+   "term_name": "The Lactate Permease (LctP) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.14.1.1",
+   "term_name": "2.A.14.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_12925": [
+  {
+   "term_id": "tcdb:1.B.33.1",
+   "term_name": "1.B.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12970": [
+  {
+   "term_id": "tcdb:1.A.30.1",
+   "term_name": "1.A.30.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_12975": [
+  {
+   "term_id": "tcdb:1.A.30.1",
+   "term_name": "1.A.30.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_13175": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13180": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13185": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13205": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13255": [
+  {
+   "term_id": "tcdb:2.A.66.4",
+   "term_name": "2.A.66.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_13280": [
+  {
+   "term_id": "tcdb:2.A.28",
+   "term_name": "The Bile Acid:Na+ Symporter (BASS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_13450": [
+  {
+   "term_id": "tcdb:1.B.33.1",
+   "term_name": "1.B.33.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_13570": [
+  {
+   "term_id": "tcdb:2.A.6.4",
+   "term_name": "2.A.6.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.7",
+   "term_name": "3.A.5.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_13575": [
+  {
+   "term_id": "tcdb:2.A.6.4",
+   "term_name": "2.A.6.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.7",
+   "term_name": "3.A.5.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_13580": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13610": [
+  {
+   "term_id": "tcdb:1.A.1.1",
+   "term_name": "1.A.1.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.13",
+   "term_name": "1.A.1.13",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.17",
+   "term_name": "1.A.1.17",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.24",
+   "term_name": "1.A.1.24",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.25",
+   "term_name": "1.A.1.25",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.6",
+   "term_name": "1.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_13645": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_13650": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_13810": [
+  {
+   "term_id": "tcdb:2.A.66.2",
+   "term_name": "2.A.66.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13845": [
+  {
+   "term_id": "tcdb:2.A.66.2",
+   "term_name": "2.A.66.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_13870": [
+  {
+   "term_id": "tcdb:1.B.18",
+   "term_name": "The Outer Membrane Auxiliary (OMA) Protein Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_13955": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_14210": [
+  {
+   "term_id": "tcdb:1.B.14.2",
+   "term_name": "1.B.14.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14220": [
+  {
+   "term_id": "tcdb:3.A.1.5",
+   "term_name": "3.A.1.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_14225": [
+  {
+   "term_id": "tcdb:3.A.1.5",
+   "term_name": "3.A.1.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_14230": [
+  {
+   "term_id": "tcdb:3.A.1.5",
+   "term_name": "3.A.1.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_14235": [
+  {
+   "term_id": "tcdb:3.A.1.5",
+   "term_name": "3.A.1.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_14265": [
+  {
+   "term_id": "tcdb:1.A.13.2.2",
+   "term_name": "1.A.13.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.13.2.3",
+   "term_name": "1.A.13.2.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_14275": [
+  {
+   "term_id": "tcdb:2.A.6.1.2",
+   "term_name": "2.A.6.1.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_14280": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_14340": [
+  {
+   "term_id": "tcdb:2.A.1.20",
+   "term_name": "2.A.1.20",
+   "level": 3
+  }
+ ],
+ "ACZ81_14470": [
+  {
+   "term_id": "tcdb:2.A.1.7",
+   "term_name": "2.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_14495": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_14625": [
+  {
+   "term_id": "tcdb:2.A.6.2.16",
+   "term_name": "2.A.6.2.16",
+   "level": 4
+  }
+ ],
+ "ACZ81_14630": [
+  {
+   "term_id": "tcdb:8.A.1",
+   "term_name": "The Membrane Fusion Protein (MFP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_14680": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14685": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14690": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14720": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.10",
+   "term_name": "3.A.5.10",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.4",
+   "term_name": "3.A.5.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_14765": [
+  {
+   "term_id": "tcdb:2.A.103.1",
+   "term_name": "2.A.103.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_14775": [
+  {
+   "term_id": "tcdb:9.B.146",
+   "term_name": "The Putative Undecaprenyl-phosphate N-Acetylglucosaminyl Transferase (MurG) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_14825": [
+  {
+   "term_id": "tcdb:2.A.6.1.4",
+   "term_name": "2.A.6.1.4",
+   "level": 4
+  }
+ ],
+ "ACZ81_14830": [
+  {
+   "term_id": "tcdb:2.A.6.1.4",
+   "term_name": "2.A.6.1.4",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:8.A.1",
+   "term_name": "The Membrane Fusion Protein (MFP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_14900": [
+  {
+   "term_id": "tcdb:1.A.23.2",
+   "term_name": "1.A.23.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14930": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14935": [
+  {
+   "term_id": "tcdb:3.A.15.2",
+   "term_name": "3.A.15.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_14975": [
+  {
+   "term_id": "tcdb:1.A.12.2.2",
+   "term_name": "1.A.12.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.12.3.2",
+   "term_name": "1.A.12.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_15015": [
+  {
+   "term_id": "tcdb:2.A.1.2.14",
+   "term_name": "2.A.1.2.14",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.1.2.25",
+   "term_name": "2.A.1.2.25",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.1.2.65",
+   "term_name": "2.A.1.2.65",
+   "level": 4
+  }
+ ],
+ "ACZ81_15110": [
+  {
+   "term_id": "tcdb:2.A.59",
+   "term_name": "The Arsenical Resistance-3 (ACR3) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_15200": [
+  {
+   "term_id": "tcdb:4.D.1.3",
+   "term_name": "4.D.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_15250": [
+  {
+   "term_id": "tcdb:2.A.7.1",
+   "term_name": "2.A.7.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_15275": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_15310": [
+  {
+   "term_id": "tcdb:2.A.21",
+   "term_name": "The Solute:Sodium Symporter (SSS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_15370": [
+  {
+   "term_id": "tcdb:3.A.1.13",
+   "term_name": "3.A.1.13",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.14",
+   "term_name": "3.A.1.14",
+   "level": 3
+  }
+ ],
+ "ACZ81_15420": [
+  {
+   "term_id": "tcdb:2.A.1.7",
+   "term_name": "2.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_15425": [
+  {
+   "term_id": "tcdb:1.B.19.1",
+   "term_name": "1.B.19.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_15450": [
+  {
+   "term_id": "tcdb:1.A.12.2.2",
+   "term_name": "1.A.12.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.12.3.2",
+   "term_name": "1.A.12.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_15505": [
+  {
+   "term_id": "tcdb:2.A.49",
+   "term_name": "The Chloride Carrier/Channel (ClC) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_15600": [
+  {
+   "term_id": "tcdb:3.A.1.11",
+   "term_name": "3.A.1.11",
+   "level": 3
+  }
+ ],
+ "ACZ81_15625": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_15630": [
+  {
+   "term_id": "tcdb:1.B.42.1",
+   "term_name": "1.B.42.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_15760": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_15825": [
+  {
+   "term_id": "tcdb:1.A.8.1",
+   "term_name": "1.A.8.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.8.2",
+   "term_name": "1.A.8.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_15910": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_15915": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_16020": [
+  {
+   "term_id": "tcdb:2.A.15.1.3",
+   "term_name": "2.A.15.1.3",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:2.A.15.1.4",
+   "term_name": "2.A.15.1.4",
+   "level": 4
+  }
+ ],
+ "ACZ81_16130": [
+  {
+   "term_id": "tcdb:1.B.6",
+   "term_name": "The OmpA-OmpF Porin (OOP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_16150": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_16360": [
+  {
+   "term_id": "tcdb:1.A.23.4.5",
+   "term_name": "1.A.23.4.5",
+   "level": 4
+  }
+ ],
+ "ACZ81_16380": [
+  {
+   "term_id": "tcdb:2.A.22.4",
+   "term_name": "2.A.22.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:2.A.22.5",
+   "term_name": "2.A.22.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_16420": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_16430": [
+  {
+   "term_id": "tcdb:1.B.55.3",
+   "term_name": "1.B.55.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_16440": [
+  {
+   "term_id": "tcdb:4.D.3.1.6",
+   "term_name": "4.D.3.1.6",
+   "level": 4
+  }
+ ],
+ "ACZ81_16445": [
+  {
+   "term_id": "tcdb:4.D.3.1.2",
+   "term_name": "4.D.3.1.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:4.D.3.1.5",
+   "term_name": "4.D.3.1.5",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:4.D.3.1.6",
+   "term_name": "4.D.3.1.6",
+   "level": 4
+  }
+ ],
+ "ACZ81_16565": [
+  {
+   "term_id": "tcdb:2.A.39",
+   "term_name": "The Nucleobase:Cation Symporter-1 (NCS1) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.39.3.8",
+   "term_name": "2.A.39.3.8",
+   "level": 4
+  }
+ ],
+ "ACZ81_16570": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_16630": [
+  {
+   "term_id": "tcdb:2.A.8",
+   "term_name": "The Gluconate:H+ Symporter (GntP) Family",
+   "level": 2
+  },
+  {
+   "term_id": "tcdb:2.A.8.1.8",
+   "term_name": "2.A.8.1.8",
+   "level": 4
+  }
+ ],
+ "ACZ81_16760": [
+  {
+   "term_id": "tcdb:2.A.41",
+   "term_name": "The Concentrative Nucleoside Transporter (CNT) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_16800": [
+  {
+   "term_id": "tcdb:2.A.21.7",
+   "term_name": "2.A.21.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_17015": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.110",
+   "term_name": "3.A.1.110",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.112",
+   "term_name": "3.A.1.112",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.113",
+   "term_name": "3.A.1.113",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.117",
+   "term_name": "3.A.1.117",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.21",
+   "term_name": "3.A.1.21",
+   "level": 3
+  }
+ ],
+ "ACZ81_17060": [
+  {
+   "term_id": "tcdb:4.D.1.3",
+   "term_name": "4.D.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17070": [
+  {
+   "term_id": "tcdb:4.D.1.3",
+   "term_name": "4.D.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17250": [
+  {
+   "term_id": "tcdb:4.D.1.3",
+   "term_name": "4.D.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17300": [
+  {
+   "term_id": "tcdb:3.A.5",
+   "term_name": "The General Secretory Pathway (Sec) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_17420": [
+  {
+   "term_id": "tcdb:1.A.30.1",
+   "term_name": "1.A.30.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_17450": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17475": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17480": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_17535": [
+  {
+   "term_id": "tcdb:3.A.1.9",
+   "term_name": "3.A.1.9",
+   "level": 3
+  }
+ ],
+ "ACZ81_17560": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_17615": [
+  {
+   "term_id": "tcdb:8.A.1",
+   "term_name": "The Membrane Fusion Protein (MFP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_17620": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.109",
+   "term_name": "3.A.1.109",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.110",
+   "term_name": "3.A.1.110",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.21",
+   "term_name": "3.A.1.21",
+   "level": 3
+  }
+ ],
+ "ACZ81_17760": [
+  {
+   "term_id": "tcdb:3.A.1.140",
+   "term_name": "3.A.1.140",
+   "level": 3
+  }
+ ],
+ "ACZ81_17765": [
+  {
+   "term_id": "tcdb:3.A.1.140",
+   "term_name": "3.A.1.140",
+   "level": 3
+  }
+ ],
+ "ACZ81_17770": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.7",
+   "term_name": "3.A.5.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_17785": [
+  {
+   "term_id": "tcdb:2.A.95.1",
+   "term_name": "2.A.95.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_17850": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_17855": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_17940": [
+  {
+   "term_id": "tcdb:2.C.1.1",
+   "term_name": "2.C.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_17945": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_17950": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_17955": [
+  {
+   "term_id": "tcdb:1.A.30.2.1",
+   "term_name": "1.A.30.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_17965": [
+  {
+   "term_id": "tcdb:1.B.14.1.22",
+   "term_name": "1.B.14.1.22",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.14.1.3",
+   "term_name": "1.B.14.1.3",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.14.1.5",
+   "term_name": "1.B.14.1.5",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.B.14.10",
+   "term_name": "1.B.14.10",
+   "level": 3
+  }
+ ],
+ "ACZ81_17980": [
+  {
+   "term_id": "tcdb:1.B.14.1.11",
+   "term_name": "1.B.14.1.11",
+   "level": 4
+  }
+ ],
+ "ACZ81_18060": [
+  {
+   "term_id": "tcdb:3.A.5.1",
+   "term_name": "3.A.5.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.5.2",
+   "term_name": "3.A.5.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_18070": [
+  {
+   "term_id": "tcdb:3.A.1.106",
+   "term_name": "3.A.1.106",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.109",
+   "term_name": "3.A.1.109",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.A.1.21",
+   "term_name": "3.A.1.21",
+   "level": 3
+  }
+ ],
+ "ACZ81_18100": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_18125": [
+  {
+   "term_id": "tcdb:1.A.23.2",
+   "term_name": "1.A.23.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_18370": [
+  {
+   "term_id": "tcdb:1.B.6",
+   "term_name": "The OmpA-OmpF Porin (OOP) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18425": [
+  {
+   "term_id": "tcdb:1.B.14.2",
+   "term_name": "1.B.14.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_18465": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_18470": [
+  {
+   "term_id": "tcdb:3.A.1",
+   "term_name": "The ATP-binding Cassette (ABC) Superfamily",
+   "level": 2
+  }
+ ],
+ "ACZ81_18530": [
+  {
+   "term_id": "tcdb:2.A.21",
+   "term_name": "The Solute:Sodium Symporter (SSS) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18535": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18540": [
+  {
+   "term_id": "tcdb:2.A.4.1",
+   "term_name": "2.A.4.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_18570": [
+  {
+   "term_id": "tcdb:2.A.1.7",
+   "term_name": "2.A.1.7",
+   "level": 3
+  }
+ ],
+ "ACZ81_18585": [
+  {
+   "term_id": "tcdb:2.A.1.1.3",
+   "term_name": "2.A.1.1.3",
+   "level": 4
+  }
+ ],
+ "ACZ81_18590": [
+  {
+   "term_id": "tcdb:3.A.1.129",
+   "term_name": "3.A.1.129",
+   "level": 3
+  }
+ ],
+ "ACZ81_18595": [
+  {
+   "term_id": "tcdb:3.A.1.129",
+   "term_name": "3.A.1.129",
+   "level": 3
+  }
+ ],
+ "ACZ81_18600": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_18605": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_18625": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18645": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18785": [
+  {
+   "term_id": "tcdb:1.B.14",
+   "term_name": "The Outer Membrane Receptor (OMR) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18810": [
+  {
+   "term_id": "tcdb:1.B.9",
+   "term_name": "The FadL Outer Membrane Protein (FadL) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_18945": [
+  {
+   "term_id": "tcdb:1.B.14.1",
+   "term_name": "1.B.14.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.B.14.10",
+   "term_name": "1.B.14.10",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.B.14.2",
+   "term_name": "1.B.14.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_18990": [
+  {
+   "term_id": "tcdb:3.D.4.5",
+   "term_name": "3.D.4.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_18995": [
+  {
+   "term_id": "tcdb:3.D.4.5",
+   "term_name": "3.D.4.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_19000": [
+  {
+   "term_id": "tcdb:3.D.4.2",
+   "term_name": "3.D.4.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.5",
+   "term_name": "3.D.4.5",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.6",
+   "term_name": "3.D.4.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_19005": [
+  {
+   "term_id": "tcdb:3.D.4.5",
+   "term_name": "3.D.4.5",
+   "level": 3
+  }
+ ],
+ "ACZ81_19095": [
+  {
+   "term_id": "tcdb:5.A.1.1",
+   "term_name": "5.A.1.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19175": [
+  {
+   "term_id": "tcdb:3.A.1.3",
+   "term_name": "3.A.1.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_19220": [
+  {
+   "term_id": "tcdb:1.A.1.1",
+   "term_name": "1.A.1.1",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.13",
+   "term_name": "1.A.1.13",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.17",
+   "term_name": "1.A.1.17",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.24",
+   "term_name": "1.A.1.24",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.25",
+   "term_name": "1.A.1.25",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:1.A.1.6",
+   "term_name": "1.A.1.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_19275": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19280": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19285": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19290": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19295": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19300": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19305": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19310": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19315": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19320": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19325": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19330": [
+  {
+   "term_id": "tcdb:3.A.15",
+   "term_name": "The Outer Membrane Protein Secreting Main Terminal Branch (MTB) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19375": [
+  {
+   "term_id": "tcdb:4.D.3.1.1",
+   "term_name": "4.D.3.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_19505": [
+  {
+   "term_id": "tcdb:2.A.66.1",
+   "term_name": "2.A.66.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19530": [
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_19540": [
+  {
+   "term_id": "tcdb:3.D.4.8",
+   "term_name": "3.D.4.8",
+   "level": 3
+  }
+ ],
+ "ACZ81_19550": [
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.6",
+   "term_name": "3.D.4.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_19555": [
+  {
+   "term_id": "tcdb:3.D.4.8",
+   "term_name": "3.D.4.8",
+   "level": 3
+  }
+ ],
+ "ACZ81_19560": [
+  {
+   "term_id": "tcdb:3.D.4.2",
+   "term_name": "3.D.4.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.5",
+   "term_name": "3.D.4.5",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.6",
+   "term_name": "3.D.4.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_19565": [
+  {
+   "term_id": "tcdb:3.D.4.2",
+   "term_name": "3.D.4.2",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.4",
+   "term_name": "3.D.4.4",
+   "level": 3
+  },
+  {
+   "term_id": "tcdb:3.D.4.6",
+   "term_name": "3.D.4.6",
+   "level": 3
+  }
+ ],
+ "ACZ81_19620": [
+  {
+   "term_id": "tcdb:2.A.1.2",
+   "term_name": "2.A.1.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_19630": [
+  {
+   "term_id": "tcdb:1.B.33.2.4",
+   "term_name": "1.B.33.2.4",
+   "level": 4
+  }
+ ],
+ "ACZ81_19780": [
+  {
+   "term_id": "tcdb:2.A.2",
+   "term_name": "The Glycoside-Pentoside-Hexuronide (GPH):Cation Symporter Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_19800": [
+  {
+   "term_id": "tcdb:3.A.7.9.1",
+   "term_name": "3.A.7.9.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_19820": [
+  {
+   "term_id": "tcdb:1.A.12.2.2",
+   "term_name": "1.A.12.2.2",
+   "level": 4
+  },
+  {
+   "term_id": "tcdb:1.A.12.3.2",
+   "term_name": "1.A.12.3.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_19830": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19835": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19840": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19845": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19850": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19855": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19860": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19865": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19870": [
+  {
+   "term_id": "tcdb:3.A.2.1",
+   "term_name": "3.A.2.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_19925": [
+  {
+   "term_id": "tcdb:2.A.9",
+   "term_name": "The Membrane Protein Insertase (YidC/Alb3/Oxa1) Family",
+   "level": 2
+  }
+ ],
+ "ACZ81_20015": [
+  {
+   "term_id": "tcdb:1.B.17.2.2",
+   "term_name": "1.B.17.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_20020": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_20055": [
+  {
+   "term_id": "tcdb:1.A.72.1",
+   "term_name": "1.A.72.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_20060": [
+  {
+   "term_id": "tcdb:1.A.72.1",
+   "term_name": "1.A.72.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_20065": [
+  {
+   "term_id": "tcdb:1.A.72.4",
+   "term_name": "1.A.72.4",
+   "level": 3
+  }
+ ],
+ "ACZ81_20140": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_20145": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_20150": [
+  {
+   "term_id": "tcdb:1.B.17.2.2",
+   "term_name": "1.B.17.2.2",
+   "level": 4
+  }
+ ],
+ "ACZ81_20345": [
+  {
+   "term_id": "tcdb:9.B.62.1",
+   "term_name": "9.B.62.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_20350": [
+  {
+   "term_id": "tcdb:9.B.62.2",
+   "term_name": "9.B.62.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_20675": [
+  {
+   "term_id": "tcdb:9.B.62.2",
+   "term_name": "9.B.62.2",
+   "level": 3
+  }
+ ],
+ "ACZ81_20680": [
+  {
+   "term_id": "tcdb:9.B.62.1",
+   "term_name": "9.B.62.1",
+   "level": 3
+  }
+ ],
+ "ACZ81_RS18600": [
+  {
+   "term_id": "tcdb:3.D.4.3",
+   "term_name": "3.D.4.3",
+   "level": 3
+  }
+ ],
+ "ACZ81_RS20815": [
+  {
+   "term_id": "tcdb:9.B.13.1.1",
+   "term_name": "9.B.13.1.1",
+   "level": 4
+  }
+ ],
+ "ACZ81_RS21580": [
+  {
+   "term_id": "tcdb:8.A.1.2.1",
+   "term_name": "8.A.1.2.1",
+   "level": 4
+  }
+ ]
+}

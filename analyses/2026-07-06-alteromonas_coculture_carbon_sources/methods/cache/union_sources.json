@@ -1,0 +1,3554 @@
+{
+ "ACZ81_15850": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19175": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14140": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08690": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09680": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11845": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00080": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16850": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_20345": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00945": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04300": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04255": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19000": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11100": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06195": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06420": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19630": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09015": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15450": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19925": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_12120": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16740": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13255": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03755": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12550": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18650": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06740": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14210": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19655": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14495": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05225": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19550": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06565": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04035": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00430": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15110": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13575": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18585": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11205": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19870": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_20680": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_01140": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16760": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00870": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05530": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04540": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_13205": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03715": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13180": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03420": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19700": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_20020": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16155": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18605": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_02185": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02125": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01375": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06510": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_16035": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15240": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00685": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_12975": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17560": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01830": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16020": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03750": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17595": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03165": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08850": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11330": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04635": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05565": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19800": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00085": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14265": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19285": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19985": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_06185": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_12585": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19095": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04030": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16360": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17070": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11950": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_RS20815": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16630": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18070": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03335": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03255": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14275": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03245": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03905": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04260": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00580": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13870": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15420": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05235": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14220": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06975": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03365": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05250": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_16570": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03690": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05610": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05870": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13940": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00385": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18955": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03640": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17300": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09650": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19770": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19005": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17395": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_20145": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07230": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16445": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04210": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02940": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18945": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02855": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03730": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_19560": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16800": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15275": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15760": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18355": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_19025": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17535": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02820": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15000": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00710": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01015": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07150": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13650": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09095": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_12890": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18645": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04045": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13810": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17770": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10390": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_13510": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03160": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06540": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05170": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_08425": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01870": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_RS20765": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18690": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07985": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14690": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05355": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_20015": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00660": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18470": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04625": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18785": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06230": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04630": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12545": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14055": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18535": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03920": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03745": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04740": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_RS18600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09595": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04040": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09815": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10365": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00695": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_20065": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10765": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10585": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03895": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16115": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04365": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13885": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_20675": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15910": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07475": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17760": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19860": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08720": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00630": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05080": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14230": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06430": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03395": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11210": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13610": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08920": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05430": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19855": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15830": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19565": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14260": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04690": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00470": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_09090": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11450": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17460": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17420": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07920": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13645": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07980": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_13955": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07200": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17475": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19540": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09445": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10345": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12760": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02260": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19245": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00790": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13175": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09705": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15495": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19820": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14625": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18060": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04290": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09005": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04605": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01975": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18625": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14720": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19530": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10235": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02215": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08420": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08415": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00615": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_01380": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16565": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05185": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06190": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18595": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19830": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_09825": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06575": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09010": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18370": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_02510": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07450": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04875": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07890": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_12925": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07785": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03995": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05460": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10205": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08480": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10200": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01865": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12625": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08980": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05220": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16495": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08900": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02420": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_11855": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05575": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06415": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18530": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03785": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19375": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17945": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10550": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16420": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11120": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03790": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16130": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11670": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04350": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19295": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00585": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18995": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15705": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18865": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02255": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17570": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07720": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03515": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19275": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14235": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14830": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06130": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_08715": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14470": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10880": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19555": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16835": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04320": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_12900": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17620": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05180": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00930": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06425": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08330": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18130": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04240": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18685": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18430": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18630": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04700": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07735": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_02315": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18990": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17955": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15415": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_10735": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17950": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02460": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05675": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09020": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02990": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11895": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14935": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07865": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_20055": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17015": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08345": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17940": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05580": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06615": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_19845": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00795": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01525": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19635": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_09390": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14930": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10375": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_16380": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12280": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11295": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17785": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06075": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14975": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15370": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04640": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09675": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19780": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06235": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05445": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18600": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15950": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14765": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04325": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10745": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15310": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00110": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19505": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10440": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17765": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16815": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02250": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03385": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07725": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19315": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_08165": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01010": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09860": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_20140": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05440": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19310": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10380": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_01135": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18280": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05695": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_RS21580": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15015": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06860": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13280": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11320": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12330": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17850": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05935": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_12395": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04610": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14775": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10260": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05915": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02730": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07825": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02825": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13185": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04650": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04050": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18590": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19840": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06595": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15955": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04695": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19305": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19970": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_12425": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13845": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18520": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_16150": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17895": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_03890": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19405": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_01940": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17855": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03770": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04225": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13570": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06695": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05215": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06240": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07975": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02675": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14525": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18550": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_11325": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14280": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_RS21385": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04000": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18185": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07025": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11430": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_13450": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03780": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_20060": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_00590": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07395": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04545": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15840": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05640": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04355": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18465": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00715": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19220": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05900": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00775": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07855": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05570": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19865": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_08220": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05455": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00640": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18435": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_07020": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06435": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14680": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03535": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17890": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06560": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12655": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19320": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_20150": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05435": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17615": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04470": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_07860": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_17450": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15825": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_01515": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06605": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_03375": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_01130": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05230": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_12835": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18810": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06720": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15900": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_04295": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19290": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06700": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12970": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06275": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19280": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03055": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13515": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06015": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08915": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02475": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15625": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06725": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_12100": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14900": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15630": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09620": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_06845": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14825": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09610": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_09460": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03775": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02120": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01580": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15250": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11850": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08240": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03720": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10595": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01020": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_20350": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_05450": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10610": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19620": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18425": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07045": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06840": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_02410": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_16745": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17480": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_02150": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15640": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_08180": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_18125": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05210": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_06590": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03390": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03990": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_10370": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_18910": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06635": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_07730": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03190": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04190": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15700": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17060": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17965": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_01730": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03795": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04925": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03250": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_09325": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_03170": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18830": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_03400": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19850": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03115": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15425": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_11170": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_01540": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14225": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15915": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04250": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06135": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_10400": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14340": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_03900": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02945": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_04155": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13580": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15525": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_14630": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_14060": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15755": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15880": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_11115": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_02465": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_18540": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00295": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05370": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_15600": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19325": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19080": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_05525": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_17980": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_19330": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14810": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_19835": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_14685": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_17250": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_01385": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_11215": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16440": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_19300": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_15505": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_16430": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_12745": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00690": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_13520": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_00380": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_05425": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00985": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_00360": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_04685": {
+  "brite": false,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ },
+ "ACZ81_15200": {
+  "brite": false,
+  "kegg": false,
+  "tcdb": true,
+  "func": false
+ },
+ "ACZ81_08925": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": false,
+  "func": true
+ },
+ "ACZ81_06610": {
+  "brite": true,
+  "kegg": false,
+  "tcdb": false,
+  "func": false
+ },
+ "ACZ81_18570": {
+  "brite": true,
+  "kegg": true,
+  "tcdb": true,
+  "func": true
+ }
+}
