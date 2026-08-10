@@ -141,7 +141,14 @@ unnamed/uncheckable validation set, or contradiction, and fix inline;
 (2) **critical review** — the fresh-context critic runs on every
 proposal, interpretation-only (no data yet), via the `critical-review`
 skill; (3) **researcher approval** — present the proposal and the
-critic's findings, and begin the Run phase only on approval. See
+critic's findings, and begin the Run phase only on approval. **Re-run the
+critic after any material revision** — a revision can introduce a flaw a
+clean earlier pass never covered, so a proposal may take several passes
+before approval. (Dogfood evidence: the carbon-sources proposal went
+through four critic passes; passes 2, 3, and 4 each caught a real Blocker
+the prior pass had not — inverted/mis-sourced scoring, then a
+transporter-counting rule that would have fragmented real systems — all
+fixed at plan time instead of forcing a mid-run redo.) See
 [step-protocol.md — The Plan phase](references/step-protocol.md).
 
 **Framing is enumerated, not sketched.** The recurring failure is a
@@ -159,6 +166,20 @@ time*. Every framing states, specifically:
   already known, named, with the behavior expected if the method works
   ("glnA should score high under N-limitation — if it doesn't,
   something's wrong")
+- **Falsifiability check** — named in advance: the result that would say
+  the method found *nothing real* (or is flagging noise), and a
+  **pre-registered expected-negative** — a class that should *not* score
+  if the signal is genuine. The validation set says what a *hit* looks
+  like; this says what a *miss* looks like. Without it a true null and a
+  noise result are indistinguishable, and a negative finding cannot be
+  trusted. (Dogfood evidence: the carbon-sources run returned a null; the
+  only FDR-passing modules anywhere were the pre-registered
+  expected-negatives — an aromatic and an iron transporter — which is
+  exactly what let the null be read as real rather than as a failed
+  method. That expected-negative was added late, by a critic, not by the
+  framing — this bullet closes that gap.) A null is a valid outcome; the
+  evaluation milestone writes it up as a bounded negative, not a
+  non-result.
 
 **Two principles, working together.** *Just-in-time* governs **what**
 the plan commits to — only what the data so far supports; no

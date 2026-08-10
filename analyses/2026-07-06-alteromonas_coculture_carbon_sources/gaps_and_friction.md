@@ -75,3 +75,36 @@ tool-result file to build a compact table.
 **Downstream impact.** Process — for broad landscape scans, prefer
 `summary=true` first, then targeted non-verbose pulls, or plan to `jq` the saved
 file. Minor.
+
+### 2026-07-12 — `significant_only` datasets are unscorable by a transporter-module method (data/method fit)
+
+**What happened.** The EZ55 pCO₂ experiments are `significant_only` (only DE-significant
+genes have rows, ~188–419 genes). Scoring the 35 EZ55 modules, **28/35 (400 ppm) and
+32/35 (800 ppm) had no gene in the significant set** → unscorable; every scored module
+rested on a single detected system. The one "hit" (Fe-dicitrate, 800 ppm) is iron
+acquisition. The result is *underpowered*, not a clean negative.
+
+**Workaround.** None available — the method needs the genes present. Reported EZ55 as
+underpowered/uninformative, not null; the analysis rests on the genome-wide HOT1A3
+presence contrast.
+
+**Downstream impact.** Method-fit lesson: a presence-contrast module method (rank all
+detected genes → module max) requires `all_detected_genes`; `significant_only` datasets
+cannot corroborate it. Worth stating in the proposal's data-scoping when a
+`significant_only` experiment is proposed as support. (Candidate methodology note — see
+`docs/methodology-retro-2026-07-carbon-sources.md`.)
+
+### 2026-07-12 — validation controls don't transfer across contrast types (methodology)
+
+**What happened.** The ribosomal-neutrality negative control (ribosomal genes ~0.50 in
+the presence contrast, confirming the up-percentile axis isn't a generic growth signal)
+**failed in the starvation-vs-exponential temporal contrast** — ribosomal median
+up-percentile 0.66–0.79 in both arms. So the temporal ranking is shaped by the
+growth-state transition, and a control calibrated on one contrast type did not transfer.
+
+**Workaround.** Flagged the temporal read as growth-state-confounded; scoped "method
+validated" to the presence contrast only.
+
+**Downstream impact.** Methodology: validation sets may be **per-contrast-type**, not
+global. One occurrence — noted for the next analysis to confirm before any skill change
+(retro doc).
