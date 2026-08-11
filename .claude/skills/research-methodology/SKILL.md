@@ -159,6 +159,14 @@ time*. Every framing states, specifically:
   already known, named, with the behavior expected if the method works
   ("glnA should score high under N-limitation — if it doesn't,
   something's wrong")
+- **Falsifiability check** — named in advance: the result that would say
+  the method found *nothing real* (or is only flagging noise), and a
+  **pre-registered expected-negative** — a class that should *not* score
+  if the signal is genuine. The validation set says what a *hit* looks
+  like; this says what a *miss* looks like. Without it a true null and a
+  noise result are indistinguishable, and a negative finding cannot be
+  trusted. A null is a valid outcome; the evaluation milestone writes it
+  up as a bounded negative, not a non-result.
 
 **Two principles, working together.** *Just-in-time* governs **what**
 the plan commits to — only what the data so far supports; no
