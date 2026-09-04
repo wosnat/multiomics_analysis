@@ -186,6 +186,28 @@ block, `B19`, holds nine of them and is the phycobilisome gene cluster. Within
 12 kb of `mpeA` sit cpeA, cpeB, cpeC, cpeE, cpeS, cpeT, cpeY, cpeZ, mpeC, mpeD,
 mpeU, mpeY, cpcA, cpcB, pebA and pebB.
 
+The term `locus_block` is ours, not standard usage: markers were sorted by
+chromosome coordinate and a new block started wherever the gap to the previous
+marker exceeded 30 kb. The 30 kb cutoff is a judgement call, generous enough to
+hold a whole cluster and tight enough that unrelated regions do not merge.
+
+Blocks holding more than one marker:
+
+| Block | Markers | Span | Contents |
+|---|---|---|---|
+| B19 | 9 | 19.7 kb | unk4, cpeR, unk7, unk9, mpeB, mpeA, unk11, unk12, cpeU |
+| B13 | 8 | 66.9 kb | hli plus 7 unannotated |
+| B14 | 5 | 10.5 kb | all unannotated |
+| B04 | 3 | 16.3 kb | kaiA plus 2 unannotated |
+| B06 | 3 | 1.4 kb | all unannotated |
+| B08 | 3 | 17.7 kb | all unannotated |
+| B12 | 3 | 21.2 kb | all unannotated |
+| B11 | 2 | 21.2 kb | all unannotated |
+
+The remaining 14 blocks hold one marker each. Inside B19 the packing is tight:
+mpeB and mpeA are 46 bp apart, cpeR and unk7 are adjacent, and the whole run of
+nine spans under 20 kb.
+
 This matters for panel design. Markers sharing a block share a promoter region,
 a regulatory input and an evolutionary fate; they are not independent
 observations. The short panel therefore deliberately mixes `B19` markers with

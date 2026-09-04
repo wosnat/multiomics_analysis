@@ -58,7 +58,20 @@ knowledge graph, 17 of which are *Prochlorococcus*.
 `shared_domain_in_a_genome`, `cross_aligns_another_marker`, `caution`,
 `ortholog_groups`.
 
-`locus_block` groups markers within 30 kb of each other on the WH8102 genome.
-Markers sharing a block are physically linked and not independent.
+**What `locus_block` means.** It is our own label, not standard terminology.
+We placed every marker on the WH8102 chromosome, sorted them by coordinate, and
+started a new block whenever the gap to the previous marker exceeded 30 kb. So a
+block is simply a run of markers that sit close together on the chromosome; `B19`
+is the leftmost such run in coordinate order after `B01`, and so on.
+
+It exists to answer one question: are two markers independent? Genes packed into
+20 kb are usually one operon or one functional island. They share promoters and
+regulation, and they tend to be gained, lost or replaced together. Counting them
+as separate markers overstates how much evidence you have. Markers in *different*
+blocks are far enough apart to fail or survive independently.
+
+The 30 kb cutoff is a judgement call, not a derived threshold. It is generous
+enough to hold a whole biosynthetic cluster and tight enough that unrelated
+regions do not merge.
 `is_medoid` marks the ortholog with the highest mean identity to the other four,
 computed by all-versus-all DIAMOND blastp (`--very-sensitive`).
