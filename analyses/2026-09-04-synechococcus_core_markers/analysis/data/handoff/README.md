@@ -48,38 +48,106 @@ knowledge graph, 17 of which are *Prochlorococcus*.
 | `*_accessions_medoid.txt` | just the medoid accessions |
 | `*_metadata.csv` | one row per marker x strain, with every field below |
 
-## Metadata columns
+## Metadata columns — data dictionary
 
-`marker_id`, `tier`, `gene_name`, `product`, `gene_category`, `strain`, `clade`,
-`organism`, `locus_tag`, `protein_accession`, `protein_length_aa`,
-`sequence_available`, `is_medoid`, `locus_block`,
-`mean_identity_to_siblings_pct`, `min_pairwise_identity_pct`,
-`domain_paralog_check`, `cross_aligns_another_marker`, `caution`,
-`ortholog_groups`.
+### Read this first: most columns describe the MARKER, not the row
 
-`locus_block` groups markers within 30 kb of each other on the WH8102 genome.
-Markers sharing a block are physically linked and not independent.
+Each metadata file has one row per **marker x strain**, so a five-strain marker
+occupies five rows. **12 of the 20 columns are marker-level and repeat
+identically on all five of its rows.** Only eight vary from row to row. If you
+filter or count rows without collapsing on `marker_id` first, every marker-level
+statistic is counted five times.
+
+| Varies per row | Constant across a marker's rows |
+|---|---|
+| `strain`, `clade`, `organism`, `locus_tag`, `protein_accession`, `protein_length_aa`, `sequence_available`, `is_medoid` | `marker_id`, `tier`, `gene_name`, `product`, `gene_category`, `locus_block`, `mean_identity_to_siblings_pct`, `min_pairwise_identity_pct`, `domain_paralog_check`, `cross_aligns_another_marker`, `caution`, `ortholog_groups` |
+
+### Column by column
+
+| Column | Meaning | Watch out for |
+|---|---|---|
+| `marker_id` | Our arbitrary identifier, `m000`-`m052`. Stable across every file in this bundle. | Carries no biological meaning. The number is a row index, not a rank. |
+| `tier` | `1_annotated` = informative gene name and a non-hypothetical product. `2_exploratory` = everything else. | Our label. Tier 2 markers are candidates, not validated markers. |
+| `gene_name` | Consensus gene name from the ortholog group. Blank when the group has none. | **`unk4`, `unk7`, `unk9`, `unk11`, `unk12` are placeholders, not real gene names.** They are Cyanorak labels for uncharacterised genes in the phycobilisome region. Do not read them as characterised genes. |
+| `product` | Consensus product description from the ortholog group. | "conserved hypothetical protein" and "uncharacterized conserved membrane protein" mean no functional evidence. |
+| `gene_category` | Cyanorak functional role category. | Assigned by Cyanorak curation, not by us. "Unknown" is common here. |
+| `strain` | Short strain label, one of the five. | |
+| `clade` | Marine picocyanobacterial clade of that strain: I, II, III, IV, V. | Clade of the *reference strain*, not of anything you will find in the metagenome. |
+| `organism` | Full organism name as stored in the knowledge graph. | |
+| `locus_tag` | Gene identifier in that genome. | **Naming is mixed within a single strain.** WH8102 alone carries three styles: `SYNW0561`, `TX72_RS12145`, `S8102_22071`, from different annotation rounds. All valid; do not assume one prefix per genome. |
+| `protein_accession` | NCBI RefSeq protein accession (`WP_...`). | **Blank on 19 of 245 rows** in the full panel. Those genes have neither accession nor sequence. |
+| `protein_length_aa` | Length of the stored amino-acid sequence. | Blank wherever no sequence is stored. |
+| `sequence_available` | Whether the graph holds an amino-acid sequence for this gene. | `False` on 19 of 245 rows. Those rows appear in the metadata but in no FASTA file. |
+| `is_medoid` | `True` on the one ortholog chosen as that marker's representative query. | Exactly one `True` per marker for 48 of 49. Marker `m048` has **no** medoid, too few of its orthologs have sequences. |
+| `locus_block` | A run of markers close together on the chromosome. See below. | Blank for 3 markers whose anchor gene has no stored coordinates. |
+| `mean_identity_to_siblings_pct` | The medoid's mean percent identity to the marker's other orthologs. | Marker-level. **`0.0` means DIAMOND found no alignment at all, not "0% identical"** (marker `m008`). Blank means no medoid could be computed (`m048`). |
+| `min_pairwise_identity_pct` | Lowest percent identity between any two orthologs of the marker. A tightness score. | Marker-level. Below 50% means one query will probably miss distant relatives, so prefer `_all_orthologs.faa`. Same `0.0` and blank caveats. |
+| `domain_paralog_check` | Independent Pfam re-test for paralogs. See below. | Three values, not a boolean. `untested_no_pfam` is **not** a clean result. |
+| `cross_aligns_another_marker` | `True` when this marker's sequences align to a *different* marker in the panel. | Our label. Markers that align to each other cannot be told apart in metagenomic reads, so treat such a pair as one marker. Five pairs affected. |
+| `caution` | Free-text warning, blank for most markers. | Currently used only for `unk7`. |
+| `ortholog_groups` | The ortholog groups this marker is built from, semicolon-separated. | Spans both sources and up to four taxonomic levels, e.g. `cyanorak:CK_...;eggnog:...@1129;eggnog:...@1117;eggnog:...@2`. The Bacteria-level group (`@2`) is the one carrying the specificity claim. |
+
+**What `locus_block` means.** Our own label, not standard terminology. We placed
+every marker on the WH8102 chromosome, sorted by coordinate, and started a new
+block wherever the gap to the previous marker exceeded 30 kb. So a block is
+simply a run of markers sitting close together.
+
+It exists to answer one question: are two markers independent evidence? Genes
+packed into 20 kb are usually one operon or one functional island. They share
+promoters and regulation, and they tend to be gained, lost or replaced together,
+so counting them separately overstates the evidence. Markers in *different*
+blocks can fail or survive independently. The 30 kb cutoff is a judgement call,
+generous enough to hold a whole cluster and tight enough that unrelated regions
+do not merge.
+
+Blocks holding more than one marker, across all 53 original markers:
+
+| Block | Markers | Span | Contents |
+|---|---|---|---|
+| B19 | 9 | 19.7 kb | unk4, cpeR, unk7, unk9, mpeB, mpeA, unk11, unk12, cpeU |
+| B13 | 8 | 66.9 kb | hli plus 7 unannotated |
+| B14 | 5 | 10.5 kb | all unannotated |
+| B04 | 3 | 16.3 kb | kaiA plus 2 unannotated |
+| B06 | 3 | 1.4 kb | all unannotated |
+| B08 | 3 | 17.7 kb | all unannotated |
+| B12 | 3 | 21.2 kb | all unannotated |
+| B11 | 2 | 21.2 kb | all unannotated |
+
+The other 14 blocks hold one marker each. Inside B19 the packing is tight: mpeB
+and mpeA are 46 bp apart and the whole run of nine spans under 20 kb.
+
 **What `domain_paralog_check` means.** Our label. The single-copy test used to
 build these markers works inside the ortholog groups, so it catches a duplicate
-that shares a group with the marker but cannot see a paralog assigned to a
-different group. This column is an independent re-test using Pfam domains: for
-each marker gene we counted how many *other* genes in the same genome carry the
-same Pfam entry. Three values:
+sharing a group with the marker but cannot see a paralog assigned to a different
+group. This column is an independent re-test using Pfam domains: for each marker
+gene we counted how many *other* genes in the same genome carry the same Pfam
+entry.
 
-| Value | Meaning |
-|---|---|
-| `clean` | the gene has Pfam annotation and no other gene in that genome shares a domain with it |
-| `shares_domain` | another gene in at least one of the five genomes carries the same Pfam entry |
-| `untested_no_pfam` | the gene has no Pfam annotation, so this check could not run — **not** a clean result |
+| Value | Meaning | Panel count |
+|---|---|---|
+| `clean` | has Pfam annotation, no other gene in that genome shares a domain | 9 |
+| `shares_domain` | another gene in at least one of the five genomes carries the same Pfam entry | 9 |
+| `untested_no_pfam` | no Pfam annotation, so the check could not run — **not** a clean result | 35 |
 
-Across the 49 panel markers: 35 untested, 9 clean, 9 sharing a domain.
+`shares_domain` is a flag for review, not a verdict. A shared domain is far
+weaker evidence than a shared ortholog group, and it catches two different
+things. Phycobiliproteins (mpeA, mpeB, cpeR) trip it because every
+phycobiliprotein in the genome carries the same fold, which is a gene family
+rather than a duplication and is probably benign. The `hli` markers tripped it
+for a real reason, since high-light inducible proteins are a genuinely expanded
+family; both were dropped. Pfam reaches only 76 of 271 marker gene instances, so
+this check is silent for most of the panel.
 
-`shares_domain` is a flag for review, not a verdict. A shared domain is much
-weaker evidence than a shared ortholog group, and two things get caught by it.
-Phycobiliproteins (mpeA, mpeB, cpeR) trip it because every phycobiliprotein in
-the genome carries the same fold — that is a gene family, not a duplication, and
-is probably benign. The `hli` markers tripped it for real, because high-light
-inducible proteins are a genuinely expanded family; both were dropped.
+**What `is_medoid` means.** The medoid is the ortholog with the highest mean
+percent identity to the marker's other four, computed by all-versus-all DIAMOND
+blastp (`--very-sensitive`). It is the sequence closest to the centre of the
+group, and therefore the least biased single query for finding a strain present
+in none of the five reference genomes. No single strain wins the medoid across
+markers, which is why the representative is chosen per marker rather than by
+picking one reference strain.
 
-`is_medoid` marks the ortholog with the highest mean identity to the other four,
-computed by all-versus-all DIAMOND blastp (`--very-sensitive`).
+### Extra columns in `panel_final.csv` (source repository, not this bundle)
+
+`accessions_available` counts how many of the five strains have an accession
+(5 for 42 markers, 4 for 6, fewer for 5). `anchor_strain` and `anchor_start` are
+the genome and coordinate used to assign the locus block.
