@@ -1,0 +1,54 @@
+marker_id,gene,product,kept,anchor_strain,anchor_locus_tag,contig,start,end,locus_block
+m020,,conserved hypothetical protein,True,WH8102,S8102_15941,,,,
+m045,,uncharacterized conserved secreted protein,True,WH8102,SYNW2557,,,,
+m048,,putative membrane protein,True,WH8102,S8102_22071,,,,
+m013,,uncharacterized conserved membrane protein,True,WH8102,SYNW0158,NC_005070.1,153986,154306,B01
+m051,,uncharacterized conserved membrane protein,True,WH8102,TX72_RS14610,NC_005070.1,278571,279074,B02
+m000,apcE,phycobilisome core-membrane linker polypeptide (Lcm),False,WH8102,SYNW0486,NC_005070.1,485764,488655,B03
+m043,,putative membrane protein,True,WH8102,SYNW0528,NC_005070.1,522172,522456,B04
+m042,,conserved hypothetical protein,True,WH8102,SYNW0541,NC_005070.1,533570,533833,B04
+m005,kaiA,circadian clock protein kaiA,False,WH8102,SYNW0548,NC_005070.1,537537,538427,B04
+m039,,conserved hypothetical protein,True,WH8102,SYNW0700,NC_005070.1,683650,683880,B05
+m038,,conserved hypothetical protein,True,WH8102,TX72_RS03575,NC_005070.1,717229,717432,B06
+m037,,conserved hypothetical protein,True,WH8102,SYNW0734,NC_005070.1,717491,717949,B06
+m052,,uncharacterized conserved secreted protein,True,WH8102,TX72_RS14675,NC_005070.1,718433,718642,B06
+m036,,conserved hypothetical protein,True,WH8102,SYNW0786,NC_005070.1,766379,766702,B07
+m035,,conserved hypothetical protein,True,WH8102,SYNW0849,NC_005070.1,819743,820048,B08
+m034,,conserved hypothetical protein,True,WH8102,SYNW0869,NC_005070.1,835928,836179,B08
+m046,,conserved hypothetical protein,True,WH8102,SYNW0871,NC_005070.1,836984,837487,B08
+m023,,conserved hypothetical protein,True,WH8102,SYNW0979,NC_005070.1,970011,970319,B09
+m044,,uncharacterized conserved membrane protein,True,WH8102,TX72_RS05290,NC_005070.1,1050641,1050880,B10
+m029,,conserved hypothetical protein,True,WH8102,SYNW1157,NC_005070.1,1150479,1150934,B11
+m049,,conserved hypothetical protein,True,WH8102,TX72_RS13180,NC_005070.1,1171466,1171702,B11
+m028,,conserved hypothetical protein,True,WH8102,SYNW1241,NC_005070.1,1237252,1237806,B12
+m027,,uncharacterized conserved secreted protein,True,WH8102,SYNW1245,NC_005070.1,1240585,1240872,B12
+m026,,"conserved hypothetical protein, Ycf35 family",True,WH8102,SYNW1260,NC_005070.1,1258057,1258407,B12
+m025,,conserved hypothetical protein,True,WH8102,SYNW1305,NC_005070.1,1302073,1302300,B13
+m047,,conserved hypothetical protein,True,WH8102,TX72_RS13905,NC_005070.1,1322708,1322986,B13
+m004,hli,high light inducible protein,False,WH8102,SYNW1331,NC_005070.1,1325372,1325593,B13
+m024,,uncharacterized conserved secreted protein,True,WH8102,SYNW1332,NC_005070.1,1325590,1325985,B13
+m022,,conserved hypothetical protein,True,WH8102,TX72_RS06715,NC_005070.1,1326471,1326665,B13
+m030,,uncharacterized conserved membrane protein,True,WH8102,SYNW1361,NC_005070.1,1350382,1350735,B13
+m040,,conserved hypothetical protein,True,WH8102,SYNW1378,NC_005070.1,1360701,1360919,B13
+m019,,conserved hypothetical protein,True,WH8102,SYNW1390,NC_005070.1,1368550,1368954,B13
+m031,,nif11-like leader peptide domain protein,True,WH8102,SYNW1431,NC_005070.1,1400273,1400500,B14
+m021,,conserved hypothetical protein,True,WH8102,TX72_RS14445,NC_005070.1,1403723,1403899,B14
+m041,,uncharacterized conserved membrane protein,True,WH8102,SYNW1444,NC_005070.1,1409152,1409814,B14
+m032,,uncharacterized conserved membrane protein,True,WH8102,SYNW1445,NC_005070.1,1409778,1410086,B14
+m033,,uncharacterized conserved membrane protein,True,WH8102,SYNW1448,NC_005070.1,1410652,1410807,B14
+m018,,putative membrane protein,True,WH8102,TX72_RS08795,NC_005070.1,1676460,1676681,B15
+m017,,Conserved hypothetical protein,True,WH8102,SYNW1784,NC_005070.1,1713991,1714443,B16
+m050,,conserved hypothetical protein,True,WH8102,SYNW1856,NC_005070.1,1771595,1771990,B17
+m016,,uncharacterized conserved membrane protein,True,WH8102,SYNW1893,NC_005070.1,1805440,1805601,B18
+m010,unk4,conserved hypothetical protein,True,WH8102,SYNW1995,NC_005070.1,1899924,1900355,B19
+m001,cpeR,phycoerythrin operon regulator,True,WH8102,SYNW2004,NC_005070.1,1907497,1907802,B19
+m011,unk7,nif11-like leader peptide domain protein,True,WH8102,TX72_RS10080,NC_005070.1,1907813,1908046,B19
+m012,unk9,conserved hypothetical protein,True,WH8102,SYNW2006,NC_005070.1,1908368,1908688,B19
+m007,mpeB,"C-phycoerythrin class II, beta chain",True,WH8102,SYNW2008,NC_005070.1,1910296,1910832,B19
+m006,mpeA,"C-phycoerythrin class II, alpha chain",True,WH8102,SYNW2009,NC_005070.1,1910879,1911376,B19
+m008,unk11,conserved hypothetical protein,True,WH8102,SYNW2014,NC_005070.1,1916490,1916729,B19
+m009,unk12,conserved hypothetical protein,True,WH8102,SYNW2015,NC_005070.1,1916730,1917179,B19
+m002,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,True,WH8102,SYNW2019,NC_005070.1,1919031,1919612,B19
+m015,,conserved hypothetical protein,True,WH8102,SYNW2361,NC_005070.1,2267558,2267947,B20
+m003,hli,high light inducible protein,False,WH8102,TX72_RS12145,NC_005070.1,2311269,2311499,B21
+m014,,uncharacterized conserved membrane protein,True,WH8102,SYNW2518,NC_005070.1,2420634,2420792,B22

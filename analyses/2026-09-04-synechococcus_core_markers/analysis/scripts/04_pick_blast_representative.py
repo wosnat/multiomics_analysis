@@ -90,7 +90,7 @@ def main() -> int:
     prot_id: dict[str, str] = {}
     with GraphConnection() as conn:
         for i in range(0, len(loci), 200):
-            res = gene_aa_sequence(locus_tags=loci[i : i + 200], conn=conn)
+            res = gene_aa_sequence(locus_tags=loci[i : i + 200], limit=10**6, conn=conn)
             for r in res["results"]:
                 if r.get("sequence"):
                     seqs[r["locus_tag"]] = r["sequence"]

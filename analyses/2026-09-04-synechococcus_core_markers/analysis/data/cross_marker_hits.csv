@@ -1,4 +1,6 @@
 marker_a,gene_a,marker_b,gene_b,max_pident
-m003,,m004,,55.9
-m029,,m041,,50.0
-m006,mpeA,m007,mpeB,28.9
+m003,hli,m004,hli,56.7
+m029,,m041,,55.4
+m000,apcE,m007,mpeB,45.2
+m011,unk7,m031,,34.1
+m006,mpeA,m007,mpeB,29.8

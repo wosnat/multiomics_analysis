@@ -78,13 +78,13 @@ def main() -> int:
     has_seq: set[str] = set()
     with GraphConnection() as conn:
         for i in range(0, len(loci), 200):
-            for r in gene_aa_sequence(locus_tags=loci[i : i + 200], conn=conn)["results"]:
+            for r in gene_aa_sequence(locus_tags=loci[i : i + 200], limit=10**6, conn=conn)["results"]:
                 if r.get("protein_id"):
                     acc[r["locus_tag"]] = r["protein_id"]
                 if r.get("sequence"):
                     has_seq.add(r["locus_tag"])
         for i in range(0, len(loci), 200):
-            for r in gene_details(locus_tags=loci[i : i + 200], conn=conn)["results"]:
+            for r in gene_details(locus_tags=loci[i : i + 200], limit=10**6, conn=conn)["results"]:
                 if r.get("protein_id") and r["locus_tag"] not in acc:
                     acc[r["locus_tag"]] = r["protein_id"]
     log.info("instances with a protein accession: %d/%d", len(acc), len(loci))

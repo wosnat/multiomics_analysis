@@ -260,34 +260,48 @@ because they have no Pfam annotation.
 Researcher question, 2026-09-04. Scripts: `scripts/04_pick_blast_representative.py`
 (superseded), `scripts/05_handoff_accessions.py`.
 
-### The medoid plan failed, and its output must not be used
+### CORRECTION — the medoid plan did not fail; my first run had a bug
 
-The intended method was to pick, per marker, the member with the highest mean
-percent identity to its four siblings, so the query sits at the centre of the
-group's sequence space rather than carrying one strain's idiosyncrasies. That
-requires sequences. The KG stores an amino-acid sequence for only **50 of 265**
-marker gene instances `[KG]`, and coverage is severely strain-skewed:
+**Retracted.** An earlier version of this section claimed the KG stores an
+amino-acid sequence for only 50 of 265 marker gene instances and that the medoid
+could not be computed. That was wrong, and the researcher caught it.
 
-| Strain | Clade | Genes | With stored AA sequence | With protein accession |
-|---|---|---|---|---|
-| CC9311 | I | 53 | 37 | 51 |
-| WH8109 | II | 53 | 0 | 48 |
-| WH8102 | III | 53 | 1 | 50 |
-| BL107 | IV | 53 | 0 | 48 |
-| WH7803 | V | 53 | 12 | 47 |
-| **Total** | | **265** | **50** | **244** |
+The cause was a pagination bug in my own code, not a KG gap. The Python package
+defaults `gene_aa_sequence` to **`limit=25`**, not `limit=None` as
+`docs://guide/python_api` states for "most tools". My batches of 200 locus tags
+therefore returned 25 rows each and silently dropped the rest. Logged in
+`gaps_and_friction.md`.
 
-The medoid run therefore covered 11 markers and "chose" CC9311 for 10 of them,
-purely because CC9311 is the only strain with sequences. That is an artifact of
-sequence coverage, not a similarity result. `data/blast_representatives.csv` is
-retained for reproducibility and **its recommendation is void**. `[gap]`
+**Corrected coverage** `[KG]`: 244 of 265 marker gene instances have BOTH a
+stored amino-acid sequence and an NCBI RefSeq protein accession. The 21 missing
+are genuinely absent, not paginated away. 52 of 53 markers have enough
+sequences for a medoid.
 
-### What the handoff is instead
+### Medoid results (corrected)
 
-Protein accessions, 244 of 265 available and evenly spread, all NCBI RefSeq
-`WP_` identifiers `[KG]`. 42 of 53 markers have a complete set of five.
-`data/handoff_accessions.csv` (wide, five accessions per marker) and
-`data/handoff_long.csv` (one row per marker x strain).
+All-versus-all DIAMOND blastp, `--very-sensitive`, over the 244 sequences. Per
+marker the medoid is the member with the highest mean percent identity to its
+siblings.
+
+Which strain wins the medoid, across 52 markers `[KG]`:
+
+| Strain | Clade | Markers where it is the medoid |
+|---|---|---|
+| WH8109 | II | 18 |
+| WH8102 | III | 16 |
+| BL107 | IV | 7 |
+| WH7803 | V | 6 |
+| CC9311 | I | 5 |
+
+No strain dominates, which is the direct argument against picking one strain
+globally: the most central sequence differs marker by marker.
+
+Group tightness `[KG]`: median mean-identity-to-siblings 64.9%. Six markers have
+a minimum pairwise identity at or above 70%; **22 fall below 50%**, and three
+have at least one sibling pair DIAMOND could not align at all. `[interpretation]`
+Those loose groups are poor single-query candidates. A metagenome relative of a
+group whose own members are under 50% identical to each other will very likely
+be missed by any one of them.
 
 ### Cross-marker alignment
 
@@ -336,3 +350,76 @@ mpeA, mpeB, cpeR and apcE share the phycobilisome fold with every other
 phycobiliprotein, so a strict identity threshold or a reciprocal best-hit check
 is needed. Two markers lack one accession each: apcE has no CC9311 accession,
 kaiA has none for WH8109.
+
+---
+
+## Follow-up — panel after the researcher's drops, and a locus-concentration warning
+
+Researcher dropped kaiA, both hli rows and apcE on 2026-09-04.
+Script: `scripts/06_panel_after_drops.py`. Outputs `data/panel_final.csv`,
+`data/marker_positions.csv`.
+
+49 markers remain, of which **five are annotated**: cpeR, cpeU, mpeA, mpeB and
+unk7.
+
+### The five remaining annotated markers all sit in one operon
+
+Every marker was placed on the WH8102 genome (CC9311 as fallback) and grouped
+into locus blocks, markers within 30 kb of each other counting as one block
+`[KG]`. The 53 markers span 22 blocks. Eight blocks hold more than one marker,
+and one block is far larger than the rest:
+
+| Block | Markers | Which |
+|---|---|---|
+| B19 | 9 | cpeR, cpeU, mpeA, mpeB, unk4, unk7, unk9, unk11, unk12 |
+| B13 | 8 | hli plus 7 unannotated |
+| B14 | 5 | all unannotated |
+| B04 | 3 | kaiA plus 2 unannotated |
+
+**All five surviving annotated markers are in B19.** `gene_neighbors` on
+SYNW2009 confirms what B19 is: the phycobilisome gene cluster. Within 12 kb of
+mpeA sit cpeA, cpeB, cpeC, cpeE, cpeS, cpeT, cpeY, cpeZ, mpeC, mpeD, mpeU,
+mpeY, cpcA, cpcB, pebA and pebB `[KG]`.
+
+`[interpretation]` This is a real problem for the panel as cut. Five markers
+from one operon are not five independent markers. They share a promoter region,
+a regulatory input and an evolutionary fate. If a Mediterranean lineage carries
+a divergent or reduced pigment locus, all five fail together and the panel
+reports absence where the organism is present.
+
+The concern is not hypothetical for marine *Synechococcus* specifically. Pigment
+type varies across the group, and phycoerythrin-II genes such as mpeA and mpeB
+are carried by some pigment types and not others. A panel built entirely on this
+locus will systematically under-count lineages with a different pigment
+configuration. The KG cannot test this: it holds five genomes, all of which
+carry the locus. `[gap]`
+
+### Group tightness of the five
+
+From the corrected medoid run `[KG]`:
+
+| Gene | Medoid strain | Accession | Length | Mean identity to siblings | Min pairwise |
+|---|---|---|---|---|---|
+| mpeA | CC9311 | WP_011618463.1 | 165 | 90.9% | 82.3% |
+| mpeB | WH8109 | WP_006850273.1 | 178 | 90.8% | 79.0% |
+| cpeR | WH8102 | WP_011128862.1 | 101 | 78.5% | 72.4% |
+| cpeU | WH8109 | WP_006849863.1 | 203 | 74.0% | 65.5% |
+| unk7 | BL107 | WP_009789001.1 | 73 | 60.5% | 48.1% |
+
+mpeA and mpeB are the two tightest groups in the whole panel, which makes them
+good queries in isolation. unk7 is loose (48% minimum) and only 73 residues, a
+poor BLAST query on both counts.
+
+### Recommendation on the cut
+
+Keep the five, and add markers from other locus blocks so the panel does not
+rest on one operon. `data/panel_final.csv` carries the block assignment for all
+49. The highest-identity unannotated candidates from distinct blocks, all with a
+full set of five accessions, are m034 (B08, 70.3% minimum), m027 (B12, 69.3%),
+m042 (B04, 64.4%) and m038 (B06, 59.7%).
+
+### Decision
+
+Panel as cut is recorded, and the locus-concentration risk is recorded with it.
+Whether to add spread markers is the researcher's call; the analysis does not
+make it unilaterally.

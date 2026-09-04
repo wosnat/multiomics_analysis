@@ -1,19 +1,19 @@
-08:08:24 markers: 53
-08:08:24 instances with a protein accession: 244/265
-08:08:24 instances with a stored AA sequence: 50/265
-08:08:24 --- panel composition ---
-08:08:24 markers with all 5 accessions      : 42
-08:08:24 markers with 4 accessions          : 6
-08:08:24 markers with <4 accessions         : 5
-08:08:24 annotated markers                  : 9
-08:08:24 flagged multi-copy family (hli)    : 2
-08:08:24 cross-aligning another marker      : 6
-08:08:24 shared domain in >=1 genome        : 9
-08:08:24 RECOMMENDED as first-tier queries  : 3
-08:08:24 --- per-strain accession coverage ---
-08:08:24    CC9311   clade I   51/53
-08:08:24    WH8109   clade II  48/53
-08:08:24    WH8102   clade III 50/53
-08:08:24    BL107    clade IV  48/53
-08:08:24    WH7803   clade V   47/53
-08:08:24 wrote handoff_accessions.csv, handoff_long.csv
+08:12:34 markers: 53
+08:12:34 instances with a protein accession: 244/265
+08:12:34 instances with a stored AA sequence: 244/265
+08:12:34 --- panel composition ---
+08:12:34 markers with all 5 accessions      : 42
+08:12:34 markers with 4 accessions          : 6
+08:12:34 markers with <4 accessions         : 5
+08:12:34 annotated markers                  : 9
+08:12:34 flagged multi-copy family (hli)    : 2
+08:12:34 cross-aligning another marker      : 9
+08:12:34 shared domain in >=1 genome        : 9
+08:12:34 RECOMMENDED as first-tier queries  : 2
+08:12:34 --- per-strain accession coverage ---
+08:12:34    CC9311   clade I   51/53
+08:12:34    WH8109   clade II  48/53
+08:12:34    WH8102   clade III 50/53
+08:12:34    BL107    clade IV  48/53
+08:12:34    WH7803   clade V   47/53
+08:12:34 wrote handoff_accessions.csv, handoff_long.csv

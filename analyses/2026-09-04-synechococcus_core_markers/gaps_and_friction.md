@@ -41,3 +41,21 @@ carry taxonomy, capability rollups, and a `clade` string, but no habitat field.
 `clade` is populated for exactly the five marine picocyanobacterial clades and
 empty elsewhere, so it served as a proxy; the marine call itself is
 `[interpretation]`, not `[KG]`.
+
+## 2026-09-04 — `gene_aa_sequence` defaults to `limit=25` in the Python package
+
+`docs://guide/python_api` says the package defaults to `limit=None` and returns
+every matching row, in contrast to MCP's `limit=5`, and states this for "most
+tools" without listing the exceptions. `gene_aa_sequence` is an exception: its
+package signature is `limit: int = 25`.
+
+Batching 265 locus tags in chunks of 200 without an explicit `limit` therefore
+returned 25 rows per chunk. The response still carries `truncated: True` and a
+correct `total_matching`, but neither was checked, so the run silently produced
+50 sequences instead of 244 and the analysis concluded the KG lacked sequence
+data. The researcher caught the wrong conclusion.
+
+Two lessons, both worth carrying: pass `limit` explicitly on every package call
+rather than trusting a documented default, and assert
+`returned == total_matching` after any call meant to be exhaustive. The guide
+should also list which tools do not default to `limit=None`.
