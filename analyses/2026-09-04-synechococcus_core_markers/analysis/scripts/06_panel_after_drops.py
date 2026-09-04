@@ -167,7 +167,7 @@ def main() -> int:
             "anchor_strain": p["anchor_strain"],
             "anchor_start": p["start"],
             "accessions_available": f.get("accessions_available", ""),
-            "shared_domain_in_a_genome": f.get("shared_domain_in_a_genome", ""),
+            "domain_paralog_check": f.get("domain_paralog_check", ""),
             "cross_aligns_another_marker": f.get("cross_aligns_another_marker", ""),
             "acc_CC9311": f.get("acc_CC9311", ""),
             "acc_WH8109": f.get("acc_WH8109", ""),

@@ -1,23 +1,23 @@
-08:12:35 markers before drops: 53
-08:12:35 dropped (apcE, hli, kaiA): 4
-08:12:35    dropped m000 apcE
-08:12:35    dropped m003 hli
-08:12:35    dropped m004 hli
-08:12:35    dropped m005 kaiA
-08:12:35 markers kept: 49
-08:12:35 annotated markers remaining: 5 -> cpeR, cpeU, mpeA, mpeB, unk7
-08:12:35 markers with genome coordinates: 50/53
-08:12:35 --- genome spread of all 53 markers (window 30 kb) ---
-08:12:35 distinct locus blocks: 22
-08:12:35 blocks holding more than one marker: 8
-08:12:35    B19: 9 markers -> cpeR, cpeU, mpeA, mpeB, unk11, unk12, unk4, unk7, unk9
-08:12:35    B13: 8 markers -> hli, m019, m022, m024, m025, m030, m040, m047
-08:12:35    B14: 5 markers -> m021, m031, m032, m033, m041
-08:12:35    B04: 3 markers -> kaiA, m042, m043
-08:12:35    B12: 3 markers -> m026, m027, m028
-08:12:35    B08: 3 markers -> m034, m035, m046
-08:12:35    B06: 3 markers -> m037, m038, m052
-08:12:35    B11: 2 markers -> m029, m049
-08:12:35 the 5 remaining annotated markers occupy 1 locus block(s): B19
-08:12:35 panel_final.csv: 49 markers (5 tier 1, 44 tier 2), 21 locus blocks
-08:12:35 wrote panel_final.csv, marker_positions.csv
+10:53:14 markers before drops: 53
+10:53:14 dropped (apcE, hli, kaiA): 4
+10:53:14    dropped m000 apcE
+10:53:14    dropped m003 hli
+10:53:14    dropped m004 hli
+10:53:14    dropped m005 kaiA
+10:53:14 markers kept: 49
+10:53:14 annotated markers remaining: 5 -> cpeR, cpeU, mpeA, mpeB, unk7
+10:53:14 markers with genome coordinates: 50/53
+10:53:14 --- genome spread of all 53 markers (window 30 kb) ---
+10:53:14 distinct locus blocks: 22
+10:53:14 blocks holding more than one marker: 8
+10:53:14    B19: 9 markers -> cpeR, cpeU, mpeA, mpeB, unk11, unk12, unk4, unk7, unk9
+10:53:14    B13: 8 markers -> hli, m019, m022, m024, m025, m030, m040, m047
+10:53:14    B14: 5 markers -> m021, m031, m032, m033, m041
+10:53:14    B04: 3 markers -> kaiA, m042, m043
+10:53:14    B12: 3 markers -> m026, m027, m028
+10:53:14    B08: 3 markers -> m034, m035, m046
+10:53:14    B06: 3 markers -> m037, m038, m052
+10:53:14    B11: 2 markers -> m029, m049
+10:53:14 the 5 remaining annotated markers occupy 1 locus block(s): B19
+10:53:14 panel_final.csv: 49 markers (5 tier 1, 44 tier 2), 21 locus blocks
+10:53:14 wrote panel_final.csv, marker_positions.csv

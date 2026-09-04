@@ -1,50 +1,50 @@
-marker_id,tier,gene,product,locus_block,anchor_strain,anchor_start,accessions_available,shared_domain_in_a_genome,cross_aligns_another_marker,acc_CC9311,acc_WH8109,acc_WH8102,acc_BL107,acc_WH7803
-m001,1_annotated,cpeR,phycoerythrin operon regulator,B19,WH8102,1907497,5,True,False,WP_071813674.1,WP_071823038.1,WP_011128862.1,WP_009789002.1,WP_011932411.1
-m002,1_annotated,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,B19,WH8102,1919031,5,False,False,WP_011618451.1,WP_006849863.1,WP_144416645.1,WP_037988036.1,WP_011932397.1
-m006,1_annotated,mpeA,"C-phycoerythrin class II, alpha chain",B19,WH8102,1910879,5,True,True,WP_011618463.1,WP_006850994.1,WP_011128867.1,WP_009788996.1,WP_011932406.1
-m007,1_annotated,mpeB,"C-phycoerythrin class II, beta chain",B19,WH8102,1910296,5,True,True,WP_041426329.1,WP_006850273.1,WP_011128866.1,WP_037988737.1,WP_011932407.1
-m011,1_annotated,unk7,nif11-like leader peptide domain protein,B19,WH8102,1907813,5,True,True,WP_041426330.1,WP_071823037.1,WP_042503822.1,WP_009789001.1,WP_011932410.1
-m020,2_exploratory,,conserved hypothetical protein,,WH8102,,3,False,False,WP_011620730.1,WP_025362228.1,,WP_009789481.1,
-m045,2_exploratory,,uncharacterized conserved secreted protein,,WH8102,,4,False,False,WP_011619706.1,WP_006851686.1,,WP_037988405.1,WP_011932752.1
-m048,2_exploratory,,putative membrane protein,,WH8102,,0,False,False,,,,,
-m013,2_exploratory,,uncharacterized conserved membrane protein,B01,WH8102,153986,5,False,False,WP_041426281.1,WP_006851771.1,WP_011127034.1,WP_009788374.1,WP_011932141.1
-m051,2_exploratory,,uncharacterized conserved membrane protein,B02,WH8102,278571,5,False,False,WP_041426303.1,WP_025362043.1,WP_071820816.1,WP_009788816.1,WP_011932251.1
-m042,2_exploratory,,conserved hypothetical protein,B04,WH8102,533570,5,False,False,WP_041426401.1,WP_006850125.1,WP_011127410.1,WP_009790448.1,WP_011933580.1
-m043,2_exploratory,,putative membrane protein,B04,WH8102,522172,5,False,False,WP_011620175.1,WP_006852088.1,WP_011127398.1,WP_009790461.1,WP_011933881.1
-m039,2_exploratory,,conserved hypothetical protein,B05,WH8102,683650,5,False,False,WP_041426936.1,WP_006851314.1,WP_011127567.1,WP_232192989.1,WP_011933520.1
-m037,2_exploratory,,conserved hypothetical protein,B06,WH8102,717491,5,False,False,WP_237699279.1,WP_006850973.1,WP_011127599.1,WP_009790246.1,WP_011933481.1
-m038,2_exploratory,,conserved hypothetical protein,B06,WH8102,717229,5,False,False,WP_011618916.1,WP_006850367.1,WP_042503137.1,WP_037989016.1,WP_011933482.1
-m052,2_exploratory,,uncharacterized conserved secreted protein,B06,WH8102,718433,5,False,False,WP_011618920.1,WP_052328033.1,WP_225867735.1,WP_009790243.1,WP_011933478.1
-m036,2_exploratory,,conserved hypothetical protein,B07,WH8102,766379,5,False,False,WP_011619627.1,WP_025362170.1,WP_011127651.1,WP_009790184.1,WP_083833632.1
-m034,2_exploratory,,conserved hypothetical protein,B08,WH8102,835928,5,False,False,WP_011619977.1,WP_006851999.1,WP_011127734.1,WP_009790096.1,WP_011932854.1
-m035,2_exploratory,,conserved hypothetical protein,B08,WH8102,819743,5,False,False,WP_011619113.1,WP_006849924.1,WP_042503207.1,WP_009790113.1,WP_011933314.1
-m046,2_exploratory,,conserved hypothetical protein,B08,WH8102,836984,5,False,False,WP_237699197.1,WP_232202456.1,WP_011127736.1,WP_050749847.1,WP_011932577.1
-m023,2_exploratory,,conserved hypothetical protein,B09,WH8102,970011,5,False,False,WP_049750388.1,WP_006852071.1,WP_148228857.1,WP_009789673.1,WP_011932915.1
-m044,2_exploratory,,uncharacterized conserved membrane protein,B10,WH8102,1050641,5,False,False,WP_011619691.1,WP_369792006.1,WP_042504271.1,WP_037988557.1,WP_011932908.1
-m029,2_exploratory,,conserved hypothetical protein,B11,WH8102,1150479,5,False,True,WP_041426580.1,WP_369792020.1,WP_225867745.1,WP_009789846.1,WP_011933388.1
-m049,2_exploratory,,conserved hypothetical protein,B11,WH8102,1171466,3,False,False,WP_011619598.1,,WP_071820841.1,,WP_011933384.1
-m026,2_exploratory,,"conserved hypothetical protein, Ycf35 family",B12,WH8102,1258057,5,False,False,WP_011619305.1,WP_006851848.1,WP_011128124.1,WP_009789753.1,WP_011933161.1
-m027,2_exploratory,,uncharacterized conserved secreted protein,B12,WH8102,1240585,5,False,False,WP_011619285.1,WP_006850242.1,WP_011128109.1,WP_009789768.1,WP_011933176.1
-m028,2_exploratory,,conserved hypothetical protein,B12,WH8102,1237252,5,False,False,WP_041426984.1,WP_006850013.1,WP_011128105.1,WP_009789772.1,WP_011933180.1
-m019,2_exploratory,,conserved hypothetical protein,B13,WH8102,1368550,5,False,False,WP_041426379.1,WP_006850327.1,WP_011128254.1,WP_232192799.1,WP_011932786.1
-m022,2_exploratory,,conserved hypothetical protein,B13,WH8102,1326471,5,False,False,WP_011619677.1,WP_006851982.1,WP_042503537.1,WP_009789671.1,WP_011932763.1
-m024,2_exploratory,,uncharacterized conserved secreted protein,B13,WH8102,1325590,5,False,False,WP_049750320.1,WP_006850114.1,WP_225867678.1,WP_232192834.1,WP_011933579.1
-m025,2_exploratory,,conserved hypothetical protein,B13,WH8102,1302073,5,False,False,WP_041426528.1,WP_025362248.1,WP_042504304.1,WP_009789705.1,WP_011933116.1
-m030,2_exploratory,,uncharacterized conserved membrane protein,B13,WH8102,1350382,5,False,False,WP_011619681.1,WP_006849846.1,WP_011128225.1,WP_009789977.1,WP_011932870.1
-m040,2_exploratory,,conserved hypothetical protein,B13,WH8102,1360701,5,False,False,WP_011619696.1,WP_006850229.1,WP_011128242.1,WP_009790345.1,WP_011932828.1
-m047,2_exploratory,,conserved hypothetical protein,B13,WH8102,1322708,5,False,False,WP_041426613.1,WP_006850989.1,WP_144416604.1,WP_232192969.1,WP_011933595.1
-m021,2_exploratory,,conserved hypothetical protein,B14,WH8102,1403723,2,False,False,WP_167897170.1,,WP_173358497.1,,
-m031,2_exploratory,,nif11-like leader peptide domain protein,B14,WH8102,1400273,5,True,True,WP_083756074.1,WP_232202413.1,WP_011128295.1,WP_006169687.1,WP_041428444.1
-m032,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1409778,4,False,False,WP_237699192.1,WP_025362347.1,WP_011128309.1,,WP_011932851.1
-m033,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1410652,4,False,False,WP_167897106.1,WP_006850963.1,WP_173358500.1,WP_009790006.1,
-m041,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1409152,5,False,True,WP_011619565.1,WP_232202394.1,WP_011128308.1,WP_009790396.1,WP_011932912.1
-m018,2_exploratory,,putative membrane protein,B15,WH8102,1676460,5,False,False,WP_011619912.1,WP_006850038.1,WP_042503752.1,WP_009789275.1,WP_011932559.1
-m017,2_exploratory,,Conserved hypothetical protein,B16,WH8102,1713991,5,False,False,WP_041426646.1,WP_006849832.1,WP_011128644.1,WP_037988131.1,WP_011932522.1
-m050,2_exploratory,,conserved hypothetical protein,B17,WH8102,1771595,5,False,False,WP_011620046.1,WP_006851516.1,WP_011128714.1,WP_009789171.1,WP_011933764.1
-m016,2_exploratory,,uncharacterized conserved membrane protein,B18,WH8102,1805440,4,False,False,WP_237699205.1,WP_006852120.1,WP_173358505.1,WP_009789132.1,
-m008,2_exploratory,unk11,conserved hypothetical protein,B19,WH8102,1916490,2,True,False,WP_148201806.1,,WP_148228813.1,,
-m009,2_exploratory,unk12,conserved hypothetical protein,B19,WH8102,1916730,5,False,False,WP_041426327.1,WP_071823033.1,WP_318655395.1,WP_009788990.1,WP_011932404.1
-m010,2_exploratory,unk4,conserved hypothetical protein,B19,WH8102,1899924,5,False,False,WP_011618477.1,WP_006851926.1,WP_011128853.1,WP_009789011.1,WP_011932421.1
-m012,2_exploratory,unk9,conserved hypothetical protein,B19,WH8102,1908368,5,False,False,WP_011618466.1,WP_006851061.1,WP_071820853.1,WP_009788999.1,WP_011932409.1
-m015,2_exploratory,,conserved hypothetical protein,B20,WH8102,2267558,5,False,False,WP_011620658.1,WP_025362564.1,WP_011129214.1,WP_037988697.1,WP_011934285.1
-m014,2_exploratory,,uncharacterized conserved membrane protein,B22,WH8102,2420634,5,False,False,WP_006854947.1,WP_006851462.1,WP_011129371.1,WP_009788564.1,WP_011934410.1
+marker_id,tier,gene,product,locus_block,anchor_strain,anchor_start,accessions_available,domain_paralog_check,cross_aligns_another_marker,acc_CC9311,acc_WH8109,acc_WH8102,acc_BL107,acc_WH7803
+m001,1_annotated,cpeR,phycoerythrin operon regulator,B19,WH8102,1907497,5,shares_domain,False,WP_071813674.1,WP_071823038.1,WP_011128862.1,WP_009789002.1,WP_011932411.1
+m002,1_annotated,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,B19,WH8102,1919031,5,clean,False,WP_011618451.1,WP_006849863.1,WP_144416645.1,WP_037988036.1,WP_011932397.1
+m006,1_annotated,mpeA,"C-phycoerythrin class II, alpha chain",B19,WH8102,1910879,5,shares_domain,True,WP_011618463.1,WP_006850994.1,WP_011128867.1,WP_009788996.1,WP_011932406.1
+m007,1_annotated,mpeB,"C-phycoerythrin class II, beta chain",B19,WH8102,1910296,5,shares_domain,True,WP_041426329.1,WP_006850273.1,WP_011128866.1,WP_037988737.1,WP_011932407.1
+m011,1_annotated,unk7,nif11-like leader peptide domain protein,B19,WH8102,1907813,5,shares_domain,True,WP_041426330.1,WP_071823037.1,WP_042503822.1,WP_009789001.1,WP_011932410.1
+m020,2_exploratory,,conserved hypothetical protein,,WH8102,,3,untested_no_pfam,False,WP_011620730.1,WP_025362228.1,,WP_009789481.1,
+m045,2_exploratory,,uncharacterized conserved secreted protein,,WH8102,,4,untested_no_pfam,False,WP_011619706.1,WP_006851686.1,,WP_037988405.1,WP_011932752.1
+m048,2_exploratory,,putative membrane protein,,WH8102,,0,untested_no_pfam,False,,,,,
+m013,2_exploratory,,uncharacterized conserved membrane protein,B01,WH8102,153986,5,untested_no_pfam,False,WP_041426281.1,WP_006851771.1,WP_011127034.1,WP_009788374.1,WP_011932141.1
+m051,2_exploratory,,uncharacterized conserved membrane protein,B02,WH8102,278571,5,untested_no_pfam,False,WP_041426303.1,WP_025362043.1,WP_071820816.1,WP_009788816.1,WP_011932251.1
+m042,2_exploratory,,conserved hypothetical protein,B04,WH8102,533570,5,untested_no_pfam,False,WP_041426401.1,WP_006850125.1,WP_011127410.1,WP_009790448.1,WP_011933580.1
+m043,2_exploratory,,putative membrane protein,B04,WH8102,522172,5,untested_no_pfam,False,WP_011620175.1,WP_006852088.1,WP_011127398.1,WP_009790461.1,WP_011933881.1
+m039,2_exploratory,,conserved hypothetical protein,B05,WH8102,683650,5,untested_no_pfam,False,WP_041426936.1,WP_006851314.1,WP_011127567.1,WP_232192989.1,WP_011933520.1
+m037,2_exploratory,,conserved hypothetical protein,B06,WH8102,717491,5,untested_no_pfam,False,WP_237699279.1,WP_006850973.1,WP_011127599.1,WP_009790246.1,WP_011933481.1
+m038,2_exploratory,,conserved hypothetical protein,B06,WH8102,717229,5,untested_no_pfam,False,WP_011618916.1,WP_006850367.1,WP_042503137.1,WP_037989016.1,WP_011933482.1
+m052,2_exploratory,,uncharacterized conserved secreted protein,B06,WH8102,718433,5,clean,False,WP_011618920.1,WP_052328033.1,WP_225867735.1,WP_009790243.1,WP_011933478.1
+m036,2_exploratory,,conserved hypothetical protein,B07,WH8102,766379,5,untested_no_pfam,False,WP_011619627.1,WP_025362170.1,WP_011127651.1,WP_009790184.1,WP_083833632.1
+m034,2_exploratory,,conserved hypothetical protein,B08,WH8102,835928,5,untested_no_pfam,False,WP_011619977.1,WP_006851999.1,WP_011127734.1,WP_009790096.1,WP_011932854.1
+m035,2_exploratory,,conserved hypothetical protein,B08,WH8102,819743,5,clean,False,WP_011619113.1,WP_006849924.1,WP_042503207.1,WP_009790113.1,WP_011933314.1
+m046,2_exploratory,,conserved hypothetical protein,B08,WH8102,836984,5,untested_no_pfam,False,WP_237699197.1,WP_232202456.1,WP_011127736.1,WP_050749847.1,WP_011932577.1
+m023,2_exploratory,,conserved hypothetical protein,B09,WH8102,970011,5,untested_no_pfam,False,WP_049750388.1,WP_006852071.1,WP_148228857.1,WP_009789673.1,WP_011932915.1
+m044,2_exploratory,,uncharacterized conserved membrane protein,B10,WH8102,1050641,5,clean,False,WP_011619691.1,WP_369792006.1,WP_042504271.1,WP_037988557.1,WP_011932908.1
+m029,2_exploratory,,conserved hypothetical protein,B11,WH8102,1150479,5,untested_no_pfam,True,WP_041426580.1,WP_369792020.1,WP_225867745.1,WP_009789846.1,WP_011933388.1
+m049,2_exploratory,,conserved hypothetical protein,B11,WH8102,1171466,3,untested_no_pfam,False,WP_011619598.1,,WP_071820841.1,,WP_011933384.1
+m026,2_exploratory,,"conserved hypothetical protein, Ycf35 family",B12,WH8102,1258057,5,clean,False,WP_011619305.1,WP_006851848.1,WP_011128124.1,WP_009789753.1,WP_011933161.1
+m027,2_exploratory,,uncharacterized conserved secreted protein,B12,WH8102,1240585,5,untested_no_pfam,False,WP_011619285.1,WP_006850242.1,WP_011128109.1,WP_009789768.1,WP_011933176.1
+m028,2_exploratory,,conserved hypothetical protein,B12,WH8102,1237252,5,untested_no_pfam,False,WP_041426984.1,WP_006850013.1,WP_011128105.1,WP_009789772.1,WP_011933180.1
+m019,2_exploratory,,conserved hypothetical protein,B13,WH8102,1368550,5,untested_no_pfam,False,WP_041426379.1,WP_006850327.1,WP_011128254.1,WP_232192799.1,WP_011932786.1
+m022,2_exploratory,,conserved hypothetical protein,B13,WH8102,1326471,5,untested_no_pfam,False,WP_011619677.1,WP_006851982.1,WP_042503537.1,WP_009789671.1,WP_011932763.1
+m024,2_exploratory,,uncharacterized conserved secreted protein,B13,WH8102,1325590,5,untested_no_pfam,False,WP_049750320.1,WP_006850114.1,WP_225867678.1,WP_232192834.1,WP_011933579.1
+m025,2_exploratory,,conserved hypothetical protein,B13,WH8102,1302073,5,untested_no_pfam,False,WP_041426528.1,WP_025362248.1,WP_042504304.1,WP_009789705.1,WP_011933116.1
+m030,2_exploratory,,uncharacterized conserved membrane protein,B13,WH8102,1350382,5,untested_no_pfam,False,WP_011619681.1,WP_006849846.1,WP_011128225.1,WP_009789977.1,WP_011932870.1
+m040,2_exploratory,,conserved hypothetical protein,B13,WH8102,1360701,5,clean,False,WP_011619696.1,WP_006850229.1,WP_011128242.1,WP_009790345.1,WP_011932828.1
+m047,2_exploratory,,conserved hypothetical protein,B13,WH8102,1322708,5,untested_no_pfam,False,WP_041426613.1,WP_006850989.1,WP_144416604.1,WP_232192969.1,WP_011933595.1
+m021,2_exploratory,,conserved hypothetical protein,B14,WH8102,1403723,2,untested_no_pfam,False,WP_167897170.1,,WP_173358497.1,,
+m031,2_exploratory,,nif11-like leader peptide domain protein,B14,WH8102,1400273,5,shares_domain,True,WP_083756074.1,WP_232202413.1,WP_011128295.1,WP_006169687.1,WP_041428444.1
+m032,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1409778,4,untested_no_pfam,False,WP_237699192.1,WP_025362347.1,WP_011128309.1,,WP_011932851.1
+m033,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1410652,4,untested_no_pfam,False,WP_167897106.1,WP_006850963.1,WP_173358500.1,WP_009790006.1,
+m041,2_exploratory,,uncharacterized conserved membrane protein,B14,WH8102,1409152,5,untested_no_pfam,True,WP_011619565.1,WP_232202394.1,WP_011128308.1,WP_009790396.1,WP_011932912.1
+m018,2_exploratory,,putative membrane protein,B15,WH8102,1676460,5,untested_no_pfam,False,WP_011619912.1,WP_006850038.1,WP_042503752.1,WP_009789275.1,WP_011932559.1
+m017,2_exploratory,,Conserved hypothetical protein,B16,WH8102,1713991,5,clean,False,WP_041426646.1,WP_006849832.1,WP_011128644.1,WP_037988131.1,WP_011932522.1
+m050,2_exploratory,,conserved hypothetical protein,B17,WH8102,1771595,5,untested_no_pfam,False,WP_011620046.1,WP_006851516.1,WP_011128714.1,WP_009789171.1,WP_011933764.1
+m016,2_exploratory,,uncharacterized conserved membrane protein,B18,WH8102,1805440,4,untested_no_pfam,False,WP_237699205.1,WP_006852120.1,WP_173358505.1,WP_009789132.1,
+m008,2_exploratory,unk11,conserved hypothetical protein,B19,WH8102,1916490,2,shares_domain,False,WP_148201806.1,,WP_148228813.1,,
+m009,2_exploratory,unk12,conserved hypothetical protein,B19,WH8102,1916730,5,clean,False,WP_041426327.1,WP_071823033.1,WP_318655395.1,WP_009788990.1,WP_011932404.1
+m010,2_exploratory,unk4,conserved hypothetical protein,B19,WH8102,1899924,5,untested_no_pfam,False,WP_011618477.1,WP_006851926.1,WP_011128853.1,WP_009789011.1,WP_011932421.1
+m012,2_exploratory,unk9,conserved hypothetical protein,B19,WH8102,1908368,5,untested_no_pfam,False,WP_011618466.1,WP_006851061.1,WP_071820853.1,WP_009788999.1,WP_011932409.1
+m015,2_exploratory,,conserved hypothetical protein,B20,WH8102,2267558,5,untested_no_pfam,False,WP_011620658.1,WP_025362564.1,WP_011129214.1,WP_037988697.1,WP_011934285.1
+m014,2_exploratory,,uncharacterized conserved membrane protein,B22,WH8102,2420634,5,untested_no_pfam,False,WP_006854947.1,WP_006851462.1,WP_011129371.1,WP_009788564.1,WP_011934410.1

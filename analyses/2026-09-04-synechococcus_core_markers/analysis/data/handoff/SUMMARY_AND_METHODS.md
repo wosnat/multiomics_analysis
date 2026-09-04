@@ -137,9 +137,11 @@ different group. We re-tested with Pfam domain content, a signal independent of
 the ortholog groups: for each marker gene, how many genes in the *same* genome
 carry the same Pfam entry.
 
-Of the 54 markers examined, 9 were clean, 9 shared a domain with another gene in
-at least one genome, and 36 carried no Pfam annotation and could not be tested
-this way. The flagged nine split into two kinds. The phycobiliprotein hits
+Results are reported in the `domain_paralog_check` column as three values, not a
+boolean, because a gene with no Pfam annotation was never tested and must not be
+recorded as clean. Across the 49 panel markers: **9 shares_domain, 9 clean, 35
+untested_no_pfam**. Pfam covers only 76 of 271 marker gene instances, so this
+check is silent for most of the panel. The flagged nine split into two kinds. The phycobiliprotein hits
 (mpeA, mpeB, cpeR, apcE) are probably benign, since every phycobiliprotein in
 the genome carries that same fold and the check cannot distinguish a gene family
 from a gene duplication. The `hli` hits are real: high-light inducible proteins

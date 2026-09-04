@@ -40,7 +40,6 @@ knowledge graph, 17 of which are *Prochlorococcus*.
 
 | File | Contents |
 |---|---|
-| `SUMMARY_AND_METHODS.md` | executive summary plus the full methods write-up — **read this first** |
 | `short_panel_*` | 9 markers: the 5 annotated survivors plus 4 spread candidates |
 | `full_panel_*` | 49 markers: everything after dropping kaiA, hli (x2) and apcE |
 | `*_medoid.faa` | one sequence per marker, the most central of its five orthologs |
@@ -55,23 +54,32 @@ knowledge graph, 17 of which are *Prochlorococcus*.
 `organism`, `locus_tag`, `protein_accession`, `protein_length_aa`,
 `sequence_available`, `is_medoid`, `locus_block`,
 `mean_identity_to_siblings_pct`, `min_pairwise_identity_pct`,
-`shared_domain_in_a_genome`, `cross_aligns_another_marker`, `caution`,
+`domain_paralog_check`, `cross_aligns_another_marker`, `caution`,
 `ortholog_groups`.
 
-**What `locus_block` means.** It is our own label, not standard terminology.
-We placed every marker on the WH8102 chromosome, sorted them by coordinate, and
-started a new block whenever the gap to the previous marker exceeded 30 kb. So a
-block is simply a run of markers that sit close together on the chromosome; `B19`
-is the leftmost such run in coordinate order after `B01`, and so on.
+`locus_block` groups markers within 30 kb of each other on the WH8102 genome.
+Markers sharing a block are physically linked and not independent.
+**What `domain_paralog_check` means.** Our label. The single-copy test used to
+build these markers works inside the ortholog groups, so it catches a duplicate
+that shares a group with the marker but cannot see a paralog assigned to a
+different group. This column is an independent re-test using Pfam domains: for
+each marker gene we counted how many *other* genes in the same genome carry the
+same Pfam entry. Three values:
 
-It exists to answer one question: are two markers independent? Genes packed into
-20 kb are usually one operon or one functional island. They share promoters and
-regulation, and they tend to be gained, lost or replaced together. Counting them
-as separate markers overstates how much evidence you have. Markers in *different*
-blocks are far enough apart to fail or survive independently.
+| Value | Meaning |
+|---|---|
+| `clean` | the gene has Pfam annotation and no other gene in that genome shares a domain with it |
+| `shares_domain` | another gene in at least one of the five genomes carries the same Pfam entry |
+| `untested_no_pfam` | the gene has no Pfam annotation, so this check could not run — **not** a clean result |
 
-The 30 kb cutoff is a judgement call, not a derived threshold. It is generous
-enough to hold a whole biosynthetic cluster and tight enough that unrelated
-regions do not merge.
+Across the 49 panel markers: 35 untested, 9 clean, 9 sharing a domain.
+
+`shares_domain` is a flag for review, not a verdict. A shared domain is much
+weaker evidence than a shared ortholog group, and two things get caught by it.
+Phycobiliproteins (mpeA, mpeB, cpeR) trip it because every phycobiliprotein in
+the genome carries the same fold — that is a gene family, not a duplication, and
+is probably benign. The `hli` markers tripped it for real, because high-light
+inducible proteins are a genuinely expanded family; both were dropped.
+
 `is_medoid` marks the ortholog with the highest mean identity to the other four,
 computed by all-versus-all DIAMOND blastp (`--very-sensitive`).

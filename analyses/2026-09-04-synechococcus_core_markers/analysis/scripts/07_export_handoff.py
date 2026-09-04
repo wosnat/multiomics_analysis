@@ -144,7 +144,7 @@ def main() -> int:
                 "locus_block": p["locus_block"],
                 "mean_identity_to_siblings_pct": mm.get("mean_identity_to_siblings", ""),
                 "min_pairwise_identity_pct": mm.get("min_pairwise_identity", ""),
-                "shared_domain_in_a_genome": f.get("shared_domain_in_a_genome", ""),
+                "domain_paralog_check": f.get("domain_paralog_check", ""),
                 "cross_aligns_another_marker": f.get("cross_aligns_another_marker", ""),
                 "caution": CAUTION.get(p["gene"], ""),
                 "ortholog_groups": m.get("group_ids", ""),

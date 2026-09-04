@@ -1,19 +1,21 @@
-08:12:34 markers: 53
-08:12:34 instances with a protein accession: 244/265
-08:12:34 instances with a stored AA sequence: 244/265
-08:12:34 --- panel composition ---
-08:12:34 markers with all 5 accessions      : 42
-08:12:34 markers with 4 accessions          : 6
-08:12:34 markers with <4 accessions         : 5
-08:12:34 annotated markers                  : 9
-08:12:34 flagged multi-copy family (hli)    : 2
-08:12:34 cross-aligning another marker      : 9
-08:12:34 shared domain in >=1 genome        : 9
-08:12:34 RECOMMENDED as first-tier queries  : 2
-08:12:34 --- per-strain accession coverage ---
-08:12:34    CC9311   clade I   51/53
-08:12:34    WH8109   clade II  48/53
-08:12:34    WH8102   clade III 50/53
-08:12:34    BL107    clade IV  48/53
-08:12:34    WH7803   clade V   47/53
-08:12:34 wrote handoff_accessions.csv, handoff_long.csv
+10:53:13 markers: 53
+10:53:13 instances with a protein accession: 244/265
+10:53:13 instances with a stored AA sequence: 244/265
+10:53:13 --- panel composition ---
+10:53:13 markers with all 5 accessions      : 42
+10:53:13 markers with 4 accessions          : 6
+10:53:13 markers with <4 accessions         : 5
+10:53:13 annotated markers                  : 9
+10:53:13 flagged multi-copy family (hli)    : 2
+10:53:13 cross-aligning another marker      : 9
+10:53:13 domain paralog check = shares_domain    : 9
+10:53:13 domain paralog check = clean            : 9
+10:53:13 domain paralog check = untested_no_pfam : 35
+10:53:13 RECOMMENDED as first-tier queries  : 2
+10:53:13 --- per-strain accession coverage ---
+10:53:13    CC9311   clade I   51/53
+10:53:13    WH8109   clade II  48/53
+10:53:13    WH8102   clade III 50/53
+10:53:13    BL107    clade IV  48/53
+10:53:13    WH7803   clade V   47/53
+10:53:13 wrote handoff_accessions.csv, handoff_long.csv

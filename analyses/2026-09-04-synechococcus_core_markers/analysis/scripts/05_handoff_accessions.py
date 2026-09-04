@@ -91,12 +91,14 @@ def main() -> int:
     log.info("instances with a stored AA sequence: %d/%d", len(has_seq), len(loci))
 
     # --- flags from earlier steps -------------------------------------------
-    shared_domain: dict[str, bool] = defaultdict(bool)
+    # Three-valued, NOT boolean. A gene with no Pfam annotation was never
+    # tested, and must not be reported as clean.
+    domain_flag: dict[str, str] = {}
     p = DATA / "paralog_check.csv"
     if p.exists():
         for r in csv.DictReader(open(p)):
-            if r["marker_set"] == "five_strain" and r["domain_paralog_flag"] == "shares_domain":
-                shared_domain[r["locus_tag"]] = True
+            if r["marker_set"] == "five_strain":
+                domain_flag[r["locus_tag"]] = r["domain_paralog_flag"]
 
     cross_ids: set[str] = set()
     p = DATA / "cross_marker_hits.csv"
@@ -121,7 +123,7 @@ def main() -> int:
             "cross_aligns_another_marker": mid in cross_ids,
         }
         n_acc = 0
-        dom = False
+        dom_flags = []
         for col, short, full, clade in STRAINS:
             lt = (m.get(col) or "").strip()
             a = acc.get(lt, "")
@@ -129,15 +131,20 @@ def main() -> int:
             row[f"locus_{short}"] = lt
             if a:
                 n_acc += 1
-            if shared_domain.get(lt):
-                dom = True
+            if lt:
+                dom_flags.append(domain_flag.get(lt, "no_pfam_annotation"))
             long.append({
                 "marker_id": mid, "gene": gene, "product": product,
                 "strain": short, "clade": clade, "organism": full,
                 "locus_tag": lt, "protein_accession": a,
                 "aa_sequence_in_kg": lt in has_seq,
             })
-        row["shared_domain_in_a_genome"] = dom
+        if "shares_domain" in dom_flags:
+            row["domain_paralog_check"] = "shares_domain"
+        elif dom_flags and any(f == "clean" for f in dom_flags):
+            row["domain_paralog_check"] = "clean"
+        else:
+            row["domain_paralog_check"] = "untested_no_pfam"
         row["accessions_available"] = n_acc
         row["recommended_as_query"] = (
             row["annotated"] and not row["multi_copy_family"]
@@ -166,8 +173,9 @@ def main() -> int:
     log.info("flagged multi-copy family (hli)    : %d", sum(1 for r in wide if r["multi_copy_family"]))
     log.info("cross-aligning another marker      : %d",
              sum(1 for r in wide if r["cross_aligns_another_marker"]))
-    log.info("shared domain in >=1 genome        : %d",
-             sum(1 for r in wide if r["shared_domain_in_a_genome"]))
+    for v in ("shares_domain", "clean", "untested_no_pfam"):
+        log.info("domain paralog check = %-17s: %d", v,
+                 sum(1 for r in wide if r["domain_paralog_check"] == v))
     log.info("RECOMMENDED as first-tier queries  : %d",
              sum(1 for r in wide if r["recommended_as_query"]))
     log.info("--- per-strain accession coverage ---")
