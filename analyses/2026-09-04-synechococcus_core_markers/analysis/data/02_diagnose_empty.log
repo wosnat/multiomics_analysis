@@ -1,0 +1,20 @@
+07:56:51 distinct specific neighbourhoods (nothing outside the six): 1941
+07:56:51 coverage histogram (strains covered -> neighbourhoods):
+07:56:51    6/6 strains : 2
+07:56:51    5/6 strains : 70
+07:56:51    4/6 strains : 53
+07:56:51    3/6 strains : 93
+07:56:51    2/6 strains : 164
+07:56:51    1/6 strains : 1559
+07:56:51 among 5/6 near-misses, the missing strain is:
+07:56:51    Synechococcus PCC 7002       69
+07:56:51    Synechococcus WH8109         1
+07:56:51 6/6 but multi-copy, so not a marker: {'Synechococcus CC9311': ['sync_1297', 'sync_1299']}
+07:56:51 drop Synechococcus CC9311         -> 0 single-copy core markers
+07:56:51 drop Synechococcus WH8109         -> 1 single-copy core markers
+07:56:51 drop Synechococcus WH8102         -> 0 single-copy core markers
+07:56:51 drop Synechococcus sp. BL107      -> 0 single-copy core markers
+07:56:51 drop Synechococcus WH7803         -> 0 single-copy core markers
+07:56:51 drop Synechococcus PCC 7002       -> 53 single-copy core markers
+07:56:51 drop (none)                       -> 1 single-copy core markers
+07:56:51 wrote coverage_breakdown.csv, leave_one_out.csv

@@ -1,0 +1,5 @@
+gene,strains_hit,core_all_six,single_copy_everywhere,appears_in_marker_table,loci
+gyrB,6,True,True,False,Synechococcus CC9311:sync_0092;Synechococcus PCC 7002:SYNPCC7002_A1343;Synechococcus WH7803:SynWH7803_0147;Synechococcus WH8102:SYNW0095;Synechococcus WH8109:Syncc8109_0114;Synechococcus sp. BL107:BL107_06129
+recA,6,True,True,False,Synechococcus CC9311:sync_0443;Synechococcus PCC 7002:SYNPCC7002_A0426;Synechococcus WH7803:SynWH7803_0439;Synechococcus WH8102:SYNW2062;Synechococcus WH8109:Syncc8109_0389;Synechococcus sp. BL107:BL107_08666
+rpoB,6,True,True,False,Synechococcus CC9311:sync_2358;Synechococcus PCC 7002:SYNPCC7002_A2045;Synechococcus WH7803:SynWH7803_2062;Synechococcus WH8102:SYNW0613;Synechococcus WH8109:Syncc8109_2157;Synechococcus sp. BL107:BL107_16040
+dnaG,6,True,True,False,Synechococcus CC9311:sync_1613;Synechococcus PCC 7002:SYNPCC7002_A1345;Synechococcus WH7803:SynWH7803_1073;Synechococcus WH8102:SYNW1038;Synechococcus WH8109:Syncc8109_1520;Synechococcus sp. BL107:BL107_12420

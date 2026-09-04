@@ -1,0 +1,36 @@
+07:57:15 KG 0.0.0-dev built 2026-08-29T20:27:48.162Z | explorer 0.1.0a4 | verdict ok
+07:57:17 groups enumerated: 48972
+07:57:17 groups with organism_count <= 6: 31630
+07:57:18   expanded 5/80 group batches
+07:57:18   expanded 10/80 group batches
+07:57:18   expanded 15/80 group batches
+07:57:18   expanded 20/80 group batches
+07:57:18   expanded 25/80 group batches
+07:57:19   expanded 30/80 group batches
+07:57:19   expanded 35/80 group batches
+07:57:19   expanded 40/80 group batches
+07:57:19   expanded 45/80 group batches
+07:57:20   expanded 50/80 group batches
+07:57:20   expanded 55/80 group batches
+07:57:20   expanded 60/80 group batches
+07:57:20   expanded 65/80 group batches
+07:57:20   expanded 70/80 group batches
+07:57:21   expanded 75/80 group batches
+07:57:21   expanded 80/80 group batches
+07:57:21 member rows collected for 31630 groups, 36403 distinct genes
+07:57:21 groups whose roster is a subset of the six: 5913
+07:57:21 candidate genes: 6367
+07:57:21   closed 5/16 gene batches
+07:57:21   closed 10/16 gene batches
+07:57:22   closed 15/16 gene batches
+07:57:22 groups newly seen during closure (all have 7+ organisms or were otherwise prefiltered): 1576
+07:57:24 rejected, ortholog outside the six: 4023
+07:57:24 rejected, missing from >=1 target strain: 2039
+07:57:24 rejected, multi-copy in >=1 target strain: 64
+07:57:24 MARKER GROUPS PASSING ALL THREE TESTS: 53
+07:57:24 validation gyrB  strains=5 core6=False single=True in_markers=False
+07:57:24 validation recA  strains=5 core6=False single=True in_markers=False
+07:57:25 validation rpoB  strains=5 core6=False single=True in_markers=False
+07:57:25 validation dnaG  strains=5 core6=False single=True in_markers=False
+07:57:25 markers with an informative name and non-hypothetical product: 9/53
+07:57:25 wrote markers_no_7002.csv (53 rows), validation, funnel

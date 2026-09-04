@@ -1,0 +1,9 @@
+stage,count
+groups_enumerated,48972
+groups_organism_count_le_6,31630
+groups_roster_subset_of_targets,5913
+candidate_genes,6367
+rejected_ortholog_outside_targets,4023
+rejected_not_core,2039
+rejected_multicopy,64
+markers_final,53

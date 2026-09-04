@@ -1,0 +1,11 @@
+strains_covered,neighbourhoods
+6,2
+5,70
+4,53
+3,93
+2,164
+1,1559
+
+missing_strain_among_5of6,count
+Synechococcus PCC 7002,69
+Synechococcus WH8109,1

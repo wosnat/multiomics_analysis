@@ -1,0 +1,2 @@
+group_ids,consensus_gene_name,consensus_product,gene_category,levels,sources,locus_CC9311,locus_WH8109,locus_WH8102,locus_BL107,locus_WH7803,locus_PCC_7002
+cyanorak:CK_00001639;eggnog:1GA59@1117;eggnog:1H130@1129;eggnog:330UC@2,,uncharacterized conserved membrane protein,Stress response and adaptation,Bacteria;Cyanobacteria;Synechococcus;curated,cyanorak;eggnog,sync_2209,Syncc8109_2196,SYNW0561,BL107_16315,SynWH7803_1952,SYNPCC7002_A1551
