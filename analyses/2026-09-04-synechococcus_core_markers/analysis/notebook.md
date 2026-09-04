@@ -190,3 +190,65 @@ identified cause rather than an unexplained one.
 Not done, and gating any claim beyond "candidate": the critic pass, the
 external specificity check, and a sequence-level review of the 44 unannotated
 rows.
+
+---
+
+## Follow-up — is every marker single-copy in its genome?
+
+Researcher question, 2026-09-04. Script: `scripts/03_paralog_check.py`,
+output `data/paralog_check.csv`.
+
+**What the pipeline actually guaranteed.** One gene per strain across the
+*ortholog neighbourhood*, the union of every group the marker belongs to. Any
+paralog sharing a group with the marker, including the broad Bacteria-level
+group, forces that strain to contribute two genes and the row is rejected. The
+test did real work: 64 neighbourhoods rejected as multi-copy in the five-strain
+run, 2 in the six-strain run `[KG]`. What it cannot see is a paralog assigned
+to a *different* ortholog group, or one with no group at all.
+
+**Independent re-test.** Pfam domain content, a signal not derived from the
+ortholog groups. For each marker gene, count how many genes in the same genome
+carry the same Pfam entry.
+
+| | Count |
+|---|---|
+| Marker gene instances tested (marker x strain) | 271 |
+| Instances carrying any Pfam entry | 76 |
+| Of those, no other gene in the genome shares a domain | 39 |
+| Of those, another gene in the genome shares a domain | 37 |
+| Instances with no Pfam annotation, untestable this way | 195 |
+
+Rolled up to the 54 markers `[KG]`:
+
+| Verdict | Markers |
+|---|---|
+| Clean, no domain-sharing gene in any strain | 9 |
+| Shares a domain with another gene in at least one strain | 9 |
+| No Pfam annotation anywhere, untestable | 36 |
+
+The 9 flagged are apcE, mpeA, mpeB, cpeR, both hli rows, unk7, unk11, and one
+unnamed nif11-like leader peptide protein.
+
+**Reading the flags.** `[interpretation]` A shared Pfam domain is weaker
+evidence than a shared ortholog group and the two flagged classes differ:
+
+- **Phycobiliproteins are a false positive.** mpeA, mpeB, cpeR and apcE share
+  the phycobilisome protein fold with every other phycobiliprotein in the
+  genome (cpeA, cpeB, apcA, apcB and so on). They are distinct genes in
+  distinct ortholog groups, not duplicates of each other. The domain check
+  cannot separate a gene family from a gene duplication.
+- **hli is a true multi-copy family.** The high-light inducible proteins are
+  genuinely expanded in these genomes. Each hli row here is a single-copy
+  *ortholog group*, not a single-copy gene family. This restates the
+  group-specific versus family-specific caution above, now with a number
+  behind it.
+
+**Limit of this check.** Pfam covers only 76 of 271 marker gene instances, 28
+percent, so it is silent on two thirds of the table `[gap]`. A definitive
+answer needs an all-versus-all sequence comparison within each genome, which
+the KG can feed via `gene_aa_sequence` but which was not run.
+
+**Answer.** No, not all 53 are demonstrably single-copy in the genome sense.
+Nine are clean on an independent check, nine carry a domain-level duplicate of
+which the phycobiliprotein cases are probably benign, and 36 are untested
+because they have no Pfam annotation.

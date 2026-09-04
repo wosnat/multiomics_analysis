@@ -1,0 +1,30 @@
+08:02:55 marker rows loaded: 54
+08:02:55 distinct marker genes to test: 271
+08:02:55 marker genes carrying at least one Pfam entry: 76/271
+08:02:55 distinct Pfam entries involved: 16
+08:02:56   Synechococcus CC9311         pfam gene-rows: 72
+08:02:56   Synechococcus PCC 7002       pfam gene-rows: 23
+08:02:57   Synechococcus WH7803         pfam gene-rows: 55
+08:02:57   Synechococcus WH8102         pfam gene-rows: 53
+08:02:57   Synechococcus WH8109         pfam gene-rows: 52
+08:02:58   Synechococcus sp. BL107      pfam gene-rows: 60
+08:02:58 --- per (marker, strain) rows: 271 ---
+08:02:58 clean, no other gene in that genome shares a domain: 39
+08:02:58 shares a Pfam domain with another gene in that genome: 37
+08:02:58 no Pfam annotation, so untestable this way: 195
+08:02:58 --- rolled up to markers ---
+08:02:58 five_strain  clean                            9
+08:02:58 five_strain  no_pfam_anywhere                 35
+08:02:58 five_strain  shares_domain_in_>=1_strain      9
+08:02:58 six_strain   no_pfam_anywhere                 1
+08:02:58 --- markers flagged as sharing a domain ---
+08:02:58    five_strain:1 apcE     phycobilisome core-membrane linker polypeptide (Lcm)
+08:02:58    five_strain:12 unk7     nif11-like leader peptide domain protein
+08:02:58    five_strain:2 cpeR     phycoerythrin operon regulator
+08:02:58    five_strain:32 -        nif11-like leader peptide domain protein
+08:02:58    five_strain:4 hli      high light inducible protein
+08:02:58    five_strain:5 hli      high light inducible protein
+08:02:58    five_strain:7 mpeA     C-phycoerythrin class II, alpha chain
+08:02:58    five_strain:8 mpeB     C-phycoerythrin class II, beta chain
+08:02:58    five_strain:9 unk11    conserved hypothetical protein
+08:02:58 wrote paralog_check.csv

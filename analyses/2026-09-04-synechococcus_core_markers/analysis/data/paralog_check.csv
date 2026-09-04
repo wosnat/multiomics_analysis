@@ -1,0 +1,272 @@
+marker_id,marker_set,gene,product,organism,locus_tag,pfam_entries,max_genes_sharing_a_domain,domain_paralog_flag
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_2209,,,no_pfam_annotation
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_2196,,,no_pfam_annotation
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW0561,,,no_pfam_annotation
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_16315,,,no_pfam_annotation
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_1952,,,no_pfam_annotation
+six_strain:0,six_strain,,uncharacterized conserved membrane protein,Synechococcus PCC 7002,SYNPCC7002_A1551,,,no_pfam_annotation
+five_strain:1,five_strain,apcE,phycobilisome core-membrane linker polypeptide (Lcm),Synechococcus CC9311,sync_2321,pfam:PF00427;pfam:PF00502,12,shares_domain
+five_strain:1,five_strain,apcE,phycobilisome core-membrane linker polypeptide (Lcm),Synechococcus WH8109,Syncc8109_2277,pfam:PF00427;pfam:PF00502,12,shares_domain
+five_strain:1,five_strain,apcE,phycobilisome core-membrane linker polypeptide (Lcm),Synechococcus WH8102,SYNW0486,pfam:PF00427;pfam:PF00502,12,shares_domain
+five_strain:1,five_strain,apcE,phycobilisome core-membrane linker polypeptide (Lcm),Synechococcus sp. BL107,BL107_16740,pfam:PF00427;pfam:PF00502,12,shares_domain
+five_strain:1,five_strain,apcE,phycobilisome core-membrane linker polypeptide (Lcm),Synechococcus WH7803,SynWH7803_2025,pfam:PF00427;pfam:PF00502,12,shares_domain
+five_strain:2,five_strain,cpeR,phycoerythrin operon regulator,Synechococcus CC9311,SYNC_RS13690,,,no_pfam_annotation
+five_strain:2,five_strain,cpeR,phycoerythrin operon regulator,Synechococcus WH8109,Syncc8109_RS11510,pfam:PF00106,10,shares_domain
+five_strain:2,five_strain,cpeR,phycoerythrin operon regulator,Synechococcus WH8102,SYNW2004,,,no_pfam_annotation
+five_strain:2,five_strain,cpeR,phycoerythrin operon regulator,Synechococcus sp. BL107,BL107_08981,,,no_pfam_annotation
+five_strain:2,five_strain,cpeR,phycoerythrin operon regulator,Synechococcus WH7803,SynWH7803_0497,,,no_pfam_annotation
+five_strain:3,five_strain,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,Synechococcus CC9311,sync_0492,pfam:PF09367,0,clean
+five_strain:3,five_strain,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,Synechococcus WH8109,Syncc8109_0442,pfam:PF09367,0,clean
+five_strain:3,five_strain,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,Synechococcus WH8102,SYNW2019,pfam:PF09367,0,clean
+five_strain:3,five_strain,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,Synechococcus sp. BL107,BL107_08896,pfam:PF09367,0,clean
+five_strain:3,five_strain,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,Synechococcus WH7803,SynWH7803_0483,pfam:PF09367,0,clean
+five_strain:4,five_strain,hli,high light inducible protein,Synechococcus CC9311,sync_1851,pfam:PF00504,17,shares_domain
+five_strain:4,five_strain,hli,high light inducible protein,Synechococcus WH8109,Syncc8109_2642,pfam:PF00504,9,shares_domain
+five_strain:4,five_strain,hli,high light inducible protein,Synechococcus WH8102,TX72_RS12145,pfam:PF00504,9,shares_domain
+five_strain:4,five_strain,hli,high light inducible protein,Synechococcus sp. BL107,BL107_07124,pfam:PF00504,11,shares_domain
+five_strain:4,five_strain,hli,high light inducible protein,Synechococcus WH7803,SynWH7803_0797,pfam:PF00504,10,shares_domain
+five_strain:5,five_strain,hli,high light inducible protein,Synechococcus CC9311,sync_1818,pfam:PF00504,17,shares_domain
+five_strain:5,five_strain,hli,high light inducible protein,Synechococcus WH8109,Syncc8109_1185,pfam:PF00504,9,shares_domain
+five_strain:5,five_strain,hli,high light inducible protein,Synechococcus WH8102,SYNW1331,pfam:PF00504,9,shares_domain
+five_strain:5,five_strain,hli,high light inducible protein,Synechococcus sp. BL107,BL107_12520,pfam:PF00504,11,shares_domain
+five_strain:5,five_strain,hli,high light inducible protein,Synechococcus WH7803,SynWH7803_0823,pfam:PF00504,10,shares_domain
+five_strain:6,five_strain,kaiA,circadian clock protein kaiA,Synechococcus CC9311,sync_2222,pfam:PF07688;pfam:PF21714,0,clean
+five_strain:6,five_strain,kaiA,circadian clock protein kaiA,Synechococcus WH8109,Syncc8109_50026,pfam:PF07688,0,clean
+five_strain:6,five_strain,kaiA,circadian clock protein kaiA,Synechococcus WH8102,SYNW0548,pfam:PF07688;pfam:PF21714,0,clean
+five_strain:6,five_strain,kaiA,circadian clock protein kaiA,Synechococcus sp. BL107,BL107_16390,pfam:PF07688;pfam:PF21714,0,clean
+five_strain:6,five_strain,kaiA,circadian clock protein kaiA,Synechococcus WH7803,SynWH7803_1966,pfam:PF07688;pfam:PF21714,0,clean
+five_strain:7,five_strain,mpeA,"C-phycoerythrin class II, alpha chain",Synechococcus CC9311,sync_0504,pfam:PF00502,12,shares_domain
+five_strain:7,five_strain,mpeA,"C-phycoerythrin class II, alpha chain",Synechococcus WH8109,Syncc8109_0460,pfam:PF00502,12,shares_domain
+five_strain:7,five_strain,mpeA,"C-phycoerythrin class II, alpha chain",Synechococcus WH8102,SYNW2009,pfam:PF00502,12,shares_domain
+five_strain:7,five_strain,mpeA,"C-phycoerythrin class II, alpha chain",Synechococcus sp. BL107,BL107_08951,pfam:PF00502,12,shares_domain
+five_strain:7,five_strain,mpeA,"C-phycoerythrin class II, alpha chain",Synechococcus WH7803,SynWH7803_0492,pfam:PF00502,12,shares_domain
+five_strain:8,five_strain,mpeB,"C-phycoerythrin class II, beta chain",Synechococcus CC9311,sync_0505,pfam:PF00502,12,shares_domain
+five_strain:8,five_strain,mpeB,"C-phycoerythrin class II, beta chain",Synechococcus WH8109,Syncc8109_0461,pfam:PF00502,12,shares_domain
+five_strain:8,five_strain,mpeB,"C-phycoerythrin class II, beta chain",Synechococcus WH8102,SYNW2008,pfam:PF00502,12,shares_domain
+five_strain:8,five_strain,mpeB,"C-phycoerythrin class II, beta chain",Synechococcus sp. BL107,BL107_08956,pfam:PF00502,12,shares_domain
+five_strain:8,five_strain,mpeB,"C-phycoerythrin class II, beta chain",Synechococcus WH7803,SynWH7803_0493,pfam:PF00502,12,shares_domain
+five_strain:9,five_strain,unk11,conserved hypothetical protein,Synechococcus CC9311,SYNC_RS14125,,,no_pfam_annotation
+five_strain:9,five_strain,unk11,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_50007,,,no_pfam_annotation
+five_strain:9,five_strain,unk11,conserved hypothetical protein,Synechococcus WH8102,SYNW2014,,,no_pfam_annotation
+five_strain:9,five_strain,unk11,conserved hypothetical protein,Synechococcus sp. BL107,BL107_08926,pfam:PF01383,6,shares_domain
+five_strain:9,five_strain,unk11,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_2535,,,no_pfam_annotation
+five_strain:10,five_strain,unk12,conserved hypothetical protein,Synechococcus CC9311,sync_0498,pfam:PF10847,0,clean
+five_strain:10,five_strain,unk12,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_RS11475,pfam:PF10847,0,clean
+five_strain:10,five_strain,unk12,conserved hypothetical protein,Synechococcus WH8102,SYNW2015,pfam:PF10847,0,clean
+five_strain:10,five_strain,unk12,conserved hypothetical protein,Synechococcus sp. BL107,BL107_08921,pfam:PF10847,0,clean
+five_strain:10,five_strain,unk12,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0490,pfam:PF10847,0,clean
+five_strain:11,five_strain,unk4,conserved hypothetical protein,Synechococcus CC9311,sync_0518,,,no_pfam_annotation
+five_strain:11,five_strain,unk4,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0473,,,no_pfam_annotation
+five_strain:11,five_strain,unk4,conserved hypothetical protein,Synechococcus WH8102,SYNW1995,,,no_pfam_annotation
+five_strain:11,five_strain,unk4,conserved hypothetical protein,Synechococcus sp. BL107,BL107_09026,,,no_pfam_annotation
+five_strain:11,five_strain,unk4,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0507,,,no_pfam_annotation
+five_strain:12,five_strain,unk7,nif11-like leader peptide domain protein,Synechococcus CC9311,SYNC_RS02450,pfam:PF07862,12,shares_domain
+five_strain:12,five_strain,unk7,nif11-like leader peptide domain protein,Synechococcus WH8109,Syncc8109_0465,pfam:PF07862,7,shares_domain
+five_strain:12,five_strain,unk7,nif11-like leader peptide domain protein,Synechococcus WH8102,TX72_RS10080,pfam:PF07862,9,shares_domain
+five_strain:12,five_strain,unk7,nif11-like leader peptide domain protein,Synechococcus sp. BL107,BL107_08976,pfam:PF07862,10,shares_domain
+five_strain:12,five_strain,unk7,nif11-like leader peptide domain protein,Synechococcus WH7803,SynWH7803_0496,pfam:PF07862,9,shares_domain
+five_strain:13,five_strain,unk9,conserved hypothetical protein,Synechococcus CC9311,sync_0507,,,no_pfam_annotation
+five_strain:13,five_strain,unk9,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0463,,,no_pfam_annotation
+five_strain:13,five_strain,unk9,conserved hypothetical protein,Synechococcus WH8102,SYNW2006,,,no_pfam_annotation
+five_strain:13,five_strain,unk9,conserved hypothetical protein,Synechococcus sp. BL107,BL107_08966,,,no_pfam_annotation
+five_strain:13,five_strain,unk9,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0495,,,no_pfam_annotation
+five_strain:14,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_0207,,,no_pfam_annotation
+five_strain:14,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_0163,,,no_pfam_annotation
+five_strain:14,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW0158,,,no_pfam_annotation
+five_strain:14,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_05734,,,no_pfam_annotation
+five_strain:14,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_0211,,,no_pfam_annotation
+five_strain:15,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_2934,,,no_pfam_annotation
+five_strain:15,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_2754,,,no_pfam_annotation
+five_strain:15,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW2518,,,no_pfam_annotation
+five_strain:15,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_06694,,,no_pfam_annotation
+five_strain:15,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_2525,,,no_pfam_annotation
+five_strain:16,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_2769,,,no_pfam_annotation
+five_strain:16,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2600,,,no_pfam_annotation
+five_strain:16,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW2361,,,no_pfam_annotation
+five_strain:16,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_07369,,,no_pfam_annotation
+five_strain:16,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_2399,,,no_pfam_annotation
+five_strain:17,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_2092,,,no_pfam_annotation
+five_strain:17,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_0633,,,no_pfam_annotation
+five_strain:17,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW1893,,,no_pfam_annotation
+five_strain:17,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_09641,,,no_pfam_annotation
+five_strain:17,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_1904,,,no_pfam_annotation
+five_strain:18,five_strain,,Conserved hypothetical protein,Synechococcus CC9311,sync_2035,pfam:PF20198,0,clean
+five_strain:18,five_strain,,Conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0747,,,no_pfam_annotation
+five_strain:18,five_strain,,Conserved hypothetical protein,Synechococcus WH8102,SYNW1784,,,no_pfam_annotation
+five_strain:18,five_strain,,Conserved hypothetical protein,Synechococcus sp. BL107,BL107_10217,pfam:PF20198,0,clean
+five_strain:18,five_strain,,Conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0610,pfam:PF20198,0,clean
+five_strain:19,five_strain,,putative membrane protein,Synechococcus CC9311,sync_1997,,,no_pfam_annotation
+five_strain:19,five_strain,,putative membrane protein,Synechococcus WH8109,Syncc8109_1983,,,no_pfam_annotation
+five_strain:19,five_strain,,putative membrane protein,Synechococcus WH8102,TX72_RS08795,,,no_pfam_annotation
+five_strain:19,five_strain,,putative membrane protein,Synechococcus sp. BL107,BL107_10426,,,no_pfam_annotation
+five_strain:19,five_strain,,putative membrane protein,Synechococcus WH7803,SynWH7803_0647,,,no_pfam_annotation
+five_strain:20,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0721,,,no_pfam_annotation
+five_strain:20,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0789,,,no_pfam_annotation
+five_strain:20,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1390,,,no_pfam_annotation
+five_strain:20,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_10956,,,no_pfam_annotation
+five_strain:20,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0878,,,no_pfam_annotation
+five_strain:21,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_2842,,,no_pfam_annotation
+five_strain:21,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1103,,,no_pfam_annotation
+five_strain:21,five_strain,,conserved hypothetical protein,Synechococcus WH8102,S8102_15941,,,no_pfam_annotation
+five_strain:21,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_11491,,,no_pfam_annotation
+five_strain:21,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0887,,,no_pfam_annotation
+five_strain:22,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0995,,,no_pfam_annotation
+five_strain:22,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1105,,,no_pfam_annotation
+five_strain:22,five_strain,,conserved hypothetical protein,Synechococcus WH8102,TX72_RS14445,,,no_pfam_annotation
+five_strain:22,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_11501,,,no_pfam_annotation
+five_strain:22,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_2549,,,no_pfam_annotation
+five_strain:23,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1760,,,no_pfam_annotation
+five_strain:23,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1182,,,no_pfam_annotation
+five_strain:23,five_strain,,conserved hypothetical protein,Synechococcus WH8102,TX72_RS06715,,,no_pfam_annotation
+five_strain:23,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_12465,,,no_pfam_annotation
+five_strain:23,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0855,,,no_pfam_annotation
+five_strain:24,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0866,,,no_pfam_annotation
+five_strain:24,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1036,,,no_pfam_annotation
+five_strain:24,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0979,,,no_pfam_annotation
+five_strain:24,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_12475,,,no_pfam_annotation
+five_strain:24,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1007,,,no_pfam_annotation
+five_strain:25,five_strain,,uncharacterized conserved secreted protein,Synechococcus CC9311,sync_0830,,,no_pfam_annotation
+five_strain:25,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8109,Syncc8109_1184,,,no_pfam_annotation
+five_strain:25,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8102,SYNW1332,,,no_pfam_annotation
+five_strain:25,five_strain,,uncharacterized conserved secreted protein,Synechococcus sp. BL107,BL107_12515,,,no_pfam_annotation
+five_strain:25,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH7803,SynWH7803_1681,,,no_pfam_annotation
+five_strain:26,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1425,,,no_pfam_annotation
+five_strain:26,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1231,,,no_pfam_annotation
+five_strain:26,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1305,,,no_pfam_annotation
+five_strain:26,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_12640,,,no_pfam_annotation
+five_strain:26,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1208,,,no_pfam_annotation
+five_strain:27,five_strain,,"conserved hypothetical protein, Ycf35 family",Synechococcus CC9311,sync_1380,pfam:PF06868,0,clean
+five_strain:27,five_strain,,"conserved hypothetical protein, Ycf35 family",Synechococcus WH8109,Syncc8109_1278,pfam:PF06868,0,clean
+five_strain:27,five_strain,,"conserved hypothetical protein, Ycf35 family",Synechococcus WH8102,SYNW1260,pfam:PF06868,0,clean
+five_strain:27,five_strain,,"conserved hypothetical protein, Ycf35 family",Synechococcus sp. BL107,BL107_12880,pfam:PF06868,0,clean
+five_strain:27,five_strain,,"conserved hypothetical protein, Ycf35 family",Synechococcus WH7803,SynWH7803_1255,pfam:PF06868,0,clean
+five_strain:28,five_strain,,uncharacterized conserved secreted protein,Synechococcus CC9311,sync_1360,,,no_pfam_annotation
+five_strain:28,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8109,Syncc8109_1296,,,no_pfam_annotation
+five_strain:28,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8102,SYNW1245,,,no_pfam_annotation
+five_strain:28,five_strain,,uncharacterized conserved secreted protein,Synechococcus sp. BL107,BL107_12965,,,no_pfam_annotation
+five_strain:28,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH7803,SynWH7803_1270,,,no_pfam_annotation
+five_strain:29,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1356,,,no_pfam_annotation
+five_strain:29,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1300,,,no_pfam_annotation
+five_strain:29,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1241,,,no_pfam_annotation
+five_strain:29,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_12985,,,no_pfam_annotation
+five_strain:29,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1274,,,no_pfam_annotation
+five_strain:30,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1663,,,no_pfam_annotation
+five_strain:30,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1402,,,no_pfam_annotation
+five_strain:30,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1157,,,no_pfam_annotation
+five_strain:30,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_13375,,,no_pfam_annotation
+five_strain:30,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1485,,,no_pfam_annotation
+five_strain:31,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_1764,,,no_pfam_annotation
+five_strain:31,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_1149,,,no_pfam_annotation
+five_strain:31,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW1361,,,no_pfam_annotation
+five_strain:31,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_14040,,,no_pfam_annotation
+five_strain:31,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_0962,,,no_pfam_annotation
+five_strain:32,five_strain,,nif11-like leader peptide domain protein,Synechococcus CC9311,sync_1792,pfam:PF07862,12,shares_domain
+five_strain:32,five_strain,,nif11-like leader peptide domain protein,Synechococcus WH8109,Syncc8109_2291,pfam:PF07862,7,shares_domain
+five_strain:32,five_strain,,nif11-like leader peptide domain protein,Synechococcus WH8102,SYNW1431,pfam:PF07862,9,shares_domain
+five_strain:32,five_strain,,nif11-like leader peptide domain protein,Synechococcus sp. BL107,BL107_14100,pfam:PF07862,10,shares_domain
+five_strain:32,five_strain,,nif11-like leader peptide domain protein,Synechococcus WH7803,SynWH7803_0939,pfam:PF07862,9,shares_domain
+five_strain:33,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_1800,,,no_pfam_annotation
+five_strain:33,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_1624,,,no_pfam_annotation
+five_strain:33,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW1445,,,no_pfam_annotation
+five_strain:33,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_14185,,,no_pfam_annotation
+five_strain:33,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_0943,,,no_pfam_annotation
+five_strain:34,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_1815,,,no_pfam_annotation
+five_strain:34,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_1626,,,no_pfam_annotation
+five_strain:34,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW1448,,,no_pfam_annotation
+five_strain:34,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_14190,,,no_pfam_annotation
+five_strain:34,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_0827,,,no_pfam_annotation
+five_strain:35,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_2062,,,no_pfam_annotation
+five_strain:35,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0908,,,no_pfam_annotation
+five_strain:35,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0869,,,no_pfam_annotation
+five_strain:35,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_14640,,,no_pfam_annotation
+five_strain:35,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0946,,,no_pfam_annotation
+five_strain:36,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1182,pfam:PF05265,0,clean
+five_strain:36,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0887,pfam:PF05265,0,clean
+five_strain:36,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0849,pfam:PF05265,0,clean
+five_strain:36,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_14730,pfam:PF05265,0,clean
+five_strain:36,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1410,pfam:PF05265,0,clean
+five_strain:37,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1710,,,no_pfam_annotation
+five_strain:37,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0817,,,no_pfam_annotation
+five_strain:37,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0786,,,no_pfam_annotation
+five_strain:37,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_15090,,,no_pfam_annotation
+five_strain:37,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1150,,,no_pfam_annotation
+five_strain:38,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0982,,,no_pfam_annotation
+five_strain:38,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2031,,,no_pfam_annotation
+five_strain:38,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0734,,,no_pfam_annotation
+five_strain:38,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_15405,,,no_pfam_annotation
+five_strain:38,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1578,,,no_pfam_annotation
+five_strain:39,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0981,,,no_pfam_annotation
+five_strain:39,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2032,,,no_pfam_annotation
+five_strain:39,five_strain,,conserved hypothetical protein,Synechococcus WH8102,TX72_RS03575,,,no_pfam_annotation
+five_strain:39,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_15410,,,no_pfam_annotation
+five_strain:39,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1579,,,no_pfam_annotation
+five_strain:40,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0923,,,no_pfam_annotation
+five_strain:40,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2067,,,no_pfam_annotation
+five_strain:40,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0700,,,no_pfam_annotation
+five_strain:40,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_15615,,,no_pfam_annotation
+five_strain:40,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1619,,,no_pfam_annotation
+five_strain:41,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1779,pfam:PF07878,0,clean
+five_strain:41,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2133,pfam:PF07878,0,clean
+five_strain:41,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1378,pfam:PF07878,0,clean
+five_strain:41,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_15930,pfam:PF07878,0,clean
+five_strain:41,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_0920,pfam:PF07878,0,clean
+five_strain:42,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_1646,,,no_pfam_annotation
+five_strain:42,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_1623,,,no_pfam_annotation
+five_strain:42,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,SYNW1444,,,no_pfam_annotation
+five_strain:42,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_16190,,,no_pfam_annotation
+five_strain:42,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_1004,,,no_pfam_annotation
+five_strain:43,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_0829,,,no_pfam_annotation
+five_strain:43,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2223,,,no_pfam_annotation
+five_strain:43,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0541,,,no_pfam_annotation
+five_strain:43,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_16460,,,no_pfam_annotation
+five_strain:43,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1682,,,no_pfam_annotation
+five_strain:44,five_strain,,putative membrane protein,Synechococcus CC9311,sync_2266,,,no_pfam_annotation
+five_strain:44,five_strain,,putative membrane protein,Synechococcus WH8109,Syncc8109_2238,,,no_pfam_annotation
+five_strain:44,five_strain,,putative membrane protein,Synechococcus WH8102,SYNW0528,,,no_pfam_annotation
+five_strain:44,five_strain,,putative membrane protein,Synechococcus sp. BL107,BL107_16525,,,no_pfam_annotation
+five_strain:44,five_strain,,putative membrane protein,Synechococcus WH7803,SynWH7803_1986,,,no_pfam_annotation
+five_strain:45,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_1774,pfam:PF11189,0,clean
+five_strain:45,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_RS11805,pfam:PF11189,0,clean
+five_strain:45,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,TX72_RS05290,pfam:PF11189,0,clean
+five_strain:45,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_16885,pfam:PF11189,0,clean
+five_strain:45,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_1000,pfam:PF11189,0,clean
+five_strain:46,five_strain,,uncharacterized conserved secreted protein,Synechococcus CC9311,sync_1789,,,no_pfam_annotation
+five_strain:46,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8109,Syncc8109_1619,,,no_pfam_annotation
+five_strain:46,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8102,SYNW2557,,,no_pfam_annotation
+five_strain:46,five_strain,,uncharacterized conserved secreted protein,Synechococcus sp. BL107,BL107_RS08895,,,no_pfam_annotation
+five_strain:46,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH7803,SynWH7803_0844,,,no_pfam_annotation
+five_strain:47,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1841,,,no_pfam_annotation
+five_strain:47,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0910,,,no_pfam_annotation
+five_strain:47,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW0871,,,no_pfam_annotation
+five_strain:47,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_RS09340,,,no_pfam_annotation
+five_strain:47,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SYNWH7803_RS03360,,,no_pfam_annotation
+five_strain:48,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1837,,,no_pfam_annotation
+five_strain:48,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_2004,,,no_pfam_annotation
+five_strain:48,five_strain,,conserved hypothetical protein,Synechococcus WH8102,TX72_RS13905,,,no_pfam_annotation
+five_strain:48,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_RS13140,,,no_pfam_annotation
+five_strain:48,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1697,,,no_pfam_annotation
+five_strain:49,five_strain,,putative membrane protein,Synechococcus CC9311,sync_0527,,,no_pfam_annotation
+five_strain:49,five_strain,,putative membrane protein,Synechococcus WH8109,Syncc8109_0497,,,no_pfam_annotation
+five_strain:49,five_strain,,putative membrane protein,Synechococcus WH8102,S8102_22071,,,no_pfam_annotation
+five_strain:49,five_strain,,putative membrane protein,Synechococcus sp. BL107,SynBL107_50002,,,no_pfam_annotation
+five_strain:49,five_strain,,putative membrane protein,Synechococcus WH7803,SynWH7803_2545,,,no_pfam_annotation
+five_strain:50,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_1680,,,no_pfam_annotation
+five_strain:50,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_1386,,,no_pfam_annotation
+five_strain:50,five_strain,,conserved hypothetical protein,Synechococcus WH8102,TX72_RS13180,,,no_pfam_annotation
+five_strain:50,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_17408,,,no_pfam_annotation
+five_strain:50,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1481,,,no_pfam_annotation
+five_strain:51,five_strain,,conserved hypothetical protein,Synechococcus CC9311,sync_2132,,,no_pfam_annotation
+five_strain:51,five_strain,,conserved hypothetical protein,Synechococcus WH8109,Syncc8109_0671,,,no_pfam_annotation
+five_strain:51,five_strain,,conserved hypothetical protein,Synechococcus WH8102,SYNW1856,,,no_pfam_annotation
+five_strain:51,five_strain,,conserved hypothetical protein,Synechococcus sp. BL107,BL107_09836,,,no_pfam_annotation
+five_strain:51,five_strain,,conserved hypothetical protein,Synechococcus WH7803,SynWH7803_1866,,,no_pfam_annotation
+five_strain:52,five_strain,,uncharacterized conserved membrane protein,Synechococcus CC9311,sync_0322,,,no_pfam_annotation
+five_strain:52,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8109,Syncc8109_RS12765,,,no_pfam_annotation
+five_strain:52,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH8102,TX72_RS14610,,,no_pfam_annotation
+five_strain:52,five_strain,,uncharacterized conserved membrane protein,Synechococcus sp. BL107,BL107_07994,,,no_pfam_annotation
+five_strain:52,five_strain,,uncharacterized conserved membrane protein,Synechococcus WH7803,SynWH7803_0325,,,no_pfam_annotation
+five_strain:53,five_strain,,uncharacterized conserved secreted protein,Synechococcus CC9311,sync_0985,,,no_pfam_annotation
+five_strain:53,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8109,Syncc8109_2028,,,no_pfam_annotation
+five_strain:53,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH8102,TX72_RS14675,,,no_pfam_annotation
+five_strain:53,five_strain,,uncharacterized conserved secreted protein,Synechococcus sp. BL107,BL107_15390,,,no_pfam_annotation
+five_strain:53,five_strain,,uncharacterized conserved secreted protein,Synechococcus WH7803,SynWH7803_1575,pfam:PF30570,0,clean
