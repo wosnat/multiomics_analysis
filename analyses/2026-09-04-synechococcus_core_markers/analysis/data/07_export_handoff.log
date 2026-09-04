@@ -1,7 +1,7 @@
-10:58:46 markers in panel_final (after drops): 49
-10:58:46 sequences: 244/265   accessions: 244/265
-10:58:46 SHORT list: 9 markers -> m006, m007, m001, m002, m011, m034, m027, m042, m038
-10:58:46 FULL list : 49 markers
-10:58:46 short_panel: 9 markers, 45 metadata rows, 9 medoid seqs, 45 all-ortholog seqs, 45 accessions (9 medoid)
-10:58:46 full_panel: 49 markers, 245 metadata rows, 48 medoid seqs, 226 all-ortholog seqs, 226 accessions (48 medoid)
-10:58:46 wrote /home/osnat/github/multiomics_analysis/analyses/2026-09-04-synechococcus_core_markers/analysis/data/handoff
+19:22:19 markers in panel_final (after drops): 49
+19:22:19 sequences: 244/265   accessions: 244/265
+19:22:19 SHORT list: 9 markers -> m006, m007, m001, m002, m011, m034, m027, m042, m038
+19:22:19 FULL list : 49 markers
+19:22:19 short_panel: 9 markers, 45 metadata rows, 9 medoid seqs, 45 all-ortholog seqs, 45 accessions (9 medoid)
+19:22:19 full_panel: 49 markers, 245 metadata rows, 48 medoid seqs, 226 all-ortholog seqs, 226 accessions (48 medoid)
+19:22:19 wrote /home/osnat/github/multiomics_analysis/analyses/2026-09-04-synechococcus_core_markers/analysis/data/handoff

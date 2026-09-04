@@ -1,0 +1,22 @@
+19:21:05 background genes with a sequence: 12530
+19:21:05 marker gene instances with a length: 244/265
+19:21:05 --- Test 1: length distribution ---
+19:21:05 all proteins, 5 genomes            n=12530 median=234    IQR=124-376  mean=278.2    <150aa=31.0%
+19:21:05 the 53 markers                     n=244   median=104    IQR=77-151  mean=131.5    <150aa=72.5%
+19:21:05 Mann-Whitney U two-sided: U=708178  p=6.74e-47
+19:21:05 marker median is 45% of the background median
+19:21:05 --- Test 2: does broad-group assignment depend on length? (the artifact test) ---
+19:21:05   0-75       n=1203   with broad group  82.5%   markers here: 47
+19:21:05   75-100     n=1111   with broad group  91.8%   markers here: 59
+19:21:05   100-150    n=1572   with broad group  95.3%   markers here: 71
+19:21:05   150-200    n=1434   with broad group  97.6%   markers here: 48
+19:21:05   200-300    n=2483   with broad group  99.0%   markers here: 15
+19:21:05   300-400    n=2094   with broad group  99.4%   markers here: 0
+19:21:05   400-600    n=1857   with broad group  99.6%   markers here: 0
+19:21:05   600-+      n=776    with broad group 100.0%   markers here: 4
+19:21:05 --- Test 3: markers vs genes that DO carry a broad group ---
+19:21:05 genes WITH a Bacteria-level group  n=12074 median=241    IQR=132-381  mean=284.7    <150aa=29.1%
+19:21:05 genes WITHOUT one                  n=456   median=78     IQR=58-119  mean=105.4    <150aa=82.5%
+19:21:05 with vs without broad group, Mann-Whitney: U=4612396  p=8.18e-133
+19:21:05 markers vs genes-without-broad-group: U=72575  p=3.01e-11
+19:21:06 wrote figures/qc_length_bias.png and the two CSVs

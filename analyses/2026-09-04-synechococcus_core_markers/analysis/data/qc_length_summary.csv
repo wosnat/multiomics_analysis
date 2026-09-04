@@ -1,0 +1,5 @@
+set,n,min,q1,median,q3,max,mean,pct_under_150aa
+"all proteins, 5 genomes",12530,19,124.0,234.0,376.0,10781,278.2,31.0
+the 53 markers,244,47,77.0,104.5,151.25,984,131.5,72.5
+genes WITH a Bacteria-level group,12074,26,132.0,241.0,381.0,10781,284.7,29.1
+genes WITHOUT one,456,19,58.0,77.5,119.0,513,105.4,82.5

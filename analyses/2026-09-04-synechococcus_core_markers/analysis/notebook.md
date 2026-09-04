@@ -423,3 +423,86 @@ m042 (B04, 64.4%) and m038 (B06, 59.7%).
 Panel as cut is recorded, and the locus-concentration risk is recorded with it.
 Whether to add spread markers is the researcher's call; the analysis does not
 make it unilaterally.
+
+---
+
+## Follow-up — length QC, and testing whether short markers are an artifact
+
+Researcher observation, 2026-09-04: the markers look like short proteins.
+Script: `scripts/08_length_bias_qc.py`. Outputs `data/qc_length_bias.csv`,
+`data/qc_length_summary.csv`, `figures/qc_length_bias.png`.
+
+### They are short, and the effect is large
+
+| Set | n | Median | IQR | Mean | Under 150 aa |
+|---|---|---|---|---|---|
+| All proteins, five genomes | 12,530 | 234 aa | 124–376 | 278.2 | 31.0% |
+| The 53 markers | 244 | 104 aa | 77–151 | 131.5 | 72.5% |
+
+Mann-Whitney U two-sided, p = 6.7e-47 `[KG]`. The marker median is 45% of the
+background median.
+
+### The artifact hypothesis, and why it was worth testing
+
+`[interpretation]` Short proteins are harder to place into broad ortholog
+groups. A short gene that was never assigned a Bacteria-level group would pass
+the "no relatives outside the five strains" test for a purely technical reason,
+because there is no broad group to contradict it. If most markers passed that
+way, the specificity claim would be an artifact of annotation depth and the
+panel would be much weaker than reported.
+
+**The length dependence is real** `[KG]`:
+
+| Length | Genes | With a Bacteria-level group |
+|---|---|---|
+| 0–75 aa | 1,203 | 82.5% |
+| 75–100 aa | 1,111 | 91.8% |
+| 100–150 aa | 1,572 | 95.3% |
+| 150–200 aa | 1,434 | 97.6% |
+| 200–300 aa | 2,483 | 99.0% |
+| 300–400 aa | 2,094 | 99.4% |
+| 400–600 aa | 1,857 | 99.6% |
+| 600+ aa | 776 | 100.0% |
+
+Genes lacking a broad group are much shorter than those that have one, median
+78 aa against 241 aa, p = 8e-133 `[KG]`.
+
+### But it does not explain the panel
+
+The decisive count: **51 of 53 markers carry a Bacteria-level ortholog group
+whose membership is exactly the five target strains** `[KG]`. Their specificity
+is positively demonstrated, not inferred from missing annotation. At the gene
+level, 242 of 244 marker instances have such a group.
+
+Only two markers rest on absence of a broad group:
+
+| Marker | Gene | Product | Only group |
+|---|---|---|---|
+| m008 | unk11 | conserved hypothetical protein | `cyanorak:CK_00002548` |
+| m048 | — | putative membrane protein | `cyanorak:CK_00002723` |
+
+Both are now flagged in the handoff `caution` column. m048 is also the one
+marker with no medoid.
+
+Markers are also significantly **longer** than the no-broad-group population
+(median 104 vs 78 aa, p = 3e-11) `[KG]`, so they are not simply the
+poorly-annotated tail.
+
+### Answer to the researcher's question
+
+`[interpretation]` Yes it makes sense. Lineage-restricted genes really are
+short in these genomes, which is the expected pattern for genes confined to one
+group, and the shortness survives the artifact test. The phycoerythrin markers
+sit among the longer ones (mpeA 165 aa, mpeB 178, cpeU 203, cpeR 101), normal
+for phycobiliproteins.
+
+The practical consequence is for the search rather than the biology. Short
+proteins make weaker queries: fewer bits of signal, higher e-values, and less to
+match in short metagenomic reads. Median marker length is 104 aa and a quarter
+are under 77 aa, so thresholds should be set for that rather than left at
+defaults tuned for average-length proteins. This was added to the handoff README.
+
+### Decision
+
+Panel unchanged. Two markers flagged, the length QC written into the handoff,
+and the threshold caution passed to the collaborators.

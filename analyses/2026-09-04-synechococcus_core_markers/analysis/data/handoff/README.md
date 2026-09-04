@@ -146,6 +146,53 @@ in none of the five reference genomes. No single strain wins the medoid across
 markers, which is why the representative is chosen per marker rather than by
 picking one reference strain.
 
+## Length QC — the markers are short, and that is mostly real
+
+The markers are markedly shorter than the genome background:
+
+| Set | n | Median | IQR | Under 150 aa |
+|---|---|---|---|---|
+| All proteins, five genomes | 12,530 | 234 aa | 124-376 | 31.0% |
+| The 53 markers | 244 | 104 aa | 77-151 | 72.5% |
+
+Mann-Whitney U, two-sided, p = 7e-47. The marker median is 45% of the background
+median.
+
+**We tested whether this is an artifact.** Short proteins are harder to place
+into broad ortholog groups, and a gene that never received a Bacteria-level
+group would pass our "no relatives outside the five strains" test for a purely
+technical reason. That length dependence is real:
+
+| Protein length | Genes | With a Bacteria-level group |
+|---|---|---|
+| 0-75 aa | 1,203 | 82.5% |
+| 75-100 aa | 1,111 | 91.8% |
+| 100-150 aa | 1,572 | 95.3% |
+| 150-200 aa | 1,434 | 97.6% |
+| 200-300 aa | 2,483 | 99.0% |
+| 600+ aa | 776 | 100.0% |
+
+**But it does not explain the panel.** 51 of the 53 markers carry a
+Bacteria-level ortholog group whose membership is exactly the five target
+strains, so their specificity is positively demonstrated rather than inferred
+from missing annotation. Only **two markers** rest on absence of a broad group:
+`m008` (unk11) and `m048` (putative membrane protein). Both are flagged in the
+`caution` column. Excluding them changes nothing else in the panel.
+
+The residual conclusion is that lineage-restricted genes in these genomes really
+are short, which is the expected pattern, and the short markers are not an
+annotation artifact.
+
+**Practical consequence for the search.** Short proteins make weaker queries:
+fewer bits of signal, higher e-values, and less to match against in short
+metagenomic reads. Median marker length is 104 aa and a quarter are under 77 aa.
+Set e-value and coverage thresholds with that in mind rather than using defaults
+tuned for average-length proteins. The phycoerythrin markers are among the
+longer ones (mpeA 165 aa, mpeB 178, cpeU 203, cpeR 101), which is normal for
+phycobiliproteins.
+
+See `figures/qc_length_bias.png` in the source repository.
+
 ### Extra columns in `panel_final.csv` (source repository, not this bundle)
 
 `accessions_available` counts how many of the five strains have an accession
