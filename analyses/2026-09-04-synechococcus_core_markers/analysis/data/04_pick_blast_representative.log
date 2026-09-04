@@ -1,0 +1,38 @@
+08:07:05 markers: 53
+08:07:05 marker gene instances: 265
+08:07:05 no stored sequence for: BL107_08926
+08:07:05 no stored sequence for: BL107_11501
+08:07:05 no stored sequence for: BL107_14185
+08:07:05 no stored sequence for: BL107_17408
+08:07:05 no stored sequence for: S8102_15941
+08:07:05 no stored sequence for: S8102_22071
+08:07:05 no stored sequence for: SYNW2557
+08:07:05 no stored sequence for: SynBL107_50002
+08:07:05 no stored sequence for: SynWH7803_0827
+08:07:05 no stored sequence for: SynWH7803_0887
+08:07:05 no stored sequence for: SynWH7803_1904
+08:07:05 no stored sequence for: SynWH7803_2535
+08:07:05 no stored sequence for: SynWH7803_2545
+08:07:05 no stored sequence for: SynWH7803_2549
+08:07:05 no stored sequence for: Syncc8109_0497
+08:07:05 no stored sequence for: Syncc8109_1105
+08:07:05 no stored sequence for: Syncc8109_1386
+08:07:05 no stored sequence for: Syncc8109_50007
+08:07:05 no stored sequence for: Syncc8109_50026
+08:07:05 no stored sequence for: sync_0527
+08:07:05 no stored sequence for: sync_2321
+08:07:05 sequences retrieved: 50/265
+08:07:05 markers missing >=1 sequence, excluded from medoid choice: 53
+08:07:05 wrote marker_proteins.faa
+08:07:05 non-self alignment pairs: 34
+08:07:05 marker pairs with any cross-alignment: 3
+08:07:05 --- which strain wins the medoid, across 11 markers ---
+08:07:05    CC9311   10
+08:07:05    WH7803   1
+08:07:05 median mean-identity-to-siblings: 66.5%
+08:07:05 markers with min pairwise identity >= 70%: 5
+08:07:05 markers with min pairwise identity < 50%: 2
+08:07:05 markers where at least one sibling pair did not align at all: 0
+08:07:05 markers cross-aligning to another marker: 2
+08:07:05 recommended queries lacking a protein accession: 0
+08:07:05 wrote blast_representatives.csv / .faa, cross_marker_hits.csv

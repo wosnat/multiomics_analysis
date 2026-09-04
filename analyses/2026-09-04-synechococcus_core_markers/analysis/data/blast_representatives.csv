@@ -1,0 +1,12 @@
+marker_id,gene,product,recommended_strain,recommended_locus_tag,recommended_protein_accession,all_five_locus_tags,all_five_protein_accessions,protein_length,mean_identity_to_siblings,min_pairwise_identity,strains_with_sequence,unaligned_pairs,cross_hits_another_marker
+m006,mpeA,"C-phycoerythrin class II, alpha chain",CC9311,sync_0504,WP_011618463.1,CC9311=sync_0504;WH7803=SynWH7803_0492,CC9311=WP_011618463.1;WH7803=WP_011932406.1,165,85.4,85.4,2,0,True
+m013,,uncharacterized conserved membrane protein,WH7803,SynWH7803_0211,WP_011932141.1,CC9311=sync_0207;WH7803=SynWH7803_0211,CC9311=WP_041426281.1;WH7803=WP_011932141.1,101,80.0,79.2,2,0,False
+m007,mpeB,"C-phycoerythrin class II, beta chain",CC9311,sync_0505,WP_041426329.1,CC9311=sync_0505;WH7803=SynWH7803_0493,CC9311=WP_041426329.1;WH7803=WP_011932407.1,178,79.0,79.0,2,0,True
+m051,,uncharacterized conserved membrane protein,CC9311,sync_0322,WP_041426303.1,CC9311=sync_0322;WH7803=SynWH7803_0325,CC9311=WP_041426303.1;WH7803=WP_011932251.1,165,74.8,74.8,2,0,False
+m001,cpeR,phycoerythrin operon regulator,CC9311,SYNC_RS13690,WP_071813674.1,CC9311=SYNC_RS13690;WH7803=SynWH7803_0497,CC9311=WP_071813674.1;WH7803=WP_011932411.1,101,72.4,72.4,2,0,False
+m002,cpeU,putative phycoerythrobilin:phycoerythrin lyase CpeU,CC9311,sync_0492,WP_011618451.1,CC9311=sync_0492;WH7803=SynWH7803_0483,CC9311=WP_011618451.1;WH7803=WP_011932397.1,200,66.5,65.5,2,0,False
+m019,,conserved hypothetical protein,CC9311,sync_0721,WP_041426379.1,CC9311=sync_0721;WH7803=SynWH7803_0878,CC9311=WP_041426379.1;WH7803=WP_011932786.1,130,61.6,61.6,2,0,False
+m012,unk9,conserved hypothetical protein,CC9311,sync_0507,WP_011618466.1,CC9311=sync_0507;WH7803=SynWH7803_0495,CC9311=WP_011618466.1;WH7803=WP_011932409.1,106,55.7,55.7,2,0,False
+m011,unk7,nif11-like leader peptide domain protein,CC9311,SYNC_RS02450,WP_041426330.1,CC9311=SYNC_RS02450;WH7803=SynWH7803_0496,CC9311=WP_041426330.1;WH7803=WP_011932410.1,77,54.1,54.1,2,0,False
+m009,unk12,conserved hypothetical protein,CC9311,sync_0498,WP_041426327.1,CC9311=sync_0498;WH7803=SynWH7803_0490,CC9311=WP_041426327.1;WH7803=WP_011932404.1,140,49.3,49.3,2,0,False
+m010,unk4,conserved hypothetical protein,CC9311,sync_0518,WP_011618477.1,CC9311=sync_0518;WH7803=SynWH7803_0507,CC9311=WP_011618477.1;WH7803=WP_011932421.1,150,50.4,47.3,2,0,False

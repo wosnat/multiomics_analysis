@@ -252,3 +252,87 @@ the KG can feed via `gene_aa_sequence` but which was not run.
 Nine are clean on an independent check, nine carry a domain-level duplicate of
 which the phycobiliprotein cases are probably benign, and 36 are untested
 because they have no Pfam annotation.
+
+---
+
+## Follow-up — choosing query sequences for a Mediterranean metagenome search
+
+Researcher question, 2026-09-04. Scripts: `scripts/04_pick_blast_representative.py`
+(superseded), `scripts/05_handoff_accessions.py`.
+
+### The medoid plan failed, and its output must not be used
+
+The intended method was to pick, per marker, the member with the highest mean
+percent identity to its four siblings, so the query sits at the centre of the
+group's sequence space rather than carrying one strain's idiosyncrasies. That
+requires sequences. The KG stores an amino-acid sequence for only **50 of 265**
+marker gene instances `[KG]`, and coverage is severely strain-skewed:
+
+| Strain | Clade | Genes | With stored AA sequence | With protein accession |
+|---|---|---|---|---|
+| CC9311 | I | 53 | 37 | 51 |
+| WH8109 | II | 53 | 0 | 48 |
+| WH8102 | III | 53 | 1 | 50 |
+| BL107 | IV | 53 | 0 | 48 |
+| WH7803 | V | 53 | 12 | 47 |
+| **Total** | | **265** | **50** | **244** |
+
+The medoid run therefore covered 11 markers and "chose" CC9311 for 10 of them,
+purely because CC9311 is the only strain with sequences. That is an artifact of
+sequence coverage, not a similarity result. `data/blast_representatives.csv` is
+retained for reproducibility and **its recommendation is void**. `[gap]`
+
+### What the handoff is instead
+
+Protein accessions, 244 of 265 available and evenly spread, all NCBI RefSeq
+`WP_` identifiers `[KG]`. 42 of 53 markers have a complete set of five.
+`data/handoff_accessions.csv` (wide, five accessions per marker) and
+`data/handoff_long.csv` (one row per marker x strain).
+
+### Cross-marker alignment
+
+All-versus-all DIAMOND over the 50 available sequences found three marker pairs
+that align to each other `[KG]`:
+
+| Pair | Max identity |
+|---|---|
+| m003 vs m004, both unannotated | 55.9% |
+| m029 vs m041, both unannotated | 50.0% |
+| m006 (mpeA) vs m007 (mpeB) | 28.9% |
+
+`[interpretation]` The mpeA/mpeB pair is expected: the alpha and beta chains of
+a phycobiliprotein are homologous, and 28.9% is low enough not to confound a
+strict search. The two unannotated pairs at 50 to 56% are near-duplicates of
+each other, so one of each pair should be dropped rather than counted as two
+independent markers.
+
+### Recommendation
+
+**Send all five accessions per marker, not one.** Two reasons. The medoid
+cannot be computed from this KG, so any single choice would be arbitrary. And
+for recruitment against an unknown Mediterranean population, five queries
+spanning clades I to V cost nothing and materially improve recall over one.
+
+If a single representative is forced: **BL107**, clade IV, on the grounds that
+it is a Mediterranean isolate from Blanes Bay `[interpretation]` — the KG
+records no isolation source `[gap]`. Second choice **WH8102**, the
+best-annotated of the five (2777 Cyanorak-grouped genes, the highest) and the
+strain whose SYNW locus tags the literature uses.
+
+**Tiering the 53 markers for the collaborators:**
+
+- **Tier 1, six annotated and defensible:** mpeA, mpeB, cpeR, cpeU, apcE,
+  kaiA. The phycoerythrin set is the strongest of these, since phycoerythrin is
+  what distinguishes marine *Synechococcus* from *Prochlorococcus*.
+- **Excluded, two:** both hli rows. The family is expanded in
+  *Prochlorococcus*, so hits will not be diagnostic.
+- **Tier 2, exploratory:** the remaining unannotated markers with a complete
+  accession set, minus one of each near-duplicate pair. Not validated markers.
+
+**Caveats to pass on with the file.** Specificity was established against the
+43 gene-bearing genomes in this KG, not against bacteria; a metagenome carries
+far more diversity, so a hit is not proof of marine *Synechococcus*.
+mpeA, mpeB, cpeR and apcE share the phycobilisome fold with every other
+phycobiliprotein, so a strict identity threshold or a reciprocal best-hit check
+is needed. Two markers lack one accession each: apcE has no CC9311 accession,
+kaiA has none for WH8109.
