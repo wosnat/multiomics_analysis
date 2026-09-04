@@ -40,6 +40,7 @@ knowledge graph, 17 of which are *Prochlorococcus*.
 
 | File | Contents |
 |---|---|
+| `SUMMARY_AND_METHODS.md` | executive summary plus the full methods write-up — **read this first** |
 | `short_panel_*` | 9 markers: the 5 annotated survivors plus 4 spread candidates |
 | `full_panel_*` | 49 markers: everything after dropping kaiA, hli (x2) and apcE |
 | `*_medoid.faa` | one sequence per marker, the most central of its five orthologs |
