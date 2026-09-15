@@ -11,7 +11,7 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 
 ## [Unreleased]
 
-## [0.2.0-alpha.1] — 2026-08-30
+## [0.2.0-alpha.1] — 2026-09-15
 
 Second dogfood harvest, carried in from the consumer clone that ran the arc end
 to end (which organic carbon compounds *Alteromonas* takes up in coculture with
