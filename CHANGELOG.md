@@ -71,6 +71,24 @@ Ships alongside KG `0.1.0-alpha.7` and explorer `v0.1.0-alpha.5`.
   with KG 0.1.0-alpha.7) — run `uv sync` after pulling. See the explorer and KG
   release notes for what the graph can now answer; the KG's `mcp_min_version`
   moves to `0.1.0a5`, so older explorer pins fail preflight's contract check.
+  **Re-running an analysis written against an earlier KG will not reproduce its
+  numbers.** In release QA, re-running the carbon-sources scripts against KG
+  0.1.0-alpha.7 changed three things without any error:
+  - **TCDB now carries many weak homology calls.** A default
+    `genes_by_ontology(ontology="tcdb")` for *Alteromonas* HOT1A3 returns 1,139
+    genes, up from 427; the additions are low-identity matches (median ~32%)
+    that include regulators and sensor kinases. Pass a trust filter
+    (`max_tier=2` gives 435; or `min_evidence_score=`) when a transporter set
+    has to mean "transporter".
+  - **TCDB genes attach at different levels, and family names are descriptive.**
+    Code that matches TC numbers such as `3.A.1.10` in `term_name` finds nothing
+    — read the number from `term_id` instead.
+  - **Experiments can gain timepoints under the same ID.** The HOT1A3 coculture
+    RNA-seq experiment now has days 18 and 31 alongside day 11 (day 11 is
+    unchanged); a script that did not filter on `timepoint` now pulls three
+    times the rows.
+  Freeze KG-derived inputs to CSV (as the methodology already requires) and
+  compare before trusting a re-run. Details: `docs/release-0.2.0-alpha.1-QA.md`.
 - Pinned to explorer v0.1.0-alpha.4 (superseded above in the same release).
   Fixed a result-flattening bug: queries that mix different
   `gene_derived_metrics` kinds no longer silently drop the scalar `value` column
@@ -85,6 +103,10 @@ Ships alongside KG `0.1.0-alpha.7` and explorer `v0.1.0-alpha.5`.
   each one (fixed / disputed / deferred) before the researcher sees the milestone.
 - `run_cypher` added to the pre-approved KG tools — the critic uses it to
   spot-check a single claim against the raw graph.
+- `ontology_term_details` (new in explorer v0.1.0-alpha.5) added to the
+  pre-approved KG tools, so it runs without a permission prompt like the rest.
+- `docs/release-0.2.0-alpha.1-QA.md` — the release test run in a consumer clone:
+  what was checked, what passed, and what was fixed before release.
 - `docs/methodology-review-2026-08.md` — what the first full dogfood showed, with
   the evidence behind each of the changes above, plus four further findings that
   occurred only once and are being watched rather than acted on.
