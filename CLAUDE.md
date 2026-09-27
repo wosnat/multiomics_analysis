@@ -49,8 +49,9 @@ Every analysis is two phases:
 - **KG entries** — relevant publications, experiments, organisms, data types,
   enumerated from the KG
 - **Framing** — enumerated concretely: hypothesis, approach, statistics plan (the
-  specific test or a reasoned "none"), and a named validation set (check
-  genes/pathways with expected behavior)
+  specific test or a reasoned "none"), a named validation set (check
+  genes/pathways with expected behavior), and a falsifiability check (what
+  "nothing real" looks like, plus a pre-registered expected-negative)
 
 **Run** — three milestones, each in its own folder, one commit each:
 - **methods** — ad-hoc Python module implementing the approach the proposal
@@ -86,9 +87,10 @@ On-demand tools that remain available: `superpowers:verification-before-completi
 `superpowers:systematic-debugging`, `superpowers:requesting-code-review`, and the
 `critical-review` skill — a fresh-context critic that challenges a claim-bearing
 artifact against its own files (automatic on the proposal before the Run phase,
-interpretation-only; at the analysis milestone with a data-integrity +
-interpretation lens; and at the evaluation milestone with interpretation only; on
-demand at any point).
+interpretation-only; at the analysis milestone — and at a methods milestone that
+emits a data file — with a data-integrity + interpretation lens; at the
+evaluation milestone with interpretation only; as a delta pass whenever a
+milestone's claims grow after its first pass; and on demand at any point).
 
 ## MCP server & credentials
 

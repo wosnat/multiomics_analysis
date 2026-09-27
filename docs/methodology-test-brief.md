@@ -58,10 +58,12 @@ it a skill change. Record what happens either way — a clean run is also eviden
    conclusion rested on agreement across experiments while the metric's
    comparability across them (FDR families of 46 vs 3–5 modules) was never stated
    — caught post hoc by the critic. If this analysis compares across experiments,
-   did the framing floor's four items leave the same hole?
-7. **Does the validation set need an expected-negative?** Round 1's sharpest
-   instrument was a gene set that should *not* come up (the aromatic prong). The
-   floor doesn't ask for one. Did you name one anyway — and did it earn its place?
+   did the framing floor's five items leave the same hole?
+7. **Does the falsifiability check / expected-negative earn its place?** Round 1's
+   sharpest instrument was a gene set that should *not* come up (the aromatic
+   prong); it recurred in the re-run and is now a required framing item (the fifth
+   floor item). Did naming it up front change the plan or the read of a null — or
+   was it ceremony?
 8. **Is "the methods milestone stays minimal" true?** Round 1's was a discovery
    milestone: 8 scripts, a genome-inventory reveal that inverted the proposal's
    counting unit, and a decision that superseded a locked proposal decision. Does

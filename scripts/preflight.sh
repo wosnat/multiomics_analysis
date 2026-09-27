@@ -46,10 +46,10 @@ if [[ -n "$REMOTE" ]]; then
   fi
 fi
 
-# ── 0.5 Required plugin: superpowers (methodology step 1 depends on it) ──
+# ── 0.5 Required plugin: superpowers (the methodology's Plan phase depends on it) ──
 # Declared in .claude/settings.json (enabledPlugins) and pulled from the official
 # Anthropic marketplace when the workspace is trusted. Verify it actually resolved —
-# without it, step-1 brainstorming (superpowers:*) cannot run.
+# without it, Plan-phase brainstorming (superpowers:*) cannot run.
 if command -v claude >/dev/null 2>&1; then
   PLUGINS_JSON="$(claude plugin list --json 2>/dev/null || echo '[]')"
   if command -v jq >/dev/null 2>&1; then
@@ -60,7 +60,7 @@ if command -v claude >/dev/null 2>&1; then
   fi
   if [[ "$sp_ok" != "1" ]]; then
     red "✗ Required plugin 'superpowers' is not installed/enabled."
-    yellow "   The methodology's step-1 brainstorming depends on superpowers:* skills."
+    yellow "   The methodology's Plan-phase brainstorming depends on superpowers:* skills."
     yellow "   Fix: claude plugin install superpowers@claude-plugins-official"
     yellow "        (or re-open and trust the workspace so .claude/settings.json enables it),"
     yellow "        then re-run preflight."

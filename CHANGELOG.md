@@ -11,6 +11,15 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
 
 ## [Unreleased]
 
+## [0.2.0-alpha.1] — 2026-09-15
+
+Second dogfood harvest, carried in from the consumer clone that ran the arc end
+to end (which organic carbon compounds *Alteromonas* takes up in coculture with
+*Prochlorococcus*). Minor bump rather than patch: the analysis folder layout
+changes, which is breaking for anyone mid-analysis — existing analyses keep
+their numbered structure as git history; the new arc applies to new analyses.
+Ships alongside KG `0.1.0-alpha.7` and explorer `v0.1.0-alpha.5`.
+
 ### Changed
 - **Research methodology restructured from a 6-step flow into a two-phase arc:
   Plan → Run.** The Plan phase is one grounded `superpowers:brainstorming`
@@ -23,13 +32,10 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
   folders. Execution (KG queries, scripts) is delegated to a coding subagent
   (`superpowers:subagent-driven-development`) that returns artifacts, not
   conclusions; the main thread owns `notebook.md` and all judgment. The hard
-  gates were re-lettered (GATE A–E); critical review now runs at the analysis and
-  evaluation milestones. Existing analyses under `analyses/` keep their original
-  numbered structure as git history — the new arc applies to new analyses.
-- **The arc hardened by its first full dogfood.** It was run end to end on one
-  real analysis (which organic carbon compounds *Alteromonas* takes up in
-  coculture with *Prochlorococcus*), and the four places it fell short were
-  fixed:
+  gates were re-lettered (GATE A–E); critical review now runs on the proposal
+  and at the analysis and evaluation milestones.
+- **The arc hardened by its first full dogfood.** The four places it fell short
+  were fixed:
   - **The methods milestone now gets an automatic critical review whenever it
     produces a data file** later milestones consume — a parts list, a curated
     candidate set, a classification table. Such a file carries claims (substrate
@@ -54,18 +60,58 @@ explorer pin lives in `pyproject.toml` and the KG version comes from
     points at actually exists, and a review finding that exposed a gap the plan
     didn't anticipate is logged as friction, not only as a fix. The log tends to
     go quiet in exactly the late milestones where the lessons are most expensive.
-- Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.4) — run
-  `uv sync` after pulling. Fixes a result-flattening bug: queries that mix
-  different `gene_derived_metrics` kinds no longer silently drop the scalar
-  `value` column when converting tool output to a dataframe.
+- **The framing now states what a MISS looks like, not only a HIT.** Every
+  proposal names in advance the result that would signal "no real signal" and a
+  pre-registered expected-negative class that should *not* score if the signal is
+  genuine — so a true null and a noise result are distinguishable. Both dogfood
+  runs' only clean single-module hits were expected-negatives, which is exactly
+  what let a negative be read as real rather than as a failed method. A null is a
+  valid outcome.
+- Pinned to the latest knowledge-graph tools (explorer v0.1.0-alpha.5, paired
+  with KG 0.1.0-alpha.7) — run `uv sync` after pulling. See the explorer and KG
+  release notes for what the graph can now answer; the KG's `mcp_min_version`
+  moves to `0.1.0a5`, so older explorer pins fail preflight's contract check.
+  **Re-running an analysis written against an earlier KG will not reproduce its
+  numbers.** In release QA, re-running the carbon-sources scripts against KG
+  0.1.0-alpha.7 changed three things without any error:
+  - **TCDB now carries many weak homology calls.** A default
+    `genes_by_ontology(ontology="tcdb")` for *Alteromonas* HOT1A3 returns 1,139
+    genes, up from 427; the additions are low-identity matches (median ~32%)
+    that include regulators and sensor kinases. Pass a trust filter
+    (`max_tier=2` gives 435; or `min_evidence_score=`) when a transporter set
+    has to mean "transporter".
+  - **TCDB genes attach at different levels, and family names are descriptive.**
+    Code that matches TC numbers such as `3.A.1.10` in `term_name` finds nothing
+    — read the number from `term_id` instead.
+  - **Experiments can gain timepoints under the same ID.** The HOT1A3 coculture
+    RNA-seq experiment now has days 18 and 31 alongside day 11 (day 11 is
+    unchanged); a script that did not filter on `timepoint` now pulls three
+    times the rows.
+  Freeze KG-derived inputs to CSV (as the methodology already requires) and
+  compare before trusting a re-run. Details: `docs/release-0.2.0-alpha.1-QA.md`.
+- Pinned to explorer v0.1.0-alpha.4 (superseded above in the same release).
+  Fixed a result-flattening bug: queries that mix different
+  `gene_derived_metrics` kinds no longer silently drop the scalar `value` column
+  when converting tool output to a dataframe.
 
 ### Added
+- **`critical-review` skill** — a fresh-context critic subagent that re-checks a
+  claim-bearing artifact against its own files, never against the author's
+  narrative. Lens matched to the milestone (interpretation-only on the proposal
+  and evaluation; data-integrity + interpretation on analysis and data-emitting
+  methods), findings cited by file, column, and number; the author dispositions
+  each one (fixed / disputed / deferred) before the researcher sees the milestone.
+- `run_cypher` added to the pre-approved KG tools — the critic uses it to
+  spot-check a single claim against the raw graph.
+- `ontology_term_details` (new in explorer v0.1.0-alpha.5) added to the
+  pre-approved KG tools, so it runs without a permission prompt like the rest.
+- `docs/release-0.2.0-alpha.1-QA.md` — the release test run in a consumer clone:
+  what was checked, what passed, and what was fixed before release.
 - `docs/methodology-review-2026-08.md` — what the first full dogfood showed, with
-  the evidence behind each of the four changes above, plus four further findings
-  that occurred only once and are being watched rather than acted on.
-- `docs/methodology-test-brief.md` retargeted to a second round: it now asks
-  whether the four changes earn their place and whether those four watch items
-  recur.
+  the evidence behind each of the changes above, plus four further findings that
+  occurred only once and are being watched rather than acted on.
+- `docs/methodology-test-brief.md` — the brief for the next round: whether the
+  four changes earn their place and whether the four watch items recur.
 
 ### Fixed
 - Preflight no longer crashes on Windows when printing its success line — the

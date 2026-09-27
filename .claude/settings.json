@@ -38,6 +38,7 @@
       "mcp__multiomics-kg__metabolites_by_gene",
       "mcp__multiomics-kg__metabolites_by_quantifies_assay",
       "mcp__multiomics-kg__ontology_landscape",
+      "mcp__multiomics-kg__ontology_term_details",
       "mcp__multiomics-kg__pathway_enrichment",
       "mcp__multiomics-kg__resolve_gene",
       "mcp__multiomics-kg__search_homolog_groups",

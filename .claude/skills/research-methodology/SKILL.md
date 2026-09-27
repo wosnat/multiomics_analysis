@@ -85,8 +85,7 @@ experiments, scoping what the KG contains) may be done
 interactively rather than scripted. These steps must still produce
 a frozen output file (CSV) and a notebook entry documenting the
 reasoning. Computations — statistics, scores, enrichment — always
-go in scripts. See [Research notebook — Interactive discovery
-steps](references/research-notebook.md) for the pattern.
+go in scripts. See [Research notebook — Code lifecycle](references/research-notebook.md#code-lifecycle-analysis-first-productize-later) for the pattern.
 
 ## Rule 6: Statistical rigor
 
@@ -137,7 +136,8 @@ highest-leverage artifact — a flaw propagates through all three Run
 milestones and is the most expensive to unwind — so the Plan phase
 closes on a review, in order: (1) **self-review** — read `proposal.md`
 with fresh eyes for vagueness, a missing stats decision, an
-unnamed/uncheckable validation set, or contradiction, and fix inline;
+unnamed/uncheckable validation set, a missing falsifiability check /
+expected-negative, or contradiction, and fix inline;
 (2) **critical review** — the fresh-context critic runs on every
 proposal, interpretation-only (no data yet), via the `critical-review`
 skill; (3) **researcher approval** — present the proposal and the

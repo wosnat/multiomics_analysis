@@ -17,7 +17,7 @@ Look at the data before drafting the plan. Pull what's in the KG — counts, fie
 Concrete rules:
 - **The Plan phase grounds the dialogue in MCP queries, not assumptions.** Before locking scope or framing, run `list_publications`, `list_experiments`, `list_organisms` filtered to the prompt's context. Surface counts and structural surprises (e.g. "axenic RNA-seq is single-contrast, not time-course") in the dialogue. Capture the queries and key counts in `proposal_notebook.md`.
 - **The Plan phase locks the question and framing, not sub-questions.** Sub-narratives that form during dialogue (e.g., "protein persists while mRNA is gone") are for the Run phase to test. Defer; note them.
-- **Framing has a floor, not a template.** The floor — all four, stated concretely: hypothesis in prose; approach (how and why); a deliberate statistics decision (the specific test and thresholds, *or* an explicit reasoned "none, because descriptive"); a named validation set (genes/pathways whose behavior is already known, with the expected behavior if the method works). Nothing beyond the floor unless the data forces it.
+- **Framing has a floor, not a template.** The floor — all five, stated concretely: hypothesis in prose; approach (how and why); a deliberate statistics decision (the specific test and thresholds, *or* an explicit reasoned "none, because descriptive"); a named validation set (genes/pathways whose behavior is already known, with the expected behavior if the method works); a falsifiability check (the result that would say the method found nothing real, and a pre-registered expected-negative class that should *not* score if the signal is genuine). Nothing beyond the floor unless the data forces it.
 - **Predictions are named, not matrixed.** If confirmation bias is a real risk, name 1–3 predictions — not a 4×4 matrix of ordering and thresholds.
 - **Stability checks are added when a specific result triggers them**, not planned up front.
 - **Decisions are written when forced by data**, not anticipated. No "we may decide X" placeholders.
@@ -31,14 +31,14 @@ This principle governs the whole arc. If you find yourself listing or architecti
 **Plan phase** — one grounded `superpowers:brainstorming` conversation converging on `proposal.md`:
 1. **Question** — the locked research question
 2. **KG entries** — relevant publications, experiments, organisms, data types, enumerated from the KG
-3. **Framing** — hypothesis, approach, statistics plan, validation set, all in KG terms (the enumerated floor above)
+3. **Framing** — hypothesis, approach, statistics plan, validation set, falsifiability check / expected-negative, all in KG terms (the enumerated floor above)
 
 `proposal.md` is the **research proposal**, locked at the end of the Plan phase. The Run phase executes against it.
 
 **Run phase** — three milestones, each in its own folder:
-4. **methods** — implement the approach the proposal committed to as an ad-hoc Python module; toy-test it
-5. **analysis** — run the method; produce scored outputs, figures, tables
-6. **evaluation** — assess results against the framing; harvest caveats; finalize the paper
+- **methods** — implement the approach the proposal committed to as an ad-hoc Python module; toy-test it
+- **analysis** — run the method; produce scored outputs, figures, tables
+- **evaluation** — assess results against the framing; harvest caveats; finalize the paper
 
 The Plan phase produces `proposal.md` + `proposal_notebook.md` (grounding queries, counts, rejected alternatives). It is interactive, not scripted, but not assumption-driven — MCP queries ground the conversation. Run milestones add `scripts/`, `data/`, `figures/`, and QC alongside `notebook.md`.
 
@@ -50,7 +50,7 @@ Every Run milestone advances through these phases (see [step-protocol.md](step-p
 - **do** — the coding subagent does the agreed work; outputs land wherever they naturally belong
 - **show** — the main thread populates `notebook.md` from the subagent's returned artifacts and run-manifest
 - **explore** — investigate anomalies, surprises, or gaps; each question is a fresh subagent invocation returning the artifact that answers it; the main thread interprets
-- **decide** — finalize notebook, update paper.md, run critical review (analysis + evaluation), present state to researcher, commit on approval
+- **decide** — finalize notebook, update paper.md, run critical review (analysis + evaluation; methods when it emits a data artifact; a delta pass if claims grew after the first pass), present state to researcher, commit on approval
 
 ## notebook.md format
 
@@ -154,8 +154,8 @@ What to show depends on the phase.
 - Sample rows of selected entries (experiment ID, publication, TPs, omics)
 - Per-TP gene counts (`timepoints[].gene_count`) or the distinct-gene denominator (`distinct_gene_count`), **not** cumulative `gene_count` (see [anti-hallucination.md — Category 5.3](anti-hallucination.md#53-field-semantics-from-memory--cumulative-vs-per-timepoint-counts))
 - Publication attributions resolved via `list_publications`
-- Controls selected from the KG with validation: what distinguishes positive from negative; coverage of TPs/conditions; distributional QC
-- Hypothesis in prose; statistics decision (named test or reasoned "none"); expected outcome phrased in KG-operational terms (what table / metric / direction will change)
+- Validation set selected from the KG with validation: what distinguishes an expected-positive from the expected-negative class; coverage of TPs/conditions; distributional QC
+- Hypothesis in prose; statistics decision (named test or reasoned "none"); falsifiability check phrased in KG-operational terms (what table / metric / direction would show a hit, and what would show nothing real)
 
 ### Computation / metric (methods milestone)
 - Worked example: 2–3 genes or clusters through the formula with actual numbers, step by step
@@ -202,7 +202,7 @@ Code lives in the analysis directory. Goal: correct methodology, not good softwa
 
 *Why (Alteromonas coculture, 2026-07-23):* a reference-class assigner used `bool(row["in_candidate"])`; the real CSV stores that field as the string `"False"`, and `bool("False")` is truthy — on real data every system would have collapsed into one class, destroying the control structure the whole null comparison rested on. All 27 tests passed, because the fixture used Python booleans. A spot-run on one real CSV row caught it.
 
-**Refine through the notebook QC cycle.** The do → show → explore → decide loop is how methodology gets validated. Formula corrections, edge cases, direction logic — all discovered through the researcher walking through concrete examples.
+**Refine through the notebook QC cycle.** The co-define → do → show → explore → decide loop is how methodology gets validated. Formula corrections, edge cases, direction logic — all discovered through the researcher walking through concrete examples.
 
 ### Phase 2 — Productization (software-first)
 

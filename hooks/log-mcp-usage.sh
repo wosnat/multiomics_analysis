@@ -5,7 +5,7 @@
 #
 # Output: appends one JSON line per event to usage/multiomics-kg-usage.jsonl
 # INSIDE THE REPO (un-ignored — see .gitignore). Testers commit usage/ alongside
-# their per-step analysis commits, so logs ride along on every push and the
+# their per-milestone analysis commits, so logs ride along on every push and the
 # maintainer aggregates by pulling forks (design spec §9).
 #
 # Fields: timestamp, template_version, event, session_id, tool_name, tool_input,

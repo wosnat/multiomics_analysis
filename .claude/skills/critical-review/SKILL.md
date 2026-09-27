@@ -35,8 +35,8 @@ highest-leverage artifact — a flaw in the framing propagates through all three
 Run milestones and is the most expensive to unwind — so it is reviewed before the
 Run phase begins. Its lens is **interpretation only**: there is no data yet, so
 there is nothing to integrity-check; the critic weighs the framing's testability,
-controls, confounders, and whether the statistics decision and validation set fit
-the question. Invoke it especially when the framing rests on a judgment call that
+controls, confounders, and whether the statistics decision, validation set, and
+falsifiability check / expected-negative fit the question. Invoke it especially when the framing rests on a judgment call that
 is not self-evidently sound: a **non-obvious combining key** (e.g. mapping
 disjoint strains onto shared ortholog groups), a **derived or constructed
 comparison**, or **controls whose validity is not obvious** (is the positive
@@ -112,7 +112,9 @@ Placeholders:
   data-integrity; conclusions only → interpretation only)
 - `{TRUSTED_INPUTS}` — prior output files this artifact builds on, which the critic
   reads as evidence but does **not** re-audit (e.g. the analysis milestone's data/
-  for an evaluation review). Empty for the proposal and the analysis milestone.
+  for an evaluation review; the methods milestone's data artifact for an analysis
+  review). Empty for the proposal, and for an analysis milestone whose methods
+  milestone emitted no data file.
 
 **3. Handle the result by what it found:**
 - **Findings exist** → write the critic's findings verbatim to a

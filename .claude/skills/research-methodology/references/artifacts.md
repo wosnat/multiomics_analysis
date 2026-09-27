@@ -79,7 +79,7 @@ Each Run-milestone folder contains:
 - **`scripts/`** — Python scripts that do the milestone's work (authored by the coding subagent)
 - **`data/`** — script outputs (CSV/TSV); inputs from prior milestones referenced by relative path
 - **`figures/`** — PNG/PDF/SVG outputs
-- **`critical_review.md`** — at the analysis and evaluation milestones, **only when the critic found something**: its findings plus the author's disposition for each (a clean review is a one-line note in `notebook.md`, not a file). See the `critical-review` skill and [step-protocol.md GATE C](step-protocol.md)
+- **`critical_review.md`** — at the analysis and evaluation milestones, at a methods milestone that emits a data artifact, and after a delta pass; **only when the critic found something**: its findings plus the author's disposition for each (a clean review is a one-line note in `notebook.md`, not a file). See the `critical-review` skill and [step-protocol.md GATE C](step-protocol.md)
 
 The Plan phase has no folder — it produces `proposal.md` + `proposal_notebook.md` at the analysis root (plus `proposal_critical_review.md` when the proposal critic found something), because it is a conversation, not a computation.
 
@@ -155,7 +155,7 @@ Rule of thumb: if it's small and captures analytical decisions, track it. If it'
 Each milestone's scripts should emit enough diagnostic output to verify the milestone without rerunning. Two capture paths:
 
 - **Short logs:** paste into the milestone's `notebook.md` (Results or Surprises sections)
-- **Long logs:** per-script log file at `<step>/data/<script_name>.log`, referenced from `notebook.md`
+- **Long logs:** per-script log file at `<milestone>/data/<script_name>.log`, referenced from `notebook.md`
 
 **Minimum content:** summary statistics (row counts, gene counts, filter funnel), diagnostic traces (marker gene values at key stages), edge-case results (tie-breaking outcomes, classification boundary cases).
 

@@ -117,7 +117,7 @@ works identically on Linux, Windows 11, and Remote-SSH.
 
 Open this folder in VS Code. When prompted, **trust the workspace** — this lets
 the research skills load, the MCP server start, and the required **`superpowers`**
-plugin install (the methodology's step-1 brainstorming depends on it; it's declared
+plugin install (the methodology's Plan-phase brainstorming depends on it; it's declared
 in `.claude/settings.json` and pulled from the official Anthropic marketplace on
 trust). Confirm the `multiomics-kg` server shows as connected by running `/mcp` in
 a Claude chat.

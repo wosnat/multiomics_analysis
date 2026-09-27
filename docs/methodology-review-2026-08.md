@@ -2,6 +2,7 @@
 
 **Date:** 2026-08-06
 **Subject analysis:** `analyses/2026-07-06-alteromonas_coculture_carbon_sources`
+*(The subject analysis lives in the consumer clone where the dogfood ran, not in this template.)*
 (Plan phase + all three Run milestones, closed 2026-07-26)
 **Skill under review:** `.claude/skills/research-methodology` (+ `.claude/skills/critical-review`)
 **Brief this answers:** [`docs/methodology-test-brief.md`](methodology-test-brief.md)
@@ -189,7 +190,7 @@ compound-class aggregation, which is family-size-independent and became the lead
 read. Candidate floor addition: *if the claim rests on agreement across
 experiments, state what makes the metric comparable across them.*
 
-### E. The validation set should include an expected-negative — **note, confirm next analysis**
+### E. The validation set should include an expected-negative — **applied 2026-08-11** (a second occurrence in the re-run settled it)
 
 The floor asks for genes whose behavior is known *if the method works*. The
 sharpest instrument in this analysis was the opposite: the aromatic
@@ -232,6 +233,8 @@ methods builds the entity set, it produces claims, not just code.
 
 ## 4. Disposition
 
-Applied to the skill on 2026-08-06: **A, C, F, G**.
-Carried as watch items for the next analysis: **B, D, E, H** — re-check whether
+Applied to the skill on 2026-08-06: **A, C, F, G**; **E** followed on 2026-08-11 after
+the re-run reproduced it (falsifiability check + pre-registered expected-negative
+are now part of the framing floor).
+Carried as watch items for the next analysis: **B, D, H** — re-check whether
 each recurs before changing the skill text.

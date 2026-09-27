@@ -192,7 +192,7 @@ analyses; one occurrence is a note, not a directive.
 - For methodology / KG / tooling proposals: point to the specific
   friction (date, location, what failed). One occurrence is a note;
   process change needs the same friction in two analyses.
-- Reserve interpretive vocabulary and bold proposals for step 6,
+- Reserve interpretive vocabulary and bold proposals for the evaluation milestone,
   where the framing has been tested.
 
 ---
