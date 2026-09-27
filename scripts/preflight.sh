@@ -97,7 +97,8 @@ explorer_pin = "unknown"
 try:
     import tomllib
     data = tomllib.loads(pathlib.Path("pyproject.toml").read_text())
-    explorer_pin = data["tool"]["uv"]["sources"]["multiomics-explorer"].get("tag", "?")
+    src = data["tool"]["uv"]["sources"]["multiomics-explorer"]
+    explorer_pin = src.get("tag") or (f"path:{src['path']}" if "path" in src else "?")
 except Exception:
     pass
 

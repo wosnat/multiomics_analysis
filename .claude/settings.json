@@ -42,7 +42,9 @@
       "mcp__multiomics-kg__resolve_gene",
       "mcp__multiomics-kg__search_homolog_groups",
       "mcp__multiomics-kg__search_ontology",
-      "mcp__multiomics-kg__run_cypher"
+      "mcp__multiomics-kg__run_cypher",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'docs: point the template-sync note at main after the merge *)"
     ]
   },
   "hooks": {
