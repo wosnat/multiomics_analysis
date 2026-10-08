@@ -1,0 +1,14 @@
+family,gene_names,med4_genes,med4_n_family_genes,med4_systems,med4_tiers,med4_member_counts,mit9313_genes,mit9313_n_family_genes,mit9313_systems,mit9313_tiers,mit9313_member_counts,natl2a_genes,natl2a_n_family_genes,natl2a_systems,natl2a_tiers,natl2a_member_counts,mismatch
+amt1,amt1,PMM0263:amt1,1,sys_PMM0263,High,1,PMT1853:amt1,1,sys_PMT1853,High,1,PMN2A_1629:amt1,1,sys_PMN2A_1629,High,1,none
+urt,urtA|urtB|urtC|urtD|urtE,PMM0970:urtA|PMM0971:urtB|PMM0972:urtC|PMM0973:urtD|PMM0974:urtE,5,sys_PMM0970,High,5,PMT2225:urtE|PMT2226:urtD|PMT2227:urtC|PMT2228:urtB|PMT2229:urtA,5,sys_PMT2225,High,5,PMN2A_1044:urtE|PMN2A_1045:urtD|PMN2A_1046:urtC|PMN2A_1047:urtB|PMN2A_1048:urtA,5,sys_PMN2A_1044,High,5,none
+pst,pstS|pstC|pstA|pstB,PMM0710:pstS|PMM0723:pstC|PMM0724:pstA|PMM0725:pstB,4,sys_PMM0710,High,4,PMT0508:pstS|PMT0700:pstB|PMT0701:pstA|PMT0702:pstC|PMT0993:pstS,5,sys_PMT0508,High,5,PMN2A_0309:pstB|PMN2A_0310:pstA|PMN2A_0311:pstC|PMN2A_0441:pstS,4,sys_PMN2A_0309,High,4,member count differs; family gene count differs
+dpp,dppA|dppB|dppC|ddpD,PMM0192:ddpD|PMM0421:dppC|PMM1048:dppB|PMM1049:dppA,4,sys_PMM0192,High,4,PMT0266:dppC|PMT1145:dppA|PMT1146:dppB|PMT2110:ddpD,4,sys_PMT0266,High,4,PMN2A_0704:dppA|PMN2A_0705:dppB|PMN2A_1559:ddpD|PMN2A_1755:dppC,4,sys_PMN2A_0704,High,4,none
+mnt,mntA|mntB|mntC,PMM0601:mntC|PMM0602:mntA|PMM0603:mntB,3,sys_PMM0601,High,3,PMT0416:mntB|PMT0417:mntA|PMT0418:mntC,3,sys_PMT0416,High,3,PMN2A_0037:mntC|PMN2A_0038:mntA|PMN2A_0039:mntB,3,sys_PMN2A_0037,High,3,none
+phn,phnC|phnD|phnE,PMM0671:phnE|PMM0672:phnC|PMM0673:phnD,3,sys_PMM0671,High,3,PMT0780:phnD|PMT0781:phnC|PMT0782:phnE,3,sys_PMT0780,High,3,PMN2A_0103:phnE|PMN2A_0104:phnC|PMN2A_0105:phnD,3,sys_PMN2A_0103,High,3,none
+fut/idiA,futA|futB|futC|idiA|idiA2,PMM0489:futB|PMM0803:futC|PMM1164:idiA2,3,sys_PMM0489,High,3,PMT0287:idiA2|PMT0501:futC|PMT1287:futB,3,sys_PMT0287,High,3,PMN2A_0211:futC|PMN2A_0774:idiA2|PMN2A_1822:futB,3,sys_PMN2A_0211,High,3,none
+cyn,cynA|cynB|cynD,PMM0370:cynA|PMM0371:cynB|PMM0372:cynD,3,sys_PMM0370,High,3,,0,,,,,0,,,,absent in MIT9313/NATL2A
+sul1,sul1,PMM0644:sul1,1,sys_PMM0644,High,1,PMT0899:sul1,1,sys_PMT0899,High,1,PMN2A_0631:sul1,1,sys_PMN2A_0631,High,1,none
+sul3,sul3,PMM0214:sul3,1,sys_PMM0214,High,1,PMT1214:sul3,1,sys_PMT1214,High,1,PMN2A_1581:sul3,1,sys_PMN2A_1581,High,1,none
+ktr,ktrA|ktrB,PMM0084:ktrB|PMM0085:ktrA,2,sys_PMM0084,High,2,PMT1628:ktrB|PMT1629:ktrA,2,sys_PMT1628,High,2,PMN2A_1448:ktrB|PMN2A_1449:ktrA,2,sys_PMN2A_1448,High,2,none
+sbtA,sbtA,PMM0213:sbtA,1,sys_PMM0213,High,1,PMT1213:sbtA,1,sys_PMT1213,High,1,,0,,,,absent in NATL2A
+focA,focA,,0,,,,PMT2240:focA,1,sys_PMT2240,Medium,1,PMN2A_1299:focA,1,sys_PMN2A_1299,Medium,1,absent in MED4

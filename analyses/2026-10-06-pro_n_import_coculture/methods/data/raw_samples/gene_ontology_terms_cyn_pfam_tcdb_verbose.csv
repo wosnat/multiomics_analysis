@@ -1,0 +1,14 @@
+locus_tag,term_id,term_name,level,is_informative,organism_name,evidence,sources,evidence_score,ontology_type,tier,confidence_score,source_agreement,pfam_support,go_support,identity,qcov,evalue,consensus_n,attachment_depth
+PMM0370,pfam:PF09084,NMT1/THI5 like,1,True,Prochlorococcus MED4,family_inferred,eggnog,0.333,pfam,,,,,,,,,,
+PMM0370,pfam:PF13379,NMT1-like family,1,True,Prochlorococcus MED4,curated,cyanorak | eggnog | interproscan | uniprot,1.0,pfam,,,,,,,,,,
+PMM0370,tcdb:3.A.1.16.1,Four component nitrate/nitrite porter.,4,True,Prochlorococcus MED4,family_inferred,eggnog,0.6,tcdb,,,both_sources,uncorroborated,corroborated,,,,,most_specific
+PMM0370,tcdb:3.A.1.16.2,Bispecific cyanate/nitrite transporter.,4,True,Prochlorococcus MED4,family_inferred,eggnog,0.6,tcdb,,,both_sources,uncorroborated,corroborated,,,,,most_specific
+PMM0370,tcdb:3.A.1.17.3,"Putative hydroxymethylpyrimidine transport system, ThiXYZ.",4,True,Prochlorococcus MED4,family_inferred,eggnog,0.4,tcdb,,,single_source,uncorroborated,corroborated,,,,,most_specific
+PMM0370,tcdb:3.A.1.17.6,"Putative hydroxymethylpyrimidine transport system, ThiXYZ.",4,True,Prochlorococcus MED4,family_inferred,eggnog,0.4,tcdb,,,single_source,uncorroborated,corroborated,,,,,most_specific
+PMM0371,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,Prochlorococcus MED4,curated,cyanorak | eggnog | interproscan | uniprot,1.0,pfam,,,,,,,,,,
+PMM0371,tcdb:3.A.1.16.1,Four component nitrate/nitrite porter.,4,True,Prochlorococcus MED4,family_inferred,eggnog,0.8,tcdb,,,both_sources,corroborated,corroborated,,,,,most_specific
+PMM0371,tcdb:3.A.1.16.2,Bispecific cyanate/nitrite transporter.,4,True,Prochlorococcus MED4,family_inferred,eggnog,0.8,tcdb,,,both_sources,corroborated,corroborated,,,,,most_specific
+PMM0372,pfam:PF00005,ABC transporter,1,True,Prochlorococcus MED4,curated,cyanorak | eggnog | interproscan | uniprot,1.0,pfam,,,,,,,,,,
+PMM0372,tcdb:3.A.1.16.1,Four component nitrate/nitrite porter.,4,True,Prochlorococcus MED4,family_inferred,eggnog,0.8,tcdb,,,both_sources,corroborated,corroborated,,,,,most_specific
+PMM0373,pfam:PF02560,Cyanate lyase C-terminal domain,1,True,Prochlorococcus MED4,curated,cyanorak | eggnog | interproscan,1.0,pfam,,,,,,,,,,
+PMM0373,pfam:PF21291,"Cyanate hydratase, N-terminal",1,True,Prochlorococcus MED4,signature,interproscan,0.667,pfam,,,,,,,,,,

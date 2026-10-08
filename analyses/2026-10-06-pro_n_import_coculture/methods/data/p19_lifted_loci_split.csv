@@ -1,0 +1,24 @@
+strain,locus_tag,gene_name,product,system_id,tier,category
+med4,PMM0449,ccmA,"ABC-type multidrug transport system, ATPase component",sys_PMM0449,Medium,efflux_annotated
+med4,PMM0450,ycf38,ABC-2 type transporter family protein,sys_PMM0449,Medium,efflux_annotated
+med4,PMM0940,,permease of the drug/metabolite transporter (DMT) superfamily,sys_PMM0940,Medium,DMT/EamA
+med4,PMM1179,,eamA-like transporter family protein,sys_PMM1179,Medium,DMT/EamA
+mit9313,PMT0129,,"RND family multidrug efflux transporter, MMPL family",sys_PMT0129,Medium,efflux_annotated
+mit9313,PMT0130,,"efflux transporter, RND family, MFP subunit",sys_PMT0130,Medium,efflux_annotated
+mit9313,PMT0174,,"multidrug efflux transporter, MFS family",sys_PMT0174,Medium,efflux_annotated
+mit9313,PMT0210,,"multidrug efflux transporter, MFS family",sys_PMT0210,Medium,efflux_annotated
+mit9313,PMT0643,,permease of the drug/metabolite transporter (DMT) superfamily,sys_PMT0643,Medium,DMT/EamA
+mit9313,PMT0691,ggtA,"ABC-type sugar transport system, ATPase component",sys_PMT0691,Medium,other
+mit9313,PMT0692,ggtD,"ABC-type sugar transport system, permease component",sys_PMT0691,Medium,other
+mit9313,PMT0693,ggtC,"ABC-type sugar transport system, permease component",sys_PMT0691,Medium,other
+mit9313,PMT0694,ggtB,"ABC-type sugar transport system, periplasmic component",sys_PMT0691,Medium,other
+mit9313,PMT1237,,periplasmic binding protein,sys_PMT1237,Medium,other
+mit9313,PMT1337,ycf38,ABC-2 type transporter family protein,sys_PMT1337,Medium,efflux_annotated
+mit9313,PMT1338,ccmA,"ABC-type multidrug transport system, ATPase component",sys_PMT1337,Medium,efflux_annotated
+mit9313,PMT1364,,eamA-like transporter family protein,sys_PMT1364,Medium,DMT/EamA
+mit9313,PMT1486,,"multidrug efflux transporter, MFS family",sys_PMT1486,Medium,efflux_annotated
+mit9313,PMT1576,,"ABC exporter ATP-binding subunit, DevA type",sys_PMT1576,Medium,efflux_annotated
+mit9313,PMT1616,,"RND transporter, hydrophobe/amphiphile efflux-1 family protein",sys_PMT1616,Medium,efflux_annotated
+mit9313,PMT1873,,"multidrug efflux transporter, MFS family",sys_PMT1873,Medium,efflux_annotated
+natl2a,PMN2A_0270,PMN2A_RS04285,permease of the drug/metabolite transporter (DMT) superfamily,sys_PMN2A_0270,Medium,DMT/EamA
+natl2a,PMN2A_0798,PMN2A_RS07185,eamA-like transporter family protein,sys_PMN2A_0798,Medium,DMT/EamA

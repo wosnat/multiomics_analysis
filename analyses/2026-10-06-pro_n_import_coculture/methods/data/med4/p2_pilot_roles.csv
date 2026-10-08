@@ -1,0 +1,28 @@
+locus_tag,in_universe,gene_name,pfam_ids,gene_role,likely_transporter,tcdb_c123_max_score,tcdb_c123_source_agreement
+PMM0370,True,cynA,pfam:PF09084 | pfam:PF13379,substrate_binding,strong,0.6,both_sources|single_source
+PMM0371,True,cynB,pfam:PF00528,permease,strong,0.8,both_sources
+PMM0372,True,cynD,pfam:PF00005,atpase,strong,0.8,both_sources
+PMM0373,False,cynS,pfam:PF02560 | pfam:PF21291,other,,,
+PMM0963,False,ureC,pfam:PF00449 | pfam:PF01979,other,,,
+PMM0964,False,ureB,pfam:PF00699,other,,,
+PMM0965,False,ureA,pfam:PF00547,other,,,
+PMM0966,False,ureD,pfam:PF01774,other,,,
+PMM0967,False,ureE,pfam:PF02814 | pfam:PF05194,other,,,
+PMM0968,False,ureF,pfam:PF01730,other,,,
+PMM0969,False,ureG,pfam:PF02492,other,,,
+PMM0970,True,urtA,pfam:PF13433,substrate_binding,strong,0.6,both_sources
+PMM0971,True,urtB,pfam:PF02653,permease,strong,0.8,both_sources
+PMM0972,True,urtC,pfam:PF02653,permease,strong,0.8,both_sources
+PMM0973,True,urtD,pfam:PF00005 | pfam:PF12399,atpase,strong,0.8,both_sources
+PMM0974,True,urtE,pfam:PF00005,atpase,strong,0.8,both_sources|single_source
+PMM0263,True,amt1,pfam:PF00909,single_carrier,strong,0.8,both_sources
+PMM1049,True,dppA,pfam:PF00496,substrate_binding,strong,0.8,both_sources
+PMM1048,True,dppB,pfam:PF00528 | pfam:PF19300,permease,strong,0.8,both_sources
+PMM0421,True,dppC,pfam:PF00528,permease,strong,0.8,both_sources
+PMM0192,True,ddpD,pfam:PF00005 | pfam:PF08352,atpase,strong,0.8,both_sources
+PMM0710,True,pstS,pfam:PF12849,substrate_binding,strong,0.8,both_sources
+PMM0723,True,pstC,pfam:PF00528,permease,strong,0.8,both_sources
+PMM0724,True,pstA,pfam:PF00528,permease,strong,0.8,both_sources
+PMM0725,True,pstB,pfam:PF00005,atpase,strong,0.8,both_sources
+PMM0913,True,salY,pfam:PF02687 | pfam:PF12704,permease,strong,0.8,both_sources
+PMM0402,True,fadD,pfam:PF00501 | pfam:PF23562,other,tcdb_only,0.0,single_source

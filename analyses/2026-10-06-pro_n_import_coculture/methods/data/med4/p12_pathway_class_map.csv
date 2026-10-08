@@ -1,0 +1,288 @@
+pathway_id,pathway_name,class,rule
+kegg.pathway:ko00010,Glycolysis / Gluconeogenesis,none,unmapped
+kegg.pathway:ko00020,Citrate cycle (TCA cycle),none,unmapped
+kegg.pathway:ko00040,Pentose and glucuronate interconversions,none,unmapped
+kegg.pathway:ko00052,Galactose metabolism,none,unmapped
+kegg.pathway:ko00053,Ascorbate and aldarate metabolism,none,unmapped
+kegg.pathway:ko00061,Fatty acid biosynthesis,none,unmapped
+kegg.pathway:ko00062,Fatty acid elongation,none,unmapped
+kegg.pathway:ko00071,Fatty acid degradation,none,unmapped
+kegg.pathway:ko00073,"Cutin, suberine and wax biosynthesis",none,unmapped
+kegg.pathway:ko00074,Mycolic acid biosynthesis,none,unmapped
+kegg.pathway:ko00120,Primary bile acid biosynthesis,none,unmapped
+kegg.pathway:ko00121,Secondary bile acid biosynthesis,none,unmapped
+kegg.pathway:ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,cofactors/vitamins,id:00130
+kegg.pathway:ko00190,Oxidative phosphorylation,none,unmapped
+kegg.pathway:ko00195,Photosynthesis,none,unmapped
+kegg.pathway:ko00220,Arginine biosynthesis,amino acids,id:00220
+kegg.pathway:ko00230,Purine metabolism,nucleobases/nucleosides,id:00230
+kegg.pathway:ko00232,Caffeine metabolism,none,unmapped
+kegg.pathway:ko00240,Pyrimidine metabolism,nucleobases/nucleosides,id:00240
+kegg.pathway:ko00250,"Alanine, aspartate and glutamate metabolism",amino acids,id:00250
+kegg.pathway:ko00253,Tetracycline biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00254,Aflatoxin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00260,"Glycine, serine and threonine metabolism",amino acids,id:00260
+kegg.pathway:ko00261,Monobactam biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00270,Cysteine and methionine metabolism,amino acids,id:00270
+kegg.pathway:ko00280,"Valine, leucine and isoleucine degradation",amino acids,id:00280
+kegg.pathway:ko00290,"Valine, leucine and isoleucine biosynthesis",amino acids,id:00290
+kegg.pathway:ko00300,Lysine biosynthesis,amino acids,id:00300
+kegg.pathway:ko00310,Lysine degradation,amino acids,id:00310
+kegg.pathway:ko00311,Penicillin and cephalosporin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00330,Arginine and proline metabolism,amino acids,id:00330
+kegg.pathway:ko00331,Clavulanic acid biosynthesis,none,unmapped
+kegg.pathway:ko00332,Carbapenem biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00333,Prodigiosin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00340,Histidine metabolism,amino acids,id:00340
+kegg.pathway:ko00350,Tyrosine metabolism,amino acids,id:00350
+kegg.pathway:ko00360,Phenylalanine metabolism,amino acids,id:00360
+kegg.pathway:ko00362,Benzoate degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00380,Tryptophan metabolism,amino acids,id:00380
+kegg.pathway:ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",amino acids,id:00400
+kegg.pathway:ko00401,Novobiocin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00404,Staurosporine biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00405,Phenazine biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00410,beta-Alanine metabolism,amino acids,id:00410
+kegg.pathway:ko00430,Taurine and hypotaurine metabolism,osmolytes,id:00430
+kegg.pathway:ko00440,Phosphonate and phosphinate metabolism,none,unmapped
+kegg.pathway:ko00450,Selenocompound metabolism,amino acids,id:00450
+kegg.pathway:ko00460,Cyanoamino acid metabolism,none,unmapped
+kegg.pathway:ko00470,D-Amino acid metabolism,amino acids,id:00470
+kegg.pathway:ko00480,Glutathione metabolism,peptides,id:00480
+kegg.pathway:ko00500,Starch and sucrose metabolism,none,unmapped
+kegg.pathway:ko00520,Amino sugar and nucleotide sugar metabolism,none,unmapped
+kegg.pathway:ko00521,Streptomycin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00522,"Biosynthesis of 12-, 14- and 16-membered macrolides",xenobiotic,name:xenobiotic
+kegg.pathway:ko00523,Polyketide sugar unit biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00524,"Neomycin, kanamycin and gentamicin biosynthesis",xenobiotic,name:xenobiotic
+kegg.pathway:ko00525,Acarbose and validamycin biosynthesis,xenobiotic,name:xenobiotic
+kegg.pathway:ko00540,Lipopolysaccharide biosynthesis,none,unmapped
+kegg.pathway:ko00541,Biosynthesis of various nucleotide sugars,none,unmapped
+kegg.pathway:ko00550,Peptidoglycan biosynthesis,none,unmapped
+kegg.pathway:ko00552,Teichoic acid biosynthesis,none,unmapped
+kegg.pathway:ko00561,Glycerolipid metabolism,none,unmapped
+kegg.pathway:ko00562,Inositol phosphate metabolism,none,unmapped
+kegg.pathway:ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,none,unmapped
+kegg.pathway:ko00564,Glycerophospholipid metabolism,none,unmapped
+kegg.pathway:ko00565,Ether lipid metabolism,none,unmapped
+kegg.pathway:ko00566,Sulfoquinovose metabolism,none,unmapped
+kegg.pathway:ko00590,Arachidonic acid metabolism,none,unmapped
+kegg.pathway:ko00600,Sphingolipid metabolism,none,unmapped
+kegg.pathway:ko00620,Pyruvate metabolism,none,unmapped
+kegg.pathway:ko00621,Dioxin degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00622,Xylene degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00625,Chloroalkane and chloroalkene degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00630,Glyoxylate and dicarboxylate metabolism,none,unmapped
+kegg.pathway:ko00640,Propanoate metabolism,none,unmapped
+kegg.pathway:ko00642,Ethylbenzene degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00650,Butanoate metabolism,none,unmapped
+kegg.pathway:ko00660,C5-Branched dibasic acid metabolism,none,unmapped
+kegg.pathway:ko00670,One carbon pool by folate,cofactors/vitamins,id:00670
+kegg.pathway:ko00680,Methane metabolism,none,unmapped
+kegg.pathway:ko00710,Carbon fixation by Calvin cycle,none,unmapped
+kegg.pathway:ko00720,Other carbon fixation pathways,none,unmapped
+kegg.pathway:ko00730,Thiamine metabolism,cofactors/vitamins,id:00730
+kegg.pathway:ko00740,Riboflavin metabolism,cofactors/vitamins,id:00740
+kegg.pathway:ko00750,Vitamin B6 metabolism,cofactors/vitamins,id:00750
+kegg.pathway:ko00760,Nicotinate and nicotinamide metabolism,cofactors/vitamins,id:00760
+kegg.pathway:ko00770,Pantothenate and CoA biosynthesis,cofactors/vitamins,id:00770
+kegg.pathway:ko00780,Biotin metabolism,cofactors/vitamins,id:00780
+kegg.pathway:ko00785,Lipoic acid metabolism,cofactors/vitamins,id:00785
+kegg.pathway:ko00790,Folate biosynthesis,cofactors/vitamins,id:00790
+kegg.pathway:ko00791,Atrazine degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00860,Porphyrin metabolism,cofactors/vitamins,id:00860
+kegg.pathway:ko00900,Terpenoid backbone biosynthesis,none,unmapped
+kegg.pathway:ko00901,Indole alkaloid biosynthesis,none,unmapped
+kegg.pathway:ko00904,Diterpenoid biosynthesis,none,unmapped
+kegg.pathway:ko00907,"Pinene, camphor and geraniol degradation",none,unmapped
+kegg.pathway:ko00908,Zeatin biosynthesis,none,unmapped
+kegg.pathway:ko00910,Nitrogen metabolism,none,unmapped
+kegg.pathway:ko00920,Sulfur metabolism,none,unmapped
+kegg.pathway:ko00940,Phenylpropanoid biosynthesis,none,unmapped
+kegg.pathway:ko00950,Isoquinoline alkaloid biosynthesis,none,unmapped
+kegg.pathway:ko00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",none,unmapped
+kegg.pathway:ko00965,Betalain biosynthesis,none,unmapped
+kegg.pathway:ko00966,Glucosinolate biosynthesis,none,unmapped
+kegg.pathway:ko00970,Aminoacyl-tRNA biosynthesis,none,unmapped
+kegg.pathway:ko00975,Biosynthesis of various siderophores,none,unmapped
+kegg.pathway:ko00980,Metabolism of xenobiotics by cytochrome P450,xenobiotic,name:xenobiotic
+kegg.pathway:ko00982,Drug metabolism - cytochrome P450,xenobiotic,name:xenobiotic
+kegg.pathway:ko00983,Drug metabolism - other enzymes,xenobiotic,name:xenobiotic
+kegg.pathway:ko00984,Steroid degradation,xenobiotic,name:xenobiotic
+kegg.pathway:ko00996,Biosynthesis of various alkaloids,none,unmapped
+kegg.pathway:ko00997,Biosynthesis of various other secondary metabolites,none,unmapped
+kegg.pathway:ko00998,Biosynthesis of various antibiotics,xenobiotic,name:xenobiotic
+kegg.pathway:ko00999,Biosynthesis of various plant secondary metabolites,none,unmapped
+kegg.pathway:ko01051,Biosynthesis of ansamycins,xenobiotic,name:xenobiotic
+kegg.pathway:ko01052,Type I polyketide structures,xenobiotic,name:xenobiotic
+kegg.pathway:ko01053,Biosynthesis of siderophore group nonribosomal peptides,xenobiotic,name:xenobiotic
+kegg.pathway:ko01054,Nonribosomal peptide structures,none,unmapped
+kegg.pathway:ko01055,Biosynthesis of vancomycin group antibiotics,xenobiotic,name:xenobiotic
+kegg.pathway:ko01056,Biosynthesis of type II polyketide backbone,xenobiotic,name:xenobiotic
+kegg.pathway:ko01057,Biosynthesis of type II polyketide products,xenobiotic,name:xenobiotic
+kegg.pathway:ko01059,Biosynthesis of enediyne antibiotics,xenobiotic,name:xenobiotic
+kegg.pathway:ko01100,Metabolic pathways,none,global_map
+kegg.pathway:ko01110,Biosynthesis of secondary metabolites,none,global_map
+kegg.pathway:ko01120,Microbial metabolism in diverse environments,none,global_map
+kegg.pathway:ko01200,Carbon metabolism,none,global_map
+kegg.pathway:ko01210,2-Oxocarboxylic acid metabolism,none,global_map
+kegg.pathway:ko01212,Fatty acid metabolism,none,global_map
+kegg.pathway:ko01220,Degradation of aromatic compounds,none,global_map
+kegg.pathway:ko01230,Biosynthesis of amino acids,amino acids,id:01230
+kegg.pathway:ko01232,Nucleotide metabolism,none,global_map
+kegg.pathway:ko01240,Biosynthesis of cofactors,none,global_map
+kegg.pathway:ko01250,Biosynthesis of nucleotide sugars,none,global_map
+kegg.pathway:ko01310,Nitrogen cycle,none,unmapped
+kegg.pathway:ko01320,Sulfur cycle,none,unmapped
+kegg.pathway:ko01501,beta-Lactam resistance,none,unmapped
+kegg.pathway:ko01502,Vancomycin resistance,xenobiotic,name:xenobiotic
+kegg.pathway:ko01503,Cationic antimicrobial peptide (CAMP) resistance,none,unmapped
+kegg.pathway:ko01522,Endocrine resistance,none,unmapped
+kegg.pathway:ko01523,Antifolate resistance,none,unmapped
+kegg.pathway:ko02010,ABC transporters,none,unmapped
+kegg.pathway:ko02020,Two-component system,none,unmapped
+kegg.pathway:ko02024,Quorum sensing,none,unmapped
+kegg.pathway:ko02025,Biofilm formation - Pseudomonas aeruginosa,none,unmapped
+kegg.pathway:ko02026,Biofilm formation - Escherichia coli,none,unmapped
+kegg.pathway:ko02030,Bacterial chemotaxis,none,unmapped
+kegg.pathway:ko02060,Phosphotransferase system (PTS),none,unmapped
+kegg.pathway:ko03070,Bacterial secretion system,none,unmapped
+kegg.pathway:ko04010,MAPK signaling pathway,none,unmapped
+kegg.pathway:ko04014,Ras signaling pathway,none,unmapped
+kegg.pathway:ko04015,Rap1 signaling pathway,none,unmapped
+kegg.pathway:ko04020,Calcium signaling pathway,none,unmapped
+kegg.pathway:ko04022,cGMP-PKG signaling pathway,none,unmapped
+kegg.pathway:ko04024,cAMP signaling pathway,none,unmapped
+kegg.pathway:ko04062,Chemokine signaling pathway,none,unmapped
+kegg.pathway:ko04066,HIF-1 signaling pathway,none,unmapped
+kegg.pathway:ko04068,FoxO signaling pathway,none,unmapped
+kegg.pathway:ko04071,Sphingolipid signaling pathway,none,unmapped
+kegg.pathway:ko04072,Phospholipase D signaling pathway,none,unmapped
+kegg.pathway:ko04075,Plant hormone signal transduction,none,unmapped
+kegg.pathway:ko04080,Neuroactive ligand-receptor interaction,none,unmapped
+kegg.pathway:ko04081,Hormone signaling,none,unmapped
+kegg.pathway:ko04082,Neuroactive ligand signaling,none,unmapped
+kegg.pathway:ko04111,Cell cycle - yeast,none,unmapped
+kegg.pathway:ko04113,Meiosis - yeast,none,unmapped
+kegg.pathway:ko04114,Oocyte meiosis,none,unmapped
+kegg.pathway:ko04122,Sulfur relay system,none,unmapped
+kegg.pathway:ko04136,Autophagy - other,none,unmapped
+kegg.pathway:ko04137,Mitophagy - animal,none,unmapped
+kegg.pathway:ko04138,Autophagy - yeast,none,unmapped
+kegg.pathway:ko04140,Autophagy - animal,none,unmapped
+kegg.pathway:ko04142,Lysosome biogenesis,none,unmapped
+kegg.pathway:ko04144,Endocytosis,none,unmapped
+kegg.pathway:ko04148,Efferocytosis,none,unmapped
+kegg.pathway:ko04150,mTOR signaling pathway,none,unmapped
+kegg.pathway:ko04152,AMPK signaling pathway,none,unmapped
+kegg.pathway:ko04211,Longevity regulating pathway,none,unmapped
+kegg.pathway:ko04212,Longevity regulating pathway - worm,none,unmapped
+kegg.pathway:ko04213,Longevity regulating pathway - multiple species,none,unmapped
+kegg.pathway:ko04216,Ferroptosis,none,unmapped
+kegg.pathway:ko04217,Necroptosis,none,unmapped
+kegg.pathway:ko04261,Adrenergic signaling in cardiomyocytes,none,unmapped
+kegg.pathway:ko04270,Vascular smooth muscle contraction,none,unmapped
+kegg.pathway:ko04340,Hedgehog signaling pathway,none,unmapped
+kegg.pathway:ko04361,Axon regeneration,none,unmapped
+kegg.pathway:ko04371,Apelin signaling pathway,none,unmapped
+kegg.pathway:ko04382,Cornified envelope formation,none,unmapped
+kegg.pathway:ko04540,Gap junction,none,unmapped
+kegg.pathway:ko04610,Complement and coagulation cascades,none,unmapped
+kegg.pathway:ko04611,Platelet activation,none,unmapped
+kegg.pathway:ko04621,NOD-like receptor signaling pathway,none,unmapped
+kegg.pathway:ko04664,Fc epsilon RI signaling pathway,none,unmapped
+kegg.pathway:ko04666,Fc gamma R-mediated phagosome formation,none,unmapped
+kegg.pathway:ko04670,Leukocyte transendothelial migration,none,unmapped
+kegg.pathway:ko04710,Circadian rhythm,none,unmapped
+kegg.pathway:ko04713,Circadian entrainment,none,unmapped
+kegg.pathway:ko04714,Thermogenesis,none,unmapped
+kegg.pathway:ko04720,Long-term potentiation,none,unmapped
+kegg.pathway:ko04721,Synaptic vesicle cycle,none,unmapped
+kegg.pathway:ko04723,Retrograde endocannabinoid signaling,none,unmapped
+kegg.pathway:ko04724,Glutamatergic synapse,none,unmapped
+kegg.pathway:ko04725,Cholinergic synapse,none,unmapped
+kegg.pathway:ko04726,Serotonergic synapse,none,unmapped
+kegg.pathway:ko04727,GABAergic synapse,none,unmapped
+kegg.pathway:ko04728,Dopaminergic synapse,none,unmapped
+kegg.pathway:ko04730,Long-term depression,none,unmapped
+kegg.pathway:ko04740,Olfactory transduction,none,unmapped
+kegg.pathway:ko04742,Taste transduction,none,unmapped
+kegg.pathway:ko04744,Phototransduction,none,unmapped
+kegg.pathway:ko04750,Inflammatory mediator regulation of TRP channels,none,unmapped
+kegg.pathway:ko04810,Regulation of actin cytoskeleton,none,unmapped
+kegg.pathway:ko04910,Insulin signaling pathway,none,unmapped
+kegg.pathway:ko04911,Insulin secretion,none,unmapped
+kegg.pathway:ko04912,GnRH signaling pathway,none,unmapped
+kegg.pathway:ko04913,Ovarian steroidogenesis,none,unmapped
+kegg.pathway:ko04914,Progesterone-mediated oocyte maturation,none,unmapped
+kegg.pathway:ko04915,Estrogen signaling pathway,none,unmapped
+kegg.pathway:ko04916,Melanogenesis,none,unmapped
+kegg.pathway:ko04917,Prolactin signaling pathway,none,unmapped
+kegg.pathway:ko04918,Thyroid hormone synthesis,none,unmapped
+kegg.pathway:ko04919,Thyroid hormone signaling pathway,none,unmapped
+kegg.pathway:ko04920,Adipocytokine signaling pathway,none,unmapped
+kegg.pathway:ko04921,Oxytocin signaling pathway,none,unmapped
+kegg.pathway:ko04922,Glucagon signaling pathway,none,unmapped
+kegg.pathway:ko04923,Regulation of lipolysis in adipocytes,none,unmapped
+kegg.pathway:ko04924,Renin secretion,none,unmapped
+kegg.pathway:ko04925,Aldosterone synthesis and secretion,none,unmapped
+kegg.pathway:ko04926,Relaxin signaling pathway,none,unmapped
+kegg.pathway:ko04927,Cortisol synthesis and secretion,none,unmapped
+kegg.pathway:ko04928,"Parathyroid hormone synthesis, secretion and action",none,unmapped
+kegg.pathway:ko04929,GnRH secretion,none,unmapped
+kegg.pathway:ko04930,Type II diabetes mellitus,none,unmapped
+kegg.pathway:ko04931,Insulin resistance,none,unmapped
+kegg.pathway:ko04934,Cushing syndrome,none,unmapped
+kegg.pathway:ko04935,"Growth hormone synthesis, secretion and action",none,unmapped
+kegg.pathway:ko04936,Alcoholic liver disease,none,unmapped
+kegg.pathway:ko04960,Aldosterone-regulated sodium reabsorption,none,unmapped
+kegg.pathway:ko04961,Endocrine and other factor-regulated calcium reabsorption,none,unmapped
+kegg.pathway:ko04962,Vasopressin-regulated water reabsorption,none,unmapped
+kegg.pathway:ko04964,Proximal tubule bicarbonate reclamation,none,unmapped
+kegg.pathway:ko04966,Collecting duct acid secretion,none,unmapped
+kegg.pathway:ko04970,Salivary secretion,none,unmapped
+kegg.pathway:ko04971,Gastric acid secretion,none,unmapped
+kegg.pathway:ko04972,Pancreatic secretion,none,unmapped
+kegg.pathway:ko04974,Protein digestion and absorption,none,unmapped
+kegg.pathway:ko04975,Fat digestion and absorption,none,unmapped
+kegg.pathway:ko04976,Bile secretion,none,unmapped
+kegg.pathway:ko04977,Vitamin digestion and absorption,none,unmapped
+kegg.pathway:ko04978,Mineral absorption,none,unmapped
+kegg.pathway:ko04979,Cholesterol metabolism,none,unmapped
+kegg.pathway:ko04980,Cobalamin transport and metabolism,none,unmapped
+kegg.pathway:ko04981,Folate transport and metabolism,none,unmapped
+kegg.pathway:ko05012,Parkinson disease,none,unmapped
+kegg.pathway:ko05014,Amyotrophic lateral sclerosis,none,unmapped
+kegg.pathway:ko05016,Huntington disease,none,unmapped
+kegg.pathway:ko05017,Spinocerebellar ataxia,none,unmapped
+kegg.pathway:ko05020,Prion disease,none,unmapped
+kegg.pathway:ko05022,Pathways of neurodegeneration - multiple diseases,none,unmapped
+kegg.pathway:ko05030,Cocaine addiction,none,unmapped
+kegg.pathway:ko05031,Amphetamine addiction,none,unmapped
+kegg.pathway:ko05032,Morphine addiction,none,unmapped
+kegg.pathway:ko05033,Nicotine addiction,none,unmapped
+kegg.pathway:ko05034,Alcoholism,none,unmapped
+kegg.pathway:ko05110,Vibrio cholerae infection,none,unmapped
+kegg.pathway:ko05111,Biofilm formation - Vibrio cholerae,none,unmapped
+kegg.pathway:ko05120,Epithelial cell signaling in Helicobacter pylori infection,none,unmapped
+kegg.pathway:ko05130,Pathogenic Escherichia coli infection,none,unmapped
+kegg.pathway:ko05131,Shigellosis,none,unmapped
+kegg.pathway:ko05133,Pertussis,none,unmapped
+kegg.pathway:ko05142,Chagas disease,none,unmapped
+kegg.pathway:ko05143,African trypanosomiasis,none,unmapped
+kegg.pathway:ko05146,Amoebiasis,none,unmapped
+kegg.pathway:ko05152,Tuberculosis,none,unmapped
+kegg.pathway:ko05165,Human papillomavirus infection,none,unmapped
+kegg.pathway:ko05166,Human T-cell leukemia virus 1 infection,none,unmapped
+kegg.pathway:ko05167,Kaposi sarcoma-associated herpesvirus infection,none,unmapped
+kegg.pathway:ko05200,Pathways in cancer,none,unmapped
+kegg.pathway:ko05207,Chemical carcinogenesis - receptor activation,none,unmapped
+kegg.pathway:ko05208,Chemical carcinogenesis - reactive oxygen species,none,unmapped
+kegg.pathway:ko05215,Prostate cancer,none,unmapped
+kegg.pathway:ko05230,Central carbon metabolism in cancer,none,unmapped
+kegg.pathway:ko05231,Choline metabolism in cancer,none,unmapped
+kegg.pathway:ko05310,Asthma,none,unmapped
+kegg.pathway:ko05320,Autoimmune thyroid disease,none,unmapped
+kegg.pathway:ko05410,Hypertrophic cardiomyopathy,none,unmapped
+kegg.pathway:ko05414,Dilated cardiomyopathy,none,unmapped
+kegg.pathway:ko05415,Diabetic cardiomyopathy,none,unmapped

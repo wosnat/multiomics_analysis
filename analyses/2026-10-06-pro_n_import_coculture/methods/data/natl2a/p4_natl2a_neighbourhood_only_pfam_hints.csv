@@ -1,0 +1,1248 @@
+pfam_id,pfam_name,hint_role,hint_rule,hint_text
+pfam:PF00308,Bacterial DnaA ATPAse domain,other,no_match,
+pfam:PF08299,Bacterial dnaA protein helix-turn-helix,other,no_match,
+pfam:PF11638,DnaA N-terminal domain,other,no_match,
+pfam:PF01979,Amidohydrolase family,other,no_match,
+pfam:PF11460,Protein of unknown function (DUF3007),other,no_match,
+pfam:PF00290,Tryptophan synthase alpha chain,other,enzyme_guard,synthase
+pfam:PF03795,YCII-related domain,other,no_match,
+pfam:PF30604,PF30604,other,no_match,
+pfam:PF06803,Protein of unknown function (DUF1232),other,no_match,
+pfam:PF00140,"Sigma-70 factor, region 1.2",other,no_match,
+pfam:PF04539,Sigma-70 region 3,other,no_match,
+pfam:PF04542,Sigma-70 region 2,other,no_match,
+pfam:PF04545,"Sigma-70, region 4",other,no_match,
+pfam:PF01502,Phosphoribosyl-AMP cyclohydrolase,other,no_match,
+pfam:PF01503,Phosphoribosyl-ATP pyrophosphohydrolase,other,no_match,
+pfam:PF01242,6-pyruvoyl tetrahydropterin synthase,other,enzyme_guard,synthase
+pfam:PF01208,Uroporphyrinogen decarboxylase (URO-D),other,no_match,
+pfam:PF02806,"Alpha amylase, C-terminal all-beta domain",other,no_match,
+pfam:PF22019,"alpha-1,4-glucan branching enzyme GlgB, N-terminal domain",other,no_match,
+pfam:PF02129,X-Pro dipeptidyl-peptidase (S15 family),other,enzyme_guard,peptidase
+pfam:PF08530,X-Pro dipeptidyl-peptidase C-terminal non-catalytic domain,other,enzyme_guard,peptidase
+pfam:PF30602,PF30602,other,no_match,
+pfam:PF14229,Domain of unknown function (DUF4332),other,no_match,
+pfam:PF10726,Protein of function (DUF2518),other,no_match,
+pfam:PF00171,Aldehyde dehydrogenase family,other,enzyme_guard,dehydrogenase
+pfam:PF02152,Dihydroneopterin aldolase,other,no_match,
+pfam:PF00561,alpha/beta hydrolase fold,other,no_match,
+pfam:PF05057,Putative serine esterase (DUF676),other,no_match,
+pfam:PF12697,Alpha/beta hydrolase family,other,no_match,
+pfam:PF01432,Peptidase family M3,other,enzyme_guard,Peptidase
+pfam:PF19310,"Neurolysin/Thimet oligopeptidase, N-terminal domain",other,enzyme_guard,peptidase
+pfam:PF00288,GHMP kinases N terminal domain,other,enzyme_guard,kinase
+pfam:PF08544,GHMP kinases C terminal,other,enzyme_guard,kinase
+pfam:PF02685,Glucokinase,other,enzyme_guard,kinase
+pfam:PF00587,"tRNA synthetase class II core domain (G, H, P, S and T)",other,enzyme_guard,synthetase
+pfam:PF02824,TGS domain,other,no_match,
+pfam:PF03129,Anticodon binding domain,other,no_match,
+pfam:PF07973,Threonyl and Alanyl tRNA synthetase second additional domain,other,enzyme_guard,synthetase
+pfam:PF00579,tRNA synthetases class I (W and Y),other,enzyme_guard,synthetase
+pfam:PF30607,PF30607,other,no_match,
+pfam:PF05128,Domain of unknown function (DUF697),other,no_match,
+pfam:PF14234,Domain of unknown function (DUF4336),other,no_match,
+pfam:PF05542,Protein of unknown function (DUF760),other,no_match,
+pfam:PF02775,"Thiamine pyrophosphate enzyme, C-terminal TPP binding domain",other,no_match,
+pfam:PF02776,"Thiamine pyrophosphate enzyme, N-terminal TPP binding domain",other,no_match,
+pfam:PF16582,Middle domain of thiamine pyrophosphate,other,no_match,
+pfam:PF00378,Enoyl-CoA hydratase/isomerase,other,no_match,
+pfam:PF08323,Starch synthase catalytic domain,other,enzyme_guard,synthase
+pfam:PF00132,Bacterial transferase hexapeptide (six repeats),other,enzyme_guard,transferase
+pfam:PF00483,Nucleotidyl transferase,other,enzyme_guard,transferase
+pfam:PF12804,MobA-like NTP transferase domain,other,enzyme_guard,transferase
+pfam:PF05430,S-adenosyl-L-methionine-dependent methyltransferase,other,enzyme_guard,transferase
+pfam:PF00275,EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase),other,enzyme_guard,synthase
+pfam:PF01977,3-octaprenyl-4-hydroxybenzoate carboxy-lyase Rift-related domain,other,no_match,
+pfam:PF20695,3-octaprenyl-4-hydroxybenzoate carboxy-lyase N-terminal domain,other,no_match,
+pfam:PF20696,3-octaprenyl-4-hydroxybenzoate carboxy-lyase C-terminal domain,other,no_match,
+pfam:PF04029,2-phosphosulpholactate phosphatase,other,no_match,
+pfam:PF00795,Carbon-nitrogen hydrolase,other,no_match,
+pfam:PF01520,N-acetylmuramoyl-L-alanine amidase,other,no_match,
+pfam:PF11741,AMIN domain,other,no_match,
+pfam:PF01177,Asp/Glu/Hydantoin racemase,other,no_match,
+pfam:PF13419,Haloacid dehalogenase-like hydrolase,other,no_match,
+pfam:PF07082,Protein of unknown function (DUF1350),other,no_match,
+pfam:PF00929,Exonuclease,other,no_match,
+pfam:PF30557,PF30557,other,no_match,
+pfam:PF13393,Histidyl-tRNA synthetase,other,enzyme_guard,synthetase
+pfam:PF00984,"UDP-glucose/GDP-mannose dehydrogenase family, central domain",other,enzyme_guard,dehydrogenase
+pfam:PF03720,"UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF03721,"UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF09493,Tryptophan-rich protein (DUF2389),other,no_match,
+pfam:PF10544,T5orf172 domain,other,no_match,
+pfam:PF13455,Meiotically up-regulated gene 113,other,no_match,
+pfam:PF05834,Lycopene cyclase protein,other,no_match,
+pfam:PF00857,Isochorismatase domain,other,no_match,
+pfam:PF01475,Ferric uptake regulator family,other,no_match,
+pfam:PF04055,Radical SAM superfamily,other,no_match,
+pfam:PF12345,Protein of unknown function (DUF3641),other,no_match,
+pfam:PF13353,4Fe-4S single cluster domain,other,no_match,
+pfam:PF09506,Glucosylglycerol-phosphate phosphatase (Salt_tol_Pase),other,no_match,
+pfam:PF30582,PF30582,other,no_match,
+pfam:PF30583,PF30583,other,no_match,
+pfam:PF01636,Phosphotransferase enzyme family,other,enzyme_guard,transferase
+pfam:PF01053,Cys/Met metabolism PLP-dependent enzyme,other,no_match,
+pfam:PF04204,Homoserine O-succinyltransferase,other,enzyme_guard,transferase
+pfam:PF01565,FAD binding domain,other,no_match,
+pfam:PF01903,CbiX,other,no_match,
+pfam:PF10929,Protein of unknown function (DUF2811),other,no_match,
+pfam:PF00732,GMC oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF05199,GMC oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF00805,Pentapeptide repeats (8 copies),other,no_match,
+pfam:PF07878,"CopG-like RHH_1 or ribbon-helix-helix domain, RHH_5",other,no_match,
+pfam:PF21995,"B12-dependent ribonucleotide reductase, insertion domain",other,enzyme_guard,reductase
+pfam:PF08242,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF13489,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF13649,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF13847,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF00009,Elongation factor Tu GTP binding domain,other,no_match,
+pfam:PF03144,Elongation factor Tu domain 2,other,no_match,
+pfam:PF16658,"Class II release factor RF3, C-terminal domain",other,no_match,
+pfam:PF22042,Elongation factor G domain 2,other,no_match,
+pfam:PF11833,Protein CHAPERONE-LIKE PROTEIN OF POR1-like,other,no_match,
+pfam:PF01430,Hsp33 protein,other,no_match,
+pfam:PF12049,Protein of unknown function (DUF3531),other,no_match,
+pfam:PF04452,RNA methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF20260,RNA methyltransferase PUA domain,other,enzyme_guard,transferase
+pfam:PF01940,Integral membrane protein DUF92,other,no_match,
+pfam:PF13472,GDSL-like Lipase/Acylhydrolase family,other,no_match,
+pfam:PF00155,Aminotransferase class I and II,other,enzyme_guard,transferase
+pfam:PF03167,Uracil DNA glycosylase superfamily,other,no_match,
+pfam:PF04551,GcpE TIM-barrel domain,other,no_match,
+pfam:PF26540,GcpE protein C-terminal domain,other,no_match,
+pfam:PF07566,Domain of Unknown Function (DUF1543),other,no_match,
+pfam:PF02445,Quinolinate synthetase A protein,other,enzyme_guard,synthetase
+pfam:PF00149,Calcineurin-like phosphoesterase,other,no_match,
+pfam:PF12850,Calcineurin-like phosphoesterase superfamily domain,other,no_match,
+pfam:PF04536,TPM domain,other,no_match,
+pfam:PF30510,PF30510,other,no_match,
+pfam:PF02636,Putative S-adenosyl-L-methionine-dependent methyltransferase,other,enzyme_guard,transferase
+pfam:PF01761,3-dehydroquinate synthase N-terminal,other,enzyme_guard,synthase
+pfam:PF24621,3-dehydroquinate synthase C-terminal,other,enzyme_guard,synthase
+pfam:PF02222,ATP-grasp domain,other,no_match,
+pfam:PF17769,Phosphoribosylaminoimidazole carboxylase C-terminal domain,other,no_match,
+pfam:PF22660,Ribonucleotide synthetase preATP-grasp domain,other,enzyme_guard,synthetase
+pfam:PF30620,PF30620,other,no_match,
+pfam:PF30568,PF30568,other,no_match,
+pfam:PF03486,HI0933-like protein Rossmann domain,other,no_match,
+pfam:PF22780,HI0933-like protein barrel and H2TH domain,other,no_match,
+pfam:PF03912,Psb28 protein,other,no_match,
+pfam:PF26341,tRNA 2-selenouridine synthase AAA domain,other,enzyme_guard,synthase
+pfam:PF05419,GUN4-like,other,no_match,
+pfam:PF13581,Histidine kinase-like ATPase domain,other,enzyme_guard,kinase
+pfam:PF20035,Family of unknown function (DUF6439),other,no_match,
+pfam:PF08241,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF00120,"Glutamine synthetase, catalytic domain",other,enzyme_guard,synthetase
+pfam:PF03951,"Glutamine synthetase, beta-Grasp domain",other,enzyme_guard,synthetase
+pfam:PF00266,Aminotransferase class-V,other,enzyme_guard,transferase
+pfam:PF00282,Pyridoxal-dependent decarboxylase conserved domain,other,no_match,
+pfam:PF11347,Protein CHLORORESPIRATORY REDUCTION 42-like,other,no_match,
+pfam:PF00675,Insulinase (Peptidase family M16),other,enzyme_guard,Peptidase
+pfam:PF05193,Peptidase M16 inactive domain,other,enzyme_guard,Peptidase
+pfam:PF30515,PF30515,other,no_match,
+pfam:PF00318,Ribosomal protein S2,other,no_match,
+pfam:PF01427,D-ala-D-ala dipeptidase,other,enzyme_guard,peptidase
+pfam:PF01077,Nitrite and sulphite reductase 4Fe-4S domain,other,enzyme_guard,reductase
+pfam:PF03460,Nitrite/Sulfite reductase ferredoxin-like half domain,other,enzyme_guard,reductase
+pfam:PF02092,Glycyl-tRNA synthetase beta subunit,other,enzyme_guard,synthetase
+pfam:PF05746,DALR anticodon binding domain,other,no_match,
+pfam:PF01494,FAD binding domain,other,no_match,
+pfam:PF02557,D-alanyl-D-alanine carboxypeptidase,other,enzyme_guard,peptidase
+pfam:PF00679,Elongation factor G C-terminus,other,no_match,
+pfam:PF21018,TypA/BipA C-terminal domain,other,no_match,
+pfam:PF03745,Domain of unknown function (DUF309),other,no_match,
+pfam:PF00834,Ribulose-phosphate 3 epimerase family,other,no_match,
+pfam:PF03320,"Bacterial fructose-1,6-bisphosphatase, glpX-encoded",other,no_match,
+pfam:PF00745,"Glutamyl-tRNAGlu reductase, dimerisation domain",other,enzyme_guard,reductase
+pfam:PF01488,Shikimate / quinate 5-dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF05201,"Glutamyl-tRNAGlu reductase, N-terminal domain",other,enzyme_guard,reductase
+pfam:PF25247,GLGC left-handed parallel beta-helix domain,other,no_match,
+pfam:PF00393,"6-phosphogluconate dehydrogenase, C-terminal domain",other,enzyme_guard,dehydrogenase
+pfam:PF03446,NAD binding domain of 6-phosphogluconate dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF01182,Glucosamine-6-phosphate isomerases/6-phosphogluconolactonase,other,no_match,
+pfam:PF08547,Complex I intermediate-associated protein 30 (CIA30),other,no_match,
+pfam:PF30595,PF30595,other,no_match,
+pfam:PF00920,Dihydroxy-acid/6-phosphogluconate dehydratase N-terminal,other,no_match,
+pfam:PF24877,Dihydroxy-acid/6-phosphogluconate dehydratase C-terminal,other,no_match,
+pfam:PF14681,Uracil phosphoribosyltransferase,other,enzyme_guard,transferase
+pfam:PF02700,Phosphoribosylformylglycinamidine (FGAM) synthase,other,enzyme_guard,synthase
+pfam:PF13507,CobB/CobQ-like glutamine amidotransferase domain,other,enzyme_guard,transferase
+pfam:PF00274,Fructose-bisphosphate aldolase class-I,other,no_match,
+pfam:PF01408,"Oxidoreductase family, NAD-binding Rossmann fold",other,enzyme_guard,Oxidoreductase
+pfam:PF02894,"Oxidoreductase family, C-terminal alpha/beta domain",other,enzyme_guard,Oxidoreductase
+pfam:PF30584,PF30584,other,no_match,
+pfam:PF00485,Phosphoribulokinase / Uridine kinase family,other,enzyme_guard,kinase
+pfam:PF00180,Isocitrate/isopropylmalate dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF04613,"UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD",other,enzyme_guard,transferase
+pfam:PF14602,Hexapeptide repeat of succinyl-transferase,other,enzyme_guard,transferase
+pfam:PF25087,GMPPB C-terminal domain,other,no_match,
+pfam:PF00696,Amino acid kinase family,other,enzyme_guard,kinase
+pfam:PF01472,PUA domain,other,no_match,
+pfam:PF06949,Protein of unknown function (DUF1292),other,no_match,
+pfam:PF12527,Protein of unknown function (DUF3727),other,no_match,
+pfam:PF03652,Holliday junction resolvase,other,no_match,
+pfam:PF01996,F420-0:Gamma-glutamyl ligase,other,no_match,
+pfam:PF30560,PF30560,other,no_match,
+pfam:PF12452,Protein of unknown function (DUF3685),other,no_match,
+pfam:PF30550,PF30550,other,no_match,
+pfam:PF00583,Acetyltransferase (GNAT) family,other,enzyme_guard,transferase
+pfam:PF13673,Acetyltransferase (GNAT) domain,other,enzyme_guard,transferase
+pfam:PF18014,Acetyltransferase (GNAT) domain,other,enzyme_guard,transferase
+pfam:PF00633,Helix-hairpin-helix motif,other,no_match,
+pfam:PF00730,HhH-GPD superfamily base excision DNA repair protein,other,no_match,
+pfam:PF10576,Iron-sulfur binding domain of endonuclease III,other,no_match,
+pfam:PF13545,Crp-like helix-turn-helix domain,other,no_match,
+pfam:PF30626,PF30626,other,no_match,
+pfam:PF13911,AhpC/TSA antioxidant enzyme,other,no_match,
+pfam:PF06089,L-asparaginase II,other,no_match,
+pfam:PF06799,Conserved in the green lineage and diatoms 27,other,no_match,
+pfam:PF02410,Ribosomal silencing factor during starvation,other,no_match,
+pfam:PF11780,Protein of unknown function (DUF3318),other,no_match,
+pfam:PF00289,"Biotin carboxylase, N-terminal domain",other,no_match,
+pfam:PF02142,MGS-like domain,other,no_match,
+pfam:PF02786,"Carbamoyl-phosphate synthase L chain, ATP binding domain",other,enzyme_guard,synthase
+pfam:PF02787,"Carbamoyl-phosphate synthetase large chain, oligomerisation domain",other,enzyme_guard,synthetase
+pfam:PF25596,Carbamoyl phosphate synthase preATP-grasp domain,other,enzyme_guard,synthase
+pfam:PF02915,Rubrerythrin,other,no_match,
+pfam:PF14833,NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF30630,PF30630,other,no_match,
+pfam:PF11061,"Cytochrome b6f, subunit Tsr0524-like",other,no_match,
+pfam:PF30581,PF30581,other,no_match,
+pfam:PF16657,"Maltogenic Amylase, C-terminal domain",other,no_match,
+pfam:PF08282,haloacid dehalogenase-like hydrolase,other,no_match,
+pfam:PF30561,PF30561,other,no_match,
+pfam:PF02673,Bacitracin resistance protein BacA,other,no_match,
+pfam:PF07498,"Rho termination factor, N-terminal domain",other,no_match,
+pfam:PF01625,Peptide methionine sulfoxide reductase,other,enzyme_guard,reductase
+pfam:PF11691,Protein of unknown function (DUF3288),other,no_match,
+pfam:PF00591,"Glycosyl transferase family, a/b domain",other,enzyme_guard,transferase
+pfam:PF02885,"Glycosyl transferase family, helical bundle domain",other,enzyme_guard,transferase
+pfam:PF00988,"Carbamoyl-phosphate synthase small chain, CPSase domain",other,enzyme_guard,synthase
+pfam:PF00636,Ribonuclease III domain,other,no_match,
+pfam:PF00588,SpoU rRNA Methylase family,other,no_match,
+pfam:PF08032,RNA 2^-O ribose methyltransferase substrate binding,other,enzyme_guard,transferase
+pfam:PF08846,Domain of unknown function (DUF1816),other,no_match,
+pfam:PF07733,Bacterial DNA polymerase III alpha NTPase domain,other,no_match,
+pfam:PF14579,Helix-hairpin-helix motif,other,no_match,
+pfam:PF17657,Bacterial DNA polymerase III alpha subunit finger domain,other,no_match,
+pfam:PF11947,Photosynthesis affected mutant 68,other,no_match,
+pfam:PF00312,Ribosomal protein S15,other,no_match,
+pfam:PF05433,Glycine zipper 2TM domain,other,no_match,
+pfam:PF01807,CHC2 zinc finger,other,no_match,
+pfam:PF08275,"DNA primase catalytic core, N-terminal domain",other,no_match,
+pfam:PF10410,DnaB-helicase binding domain of primase,other,enzyme_guard,helicase
+pfam:PF13155,Toprim-like,other,no_match,
+pfam:PF13662,Toprim domain,other,no_match,
+pfam:PF30523,PF30523,other,no_match,
+pfam:PF30570,PF30570,other,no_match,
+pfam:PF00817,impB/mucB/samB family,other,no_match,
+pfam:PF11798,IMS family HHH motif,other,no_match,
+pfam:PF11799,impB/mucB/samB family C-terminal domain,other,no_match,
+pfam:PF13438,Domain of unknown function (DUF4113),other,no_match,
+pfam:PF02590,Predicted SPOUT methyltransferase,other,enzyme_guard,transferase
+pfam:PF00398,Ribosomal RNA adenine dimethylase,other,no_match,
+pfam:PF11282,Protein of unknown function (DUF3082),other,no_match,
+pfam:PF02779,"Transketolase, pyrimidine binding domain",other,no_match,
+pfam:PF02780,"Transketolase, C-terminal domain",other,no_match,
+pfam:PF09876,Predicted metal-binding protein (DUF2103),other,no_match,
+pfam:PF03742,PetN,other,no_match,
+pfam:PF01730,UreF,other,no_match,
+pfam:PF11264,Thylakoid formation protein,other,no_match,
+pfam:PF00224,"Pyruvate kinase, barrel domain",other,enzyme_guard,kinase
+pfam:PF02887,"Pyruvate kinase, alpha/beta domain",other,enzyme_guard,kinase
+pfam:PF03819,MazG nucleotide pyrophosphohydrolase domain,other,no_match,
+pfam:PF04079,Segregation and condensation complex subunit ScpB,other,no_match,
+pfam:PF00291,Pyridoxal-phosphate dependent enzyme,other,no_match,
+pfam:PF00585,C-terminal regulatory domain of Threonine dehydratase,other,no_match,
+pfam:PF13292,1-deoxy-D-xylulose-5-phosphate synthase,other,enzyme_guard,synthase
+pfam:PF01241,Photosystem I psaG / psaK,other,no_match,
+pfam:PF12159,Protein of unknown function (DUF3593),other,no_match,
+pfam:PF10693,Protein of unknown function (DUF2499),other,no_match,
+pfam:PF00830,Ribosomal L28 family,other,no_match,
+pfam:PF00459,Inositol monophosphatase family,other,no_match,
+pfam:PF11360,Protein of unknown function (DUF3110),other,no_match,
+pfam:PF01380,SIS domain,other,no_match,
+pfam:PF13580,SIS domain,other,no_match,
+pfam:PF20741,C-terminal lid domain of glucokinase regulatory protein,other,enzyme_guard,kinase
+pfam:PF22645,Glucokinase regulatory protein N-terminal SIS domain,other,enzyme_guard,kinase
+pfam:PF00925,GTP cyclohydrolase II,other,no_match,
+pfam:PF00926,"3,4-dihydroxy-2-butanone 4-phosphate synthase",other,enzyme_guard,synthase
+pfam:PF01118,"Semialdehyde dehydrogenase, NAD binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF02774,"Semialdehyde dehydrogenase, dimerisation domain",other,enzyme_guard,dehydrogenase
+pfam:PF22698,"Semialdehyde dehydrogenase, dimerisation domain",other,enzyme_guard,dehydrogenase
+pfam:PF00551,Formyl transferase,other,enzyme_guard,transferase
+pfam:PF00342,Phosphoglucose isomerase,other,no_match,
+pfam:PF00133,"tRNA synthetases class I (I, L, M and V)",other,enzyme_guard,synthetase
+pfam:PF08264,Anticodon-binding domain of tRNA ligase,other,no_match,
+pfam:PF09334,tRNA synthetases class I (M),other,enzyme_guard,synthetase
+pfam:PF13603,"Leucyl-tRNA synthetase, editing domain",other,enzyme_guard,synthetase
+pfam:PF01678,Diaminopimelate epimerase,other,no_match,
+pfam:PF09353,Domain of unknown function (DUF1995),other,no_match,
+pfam:PF02113,D-Ala-D-Ala carboxypeptidase 3 (S13) family,other,enzyme_guard,peptidase
+pfam:PF01467,Cytidylyltransferase-like,other,enzyme_guard,transferase
+pfam:PF01613,Flavin reductase like domain,other,enzyme_guard,reductase
+pfam:PF01541,GIY-YIG catalytic domain,other,no_match,
+pfam:PF08459,UvrC RNAse H endonuclease domain,other,no_match,
+pfam:PF12826,Helix-hairpin-helix motif,other,no_match,
+pfam:PF22920,UvrC Ribonuclease H-like domain,other,no_match,
+pfam:PF27096,"UvrC/Cho excinuclease, middle domain",other,no_match,
+pfam:PF30054,PF30054,other,no_match,
+pfam:PF03653,Uncharacterised protein family (UPF0093),other,no_match,
+pfam:PF02514,CobN/Magnesium Chelatase,other,no_match,
+pfam:PF01063,Amino-transferase class IV,other,enzyme_guard,transferase
+pfam:PF00809,Pterin binding enzyme,other,no_match,
+pfam:PF02310,B12 binding domain,other,no_match,
+pfam:PF02574,Homocysteine S-methyltransferase,other,enzyme_guard,transferase
+pfam:PF02607,B12 binding domain,other,no_match,
+pfam:PF02965,"Vitamin B12 dependent methionine synthase, activation domain",other,enzyme_guard,synthase
+pfam:PF30606,PF30606,other,no_match,
+pfam:PF09830,ATP adenylyltransferase C-terminal domain,other,enzyme_guard,transferase
+pfam:PF19327,Ap4A phosphorylase N-terminal domain,other,no_match,
+pfam:PF01588,Putative tRNA binding domain,other,no_match,
+pfam:PF03147,Ferredoxin-fold anticodon binding domain,other,no_match,
+pfam:PF03483,B3/4 domain,other,no_match,
+pfam:PF03484,tRNA synthetase B5 domain,other,enzyme_guard,synthetase
+pfam:PF17759,Phenylalanyl tRNA synthetase beta chain CLM domain,other,enzyme_guard,synthetase
+pfam:PF00471,Ribosomal protein L33,other,no_match,
+pfam:PF01084,Ribosomal protein S18,other,no_match,
+pfam:PF00773,RNB domain,other,no_match,
+pfam:PF19303,Anticodon binding domain of methionyl tRNA ligase,other,no_match,
+pfam:PF06835,"Lipopolysaccharide-assembly, LptC-related",other,no_match,
+pfam:PF11152,"Cofactor assembly of complex C subunit B, CCB2/CCB4",other,no_match,
+pfam:PF02283,Cobinamide kinase / cobinamide phosphate guanyltransferase,other,enzyme_guard,kinase
+pfam:PF12766,Pyridoxamine 5^-phosphate oxidase,other,no_match,
+pfam:PF01783,Ribosomal L32p protein family,other,no_match,
+pfam:PF04483,Protein of unknown function (DUF565),other,no_match,
+pfam:PF01368,"DHH family, N-terminal domain",other,no_match,
+pfam:PF02272,DHHA1 domain,other,no_match,
+pfam:PF17768,RecJ OB domain,other,no_match,
+pfam:PF00575,S1 RNA binding domain,other,no_match,
+pfam:PF08206,Ribonuclease B OB domain,other,no_match,
+pfam:PF30520,PF30520,other,no_match,
+pfam:PF02441,Flavoprotein,other,no_match,
+pfam:PF11210,Protein of unknown function (DUF2996),other,no_match,
+pfam:PF01523,PmbA/TldA metallopeptidase domain 1,other,enzyme_guard,peptidase
+pfam:PF19289,PmbA/TldA metallopeptidase C-terminal domain,other,enzyme_guard,peptidase
+pfam:PF19290,PmbA/TldA metallopeptidase central domain,other,enzyme_guard,peptidase
+pfam:PF02911,"Formyl transferase, C-terminal domain",other,enzyme_guard,transferase
+pfam:PF27148,Slr1353 N-terminal dsRNA-binding domain-like,other,no_match,
+pfam:PF14233,Domain of unknown function (DUF4335),other,no_match,
+pfam:PF11237,Protein of unknown function (DUF3038),other,no_match,
+pfam:PF00156,Phosphoribosyl transferase domain,other,enzyme_guard,transferase
+pfam:PF11165,Protein of unknown function (DUF2949),other,no_match,
+pfam:PF13450,NAD(P)-binding Rossmann-like domain,other,no_match,
+pfam:PF30501,PF30501,other,no_match,
+pfam:PF01113,"Dihydrodipicolinate reductase, N-terminus",other,enzyme_guard,reductase
+pfam:PF05173,"Dihydrodipicolinate reductase, C-terminus",other,enzyme_guard,reductase
+pfam:PF11965,Domain of unknown function (DUF3479),other,no_match,
+pfam:PF00121,Triosephosphate isomerase,other,no_match,
+pfam:PF13275,S4 domain,other,no_match,
+pfam:PF20045,Family of unknown function (DUF6447),other,no_match,
+pfam:PF07045,Domain of unknown function (DUF1330),other,no_match,
+pfam:PF05368,NmrA-like family,other,no_match,
+pfam:PF07862,Nif11 domain,other,no_match,
+pfam:PF03575,Peptidase family S51,other,enzyme_guard,Peptidase
+pfam:PF13483,Beta-lactamase superfamily domain,other,no_match,
+pfam:PF30508,PF30508,other,no_match,
+pfam:PF24012,Family of unknown function (DUF7326),other,no_match,
+pfam:PF09903,Uncharacterized protein conserved in bacteria (DUF2130),other,no_match,
+pfam:PF04134,DCC1-like thiol-disulfide oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF13449,Esterase-like activity of phytase,other,no_match,
+pfam:PF22494,Choice-of-anchor I domain,other,no_match,
+pfam:PF12707,Protein of unknown function (DUF3804),other,no_match,
+pfam:PF07864,Protein of unknown function (DUF1651),other,no_match,
+pfam:PF04214,"Protein of unknown function, DUF411",other,no_match,
+pfam:PF12518,Protein of unknown function,other,no_match,
+pfam:PF12705,PD-(D/E)XK nuclease superfamily,other,no_match,
+pfam:PF02586,SOS response associated peptidase (SRAP),other,enzyme_guard,peptidase
+pfam:PF12594,Protein of unknown function (DUF3764),other,no_match,
+pfam:PF30631,PF30631,other,no_match,
+pfam:PF01694,Rhomboid domain,other,no_match,
+pfam:PF30566,PF30566,other,no_match,
+pfam:PF10999,Protein of unknown function (DUF2839),other,no_match,
+pfam:PF00472,RF-1 domain,other,no_match,
+pfam:PF01149,Formamidopyrimidine-DNA glycosylase N-terminal domain,other,no_match,
+pfam:PF06831,Formamidopyrimidine-DNA glycosylase H2TH domain,other,no_match,
+pfam:PF04755,PAP_fibrillin,other,no_match,
+pfam:PF14105,Domain of unknown function (DUF4278),other,no_match,
+pfam:PF11302,Protein of unknown function (DUF3104),other,no_match,
+pfam:PF03992,Antibiotic biosynthesis monooxygenase,other,no_match,
+pfam:PF30588,PF30588,other,no_match,
+pfam:PF00028,Cadherin domain,other,no_match,
+pfam:PF00353,RTX calcium-binding nonapeptide repeat (4 copies),other,no_match,
+pfam:PF13946,Domain of unknown function (DUF4214),other,no_match,
+pfam:PF11746,Domain of unknown function (DUF3303),other,no_match,
+pfam:PF01134,Glucose inhibited division protein A,other,no_match,
+pfam:PF01266,FAD dependent oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF01593,Flavin containing amine oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF20547,Family of unknown function (DUF6761),other,no_match,
+pfam:PF00462,Glutaredoxin,other,no_match,
+pfam:PF01722,BolA-like protein,other,no_match,
+pfam:PF03740,Pyridoxal phosphate biosynthesis protein PdxJ,other,no_match,
+pfam:PF04257,"Exodeoxyribonuclease V, gamma subunit",other,no_match,
+pfam:PF17946,RecC C-terminal domain,other,no_match,
+pfam:PF27451,RecBCD enzyme subunit RecC fourth domain,other,no_match,
+pfam:PF04191,Phospholipid methyltransferase,other,enzyme_guard,transferase
+pfam:PF00580,UvrD/REP helicase N-terminal domain,other,enzyme_guard,helicase
+pfam:PF13361,UvrD-like helicase C-terminal domain,other,enzyme_guard,helicase
+pfam:PF01789,PsbP,other,no_match,
+pfam:PF02132,"RecR, Cys4-zinc finger domain",other,no_match,
+pfam:PF21175,"RecR, C-terminal",other,no_match,
+pfam:PF21176,"RecR, helix-hairpin-helix",other,no_match,
+pfam:PF16881,N-terminal domain of lipoyl synthase of Radical_SAM family,other,enzyme_guard,synthase
+pfam:PF12368,Rhodanase C-terminal,other,no_match,
+pfam:PF17773,UPF0176 acylphosphatase like domain,other,no_match,
+pfam:PF06968,Biotin and Thiamin Synthesis associated domain,other,no_match,
+pfam:PF01255,Putative undecaprenyl diphosphate synthase,other,enzyme_guard,synthase
+pfam:PF02457,DisA bacterial checkpoint controller nucleotide-binding,other,no_match,
+pfam:PF00278,"Pyridoxal-dependent decarboxylase, C-terminal sheet domain",other,no_match,
+pfam:PF02784,"Pyridoxal-dependent decarboxylase, pyridoxal binding domain",other,no_match,
+pfam:PF00465,Iron-containing alcohol dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF11209,LmeA-like phospholipid-binding,other,no_match,
+pfam:PF01276,"Orn/Lys/Arg decarboxylase, major domain",other,no_match,
+pfam:PF03711,"Orn/Lys/Arg decarboxylase, C-terminal domain",other,no_match,
+pfam:PF03109,ABC1 atypical kinase-like domain,other,enzyme_guard,kinase
+pfam:PF13413,Helix-turn-helix domain,other,no_match,
+pfam:PF02446,4-alpha-glucanotransferase,other,enzyme_guard,transferase
+pfam:PF13793,N-terminal domain of ribose phosphate pyrophosphokinase,other,enzyme_guard,kinase
+pfam:PF14572,Phosphoribosyl synthetase-associated domain,other,enzyme_guard,synthetase
+pfam:PF01433,Peptidase family M1 domain,other,enzyme_guard,Peptidase
+pfam:PF11940,Domain of unknown function (DUF3458) Ig-like fold,other,no_match,
+pfam:PF13646,HEAT repeats,other,no_match,
+pfam:PF17432,Domain of unknown function (DUF3458_C) ARM repeats,other,no_match,
+pfam:PF17900,Peptidase M1 N-terminal domain,other,enzyme_guard,Peptidase
+pfam:PF30585,PF30585,other,no_match,
+pfam:PF00175,Oxidoreductase NAD-binding domain,other,enzyme_guard,Oxidoreductase
+pfam:PF00970,Oxidoreductase FAD-binding domain,other,enzyme_guard,Oxidoreductase
+pfam:PF01383,CpcD/allophycocyanin linker domain,other,no_match,
+pfam:PF00479,"Glucose-6-phosphate dehydrogenase, NAD binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF02781,"Glucose-6-phosphate dehydrogenase, C-terminal domain",other,enzyme_guard,dehydrogenase
+pfam:PF01471,Putative peptidoglycan binding domain,other,no_match,
+pfam:PF10128,Glucose-6-phosphate dehydrogenase subunit N-terminal domain,other,enzyme_guard,dehydrogenase
+pfam:PF20171,Glucose-6-phosphate dehydrogenase subunit C-terminal domain,other,enzyme_guard,dehydrogenase
+pfam:PF07685,CobB/CobQ-like glutamine amidotransferase domain,other,enzyme_guard,transferase
+pfam:PF13500,AAA domain,other,no_match,
+pfam:PF00763,"Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain",other,enzyme_guard,dehydrogenase
+pfam:PF02882,"Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF01966,HD domain,other,no_match,
+pfam:PF07697,7TM-HD extracellular,other,no_match,
+pfam:PF07698,7TM receptor with intracellular HD hydrolase,other,no_match,
+pfam:PF00682,HMGL-like,other,no_match,
+pfam:PF08502,LeuA allosteric (dimerisation) domain,other,no_match,
+pfam:PF22617,Homocitrate synthase post-HMGL domain-like,other,enzyme_guard,synthase
+pfam:PF03065,Glycosyl hydrolase family 57,other,no_match,
+pfam:PF09210,"1,4-alpha-glucan branching enzyme, C-terminal",other,no_match,
+pfam:PF00521,"DNA gyrase/topoisomerase IV, subunit A",other,no_match,
+pfam:PF03989,"DNA gyrase C-terminal domain, beta-propeller",other,no_match,
+pfam:PF00478,IMP dehydrogenase / GMP reductase domain,other,enzyme_guard,dehydrogenase
+pfam:PF03602,Conserved hypothetical protein 95,other,no_match,
+pfam:PF02529,Cytochrome B6-F complex subunit 5,other,no_match,
+pfam:PF00034,Cytochrome c,other,no_match,
+pfam:PF30410,PF30410,other,no_match,
+pfam:PF13354,Beta-lactamase enzyme family,other,no_match,
+pfam:PF01078,"Magnesium chelatase, subunit ChlI",other,no_match,
+pfam:PF17863,AAA lid domain,other,no_match,
+pfam:PF02075,Crossover junction endodeoxyribonuclease RuvC,other,no_match,
+pfam:PF01812,5-formyltetrahydrofolate cyclo-ligase family,other,no_match,
+pfam:PF02657,Fe-S metabolism associated domain,other,no_match,
+pfam:PF00742,Homoserine dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF01842,ACT domain,other,no_match,
+pfam:PF03447,"Homoserine dehydrogenase, NAD binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF30593,PF30593,other,no_match,
+pfam:PF07176,Alpha/beta hydrolase of unknown function (DUF1400),other,no_match,
+pfam:PF12146,"Serine aminopeptidase, S33",other,enzyme_guard,peptidase
+pfam:PF12695,Alpha/beta hydrolase family,other,no_match,
+pfam:PF11196,Protein of unknown function DUF2834,other,no_match,
+pfam:PF00294,pfkB family carbohydrate kinase,other,enzyme_guard,kinase
+pfam:PF01187,Macrophage migration inhibitory factor (MIF),other,no_match,
+pfam:PF10985,Protein of unknown function (DUF2805),other,no_match,
+pfam:PF10013,Uncharacterized protein conserved in bacteria (DUF2256),other,no_match,
+pfam:PF03441,FAD binding domain of DNA photolyase,other,no_match,
+pfam:PF04244,Deoxyribodipyrimidine photo-lyase-related protein,other,no_match,
+pfam:PF01841,Transglutaminase-like superfamily,other,no_match,
+pfam:PF02533,Photosystem II 4 kDa reaction centre component,other,no_match,
+pfam:PF08379,Bacterial transglutaminase-like N-terminal region,other,no_match,
+pfam:PF04168,A predicted alpha-helical domain with a conserved ER motif.,other,no_match,
+pfam:PF04174,A circularly permuted ATPgrasp,other,no_match,
+pfam:PF14403,Circularly permuted ATP-grasp type 2,other,no_match,
+pfam:PF00515,Tetratricopeptide repeat,other,no_match,
+pfam:PF07719,Tetratricopeptide repeat,other,no_match,
+pfam:PF13181,Tetratricopeptide repeat,other,no_match,
+pfam:PF13414,TPR repeat,other,no_match,
+pfam:PF13469,Sulfotransferase family,other,enzyme_guard,transferase
+pfam:PF14559,Tetratricopeptide repeat,other,no_match,
+pfam:PF07452,CHRD domain,other,no_match,
+pfam:PF11713,Peptidase C80 family,other,enzyme_guard,Peptidase
+pfam:PF14252,Domain of unknown function (DUF4347),other,no_match,
+pfam:PF06071,Protein of unknown function (DUF933),other,no_match,
+pfam:PF00476,DNA polymerase family A,other,no_match,
+pfam:PF01367,"5^-3^ exonuclease, C-terminal SAM fold",other,no_match,
+pfam:PF01612,3^-5^ exonuclease,other,no_match,
+pfam:PF02739,"5^-3^ exonuclease, N-terminal resolvase-like domain",other,no_match,
+pfam:PF01406,tRNA synthetases class I (C) catalytic domain,other,enzyme_guard,synthetase
+pfam:PF09190,DALR domain,other,no_match,
+pfam:PF02670,1-deoxy-D-xylulose 5-phosphate reductoisomerase,other,no_match,
+pfam:PF08436,1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal domain,other,no_match,
+pfam:PF13288,DXP reductoisomerase C-terminal domain,other,no_match,
+pfam:PF30619,PF30619,other,no_match,
+pfam:PF01176,Translation initiation factor 1A / IF-1,other,no_match,
+pfam:PF30608,PF30608,other,no_match,
+pfam:PF08041,PetM family of cytochrome b6f complex subunit 7,other,no_match,
+pfam:PF10369,Small subunit of acetolactate synthase,other,enzyme_guard,synthase
+pfam:PF13710,ACT domain,other,no_match,
+pfam:PF22629,AHAS small subunit-like ACT domain,other,no_match,
+pfam:PF02392,Ycf4,other,no_match,
+pfam:PF02545,Maf-like protein,other,no_match,
+pfam:PF28240,Npun_F0494-like,other,no_match,
+pfam:PF02091,Glycyl-tRNA synthetase alpha subunit,other,enzyme_guard,synthetase
+pfam:PF20522,Domain of unknown function (DUF6737),other,no_match,
+pfam:PF04151,Bacterial pre-peptidase C-terminal domain,other,enzyme_guard,peptidase
+pfam:PF06439,"3-keto-alpha-glucoside-1,2-lyase-like domain",other,no_match,
+pfam:PF12920,TcdA/TcdB pore forming domain,other,no_match,
+pfam:PF10184,Uncharacterized conserved protein (DUF2358),other,no_match,
+pfam:PF12680,SnoaL-like domain,other,no_match,
+pfam:PF30576,PF30576,other,no_match,
+pfam:PF13374,Tetratricopeptide repeat,other,no_match,
+pfam:PF13424,Tetratricopeptide repeat,other,no_match,
+pfam:PF13432,Tetratricopeptide repeat,other,no_match,
+pfam:PF00258,Flavodoxin,other,no_match,
+pfam:PF07736,Chorismate mutase type I,other,no_match,
+pfam:PF10989,Protein of unknown function (DUF2808),other,no_match,
+pfam:PF00468,Ribosomal protein L34,other,no_match,
+pfam:PF00825,Ribonuclease P,other,no_match,
+pfam:PF03703,Bacterial PH domain,other,no_match,
+pfam:PF02403,Seryl-tRNA synthetase N-terminal domain,other,enzyme_guard,synthetase
+pfam:PF00253,Ribosomal protein S14p/S29e,other,no_match,
+pfam:PF00013,KH domain,other,no_match,
+pfam:PF01138,"3^ exoribonuclease family, domain 1",other,no_match,
+pfam:PF03725,"3^ exoribonuclease family, domain 2",other,no_match,
+pfam:PF03726,"Polyribonucleotide nucleotidyltransferase, RNA binding domain",other,enzyme_guard,transferase
+pfam:PF00590,Tetrapyrrole (Corrin/Porphyrin) Methylases,other,no_match,
+pfam:PF30517,PF30517,other,no_match,
+pfam:PF04230,Polysaccharide pyruvyl transferase,other,enzyme_guard,transferase
+pfam:PF13844,Glycosyl transferase family 41,other,enzyme_guard,transferase
+pfam:PF01041,DegT/DnrJ/EryC1/StrS aminotransferase family,other,enzyme_guard,transferase
+pfam:PF01726,LexA DNA binding domain,other,no_match,
+pfam:PF00185,"Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain",other,enzyme_guard,transferase
+pfam:PF02729,"Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain",other,enzyme_guard,transferase
+pfam:PF01872,RibD C-terminal domain,other,no_match,
+pfam:PF11320,Protein of unknown function (DUF3122),other,no_match,
+pfam:PF30628,PF30628,other,no_match,
+pfam:PF02390,Putative methyltransferase,other,enzyme_guard,transferase
+pfam:PF05175,Methyltransferase small domain,other,enzyme_guard,transferase
+pfam:PF12847,Methyltransferase domain,other,enzyme_guard,transferase
+pfam:PF30636,PF30636,other,no_match,
+pfam:PF01513,ATP-NAD kinase N-terminal domain,other,enzyme_guard,kinase
+pfam:PF20143,ATP-NAD kinase C-terminal domain,other,enzyme_guard,kinase
+pfam:PF01409,tRNA synthetases class II core domain (F),other,enzyme_guard,synthetase
+pfam:PF02912,"Aminoacyl tRNA synthetase class II, N-terminal domain",other,enzyme_guard,synthetase
+pfam:PF01975,Survival protein SurE,other,no_match,
+pfam:PF01687,Riboflavin kinase,other,enzyme_guard,kinase
+pfam:PF06574,FAD synthetase,other,enzyme_guard,synthetase
+pfam:PF02581,Thiamine monophosphate synthase,other,enzyme_guard,synthase
+pfam:PF17792,ThiD2 family,other,no_match,
+pfam:PF02597,ThiS family,other,no_match,
+pfam:PF07466,Protein of unknown function (DUF1517),other,no_match,
+pfam:PF00731,AIR carboxylase,other,no_match,
+pfam:PF30415,PF30415,other,no_match,
+pfam:PF01746,tRNA (Guanine-1)-methyltransferase TrmD,other,enzyme_guard,transferase
+pfam:PF02542,YgbB family,other,no_match,
+pfam:PF27721,Uncharacterised conserved protein UCP020893,other,no_match,
+pfam:PF00886,Ribosomal protein S16,other,no_match,
+pfam:PF13355,"ARC6-like, IMS domain",other,no_match,
+pfam:PF23468,Plastid division regulator alpha solenoid domain,other,no_match,
+pfam:PF25515,Plastid division regulator ARM repeat,other,no_match,
+pfam:PF00676,Dehydrogenase E1 component,other,enzyme_guard,Dehydrogenase
+pfam:PF01256,NAD(P)H-hydrate dehydratase,other,no_match,
+pfam:PF03853,YjeF-related protein N-terminus,other,no_match,
+pfam:PF03054,tRNA methyl transferase HUP domain,other,enzyme_guard,transferase
+pfam:PF20258,Aminomethyltransferase beta-barrel domain,other,enzyme_guard,transferase
+pfam:PF20259,tRNA methyl transferase PRC-barrel domain,other,enzyme_guard,transferase
+pfam:PF09055,Nickel-containing superoxide dismutase,other,no_match,
+pfam:PF00218,Indole-3-glycerol phosphate synthase,other,enzyme_guard,synthase
+pfam:PF22435,MRM3-like substrate binding domain,substrate_binding,substrate_binding,substrate binding
+pfam:PF27239,"Dihydrofolate synthetase, C-terminal domain",other,enzyme_guard,synthetase
+pfam:PF07969,Amidohydrolase family,other,no_match,
+pfam:PF7969,PF7969,other,no_match,
+pfam:PF00919,Uncharacterized protein family UPF0004,other,no_match,
+pfam:PF01938,TRAM domain,other,no_match,
+pfam:PF01820,D-ala D-ala ligase N-terminus,other,no_match,
+pfam:PF07478,D-ala D-ala ligase C-terminus,other,no_match,
+pfam:PF30521,PF30521,other,no_match,
+pfam:PF08478,"POTRA domain, FtsQ-type",other,no_match,
+pfam:PF00091,"Tubulin/FtsZ family, GTPase domain",other,no_match,
+pfam:PF12327,"FtsZ family, C-terminal domain",other,no_match,
+pfam:PF02548,Ketopantoate hydroxymethyltransferase,other,enzyme_guard,transferase
+pfam:PF06969,HemN C-terminal domain,other,no_match,
+pfam:PF13638,PIN domain,other,no_match,
+pfam:PF27675,YCF81 N-terminal domain,other,no_match,
+pfam:PF01450,"Ketol-acid reductoisomerase, C-terminal domain",other,no_match,
+pfam:PF07991,"Acetohydroxy acid isomeroreductase, NADPH-binding domain",other,enzyme_guard,reductase
+pfam:PF00216,Bacterial DNA-binding protein,other,no_match,
+pfam:PF11317,Protein of unknown function (DUF3119),other,no_match,
+pfam:PF11285,Protein of unknown function (DUF3086),other,no_match,
+pfam:PF00215,Orotidine 5^-phosphate decarboxylase / HUMPS family,other,no_match,
+pfam:PF08855,Domain of unknown function (DUF1825),other,no_match,
+pfam:PF00883,"Cytosol aminopeptidase family, catalytic domain",other,enzyme_guard,peptidase
+pfam:PF02789,"Cytosol aminopeptidase family, N-terminal domain",other,enzyme_guard,peptidase
+pfam:PF02684,Lipid-A-disaccharide synthetase,other,enzyme_guard,synthetase
+pfam:PF13720,Udp N-acetylglucosamine O-acyltransferase; Domain 2,other,enzyme_guard,transferase
+pfam:PF07977,FabA-like domain,other,no_match,
+pfam:PF03331,UDP-3-O-acyl N-acetylglycosamine deacetylase,other,no_match,
+pfam:PF01259,SAICAR synthetase,other,enzyme_guard,synthetase
+pfam:PF01071,"Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain",other,enzyme_guard,synthetase
+pfam:PF02843,"Phosphoribosylglycinamide synthetase, C domain",other,enzyme_guard,synthetase
+pfam:PF02844,"Phosphoribosylglycinamide synthetase, N domain",other,enzyme_guard,synthetase
+pfam:PF06745,KaiC,other,no_match,
+pfam:PF00829,Ribosomal prokaryotic L21 protein,other,no_match,
+pfam:PF01016,Ribosomal L27 protein,other,no_match,
+pfam:PF01509,TruB family pseudouridylate synthase (N terminal domain),other,enzyme_guard,synthase
+pfam:PF09142,"tRNA Pseudouridine synthase II, C terminal",other,enzyme_guard,synthase
+pfam:PF09157,"Pseudouridine synthase II TruB, C-terminal",other,enzyme_guard,synthase
+pfam:PF16198,tRNA pseudouridylate synthase B C-terminal domain,other,enzyme_guard,synthase
+pfam:PF08486,Stage II sporulation protein,other,no_match,
+pfam:PF12706,Beta-lactamase superfamily domain,other,no_match,
+pfam:PF23023,Anti-Pycsar protein Apyc1,other,no_match,
+pfam:PF13599,Pentapeptide repeat region,other,no_match,
+pfam:PF30565,PF30565,other,no_match,
+pfam:PF06325,Ribosomal protein L11 methyltransferase (PrmA),other,enzyme_guard,transferase
+pfam:PF00389,"D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain",other,enzyme_guard,dehydrogenase
+pfam:PF02826,"D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF19304,D-3-phosphoglycerate dehydrogenase intervening domain,other,enzyme_guard,dehydrogenase
+pfam:PF21278,"YlmH, N-terminal",other,no_match,
+pfam:PF00211,Adenylate and Guanylate cyclase catalytic domain,other,no_match,
+pfam:PF30589,PF30589,other,no_match,
+pfam:PF02566,OsmC-like protein,other,no_match,
+pfam:PF30617,PF30617,other,no_match,
+pfam:PF11866,Protein of unknown function (DUF3386),other,no_match,
+pfam:PF31213,PF31213,other,no_match,
+pfam:PF05656,Protein of unknown function (DUF805),other,no_match,
+pfam:PF14063,Protein of unknown function (DUF4254),other,no_match,
+pfam:PF19662,Family of unknown function (DUF6165),other,no_match,
+pfam:PF04972,BON domain,other,no_match,
+pfam:PF05899,EutQ-like cupin domain,other,no_match,
+pfam:PF01878,EVE domain,other,no_match,
+pfam:PF08848,Domain of unknown function (DUF1818),other,no_match,
+pfam:PF01192,RNA polymerase Rpb6,other,no_match,
+pfam:PF01663,Type I phosphodiesterase / nucleotide pyrophosphatase,other,no_match,
+pfam:PF01676,Metalloenzyme superfamily,other,no_match,
+pfam:PF06415,BPG-independent PGAM N-terminus (iPGM_N),other,no_match,
+pfam:PF00166,Chaperonin 10 Kd subunit,other,no_match,
+pfam:PF04839,Plastid and cyanobacterial ribosomal protein (PSRP-3 / Ycf65),other,no_match,
+pfam:PF00557,Metallopeptidase family M24,other,enzyme_guard,peptidase
+pfam:PF05195,"Aminopeptidase P, N-terminal domain",other,enzyme_guard,peptidase
+pfam:PF02540,NAD synthase,other,enzyme_guard,synthase
+pfam:PF11805,Protein of unknown function (DUF3326),other,no_match,
+pfam:PF30531,PF30531,other,no_match,
+pfam:PF05140,ResB-like family,other,no_match,
+pfam:PF14489,QueF-like protein,other,no_match,
+pfam:PF30632,PF30632,other,no_match,
+pfam:PF00543,Nitrogen regulatory protein P-II,other,no_match,
+pfam:PF00206,Lyase,other,no_match,
+pfam:PF10397,Adenylosuccinate lyase C-terminus,other,no_match,
+pfam:PF10415,Fumarase C C-terminus,other,no_match,
+pfam:PF08148,DSHCT (NUC185) domain,other,no_match,
+pfam:PF30547,PF30547,other,no_match,
+pfam:PF02527,rRNA small subunit methyltransferase G,other,enzyme_guard,transferase
+pfam:PF06868,Protein of unknown function (DUF1257),other,no_match,
+pfam:PF11211,Protein of unknown function (DUF2997),other,no_match,
+pfam:PF03130,PBS lyase HEAT-like repeat,other,no_match,
+pfam:PF13394,PF13394,other,no_match,
+pfam:PF21016,Ribosomal RNA large subunit methyltransferase N-terminal domain,other,enzyme_guard,transferase
+pfam:PF04983,"RNA polymerase Rpb1, domain 3",other,no_match,
+pfam:PF04998,"RNA polymerase Rpb1, domain 5",other,no_match,
+pfam:PF05000,"RNA polymerase Rpb1, domain 4",other,no_match,
+pfam:PF00623,"RNA polymerase Rpb1, domain 2",other,no_match,
+pfam:PF04997,"RNA polymerase Rpb1, domain 1",other,no_match,
+pfam:PF00562,"RNA polymerase Rpb2, domain 6",other,no_match,
+pfam:PF04560,"RNA polymerase Rpb2, domain 7",other,no_match,
+pfam:PF04561,"RNA polymerase Rpb2, domain 2",other,no_match,
+pfam:PF04563,RNA polymerase beta subunit,other,no_match,
+pfam:PF04565,"RNA polymerase Rpb2, domain 3",other,no_match,
+pfam:PF10385,RNA polymerase beta subunit external 1 domain,other,no_match,
+pfam:PF01649,Ribosomal protein S20,other,no_match,
+pfam:PF00815,Histidinol dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF06026,Ribose 5-phosphate isomerase A (phosphoriboisomerase A),other,no_match,
+pfam:PF02576,RimP N-terminal domain,other,no_match,
+pfam:PF08529,NusA N-terminal domain,other,no_match,
+pfam:PF13184,NusA-like first KH domain,other,no_match,
+pfam:PF26594,NusA-like second KH domain,other,no_match,
+pfam:PF04296,Protein of unknown function (DUF448),other,no_match,
+pfam:PF04760,"Translation initiation factor IF-2, N-terminal region",other,no_match,
+pfam:PF11987,Translation-initiation factor 2,other,no_match,
+pfam:PF11998,Low psii accumulation1 / Rep27,other,no_match,
+pfam:PF01227,GTP cyclohydrolase I,other,no_match,
+pfam:PF01744,GLTT repeat (6 copies),other,no_match,
+pfam:PF30574,PF30574,other,no_match,
+pfam:PF02814,"UreE urease accessory protein, N-terminal domain",other,no_match,
+pfam:PF05194,"UreE urease accessory protein, C-terminal domain",other,no_match,
+pfam:PF01774,UreD urease accessory protein,other,no_match,
+pfam:PF00547,"Urease, gamma subunit",other,no_match,
+pfam:PF00699,Urease beta subunit,other,no_match,
+pfam:PF00449,"Urease alpha-subunit, N-terminal domain",other,no_match,
+pfam:PF08865,Domain of unknown function (DUF1830),other,no_match,
+pfam:PF01165,Ribosomal protein S21,other,no_match,
+pfam:PF05145,Transition state regulatory protein AbrB,other,no_match,
+pfam:PF30622,PF30622,other,no_match,
+pfam:PF02617,ATP-dependent Clp protease adaptor protein ClpS,other,enzyme_guard,protease
+pfam:PF10150,Ribonuclease E/G family,other,no_match,
+pfam:PF01351,Ribonuclease HII,other,no_match,
+pfam:PF09366,Protein of unknown function (DUF1997),other,no_match,
+pfam:PF00800,Prephenate dehydratase,other,no_match,
+pfam:PF00338,Ribosomal protein S10p/S20e,other,no_match,
+pfam:PF03143,Elongation factor Tu C-terminal domain,other,no_match,
+pfam:PF03764,"Elongation factor G, domain IV",other,no_match,
+pfam:PF14492,"Elongation Factor G, domain III",other,no_match,
+pfam:PF00177,Ribosomal protein S7p/S5e,other,no_match,
+pfam:PF00164,Ribosomal protein S12/S23,other,no_match,
+pfam:PF00310,Glutamine amidotransferases class-II,other,enzyme_guard,transferase
+pfam:PF01493,GXGXG motif,other,no_match,
+pfam:PF01645,Conserved region in glutamate synthase,other,enzyme_guard,synthase
+pfam:PF04898,Glutamate synthase central domain,other,enzyme_guard,synthase
+pfam:PF01890,Cobalamin synthesis G C-terminus,other,no_match,
+pfam:PF11760,Cobalamin synthesis G N-terminal,other,no_match,
+pfam:PF11761,Cobalamin biosynthesis central region,other,no_match,
+pfam:PF00796,Photosystem I reaction centre subunit VIII,other,no_match,
+pfam:PF00877,NlpC/P60 family,other,no_match,
+pfam:PF08239,Bacterial SH3 domain,other,no_match,
+pfam:PF05036,SPOR domain,other,no_match,
+pfam:PF13759,Putative 2OG-Fe(II) oxygenase,other,no_match,
+pfam:PF00572,Ribosomal protein L13,other,no_match,
+pfam:PF01416,tRNA pseudouridine synthase,other,enzyme_guard,synthase
+pfam:PF01196,Ribosomal protein L17,other,no_match,
+pfam:PF01000,RNA polymerase Rpb3/RpoA insert domain,other,no_match,
+pfam:PF01193,RNA polymerase Rpb3/Rpb11 dimerisation domain,other,no_match,
+pfam:PF03118,"Bacterial RNA polymerase, alpha chain C terminal domain",other,no_match,
+pfam:PF00411,Ribosomal protein S11,other,no_match,
+pfam:PF00416,Ribosomal protein S13/S18,other,no_match,
+pfam:PF00444,Ribosomal protein L36,other,no_match,
+pfam:PF00406,Adenylate kinase,other,enzyme_guard,kinase
+pfam:PF00828,"Ribosomal proteins 50S-L15, 50S-L18e, 60S-L27A",other,no_match,
+pfam:PF29471,PF29471,other,no_match,
+pfam:PF00333,"Ribosomal protein S5, N-terminal domain",other,no_match,
+pfam:PF03719,"Ribosomal protein S5, C-terminal domain",other,no_match,
+pfam:PF00861,"Ribosomal L18 of archaea, bacteria, mitoch. and chloroplast",other,no_match,
+pfam:PF00347,Ribosomal protein L6,other,no_match,
+pfam:PF00410,Ribosomal protein S8,other,no_match,
+pfam:PF00281,Ribosomal protein L5,other,no_match,
+pfam:PF00673,ribosomal L5P family C-terminus,other,no_match,
+pfam:PF00467,KOW motif,other,no_match,
+pfam:PF17136,"Large ribosomal subunit protein uL24, C-terminal domain",other,no_match,
+pfam:PF00238,Ribosomal protein L14p/L23e,other,no_match,
+pfam:PF00252,Ribosomal protein L16p/L10e,other,no_match,
+pfam:PF00189,"Ribosomal protein S3, C-terminal domain",other,no_match,
+pfam:PF00237,Ribosomal protein L22p/L17e,other,no_match,
+pfam:PF00203,Ribosomal protein S19,other,no_match,
+pfam:PF00181,"Ribosomal Proteins L2, RNA binding N-terminal domain",other,no_match,
+pfam:PF03947,"Ribosomal Proteins L2, C-terminal domain",other,no_match,
+pfam:PF00276,Ribosomal protein L23,other,no_match,
+pfam:PF00573,Ribosomal protein L4/L1 family,other,no_match,
+pfam:PF00297,Ribosomal protein L3,other,no_match,
+pfam:PF12617,Light dependent period A C-terminal domain,other,no_match,
+pfam:PF12837,4Fe-4S binding domain,other,no_match,
+pfam:PF25160,LdpA Fe-S cluster-binding domain,other,no_match,
+pfam:PF00154,RecA N-terminal domain,other,no_match,
+pfam:PF21096,RecA C-terminal domain,other,no_match,
+pfam:PF13307,Helicase C-terminal domain,other,enzyme_guard,Helicase
+pfam:PF02153,"Prephenate dehydrogenase, nucleotide-binding domain",other,enzyme_guard,dehydrogenase
+pfam:PF20463,"Prephenate dehydrogenase, dimerization domain",other,enzyme_guard,dehydrogenase
+pfam:PF03881,Fructosamine kinase,other,enzyme_guard,kinase
+pfam:PF14464,Prokaryotic homologs of the JAB domain,other,no_match,
+pfam:PF02572,ATP:corrinoid adenosyltransferase BtuR/CobO/CobP,other,enzyme_guard,transferase
+pfam:PF00733,Asparagine synthase,other,enzyme_guard,synthase
+pfam:PF02463,RecF/RecN/SMC N terminal domain,other,no_match,
+pfam:PF00311,Phosphoenolpyruvate carboxylase,other,no_match,
+pfam:PF04107,Glutamate-cysteine ligase family 2(GCS2),other,no_match,
+pfam:PF00425,chorismate binding enzyme,other,no_match,
+pfam:PF04715,"Anthranilate synthase component I, N terminal region",other,enzyme_guard,synthase
+pfam:PF30559,PF30559,other,no_match,
+pfam:PF01218,Coproporphyrinogen III oxidase,other,no_match,
+pfam:PF12046,Cofactor assembly of complex C subunit B,other,no_match,
+pfam:PF30594,PF30594,other,no_match,
+pfam:PF30572,PF30572,other,no_match,
+pfam:PF30591,PF30591,other,no_match,
+pfam:PF30592,PF30592,other,no_match,
+pfam:PF00586,"AIR synthase related protein, N-terminal domain",other,enzyme_guard,synthase
+pfam:PF02769,"AIR synthase related protein, C-terminal domain",other,enzyme_guard,synthase
+pfam:PF02224,Cytidylate kinase,other,enzyme_guard,kinase
+pfam:PF02569,Pantoate-beta-alanine ligase,other,no_match,
+pfam:PF01451,Low molecular weight phosphotyrosine protein phosphatase,other,no_match,
+pfam:PF07005,Sugar-binding N-terminal domain,other,no_match,
+pfam:PF17042,Nucleotide-binding C-terminal domain,other,no_match,
+pfam:PF01070,FMN-dependent dehydrogenase,other,enzyme_guard,dehydrogenase
+pfam:PF01263,Aldose 1-epimerase,other,no_match,
+pfam:PF00343,Carbohydrate phosphorylase,other,no_match,
+pfam:PF11897,Protein of unknown function (DUF3417),other,no_match,
+pfam:PF30599,PF30599,other,no_match,
+pfam:PF30614,PF30614,other,no_match,
+pfam:PF00035,Double-stranded RNA binding motif,other,no_match,
+pfam:PF14622,Ribonuclease-III-like,other,no_match,
+pfam:PF01782,RimM N-terminal domain,other,no_match,
+pfam:PF05239,PRC-barrel domain,other,no_match,
+pfam:PF24986,RimM PRC barrel domain,other,no_match,
+pfam:PF01050,Mannose-6-phosphate isomerase C-terminal,other,no_match,
+pfam:PF22640,MannoseP isomerase/GMP-like beta-helix domain,other,no_match,
+pfam:PF13522,Glutamine amidotransferase domain,other,enzyme_guard,transferase
+pfam:PF13537,Glutamine amidotransferase domain,other,enzyme_guard,transferase
+pfam:PF00109,"Beta-ketoacyl synthase, N-terminal domain",other,enzyme_guard,synthase
+pfam:PF02801,"Beta-ketoacyl synthase, C-terminal domain",other,enzyme_guard,synthase
+pfam:PF00456,"Transketolase, thiamine diphosphate binding domain",other,no_match,
+pfam:PF22613,Transketolase-like TK C-terminal domain,other,no_match,
+pfam:PF01964,Radical SAM ThiC family,other,no_match,
+pfam:PF11384,Protein of unknown function (DUF3188),other,no_match,
+pfam:PF01546,Peptidase family M20/M25/M40,other,enzyme_guard,Peptidase
+pfam:PF07687,Peptidase dimerisation domain,other,enzyme_guard,Peptidase
+pfam:PF13174,Tetratricopeptide repeat,other,no_match,
+pfam:PF01668,SmpB protein,other,no_match,
+pfam:PF30596,PF30596,other,no_match,
+pfam:PF02367,Threonylcarbamoyl adenosine biosynthesis protein TsaE,other,no_match,
+pfam:PF14815,NUDIX domain,other,no_match,
+pfam:PF00255,Glutathione peroxidase,other,no_match,
+pfam:PF00204,DNA gyrase B,other,no_match,
+pfam:PF00986,"DNA gyrase B subunit, carboxyl terminus",other,no_match,
+pfam:PF14890,Intein splicing domain,other,no_match,
+pfam:PF01715,IPP transferase,other,enzyme_guard,transferase
+pfam:PF00707,"Translation initiation factor IF-3, C-terminal domain",other,no_match,
+pfam:PF05198,"Translation initiation factor IF-3, N-terminal domain",other,no_match,
+pfam:PF00392,"Bacterial regulatory proteins, gntR family",other,no_match,
+pfam:PF30524,PF30524,other,no_match,
+pfam:PF06426,"Serine acetyltransferase, N-terminal",other,enzyme_guard,transferase
+pfam:PF00041,Fibronectin type III domain,other,no_match,
+pfam:PF00188,Cysteine-rich secretory protein family,other,no_match,
+pfam:PF07501,G5 domain,other,no_match,
+pfam:PF07833,Copper amine oxidase N-terminal domain,other,no_match,
+pfam:PF13583,Metallo-peptidase family M12B Reprolysin-like,other,enzyme_guard,peptidase
+pfam:PF00639,PPIC-type PPIASE domain,other,no_match,
+pfam:PF13508,Acetyltransferase (GNAT) domain,other,enzyme_guard,transferase
+pfam:PF13431,Tetratricopeptide repeat,other,no_match,
+pfam:PF04321,RmlD substrate binding domain,substrate_binding,substrate_binding,substrate binding
+pfam:PF00908,"dTDP-4-dehydrorhamnose 3,5-epimerase",other,no_match,
+pfam:PF00885,"6,7-dimethyl-8-ribityllumazine synthase",other,enzyme_guard,synthase
+pfam:PF01737,YCF9,other,no_match,
+pfam:PF00488,MutS domain V,other,no_match,
+pfam:PF01624,MutS domain I,other,no_match,
+pfam:PF05188,MutS domain II,other,no_match,
+pfam:PF05190,MutS family domain IV,other,no_match,
+pfam:PF05192,MutS domain III,other,no_match,
+pfam:PF02570,Precorrin-8X methylmutase,other,no_match,
+pfam:PF06144,"DNA polymerase III, delta subunit",other,no_match,
+pfam:PF21694,"DNA polymerase III delta subunit, C-terminal domain",other,no_match,
+pfam:PF13840,ACT domain,other,no_match,
+pfam:PF22468,ACT domain,other,no_match,
+pfam:PF04481,Protein of unknown function (DUF561),other,no_match,
+pfam:PF01171,PP-loop domain,other,no_match,
+pfam:PF09179,TilS substrate binding domain,substrate_binding,substrate_binding,substrate binding
+pfam:PF00753,Metallo-beta-lactamase superfamily,other,no_match,
+pfam:PF07521,Zn-dependent metallo-hydrolase RNA specificity domain,other,no_match,
+pfam:PF17770,Ribonuclease J C-terminal domain,other,no_match,
+pfam:PF22505,"Ribonuclease J, beta-CASP domain",other,no_match,
+pfam:PF00701,Dihydrodipicolinate synthetase family,other,enzyme_guard,synthetase
+pfam:PF05697,Bacterial trigger factor protein (TF),other,no_match,
+pfam:PF05698,Bacterial trigger factor protein (TF) C-terminus,other,no_match,
+pfam:PF06689,ClpX C4-type zinc finger,other,no_match,
+pfam:PF12169,DNA polymerase III subunits gamma and tau domain III,other,no_match,
+pfam:PF13177,"DNA polymerase III, delta subunit",other,no_match,
+pfam:PF22608,"DNA polymerase III clamp loader subunit, ATPase lid domain",other,no_match,
+pfam:PF23007,"STICHEL, DnaA_N-like alpha-beta domain",other,no_match,
+pfam:PF30488,PF30488,other,no_match,
+pfam:PF01632,Ribosomal protein L35,other,no_match,
+pfam:PF00453,Ribosomal protein L20,other,no_match,
+pfam:PF13176,Tetratricopeptide repeat,other,no_match,
+pfam:PF05690,Thiazole biosynthesis protein ThiG,other,no_match,
+pfam:PF02347,Glycine cleavage system P-protein,other,no_match,
+pfam:PF21478,"Glycine dehydrogenase, C-terminal domain",other,enzyme_guard,dehydrogenase
+pfam:PF01597,Glycine cleavage H-protein,other,no_match,
+pfam:PF30577,PF30577,other,no_match,
+pfam:PF30578,PF30578,other,no_match,
+pfam:PF01281,"Ribosomal protein L9, N-terminal domain",other,no_match,
+pfam:PF03948,"Ribosomal protein L9, C-terminal domain",other,no_match,
+pfam:PF00772,DnaB-like helicase N terminal domain,other,enzyme_guard,helicase
+pfam:PF03796,DnaB-like helicase C terminal domain,other,enzyme_guard,helicase
+pfam:PF14528,LAGLIDADG-like domain,other,no_match,
+pfam:PF13932,tRNA modifying enzyme MnmG/GidA C-terminal helical bundle,other,no_match,
+pfam:PF21680,tRNA modifying enzyme MnmG/GidA C-terminal helical domain,other,no_match,
+pfam:PF01947,Chorismate pyruvate-lyase Rv2949c-like,other,no_match,
+pfam:PF10263,SprT-like family,other,no_match,
+pfam:PF17283,SprT-like zinc ribbon domain,other,no_match,
+pfam:PF00533,BRCA1 C Terminus (BRCT) domain,other,no_match,
+pfam:PF01653,NAD-dependent DNA ligase adenylation domain,other,no_match,
+pfam:PF03119,NAD-dependent DNA ligase C4 zinc finger domain,other,no_match,
+pfam:PF03120,NAD-dependent DNA ligase OB-fold domain,other,no_match,
+pfam:PF22745,"DNA ligase-like, N-terminal NAD+-binding domain",other,no_match,
+pfam:PF10458,Valyl tRNA synthetase tRNA binding arm,other,enzyme_guard,synthetase
+pfam:PF00491,Arginase family,other,no_match,
+pfam:PF01571,GCVT N-terminal domain,other,no_match,
+pfam:PF08669,Glycine cleavage T-protein C-terminal barrel domain,other,no_match,
+pfam:PF06508,Queuosine biosynthesis protein QueC,other,no_match,
+pfam:PF02503,Polyphosphate kinase middle domain,other,enzyme_guard,kinase
+pfam:PF13089,Polyphosphate kinase N-terminal domain,other,enzyme_guard,kinase
+pfam:PF13090,Polyphosphate kinase C-terminal domain 2,other,enzyme_guard,kinase
+pfam:PF17941,Polyphosphate kinase C-terminal domain 1,other,enzyme_guard,kinase
+pfam:PF00793,DAHP synthetase I family,other,enzyme_guard,synthetase
+pfam:PF00330,Aconitase family (aconitate hydratase),other,no_match,
+pfam:PF06434,Aconitate hydratase 2 N-terminus,other,no_match,
+pfam:PF11791,Aconitate B N-terminal domain,other,no_match,
+pfam:PF04932,O-Antigen ligase,other,no_match,
+pfam:PF13425,O-antigen ligase like membrane protein,other,no_match,
+pfam:PF08501,Shikimate dehydrogenase substrate binding domain,other,enzyme_guard,dehydrogenase
+pfam:PF18317,Shikimate 5^-dehydrogenase C-terminal domain,other,enzyme_guard,dehydrogenase
+pfam:PF16166,Chloroplast import apparatus Tic20-like,other,no_match,
+pfam:PF01250,Ribosomal protein S6,other,no_match,
+pfam:PF00764,Arginosuccinate synthase N-terminal HUP domain,other,enzyme_guard,synthase
+pfam:PF20979,Arginosuccinate synthase C-terminal domain,other,enzyme_guard,synthase
+pfam:PF11332,Protein of unknown function (DUF3134),other,no_match,
+pfam:PF00862,Sucrose synthase first GT-B domain,other,enzyme_guard,synthase
+pfam:PF05116,Sucrose-6F-phosphate phosphohydrolase,other,no_match,
+pfam:PF30507,PF30507,other,no_match,
+pfam:PF00712,"DNA polymerase III beta subunit, N-terminal domain",other,no_match,
+pfam:PF02767,"DNA polymerase III beta subunit, central domain",other,no_match,
+pfam:PF02768,"DNA polymerase III beta subunit, C-terminal domain",other,no_match,
+pfam:PF18072,Formylglycinamide ribonucleotide amidotransferase linker domain,other,enzyme_guard,transferase
+pfam:PF08331,"Epoxyqueuosine reductase QueG, DUF1730",other,enzyme_guard,reductase
+pfam:PF13484,4Fe-4S double cluster binding domain,other,no_match,
+pfam:PF01029,NusB family,other,no_match,
+pfam:PF07228,Stage II sporulation protein E (SpoIIE),other,no_match,
+pfam:PF14698,Argininosuccinate lyase C-terminal,other,no_match,
+pfam:PF01207,Dihydrouridine synthase (Dus),other,enzyme_guard,synthase
+pfam:PF01641,SelR domain,other,no_match,
+pfam:PF01025,GrpE,other,no_match,
+pfam:PF01206,Sulfurtransferase TusA,other,enzyme_guard,transferase
+pfam:PF03193,RsgA GTPase,other,no_match,
+pfam:PF02575,YbaB/EbfC DNA-binding family,other,no_match,
+pfam:PF02873,"UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain",other,enzyme_guard,reductase
+pfam:PF21329,"Peptidyl-prolyl cis-trans isomerase CYP38-like, PsbQ-like domain",other,no_match,
+pfam:PF01132,Elongation factor P (EF-P) OB domain,other,no_match,
+pfam:PF08207,Elongation factor P (EF-P) KOW-like domain,other,no_match,
+pfam:PF09285,"Elongation factor P, C-terminal",other,no_match,
+pfam:PF04166,Pyridoxal phosphate biosynthetic protein PdxA,other,no_match,
+pfam:PF01844,HNH endonuclease,other,no_match,
+pfam:PF14279,HNH endonuclease,other,no_match,
+pfam:PF20191,Family of unknown function (DUF6554),other,no_match,
+pfam:PF01888,CbiD,other,no_match,
+pfam:PF29030,PF29030,other,no_match,
+pfam:PF00958,GMP synthase C terminal domain,other,enzyme_guard,synthase
+pfam:PF29386,PF29386,other,no_match,
+pfam:PF30618,PF30618,other,no_match,
+pfam:PF03358,NADPH-dependent FMN reductase,other,enzyme_guard,reductase
+pfam:PF19583,ODP family beta lactamase,other,no_match,
+pfam:PF01411,tRNA synthetases class II (A),other,enzyme_guard,synthetase
+pfam:PF17810,Arginine decarboxylase helical bundle domain,other,no_match,
+pfam:PF17944,Arginine decarboxylase C-terminal helical extension,other,no_match,
+pfam:PF00334,Nucleoside diphosphate kinase,other,enzyme_guard,kinase
+pfam:PF02637,GatB domain,other,no_match,
+pfam:PF02934,GatB/GatE catalytic domain,other,no_match,
+pfam:PF30571,PF30571,other,no_match,
+pfam:PF09996,Uncharacterized protein conserved in bacteria (DUF2237),other,no_match,
+pfam:PF16258,Domain of unknown function (DUF4912),other,no_match,
+pfam:PF01170,"RMKL-like, methyltransferase domain",other,enzyme_guard,transferase
+pfam:PF02926,THUMP domain,other,no_match,
+pfam:PF22020,RlmL ferredoxin-like domain,other,no_match,
+pfam:PF05957,DUF883 N-terminal domain,other,no_match,
+pfam:PF13298,DNA Ligase D 3^-phosphoesterase domain,other,no_match,
+pfam:PF06470,SMC proteins Flexible Hinge Domain,other,no_match,
+pfam:PF02785,Biotin carboxylase C-terminal domain,other,no_match,
+pfam:PF06596,Photosystem II reaction centre X protein (PsbX),other,no_match,
+pfam:PF07444,Ycf66 protein N-terminus,other,no_match,
+pfam:PF01230,HIT domain,other,no_match,
+pfam:PF01327,Polypeptide deformylase,other,no_match,
+pfam:PF00326,Prolyl oligopeptidase family,other,enzyme_guard,peptidase
+pfam:PF07676,WD40-like Beta Propeller Repeat,other,no_match,
+pfam:PF01458,"SUF system FeS cluster assembly, SufBD core domain",other,no_match,
+pfam:PF19295,SufBD protein N-terminal region,other,no_match,
+pfam:PF30503,PF30503,other,no_match,
+pfam:PF30623,PF30623,other,no_match,
+pfam:PF00408,"Phosphoglucomutase/phosphomannomutase, C-terminal domain",other,no_match,
+pfam:PF02878,"Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain I",other,no_match,
+pfam:PF02879,"Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain II",other,no_match,
+pfam:PF02880,"Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain III",other,no_match,
+pfam:PF24947,"Phosphoglucomutase-1, C-terminal domain",other,no_match,
+pfam:PF03309,Type III pantothenate kinase,other,enzyme_guard,kinase
+pfam:PF01507,Phosphoadenosine phosphosulfate reductase domain,other,enzyme_guard,reductase
+pfam:PF03702,Anhydro-N-acetylmuramic acid kinase,other,enzyme_guard,kinase
+pfam:PF30633,PF30633,other,no_match,
+pfam:PF30603,PF30603,other,no_match,
+pfam:PF11189,Protein of unknown function (DUF2973),other,no_match,
+pfam:PF30601,PF30601,other,no_match,
+pfam:PF02601,"Exonuclease VII, large subunit",other,no_match,
+pfam:PF13742,OB-fold nucleic acid binding domain,other,no_match,
+pfam:PF02609,Exonuclease VII small subunit,other,no_match,
+pfam:PF04459,Protein of unknown function (DUF512),other,no_match,
+pfam:PF19238,Radical SAM-like domain,other,no_match,
+pfam:PF11318,Protein of unknown function (DUF3120),other,no_match,
+pfam:PF14251,PterinBD-DUF4346,other,no_match,
+pfam:PF04339,Peptidogalycan biosysnthesis/recognition,other,no_match,
+pfam:PF01202,Shikimate kinase,other,enzyme_guard,kinase
+pfam:PF20670,Domain of unknown function (DUF6816),other,no_match,
+pfam:PF05421,Protein of unknown function (DUF751),other,no_match,
+pfam:PF02033,Ribosome-binding factor A,other,no_match,
+pfam:PF00933,Glycosyl hydrolase family 3 N terminal domain,other,no_match,
+pfam:PF18034,Bacterial Glycosyl hydrolase family 3 C-terminal domain,other,no_match,
+pfam:PF02602,Uroporphyrinogen-III synthase HemD,other,enzyme_guard,synthase
+pfam:PF03364,Polyketide cyclase / dehydrase and lipid transport,other,no_match,
+pfam:PF01521,Iron-sulphur cluster biosynthesis,other,no_match,
+pfam:PF13428,Tetratricopeptide repeat,other,no_match,
+pfam:PF08338,Domain of unknown function (DUF1731),other,no_match,
+pfam:PF26132,UPF0367 protein family,other,no_match,
+pfam:PF30512,PF30512,other,no_match,
+pfam:PF02223,Thymidylate kinase,other,enzyme_guard,kinase
+pfam:PF13481,AAA domain,other,no_match,
+pfam:PF13541,Subunit ChlI of Mg-chelatase,other,no_match,
+pfam:PF18073,Rubredoxin metal binding domain,other,no_match,
+pfam:PF02504,Fatty acid synthesis protein,other,no_match,
+pfam:PF08541,3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal,other,enzyme_guard,synthase
+pfam:PF08545,3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III,other,enzyme_guard,synthase
+pfam:PF00698,Acyl transferase domain,other,enzyme_guard,transferase
+pfam:PF00814,tRNA N6-adenosine threonylcarbamoyltransferase,other,enzyme_guard,transferase
+pfam:PF10718,Hypothetical chloroplast protein Ycf34,other,no_match,
+pfam:PF01743,Poly A polymerase head domain,other,no_match,
+pfam:PF12627,Probable RNA and SrmB- binding site of polymerase A,other,no_match,
+pfam:PF13735,tRNA nucleotidyltransferase domain 2 putative,other,enzyme_guard,transferase
+pfam:PF00494,Squalene/phytoene synthase,other,enzyme_guard,synthase
+pfam:PF11371,Protein of unknown function (DUF3172),other,no_match,
+pfam:PF00126,"Bacterial regulatory helix-turn-helix protein, lysR family",other,no_match,
+pfam:PF03466,LysR substrate binding domain,substrate_binding,substrate_binding,substrate binding
+pfam:PF07298,NnrU protein,other,no_match,
+pfam:PF02616,Segregation and condensation protein ScpA,other,no_match,
+pfam:PF01928,CYTH domain,other,no_match,
+pfam:PF00285,"Citrate synthase, C-terminal domain",other,enzyme_guard,synthase
+pfam:PF11832,Protein of unknown function (DUF3352),other,no_match,
+pfam:PF01253,Translation initiation factor SUI1,other,no_match,
+pfam:PF01583,Adenylylsulphate kinase,other,enzyme_guard,kinase
+pfam:PF01209,ubiE/COQ5 methyltransferase family,other,enzyme_guard,transferase
+pfam:PF07109,Magnesium-protoporphyrin IX methyltransferase C-terminus,other,enzyme_guard,transferase
+pfam:PF03061,Thioesterase superfamily,other,no_match,
+pfam:PF13279,Thioesterase-like superfamily,other,no_match,
+pfam:PF01188,PF01188,other,no_match,
+pfam:PF13378,Enolase C-terminal domain-like,other,no_match,
+pfam:PF30495,PF30495,other,no_match,
+pfam:PF02951,"Prokaryotic glutathione synthetase, N-terminal domain",other,enzyme_guard,synthetase
+pfam:PF02955,"Prokaryotic glutathione synthetase, ATP-grasp domain",other,enzyme_guard,synthetase
+pfam:PF03462,PCRF domain,other,no_match,
+pfam:PF11688,Protein of unknown function (DUF3285),other,no_match,
+pfam:PF02130,Endoribonuclease YbeY,other,no_match,
+pfam:PF01219,Prokaryotic diacylglycerol kinase,other,enzyme_guard,kinase
+pfam:PF00750,"tRNA synthetases class I (R), catalytic domain",other,enzyme_guard,synthetase
+pfam:PF03485,Arginyl tRNA synthetase N terminal domain,other,enzyme_guard,synthetase
+pfam:PF01729,"Quinolinate phosphoribosyl transferase, C-terminal domain",other,enzyme_guard,transferase
+pfam:PF02749,"Quinolinate phosphoribosyl transferase, N-terminal domain",other,enzyme_guard,transferase
+pfam:PF09835,Uncharacterized protein conserved in bacteria (DUF2062),other,no_match,
+pfam:PF04607,Region found in RelA / SpoT proteins,other,no_match,
+pfam:PF13291,ACT domain,other,no_match,
+pfam:PF13328,HD domain,other,no_match,
+pfam:PF19296,RelA/SpoT AH domain,other,no_match,
+pfam:PF28438,RelA/SpoT RIS domain,other,no_match,
+pfam:PF00849,RNA pseudouridylate synthase,other,enzyme_guard,synthase
+pfam:PF00162,Phosphoglycerate kinase,other,enzyme_guard,kinase
+pfam:PF30546,PF30546,other,no_match,
+pfam:PF03033,Glycosyltransferase family 28 N-terminal domain,other,enzyme_guard,transferase
+pfam:PF04101,Glycosyltransferase family 28 C-terminal domain,other,enzyme_guard,transferase
+pfam:PF00075,RNase H,other,no_match,
+pfam:PF00542,Ribosomal protein L7/L12 C-terminal domain,other,no_match,
+pfam:PF16320,Ribosomal protein L7/L12 dimerisation domain,other,no_match,
+pfam:PF00466,Ribosomal protein L10,other,no_match,
+pfam:PF00298,"Ribosomal protein L11, RNA binding domain",other,no_match,
+pfam:PF03946,"Ribosomal protein L11, N-terminal domain",other,no_match,
+pfam:PF02357,Transcription termination factor nusG,other,no_match,
+pfam:PF00113,"Enolase, C-terminal TIM barrel domain",other,no_match,
+pfam:PF03952,"Enolase, N-terminal domain",other,no_match,
+pfam:PF30499,PF30499,other,no_match,
+pfam:PF13738,Pyridine nucleotide-disulphide oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF00490,Delta-aminolevulinic acid dehydratase,other,no_match,
+pfam:PF00903,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,other,no_match,
+pfam:PF01713,Smr domain,other,no_match,
+pfam:PF20297,MutS2 and Smr-associated SH3 domain,other,no_match,
+pfam:PF02672,CP12 domain,other,no_match,
+pfam:PF10063,Uncharacterized integral membrane protein (DUF2301),other,no_match,
+pfam:PF04952,AstE/AspA barrel-sandwich hybrid domain,other,no_match,
+pfam:PF24827,Succinylglutamate desuccinylase/Aspartoacylase catalytic domain,other,no_match,
+pfam:PF01264,Chorismate synthase,other,enzyme_guard,synthase
+pfam:PF01081,KDPG and KHG aldolase,other,no_match,
+pfam:PF01747,ATP-sulfurylase,other,no_match,
+pfam:PF14306,PUA-like domain,other,no_match,
+pfam:PF04127,DNA/pantothenate metabolism flavoprotein C-terminal domain,other,no_match,
+pfam:PF02245,Methylpurine-DNA glycosylase (MPG),other,no_match,
+pfam:PF02686,Glu-tRNAGln amidotransferase C subunit,other,enzyme_guard,transferase
+pfam:PF06827,Zinc finger found in FPG and IleRS,other,no_match,
+pfam:PF11375,Protein of unknown function (DUF3177),other,no_match,
+pfam:PF02511,Thymidylate synthase complementing protein,other,enzyme_guard,synthase
+pfam:PF00692,dUTPase,other,no_match,
+pfam:PF22769,dCTP deaminase-like,other,no_match,
+pfam:PF11283,Protein of unknown function (DUF3084),other,no_match,
+pfam:PF11344,Protein of unknown function (DUF3146),other,no_match,
+pfam:PF01195,Peptidyl-tRNA hydrolase,other,no_match,
+pfam:PF02532,Photosystem II reaction centre I protein (PSII 4.8 kDa protein),other,no_match,
+pfam:PF12600,Protein of unknown function (DUF3769),other,no_match,
+pfam:PF00694,Aconitase C-terminal domain,other,no_match,
+pfam:PF00994,Probable molybdopterin binding domain,other,no_match,
+pfam:PF02464,Competence-damaged protein,other,no_match,
+pfam:PF18146,Damage-inducible protein CinA KH domain,other,no_match,
+pfam:PF00464,Serine hydroxymethyltransferase,other,enzyme_guard,transferase
+pfam:PF11378,Protein of unknown function (DUF3181),other,no_match,
+pfam:PF03749,Sugar fermentation stimulation protein RE domain,other,no_match,
+pfam:PF17746,SfsA N-terminal OB domain,other,no_match,
+pfam:PF02401,LytB protein,other,no_match,
+pfam:PF01808,AICARFT/IMPCHase bienzyme,other,no_match,
+pfam:PF02230,Phospholipase/Carboxylesterase,other,no_match,
+pfam:PF11352,Protein of unknown function (DUF3155),other,no_match,
+pfam:PF02654,Cobalamin-5-phosphate synthase,other,enzyme_guard,synthase
+pfam:PF01702,Queuine tRNA-ribosyltransferase,other,enzyme_guard,transferase
+pfam:PF22725,GFO/IDH/MocA C-terminal domain,other,no_match,
+pfam:PF01930,Domain of unknown function DUF83,other,no_match,
+pfam:PF13482,RNase_H superfamily,other,no_match,
+pfam:PF01725,Ham1 family,other,no_match,
+pfam:PF03055,Retinal pigment epithelial membrane protein,other,no_match,
+pfam:PF00475,Imidazoleglycerol-phosphate dehydratase,other,no_match,
+pfam:PF00875,DNA photolyase,other,no_match,
+pfam:PF00293,NUDIX domain,other,no_match,
+pfam:PF01288,"7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK)",other,enzyme_guard,kinase
+pfam:PF13519,von Willebrand factor type A domain,other,no_match,
+pfam:PF26791,AAPxQ domain,other,no_match,
+pfam:PF01933,2-phospho-L-lactate transferase CofD,other,enzyme_guard,transferase
+pfam:PF14870,Photosynthesis system II assembly factor YCF48,other,no_match,
+pfam:PF02419,PsbL protein,other,no_match,
+pfam:PF01788,PsbJ,other,no_match,
+pfam:PF01048,Phosphorylase superfamily,other,no_match,
+pfam:PF21196,PcrA/UvrD tudor domain,other,no_match,
+pfam:PF30563,PF30563,other,no_match,
+pfam:PF06206,CpeT/CpcT family (DUF1001),other,no_match,
+pfam:PF09367,CpeS-like protein,other,no_match,
+pfam:PF00427,Phycobilisome Linker polypeptide,other,no_match,
+pfam:PF30627,PF30627,other,no_match,
+pfam:PF10615,Domain of unknown function (DUF2470),other,no_match,
+pfam:PF00370,"FGGY family of carbohydrate kinases, N-terminal domain",other,enzyme_guard,kinase
+pfam:PF02782,"FGGY family of carbohydrate kinases, C-terminal domain",other,enzyme_guard,kinase
+pfam:PF00438,"S-adenosylmethionine synthetase, N-terminal domain",other,enzyme_guard,synthetase
+pfam:PF02772,"S-adenosylmethionine synthetase, central domain",other,enzyme_guard,synthetase
+pfam:PF02773,"S-adenosylmethionine synthetase, C-terminal domain",other,enzyme_guard,synthetase
+pfam:PF03477,ATP cone domain,other,no_match,
+pfam:PF22811,"Transcriptional repressor NrdR-like, N-terminal domain",other,no_match,
+pfam:PF01405,Photosystem II reaction centre T protein,other,no_match,
+pfam:PF05151,Photosystem II reaction centre M protein (PsbM),other,no_match,
+pfam:PF13659,PF13659,other,no_match,
+pfam:PF01300,Telomere recombination,other,no_match,
+pfam:PF03776,Septum formation topological specificity factor MinE,other,no_match,
+pfam:PF03775,"Septum formation inhibitor MinC, C-terminal domain",other,no_match,
+pfam:PF19276,HD associated region,other,no_match,
+pfam:PF12899,Alkaline and neutral invertase,other,no_match,
+pfam:PF01476,LysM domain,other,no_match,
+pfam:PF30590,PF30590,other,no_match,
+pfam:PF01220,Dehydroquinase class II,other,no_match,
+pfam:PF06175,tRNA-(MS[2]IO[6]A)-hydroxylase (MiaE),other,no_match,
+pfam:PF14714,"KH-domain-like of EngA bacterial GTPase enzymes, C-terminal",other,no_match,
+pfam:PF12058,PII-interacting protein X,other,no_match,
+pfam:PF01168,"Alanine racemase, N-terminal domain",other,no_match,
+pfam:PF04472,Cell division protein SepF,other,no_match,
+pfam:PF03807,NADP oxidoreductase coenzyme F420-dependent,other,enzyme_guard,oxidoreductase
+pfam:PF14748,Pyrroline-5-carboxylate reductase dimerisation,other,enzyme_guard,reductase
+pfam:PF02565,Recombination protein O C terminal,other,no_match,
+pfam:PF11967,Recombination protein O N terminal,other,no_match,
+pfam:PF01791,DeoC/LacD family aldolase,other,no_match,
+pfam:PF02482,Sigma 54 modulation protein / S30EA ribosomal protein,other,no_match,
+pfam:PF16321,Sigma 54 modulation/S30EA ribosomal protein C terminus,other,no_match,
+pfam:PF03099,Biotin/lipoate A/B protein ligase family,other,no_match,
+pfam:PF21948,Lipoyl protein ligase A/B catalytic domain,other,no_match,
+pfam:PF11068,YlqD protein,other,no_match,
+pfam:PF00198,2-oxoacid dehydrogenases acyltransferase (catalytic domain),other,enzyme_guard,dehydrogenase
+pfam:PF02817,e3 binding domain,other,no_match,
+pfam:PF02547,Queuosine biosynthesis protein,other,no_match,
+pfam:PF30496,PF30496,other,no_match,
+pfam:PF00163,Ribosomal protein S4/S9 N-terminal domain,other,no_match,
+pfam:PF01809,Putative membrane protein insertion efficiency factor,other,no_match,
+pfam:PF05768,Glutaredoxin-like domain (DUF836),other,no_match,
+pfam:PF02468,Photosystem II reaction centre N protein (psbN),other,no_match,
+pfam:PF01106,NifU-like domain,other,no_match,
+pfam:PF06039,Malate:quinone oxidoreductase (Mqo),other,enzyme_guard,oxidoreductase
+pfam:PF06421,GTP-binding protein LepA C-terminus,other,no_match,
+pfam:PF12105,"SpoU, rRNA methylase, C-terminal",other,no_match,
+pfam:PF01189,16S rRNA methyltransferase RsmB/F,other,enzyme_guard,transferase
+pfam:PF17125,N-terminal domain of 16S rRNA methyltransferase RsmF,other,enzyme_guard,transferase
+pfam:PF22458,"Methyltr_RsmF/B-like, ferredoxin-like domain",other,no_match,
+pfam:PF05258,"Dna[CI] antecedent, DciA",other,no_match,
+pfam:PF30548,PF30548,other,no_match,
+pfam:PF02237,Biotin protein ligase C terminal domain,other,no_match,
+pfam:PF09991,Predicted membrane protein (DUF2232),other,no_match,
+pfam:PF02277,Phosphoribosyltransferase,other,enzyme_guard,transferase
+pfam:PF00677,Lumazine binding domain,other,no_match,
+pfam:PF14250,AbrB-like transcriptional regulator,other,no_match,
+pfam:PF02016,LD-carboxypeptidase N-terminal domain,other,enzyme_guard,peptidase
+pfam:PF17676,LD-carboxypeptidase C-terminal domain,other,enzyme_guard,peptidase
+pfam:PF02541,Ppx/GppA phosphatase family,other,no_match,
+pfam:PF21447,"Ppx/GppA phosphatase, domain III",other,no_match,
+pfam:PF13464,RodZ C-terminal domain,other,no_match,
+pfam:PF11267,Domain of unknown function (DUF3067),other,no_match,
+pfam:PF30587,PF30587,other,no_match,
+pfam:PF05670,NFACT protein RNA binding domain,other,no_match,
+pfam:PF05833,NFACT N-terminal and middle domains,other,no_match,
+pfam:PF01701,Photosystem I reaction centre subunit IX / PsaJ,other,no_match,
+pfam:PF07799,Protein of unknown function (DUF1643),other,no_match,
+pfam:PF00749,"tRNA synthetases class I (E and Q), catalytic domain",other,enzyme_guard,synthetase
+pfam:PF19269,Anticodon binding domain,other,no_match,
+pfam:PF00018,SH3 domain,other,no_match,
+pfam:PF01245,Ribosomal protein L19,other,no_match,
+pfam:PF07085,DRTGG domain,other,no_match,
+pfam:PF02481,DNA recombination-mediator protein A,other,no_match,
+pfam:PF04461,Nucleotide-binding protein YajQ-like,other,no_match,
+pfam:PF30600,PF30600,other,no_match,
+pfam:PF03372,Endonuclease/Exonuclease/phosphatase family,other,no_match,
+pfam:PF30514,PF30514,other,no_match,
+pfam:PF30545,PF30545,other,no_match,
+pfam:PF01969,Nickel insertion protein,other,no_match,
+pfam:PF01329,Pterin 4 alpha carbinolamine dehydratase,other,no_match,
+pfam:PF01894,UPF0047 protein YjbQ-like,other,no_match,
+pfam:PF02074,Carboxypeptidase Taq (M32) metallopeptidase,other,enzyme_guard,peptidase
+pfam:PF00719,Inorganic pyrophosphatase,other,no_match,
+pfam:PF01379,"Porphobilinogen deaminase, dipyromethane cofactor binding domain",other,no_match,
+pfam:PF03900,"Porphobilinogen deaminase, C-terminal domain",other,no_match,
+pfam:PF11353,Protein of unknown function (DUF3153),other,no_match,
+pfam:PF11016,Protein of unknown function (DUF2854),other,no_match,
+pfam:PF30605,PF30605,other,no_match,
+pfam:PF02571,Precorrin-6x reductase CbiJ/CobK,other,enzyme_guard,reductase
+pfam:PF03091,CutA1 divalent ion tolerance protein,other,no_match,
+pfam:PF00709,Adenylosuccinate synthetase,other,enzyme_guard,synthetase
+pfam:PF13326,Photosystem II Pbs27,other,no_match,
+pfam:PF04073,Aminoacyl-tRNA editing domain,other,no_match,
+pfam:PF30564,PF30564,other,no_match,
+pfam:PF03960,ArsC family,other,no_match,
+pfam:PF00300,Histidine phosphatase superfamily (branch 1),other,no_match,
+pfam:PF00923,Transaldolase/Fructose-6-phosphate aldolase,other,no_match,
+pfam:PF13202,EF hand,other,no_match,
+pfam:PF04820,Tryptophan halogenase,other,no_match,
+pfam:PF12831,FAD dependent oxidoreductase,other,enzyme_guard,oxidoreductase
+pfam:PF01765,Ribosome recycling factor,other,no_match,
+pfam:PF12557,Cob(I)alamin adenosyltransferase N terminal,other,enzyme_guard,transferase
+pfam:PF00589,Phage integrase family,other,no_match,
+pfam:PF27132,XisA/XisC excisase second domain,other,no_match,
+pfam:PF27551,XisA/XisC N-terminal domain,other,no_match,
+pfam:PF00205,"Thiamine pyrophosphate enzyme, central domain",other,no_match,
+pfam:PF13240,zinc-ribbon domain,other,no_match,
+pfam:PF13248,zinc-ribbon domain,other,no_match,
+pfam:PF06485,RNA-binding protein Tab2/Atab2 N terminal,other,no_match,
+pfam:PF20429,"RNA-binding protein Tab2/Atab2, C-terminal domain",other,no_match,
+pfam:PF02633,Creatinine amidohydrolase,other,no_match,
+pfam:PF11266,Long-chain fatty aldehyde decarbonylase,other,no_match,
+pfam:PF03255,Acetyl co-enzyme A carboxylase carboxyltransferase-like,other,enzyme_guard,transferase
+pfam:PF00697,N-(5^phosphoribosyl)anthranilate (PRA) isomerase,other,no_match,
+pfam:PF00142,"4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family",other,no_match,
+pfam:PF00148,Nitrogenase component 1 type Oxidoreductase,other,enzyme_guard,Oxidoreductase
+pfam:PF08369,Proto-chlorophyllide reductase 57 kD subunit,other,enzyme_guard,reductase
+pfam:PF30629,PF30629,other,no_match,
+pfam:PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain",other,no_match,
+pfam:PF02788,"Ribulose bisphosphate carboxylase large chain, N-terminal domain",other,no_match,
+pfam:PF00101,"Ribulose bisphosphate carboxylase, small chain",other,no_match,
+pfam:PF12288,Carboxysome shell peptide mid-region,other,no_match,
+pfam:PF08936,"Carboxysome Shell Carbonic Anhydrase, C-terminal",other,no_match,
+pfam:PF20686,"Carboxysome Shell Carbonic Anhydrase, catalytic domain",other,no_match,
+pfam:PF20687,"Carboxysome Shell Carbonic Anhydrase, N-terminal",other,no_match,
+pfam:PF11334,Protein of unknown function (DUF3136),other,no_match,
+pfam:PF01042,Endoribonuclease L-PSP,other,no_match,
+pfam:PF16123,Hydroxyacylglutathione hydrolase C-terminus,other,no_match,
+pfam:PF01634,ATP phosphoribosyltransferase,other,enzyme_guard,transferase
+pfam:PF09837,Uncharacterized protein conserved in bacteria (DUF2064),other,no_match,
+pfam:PF12095,Protein CHLORORESPIRATORY REDUCTION 7,other,no_match,
+pfam:PF30569,PF30569,other,no_match,
+pfam:PF07465,Photosystem I protein M (PsaM),other,no_match,
+pfam:PF05969,Photosystem II complex subunit Ycf12,other,no_match,
+pfam:PF30567,PF30567,other,no_match,
+pfam:PF13391,HNH endonuclease,other,no_match,
+pfam:PF09419,Mitochondrial PGP phosphatase,other,no_match,
+pfam:PF13242,HAD-hyrolase-like,other,no_match,

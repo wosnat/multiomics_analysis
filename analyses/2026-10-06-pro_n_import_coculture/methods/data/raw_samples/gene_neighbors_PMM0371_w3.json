@@ -1,0 +1,95 @@
+{
+  "total_matching": 6,
+  "returned": 6,
+  "truncated": false,
+  "anchors": [
+    {
+      "locus_tag": "PMM0371",
+      "organism_name": "Prochlorococcus MED4",
+      "contig": "NC_005072.1",
+      "start": 354691,
+      "end": 355473,
+      "strand": "+",
+      "product": "cyanate ABC transporter, permease protein",
+      "neighbors_returned": 6,
+      "dropped_null_strand": 0
+    }
+  ],
+  "by_organism": [
+    {
+      "organism_name": "Prochlorococcus MED4",
+      "count": 6
+    }
+  ],
+  "not_found": [],
+  "not_matched": [],
+  "warnings": [],
+  "results": [
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM1834",
+      "rank_offset": -3,
+      "bp_gap": 2670,
+      "strand": "-",
+      "same_strand": false,
+      "product": "Conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Unknown"
+    },
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM0369",
+      "rank_offset": -2,
+      "bp_gap": 2163,
+      "strand": "+",
+      "same_strand": true,
+      "product": "conserved hypothetical protein",
+      "gene_name": null,
+      "gene_category": "Translation"
+    },
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM0370",
+      "rank_offset": -1,
+      "bp_gap": 30,
+      "strand": "+",
+      "same_strand": true,
+      "product": "cyanate ABC transporter, substrate-binding protein",
+      "gene_name": "cynA",
+      "gene_category": "Central intermediary metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM0372",
+      "rank_offset": 1,
+      "bp_gap": 16,
+      "strand": "+",
+      "same_strand": true,
+      "product": "cyanate ABC transporter ATP-binding protein",
+      "gene_name": "cynD",
+      "gene_category": "Central intermediary metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM0373",
+      "rank_offset": 2,
+      "bp_gap": 903,
+      "strand": "+",
+      "same_strand": true,
+      "product": "cyanate hydratase",
+      "gene_name": "cynS",
+      "gene_category": "Central intermediary metabolism"
+    },
+    {
+      "anchor_locus_tag": "PMM0371",
+      "neighbor_locus_tag": "PMM0374",
+      "rank_offset": 3,
+      "bp_gap": 1431,
+      "strand": "-",
+      "same_strand": false,
+      "product": "twin arginine-targeting translocase, TatA/E family protein",
+      "gene_name": "tatA",
+      "gene_category": "Post-translational modification"
+    }
+  ]
+}

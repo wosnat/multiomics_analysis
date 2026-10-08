@@ -1,0 +1,315 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus MIT9313",
+ "role_map_hash": "05a6ad5f7cec3ab7",
+ "lumping_threshold": 100,
+ "lumping_families": [
+  "tcdb:2.A.1",
+  "tcdb:2.A.6",
+  "tcdb:2.A.66",
+  "tcdb:2.A.7",
+  "tcdb:3.A.1"
+ ],
+ "family_inferred_gene_attachments_not_flagged_lumping": [
+  "tcdb:2.A.3",
+  "tcdb:2.A.6.2",
+  "tcdb:3.A.1.1"
+ ],
+ "rows_full": 27013,
+ "rows_by_n_status": {
+  "contains_N": 11576,
+  "no_N": 8475,
+  "no_formula": 6962
+ },
+ "rows_N_or_noformula": 18538,
+ "rows_by_depth_N": {
+  "inherited": 10801,
+  "most_specific": 7737
+ },
+ "genes": 467,
+ "systems": 398,
+ "family_inferred_genes": 35,
+ "tcdb_verbose_unjoined_rows": 0,
+ "xref_rows": 2650,
+ "xref_link_basis": {
+  "none": 2620,
+  "name_soft": 16,
+  "id": 14
+ },
+ "name_soft_groups": [
+  "chebi:13677",
+  "chebi:13727",
+  "chebi:13815",
+  "chebi:13962",
+  "chebi:14386",
+  "chebi:14654",
+  "chebi:14753",
+  "chebi:35584"
+ ],
+ "can_use_window_N": {
+  "no": 15777,
+  "elsewhere in genome": 2651,
+  "co-located": 110
+ },
+ "can_use_run_N": {
+  "no": 15777,
+  "elsewhere in genome": 2734,
+  "co-located": 27
+ },
+ "linked_pairs": 105,
+ "linked_genes": 70,
+ "expectation_check_nitrate_nitrite": [
+  {
+   "compound": "nitrate",
+   "groups": "chebi:14654",
+   "expected_usable": false,
+   "genome_genes": "",
+   "n_rows": 78,
+   "can_use_window_observed": "{\"no\": 78}",
+   "can_use_run_observed": "{\"no\": 78}",
+   "can_use_window_pass": true,
+   "can_use_run_pass": true
+  },
+  {
+   "compound": "nitrite",
+   "groups": "kegg.compound:C00088",
+   "expected_usable": true,
+   "genome_genes": "PMT2239",
+   "n_rows": 42,
+   "can_use_window_observed": "{\"elsewhere in genome\": 41, \"co-located\": 1}",
+   "can_use_run_observed": "{\"elsewhere in genome\": 41, \"co-located\": 1}",
+   "can_use_window_pass": true,
+   "can_use_run_pass": true
+  }
+ ],
+ "calls": [
+  {
+   "call": "metabolites_by_gene(universe, transport, all elements, verbose)",
+   "n_calls": 14,
+   "total_matching": 27013,
+   "returned": 27013,
+   "limit": 1000000,
+   "natural_key": [
+    "locus_tag",
+    "metabolite_id",
+    "tcdb_family_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "locus_tags": [],
+    "organism": null,
+    "metabolite_ids": [],
+    "metabolite_pathway_ids": [],
+    "metabolite_elements": []
+   },
+   "not_matched_n": 72,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [
+    "transport_substrate_resolution is `family_inferred` for PMT0129, PMT0130: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT0174, PMT0210, PMT0222: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT0583, PMT0587, PMT0625, PMT0643, PMT0678, PMT0691, PMT0692, PMT0693, PMT0694: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT0918, PMT1087: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1237: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1337, PMT1338, PMT1355, PMT1364: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1486, PMT1545, PMT1574, PMT1575, PMT1576: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1616: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1873, PMT1926: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT1998, PMT2144: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`).",
+    "transport_substrate_resolution is `family_inferred` for PMT2199, PMT2210, PMT2213, PMT2270: substrate breadth is reachability, not capability for these genes \u2014 their deepest attachment is a lumping superfamily (e.g. 3.A.1), so even their most_specific rows are superfamily-level positions, not subfamily calls. substrate_depth=['most_specific'] does NOT filter these out; the gene's transport_substrate_resolution is the only guard. Treat them as candidates, not calls; rank by `tcdb_evidence_score`. Note that resolved means at least one non-lumping attachment (not all) \u2014 resolved genes can still contribute `inherited` rows (read per-row `substrate_depth`)."
+   ],
+   "strict_inputs": false,
+   "params": {
+    "locus_tags": "<list of 539>",
+    "organism": "Prochlorococcus MIT9313",
+    "evidence_sources": [
+     "transport"
+    ],
+    "verbose": true
+   }
+  },
+  {
+   "call": "list_metabolites(elements=N, verbose)",
+   "n_calls": 1,
+   "total_matching": 1693,
+   "returned": 1693,
+   "limit": "None",
+   "natural_key": [
+    "metabolite_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism_names": [],
+    "pathway_ids": [],
+    "elements": []
+   },
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "elements": [
+     "N"
+    ],
+    "verbose": true
+   }
+  },
+  {
+   "call": "list_metabolites(other seen ids, verbose)",
+   "n_calls": 3,
+   "total_matching": 957,
+   "returned": 957,
+   "limit": "None",
+   "natural_key": [
+    "metabolite_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism_names": [],
+    "pathway_ids": [],
+    "elements": []
+   },
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "metabolite_ids": "<list of 957>",
+    "verbose": true
+   }
+  },
+  {
+   "call": "ontology_term_details(table families)",
+   "n_calls": 2,
+   "total_matching": 278,
+   "returned": 278,
+   "limit": "None",
+   "natural_key": [
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "term_ids": "<list of 278>"
+   }
+  },
+  {
+   "call": "genes_by_metabolite(substrate group ids, metabolism)",
+   "n_calls": 6,
+   "total_matching": 2835,
+   "returned": 2835,
+   "limit": 1000000,
+   "natural_key": [
+    "locus_tag",
+    "metabolite_id",
+    "reaction_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism": null,
+    "metabolite_pathway_ids": []
+   },
+   "not_matched_n": 981,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "metabolite_ids": "<list of 1162>",
+    "organism": "Prochlorococcus MIT9313",
+    "evidence_sources": [
+     "metabolism"
+    ]
+   }
+  },
+  {
+   "call": "genes_by_metabolite(nitrate group ids, metabolism)",
+   "n_calls": 1,
+   "total_matching": 0,
+   "returned": 0,
+   "limit": 1000000,
+   "natural_key": [
+    "locus_tag",
+    "metabolite_id",
+    "reaction_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism": null,
+    "metabolite_pathway_ids": []
+   },
+   "not_matched_n": 2,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "metabolite_ids": [
+     "chebi:14654",
+     "kegg.compound:C00244"
+    ],
+    "organism": "Prochlorococcus MIT9313",
+    "evidence_sources": [
+     "metabolism"
+    ]
+   }
+  },
+  {
+   "call": "genes_by_metabolite(nitrite group ids, metabolism)",
+   "n_calls": 1,
+   "total_matching": 1,
+   "returned": 1,
+   "limit": 1000000,
+   "natural_key": [
+    "locus_tag",
+    "metabolite_id",
+    "reaction_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism": null,
+    "metabolite_pathway_ids": []
+   },
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "metabolite_ids": [
+     "kegg.compound:C00088"
+    ],
+    "organism": "Prochlorococcus MIT9313",
+    "evidence_sources": [
+     "metabolism"
+    ]
+   }
+  }
+ ]
+}

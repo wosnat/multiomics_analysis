@@ -1,0 +1,13 @@
+compound_class,product_regex,product_exclude_regex,gene_name_regex,cyanorak_q_roles
+ammonium,\bammonium\b,,^(amt),
+urea,\burea\b,,^(urt),
+cyanate,\bcyanate\b,,^(cyn),
+nitrite,\bnitrite\b,,^(foca|nirc),
+nitrate,\bnitrate\b,nitrate/sulfonate,^(nrt|nar),
+amino acids,\bamino acids?\b|\bglutamate\b|\bglutamine\b|\bproline\b|branched-chain|polar amino|\barginine\b|\blysine\b|\bhistidine\b,amidotransferase|histidine kinase,^(nat[a-h]|aap|glt[spi-l]),Q.1
+peptides,peptide,,^(dpp|opp),Q.1
+amines,,,,Q.1
+polyamines,spermidine|putrescine|polyamine,,^(pot),Q.1
+osmolytes,betaine|\bosmo(?!c\b)|\bcholine\b|ectoine|glucosylglycerol,,^(pro[vwx]|ggt),
+nucleobases/nucleosides,nucleoside|purine|pyrimidine|uracil|xanthine,,,Q.5
+amino sugars,acetylglucosamine|chitobiose|glucosamine,,,

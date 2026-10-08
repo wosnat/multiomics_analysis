@@ -1,0 +1,97 @@
+{
+ "med4": {
+  "systems_before": 316,
+  "systems_after": 314,
+  "membership_changed_systems": 2,
+  "loci_with_tier_change": 1,
+  "known_false_positive_systems": 5
+ },
+ "mit9313": {
+  "systems_before": 462,
+  "systems_after": 459,
+  "membership_changed_systems": 2,
+  "loci_with_tier_change": 2,
+  "known_false_positive_systems": 5
+ },
+ "natl2a": {
+  "systems_before": 332,
+  "systems_after": 331,
+  "membership_changed_systems": 1,
+  "loci_with_tier_change": 0,
+  "known_false_positive_systems": 3
+ },
+ "tier_counts": [
+  {
+   "strain": "med4",
+   "tier": "High",
+   "before": 39,
+   "after": 39
+  },
+  {
+   "strain": "med4",
+   "tier": "Medium",
+   "before": 32,
+   "after": 31
+  },
+  {
+   "strain": "med4",
+   "tier": "Low",
+   "before": 150,
+   "after": 149
+  },
+  {
+   "strain": "med4",
+   "tier": "not_transporter",
+   "before": 95,
+   "after": 95
+  },
+  {
+   "strain": "mit9313",
+   "tier": "High",
+   "before": 64,
+   "after": 64
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Medium",
+   "before": 45,
+   "after": 44
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Low",
+   "before": 221,
+   "after": 219
+  },
+  {
+   "strain": "mit9313",
+   "tier": "not_transporter",
+   "before": 132,
+   "after": 132
+  },
+  {
+   "strain": "natl2a",
+   "tier": "High",
+   "before": 42,
+   "after": 42
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Medium",
+   "before": 35,
+   "after": 34
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Low",
+   "before": 162,
+   "after": 162
+  },
+  {
+   "strain": "natl2a",
+   "tier": "not_transporter",
+   "before": 93,
+   "after": 93
+  }
+ ]
+}

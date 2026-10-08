@@ -1,0 +1,182 @@
+equiv_group,n_genes_with_reaction,name,is_currency,carried_N_class,excluded_as_ubiquitous
+kegg.compound:C00001,188,H2O,True,False,True
+kegg.compound:C00002,128,ATP,True,True,True
+kegg.compound:C00080,103,H+,True,False,True
+kegg.compound:C00013,93,Diphosphate,True,False,True
+kegg.compound:C00009,84,Orthophosphate,True,False,True
+kegg.compound:C00008,73,ADP,True,True,True
+kegg.compound:C00003,55,NAD+,True,True,True
+kegg.compound:C00004,50,NADH,True,True,True
+kegg.compound:C00011,46,CO2,True,False,True
+kegg.compound:C00025,40,L-Glutamate,False,True,True
+kegg.compound:C00014,39,Ammonia,False,True,True
+kegg.compound:C00005,39,NADPH,True,True,True
+kegg.compound:C00019,25,S-Adenosyl-L-methionine,False,True,False
+kegg.compound:C00064,25,L-Glutamine,False,True,False
+kegg.compound:C00007,24,Oxygen,False,False,False
+kegg.compound:C00010,23,CoA,True,True,False
+kegg.compound:C00022,21,Pyruvate,False,False,False
+kegg.compound:C00024,20,Acetyl-CoA,False,True,False
+kegg.compound:C00021,19,S-Adenosyl-L-homocysteine,False,True,False
+kegg.compound:C00044,18,GTP,True,True,False
+kegg.compound:C00037,18,Glycine,False,True,False
+kegg.compound:C00097,14,L-Cysteine,False,True,False
+kegg.compound:C00026,12,2-Oxoglutarate,False,False,False
+kegg.compound:C00049,11,L-Aspartate,False,True,False
+kegg.compound:C00035,10,GDP,True,True,False
+kegg.compound:C00041,10,L-Alanine,False,True,False
+kegg.compound:C00015,10,UDP,False,True,False
+kegg.compound:C00033,10,Acetate,False,False,False
+kegg.compound:C00051,9,Glutathione,False,True,False
+kegg.compound:C00283,9,Hydrogen sulfide,False,False,False
+kegg.compound:C00109,9,2-Oxobutanoate,False,False,False
+kegg.compound:C00073,9,L-Methionine,False,True,False
+kegg.compound:C00288,8,HCO3-,False,False,False
+kegg.compound:C00074,8,Phosphoenolpyruvate,False,False,False
+kegg.compound:C00039,8,DNA,False,False,False
+kegg.compound:C00075,8,UTP,False,True,False
+kegg.compound:C00065,8,L-Serine,False,True,False
+kegg.compound:C00105,8,UMP,False,True,False
+kegg.compound:C00197,7,3-Phospho-D-glycerate,False,False,False
+kegg.compound:C00842,7,dTDP-glucose,False,True,False
+kegg.compound:C00029,7,UDP-glucose,False,True,False
+kegg.compound:C00068,7,Thiamin diphosphate,False,True,False
+kegg.compound:C00058,7,Formate,False,False,False
+kegg.compound:C00092,6,D-Glucose 6-phosphate,False,False,False
+kegg.compound:C00199,6,D-Ribulose 5-phosphate,False,False,False
+kegg.compound:C00046,6,RNA,False,False,False
+kegg.compound:C00048,6,Glyoxylate,False,False,False
+kegg.compound:C00031,6,D-Glucose,False,False,False
+kegg.compound:C00043,6,UDP-N-acetyl-alpha-D-glucosamine,False,True,False
+kegg.compound:C00094,6,Sulfite,False,False,False
+kegg.compound:C00122,6,Fumarate,False,False,False
+kegg.compound:C00036,5,Oxaloacetate,False,False,False
+kegg.compound:C00055,5,CMP,False,True,False
+kegg.compound:C05335,5,L-Selenomethionine,False,True,False
+kegg.compound:C01172,5,beta-D-Glucose 6-phosphate,False,False,False
+kegg.compound:C00042,5,Succinate,False,False,False
+kegg.compound:C00079,5,L-Phenylalanine,False,True,False
+kegg.compound:C14818,5,Fe2+,False,False,False
+kegg.compound:C00155,5,L-Homocysteine,False,True,False
+kegg.compound:C00536,5,Triphosphate,False,False,False
+kegg.compound:C00255,4,Riboflavin,False,True,False
+chebi:14386,4,Heme,False,True,False
+chebi:13727,4,Acyl-CoA,False,True,False
+kegg.compound:C01081,4,Thiamin monophosphate,False,True,False
+kegg.compound:C00188,4,L-Threonine,False,True,False
+kegg.compound:C00160,4,Glycolate,False,False,False
+kegg.compound:C00141,4,3-Methyl-2-oxobutanoic acid,False,False,False
+kegg.compound:C00086,4,Urea,False,True,False
+kegg.compound:C00047,4,L-Lysine,False,True,False
+kegg.compound:C00082,4,L-Tyrosine,False,True,False
+kegg.compound:C00305,3,Magnesium cation,False,False,False
+kegg.compound:C00061,3,FMN,False,True,False
+kegg.compound:C00791,3,Creatinine,False,True,False
+kegg.compound:C00052,3,UDP-alpha-D-galactose,False,True,False
+kegg.compound:C00059,3,Sulfate,False,False,False
+kegg.compound:C00062,3,L-Arginine,False,True,False
+kegg.compound:C00078,3,L-Tryptophan,False,True,False
+kegg.compound:C00167,3,UDP-glucuronate,False,True,False
+kegg.compound:C00430,3,5-Aminolevulinate,False,True,False
+kegg.compound:C00135,3,L-Histidine,False,True,False
+kegg.compound:C00231,3,D-Xylulose 5-phosphate,False,False,False
+kegg.compound:C00106,3,Uracil,False,True,False
+kegg.compound:C00099,3,beta-Alanine,False,True,False
+kegg.compound:C00093,3,sn-Glycerol 3-phosphate,False,False,False
+kegg.compound:C00156,3,4-Hydroxybenzoate,False,False,False
+kegg.compound:C00320,3,Thiosulfate,False,False,False
+kegg.compound:C00438,3,N-Carbamoyl-L-aspartate,False,True,False
+kegg.compound:C00575,3,"3^,5^-Cyclic AMP",False,True,False
+kegg.compound:C00016,2,FAD,True,True,False
+kegg.compound:C00077,2,L-Ornithine,False,True,False
+kegg.compound:C00242,2,Guanine,False,True,False
+kegg.compound:C00217,2,D-Glutamate,False,True,False
+kegg.compound:C00295,2,Orotate,False,True,False
+kegg.compound:C00233,2,4-Methyl-2-oxopentanoate,False,False,False
+kegg.compound:C00208,2,Maltose,False,False,False
+kegg.compound:C00175,2,Cobalt ion,False,False,False
+kegg.compound:C00179,2,Agmatine,False,True,False
+kegg.compound:C02061,2,Plastoquinone,False,False,False
+kegg.compound:C00942,2,"3^,5^-Cyclic GMP",False,True,False
+kegg.compound:C01026,2,"N,N-Dimethylglycine",False,True,False
+kegg.compound:C01037,2,"7,8-Diaminononanoate",False,True,False
+kegg.compound:C00334,2,4-Aminobutanoate,False,True,False
+kegg.compound:C00378,2,Thiamine,False,True,False
+kegg.compound:C00493,2,Shikimate,False,False,False
+kegg.compound:C00491,2,L-Cystine,False,True,False
+kegg.compound:C00183,2,L-Valine,False,True,False
+kegg.compound:C00170,2,5^-Methylthioadenosine,False,True,False
+kegg.compound:C00148,2,L-Proline,False,True,False
+kegg.compound:C00147,2,Adenine,False,True,False
+kegg.compound:C00212,2,Adenosine,False,True,False
+kegg.compound:C00149,2,(S)-Malate,False,False,False
+kegg.compound:C00133,2,D-Alanine,False,True,False
+kegg.compound:C00134,2,Putrescine,False,True,False
+kegg.compound:C00120,2,Biotin,False,True,False
+kegg.compound:C00137,2,myo-Inositol,False,False,False
+kegg.compound:C00127,2,Glutathione disulfide,False,True,False
+kegg.compound:C00123,2,L-Leucine,False,True,False
+kegg.compound:C00376,2,Retinal,False,False,False
+kegg.compound:C00407,2,L-Isoleucine,False,True,False
+kegg.compound:C00624,2,N-Acetyl-L-glutamate,False,True,False
+kegg.compound:C00542,2,Cystathionine,False,True,False
+kegg.compound:C07086,2,Phenylacetic acid,False,False,False
+kegg.compound:C00954,2,Indole-3-acetate,False,True,False
+kegg.compound:C05684,2,Selenite,False,False,False
+kegg.compound:C01672,2,Cadaverine,False,True,False
+kegg.compound:C00327,2,L-Citrulline,False,True,False
+kegg.compound:C00299,1,Uridine,False,True,False
+kegg.compound:C00294,1,Inosine,False,True,False
+kegg.compound:C00282,1,Hydrogen,False,False,False
+kegg.compound:C00302,1,Glutamate,False,True,False
+kegg.compound:C00189,1,Ethanolamine,False,True,False
+kegg.compound:C00124,1,D-Galactose,False,False,False
+kegg.compound:C00152,1,L-Asparagine,False,True,False
+kegg.compound:C00121,1,D-Ribose,False,False,False
+kegg.compound:C00116,1,Glycerol,False,False,False
+kegg.compound:C00088,1,Nitrite,False,True,False
+kegg.compound:C00089,1,Sucrose,False,False,False
+kegg.compound:C00214,1,Thymidine,False,True,False
+kegg.compound:C00245,1,Taurine,False,True,False
+kegg.compound:C00248,1,Lipoamide,False,True,False
+kegg.compound:C00250,1,Pyridoxal,False,True,False
+kegg.compound:C00180,1,Benzoate,False,False,False
+kegg.compound:C00190,1,UDP-D-xylose,False,True,False
+kegg.compound:C00163,1,Propanoate,False,False,False
+kegg.compound:C00178,1,Thymine,False,True,False
+kegg.compound:C00185,1,Cellobiose,False,False,False
+kegg.compound:C00395,1,Penicillin,False,True,False
+kegg.compound:C00388,1,Histamine,False,True,False
+kegg.compound:C00350,1,Phosphatidylethanolamine,False,True,False
+kegg.compound:C00642,1,4-Hydroxyphenylacetate,False,False,False
+kegg.compound:C00583,1,"Propane-1,2-diol",False,False,False
+kegg.compound:C00534,1,Pyridoxamine,False,True,False
+kegg.compound:C00526,1,Deoxyuridine,False,True,False
+kegg.compound:C00475,1,Cytidine,False,True,False
+kegg.compound:C00473,1,Retinol,False,False,False
+kegg.compound:C00492,1,Raffinose,False,False,False
+kegg.compound:C00519,1,Hypotaurine,False,True,False
+kegg.compound:C00469,1,Ethanol,False,False,False
+kegg.compound:C00330,1,Deoxyguanosine,False,True,False
+kegg.compound:C00314,1,Pyridoxine,False,True,False
+kegg.compound:C00315,1,Spermidine,False,True,False
+kegg.compound:C00387,1,Guanosine,False,True,False
+kegg.compound:C00380,1,Cytosine,False,True,False
+kegg.compound:C00750,1,Spermine,False,True,False
+kegg.compound:C00719,1,Betaine,False,True,False
+kegg.compound:C01613,1,Stachyose,False,False,False
+kegg.compound:C01181,1,4-Trimethylammoniobutanoate,False,True,False
+kegg.compound:C01157,1,Hydroxyproline,False,True,False
+kegg.compound:C01161,1,"3,4-Dihydroxyphenylacetate",False,False,False
+kegg.compound:C01083,1,"alpha,alpha-Trehalose",False,False,False
+kegg.compound:C01898,1,Cellodextrin,False,False,False
+kegg.compound:C01674,1,Chitobiose,False,True,False
+kegg.compound:C01762,1,Xanthosine,False,True,False
+kegg.compound:C05359,1,e-,False,True,False
+kegg.compound:C02538,1,Estrone 3-sulfate,False,False,False
+kegg.compound:C01801,1,Deoxyribose,False,False,False
+kegg.compound:C05402,1,Melibiose,False,False,False
+kegg.compound:C05697,1,Selenate,False,False,False
+kegg.compound:C05557,1,Isopenicillin N,False,True,False
+kegg.compound:C06755,1,Chloroacetic acid,False,False,False
+kegg.compound:C06564,1,Penicillin N,False,True,False

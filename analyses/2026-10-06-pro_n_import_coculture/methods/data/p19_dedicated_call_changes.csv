@@ -1,0 +1,3 @@
+strain,system_id,member_names,compound_class,listing_basis_v160,listing_basis,basis_detail_v160,basis_detail,_merge
+mit9313,sys_PMT0977,PMT0977:|PMT0978:,amino acids,dedicated,broad listing,Cyanorak Q.1,"Q.1 only, efflux-annotated",both
+mit9313,sys_PMT0977,PMT0977:|PMT0978:,peptides,dedicated,broad listing,Cyanorak Q.1,"Q.1 only, efflux-annotated",both

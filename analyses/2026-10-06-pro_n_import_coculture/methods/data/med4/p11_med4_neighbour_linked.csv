@@ -1,0 +1,7 @@
+system_id,equiv_group,locus_tag,enzyme_name,rank_offset,gap_to_nearest_member,same_strand,in_system_run,substrate_names,fragment_of,system_tier,system_is_transporter_candidate
+sys_PMM0370,kegg.compound:C01417,PMM0373,cynS,1.0,32.0,True,True,Cyanate,none,High,True
+sys_PMM0566,kegg.compound:C00051,PMM0559,glx2,-7.0,5903.0,True,False,Glutathione,none,Medium,True
+sys_PMM0970,kegg.compound:C00086,PMM0963,ureC,-7.0,3504.0,False,False,Urea,none,High,True
+sys_PMM0970,kegg.compound:C00086,PMM0964,ureB,-6.0,3178.0,False,False,Urea,none,High,True
+sys_PMM0970,kegg.compound:C00086,PMM0965,ureA,-5.0,2873.0,False,False,Urea,none,High,True
+sys_PMM1260,kegg.compound:C00842,PMM1257,rfbB,-3.0,2564.0,False,False,dTDP-glucose,none,not_transporter,False

@@ -1,0 +1,187 @@
+locus_tag	start	end	strand	gene_name	product
+PMM0368	349383	349691	-		conserved hypothetical protein (DUF3303)
+PMM2034	350136	350273	-		Hypothetical protein
+PMM1830	350589	350732	-		conserved hypothetical protein
+PMM1831	350803	350988	-		Conserved hypothetical protein
+PMM1832	351016	351153	-		Conserved hypothetical protein
+PMM1833	351526	351660	-		Hypothetical protein
+PMM1834	351856	352020	-		Conserved hypothetical protein
+PMM0369	352201	352527	+		conserved hypothetical protein
+PMM0370	352975	354660	+	cynA	cyanate ABC transporter, substrate-binding protein
+PMM0371	354691	355473	+	cynB	cyanate ABC transporter, permease protein
+PMM0372	355490	356344	+	cynD	cyanate ABC transporter ATP-binding protein
+PMM0373	356377	356820	+	cynS	cyanate hydratase
+PMM0374	356905	357096	-	tatA	twin arginine-targeting translocase, TatA/E family protein
+PMM0375	357196	357519	+		possible Type II intron maturase
+PMM0376	357535	357903	-	lptC	Hypothetical protein
+PMM0377	357904	358167	-		conserved hypothetical protein
+PMM0378	358218	358490	-		conserved hypothetical protein (DUF3303)
+PMM1835	358796	358942	-		Hypothetical protein
+PMM1837	359300	359485	-		Hypothetical protein
+PMM1838	359485	359610	-		conserved hypothetical protein
+PMM0956	914736	915536	-	uppP	undecaprenyl-diphosphatase
+PMM0957	915626	915904	+		putative gRAM domain
+PMM1918	916071	916196	-		uncharacterized conserved membrane protein
+PMM0958	916287	916514	-		conserved hypothetical protein (DUF1830)
+PMM0959	916593	917549	-		D-glycerate 3-kinase
+PMM0960	917546	918349	-	gpgP	glucosyl-3-phosphoglycerate phosphatase
+PMM0961	918353	920110	-	gmgG	possible glucosyl(mannosyl)glycerate-glucosidase
+PMM0962	920161	921387	+	gpgS	glucosyl-3-phosphoglycerate synthase
+PMM0963	921384	923093	-	ureC	urease alpha subunit
+PMM0964	923099	923419	-	ureB	urease beta subunit
+PMM0965	923422	923724	-	ureA	urease gamma subunit
+PMM0966	923785	924678	-	ureD	urease accessory protein UreD
+PMM0967	924726	925190	+	ureE	urease accessory protein UreE
+PMM0968	925168	925854	+	ureF	urease accessory protein UreF
+PMM0969	925858	926463	+	ureG	urease accessory protein UreG
+PMM0970	926598	927887	+	urtA	ABC-type urea transporter, substrate binding component
+PMM0971	927969	929123	+	urtB	ABC-type urea transporter, permease component
+PMM0972	929123	930259	+	urtC	ABC-type urea transporter, membrane component
+PMM0973	930252	931007	+	urtD	ABC-type urea transporter, ATP-binding component UrtD
+PMM0974	931010	931720	+	urtE	ABC-type urea transporter, ATPase component UrtE
+PMM1919	931750	931929	-		conserved hypothetical protein
+PMM1921	932184	932354	-		conserved hypothetical protein
+PMM1922	932754	932927	+		Conserved hypothetical protein
+PMM0975	932990	933385	+		conserved hypothetical protein (DUF2862)
+PMM0976	933470	934459	+	evrA	ATP-binding cassette-type viologen exporter
+PMM0977	934460	935251	+	evrB	ATP-binding cassette-type viologen exporter, permease component
+PMM0978	935248	936042	+	evrC	ATP-binding cassette-type viologen exporter
+PMM0979	936046	936336	-		uncharacterized conserved membrane protein
+PMM0255	244685	245305	-	leuD	3-isopropylmalate dehydratase small subunit
+PMM0256	245302	246711	-	leuC	3-isopropylmalate dehydratase, large subunit
+PMM0257	246725	248026	-	pncC	nicotinamide-nucleotide amidase
+PMM0258	247995	249266	-	glyA	serine hydroxymethyltransferase
+PMM0259	249507	249758	+		uncharacterized conserved membrane protein
+PMM0260	249768	250049	+		conserved hypothetical protein
+PMM0261	250057	251637	-	murJ	peptidoglycan lipid II flippase
+PMM0262	251711	252457	+	sfsA	sugar fermentation stimulation protein
+PMM0263	252632	254092	+	amt1	ammonium transporter
+PMM0264	254182	255378	+	lytB	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+PMM0265	255473	256033	+		doxX family protein
+PMM0266	256035	257588	-	purH	bifunctional purine biosynthesis protein (AICAR transformylase/IMP cyclohydrolase)
+PMM0267	257622	258239	+		phospholipase/carboxylesterase
+PMM0268	258236	258604	-		uncharacterized conserved secreted protein (DUF3155)
+PMM0269	258843	259979	+		two-component sensor histidine kinase
+PMM0270	259957	260697	-	cobS	adenosylcobinamide-GDP ribazoletransferase
+PMM0271	260796	261914	+	tgt	queuine tRNA-ribosyltransferase
+PMM0184	175726	176322	+	pabC	4-amino-4-deoxychorismate lyase
+PMM0185	176344	177072	+		beta-lactamase superfamily domain protein
+PMM0186	177069	178178	-	hisC	aminotransferase class I and II family protein
+PMM0187	178178	179989	-	argS	arginine--tRNA ligase
+PMM0188	180017	180883	-	nadC	nicotinate-nucleotide diphosphorylase
+PMM0189	180959	182341	-	trmE	tRNA modification GTPase
+PMM0190	182408	182860	+		conserved hypothetical protein
+PMM0191	182880	185189	-	spoT	bifunctional GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase
+PMM0192	185245	186840	+	ddpD	peptide/nickel ABC transport system, ATP-binding component
+PMM0193	186826	187794	-	rluD	23S rRNA pseudouridine synthase
+PMM0194	187791	188657	-	rbgA	ribosome biogenesis GTPase A
+PMM0195	188883	190091	+	pgk	phosphoglycerate kinase
+PMM0196	190093	190824	-		conserved hypothetical protein
+PMM0197	190852	191946	+	murG	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+PMM0198	191925	193049	-	hisC/cobC	aminotransferase class I and II family protein
+PMM0199	193065	194234	-	pyrD	dihydroorotate dehydrogenase, class 2
+PMM0200	194249	194971	-	rnhA	ribonuclease HI
+PMM0414	392828	393532	+		short chain dehydrogenase family protein
+PMM0415	393515	394696	-	c-des	pyridoxal phosphate-dependent monomeric L-cysteine/cystine C-S-lyase
+PMM0416	394729	395523	-		methyltransferase domain protein
+PMM1846	395600	395773	-		conserved hypothetical protein (DUF4278)
+PMM0417	396030	396290	+		uncharacterized conserved membrane protein
+PMM0418	396312	396557	-	nifU	NifU-like protein
+PMM0419	396629	398122	+	mqoA	malate:quinone oxidoreductase
+PMM0420	398179	399987	+	lepA	GTP-binding protein LepA
+PMM0421	400160	400903	+	dppC	ABC-type oligopeptide transporter, membrane component
+PMM0422	400923	401594	-	trmH	tRNA guanosine-2'-O-methyltransferase
+PMM1847	401765	401968	+		conserved hypothetical protein
+PMM0423	402171	402563	+		conserved hypothetical protein
+PMM0424	402566	402802	+		conserved hypothetical protein
+TX50_RS09255	402806	402937	+		DUF2256 domain-containing protein
+PMM0425	402934	404424	+		deoxyribodipyrimidine photolyase-like, FAD-domain containing protein
+PMM0426	404925	406238	+	sun	ribosomal RNA small subunit methyltransferase B
+PMM0427	406258	408021	-	pbp1	penicillin-binding-like protein 1A (PBP1A)(transpeptidase)
+PMM1040	983874	984734	+		transglutaminase-like superfamily protein
+PMM1041	984932	985405	+		RmlC-like cupin domain-containing protein
+PMM1042	985489	986007	+		pentapeptide repeats family protein
+PMM1043	986019	986378	-		uncharacterized conserved secreted protein
+PMM1044	986582	987451	-	rbsK	ribokinase
+PMM1045	987493	987861	+		Uncharacterized conserved membrane protein
+PMM1046	987882	989111	-		multidrug efflux transporter, MFS family
+PMM1047	989114	990676	+		alpha/beta hydrolase
+PMM1048	990673	991695	-	dppB	oligopeptide ABC transporter, membrane component
+PMM1049	991688	993259	-	dppA	peptide/nickel transport system substrate-binding protein
+PMM1050	993281	993541	-		conserved hypothetical protein
+PMM1051	993604	994905	-	thrA	homoserine dehydrogenase
+PMM1052	994941	995366	-	sufE	sulfur acceptor for SufS cysteine desulfurase
+PMM1053	995404	995961	-		5-formyltetrahydrofolate cyclo-ligase
+PMM1054	995971	996444	-	ruvC	crossover junction endodeoxyribonuclease RuvC
+PMM1055	996449	997537	-	chlI	protoporphyrin IX Mg-chelatase, subunit ChlI
+PMM1056	997801	998550	-	trmJ	RNA methyltransferase, TrmH , group 1 family protein
+PMM1057	998550	998933	-	cytM	cytochrome cM
+PMM0703	667306	667659	+		protein of unknown function DUF1499, Prochlorococcus-specific
+PMM1877	667745	667876	+		possible uncharacterized conserved secreted protein
+PMM0704	668058	669113	+		potassium ion channel, VIC family
+PMM0705	669400	670128	+	phoB	two-component system response regulator RR class II (RRII)-CheY-OmpR
+PMM0706	670125	671273	+	phoR	two-component system sensor histidine kinase, phosphate sensing PhoR
+PMM0707	671290	671616	-		uncharacterized conserved secreted protein
+PMM0708	671693	673975	-		probable alkaline phosphatase
+PMM0709	674137	675495	-	som	outer membrane porin
+PMM0710	675854	676825	+	pstS	phosphate ABC transporter, phosphate-binding protein PstS
+PMM0711	676875	678101	-	chrA	chromate transporter
+PMM0712	678132	679391	-	arsJ	multidrug efflux transporter, MFS family
+PMM0713	679403	680425	-	gap3	glyceraldehyde-3-phosphate dehydrogenase
+PMM0714	680491	680862	+	arsR	bacterial regulatory protein, ArsR family
+TX50_RS03815	680881	681087	-		uncharacterized conserved lipoprotein
+PMM0715	681244	681411	+		conserved hypothetical protein
+PMM0716	681401	682411	-	arsB	arsenate efflux pump
+PMM0717	682455	682685	-		conserved hypothetical protein
+PMM0718	682867	683403	+		transcriptional regulator, Crp family
+PMM0719	683454	683759	+		conserved hypothetical protein (DUF3764)
+TX50_RS09860	683763	683912	+		conserved hypothetical protein
+PMM1880	684046	684228	-		conserved hypothetical protein
+PMM0720	684390	684644	-		conserved hypothetical protein
+PMM0721	685013	685351	+		possible Myosin N-terminal SH3-like domain
+PMM0722	685369	685602	-		conserved hypothetical protein
+PMM0723	685879	686826	+	pstC	ABC-type phosphate transport system permease component
+PMM0724	686833	687726	+	pstA	ABC-type phosphate transport system permease component
+PMM0725	687728	688537	+	pstB	ABC-type phosphate transport system ATPase component
+PMM1881	688929	689078	+		Conserved hypothetical protein
+PMM0726	689268	689576	-		uncharacterized conserved secreted protein
+PMM0727	689797	690441	-	pdeM	metallophosphoesterase, DNA ligase-associated
+PMM0728	690442	692919	-		ATP-dependent Lhr-N-terminus-like helicase
+PMM0729	692919	694556	-	lig	ATP-dependent DNA ligase
+PMM0730	694553	695545	-		putative mRNA 3-end processing factor
+PMM0731	695582	695992	-		uncharacterized conserved membrane protein
+PMM0732	696077	696364	-		translation initiation factor IF-2, N-terminal domain-containing protein
+PMM0905	866852	867187	+		uncharacterized conserved membrane protein (DUF3593)
+PMM0906	867252	867515	+	psaK	photosystem I reaction center subunit X
+PMM0907	867518	869431	-	dxs	1-deoxy-D-xylulose-5-phosphate synthase
+PMM0908	869548	871089	+	ilvA	threonine ammonia-lyase
+PMM0909	871171	871653	+	scpB	segregation and condensation protein B
+PMM0910	871685	871963	+	ylmG1	cell division membrane protein YlmG1 (factor involved in shape determination)
+PMM0911	871967	872296	-		possible pyrophosphatase, MazG family
+PMM0912	872358	874148	+	pyk	pyruvate kinase
+PMM0913	874141	875370	+	salY	putative ABC efflux system
+PMM0914	875385	875957	+	bioY	biotin ECF transporter, substrate component
+PMM0915	875954	876415	+	ispA	signal peptidase II
+PMM0916	876418	877920	+		50S ribosome-binding GTPase family protein
+PMM0917	878050	879432	-	gadB	pyridoxal phosphate-dependent decarboxylase
+PMM0918	879496	879993	+	cumB	cytidine and deoxycytidylate deaminase zinc-binding region family protein
+PMM0919	879968	881152	-	spt	alanine--glyoxylate aminotransferase
+PMM0920	881367	882788	+	glnA	glutamine synthetase, type I
+PMM0921	882897	883952	+		S-adenosyl-L-methionine-dependent methyltransferase
+PMM0394	373571	374209	+	ylmE	conserved hypothetical protein YlmE
+PMM0395	374367	374942	+	sepF	cell division protein SepF (Cdv2)
+PMM0396	374950	375756	+	proC	pyrroline-5-carboxylate reductase
+PMM0397	375753	376919	-	dgdA	digalactosyldiacylglycerol (DGDG) synthase
+PMM0398	377005	377784	-	recO	gap repair protein RecO
+PMM0399	377785	378444	-	deoC	deoC/LacD aldolase family protein
+PMM0400	378453	379037	-	lrtA	light repressed protein A
+PMM0401	379082	379726	+	lipB	lipoyl(octanoyl) transferase
+PMM0402	379757	381682	+	fadD	long-chain acyl-CoA synthetase
+PMM0403	381740	382186	+		conserved hypothetical protein
+PMM0404	382301	382612	-		uncharacterized conserved membrane protein
+PMM1845	382974	383168	+		Conserved hypothetical protein
+PMM0405	383670	385037	+	pdhC	pyruvate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component
+PMM0406	385044	386168	+	queA	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+PMM0407	386171	387157	-	cysK	O-acetylserine sulfhydrylase A
+PMM0408	387242	388711	-		O-succinylhomoserine(thiol)-lyase, MetB-like protein
+PMM0409	388715	389878	-	metB	O-succinylhomoserine(thiol)-lyase

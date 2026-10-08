@@ -1,0 +1,76 @@
+locus_tag,gene_name,product,gene_category,term_id,term_name,level,is_informative,evidence,source,tree,tree_code
+PMM0263,amt1,ammonium transporter,Central intermediary metabolism,tcdb:1,Channels/Pores,0,True,homology,tcdb,,
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",Stress response and adaptation,tcdb:1,Channels/Pores,0,True,homology,tcdb,,
+PMM0402,fadD,long-chain acyl-CoA synthetase,Lipid metabolism,tcdb:2,Electrochemical Potential-driven Transporters,0,True,homology,tcdb,,
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",Central intermediary metabolism,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0371,cynB,"cyanate ABC transporter, permease protein",Central intermediary metabolism,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0372,cynD,cyanate ABC transporter ATP-binding protein,Central intermediary metabolism,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0421,dppC,"ABC-type oligopeptide transporter, membrane component",Transport,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,homology,tcdb,,
+PMM0723,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0724,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0725,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0913,salY,putative ABC efflux system,Transport,tcdb:3,Primary Active Transporters,0,True,homology,tcdb,,
+PMM0970,urtA,"ABC-type urea transporter, substrate binding component",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0971,urtB,"ABC-type urea transporter, permease component",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0972,urtC,"ABC-type urea transporter, membrane component",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",Stress response and adaptation,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",Transport,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM1049,dppA,peptide/nickel transport system substrate-binding protein,Transport,tcdb:3,Primary Active Transporters,0,True,family_inferred,tcdb,,
+PMM0402,fadD,long-chain acyl-CoA synthetase,Lipid metabolism,tcdb:4,Group Translocators,0,True,family_inferred,tcdb,,
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",Central intermediary metabolism,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0371,cynB,"cyanate ABC transporter, permease protein",Central intermediary metabolism,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0372,cynD,cyanate ABC transporter ATP-binding protein,Central intermediary metabolism,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0421,dppC,"ABC-type oligopeptide transporter, membrane component",Transport,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0723,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0724,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0725,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0913,salY,putative ABC efflux system,Transport,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0970,urtA,"ABC-type urea transporter, substrate binding component",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0971,urtB,"ABC-type urea transporter, permease component",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0972,urtC,"ABC-type urea transporter, membrane component",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",Stress response and adaptation,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",Transport,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM1049,dppA,peptide/nickel transport system substrate-binding protein,Transport,kegg.brite:ko02000.A2,"ABC transporters, prokaryotic type",0,True,family_inferred,brite,transporters,ko02000
+PMM0263,amt1,ammonium transporter,Central intermediary metabolism,kegg.brite:ko02000.A6,Other transporters,0,True,family_inferred,brite,transporters,ko02000
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,pfam:PF00005,ABC transporter,1,True,curated,pfam_role,,
+PMM0372,cynD,cyanate ABC transporter ATP-binding protein,Central intermediary metabolism,pfam:PF00005,ABC transporter,1,True,curated,pfam_role,,
+PMM0725,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,pfam:PF00005,ABC transporter,1,True,curated,pfam_role,,
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",Stress response and adaptation,pfam:PF00005,ABC transporter,1,True,curated,pfam_role,,
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",Stress response and adaptation,pfam:PF00005,ABC transporter,1,True,curated,pfam_role,,
+PMM1049,dppA,peptide/nickel transport system substrate-binding protein,Transport,pfam:PF00496,"Bacterial extracellular solute-binding proteins, family 5 Middle",1,True,curated,pfam_role,,
+PMM0371,cynB,"cyanate ABC transporter, permease protein",Central intermediary metabolism,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,curated,pfam_role,,
+PMM0421,dppC,"ABC-type oligopeptide transporter, membrane component",Transport,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,curated,pfam_role,,
+PMM0723,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,curated,pfam_role,,
+PMM0724,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,curated,pfam_role,,
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",Transport,pfam:PF00528,Binding-protein-dependent transport system inner membrane component,1,True,curated,pfam_role,,
+PMM0263,amt1,ammonium transporter,Central intermediary metabolism,pfam:PF00909,Ammonium Transporter Family,1,True,curated,pfam_role,,
+PMM0971,urtB,"ABC-type urea transporter, permease component",Stress response and adaptation,pfam:PF02653,Branched-chain amino acid transport system / permease component,1,True,curated,pfam_role,,
+PMM0972,urtC,"ABC-type urea transporter, membrane component",Stress response and adaptation,pfam:PF02653,Branched-chain amino acid transport system / permease component,1,True,curated,pfam_role,,
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,pfam:PF08352,"Oligopeptide/dipeptide transporter, C-terminal region",1,True,family_inferred,pfam_role,,
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",Central intermediary metabolism,pfam:PF09084,NMT1/THI5 like,1,True,family_inferred,pfam_role,,
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",Stress response and adaptation,pfam:PF12399,Branched-chain amino acid ATP-binding cassette transporter,1,True,curated,pfam_role,,
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",Central intermediary metabolism,pfam:PF13379,NMT1-like family,1,True,curated,pfam_role,,
+PMM0970,urtA,"ABC-type urea transporter, substrate binding component",Stress response and adaptation,pfam:PF13433,Periplasmic binding protein domain,1,True,curated,pfam_role,,
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",Transport,pfam:PF19300,"Binding-prot-dependent transport system membrane comp, N-term",1,True,curated,pfam_role,,
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",Central intermediary metabolism,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0970,urtA,"ABC-type urea transporter, substrate binding component",Stress response and adaptation,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0971,urtB,"ABC-type urea transporter, permease component",Stress response and adaptation,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0972,urtC,"ABC-type urea transporter, membrane component",Stress response and adaptation,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",Stress response and adaptation,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",Stress response and adaptation,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",Transport,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM1049,dppA,peptide/nickel transport system substrate-binding protein,Transport,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",1,True,curated,cyanorak_q,,
+PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",Stress response and adaptation,cyanorak.role:Q.2,Transport and binding proteins > Anions,1,True,curated,cyanorak_q,,
+PMM0723,pstC,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak.role:Q.2,Transport and binding proteins > Anions,1,True,curated,cyanorak_q,,
+PMM0724,pstA,ABC-type phosphate transport system permease component,Stress response and adaptation,cyanorak.role:Q.2,Transport and binding proteins > Anions,1,True,curated,cyanorak_q,,
+PMM0725,pstB,ABC-type phosphate transport system ATPase component,Stress response and adaptation,cyanorak.role:Q.2,Transport and binding proteins > Anions,1,True,curated,cyanorak_q,,
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",Transport,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,1,True,curated,cyanorak_q,,
+PMM0263,amt1,ammonium transporter,Central intermediary metabolism,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,1,True,curated,cyanorak_q,,
+PMM0421,dppC,"ABC-type oligopeptide transporter, membrane component",Transport,cyanorak.role:Q.7,Transport and binding proteins > Sugars,1,True,curated,cyanorak_q,,

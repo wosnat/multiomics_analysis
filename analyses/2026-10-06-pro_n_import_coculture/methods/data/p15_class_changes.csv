@@ -1,0 +1,90 @@
+equiv_group,names,old,new,rule,strain
+chebi:21600,N-acetylgalactosamine,unclassified (no formula),amino sugars,amino_sugar_name,med4
+chebi:22918,branched-chain amino acid,unclassified (no formula),amino acids,amino_acid_generic,med4
+chebi:50668,N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-aldehydo-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,med4
+chebi:5417,glucosamine,unclassified (no formula),amino sugars,amino_sugar_name,med4
+chebi:59640,N-acetylglucosamine,unclassified (no formula),amino sugars,amino_sugar_name,med4
+chebi:62084,N-glycoloyl-beta-neuraminic acid,unclassified N,amino sugars,amino_sugar_name,med4
+chebi:64627,microcin,unclassified (no formula),peptides,peptide_name,med4
+chebi:73024,O-acetyl-D-carnitine,unclassified N,osmolytes,osmolyte_name,med4
+chebi:82754,microcin c,unclassified N,peptides,peptide_name,med4
+kegg.compound:C00306,Bradykinin,unclassified N,peptides,peptide_name,med4
+kegg.compound:C00491,L-Cystine,unclassified N,amino acids,amino_acid_extra,med4
+kegg.compound:C01157,Hydroxyproline,unclassified N,amino acids,amino_acid_extra,med4
+kegg.compound:C01181,4-Trimethylammoniobutanoate,unclassified N,osmolytes,osmolyte_name,med4
+kegg.compound:C01667,Bacitracin,unclassified (no formula),peptides,peptide_name,med4
+kegg.compound:C01674,Chitobiose,unclassified N,amino sugars,amino_sugar_name,med4
+kegg.compound:C02571,O-Acetylcarnitine,unclassified N,osmolytes,osmolyte_name,med4
+kegg.compound:C02862,O-Butanoylcarnitine,unclassified N,osmolytes,osmolyte_name,med4
+kegg.compound:C03878,N-Acetyl-beta-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,med4
+kegg.compound:C04114,(E)-4-(Trimethylammonio)but-2-enoate,unclassified N,osmolytes,osmolyte_name,med4
+kegg.compound:C06366,sym-Homospermidine,unclassified N,polyamines,polyamine_name,med4
+kegg.compound:C06372,Lacto-N-biose,unclassified N,amino sugars,amino_sugar_name,med4
+kegg.compound:C07512,Tetraethylammonium,ammonium,unclassified N,no_rule,med4
+kegg.compound:C08263,beta-Alaninebetaine,unclassified N,osmolytes,osmolyte_name,med4
+kegg.compound:C14691,Triethylamine,ammonium,amines,amine_name,med4
+kegg.compound:C16633,5-Fluorouridine,unclassified N,nucleobases/nucleosides,nucleo_name,med4
+kegg.compound:C19910,N-Acetyl-beta-neuraminate,unclassified N,amino sugars,amino_sugar_name,med4
+kegg.compound:C20292,Tetramethylammonium,ammonium,unclassified N,no_rule,med4
+chebi:21600,N-acetylgalactosamine,unclassified (no formula),amino sugars,amino_sugar_name,mit9313
+chebi:22918,branched-chain amino acid,unclassified (no formula),amino acids,amino_acid_generic,mit9313
+chebi:26386,a purine nucleobase,unclassified N,nucleobases/nucleosides,nucleo_name,mit9313
+chebi:26633,selenocystine,unclassified N,amino acids,amino_acid_extra,mit9313
+chebi:50668,N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-aldehydo-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,mit9313
+chebi:5417,glucosamine,unclassified (no formula),amino sugars,amino_sugar_name,mit9313
+chebi:59640,N-acetylglucosamine,unclassified (no formula),amino sugars,amino_sugar_name,mit9313
+chebi:62084,N-glycoloyl-beta-neuraminic acid,unclassified N,amino sugars,amino_sugar_name,mit9313
+chebi:64627,microcin,unclassified (no formula),peptides,peptide_name,mit9313
+chebi:73024,O-acetyl-D-carnitine,unclassified N,osmolytes,osmolyte_name,mit9313
+chebi:82754,microcin c,unclassified N,peptides,peptide_name,mit9313
+kegg.compound:C00306,Bradykinin,unclassified N,peptides,peptide_name,mit9313
+kegg.compound:C00491,L-Cystine,unclassified N,amino acids,amino_acid_extra,mit9313
+kegg.compound:C00519,Hypotaurine,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C01157,Hydroxyproline,unclassified N,amino acids,amino_acid_extra,mit9313
+kegg.compound:C01181,4-Trimethylammoniobutanoate,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C01667,Bacitracin,unclassified (no formula),peptides,peptide_name,mit9313
+kegg.compound:C01674,Chitobiose,unclassified N,amino sugars,amino_sugar_name,mit9313
+kegg.compound:C01924,Homoarginine,unclassified N,amino acids,amino_acid_extra,mit9313
+kegg.compound:C02571,O-Acetylcarnitine,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C02862,O-Butanoylcarnitine,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C03172,S-Methyl-L-methionine,unclassified N,amino acids,amino_acid_extra,mit9313
+kegg.compound:C03878,N-Acetyl-beta-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,mit9313
+kegg.compound:C04114,(E)-4-(Trimethylammonio)but-2-enoate,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C05335,L-Selenomethionine,unclassified N,amino acids,amino_acid_extra,mit9313
+kegg.compound:C06366,sym-Homospermidine,unclassified N,polyamines,polyamine_name,mit9313
+kegg.compound:C06372,Lacto-N-biose,unclassified N,amino sugars,amino_sugar_name,mit9313
+kegg.compound:C07512,Tetraethylammonium,ammonium,unclassified N,no_rule,mit9313
+kegg.compound:C08263,beta-Alaninebetaine,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C14691,Triethylamine,ammonium,amines,amine_name,mit9313
+kegg.compound:C16432,5-Hydroxyectoine,unclassified N,osmolytes,osmolyte_name,mit9313
+kegg.compound:C16633,5-Fluorouridine,unclassified N,nucleobases/nucleosides,nucleo_name,mit9313
+kegg.compound:C19910,N-Acetyl-beta-neuraminate,unclassified N,amino sugars,amino_sugar_name,mit9313
+kegg.compound:C20292,Tetramethylammonium,ammonium,unclassified N,no_rule,mit9313
+chebi:21600,N-acetylgalactosamine,unclassified (no formula),amino sugars,amino_sugar_name,natl2a
+chebi:22918,branched-chain amino acid,unclassified (no formula),amino acids,amino_acid_generic,natl2a
+chebi:50668,N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-aldehydo-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,natl2a
+chebi:5417,glucosamine,unclassified (no formula),amino sugars,amino_sugar_name,natl2a
+chebi:59640,N-acetylglucosamine,unclassified (no formula),amino sugars,amino_sugar_name,natl2a
+chebi:62084,N-glycoloyl-beta-neuraminic acid,unclassified N,amino sugars,amino_sugar_name,natl2a
+chebi:64627,microcin,unclassified (no formula),peptides,peptide_name,natl2a
+chebi:73024,O-acetyl-D-carnitine,unclassified N,osmolytes,osmolyte_name,natl2a
+chebi:82754,microcin c,unclassified N,peptides,peptide_name,natl2a
+kegg.compound:C00306,Bradykinin,unclassified N,peptides,peptide_name,natl2a
+kegg.compound:C00491,L-Cystine,unclassified N,amino acids,amino_acid_extra,natl2a
+kegg.compound:C00519,Hypotaurine,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C01157,Hydroxyproline,unclassified N,amino acids,amino_acid_extra,natl2a
+kegg.compound:C01181,4-Trimethylammoniobutanoate,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C01667,Bacitracin,unclassified (no formula),peptides,peptide_name,natl2a
+kegg.compound:C01674,Chitobiose,unclassified N,amino sugars,amino_sugar_name,natl2a
+kegg.compound:C02571,O-Acetylcarnitine,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C02862,O-Butanoylcarnitine,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C03878,N-Acetyl-beta-D-glucosamine,unclassified N,amino sugars,amino_sugar_name,natl2a
+kegg.compound:C04114,(E)-4-(Trimethylammonio)but-2-enoate,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C06366,sym-Homospermidine,unclassified N,polyamines,polyamine_name,natl2a
+kegg.compound:C06372,Lacto-N-biose,unclassified N,amino sugars,amino_sugar_name,natl2a
+kegg.compound:C07512,Tetraethylammonium,ammonium,unclassified N,no_rule,natl2a
+kegg.compound:C08263,beta-Alaninebetaine,unclassified N,osmolytes,osmolyte_name,natl2a
+kegg.compound:C14691,Triethylamine,ammonium,amines,amine_name,natl2a
+kegg.compound:C16633,5-Fluorouridine,unclassified N,nucleobases/nucleosides,nucleo_name,natl2a
+kegg.compound:C19910,N-Acetyl-beta-neuraminate,unclassified N,amino sugars,amino_sugar_name,natl2a
+kegg.compound:C20292,Tetramethylammonium,ammonium,unclassified N,no_rule,natl2a

@@ -1,0 +1,598 @@
+equiv_group,member_ids,names,n_status,compound_class,n_rows,n_systems,n_most_specific_rows
+chebi:16541,chebi:16541,a protein,no_formula,unclassified (no formula),126,85,45
+chebi:13677,chebi:13677|kegg.compound:C00017,Protein|protein,contains_N|no_formula,unclassified N,113,82,39
+chebi:22563,chebi:22563,anion,no_formula,unclassified (no formula),42,36,29
+kegg.compound:C06124,kegg.compound:C06124,Sphingosine 1-phosphate,contains_N,unclassified N,27,23,26
+chebi:22587,chebi:22587,antiviral agent,no_formula,unclassified (no formula),26,22,26
+chebi:23447,chebi:23447,cyclic nucleotide,no_formula,unclassified (no formula),26,22,26
+chebi:25696,chebi:25696,organic anion,no_formula,unclassified (no formula),26,22,26
+chebi:25697,chebi:25697,organic cation,no_formula,unclassified (no formula),26,22,26
+chebi:6076,chebi:6076,itraconazole,contains_N,unclassified N,26,22,26
+kegg.compound:C09955,kegg.compound:C09955,Ochratoxin A,contains_N,unclassified N,26,22,26
+kegg.compound:C11277,kegg.compound:C11277,Adefovir,contains_N,unclassified N,26,22,26
+chebi:25367,chebi:25367,molecule,no_formula,unclassified (no formula),33,28,25
+chebi:14739,chebi:14739,pantothenic acid,contains_N,unclassified N,30,25,24
+chebi:35218,chebi:35218,anthocyanin cation,no_formula,unclassified (no formula),30,25,24
+chebi:23058,chebi:23058,cation,no_formula,unclassified (no formula),44,38,23
+chebi:24279,chebi:24279,glucosinolate,contains_N,unclassified N,29,25,23
+kegg.compound:C00366,kegg.compound:C00366,Urate,contains_N,unclassified N,29,25,23
+chebi:22315,chebi:22315,alkaloid,no_formula,unclassified (no formula),23,20,23
+chebi:26158,chebi:26158,plant hormone,no_formula,unclassified (no formula),23,20,23
+chebi:27026,chebi:27026,toxin,no_formula,unclassified (no formula),23,20,23
+kegg.compound:C07625,kegg.compound:C07625,Chloroquine,contains_N,unclassified N,23,20,23
+chebi:24875,chebi:24875,Fe cation,no_formula,unclassified (no formula),22,19,22
+kegg.compound:C05359,kegg.compound:C05359,e-,no_formula,unclassified (no formula),39,32,21
+chebi:26130,chebi:26130,biological pigment,no_formula,unclassified (no formula),27,23,21
+chebi:25213,chebi:25213,a metal cation,no_formula,unclassified (no formula),26,19,21
+chebi:22676,chebi:22676,auxin,no_formula,unclassified (no formula),21,18,21
+kegg.compound:C19453,kegg.compound:C19453,"4,4^-Methylenediphenyl diisocyanate",contains_N,unclassified N,21,18,21
+chebi:383703,chebi:383703,"3,6-diamino-10-methylacridinium chloride",contains_N,unclassified N,35,25,20
+kegg.compound:C08037,kegg.compound:C08037,Benzalkonium chloride,contains_N,unclassified N,34,25,20
+kegg.compound:C11161,kegg.compound:C11161,Ethidium bromide,contains_N,unclassified N,34,25,20
+chebi:87211,chebi:87211,fluoroquinolone antibiotic,no_formula,unclassified (no formula),33,23,20
+chebi:26115,chebi:26115,phytoalexin,no_formula,unclassified (no formula),31,22,20
+chebi:35190,chebi:35190,diterpene,no_formula,unclassified (no formula),31,22,20
+chebi:6104,chebi:6104,kanamycin,no_formula,unclassified (no formula),31,22,20
+kegg.compound:C06973,kegg.compound:C06973,Doxycycline,contains_N,unclassified N,31,22,20
+kegg.compound:C11177,kegg.compound:C11177,Rhodamine 6G,contains_N,unclassified N,31,22,20
+chebi:10074,chebi:10074,xenobiotic,no_formula,unclassified (no formula),26,22,20
+chebi:104011,chebi:104011,4-aminohippurate,contains_N,unclassified N,26,22,20
+chebi:22218,chebi:22218,actinomycin D,contains_N,unclassified N,26,22,20
+chebi:23765,chebi:23765,quinolone,no_formula,unclassified (no formula),26,22,20
+chebi:24127,chebi:24127,fungicide,no_formula,unclassified (no formula),26,22,20
+chebi:25212,chebi:25212,metabolite,no_formula,unclassified (no formula),26,22,20
+chebi:30637,chebi:30637,thiazole,contains_N,unclassified N,26,22,20
+chebi:35718,chebi:35718,antifungal agent,no_formula,unclassified (no formula),26,22,20
+chebi:68452,chebi:68452,azole,no_formula,unclassified (no formula),26,22,20
+kegg.compound:C01579,kegg.compound:C01579,Flavonoid,no_formula,unclassified (no formula),26,22,20
+kegg.compound:C01756,kegg.compound:C01756|kegg.compound:C02380,6-Mercaptopurine|Thiopurine,contains_N,unclassified N,26,22,20
+kegg.compound:C01937,kegg.compound:C01937,Methotrexate,contains_N,unclassified N,26,22,20
+kegg.compound:C03438,kegg.compound:C03438,beta-Lactam antibiotics,contains_N,unclassified N,26,22,20
+kegg.compound:C06624,kegg.compound:C06624,Oxytetracycline,contains_N,unclassified N,26,22,20
+kegg.compound:C06685,kegg.compound:C06685,Cycloheximide,contains_N,unclassified N,26,22,20
+kegg.compound:C06812,kegg.compound:C06812,Lincomycin,contains_N,unclassified N,26,22,20
+kegg.compound:C07002,kegg.compound:C07002,Fluconazole,contains_N,unclassified N,26,22,20
+kegg.compound:C07334,kegg.compound:C07334,Oxacillin,contains_N,unclassified N,26,22,20
+kegg.compound:C12013,kegg.compound:C12013,Daptomycin,contains_N,unclassified N,26,22,20
+kegg.compound:C14701,kegg.compound:C14701,Paraquat,contains_N,unclassified N,26,22,20
+kegg.compound:C19907,kegg.compound:C19907,Pyrrole,contains_N,unclassified N,26,22,20
+chebi:26764,chebi:26764,steroid hormone,no_formula,unclassified (no formula),25,18,20
+chebi:50753,chebi:50753,isoflavonoid,no_formula,unclassified (no formula),25,18,20
+kegg.compound:C00029,kegg.compound:C00029,UDP-glucose,contains_N,unclassified N,23,20,20
+chebi:13727,chebi:13727|kegg.compound:C00040,Acyl-CoA|acyl-CoA,contains_N,unclassified N,21,18,20
+chebi:35195,chebi:35195,surfactant,no_formula,unclassified (no formula),21,18,20
+kegg.compound:C06706,kegg.compound:C06706,Lipo-oligosaccharide,no_formula,unclassified (no formula),21,17,20
+chebi:11148,chebi:11148,"1,2-diacyl-sn-glycero-3-phosphocholine(1+)",contains_N,unclassified N,20,17,20
+chebi:12487,chebi:12487,a ceramide,contains_N,unclassified N,20,17,20
+chebi:133008,chebi:133008,Epclusa,no_formula,unclassified (no formula),20,17,20
+chebi:133462,chebi:133462,firefly D-sulfoluciferin,contains_N,unclassified N,20,17,20
+chebi:134179,chebi:134179,volatile organic compound,no_formula,unclassified (no formula),20,17,20
+chebi:22153,chebi:22153,acaricide,no_formula,unclassified (no formula),20,17,20
+chebi:22573,chebi:22573,anthracycline antibiotic,no_formula,unclassified (no formula),20,17,20
+chebi:23219,chebi:23219,bile acid taurine conjugate,no_formula,unclassified (no formula),20,17,20
+chebi:23403,chebi:23403,coumarins,no_formula,unclassified (no formula),20,17,20
+chebi:23530,chebi:23530,cytokinin,no_formula,unclassified (no formula),20,17,20
+chebi:24255,chebi:24255,glucan,no_formula,unclassified (no formula),20,17,20
+chebi:24335,chebi:24335,glutathione conjugate,no_formula,unclassified (no formula),20,17,20
+chebi:24337,chebi:24337,glutathione derivative,no_formula,unclassified (no formula),20,17,20
+chebi:24527,chebi:24527,herbicide,no_formula,unclassified (no formula),20,17,20
+chebi:25029,chebi:25029,leukotriene,no_formula,unclassified (no formula),20,17,20
+chebi:25435,chebi:25435,mutagen,no_formula,unclassified (no formula),20,17,20
+chebi:26004,chebi:26004,phenylpropanoid,no_formula,unclassified (no formula),20,17,20
+chebi:26413,chebi:26413,pyrethroid insecticide,no_formula,unclassified (no formula),20,17,20
+chebi:26537,chebi:26537,retinoid,no_formula,unclassified (no formula),20,17,20
+chebi:26658,chebi:26658,sesquiterpenoid,no_formula,unclassified (no formula),20,17,20
+chebi:27288,chebi:27288,vinca alkaloid,no_formula,unclassified (no formula),20,17,20
+chebi:29702,chebi:29702,undecylprodigiosin,contains_N,unclassified N,20,17,20
+chebi:30304,chebi:30304,antimony(0),no_formula,unclassified (no formula),20,17,20
+chebi:315019,chebi:315019,cilofungin,contains_N,unclassified N,20,17,20
+chebi:31779,chebi:31779,amorolfine(1+),contains_N,unclassified N,20,17,20
+chebi:33836,chebi:33836,benzenoid aromatic compound,no_formula,unclassified (no formula),20,17,20
+chebi:33848,chebi:33848,polycyclic arene,no_formula,unclassified (no formula),20,17,20
+chebi:35186,chebi:35186,terpene,no_formula,unclassified (no formula),20,17,20
+chebi:35356,chebi:35356,dicarboximide,contains_N,unclassified N,20,17,20
+chebi:35469,chebi:35469,antidepressant,no_formula,unclassified (no formula),20,17,20
+chebi:35475,chebi:35475,non-steroidal anti-inflammatory drug,no_formula,unclassified (no formula),20,17,20
+chebi:35610,chebi:35610,antineoplastic agent,no_formula,unclassified (no formula),20,17,20
+chebi:36255,chebi:36255,bile acid glycine conjugate,no_formula,unclassified (no formula),20,17,20
+chebi:36277,chebi:36277,bile acid salt,no_formula,unclassified (no formula),20,17,20
+chebi:36565,chebi:36565,cadmium coordination entity,no_formula,unclassified (no formula),20,17,20
+chebi:37957,chebi:37957,histaminergic drug,no_formula,unclassified (no formula),20,17,20
+chebi:38224,chebi:38224,fumonisin,no_formula,unclassified (no formula),20,17,20
+chebi:38545,chebi:38545,rosuvastatin,contains_N,unclassified N,20,17,20
+chebi:39352,chebi:39352,dinitrophenol,no_formula,unclassified (no formula),20,17,20
+chebi:47344,chebi:47344,alvocidib,contains_N,unclassified N,20,17,20
+chebi:474180,chebi:474180,caspofungin,contains_N,unclassified N,20,17,20
+chebi:48103,chebi:48103,dinucleotide analogue,no_formula,unclassified (no formula),20,17,20
+chebi:48120,chebi:48120,anthracycline,no_formula,unclassified (no formula),20,17,20
+chebi:50112,chebi:50112,sex hormone,no_formula,unclassified (no formula),20,17,20
+chebi:50919,chebi:50919,antiemetic,no_formula,unclassified (no formula),20,17,20
+chebi:52155,chebi:52155,mitoTracker Orange,contains_N,unclassified N,20,17,20
+chebi:53002,chebi:53002,amyloid-beta,no_formula,unclassified (no formula),20,17,20
+chebi:53183,chebi:53183,apo carotenoid,no_formula,unclassified (no formula),20,17,20
+chebi:53720,chebi:53720,poly(sulfide) macromolecule,no_formula,unclassified (no formula),20,17,20
+chebi:58716,chebi:58716,red chlorophyll catabolite,contains_N,unclassified N,20,17,20
+chebi:59809,chebi:59809,docetaxel trihydrate,contains_N,unclassified N,20,17,20
+chebi:59941,chebi:59941,amphiphile,no_formula,unclassified (no formula),20,17,20
+chebi:60783,chebi:60783,nucleoside analogue,no_formula,unclassified (no formula),20,17,20
+chebi:61152,chebi:61152,desferriexochelin 772MS,contains_N,unclassified N,20,17,20
+chebi:63609,chebi:63609,mefloquine,no_formula,unclassified (no formula),20,17,20
+chebi:64120,chebi:64120,M-factor,contains_N,unclassified N,20,17,20
+chebi:64477,chebi:64477,monolignol,no_formula,unclassified (no formula),20,17,20
+chebi:64611,chebi:64611,ether lipid,no_formula,unclassified (no formula),20,17,20
+chebi:68487,chebi:68487,strigolactone,no_formula,unclassified (no formula),20,17,20
+chebi:71658,chebi:71658,mersacidin,contains_N,unclassified N,20,17,20
+chebi:73702,chebi:73702,wax,no_formula,unclassified (no formula),20,17,20
+chebi:73913,chebi:73913,antifolate,no_formula,unclassified (no formula),20,17,20
+chebi:76612,chebi:76612,ibrutinib,contains_N,unclassified N,20,17,20
+chebi:82687,chebi:82687,"5-(2-hydroxyethyl)-1,3-thiazole",contains_N,unclassified N,20,17,20
+chebi:83164,chebi:83164,non-polar lipid,no_formula,unclassified (no formula),20,17,20
+chebi:83947,chebi:83947,diazaborine derivative,no_formula,unclassified (no formula),20,17,20
+chebi:85274,chebi:85274,pristinamycin,no_formula,unclassified (no formula),20,17,20
+chebi:87208,chebi:87208,anilinopyrimidine fungicide,no_formula,unclassified (no formula),20,17,20
+chebi:87631,chebi:87631,statin,no_formula,unclassified (no formula),20,17,20
+chebi:8828,chebi:8828,rhodamine 123,contains_N,unclassified N,20,17,20
+kegg.compound:C00127,kegg.compound:C00127,Glutathione disulfide,contains_N,unclassified N,20,17,20
+kegg.compound:C00350,kegg.compound:C00350,Phosphatidylethanolamine,contains_N,unclassified N,20,17,20
+kegg.compound:C00395,kegg.compound:C00395,Penicillin,contains_N,unclassified N,20,17,20
+kegg.compound:C00575,kegg.compound:C00575,"3^,5^-Cyclic AMP",contains_N,unclassified N,20,17,20
+kegg.compound:C00942,kegg.compound:C00942,"3^,5^-Cyclic GMP",contains_N,unclassified N,20,17,20
+kegg.compound:C01690,kegg.compound:C01690,Diclofenac,contains_N,unclassified N,20,17,20
+kegg.compound:C01897,kegg.compound:C01897,Camptothecin,contains_N,unclassified N,20,17,20
+kegg.compound:C02009,kegg.compound:C02009,Benzimidazole,contains_N,unclassified N,20,17,20
+kegg.compound:C02166,kegg.compound:C02166,Leukotriene C4,contains_N,unclassified N,20,17,20
+kegg.compound:C02267,kegg.compound:C02267,Deoxycoformycin,contains_N,unclassified N,20,17,20
+kegg.compound:C02471,kegg.compound:C02471,[Glu(-Cys)]n-Gly,contains_N,unclassified N,20,17,20
+kegg.compound:C02794,kegg.compound:C02794|kegg.compound:C03227,3-Hydroxy-L-kynurenine|3-Hydroxykynurenine,contains_N,unclassified N,20,17,20
+kegg.compound:C03374,kegg.compound:C03374,Bilirubin-glucuronoside,contains_N,unclassified N,20,17,20
+kegg.compound:C03642,kegg.compound:C03642,Taurolithocholate sulfate,contains_N,unclassified N,20,17,20
+kegg.compound:C05113,kegg.compound:C05113,Porphyrin,contains_N,unclassified N,20,17,20
+kegg.compound:C05122,kegg.compound:C05122,Taurocholate,contains_N,unclassified N,20,17,20
+kegg.compound:C06526,kegg.compound:C06526,Quinine,contains_N,unclassified N,20,17,20
+kegg.compound:C06707,kegg.compound:C06707,Teichoic acid,no_formula,unclassified (no formula),20,17,20
+kegg.compound:C07019,kegg.compound:C07019,Ganciclovir,contains_N,unclassified N,20,17,20
+kegg.compound:C07108,kegg.compound:C07108,Tamoxifen,contains_N,unclassified N,20,17,20
+kegg.compound:C07115,kegg.compound:C07115,Nitrogen mustard,contains_N,unclassified N,20,17,20
+kegg.compound:C07204,kegg.compound:C07204,Vincristine,contains_N,unclassified N,20,17,20
+kegg.compound:C07207,kegg.compound:C07207,Zalcitabine,contains_N,unclassified N,20,17,20
+kegg.compound:C07368,kegg.compound:C07368,Prazosin,contains_N,unclassified N,20,17,20
+kegg.compound:C07394,kegg.compound:C07394,Paclitaxel,contains_N,unclassified N,20,17,20
+kegg.compound:C07622,kegg.compound:C07622,Voriconazole,contains_N,unclassified N,20,17,20
+kegg.compound:C08079,kegg.compound:C08079,Terbinafine,contains_N,unclassified N,20,17,20
+kegg.compound:C11110,kegg.compound:C11110,Imidacloprid,contains_N,unclassified N,20,17,20
+kegg.compound:C11195,kegg.compound:C11195,Mitoxantrone,contains_N,unclassified N,20,17,20
+kegg.compound:C11231,kegg.compound:C11231,Docetaxel anhydrous,contains_N,unclassified N,20,17,20
+kegg.compound:C11622,kegg.compound:C11622,Tetramethylrosamine,contains_N,unclassified N,20,17,20
+kegg.compound:C12030,kegg.compound:C12030,Mycosubtilin,contains_N,unclassified N,20,17,20
+kegg.compound:C12058,kegg.compound:C12058,Cerulenin,contains_N,unclassified N,20,17,20
+kegg.compound:C12154,kegg.compound:C12154,Epothilone B,contains_N,unclassified N,20,17,20
+kegg.compound:C12871,kegg.compound:C12871,Lopinavir,contains_N,unclassified N,20,17,20
+kegg.compound:C14322,kegg.compound:C14322,Chlorpyrifos,contains_N,unclassified N,20,17,20
+kegg.compound:C14338,kegg.compound:C14338,Quintozene,contains_N,unclassified N,20,17,20
+kegg.compound:C14397,kegg.compound:C14397,Dinitrochlorobenzene,contains_N,unclassified N,20,17,20
+kegg.compound:C18021,kegg.compound:C18021,Pheophorbide a,contains_N,unclassified N,20,17,20
+kegg.compound:C18239,kegg.compound:C18239,Precursor Z,contains_N,unclassified N,20,17,20
+kegg.compound:C18870,kegg.compound:C18870,Selenodiglutathione,contains_N,unclassified N,20,17,20
+kegg.compound:C20348,kegg.compound:C20348,Lissamine rhodamine B,contains_N,unclassified N,20,17,20
+kegg.compound:C21543,kegg.compound:C21543,Olmesartan,contains_N,unclassified N,20,17,20
+kegg.compound:C21721,kegg.compound:C21721,Camalexin,contains_N,unclassified N,20,17,20
+chebi:10004,chebi:10004,vitamin (role),no_formula,unclassified (no formula),33,28,13
+chebi:24870,chebi:24870,ion,no_formula,unclassified (no formula),26,26,13
+chebi:14386,chebi:14386|kegg.compound:C00032,Heme|heme,contains_N|no_formula,unclassified N,59,27,12
+kegg.compound:C00504,kegg.compound:C00504,Folate,contains_N,unclassified N,34,28,12
+chebi:14816,chebi:14816,a phospholipid derivative,no_formula,unclassified (no formula),49,38,11
+kegg.compound:C05821,kegg.compound:C05821,Enterochelin,contains_N,unclassified N,31,27,11
+chebi:14520,chebi:14520,lipopolysaccharide,no_formula,unclassified (no formula),37,31,10
+kegg.compound:C06574,kegg.compound:C06574,Ampicillin,contains_N,unclassified N,36,27,10
+chebi:84734,chebi:84734,Fe(III)-complexed siderophore,no_formula,unclassified (no formula),32,26,10
+chebi:21131,chebi:21131,iron(III) hydroxamate,contains_N,unclassified N,30,24,10
+kegg.compound:C01356,kegg.compound:C01356,Lipid,no_formula,unclassified (no formula),36,28,9
+chebi:23856,chebi:23856,monoatomic dication,no_formula,unclassified (no formula),18,18,9
+chebi:36915,chebi:36915,inorganic cation,no_formula,unclassified (no formula),10,10,9
+kegg.compound:C05227,kegg.compound:C05227,UDP-sugar,contains_N,unclassified N,35,30,8
+chebi:14575,chebi:14575,mannose,no_formula,unclassified (no formula),34,26,8
+kegg.compound:C00120,kegg.compound:C00120,Biotin,contains_N,unclassified N,34,28,8
+chebi:59062,chebi:59062,polymyxin,no_formula,unclassified (no formula),28,25,8
+chebi:25414,chebi:25414,monoatomic monocation,no_formula,unclassified (no formula),14,14,8
+chebi:33958,chebi:33958,halide salt,no_formula,unclassified (no formula),8,8,8
+kegg.compound:C06570,kegg.compound:C06570,Tetracycline,contains_N,unclassified N,49,34,7
+chebi:22599,chebi:22599,arabinose,no_formula,unclassified (no formula),33,28,7
+chebi:84688,chebi:84688,Fe(III)-complexed hydroxamate siderophore,no_formula,unclassified (no formula),27,23,7
+kegg.compound:C06230,kegg.compound:C06230,Fe-enterobactin,contains_N,unclassified N,27,23,7
+kegg.compound:C12219,kegg.compound:C12219,Corynebactin,contains_N,unclassified N,27,23,7
+chebi:25512,chebi:25512,neurotransmitter,no_formula,unclassified (no formula),7,7,7
+kegg.compound:C20292,kegg.compound:C20292,Tetramethylammonium,contains_N,unclassified N,7,7,7
+chebi:23888,chebi:23888,drug,no_formula,unclassified (no formula),46,32,6
+kegg.compound:C00378,kegg.compound:C00378,Thiamine,contains_N,unclassified N,32,28,6
+chebi:25728,chebi:25728,osmolyte,no_formula,unclassified (no formula),26,22,6
+kegg.compound:C00670,kegg.compound:C00670,sn-Glycero-3-phosphocholine,contains_N,unclassified N,26,22,6
+kegg.compound:C05570,kegg.compound:C05570,Ergothioneine,contains_N,unclassified N,26,22,6
+kegg.compound:C00019,kegg.compound:C00019,S-Adenosyl-L-methionine,contains_N,unclassified N,10,10,6
+kegg.compound:C00295,kegg.compound:C00295,Orotate,contains_N,unclassified N,9,9,6
+chebi:135560,chebi:135560,prajmalium,contains_N,unclassified N,6,6,6
+chebi:1365,chebi:1365,"3,3^,5^-triiodothyronine",contains_N,unclassified N,6,6,6
+chebi:183101,chebi:183101,an isothiocyanate,contains_N,unclassified N,6,6,6
+chebi:22586,chebi:22586,antioxidant,no_formula,unclassified (no formula),6,6,6
+chebi:24838,chebi:24838,inorganic phosphate,no_formula,unclassified (no formula),6,6,6
+chebi:25384,chebi:25384,monocarboxylic acid,no_formula,unclassified (no formula),6,6,6
+chebi:26040,chebi:26040,glycerophosphoinositol,no_formula,unclassified (no formula),6,6,6
+chebi:30661,chebi:30661,thyronine,contains_N,unclassified N,6,6,6
+chebi:31941,chebi:31941,Oxaliplatin,contains_N,unclassified N,6,6,6
+chebi:32130,chebi:32130,silver(1+) nitrate,contains_N,unclassified N,6,6,6
+chebi:3371,chebi:3371,capreomycin,contains_N,unclassified N,6,6,6
+chebi:35430,chebi:35430,"3,3^-diiodothyronine",contains_N,unclassified N,6,6,6
+chebi:35817,chebi:35817,roxarsone,contains_N,unclassified N,6,6,6
+chebi:60311,chebi:60311,thyroid hormone,no_formula,unclassified (no formula),6,6,6
+chebi:63112,chebi:63112,fingolimod hydrochloride,contains_N,unclassified N,6,6,6
+chebi:86494,chebi:86494,botanical anti-fungal agent,no_formula,unclassified (no formula),6,6,6
+kegg.compound:C00003,kegg.compound:C00003,NAD+,contains_N,unclassified N,6,6,6
+kegg.compound:C01120,kegg.compound:C01120,Sphinganine 1-phosphate,contains_N,unclassified N,6,6,6
+kegg.compound:C01829,kegg.compound:C01829,Thyroxine,contains_N,unclassified N,6,6,6
+kegg.compound:C01926,kegg.compound:C01926,Indomethacin,contains_N,unclassified N,6,6,6
+kegg.compound:C02465,kegg.compound:C02465,Triiodothyronine,contains_N,unclassified N,6,6,6
+kegg.compound:C02918,kegg.compound:C02918,1-Methylnicotinamide,contains_N,unclassified N,6,6,6
+kegg.compound:C05551,kegg.compound:C05551,Penicillin G,contains_N,unclassified N,6,6,6
+kegg.compound:C06228,kegg.compound:C06228,Ferrichrome,contains_N,unclassified N,6,6,6
+kegg.compound:C06810,kegg.compound:C06810,Aciclovir,contains_N,unclassified N,6,6,6
+kegg.compound:C06897,kegg.compound:C06897,Cephradine,contains_N,unclassified N,6,6,6
+kegg.compound:C06952,kegg.compound:C06952,Cimetidine,contains_N,unclassified N,6,6,6
+kegg.compound:C07017,kegg.compound:C07017,Furosemide,contains_N,unclassified N,6,6,6
+kegg.compound:C07372,kegg.compound:C07372,Probenecid,contains_N,unclassified N,6,6,6
+kegg.compound:C07512,kegg.compound:C07512,Tetraethylammonium,contains_N,unclassified N,6,6,6
+kegg.compound:C11310,kegg.compound:C11310,1-Methyl-4-phenylpyridinium,contains_N,unclassified N,6,6,6
+kegg.compound:C11736,kegg.compound:C11736,5-Fluorodeoxyuridine,contains_N,unclassified N,6,6,6
+kegg.compound:C14310,kegg.compound:C14310,Picloram,contains_N,unclassified N,6,6,6
+kegg.compound:C00413,kegg.compound:C00413,Streptomycin,contains_N,unclassified N,39,30,5
+kegg.compound:C00918,kegg.compound:C00918,Chloramphenicol,contains_N,unclassified N,39,30,5
+chebi:42478,chebi:42478,ethidium,contains_N,unclassified N,38,28,5
+kegg.compound:C01661,kegg.compound:C01661,Doxorubicin,contains_N,unclassified N,36,27,5
+kegg.compound:C07188,kegg.compound:C07188,Verapamil,contains_N,unclassified N,31,27,5
+chebi:135075,chebi:135075,alphaprodine,contains_N,unclassified N,25,22,5
+chebi:138159,chebi:138159,chemokine ligand 24,no_formula,unclassified (no formula),25,22,5
+chebi:25051,chebi:25051,lipid As,no_formula,unclassified (no formula),25,22,5
+chebi:62579,chebi:62579,carboxymycobactin,contains_N,unclassified N,25,22,5
+kegg.compound:C06689,kegg.compound:C06689,Vancomycin,contains_N,unclassified N,25,22,5
+kegg.compound:C07201,kegg.compound:C07201,Vinblastine,contains_N,unclassified N,25,22,5
+kegg.compound:C12038,kegg.compound:C12038,Yersiniabactin,contains_N,unclassified N,25,22,5
+chebi:29681,chebi:29681,surfactin,no_formula,unclassified (no formula),11,9,5
+kegg.compound:C11279,kegg.compound:C11279,Myristyltrimethylaminium bromide,contains_N,unclassified N,11,9,5
+kegg.compound:C06084,kegg.compound:C06084,Hopanoid,no_formula,unclassified (no formula),5,5,5
+kegg.compound:C06887,kegg.compound:C06887,Cefoxitin,contains_N,unclassified N,5,5,5
+kegg.compound:C07203,kegg.compound:C07203,Metronidazole,contains_N,unclassified N,5,5,5
+chebi:24118,chebi:24118,fucose,no_formula,unclassified (no formula),30,25,4
+chebi:24162,chebi:24162,galactose,no_formula,unclassified (no formula),30,25,4
+chebi:24163,chebi:24163,galactoside,no_formula,unclassified (no formula),30,23,4
+chebi:27365,chebi:27365,zinc ion,no_formula,unclassified (no formula),29,20,4
+chebi:72316,chebi:72316,virulence factor,no_formula,unclassified (no formula),26,22,4
+chebi:11169,chebi:11169,maltooligosaccharide,no_formula,unclassified (no formula),25,19,4
+chebi:10081,chebi:10081,xyloglucan,no_formula,unclassified (no formula),24,18,4
+chebi:25169,chebi:25169,mannoside,no_formula,unclassified (no formula),24,18,4
+chebi:26546,chebi:26546,rhamnose,no_formula,unclassified (no formula),24,18,4
+chebi:30411,chebi:30411,cobalamin,no_formula,unclassified (no formula),24,21,4
+chebi:60980,chebi:60980,beta-glucoside,no_formula,unclassified (no formula),24,18,4
+chebi:62563,chebi:62563,cellooligosaccharide,no_formula,unclassified (no formula),24,18,4
+chebi:82802,chebi:82802,agrocinopine,no_formula,unclassified (no formula),24,18,4
+kegg.compound:C00284,kegg.compound:C00284,EDTA,contains_N,unclassified N,24,18,4
+kegg.compound:C00430,kegg.compound:C00430,5-Aminolevulinate,contains_N,unclassified N,24,18,4
+kegg.compound:C00253,kegg.compound:C00253,Nicotinate,contains_N,unclassified N,10,9,4
+kegg.compound:C00876,kegg.compound:C00876,Coenzyme F420,contains_N,unclassified N,10,8,4
+chebi:33699,chebi:33699,mRNA,no_formula,unclassified (no formula),8,7,4
+chebi:14801,chebi:14801,phosphatidyl-L-serine,contains_N,unclassified N,4,4,4
+chebi:29441,chebi:29441,isothiocyanato group,contains_N,unclassified N,4,4,4
+kegg.compound:C00248,kegg.compound:C00248,Lipoamide,contains_N,unclassified N,4,4,4
+kegg.compound:C00255,kegg.compound:C00255,Riboflavin,contains_N,unclassified N,32,28,3
+chebi:25436,chebi:25436,mycolate,no_formula,unclassified (no formula),28,19,3
+chebi:15131,chebi:15131,a carbohydrate,no_formula,unclassified (no formula),26,22,3
+chebi:64299,chebi:64299,queuosine residue,contains_N,unclassified N,23,20,3
+kegg.compound:C00016,kegg.compound:C00016,FAD,contains_N,unclassified N,23,20,3
+kegg.compound:C00061,kegg.compound:C00061,FMN,contains_N,unclassified N,23,20,3
+kegg.compound:C00170,kegg.compound:C00170,5^-Methylthioadenosine,contains_N,unclassified N,23,20,3
+kegg.compound:C11284,kegg.compound:C11284,Indolebutyric acid,contains_N,unclassified N,23,20,3
+kegg.compound:C21647,kegg.compound:C21647,Roseoflavin,contains_N,unclassified N,23,20,3
+chebi:24403,chebi:24403,a glycosyl group,no_formula,unclassified (no formula),9,7,3
+kegg.compound:C00314,kegg.compound:C00314,Pyridoxine,contains_N,unclassified N,9,9,3
+kegg.compound:C01551,kegg.compound:C01551,Allantoin,contains_N,unclassified N,9,9,3
+kegg.compound:C07481,kegg.compound:C07481,Caffeine,contains_N,unclassified N,9,9,3
+chebi:23378,chebi:23378,Cu cation,no_formula,unclassified (no formula),8,8,3
+kegg.compound:C00043,kegg.compound:C00043,UDP-N-acetyl-alpha-D-glucosamine,contains_N,unclassified N,6,6,3
+chebi:22600,chebi:22600,arabinose phosphate,no_formula,unclassified (no formula),3,3,3
+chebi:25609,chebi:25609,nucleotide-sugar,no_formula,unclassified (no formula),3,3,3
+chebi:26191,chebi:26191,polyol,no_formula,unclassified (no formula),3,3,3
+chebi:35142,chebi:35142,aldotriose phosphate,no_formula,unclassified (no formula),3,3,3
+chebi:46990,chebi:46990,4-amino-4-deoxy-L-arabinose,no_formula,unclassified (no formula),3,3,3
+chebi:53463,chebi:53463,heptasaccharide,no_formula,unclassified (no formula),3,3,3
+chebi:64608,chebi:64608,GDP-fucose,no_formula,unclassified (no formula),3,3,3
+chebi:84880,chebi:84880,GDP-D-mannose,contains_N,unclassified N,3,3,3
+kegg.compound:C00055,kegg.compound:C00055,CMP,contains_N,unclassified N,3,3,3
+kegg.compound:C00105,kegg.compound:C00105,UMP,contains_N,unclassified N,3,3,3
+kegg.compound:C00128,kegg.compound:C00128,CMP-N-acetylneuraminate,contains_N,unclassified N,3,3,3
+kegg.compound:C00167,kegg.compound:C00167,UDP-glucuronate,contains_N,unclassified N,3,3,3
+kegg.compound:C00190,kegg.compound:C00190,UDP-D-xylose,contains_N,unclassified N,3,3,3
+kegg.compound:C00371,kegg.compound:C00371,Zeatin,contains_N,unclassified N,3,3,3
+kegg.compound:C00534,kegg.compound:C00534,Pyridoxamine,contains_N,unclassified N,3,3,3
+kegg.compound:C04083,kegg.compound:C04083,N6-(Delta2-Isopentenyl)-adenine,contains_N,unclassified N,3,3,3
+kegg.compound:C04426,kegg.compound:C04426,UDP-N-acetyl-D-galactosamine 4-sulfate,contains_N,unclassified N,3,3,3
+kegg.compound:C07649,kegg.compound:C07649,5-FU,contains_N,unclassified N,3,3,3
+kegg.compound:C08272,kegg.compound:C08272,Kinetin,contains_N,unclassified N,3,3,3
+kegg.compound:C10126,kegg.compound:C10126,Anatabine,contains_N,unclassified N,3,3,3
+kegg.compound:C11263,kegg.compound:C11263,6-Benzylaminopurine,contains_N,unclassified N,3,3,3
+kegg.compound:C16431,kegg.compound:C16431,trans-Zeatin riboside,contains_N,unclassified N,3,3,3
+kegg.compound:C06687,kegg.compound:C06687,Norfloxacin,contains_N,unclassified N,38,29,2
+kegg.compound:C11189,kegg.compound:C11189,Hoechst 33342,contains_N,unclassified N,37,29,2
+kegg.compound:C07266,kegg.compound:C07266,Nifedipine,contains_N,unclassified N,36,32,2
+kegg.compound:C00915,kegg.compound:C00915,Benzyl viologen,contains_N,unclassified N,28,22,2
+chebi:61650,chebi:61650,"[3)-beta-D-galactopyranuronosyl-(1->3)-2-acetamido-4-amino-2,4,6-trideoxy-alpha-D-glucopyranosyl-(1->4)-beta-D-galactopyranurosyl-(1->]n",contains_N,unclassified N,25,22,2
+chebi:24134,chebi:24134,galactan,no_formula,unclassified (no formula),22,18,2
+chebi:59542,chebi:59542,O-polysaccharide,no_formula,unclassified (no formula),22,18,2
+chebi:89981,chebi:89981,LPS with O-antigen,contains_N,unclassified N,22,18,2
+kegg.compound:C00225,kegg.compound:C00225,Methyl viologen,contains_N,unclassified N,22,17,2
+kegg.compound:C00887,kegg.compound:C00887,Nitrous oxide,contains_N,unclassified N,3,2,2
+chebi:24834,chebi:24834,inorganic anion,no_formula,unclassified (no formula),2,2,2
+chebi:25155,chebi:25155,manganese cation,no_formula,unclassified (no formula),2,2,2
+chebi:74035,chebi:74035,small nuclear RNA,no_formula,unclassified (no formula),2,2,2
+kegg.compound:C00177,kegg.compound:C00177,Cyanide ion,contains_N,unclassified N,2,2,2
+chebi:24104,chebi:24104,fructose,no_formula,unclassified (no formula),27,23,1
+chebi:25679,chebi:25679,oligosaccharide,no_formula,unclassified (no formula),27,23,1
+kegg.compound:C06854,kegg.compound:C06854,Bleomycin A2,contains_N,unclassified N,27,23,1
+kegg.compound:C05005,kegg.compound:C05005,Glycolipid,no_formula,unclassified (no formula),26,21,1
+kegg.compound:C06767,kegg.compound:C06767,Hemine,contains_N,unclassified N,25,22,1
+chebi:27272,chebi:27272,vanadium oxoanion,no_formula,unclassified (no formula),22,19,1
+chebi:31460,chebi:31460,desferrioxamine B mesylate,contains_N,unclassified N,21,18,1
+chebi:48081,chebi:48081,bacteriocin,no_formula,unclassified (no formula),21,18,1
+chebi:61345,chebi:61345,chrysobactin,contains_N,unclassified N,21,18,1
+chebi:84633,chebi:84633,iron(III) vibrioferrin,contains_N,unclassified N,21,18,1
+kegg.compound:C02823,kegg.compound:C02823,Cyanocobalamin,contains_N,unclassified N,21,18,1
+kegg.compound:C06021,kegg.compound:C06021,Co(I) corrinoid protein,contains_N,unclassified N,21,18,1
+kegg.compound:C06940,kegg.compound:C06940,Deferoxamine,contains_N,unclassified N,21,18,1
+kegg.compound:C12268,kegg.compound:C12268,Syringomycin,contains_N,unclassified N,21,18,1
+kegg.compound:C15719,kegg.compound:C15719,Coelichelin,contains_N,unclassified N,21,18,1
+kegg.compound:C00002,kegg.compound:C00002,ATP,contains_N,unclassified N,16,16,1
+kegg.compound:C00044,kegg.compound:C00044,GTP,contains_N,unclassified N,10,10,1
+chebi:14399,chebi:14399,hexose,no_formula,unclassified (no formula),7,7,1
+chebi:23314,chebi:23314,cisplatin,contains_N,unclassified N,7,7,1
+chebi:25407,chebi:25407,monosaccharide,no_formula,unclassified (no formula),7,7,1
+chebi:2580,chebi:2580,unsaturated fatty acid anion,no_formula,unclassified (no formula),3,3,1
+kegg.compound:C00308,kegg.compound:C00308,Canavanine,contains_N,unclassified N,3,3,1
+chebi:11749,chebi:11749,3-O-L-alanyl-1-O-phosphatidylglycerol,contains_N,unclassified N,2,2,1
+chebi:39124,chebi:39124,calcium ion,no_formula,unclassified (no formula),2,2,1
+chebi:61496,chebi:61496,alpha-D-FucNAc4-(1->4)-beta-D-ManNAcA-(1->4)-D-GlcNAc-undecaprenyl diphosphate,contains_N,unclassified N,2,2,1
+chebi:12936,chebi:12936,D-galactose,no_formula,unclassified (no formula),1,1,1
+chebi:22632,chebi:22632,arsenic molecular entity,no_formula,unclassified (no formula),1,1,1
+chebi:23844,chebi:23844,disaccharide,no_formula,unclassified (no formula),1,1,1
+chebi:27093,chebi:27093,tricarboxylic acid,no_formula,unclassified (no formula),1,1,1
+chebi:38083,chebi:38083,malonate ester,no_formula,unclassified (no formula),1,1,1
+chebi:5975,chebi:5975,iron chelate,no_formula,unclassified (no formula),1,1,1
+chebi:60240,chebi:60240,a divalent metal cation,no_formula,unclassified (no formula),1,1,1
+chebi:60270,chebi:60270,caesium ion,no_formula,unclassified (no formula),1,1,1
+chebi:61082,chebi:61082,lipid-linked peptidoglycan,no_formula,unclassified (no formula),1,1,1
+chebi:83353,chebi:83353,eliglustat tartrate,contains_N,unclassified N,1,1,1
+kegg.compound:C00004,kegg.compound:C00004,NADH,contains_N,unclassified N,1,1,1
+kegg.compound:C00005,kegg.compound:C00005,NADPH,contains_N,unclassified N,1,1,1
+kegg.compound:C00954,kegg.compound:C00954,Indole-3-acetate,contains_N,unclassified N,1,1,1
+kegg.compound:C01678,kegg.compound:C01678,Cysteamine,contains_N,unclassified N,1,1,1
+kegg.compound:C05349,kegg.compound:C05349,Ciprofloxacin,contains_N,unclassified N,35,26,0
+kegg.compound:C01912,kegg.compound:C01912,Erythromycin,contains_N,unclassified N,34,25,0
+chebi:22582,chebi:22582,antimicrobial agent,no_formula,unclassified (no formula),32,22,0
+chebi:26672,chebi:26672,siderophore,no_formula,unclassified (no formula),32,22,0
+chebi:25106,chebi:25106,macrolide,no_formula,unclassified (no formula),31,22,0
+chebi:134400,chebi:134400,cationic peptidyl group,no_formula,unclassified (no formula),30,23,0
+kegg.compound:C00397,kegg.compound:C00397,Tobramycin,contains_N,unclassified N,29,22,0
+kegg.compound:C00505,kegg.compound:C00505,Gentamicin,no_formula,unclassified (no formula),29,22,0
+kegg.compound:C00068,kegg.compound:C00068,Thiamin diphosphate,contains_N,unclassified N,28,21,0
+chebi:10085,chebi:10085,xylose,no_formula,unclassified (no formula),26,22,0
+chebi:15093,chebi:15093,glucitol,no_formula,unclassified (no formula),26,22,0
+chebi:24278,chebi:24278,glucoside,no_formula,unclassified (no formula),26,22,0
+chebi:47878,chebi:47878,hexose phosphate,no_formula,unclassified (no formula),26,22,0
+chebi:60979,chebi:60979,alpha-glucoside,no_formula,unclassified (no formula),26,22,0
+kegg.compound:C01907,kegg.compound:C01907,Daunorubicin,contains_N,unclassified N,26,22,0
+kegg.compound:C01996,kegg.compound:C01996,Acetylcholine,contains_N,unclassified N,26,22,0
+kegg.compound:C06912,kegg.compound:C06912,Clarithromycin,contains_N,unclassified N,25,18,0
+chebi:26188,chebi:26188,polyketide,no_formula,unclassified (no formula),23,20,0
+chebi:22601,chebi:22601,arabinoside,no_formula,unclassified (no formula),21,18,0
+chebi:84046,chebi:84046,pyoverdine,no_formula,unclassified (no formula),21,18,0
+chebi:12923,chebi:12923,D-fructose,no_formula,unclassified (no formula),20,17,0
+chebi:13011,chebi:13011,D-ribose,no_formula,unclassified (no formula),20,17,0
+chebi:22605,chebi:22605,arabinitol,no_formula,unclassified (no formula),20,17,0
+chebi:23456,chebi:23456,cyclodextrin,no_formula,unclassified (no formula),20,17,0
+chebi:23636,chebi:23636,deoxyribonucleoside,no_formula,unclassified (no formula),20,17,0
+chebi:24025,chebi:24025,fatty acyl-CoA,contains_N,unclassified N,20,17,0
+chebi:24151,chebi:24151,galactooligosaccharide,no_formula,unclassified (no formula),20,17,0
+chebi:24583,chebi:24583,hexitol,no_formula,unclassified (no formula),20,17,0
+chebi:24852,chebi:24852,insecticide,no_formula,unclassified (no formula),20,17,0
+chebi:25105,chebi:25105,macrolide antibiotic,no_formula,unclassified (no formula),20,17,0
+chebi:27027,chebi:27027,micronutrient,no_formula,unclassified (no formula),20,17,0
+chebi:33839,chebi:33839,macromolecule,no_formula,unclassified (no formula),20,17,0
+chebi:35191,chebi:35191,triterpene,no_formula,unclassified (no formula),20,17,0
+chebi:39185,chebi:39185,thiamethoxam,contains_N,unclassified N,20,17,0
+chebi:39214,chebi:39214,abamectin,no_formula,unclassified (no formula),20,17,0
+chebi:45761,chebi:45761,L-methionine (R)-S-oxide residue,contains_N,unclassified N,20,17,0
+chebi:4705,chebi:4705,dsDNA,no_formula,unclassified (no formula),20,17,0
+chebi:61996,chebi:61996,maltopentaose pentasaccharide,no_formula,unclassified (no formula),20,17,0
+chebi:62009,chebi:62009,maltoheptaose heptasaccharide,no_formula,unclassified (no formula),20,17,0
+chebi:71644,chebi:71644,lantibiotic,no_formula,unclassified (no formula),20,17,0
+chebi:72813,chebi:72813,exopolysaccharide,no_formula,unclassified (no formula),20,17,0
+chebi:83079,chebi:83079,chrysopine,contains_N,unclassified N,20,17,0
+kegg.compound:C00542,kegg.compound:C00542,Cystathionine,contains_N,unclassified N,20,17,0
+kegg.compound:C00624,kegg.compound:C00624,N-Acetyl-L-glutamate,contains_N,unclassified N,20,17,0
+kegg.compound:C01037,kegg.compound:C01037,"7,8-Diaminononanoate",contains_N,unclassified N,20,17,0
+kegg.compound:C01081,kegg.compound:C01081,Thiamin monophosphate,contains_N,unclassified N,20,17,0
+kegg.compound:C01457,kegg.compound:C01457,Tylosin,contains_N,unclassified N,20,17,0
+kegg.compound:C01682,kegg.compound:C01682,Nopaline,contains_N,unclassified N,20,17,0
+kegg.compound:C01834,kegg.compound:C01834,Lipoprotein,contains_N,unclassified N,20,17,0
+kegg.compound:C01946,kegg.compound:C01946,Oleandomycin,contains_N,unclassified N,20,17,0
+kegg.compound:C02248,kegg.compound:C02248,Apocytochrome c,contains_N,unclassified N,20,17,0
+kegg.compound:C02843,kegg.compound:C02843,Long-chain acyl-CoA,contains_N,unclassified N,20,17,0
+kegg.compound:C03557,kegg.compound:C03557,2-Aminoethylphosphonate,contains_N,unclassified N,20,17,0
+kegg.compound:C04137,kegg.compound:C04137,Octopine,contains_N,unclassified N,20,17,0
+kegg.compound:C05996,kegg.compound:C05996,Branched chain fatty acid,no_formula,unclassified (no formula),20,17,0
+kegg.compound:C08275,kegg.compound:C08275,L-Djenkolic acid,contains_N,unclassified N,20,17,0
+kegg.compound:C15686,kegg.compound:C15686,Arthrofactin,contains_N,unclassified N,20,17,0
+kegg.compound:C16692,kegg.compound:C16692,Mannopine,contains_N,unclassified N,20,17,0
+kegg.compound:C22040,kegg.compound:C22040,S-Methyl-L-cysteine,contains_N,unclassified N,20,17,0
+chebi:3933,chebi:3933,crystal violet,contains_N,unclassified N,14,12,0
+kegg.compound:C05080,kegg.compound:C05080,Novobiocin,contains_N,unclassified N,14,12,0
+kegg.compound:C07054,kegg.compound:C07054,Isoniazid,contains_N,unclassified N,14,12,0
+chebi:10426,chebi:10426,a beta-lactam,contains_N,unclassified N,11,9,0
+chebi:23648,chebi:23648,detergent,no_formula,unclassified (no formula),11,9,0
+chebi:34651,chebi:34651,colistin,contains_N,unclassified N,11,9,0
+chebi:37958,chebi:37958,dye,no_formula,unclassified (no formula),11,9,0
+chebi:48219,chebi:48219,disinfectant,no_formula,unclassified (no formula),11,9,0
+kegg.compound:C01965,kegg.compound:C01965,Trimethoprim,contains_N,unclassified N,11,9,0
+kegg.compound:C02078,kegg.compound:C02078,Spectinomycin,contains_N,unclassified N,11,9,0
+kegg.compound:C05079,kegg.compound:C05079,Nalidixic acid,contains_N,unclassified N,11,9,0
+kegg.compound:C06688,kegg.compound:C06688,Rifampicin,contains_N,unclassified N,11,9,0
+kegg.compound:C06922,kegg.compound:C06922,Clotrimazole,contains_N,unclassified N,11,9,0
+kegg.compound:C06979,kegg.compound:C06979,Enoxacin,contains_N,unclassified N,11,9,0
+kegg.compound:C07225,kegg.compound:C07225,Minocycline,contains_N,unclassified N,11,9,0
+kegg.compound:C07315,kegg.compound:C07315,Sulfamethoxazole,contains_N,unclassified N,11,9,0
+kegg.compound:C00008,kegg.compound:C00008,ADP,contains_N,unclassified N,9,9,0
+chebi:33601,chebi:33601,phenosafranine,contains_N,unclassified N,8,8,0
+kegg.compound:C11179,kegg.compound:C11179,Pyronine Y,contains_N,unclassified N,8,8,0
+kegg.compound:C19315,kegg.compound:C19315,Acridine orange,contains_N,unclassified N,8,8,0
+chebi:132950,chebi:132950,tartrate,no_formula,unclassified (no formula),7,7,0
+chebi:50744,chebi:50744,citrate salt,no_formula,unclassified (no formula),7,7,0
+kegg.compound:C01610,kegg.compound:C01610,Puromycin,contains_N,unclassified N,7,7,0
+kegg.compound:C10146,kegg.compound:C10146,Fusaric acid,contains_N,unclassified N,7,7,0
+chebi:108917,chebi:108917,miconazole,no_formula,unclassified (no formula),6,6,0
+chebi:12975,chebi:12975,D-glucuronate,no_formula,unclassified (no formula),6,6,0
+chebi:13800,chebi:13800,acid,no_formula,unclassified (no formula),6,6,0
+chebi:14311,chebi:14311,glucaric acid,no_formula,unclassified (no formula),6,6,0
+chebi:15132,chebi:15132,phospho sugar,no_formula,unclassified (no formula),6,6,0
+chebi:17964,chebi:17964,D-pipecolate,contains_N,unclassified N,6,6,0
+chebi:21376,chebi:21376,rhamnonic acid,no_formula,unclassified (no formula),6,6,0
+chebi:24175,chebi:24175,galacturonate,no_formula,unclassified (no formula),6,6,0
+chebi:24347,chebi:24347,glycerates,no_formula,unclassified (no formula),6,6,0
+chebi:24998,chebi:24998,rac-lactic acid,no_formula,unclassified (no formula),6,6,0
+chebi:25375,chebi:25375,monoamine molecular messenger,no_formula,unclassified (no formula),6,6,0
+chebi:25442,chebi:25442,mycotoxin,no_formula,unclassified (no formula),6,6,0
+chebi:26468,chebi:26468,quaternary ammonium salt,no_formula,unclassified (no formula),6,6,0
+chebi:26570,chebi:26570,ribulose,no_formula,unclassified (no formula),6,6,0
+chebi:26580,chebi:26580,rifamycins,no_formula,unclassified (no formula),6,6,0
+chebi:27150,chebi:27150,trisaccharide,no_formula,unclassified (no formula),6,6,0
+chebi:27269,chebi:27269,valinomycin,contains_N,unclassified N,6,6,0
+chebi:31616,chebi:31616,fludarabine phosphate,contains_N,unclassified N,6,6,0
+chebi:33655,chebi:33655,aromatic compound,no_formula,unclassified (no formula),6,6,0
+chebi:35358,chebi:35358,sulfonamide,contains_N,unclassified N,6,6,0
+chebi:355347,chebi:355347,clofazimine,contains_N,unclassified N,6,6,0
+chebi:41872,chebi:41872,dequalinium,contains_N,unclassified N,6,6,0
+chebi:42526,chebi:42526,fosmidomycin,contains_N,unclassified N,6,6,0
+chebi:43996,chebi:43996,mitoguazone,contains_N,unclassified N,6,6,0
+chebi:44107,chebi:44107,malachite green cation,contains_N,unclassified N,6,6,0
+chebi:47519,chebi:47519,ketoconazole,no_formula,unclassified (no formula),6,6,0
+chebi:48132,chebi:48132,tetracenomycin,no_formula,unclassified (no formula),6,6,0
+chebi:48958,chebi:48958,"1,1^-azobis(N,N-dimethylformamide)",contains_N,unclassified N,6,6,0
+chebi:50434,chebi:50434,alcaligin,contains_N,unclassified N,6,6,0
+chebi:50607,chebi:50607,dityrosine,contains_N,unclassified N,6,6,0
+chebi:546840,chebi:546840,4-nitrophenyl alpha-D-galactoside,contains_N,unclassified N,6,6,0
+chebi:55429,chebi:55429,cephamycin,contains_N,unclassified N,6,6,0
+chebi:55493,chebi:55493,1-O-acylglycerophosphoethanolamine,contains_N,unclassified N,6,6,0
+chebi:61346,chebi:61346,achromobactin,contains_N,unclassified N,6,6,0
+chebi:62488,chebi:62488,signalling molecule,no_formula,unclassified (no formula),6,6,0
+chebi:63611,chebi:63611,moxifloxacin,contains_N,unclassified N,6,6,0
+chebi:8005,chebi:8005,peptidoglycan,no_formula,unclassified (no formula),6,6,0
+chebi:82863,chebi:82863,fenticonazole,no_formula,unclassified (no formula),6,6,0
+chebi:8309,chebi:8309,polymyxin B1,contains_N,unclassified N,6,6,0
+chebi:86390,chebi:86390,3-pyridylacetic acid,contains_N,unclassified N,6,6,0
+chebi:87185,chebi:87185,florfenicol,contains_N,unclassified N,6,6,0
+chebi:90405,chebi:90405,pyronin B,contains_N,unclassified N,6,6,0
+kegg.compound:C00010,kegg.compound:C00010,CoA,contains_N,unclassified N,6,6,0
+kegg.compound:C00024,kegg.compound:C00024,Acetyl-CoA,contains_N,unclassified N,6,6,0
+kegg.compound:C00250,kegg.compound:C00250,Pyridoxal,contains_N,unclassified N,6,6,0
+kegg.compound:C00438,kegg.compound:C00438,N-Carbamoyl-L-aspartate,contains_N,unclassified N,6,6,0
+kegg.compound:C00499,kegg.compound:C00499,Allantoate,contains_N,unclassified N,6,6,0
+kegg.compound:C00547,kegg.compound:C00547,L-Noradrenaline,contains_N,unclassified N,6,6,0
+kegg.compound:C00802,kegg.compound:C00802,Oxalureate,contains_N,unclassified N,6,6,0
+kegg.compound:C00842,kegg.compound:C00842,dTDP-glucose,contains_N,unclassified N,6,6,0
+kegg.compound:C01009,kegg.compound:C01009,UDP-2-deoxyglucose,contains_N,unclassified N,6,6,0
+kegg.compound:C01705,kegg.compound:C01705,Glyphosate,contains_N,unclassified N,6,6,0
+kegg.compound:C01736,kegg.compound:C01736|kegg.compound:C15586,N-D-Ribosylpurine|Nebularine,contains_N,unclassified N,6,6,0
+kegg.compound:C03474,kegg.compound:C03474,4-Nitroquinoline N-oxide,contains_N,unclassified N,6,6,0
+kegg.compound:C04452,kegg.compound:C04452,4-Nitrophenol-alpha-D-galactopyranoside,contains_N,unclassified N,6,6,0
+kegg.compound:C05324,kegg.compound:C05324,Nicotianamine,contains_N,unclassified N,6,6,0
+kegg.compound:C05557,kegg.compound:C05557,Isopenicillin N,contains_N,unclassified N,6,6,0
+kegg.compound:C05799,kegg.compound:C05799,Bacteriochlorophylls,no_formula,unclassified (no formula),6,6,0
+kegg.compound:C06371,kegg.compound:C06371,Lacto-N-tetraose,contains_N,unclassified N,6,6,0
+kegg.compound:C06527,kegg.compound:C06527,Quinidine,contains_N,unclassified N,6,6,0
+kegg.compound:C06564,kegg.compound:C06564,Penicillin N,contains_N,unclassified N,6,6,0
+kegg.compound:C06681,kegg.compound:C06681,Mitomycin,contains_N,unclassified N,6,6,0
+kegg.compound:C06821,kegg.compound:C06821,Amiloride,contains_N,unclassified N,6,6,0
+kegg.compound:C06902,kegg.compound:C06902,Chlorhexidine,contains_N,unclassified N,6,6,0
+kegg.compound:C06984,kegg.compound:C06984,Ethambutol,contains_N,unclassified N,6,6,0
+kegg.compound:C07177,kegg.compound:C07177,Methicillin,contains_N,unclassified N,6,6,0
+kegg.compound:C07648,kegg.compound:C07648,Thioguanine,contains_N,unclassified N,6,6,0
+kegg.compound:C07658,kegg.compound:C07658,Sulfadiazine,contains_N,unclassified N,6,6,0
+kegg.compound:C07662,kegg.compound:C07662,Sparfloxacin,contains_N,unclassified N,6,6,0
+kegg.compound:C08146,kegg.compound:C08146,Linezolid,contains_N,unclassified N,6,6,0
+kegg.compound:C08511,kegg.compound:C08511,Tenuazonic acid,contains_N,unclassified N,6,6,0
+kegg.compound:C10896,kegg.compound:C10896,Benomyl,contains_N,unclassified N,6,6,0
+kegg.compound:C11164,kegg.compound:C11164,CCCP,contains_N,unclassified N,6,6,0
+kegg.compound:C11169,kegg.compound:C11169,Sulfathiazole,contains_N,unclassified N,6,6,0
+kegg.compound:C11259,kegg.compound:C11259,Bicozamycin,contains_N,unclassified N,6,6,0
+kegg.compound:C11261,kegg.compound:C11261,Amitrole,contains_N,unclassified N,6,6,0
+kegg.compound:C11299,kegg.compound:C11299,Virginiamycin M1,contains_N,unclassified N,6,6,0
+kegg.compound:C11615,kegg.compound:C11615,Pristinamycin IA,contains_N,unclassified N,6,6,0
+kegg.compound:C12044,kegg.compound:C12044,Rifamycin,contains_N,unclassified N,6,6,0
+kegg.compound:C12112,kegg.compound:C12112,Validamycin A,contains_N,unclassified N,6,6,0
+kegg.compound:C12853,kegg.compound:C12853,Thiamphenicol,contains_N,unclassified N,6,6,0
+kegg.compound:C14531,kegg.compound:C14531,Azomycin,contains_N,unclassified N,6,6,0
+kegg.compound:C18460,kegg.compound:C18460,Echlomezole,contains_N,unclassified N,6,6,0
+kegg.compound:C20942,kegg.compound:C20942,Bacilysin,contains_N,unclassified N,6,6,0
+kegg.compound:C21476,kegg.compound:C21476,Phenazine,contains_N,unclassified N,6,6,0
+kegg.compound:C22102,kegg.compound:C22102,Staphyloferrin A,contains_N,unclassified N,6,6,0
+chebi:22479,chebi:22479,amino cyclitol glycoside,no_formula,unclassified (no formula),5,5,0
+chebi:31466,chebi:31466,dequalinium chloride,contains_N,unclassified N,5,5,0
+chebi:3745,chebi:3745,clindamycin,contains_N,unclassified N,5,5,0
+chebi:43968,chebi:43968,meropenem,contains_N,unclassified N,5,5,0
+chebi:46634,chebi:46634,carbapenemcarboxylic acid,no_formula,unclassified (no formula),5,5,0
+chebi:59375,chebi:59375,glycopeptidolipid,no_formula,unclassified (no formula),5,5,0
+chebi:60486,chebi:60486,trehalose monomycolate,no_formula,unclassified (no formula),5,5,0
+chebi:62545,chebi:62545,"acyl alpha,alpha-trehalose",no_formula,unclassified (no formula),5,5,0
+chebi:7507,chebi:7507,neomycin,no_formula,unclassified (no formula),5,5,0
+chebi:83169,chebi:83169,N-acyl homoserine lactone,contains_N,unclassified N,5,5,0
+kegg.compound:C06665,kegg.compound:C06665,Imipenem,contains_N,unclassified N,5,5,0
+kegg.compound:C06820,kegg.compound:C06820,Amikacin,contains_N,unclassified N,5,5,0
+kegg.compound:C06838,kegg.compound:C06838,Azithromycin,contains_N,unclassified N,5,5,0
+kegg.compound:C06840,kegg.compound:C06840,Aztreonam,contains_N,unclassified N,5,5,0
+kegg.compound:C06869,kegg.compound:C06869,Carbenicillin,contains_N,unclassified N,5,5,0
+kegg.compound:C06883,kegg.compound:C06883,Cefoperazone,contains_N,unclassified N,5,5,0
+kegg.compound:C06885,kegg.compound:C06885,Cefotaxime,contains_N,unclassified N,5,5,0
+kegg.compound:C06889,kegg.compound:C06889,Ceftazidime,contains_N,unclassified N,5,5,0
+kegg.compound:C06923,kegg.compound:C06923,Cloxacillin,contains_N,unclassified N,5,5,0
+kegg.compound:C07321,kegg.compound:C07321,Ofloxacin,contains_N,unclassified N,5,5,0
+kegg.compound:C07458,kegg.compound:C07458,Sulfanilamide,contains_N,unclassified N,5,5,0
+kegg.compound:C07660,kegg.compound:C07660,Levofloxacin,contains_N,unclassified N,5,5,0
+kegg.compound:C08111,kegg.compound:C08111,Cefepime,contains_N,unclassified N,5,5,0
+kegg.compound:C12012,kegg.compound:C12012,Tigecycline,contains_N,unclassified N,5,5,0
+kegg.compound:C14034,kegg.compound:C14034,Piperacillin,contains_N,unclassified N,5,5,0
+kegg.compound:C20141,kegg.compound:C20141,Acridine,contains_N,unclassified N,5,5,0
+chebi:75980,chebi:75980,single-stranded DNA polynucleotide,no_formula,unclassified (no formula),4,4,0
+chebi:132153,chebi:132153,hyaluronan,contains_N,unclassified N,3,3,0
+chebi:13962,chebi:13962|kegg.compound:C00461,Chitin|chitin,contains_N,unclassified N,3,3,0
+chebi:26470,chebi:26470,a quaternary ammonium,contains_N,unclassified N,3,3,0
+chebi:32915,chebi:32915,cetylpyridinium chloride,contains_N,unclassified N,3,3,0
+chebi:34994,chebi:34994,teicoplanin A2,contains_N,unclassified N,3,3,0
+chebi:39561,chebi:39561,cetyltrimethylammonium ion,contains_N,unclassified N,3,3,0
+chebi:79296,chebi:79296,indigoidine,contains_N,unclassified N,3,3,0
+kegg.compound:C00015,kegg.compound:C00015,UDP,contains_N,unclassified N,3,3,0
+kegg.compound:C00021,kegg.compound:C00021,S-Adenosyl-L-homocysteine,contains_N,unclassified N,3,3,0
+kegg.compound:C00035,kegg.compound:C00035,GDP,contains_N,unclassified N,3,3,0
+kegg.compound:C00052,kegg.compound:C00052,UDP-alpha-D-galactose,contains_N,unclassified N,3,3,0
+kegg.compound:C00075,kegg.compound:C00075,UTP,contains_N,unclassified N,3,3,0
+kegg.compound:C00745,kegg.compound:C00745,Nicotine,contains_N,unclassified N,3,3,0
+kegg.compound:C07151,kegg.compound:C07151,Metformin,contains_N,unclassified N,3,3,0
+kegg.compound:C11181,kegg.compound:C11181,Proflavine,contains_N,unclassified N,3,3,0
+kegg.compound:C11275,kegg.compound:C11275,Cetyltrimethylammonium bromide,contains_N,unclassified N,3,3,0
+kegg.compound:C17349,kegg.compound:C17349,Guanidine,contains_N,unclassified N,3,3,0
+kegg.compound:C04832,kegg.compound:C04832,Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide,contains_N,unclassified N,2,2,0
+kegg.compound:C11904,kegg.compound:C11904,Dihydromethanophenazine,contains_N,unclassified N,2,2,0
+chebi:10800,chebi:10800,"(1,4-beta-D-glucosyl)n",no_formula,unclassified (no formula),1,1,0
+chebi:14407,chebi:14407,cytochrome c,no_formula,unclassified (no formula),1,1,0
+chebi:22921,chebi:22921,brassinosteroid,no_formula,unclassified (no formula),1,1,0
+chebi:27092,chebi:27092,tricarboxylic acid trianion,no_formula,unclassified (no formula),1,1,0
+chebi:27350,chebi:27350,xyloside,no_formula,unclassified (no formula),1,1,0
+chebi:29699,chebi:29699,tunicamycin,contains_N,unclassified N,1,1,0
+chebi:35312,chebi:35312,pentoside,no_formula,unclassified (no formula),1,1,0
+chebi:60479,chebi:60479,monoacylglycero-3-phosphocholine,contains_N,unclassified N,1,1,0
+chebi:63248,chebi:63248,oxidising agent,no_formula,unclassified (no formula),1,1,0
+kegg.compound:C02989,kegg.compound:C02989,L-Methionine S-oxide,contains_N,unclassified N,1,1,0
+kegg.compound:C20386,kegg.compound:C20386,Biotin sulfoxide,contains_N,unclassified N,1,1,0

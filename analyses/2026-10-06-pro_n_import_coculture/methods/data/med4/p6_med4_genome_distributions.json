@@ -1,0 +1,68 @@
+{
+ "all_systems": {
+  "n": 320,
+  "role_complete": {
+   "false": 275,
+   "true": 45
+  },
+  "role_complete_by_type": {
+   "false": {
+    "multi_gene": 15,
+    "single_gene": 260
+   },
+   "true": {
+    "multi_gene": 9,
+    "single_gene": 36
+   }
+  },
+  "evidence_class_by_type": {
+   "all_family_inferred": {
+    "multi_gene": 9,
+    "single_gene": 27
+   },
+   "any_homology": {
+    "multi_gene": 15,
+    "single_gene": 259
+   },
+   "no_tcdb": {
+    "multi_gene": 0,
+    "single_gene": 10
+   }
+  }
+ },
+ "systems_with_a_strong_likely_transporter_member": {
+  "n": 79,
+  "role_complete": {
+   "true": 45,
+   "false": 34
+  },
+  "evidence_class_by_type": {
+   "all_family_inferred": {
+    "multi_gene": 8,
+    "single_gene": 24
+   },
+   "any_homology": {
+    "multi_gene": 7,
+    "single_gene": 37
+   },
+   "no_tcdb": {
+    "multi_gene": 0,
+    "single_gene": 3
+   }
+  },
+  "homology_score_gt0_by_type": {
+   "false": {
+    "multi_gene": 9,
+    "single_gene": 30
+   },
+   "true": {
+    "multi_gene": 6,
+    "single_gene": 34
+   }
+  },
+  "max_score_by_type_median": {
+   "multi_gene": 0.8,
+   "single_gene": 0.6
+  }
+ }
+}

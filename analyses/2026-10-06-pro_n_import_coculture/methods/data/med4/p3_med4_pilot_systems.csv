@@ -1,0 +1,141 @@
+variant,case,locus_tag,in_universe,system_id,system_members,joined_by
+gap100_roleT_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleT_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleT_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleT_crossT,cyn,PMM0373,False,,,
+gap100_roleT_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleT_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleT_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleT_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleT_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleT_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleT_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleT_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleT_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleT_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap100_roleT_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleT_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleT_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleT_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleT_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap100_roleT_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap100_roleF_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleF_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleF_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap100_roleF_crossT,cyn,PMM0373,False,,,
+gap100_roleF_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleF_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleF_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleF_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleF_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap100_roleF_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleF_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleF_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleF_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap100_roleF_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap100_roleF_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleF_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleF_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleF_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap100_roleF_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap100_roleF_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap200_roleT_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossT,cyn,PMM0373,False,,,
+gap200_roleT_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleT_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleT_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleT_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleT_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap200_roleT_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleT_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleT_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleT_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleT_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap200_roleT_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap200_roleF_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleF_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleF_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleF_crossT,cyn,PMM0373,False,,,
+gap200_roleF_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleF_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleF_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleF_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleF_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleF_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleF_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleF_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleF_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap200_roleF_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap200_roleF_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleF_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleF_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleF_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap200_roleF_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap200_roleF_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap500_roleT_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleT_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleT_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleT_crossT,cyn,PMM0373,False,,,
+gap500_roleT_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleT_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleT_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleT_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleT_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleT_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleT_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleT_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleT_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleT_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap500_roleT_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleT_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleT_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleT_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleT_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap500_roleT_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap500_roleF_crossT,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleF_crossT,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleF_crossT,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap500_roleF_crossT,cyn,PMM0373,False,,,
+gap500_roleF_crossT,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleF_crossT,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleF_crossT,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleF_crossT,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleF_crossT,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap500_roleF_crossT,dpp,PMM1049,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleF_crossT,dpp,PMM1048,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleF_crossT,dpp,PMM0421,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleF_crossT,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,cross_locus|tcdb_level3
+gap500_roleF_crossT,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap500_roleF_crossT,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleF_crossT,pst,PMM0723,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleF_crossT,pst,PMM0724,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleF_crossT,pst,PMM0725,True,sys_PMM0710,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,cross_locus|tcdb_level3
+gap500_roleF_crossT,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap500_roleF_crossT,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,
+gap200_roleT_crossF,cyn,PMM0370,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossF,cyn,PMM0371,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossF,cyn,PMM0372,True,sys_PMM0370,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,tcdb_level3
+gap200_roleT_crossF,cyn,PMM0373,False,,,
+gap200_roleT_crossF,urt,PMM0970,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossF,urt,PMM0971,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossF,urt,PMM0972,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossF,urt,PMM0973,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossF,urt,PMM0974,True,sys_PMM0970,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,tcdb_level3
+gap200_roleT_crossF,dpp,PMM1049,True,sys_PMM1048,PMM1048:dppB | PMM1049:dppA,tcdb_level3
+gap200_roleT_crossF,dpp,PMM1048,True,sys_PMM1048,PMM1048:dppB | PMM1049:dppA,tcdb_level3
+gap200_roleT_crossF,dpp,PMM0421,True,sys_PMM0421,PMM0421:dppC,
+gap200_roleT_crossF,dpp,PMM0192,True,sys_PMM0192,PMM0192:ddpD,
+gap200_roleT_crossF,amt1,PMM0263,True,sys_PMM0263,PMM0263:amt1,
+gap200_roleT_crossF,pst,PMM0710,True,sys_PMM0710,PMM0710:pstS,
+gap200_roleT_crossF,pst,PMM0723,True,sys_PMM0723,PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,tcdb_level3
+gap200_roleT_crossF,pst,PMM0724,True,sys_PMM0723,PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,tcdb_level3
+gap200_roleT_crossF,pst,PMM0725,True,sys_PMM0723,PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,tcdb_level3
+gap200_roleT_crossF,salY,PMM0913,True,sys_PMM0913,PMM0913:salY,
+gap200_roleT_crossF,fadD,PMM0402,True,sys_PMM0402,PMM0402:fadD,

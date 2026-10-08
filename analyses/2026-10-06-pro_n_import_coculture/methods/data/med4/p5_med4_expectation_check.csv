@@ -1,0 +1,3 @@
+compound,groups,expected_usable,genome_genes,n_rows,can_use_window_observed,can_use_run_observed,can_use_window_pass,can_use_run_pass
+nitrate,chebi:14654,False,,43,"{""no"": 43}","{""no"": 43}",True,True
+nitrite,kegg.compound:C00088,False,,29,"{""no"": 29}","{""no"": 29}",True,True

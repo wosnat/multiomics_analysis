@@ -1,0 +1,36 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus MIT9313",
+ "universe_file": "p2c_mit9313_universe.csv",
+ "role_map_hash": "05a6ad5f7cec3ab7",
+ "n_universe_genes": 539,
+ "n_domains": 516,
+ "domains_by_role": {
+  "other": 452,
+  "single_carrier": 32,
+  "permease": 14,
+  "substrate_binding": 12,
+  "atpase": 6
+ },
+ "genes_by_role": {
+  "other": 398,
+  "single_carrier": 54,
+  "permease": 28,
+  "atpase": 27,
+  "mixed": 16,
+  "substrate_binding": 16
+ },
+ "likely_transporter_counts": {
+  "tcdb_only": 216,
+  "strong": 179,
+  "none": 144
+ },
+ "seed_conflicts": [
+  {
+   "pfam_id": "pfam:PF08352",
+   "pfam_name": "Oligopeptide/dipeptide transporter, C-terminal region",
+   "seed_role": "atpase",
+   "name_rule_role": "other"
+  }
+ ]
+}

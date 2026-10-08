@@ -1,0 +1,7 @@
+anchor_locus_tag,neighbor_locus_tag,rank_offset,bp_gap,strand,same_strand,product,gene_name,gene_category
+PMM0371,PMM1834,-3,2670,-,False,Conserved hypothetical protein,,Unknown
+PMM0371,PMM0369,-2,2163,+,True,conserved hypothetical protein,,Translation
+PMM0371,PMM0370,-1,30,+,True,"cyanate ABC transporter, substrate-binding protein",cynA,Central intermediary metabolism
+PMM0371,PMM0372,1,16,+,True,cyanate ABC transporter ATP-binding protein,cynD,Central intermediary metabolism
+PMM0371,PMM0373,2,903,+,True,cyanate hydratase,cynS,Central intermediary metabolism
+PMM0371,PMM0374,3,1431,-,False,"twin arginine-targeting translocase, TatA/E family protein",tatA,Post-translational modification

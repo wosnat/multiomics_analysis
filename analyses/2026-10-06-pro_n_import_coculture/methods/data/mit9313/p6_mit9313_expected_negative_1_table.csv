@@ -1,0 +1,3 @@
+compound,groups,expected_usable,genome_genes,n_rows,can_use_window_observed,can_use_run_observed,can_use_window_ms_observed,can_use_run_ms_observed,can_use_window_pass,can_use_run_pass,can_use_window_ms_pass,can_use_run_ms_pass
+nitrate,chebi:14654,False,,78,"{""no"": 78}","{""no"": 78}","{""not_eligible"": 58, ""no"": 20}","{""not_eligible"": 58, ""no"": 20}",True,True,True,True
+nitrite,kegg.compound:C00088,True,PMT2239,42,"{""elsewhere in genome"": 41, ""co-located"": 1}","{""elsewhere in genome"": 41, ""co-located"": 1}","{""not_eligible"": 41, ""elsewhere in genome"": 1}","{""not_eligible"": 41, ""elsewhere in genome"": 1}",True,True,True,True

@@ -1,0 +1,152 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus MIT9313",
+ "role_map_hash": "05a6ad5f7cec3ab7",
+ "window": 8,
+ "runs_gap": 200,
+ "n_systems": 470,
+ "n_candidate_rows": 8034,
+ "n_candidate_genes": 2423,
+ "rows_by_class": {
+  "context": 3364,
+  "enzyme_candidate": 2440,
+  "other_system": 1862,
+  "no_coordinates": 368
+ },
+ "genes_by_class": {
+  "context": 1057,
+  "enzyme_candidate": 697,
+  "other_system": 514,
+  "no_coordinates": 155
+ },
+ "missing_subunit_genes": [],
+ "no_coordinate_genes_total": 517,
+ "no_coordinate_placeability": {
+  "prefix_shared_not_within_window": 361,
+  "placed": 156
+ },
+ "no_coordinate_candidate_rows": 368,
+ "enzyme_candidate_genes": 697,
+ "enzyme_metabolite_rows": 2799,
+ "enzyme_metabolite_rows_by_n_status": {
+  "contains_N": 1575,
+  "no_N": 1190,
+  "no_formula": 34
+ },
+ "calls": [
+  {
+   "call": "gene_ontology_terms(candidates, pfam/kegg/ec)",
+   "n_calls": 9,
+   "total_matching": 7551,
+   "returned": 7551,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "locus_tags": "<list of 2423>",
+    "organism": "Prochlorococcus MIT9313",
+    "ontology": [
+     "pfam",
+     "kegg",
+     "ec",
+     "cyanorak_role"
+    ]
+   }
+  },
+  {
+   "call": "gene_details(candidates)",
+   "n_calls": 9,
+   "total_matching": 2423,
+   "returned": 2423,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "locus_tags": "<list of 2423>"
+   }
+  },
+  {
+   "call": "metabolites_by_gene(enzyme candidates, metabolism, no element filter)",
+   "n_calls": 14,
+   "total_matching": 4132,
+   "returned": 4132,
+   "limit": 1000000,
+   "natural_key": [
+    "locus_tag",
+    "metabolite_id",
+    "reaction_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "locus_tags": [],
+    "organism": null,
+    "metabolite_ids": [],
+    "metabolite_pathway_ids": [],
+    "metabolite_elements": []
+   },
+   "not_matched_n": 268,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "locus_tags": "<list of 697>",
+    "organism": "Prochlorococcus MIT9313",
+    "evidence_sources": [
+     "metabolism"
+    ]
+   }
+  },
+  {
+   "call": "list_metabolites(enzyme-side ids, verbose)",
+   "n_calls": 3,
+   "total_matching": 936,
+   "returned": 936,
+   "limit": "None",
+   "natural_key": [
+    "metabolite_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": {
+    "metabolite_ids": [],
+    "organism_names": [],
+    "pathway_ids": [],
+    "elements": []
+   },
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "metabolite_ids": "<list of 936>",
+    "verbose": true
+   }
+  }
+ ]
+}

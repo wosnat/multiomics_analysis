@@ -1,0 +1,518 @@
+locus_tag,product,gene_category,status
+PMT0064,aspartate-semialdehyde dehydrogenase,Amino acid metabolism,no_coordinates
+PMT0111,putative SecA-type protein translocase,Unknown,no_coordinates
+PMT0167,hypothetical protein,Unknown,no_coordinates
+PMT0169,possible Chitin synthase,Unknown,no_coordinates
+PMT0248,possible Lysyl hydrolase,Unknown,no_coordinates
+PMT0275,"bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase",Coenzyme metabolism,no_coordinates
+PMT0276,"bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase",Coenzyme metabolism,no_coordinates
+PMT0279,conserved hypothetical protein,Unknown,no_coordinates
+PMT0281,"possible Resolvase, N terminal domain",Unknown,no_coordinates
+PMT0282,uncharacterized membrane protein,Unknown,no_coordinates
+PMT0288,hypothetical protein,Unknown,no_coordinates
+PMT0292,hypothetical protein,Unknown,no_coordinates
+PMT0297,putative nuclease,Replication and repair,no_coordinates
+PMT0306,hypothetical protein,Unknown,no_coordinates
+PMT0317,oxygen-independent coproporphyrinogen III oxidase,Coenzyme metabolism,no_coordinates
+PMT0324,conserved hypothetical protein,Unknown,no_coordinates
+PMT0383,possible Carbohydrate phosphorylase,Unknown,no_coordinates
+PMT0410,conserved hypothetical protein,Unknown,no_coordinates
+PMT0451,hypothetical protein,Unknown,no_coordinates
+PMT0452,conserved hypothetical protein,Unknown,no_coordinates
+PMT0461,nif11-like leader peptide and RmlC-like bi-domain protein,Unknown,no_coordinates
+PMT0476,putative membrane protein,Cell wall and membrane,no_coordinates
+PMT0477,putative membrane protein,Cell wall and membrane,no_coordinates
+PMT0487,possible Fibronectin type I domain,Unknown,no_coordinates
+PMT0498,putative gram-negative pili assembly chaperone,Stress response and adaptation,no_coordinates
+PMT0500,conserved hypothetical protein,Unknown,no_coordinates
+PMT0563,conserved hypothetical protein,Unknown,no_coordinates
+PMT0614,hypothetical protein,Unknown,no_coordinates
+PMT0622,putative outer membrane autotransporter barrel,Transport,no_coordinates
+PMT0631,conserved hypothetical protein,Unknown,no_coordinates
+PMT0637,conserved hypothetical protein,Unknown,no_coordinates
+PMT0670,conserved hypothetical protein,Unknown,no_coordinates
+PMT0734,"RNA polymerase sigma factor, type III",Transcription,no_coordinates
+PMT0768,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT0800,hypothetical protein,Unknown,no_coordinates
+PMT0833,conserved hypothetical protein,Unknown,no_coordinates
+PMT0837,putative 3-methyladenine DNA glycosylase domain protein,Cellular processes,no_coordinates
+PMT0839,hypothetical protein,Unknown,no_coordinates
+PMT0849,hypothetical protein,Unknown,no_coordinates
+PMT0882,hypothetical protein,Unknown,no_coordinates
+PMT0906,hypothetical protein,Unknown,no_coordinates
+PMT0911,conserved hypothetical protein,Unknown,no_coordinates
+PMT0944,hypothetical protein,Unknown,no_coordinates
+PMT0947,hypothetical protein,Unknown,no_coordinates
+PMT0957,conserved hypothetical protein,Unknown,no_coordinates
+PMT0960,conserved hypothetical protein,Unknown,no_coordinates
+PMT0963,conserved hypothetical protein,Unknown,no_coordinates
+PMT0968,hypothetical protein,Unknown,no_coordinates
+PMT0969,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT0970,possible Herpesvirus VP23 like capsid protein,Unknown,no_coordinates
+PMT0973,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT0984,"possible Neurohypophysial hormones, C-terminal",Unknown,no_coordinates
+PMT1006,possible Cystine-knot domain,Unknown,no_coordinates
+PMT1018,hypothetical protein,Unknown,no_coordinates
+PMT1020,conserved hypothetical protein,Unknown,no_coordinates
+PMT1021,hypothetical protein,Unknown,no_coordinates
+PMT1023,hypothetical protein,Unknown,no_coordinates
+PMT1036,conserved hypothetical protein,Unknown,no_coordinates
+PMT1049,methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase (FADH(2)-oxidizing),Translation,no_coordinates
+PMT1050,methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase (FADH(2)-oxidizing),Translation,no_coordinates
+PMT1115,"possible Transcription initiation factor IIA, gam",Unknown,no_coordinates
+PMT1117,conserved hypothetical protein,Unknown,no_coordinates
+PMT1129,16S rRNA m2G966 methyltransferase,Translation,no_coordinates
+PMT1152,high light inducible protein,Stress response and adaptation,no_coordinates
+PMT1277,hypothetical protein,Unknown,no_coordinates
+PMT1286,possible Glycosyl hydrolase family 11,Unknown,no_coordinates
+PMT1321,conserved hypothetical protein,Unknown,no_coordinates
+PMT1336,conserved hypothetical protein,Unknown,no_coordinates
+PMT1383,conserved hypothetical protein,Unknown,no_coordinates
+PMT1385,hypothetical protein,Unknown,no_coordinates
+PMT1387,conserved hypothetical protein,Unknown,no_coordinates
+PMT1389,hypothetical protein,Unknown,no_coordinates
+PMT1390,hypothetical protein,Unknown,no_coordinates
+PMT1465,hypothetical protein,Unknown,no_coordinates
+PMT1492,hypothetical protein,Unknown,no_coordinates
+PMT1529,possible (AF261103) unknown,Unknown,no_coordinates
+PMT1530,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT1533,hypothetical protein,Unknown,no_coordinates
+PMT1566,hypothetical protein,Unknown,no_coordinates
+PMT1571,hypothetical protein,Unknown,no_coordinates
+PMT1597,putative ATP-dependent protease,Regulatory functions,no_coordinates
+PMT1598,putative ATP-dependent protease,Regulatory functions,no_coordinates
+PMT1599,putative ATP-dependent protease,Regulatory functions,no_coordinates
+PMT1609,possible DNA-3-methyladenine glycosylase (3-methyladenine DNA...,Unknown,no_coordinates
+PMT1611,hypothetical protein,Unknown,no_coordinates
+PMT1658,Hypothetical protein,Unknown,no_coordinates
+PMT1684,conserved hypothetical protein,Unknown,no_coordinates
+PMT1698,possible WRKY DNA-binding domain,Unknown,no_coordinates
+PMT1796,conserved hypothetical protein,Stress response and adaptation,no_coordinates
+PMT1812,hypothetical protein,Unknown,no_coordinates
+PMT1906,conserved hypothetical protein,Unknown,no_coordinates
+PMT1923,hypothetical protein,Unknown,no_coordinates
+PMT1924,hypothetical protein,Unknown,no_coordinates
+PMT1932,possible heme oxygenase,Coenzyme metabolism,no_coordinates
+PMT1936,conserved hypothetical protein,Unknown,no_coordinates
+PMT1941,hypothetical protein,Unknown,no_coordinates
+PMT2025,possible Fungal Zn(2)-Cys(6) binuclear cluster,Unknown,no_coordinates
+PMT2053,hypothetical protein,Unknown,no_coordinates
+PMT2063,peptide chain release factor 2,Translation,no_coordinates
+PMT2078,conserved hypothetical protein,Unknown,no_coordinates
+PMT2112,possible Alanine racemase,Unknown,no_coordinates
+PMT2133,hypothetical protein,Unknown,no_coordinates
+PMT2206,conserved hypothetical protein,Unknown,no_coordinates
+PMT2232,urease accessory protein UreE,Stress response and adaptation,no_coordinates
+PMT2256,putative glutamate dehydrogenase,Unknown,no_coordinates
+PMT2278,NADH dehydrogenase subunit NdhP,Carbohydrate metabolism,no_coordinates
+PMT2281,conserved hypothetical protein,Unknown,no_coordinates
+PMT2282,"conserved hypothetical protein, Prochlorococcus-specific",Unknown,no_coordinates
+PMT2283,conserved hypothetical protein,Unknown,no_coordinates
+PMT50019,photosystem II biogenesis protein Psb30,Photosynthesis,no_coordinates
+PMT50040,conserved hypothetical protein,Unknown,no_coordinates
+PMT_1210,conserved hypothetical protein,Unknown,no_coordinates
+PMT_1222,hypothetical,Unknown,no_coordinates
+PMT_2277,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2278,Hypothetical protein,Unknown,no_coordinates
+PMT_2279,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2280,Hypothetical protein,Unknown,no_coordinates
+PMT_2281,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2283,Hypothetical protein,Unknown,no_coordinates
+PMT_2284,Hypothetical protein,Unknown,no_coordinates
+PMT_2286,Hypothetical protein,Unknown,no_coordinates
+PMT_2288,Hypothetical protein,Unknown,no_coordinates
+PMT_2289,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2294,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2306,Hypothetical protein,Unknown,no_coordinates
+PMT_2308,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2309,Hypothetical protein,Unknown,no_coordinates
+PMT_2311,Hypothetical protein,Unknown,no_coordinates
+PMT_2312,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2313,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2316,Hypothetical protein,Unknown,no_coordinates
+PMT_2317,Hypothetical protein,Unknown,no_coordinates
+PMT_2318,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2319,Hypothetical protein,Unknown,no_coordinates
+PMT_2321,Hypothetical protein,Unknown,no_coordinates
+PMT_2322,Hypothetical protein,Unknown,no_coordinates
+PMT_2326,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2328,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2329,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2330,Hypothetical protein,Unknown,no_coordinates
+PMT_2331,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2334,Hypothetical protein,Unknown,no_coordinates
+PMT_2336,Hypothetical protein,Unknown,no_coordinates
+PMT_2340,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2341,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2342,Hypothetical protein,Unknown,no_coordinates
+PMT_2344,Hypothetical protein,Unknown,no_coordinates
+PMT_2345,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT_2346,Hypothetical protein,Unknown,no_coordinates
+PMT_2348,Hypothetical protein,Unknown,no_coordinates
+PMT_2349,Hypothetical protein,Unknown,no_coordinates
+PMT_2352,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2353,Hypothetical protein,Unknown,no_coordinates
+PMT_2355,"MFS transporter, sugar porter family protein",Transport,no_coordinates
+PMT_2356,Hypothetical protein,Unknown,no_coordinates
+PMT_2359,NADH dehydrogenase subunit NdhQ,Carbohydrate metabolism,no_coordinates
+PMT_2360,Hypothetical protein,Unknown,no_coordinates
+PMT_2361,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2363,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2364,Hypothetical protein,Unknown,no_coordinates
+PMT_2365,Hypothetical protein,Unknown,no_coordinates
+PMT_2366,Hypothetical protein,Unknown,no_coordinates
+PMT_2367,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2368,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2369,Hypothetical protein,Unknown,no_coordinates
+PMT_2370,Hypothetical protein,Unknown,no_coordinates
+PMT_2371,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2372,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2373,Hypothetical protein,Unknown,no_coordinates
+PMT_2374,Hypothetical protein,Unknown,no_coordinates
+PMT_2375,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2377,Hypothetical protein,Unknown,no_coordinates
+PMT_2379,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2380,Hypothetical protein,Unknown,no_coordinates
+PMT_2381,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2383,Hypothetical protein,Unknown,no_coordinates
+PMT_2384,Hypothetical protein,Unknown,no_coordinates
+PMT_2386,Hypothetical protein,Unknown,no_coordinates
+PMT_2387,Hypothetical protein,Unknown,no_coordinates
+PMT_2388,Hypothetical protein,Unknown,no_coordinates
+PMT_2389,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2390,Hypothetical protein,Unknown,no_coordinates
+PMT_2391,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2392,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2393,Hypothetical protein,Unknown,no_coordinates
+PMT_2394,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2398,Hypothetical protein,Unknown,no_coordinates
+PMT_2400,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2401,Hypothetical protein,Unknown,no_coordinates
+PMT_2402,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2403,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2404,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2405,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2407,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2408,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2409,Hypothetical protein,Unknown,no_coordinates
+PMT_2410,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2411,Hypothetical protein,Unknown,no_coordinates
+PMT_2413,Hypothetical protein,Unknown,no_coordinates
+PMT_2414,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2415,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2420,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2422,Hypothetical protein,Unknown,no_coordinates
+PMT_2424,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2425,Hypothetical protein,Unknown,no_coordinates
+PMT_2426,Hypothetical protein,Unknown,no_coordinates
+PMT_2427,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2431,Hypothetical protein,Unknown,no_coordinates
+PMT_2432,Hypothetical protein,Unknown,no_coordinates
+PMT_2433,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2434,Hypothetical protein,Unknown,no_coordinates
+PMT_2435,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2436,Hypothetical protein,Unknown,no_coordinates
+PMT_2437,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2439,Hypothetical protein,Unknown,no_coordinates
+PMT_2440,Hypothetical protein,Unknown,no_coordinates
+PMT_2444,Hypothetical protein,Unknown,no_coordinates
+PMT_2445,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2447,Hypothetical protein,Unknown,no_coordinates
+PMT_2448,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2449,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2451,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2453,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2455,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2457,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2458,Hypothetical protein,Unknown,no_coordinates
+PMT_2460,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2461,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT_2465,Hypothetical protein,Unknown,no_coordinates
+PMT_2466,Hypothetical protein,Unknown,no_coordinates
+PMT_2471,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2472,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2473,Hypothetical protein,Unknown,no_coordinates
+PMT_2475,Hypothetical protein,Unknown,no_coordinates
+PMT_2477,Hypothetical protein,Unknown,no_coordinates
+PMT_2478,Hypothetical protein,Unknown,no_coordinates
+PMT_2481,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2482,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2483,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2486,Hypothetical protein,Unknown,no_coordinates
+PMT_2489,Hypothetical protein,Unknown,no_coordinates
+PMT_2490,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2492,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2493,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2494,Hypothetical protein,Unknown,no_coordinates
+PMT_2495,Hypothetical protein,Unknown,no_coordinates
+PMT_2497,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2498,Hypothetical protein,Unknown,no_coordinates
+PMT_2499,Hypothetical protein,Unknown,no_coordinates
+PMT_2500,Hypothetical protein,Unknown,no_coordinates
+PMT_2501,Hypothetical protein,Unknown,no_coordinates
+PMT_2505,Hypothetical protein,Unknown,no_coordinates
+PMT_2506,Hypothetical protein,Unknown,no_coordinates
+PMT_2507,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2511,Hypothetical protein,Unknown,no_coordinates
+PMT_2513,Hypothetical protein,Unknown,no_coordinates
+PMT_2514,Hypothetical protein,Unknown,no_coordinates
+PMT_2517,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2518,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2519,Hypothetical protein,Unknown,no_coordinates
+PMT_2520,Hypothetical protein,Unknown,no_coordinates
+PMT_2521,Hypothetical protein,Unknown,no_coordinates
+PMT_2522,Hypothetical protein,Unknown,no_coordinates
+PMT_2523,Hypothetical protein,Unknown,no_coordinates
+PMT_2524,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2530,Hypothetical protein,Unknown,no_coordinates
+PMT_2531,Hypothetical protein,Unknown,no_coordinates
+PMT_2533,Hypothetical protein,Unknown,no_coordinates
+PMT_2534,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2535,Hypothetical protein,Unknown,no_coordinates
+PMT_2536,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2540,Hypothetical protein,Unknown,no_coordinates
+PMT_2541,Hypothetical protein,Unknown,no_coordinates
+PMT_2543,Hypothetical protein,Unknown,no_coordinates
+PMT_2545,Hypothetical protein,Unknown,no_coordinates
+PMT_2547,Hypothetical protein,Unknown,no_coordinates
+PMT_2550,Hypothetical protein,Unknown,no_coordinates
+PMT_2551,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2553,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2554,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2555,Hypothetical protein,Unknown,no_coordinates
+PMT_2557,Hypothetical protein,Unknown,no_coordinates
+PMT_2558,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2560,Hypothetical protein,Unknown,no_coordinates
+PMT_2562,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2563,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2564,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2565,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2566,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2567,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2568,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2569,Hypothetical protein,Unknown,no_coordinates
+PMT_2570,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2571,Hypothetical protein,Unknown,no_coordinates
+PMT_2573,Hypothetical protein,Unknown,no_coordinates
+PMT_2574,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2576,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2577,Hypothetical protein,Unknown,no_coordinates
+PMT_2578,Hypothetical protein,Unknown,no_coordinates
+PMT_2579,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2580,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2581,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2582,Hypothetical protein,Unknown,no_coordinates
+PMT_2583,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2585,Hypothetical protein,Unknown,no_coordinates
+PMT_2588,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2589,Hypothetical protein,Unknown,no_coordinates
+PMT_2590,Hypothetical protein,Unknown,no_coordinates
+PMT_2595,Hypothetical protein,Unknown,no_coordinates
+PMT_2596,Hypothetical protein,Unknown,no_coordinates
+PMT_2597,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2598,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2599,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2601,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2602,Hypothetical protein,Unknown,no_coordinates
+PMT_2603,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2607,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2608,Hypothetical protein,Unknown,no_coordinates
+PMT_2610,Hypothetical protein,Unknown,no_coordinates
+PMT_2614,Hypothetical protein,Unknown,no_coordinates
+PMT_2619,Hypothetical protein,Unknown,no_coordinates
+PMT_2620,Hypothetical protein,Unknown,no_coordinates
+PMT_2621,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2622,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2623,Hypothetical protein,Unknown,no_coordinates
+PMT_2624,Hypothetical protein,Unknown,no_coordinates
+PMT_2626,Hypothetical protein,Unknown,no_coordinates
+PMT_2627,Hypothetical protein,Unknown,no_coordinates
+PMT_2630,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2631,outer membrane porin,Stress response and adaptation,no_coordinates
+PMT_2637,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2638,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2639,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2640,Hypothetical protein,Unknown,no_coordinates
+PMT_2641,Hypothetical protein,Unknown,no_coordinates
+PMT_2642,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2644,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2645,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2648,Hypothetical protein,Unknown,no_coordinates
+PMT_2650,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2651,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2652,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2653,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2655,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2657,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2659,Hypothetical protein,Unknown,no_coordinates
+PMT_2660,Hypothetical protein,Unknown,no_coordinates
+PMT_2661,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2662,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2663,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2664,Hypothetical protein,Unknown,no_coordinates
+PMT_2669,Hypothetical protein,Unknown,no_coordinates
+PMT_2671,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2673,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2674,Hypothetical protein,Unknown,no_coordinates
+PMT_2675,Hypothetical protein,Unknown,no_coordinates
+PMT_2678,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2679,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2682,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2683,Hypothetical protein,Unknown,no_coordinates
+PMT_2684,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2685,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2687,Hypothetical protein,Unknown,no_coordinates
+PMT_2688,Hypothetical protein,Unknown,no_coordinates
+PMT_2691,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2692,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2695,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2696,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2697,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2699,Hypothetical protein,Unknown,no_coordinates
+PMT_2700,Hypothetical protein,Unknown,no_coordinates
+PMT_2701,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2702,Hypothetical protein,Unknown,no_coordinates
+PMT_2703,Hypothetical protein,Unknown,no_coordinates
+PMT_2704,Hypothetical protein,Unknown,no_coordinates
+PMT_2706,Hypothetical protein,Unknown,no_coordinates
+PMT_2707,Hypothetical protein,Unknown,no_coordinates
+PMT_2708,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2710,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2711,Hypothetical protein,Unknown,no_coordinates
+PMT_2713,Hypothetical protein,Unknown,no_coordinates
+PMT_2715,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2716,Hypothetical protein,Unknown,no_coordinates
+PMT_2717,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2718,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2720,Hypothetical protein,Unknown,no_coordinates
+PMT_2724,Hypothetical protein,Unknown,no_coordinates
+PMT_2725,Hypothetical protein,Unknown,no_coordinates
+PMT_2726,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2729,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2730,Hypothetical protein,Unknown,no_coordinates
+PMT_2731,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2732,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2733,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2734,Hypothetical protein,Unknown,no_coordinates
+PMT_2735,Hypothetical protein,Unknown,no_coordinates
+PMT_2736,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2737,Hypothetical protein,Unknown,no_coordinates
+PMT_2739,Hypothetical protein,Unknown,no_coordinates
+PMT_2740,Hypothetical protein,Unknown,no_coordinates
+PMT_2741,Hypothetical protein,Unknown,no_coordinates
+PMT_2743,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2745,Hypothetical protein,Unknown,no_coordinates
+PMT_2746,Hypothetical protein,Unknown,no_coordinates
+PMT_2749,Hypothetical protein,Unknown,no_coordinates
+PMT_2750,Hypothetical protein,Unknown,no_coordinates
+PMT_2751,Hypothetical protein,Unknown,no_coordinates
+PMT_2752,Hypothetical protein,Unknown,no_coordinates
+PMT_2753,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2755,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2756,Hypothetical protein,Unknown,no_coordinates
+PMT_2757,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2758,Hypothetical protein,Unknown,no_coordinates
+PMT_2759,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2760,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2761,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2762,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2763,Hypothetical protein,Unknown,no_coordinates
+PMT_2767,Hypothetical protein,Unknown,no_coordinates
+PMT_2768,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2771,Hypothetical protein,Unknown,no_coordinates
+PMT_2772,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2779,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2780,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2783,Hypothetical protein,Unknown,no_coordinates
+PMT_2785,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2786,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2787,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT_2788,Hypothetical protein,Unknown,no_coordinates
+PMT_2789,Hypothetical protein,Unknown,no_coordinates
+PMT_2790,Hypothetical protein,Unknown,no_coordinates
+PMT_2797,Hypothetical protein,Unknown,no_coordinates
+PMT_2800,Hypothetical protein,Unknown,no_coordinates
+PMT_2802,Hypothetical protein,Unknown,no_coordinates
+PMT_2803,Hypothetical protein,Unknown,no_coordinates
+PMT_2804,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2805,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2806,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2808,Hypothetical protein,Unknown,no_coordinates
+PMT_2813,Hypothetical protein,Unknown,no_coordinates
+PMT_2814,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2815,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2816,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2817,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2819,uncharacterized conserved membrane protein,Unknown,no_coordinates
+PMT_2820,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2821,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2822,Hypothetical protein,Unknown,no_coordinates
+PMT_2824,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2826,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2827,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2829,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2830,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2831,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2832,Hypothetical protein,Unknown,no_coordinates
+PMT_2833,Hypothetical protein,Unknown,no_coordinates
+PMT_2834,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2835,Hypothetical protein,Unknown,no_coordinates
+PMT_2836,Hypothetical protein,Unknown,no_coordinates
+PMT_2837,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2838,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2839,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2841,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2842,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2846,Hypothetical protein,Unknown,no_coordinates
+PMT_2848,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2849,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2850,Hypothetical protein,Unknown,no_coordinates
+PMT_2853,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2854,Hypothetical protein,Unknown,no_coordinates
+PMT_2855,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2857,Hypothetical protein,Unknown,no_coordinates
+PMT_2858,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2861,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2862,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2863,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2865,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2867,Hypothetical protein,Unknown,no_coordinates
+PMT_2868,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2869,Hypothetical protein,Unknown,no_coordinates
+PMT_2870,Hypothetical protein,Unknown,no_coordinates
+PMT_2871,Hypothetical protein,Unknown,no_coordinates
+PMT_2872,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2876,Hypothetical protein,Unknown,no_coordinates
+PMT_2877,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2878,Hypothetical protein,Unknown,no_coordinates
+PMT_2880,Hypothetical protein,Unknown,no_coordinates
+PMT_2882,Hypothetical protein,Unknown,no_coordinates
+PMT_2884,Hypothetical protein,Unknown,no_coordinates
+PMT_2885,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2886,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2888,Hypothetical protein,Unknown,no_coordinates
+PMT_2891,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2893,Hypothetical protein,Unknown,no_coordinates
+PMT_2894,Hypothetical protein,Unknown,no_coordinates
+PMT_2900,Hypothetical protein,Unknown,no_coordinates
+PMT_2902,Hypothetical protein,Unknown,no_coordinates
+PMT_2903,Hypothetical protein,Unknown,no_coordinates
+PMT_2904,Hypothetical protein,Unknown,no_coordinates
+PMT_2905,Hypothetical protein,Unknown,no_coordinates
+PMT_2906,Hypothetical protein,Unknown,no_coordinates
+PMT_2907,Hypothetical protein,Unknown,no_coordinates
+PMT_2908,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2909,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2910,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2912,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2913,Hypothetical protein,Unknown,no_coordinates
+PMT_2914,Hypothetical protein,Unknown,no_coordinates
+PMT_2915,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2917,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2918,Conserved hypothetical protein,Unknown,no_coordinates
+PMT_2919,Hypothetical protein,Unknown,no_coordinates
+PMT_2921,Hypothetical protein,Unknown,no_coordinates
+PMT_2923,conserved hypothetical protein,Unknown,no_coordinates
+PMT_2924,Hypothetical protein,Unknown,no_coordinates
+PMT_2925,Hypothetical protein,Unknown,no_coordinates
+PMT_92288,uncharacterized conserved membrane protein,Unknown,no_coordinates

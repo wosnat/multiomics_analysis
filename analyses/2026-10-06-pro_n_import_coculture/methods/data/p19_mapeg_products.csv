@@ -1,0 +1,4 @@
+strain,locus_tag,product,in_universe,system_id,known_false_positive
+med4,PMM1015,MAPEG family protein,False,,
+mit9313,PMT1025,"membrane-associated, eicosanoid/glutathione metabolism (MAPEG) protein",True,sys_PMT1025,True
+natl2a,PMN2A_0464,MAPEG family protein,False,,

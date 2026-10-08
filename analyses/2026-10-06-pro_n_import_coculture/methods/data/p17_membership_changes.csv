@@ -1,0 +1,27 @@
+strain,system_id,member_names,members,tier,tier_reason,v15_systems,v15_tiers,added_genes
+med4,sys_PMM0078,PMM0078:,PMM0078,not_transporter,no member is strong or tcdb_only,new gene,-,PMM0078
+med4,sys_PMM0142,PMM0142:,PMM0142,not_transporter,no member is strong or tcdb_only,new gene,-,PMM0142
+med4,sys_PMM0430,PMM0430:hisF,PMM0430,not_transporter,no member is strong or tcdb_only,new gene,-,PMM0430
+med4,sys_PMM0525,PMM0525:hemH,PMM0525,not_transporter,no member is strong or tcdb_only,new gene,-,PMM0525
+med4,sys_PMM1121,PMM1121:som,PMM1121,not_transporter,no member is strong or tcdb_only,new gene,-,PMM1121
+med4,sys_PMM1670,PMM1670:metC,PMM1670,not_transporter,no member is strong or tcdb_only,new gene,-,PMM1670
+mit9313,sys_PMT0274,PMT0274:hisF,PMT0274,not_transporter,no member is strong or tcdb_only,new gene,-,PMT0274
+mit9313,sys_PMT0286,PMT0286:piuC,PMT0286,not_transporter,no member is strong or tcdb_only,new gene,-,PMT0286
+mit9313,sys_PMT0412,PMT0412:bcsA,PMT0412,not_transporter,no member is strong or tcdb_only,new gene,-,PMT0412
+mit9313,sys_PMT0742,PMT0742:,PMT0742,not_transporter,no member is strong or tcdb_only,new gene,-,PMT0742
+mit9313,sys_PMT1240,PMT1240:hemH,PMT1240,not_transporter,no member is strong or tcdb_only,new gene,-,PMT1240
+mit9313,sys_PMT1621,PMT1621:,PMT1621,not_transporter,no member is strong or tcdb_only,new gene,-,PMT1621
+mit9313,sys_PMT1814,PMT1814:,PMT1814,not_transporter,no member is strong or tcdb_only,new gene,-,PMT1814
+mit9313,sys_PMT2002,PMT2002:,PMT2002,not_transporter,no member is strong or tcdb_only,new gene,-,PMT2002
+mit9313,sys_PMT2171,PMT2171:metC,PMT2171,not_transporter,no member is strong or tcdb_only,new gene,-,PMT2171
+mit9313,sys_PMT2207,PMT2207:,PMT2207,Medium,"strong, role-incomplete",new gene,-,PMT2207
+mit9313,sys_PMT_2765,PMT_2765:comA,PMT_2765,not_transporter,no member is strong or tcdb_only,new gene,-,PMT_2765
+natl2a,sys_PMN2A_0212,PMN2A_0212:ftn,PMN2A_0212,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_0212
+natl2a,sys_PMN2A_0440,PMN2A_0440:PMN2A_RS05215,PMN2A_0440,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_0440
+natl2a,sys_PMN2A_0775,PMN2A_0775:piuC,PMN2A_0775,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_0775
+natl2a,sys_PMN2A_1269,PMN2A_1269:metC,PMN2A_1269,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_1269
+natl2a,sys_PMN2A_1442,PMN2A_1442:PMN2A_RS00600,PMN2A_1442,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_1442
+natl2a,sys_PMN2A_1508,PMN2A_1508:PMN2A_RS00940,PMN2A_1508,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_1508
+natl2a,sys_PMN2A_1761,PMN2A_1761:hisF,PMN2A_1761,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_1761
+natl2a,sys_PMN2A_1857,PMN2A_1857:hemH,PMN2A_1857,not_transporter,no member is strong or tcdb_only,new gene,-,PMN2A_1857
+natl2a,sys_PMN2A_2187,PMN2A_2187:,PMN2A_2187,Medium,"strong, complete, no TCDB resolution",new gene,-,PMN2A_2187

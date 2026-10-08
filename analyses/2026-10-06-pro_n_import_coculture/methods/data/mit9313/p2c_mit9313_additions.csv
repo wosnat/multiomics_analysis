@@ -1,0 +1,3 @@
+locus_tag,gene_name,product,role_pfam_ids,src_tcdb,src_brite,src_pfam_role,src_pfam_role_datamap,src_cyanorak_q,tcdb_class_ids,brite_transporter_terms
+PMT1349,,uncharacterized conserved secreted protein,pfam:PF13343,False,False,False,True,False,,
+PMT_2357,,"carbohydrate-selective porin, OprB family protein",pfam:PF04966,False,False,False,True,False,,

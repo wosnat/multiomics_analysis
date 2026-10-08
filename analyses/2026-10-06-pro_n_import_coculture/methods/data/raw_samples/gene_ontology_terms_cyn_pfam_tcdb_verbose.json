@@ -1,0 +1,423 @@
+{
+  "total_matching": 13,
+  "total_genes": 4,
+  "total_terms": 10,
+  "by_ontology": [
+    {
+      "ontology_type": "tcdb",
+      "term_count": 7,
+      "gene_count": 3
+    },
+    {
+      "ontology_type": "pfam",
+      "term_count": 6,
+      "gene_count": 4
+    }
+  ],
+  "by_term": [
+    {
+      "term_id": "tcdb:3.A.1.16.1",
+      "term_name": "Four component nitrate/nitrite porter.",
+      "level": 4,
+      "count": 3,
+      "ontology_type": "tcdb"
+    },
+    {
+      "term_id": "tcdb:3.A.1.16.2",
+      "term_name": "Bispecific cyanate/nitrite transporter.",
+      "level": 4,
+      "count": 2,
+      "ontology_type": "tcdb"
+    },
+    {
+      "term_id": "pfam:PF09084",
+      "term_name": "NMT1/THI5 like",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "pfam:PF13379",
+      "term_name": "NMT1-like family",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "pfam:PF00528",
+      "term_name": "Binding-protein-dependent transport system inner membrane component",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "pfam:PF00005",
+      "term_name": "ABC transporter",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "pfam:PF21291",
+      "term_name": "Cyanate hydratase, N-terminal",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "pfam:PF02560",
+      "term_name": "Cyanate lyase C-terminal domain",
+      "level": 1,
+      "count": 1,
+      "ontology_type": "pfam"
+    },
+    {
+      "term_id": "tcdb:3.A.1.17.6",
+      "term_name": "Putative hydroxymethylpyrimidine transport system, ThiXYZ.",
+      "level": 4,
+      "count": 1,
+      "ontology_type": "tcdb"
+    },
+    {
+      "term_id": "tcdb:3.A.1.17.3",
+      "term_name": "Putative hydroxymethylpyrimidine transport system, ThiXYZ.",
+      "level": 4,
+      "count": 1,
+      "ontology_type": "tcdb"
+    }
+  ],
+  "terms_per_gene_min": 2,
+  "terms_per_gene_max": 6,
+  "terms_per_gene_median": 2.5,
+  "returned": 13,
+  "offset": 0,
+  "truncated": false,
+  "not_found": [],
+  "no_terms": [],
+  "results": [
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "pfam:PF09084",
+      "term_name": "NMT1/THI5 like",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.333,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "pfam:PF13379",
+      "term_name": "NMT1-like family",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "curated",
+      "sources": [
+        "cyanorak",
+        "eggnog",
+        "interproscan",
+        "uniprot"
+      ],
+      "evidence_score": 1.0,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "tcdb:3.A.1.16.1",
+      "term_name": "Four component nitrate/nitrite porter.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.6,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "both_sources",
+      "pfam_support": "uncorroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "tcdb:3.A.1.16.2",
+      "term_name": "Bispecific cyanate/nitrite transporter.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.6,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "both_sources",
+      "pfam_support": "uncorroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "tcdb:3.A.1.17.3",
+      "term_name": "Putative hydroxymethylpyrimidine transport system, ThiXYZ.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.4,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "single_source",
+      "pfam_support": "uncorroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0370",
+      "term_id": "tcdb:3.A.1.17.6",
+      "term_name": "Putative hydroxymethylpyrimidine transport system, ThiXYZ.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.4,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "single_source",
+      "pfam_support": "uncorroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0371",
+      "term_id": "pfam:PF00528",
+      "term_name": "Binding-protein-dependent transport system inner membrane component",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "curated",
+      "sources": [
+        "cyanorak",
+        "eggnog",
+        "interproscan",
+        "uniprot"
+      ],
+      "evidence_score": 1.0,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM0371",
+      "term_id": "tcdb:3.A.1.16.1",
+      "term_name": "Four component nitrate/nitrite porter.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.8,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "both_sources",
+      "pfam_support": "corroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0371",
+      "term_id": "tcdb:3.A.1.16.2",
+      "term_name": "Bispecific cyanate/nitrite transporter.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.8,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "both_sources",
+      "pfam_support": "corroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0372",
+      "term_id": "pfam:PF00005",
+      "term_name": "ABC transporter",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "curated",
+      "sources": [
+        "cyanorak",
+        "eggnog",
+        "interproscan",
+        "uniprot"
+      ],
+      "evidence_score": 1.0,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM0372",
+      "term_id": "tcdb:3.A.1.16.1",
+      "term_name": "Four component nitrate/nitrite porter.",
+      "level": 4,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "family_inferred",
+      "sources": [
+        "eggnog"
+      ],
+      "evidence_score": 0.8,
+      "tier": null,
+      "confidence_score": null,
+      "source_agreement": "both_sources",
+      "pfam_support": "corroborated",
+      "go_support": "corroborated",
+      "identity": null,
+      "qcov": null,
+      "evalue": null,
+      "consensus_n": null,
+      "attachment_depth": "most_specific",
+      "ontology_type": "tcdb"
+    },
+    {
+      "locus_tag": "PMM0373",
+      "term_id": "pfam:PF02560",
+      "term_name": "Cyanate lyase C-terminal domain",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "curated",
+      "sources": [
+        "cyanorak",
+        "eggnog",
+        "interproscan"
+      ],
+      "evidence_score": 1.0,
+      "ontology_type": "pfam"
+    },
+    {
+      "locus_tag": "PMM0373",
+      "term_id": "pfam:PF21291",
+      "term_name": "Cyanate hydratase, N-terminal",
+      "level": 1,
+      "is_informative": true,
+      "organism_name": "Prochlorococcus MED4",
+      "evidence": "signature",
+      "sources": [
+        "interproscan"
+      ],
+      "evidence_score": 0.667,
+      "ontology_type": "pfam"
+    }
+  ],
+  "trust_axes": {
+    "pfam": [
+      "sources",
+      "evidence",
+      "evidence_score"
+    ],
+    "tcdb": [
+      "sources",
+      "evidence",
+      "evidence_score",
+      "tier"
+    ]
+  },
+  "filters_applied": {},
+  "skipped_ontologies": [],
+  "by_evidence": [
+    {
+      "evidence": "family_inferred",
+      "count": 8
+    },
+    {
+      "evidence": "curated",
+      "count": 4
+    },
+    {
+      "evidence": "signature",
+      "count": 1
+    }
+  ],
+  "by_tier": [
+    {
+      "tier": "null",
+      "count": 7
+    }
+  ],
+  "by_sources": [
+    {
+      "source": "eggnog",
+      "count": 12
+    },
+    {
+      "source": "interproscan",
+      "count": 5
+    },
+    {
+      "source": "cyanorak",
+      "count": 4
+    },
+    {
+      "source": "uniprot",
+      "count": 3
+    }
+  ],
+  "by_call_class": [],
+  "evidence_score_stats": {
+    "min": 0.333,
+    "median": 0.8,
+    "max": 1.0,
+    "n_null": 0
+  },
+  "warnings": []
+}

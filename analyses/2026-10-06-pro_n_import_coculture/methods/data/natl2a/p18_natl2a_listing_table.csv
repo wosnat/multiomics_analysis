@@ -1,0 +1,13 @@
+strain,compound_class,dedicated_H,dedicated_M,dedicated_systems,broad_H,broad_M,broad_systems
+natl2a,ammonium,1,0,PMN2A_1629:amt1 (High),3,0,PMN2A_1175:nhaS (High) || PMN2A_1448:ktrB|PMN2A_1449:ktrA (High) || PMN2A_1805:nhaS (High)
+natl2a,urea,1,0,PMN2A_1044:urtE|PMN2A_1045:urtD|PMN2A_1046:urtC|PMN2A_1047:urtB|PMN2A_1048:urtA (High),1,0,PMN2A_1011:PMN2A_RS08290 (High)
+natl2a,cyanate,0,0,,0,0,
+natl2a,nitrite,0,0,,0,0,
+natl2a,nitrate,0,0,,3,0,PMN2A_0631:sul1 (High) || PMN2A_1011:PMN2A_RS08290 (High) || PMN2A_1581:sul3 (High)
+natl2a,peptides,1,0,PMN2A_0704:dppA|PMN2A_0705:dppB|PMN2A_1559:ddpD|PMN2A_1755:dppC (High),8,1,"PMN2A_0256:PMN2A_RS04215 (High) || PMN2A_0384:PMN2A_RS04885 (High) || PMN2A_0649:PMN2A_RS06410 (High) || PMN2A_1011:PMN2A_RS08290 (High) || PMN2A_1224:PMN2A_RS09395 (High) || PMN2A_1411:PMN2A_RS00440 (High) || PMN2A_1428:PMN2A_RS00530 (High) || PMN2A_1891:PMN2A_RS02920 (High) || PMN2A_0002:gst (Medium, known FP) || PMN2A_0069:gst (Medium, known FP) || PMN2A_0790:PMN2A_RS07145 (Medium) || PMN2A_1478:gst (Medium, known FP)"
+natl2a,amino acids,1,0,PMN2A_0611:PMN2A_RS06190|PMN2A_0612:natH|PMN2A_0613:natG|PMN2A_0614:natF (High),11,2,PMN2A_0384:PMN2A_RS04885 (High) || PMN2A_0631:sul1 (High) || PMN2A_0649:PMN2A_RS06410 (High) || PMN2A_0750:PMN2A_RS06920 (High) || PMN2A_0894:glcH (High) || PMN2A_1011:PMN2A_RS08290 (High) || PMN2A_1224:PMN2A_RS09395 (High) || PMN2A_1411:PMN2A_RS00440 (High) || PMN2A_1428:PMN2A_RS00530 (High) || PMN2A_1447:PMN2A_RS00625 (High) || PMN2A_1581:sul3 (High) || PMN2A_0790:PMN2A_RS07145 (Medium) || PMN2A_1627:murJ (Medium)
+natl2a,amino sugars,0,0,,2,0,PMN2A_0894:glcH (High) || PMN2A_1011:PMN2A_RS08290 (High)
+natl2a,polyamines,0,0,,2,0,PMN2A_0894:glcH (High) || PMN2A_1011:PMN2A_RS08290 (High)
+natl2a,nucleobases/nucleosides,0,0,,0,0,
+natl2a,osmolytes,0,0,,3,0,PMN2A_0704:dppA|PMN2A_0705:dppB|PMN2A_1559:ddpD|PMN2A_1755:dppC (High) || PMN2A_0750:PMN2A_RS06920 (High) || PMN2A_1011:PMN2A_RS08290 (High)
+natl2a,amines,0,0,,0,0,

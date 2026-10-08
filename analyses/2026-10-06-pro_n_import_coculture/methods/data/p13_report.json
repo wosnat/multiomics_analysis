@@ -1,0 +1,317 @@
+{
+ "systems_only_old_or_new": {
+  "med4": [
+   [],
+   []
+  ],
+  "mit9313": [
+   [],
+   []
+  ],
+  "natl2a": [
+   [],
+   []
+  ]
+ },
+ "function_linked_pairs_old_new": {
+  "med4": [
+   42,
+   34
+  ],
+  "mit9313": [
+   56,
+   48
+  ],
+  "natl2a": [
+   42,
+   33
+  ]
+ },
+ "function_linked_breadth_new": {
+  "med4": {
+   "specific": 32,
+   "ubiquitous_allowlisted": 2
+  },
+  "mit9313": {
+   "specific": 46,
+   "ubiquitous_allowlisted": 2
+  },
+  "natl2a": {
+   "specific": 31,
+   "ubiquitous_allowlisted": 2
+  }
+ },
+ "D_per_layer": {
+  "med4": {
+   "none": 471,
+   "name": 99,
+   "pathway": 90,
+   "family_context": 60,
+   "pathway+transport_class_tiebreak": 1
+  },
+  "mit9313": {
+   "none": 492,
+   "name": 110,
+   "pathway": 98,
+   "family_context": 79,
+   "pathway+transport_class_tiebreak": 1
+  },
+  "natl2a": {
+   "none": 467,
+   "name": 102,
+   "pathway": 92,
+   "family_context": 60,
+   "pathway+transport_class_tiebreak": 1
+  }
+ },
+ "D_per_class": {
+  "med4": {
+   "unclassified N": 248,
+   "unclassified (no formula)": 223,
+   "amino acids": 61,
+   "xenobiotic (efflux family)": 59,
+   "xenobiotic": 35,
+   "nucleobases/nucleosides": 30,
+   "cofactors/vitamins": 19,
+   "peptides": 10,
+   "osmolytes": 10,
+   "ammonium": 7,
+   "polyamines": 6,
+   "amines": 5,
+   "urea": 4,
+   "nitrate": 1,
+   "siderophore": 1,
+   "nitrite": 1,
+   "cyanate": 1
+  },
+  "mit9313": {
+   "unclassified N": 261,
+   "unclassified (no formula)": 231,
+   "xenobiotic (efflux family)": 78,
+   "amino acids": 74,
+   "xenobiotic": 37,
+   "nucleobases/nucleosides": 31,
+   "cofactors/vitamins": 19,
+   "osmolytes": 12,
+   "peptides": 11,
+   "ammonium": 7,
+   "polyamines": 6,
+   "amines": 5,
+   "urea": 4,
+   "nitrate": 1,
+   "siderophore": 1,
+   "nitrite": 1,
+   "cyanate": 1
+  },
+  "natl2a": {
+   "unclassified N": 244,
+   "unclassified (no formula)": 223,
+   "amino acids": 63,
+   "xenobiotic (efflux family)": 59,
+   "xenobiotic": 35,
+   "nucleobases/nucleosides": 30,
+   "cofactors/vitamins": 19,
+   "osmolytes": 12,
+   "peptides": 11,
+   "ammonium": 7,
+   "polyamines": 6,
+   "amines": 5,
+   "urea": 4,
+   "nitrate": 1,
+   "siderophore": 1,
+   "nitrite": 1,
+   "cyanate": 1
+  }
+ },
+ "D_pathways_seen_mapped": {
+  "med4": [
+   287,
+   66
+  ],
+  "mit9313": [
+   287,
+   66
+  ],
+  "natl2a": [
+   287,
+   66
+  ]
+ },
+ "D_families_context": {
+  "med4": {
+   "none": 201,
+   "xenobiotic (efflux family)": 19,
+   "siderophore": 5
+  },
+  "mit9313": {
+   "none": 252,
+   "xenobiotic (efflux family)": 22,
+   "siderophore": 4
+  },
+  "natl2a": {
+   "none": 215,
+   "xenobiotic (efflux family)": 19,
+   "siderophore": 4
+  }
+ },
+ "chebi": "absent (kg_schema: no class node/relationship; Metabolite has chebi_id only)",
+ "A": {
+  "likely_transporter_changes": 45,
+  "by_change": [
+   {
+    "strain": "med4",
+    "likely_transporter_old": "none",
+    "likely_transporter_new": "strong",
+    "n": 4
+   },
+   {
+    "strain": "med4",
+    "likely_transporter_old": "tcdb_only",
+    "likely_transporter_new": "strong",
+    "n": 5
+   },
+   {
+    "strain": "mit9313",
+    "likely_transporter_old": "none",
+    "likely_transporter_new": "strong",
+    "n": 10
+   },
+   {
+    "strain": "mit9313",
+    "likely_transporter_old": "tcdb_only",
+    "likely_transporter_new": "strong",
+    "n": 14
+   },
+   {
+    "strain": "natl2a",
+    "likely_transporter_old": "none",
+    "likely_transporter_new": "strong",
+    "n": 6
+   },
+   {
+    "strain": "natl2a",
+    "likely_transporter_old": "tcdb_only",
+    "likely_transporter_new": "strong",
+    "n": 6
+   }
+  ],
+  "flagged_non_transporter_words": [],
+  "tier_changes": 12
+ },
+ "B": [
+  {
+   "strain": "med4",
+   "system_id": "sys_PMM0263",
+   "before": "PMM0373(cynS)->Ammonia; PMM0408(nan)->Ammonia; PMM0409(metB)->Ammonia; PMM0920(glnA)->Ammonia; PMM0951(carA)->Ammonia; PMM0963(ureC)->Ammonia; PMM0964(ureB)->Ammonia; PMM0965(ureA)->Ammonia; PMM1512(glsF)->Ammonia; PMM1670(metC)->Ammonia",
+   "after": "PMM0920(glnA)->Ammonia[ubiquitous_allowlisted]; PMM1512(glsF)->Ammonia[ubiquitous_allowlisted]"
+  },
+  {
+   "strain": "mit9313",
+   "system_id": "sys_PMT1853",
+   "before": "PMT0225(nan)->Ammonia; PMT0226(metB)->Ammonia; PMT0601(glnA)->Ammonia; PMT0653(carA)->Ammonia; PMT1777(glsF)->Ammonia; PMT2171(metC)->Ammonia; PMT2234(ureA)->Ammonia; PMT2235(ureB)->Ammonia; PMT2236(ureC)->Ammonia; PMT2239(nirA)->Ammonia",
+   "after": "PMT0601(glnA)->Ammonia[ubiquitous_allowlisted]; PMT1777(glsF)->Ammonia[ubiquitous_allowlisted]"
+  },
+  {
+   "strain": "natl2a",
+   "system_id": "sys_PMN2A_1629",
+   "before": "PMN2A_0141(glnA)->Ammonia; PMN2A_0259(carA)->Ammonia; PMN2A_1053(ureA)->Ammonia; PMN2A_1054(ureB)->Ammonia; PMN2A_1055(ureC)->Ammonia; PMN2A_1078(glsF)->Ammonia; PMN2A_1269(metC)->Ammonia; PMN2A_1298(nirA)->Ammonia; PMN2A_1390(cynS)->Ammonia; PMN2A_1742(PMN2A_RS02170)->Ammonia; PMN2A_1743(metB)->Ammonia",
+   "after": "PMN2A_0141(glnA)->Ammonia[ubiquitous_allowlisted]; PMN2A_1078(glsF)->Ammonia[ubiquitous_allowlisted]"
+  }
+ ],
+ "C": [
+  {
+   "strain": "med4",
+   "old_no_formula_groups_labelled_other_N": 239,
+   "new_name_layer_no_formula_classes": "{\"unclassified (no formula)\": 238, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"amino acids\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "new_layered_no_formula_classes": "{\"unclassified (no formula)\": 223, \"xenobiotic (efflux family)\": 13, \"amino acids\": 3, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "any_other_N_label_left": false
+  },
+  {
+   "strain": "mit9313",
+   "old_no_formula_groups_labelled_other_N": 249,
+   "new_name_layer_no_formula_classes": "{\"unclassified (no formula)\": 248, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"amino acids\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "new_layered_no_formula_classes": "{\"unclassified (no formula)\": 231, \"xenobiotic (efflux family)\": 15, \"amino acids\": 3, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "any_other_N_label_left": false
+  },
+  {
+   "strain": "natl2a",
+   "old_no_formula_groups_labelled_other_N": 239,
+   "new_name_layer_no_formula_classes": "{\"unclassified (no formula)\": 238, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"amino acids\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "new_layered_no_formula_classes": "{\"unclassified (no formula)\": 223, \"xenobiotic (efflux family)\": 13, \"amino acids\": 3, \"nucleobases/nucleosides\": 1, \"amines\": 1, \"peptides\": 1, \"ammonium\": 1, \"urea\": 1, \"polyamines\": 1}",
+   "any_other_N_label_left": false
+  }
+ ],
+ "D_review_list_n": 161,
+ "D_random": [
+  {
+   "strain": "natl2a",
+   "equiv_group": "kegg.compound:C02918",
+   "names": "1-Methylnicotinamide",
+   "compound_class": "cofactors/vitamins",
+   "class_source": "pathway"
+  },
+  {
+   "strain": "natl2a",
+   "equiv_group": "kegg.compound:C02465",
+   "names": "Triiodothyronine",
+   "compound_class": "amino acids",
+   "class_source": "pathway"
+  },
+  {
+   "strain": "natl2a",
+   "equiv_group": "kegg.compound:C00015",
+   "names": "UDP",
+   "compound_class": "nucleobases/nucleosides",
+   "class_source": "pathway"
+  },
+  {
+   "strain": "mit9313",
+   "equiv_group": "kegg.compound:C01829",
+   "names": "Thyroxine",
+   "compound_class": "amino acids",
+   "class_source": "pathway"
+  },
+  {
+   "strain": "mit9313",
+   "equiv_group": "kegg.compound:C00021",
+   "names": "S-Adenosyl-L-homocysteine",
+   "compound_class": "amino acids",
+   "class_source": "pathway"
+  },
+  {
+   "strain": "mit9313",
+   "equiv_group": "chebi:64608",
+   "names": "GDP-fucose",
+   "compound_class": "xenobiotic (efflux family)",
+   "class_source": "family_context"
+  },
+  {
+   "strain": "mit9313",
+   "equiv_group": "kegg.compound:C06665",
+   "names": "Imipenem",
+   "compound_class": "xenobiotic (efflux family)",
+   "class_source": "family_context"
+  },
+  {
+   "strain": "med4",
+   "equiv_group": "chebi:84880",
+   "names": "GDP-D-mannose",
+   "compound_class": "xenobiotic (efflux family)",
+   "class_source": "family_context"
+  },
+  {
+   "strain": "med4",
+   "equiv_group": "chebi:38083",
+   "names": "malonate ester",
+   "compound_class": "xenobiotic (efflux family)",
+   "class_source": "family_context"
+  },
+  {
+   "strain": "natl2a",
+   "equiv_group": "kegg.compound:C00430",
+   "names": "5-Aminolevulinate",
+   "compound_class": "amino acids",
+   "class_source": "pathway+transport_class_tiebreak"
+  }
+ ]
+}

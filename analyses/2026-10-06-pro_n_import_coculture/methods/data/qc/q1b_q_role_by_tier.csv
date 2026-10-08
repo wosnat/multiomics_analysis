@@ -1,0 +1,28 @@
+strain,q_role,q_role_name,High,Medium,Low,not_transporter,not in universe
+med4,Q.1,"Amino acids, peptides and amines",9,0,0,1,0
+med4,Q.2,Anions,9,0,0,0,0
+med4,Q.3,"Carbohydrates, organic alcohols, and acids",1,0,0,0,0
+med4,Q.4,Cations and iron carrying compounds,19,2,0,2,0
+med4,Q.5,"Nucleosides, purines and pyrimidines",0,0,0,1,0
+med4,Q.6,Porins,1,2,0,1,0
+med4,Q.7,Sugars,5,7,0,0,0
+med4,Q.8,Other,0,6,0,0,0
+med4,Q.9,Unknown substrate,6,6,0,2,0
+mit9313,Q.1,"Amino acids, peptides and amines",16,0,0,1,0
+mit9313,Q.2,Anions,11,1,0,0,0
+mit9313,Q.3,"Carbohydrates, organic alcohols, and acids",4,0,0,1,0
+mit9313,Q.4,Cations and iron carrying compounds,22,3,0,3,0
+mit9313,Q.5,"Nucleosides, purines and pyrimidines",0,0,0,2,0
+mit9313,Q.6,Porins,4,2,0,0,0
+mit9313,Q.7,Sugars,14,15,0,1,0
+mit9313,Q.8,Other,0,12,0,0,0
+mit9313,Q.9,Unknown substrate,10,14,0,4,0
+natl2a,Q.1,"Amino acids, peptides and amines",12,0,0,1,0
+natl2a,Q.2,Anions,9,2,0,0,0
+natl2a,Q.3,"Carbohydrates, organic alcohols, and acids",2,0,0,0,0
+natl2a,Q.4,Cations and iron carrying compounds,19,2,0,4,0
+natl2a,Q.5,"Nucleosides, purines and pyrimidines",0,0,0,1,0
+natl2a,Q.6,Porins,2,3,0,1,0
+natl2a,Q.7,Sugars,6,5,0,0,0
+natl2a,Q.8,Other,0,8,0,0,0
+natl2a,Q.9,Unknown substrate,7,7,0,2,0

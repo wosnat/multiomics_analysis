@@ -1,0 +1,16 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus MIT9313",
+ "pairs": 70,
+ "by_basis": {
+  "broad listing": 61,
+  "dedicated": 9
+ },
+ "mismatches": [],
+ "not_present": [
+  {
+   "compound_class": "urea",
+   "member": "PMN2A_RS08290"
+  }
+ ]
+}

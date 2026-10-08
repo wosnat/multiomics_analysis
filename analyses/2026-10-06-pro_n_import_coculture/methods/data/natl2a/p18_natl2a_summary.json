@@ -1,0 +1,16 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus NATL2A",
+ "pairs": 43,
+ "by_basis": {
+  "broad listing": 39,
+  "dedicated": 4
+ },
+ "mismatches": [],
+ "not_present": [
+  {
+   "compound_class": "urea",
+   "member": "putP"
+  }
+ ]
+}

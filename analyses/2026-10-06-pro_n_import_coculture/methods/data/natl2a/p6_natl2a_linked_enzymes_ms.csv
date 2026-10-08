@@ -1,0 +1,7 @@
+system_id,candidate,substrate_id,substrate_name,equiv_group,match_basis,in_run_ms
+sys_PMN2A_0002,PMN2A_1889,kegg.compound:C00051,Glutathione,kegg.compound:C00051,exact,False
+sys_PMN2A_1011,PMN2A_1019,kegg.compound:C00135,L-Histidine,kegg.compound:C00135,exact,False
+sys_PMN2A_1044,PMN2A_1053,kegg.compound:C00086,Urea,kegg.compound:C00086,exact,False
+sys_PMN2A_1044,PMN2A_1054,kegg.compound:C00086,Urea,kegg.compound:C00086,exact,False
+sys_PMN2A_1044,PMN2A_1055,kegg.compound:C00086,Urea,kegg.compound:C00086,exact,False
+sys_PMN2A_1629,PMN2A_1623,kegg.compound:C00014,Ammonia,kegg.compound:C00014,exact,False

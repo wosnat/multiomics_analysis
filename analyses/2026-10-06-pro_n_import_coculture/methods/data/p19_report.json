@@ -1,0 +1,73 @@
+{
+ "med4": {
+  "efflux_annotated_systems": 20,
+  "dedicated_pairs": 4,
+  "dedicated_basis": {
+   "none": 32,
+   "keyword": 4
+  }
+ },
+ "mit9313": {
+  "efflux_annotated_systems": 32,
+  "dedicated_pairs": 9,
+  "dedicated_basis": {
+   "none": 61,
+   "keyword": 9
+  }
+ },
+ "natl2a": {
+  "efflux_annotated_systems": 19,
+  "dedicated_pairs": 4,
+  "dedicated_basis": {
+   "none": 39,
+   "keyword": 4
+  }
+ },
+ "dedicated_call_changes": [
+  {
+   "strain": "mit9313",
+   "system_id": "sys_PMT0977",
+   "compound_class": "amino acids",
+   "listing_basis_v160": "dedicated",
+   "listing_basis": "broad listing"
+  },
+  {
+   "strain": "mit9313",
+   "system_id": "sys_PMT0977",
+   "compound_class": "peptides",
+   "listing_basis_v160": "dedicated",
+   "listing_basis": "broad listing"
+  }
+ ],
+ "lifted_loci_split": {
+  "efflux_annotated": 12,
+  "DMT/EamA": 6,
+  "other": 5
+ },
+ "mapeg": [
+  {
+   "strain": "med4",
+   "locus_tag": "PMM1015",
+   "product": "MAPEG family protein",
+   "in_universe": false,
+   "system_id": null,
+   "known_false_positive": null
+  },
+  {
+   "strain": "mit9313",
+   "locus_tag": "PMT1025",
+   "product": "membrane-associated, eicosanoid/glutathione metabolism (MAPEG) protein",
+   "in_universe": true,
+   "system_id": "sys_PMT1025",
+   "known_false_positive": true
+  },
+  {
+   "strain": "natl2a",
+   "locus_tag": "PMN2A_0464",
+   "product": "MAPEG family protein",
+   "in_universe": false,
+   "system_id": null,
+   "known_false_positive": null
+  }
+ ]
+}

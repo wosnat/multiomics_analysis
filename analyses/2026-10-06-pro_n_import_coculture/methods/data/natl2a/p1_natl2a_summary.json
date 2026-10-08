@@ -1,0 +1,235 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus NATL2A",
+ "tag": "natl2a",
+ "universe_size": 386,
+ "by_source_genes": {
+  "tcdb": 373,
+  "brite": 85,
+  "pfam_role": 44,
+  "cyanorak_q": 92
+ },
+ "only_cyanorak_q": [
+  {
+   "locus_tag": "PMN2A_0212",
+   "gene_name": "ftn",
+   "product": "ferritin"
+  },
+  {
+   "locus_tag": "PMN2A_0440",
+   "gene_name": "PMN2A_RS05215",
+   "product": "outer membrane porin"
+  },
+  {
+   "locus_tag": "PMN2A_0707",
+   "gene_name": "PMN2A_RS06700",
+   "product": "multidrug efflux transporter, MFS family"
+  },
+  {
+   "locus_tag": "PMN2A_0775",
+   "gene_name": "piuC",
+   "product": "iron-uptake factor PiuC"
+  },
+  {
+   "locus_tag": "PMN2A_1057",
+   "gene_name": "PMN2A_RS08525",
+   "product": "outer membrane porin"
+  },
+  {
+   "locus_tag": "PMN2A_1269",
+   "gene_name": "metC",
+   "product": "cystathionine beta-lyase family aluminum resistance protein"
+  },
+  {
+   "locus_tag": "PMN2A_1442",
+   "gene_name": "PMN2A_RS00600",
+   "product": "putative 4^-phosphopantetheinyl transferase family domain protein"
+  },
+  {
+   "locus_tag": "PMN2A_1508",
+   "gene_name": "PMN2A_RS00940",
+   "product": "RNA-binding protein"
+  },
+  {
+   "locus_tag": "PMN2A_1757",
+   "gene_name": "PMN2A_RS02250",
+   "product": "outer membrane porin"
+  },
+  {
+   "locus_tag": "PMN2A_1761",
+   "gene_name": "hisF",
+   "product": "imidazole glycerol phosphate synthase, cyclase subunit"
+  },
+  {
+   "locus_tag": "PMN2A_1857",
+   "gene_name": "hemH",
+   "product": "ferrochelatase"
+  },
+  {
+   "locus_tag": "PMN2A_2187",
+   "gene_name": NaN,
+   "product": "voltage-gated CLC-type chloride channel protein"
+  }
+ ],
+ "tcdb_class_counts": {
+  "tcdb:3": 199,
+  "tcdb:9": 86,
+  "tcdb:2": 72,
+  "tcdb:1": 47,
+  "tcdb:8": 34,
+  "tcdb:5": 16,
+  "tcdb:4": 9
+ },
+ "brite_level0_terms": {
+  "ABC transporters, prokaryotic type": 51,
+  "Other transporters": 26,
+  "ABC transporters, eukaryotic type": 8,
+  "Major facilitator superfamily (MFS)": 1
+ },
+ "pfam_term_gene_counts": {
+  "pfam:PF00005": 30,
+  "pfam:PF00528": 8,
+  "pfam:PF02653": 2,
+  "pfam:PF00496": 1,
+  "pfam:PF00909": 1,
+  "pfam:PF03616": 1,
+  "pfam:PF08352": 1,
+  "pfam:PF12399": 1,
+  "pfam:PF13433": 1,
+  "pfam:PF19300": 1
+ },
+ "calls": [
+  {
+   "call": "genes_by_ontology(tcdb, level 0)",
+   "n_calls": 1,
+   "total_matching": 463,
+   "returned": 463,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "ontology": "tcdb",
+    "organism": "Prochlorococcus NATL2A",
+    "level": 0,
+    "min_gene_set_size": 1,
+    "max_gene_set_size": null
+   }
+  },
+  {
+   "call": "genes_by_ontology(brite transporters, level 0)",
+   "n_calls": 1,
+   "total_matching": 86,
+   "returned": 86,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "ontology": "brite",
+    "organism": "Prochlorococcus NATL2A",
+    "tree": "transporters",
+    "level": 0,
+    "min_gene_set_size": 1,
+    "max_gene_set_size": null
+   }
+  },
+  {
+   "call": "genes_by_ontology(pfam, seed role Pfams)",
+   "n_calls": 1,
+   "total_matching": 47,
+   "returned": 47,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "ontology": "pfam",
+    "organism": "Prochlorococcus NATL2A",
+    "term_ids": [
+     "pfam:PF13379",
+     "pfam:PF09084",
+     "pfam:PF13433",
+     "pfam:PF00496",
+     "pfam:PF00528",
+     "pfam:PF02653",
+     "pfam:PF19300",
+     "pfam:PF00005",
+     "pfam:PF12399",
+     "pfam:PF08352",
+     "pfam:PF00909",
+     "pfam:PF03616"
+    ],
+    "min_gene_set_size": 1,
+    "max_gene_set_size": null
+   }
+  },
+  {
+   "call": "genes_by_ontology(cyanorak_role, Q.1-Q.9)",
+   "n_calls": 1,
+   "total_matching": 93,
+   "returned": 93,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "ontology": "cyanorak_role",
+    "organism": "Prochlorococcus NATL2A",
+    "term_ids": [
+     "cyanorak.role:Q.1",
+     "cyanorak.role:Q.2",
+     "cyanorak.role:Q.3",
+     "cyanorak.role:Q.4",
+     "cyanorak.role:Q.5",
+     "cyanorak.role:Q.6",
+     "cyanorak.role:Q.7",
+     "cyanorak.role:Q.8",
+     "cyanorak.role:Q.9"
+    ],
+    "min_gene_set_size": 1,
+    "max_gene_set_size": null
+   }
+  }
+ ]
+}

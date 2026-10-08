@@ -1,0 +1,8 @@
+case,system_id,tier,tier_reason,transport_class,function_linked,neighbour_linked
+cyn,sys_PMM0370,High,strong + role-complete + resolved,cyanorak.role:Q.1,PMM0373(cynS)->Cyanate via cyanorak.role:E.4,PMM0373(cynS)->Cyanate
+urt,sys_PMM0970,High,strong + role-complete + resolved,cyanorak.role:Q.1,PMM0963(ureC)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0964(ureB)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0965(ureA)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4,PMM0963(ureC)->Urea; PMM0964(ureB)->Urea; PMM0965(ureA)->Urea
+dpp,sys_PMM0192,High,strong + role-complete + resolved,cyanorak.role:Q.1|cyanorak.role:Q.4|cyanorak.role:Q.7,,
+amt1,sys_PMM0263,High,strong + role-complete + resolved,cyanorak.role:Q.4,PMM0920(glnA)->Ammonia via cyanorak.role:E.4; PMM1512(glsF)->Ammonia via cyanorak.role:E.4,
+pst,sys_PMM0710,High,strong + role-complete + resolved,cyanorak.role:Q.2,,
+salY,sys_PMM0913,Low,superfamily-only (all TCDB members family_inferred),none,,
+fadD,sys_PMM0402,Low,score-0-only (max class 1-3 TCDB score 0),none,,

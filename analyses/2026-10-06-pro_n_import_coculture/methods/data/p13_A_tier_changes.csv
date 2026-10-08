@@ -1,0 +1,13 @@
+strain,system_id,member_names,tier_old,tier_new,reason_new,transport_class
+med4,sys_PMM0804,PMM0804:ftn,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.4
+mit9313,sys_PMT0284,PMT0284:som,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+mit9313,sys_PMT0802,PMT0802:som,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+mit9313,sys_PMT0998,PMT0998:som,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+mit9313,sys_PMT1979,PMT1979:som,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+mit9313,sys_PMT0495,PMT0495:ftn,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.4
+mit9313,sys_PMT0499,PMT0499:ftn,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.4
+mit9313,sys_PMT1573,PMT1573:,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.8
+mit9313,sys_PMT2240,PMT2240:focA,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.2
+natl2a,sys_PMN2A_0777,PMN2A_0777:PMN2A_RS07060,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+natl2a,sys_PMN2A_1028,PMN2A_1028:PMN2A_RS08380,Low,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],cyanorak.role:Q.6
+natl2a,sys_PMN2A_1299,PMN2A_1299:focA,Low,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",cyanorak.role:Q.2

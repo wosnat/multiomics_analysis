@@ -1,0 +1,17 @@
+metabolite_id,name,source,equiv_group,in_N_xref
+kegg.compound:C00001,H2O,docs_min8,kegg.compound:C00001,True
+kegg.compound:C00011,CO2,docs_min8,kegg.compound:C00011,True
+kegg.compound:C00002,ATP,docs_min8,kegg.compound:C00002,True
+kegg.compound:C00008,ADP,docs_min8,kegg.compound:C00008,True
+kegg.compound:C00020,AMP,docs_min8,kegg.compound:C00020,True
+kegg.compound:C00009,Orthophosphate,docs_min8,kegg.compound:C00009,True
+kegg.compound:C00013,Diphosphate,docs_min8,kegg.compound:C00013,True
+kegg.compound:C00003,NAD+,docs_min8,kegg.compound:C00003,True
+kegg.compound:C00004,NADH,docs_min8,kegg.compound:C00004,True
+kegg.compound:C00005,NADPH,docs_min8,kegg.compound:C00005,True
+kegg.compound:C00006,NADP+,docs_min8,kegg.compound:C00006,True
+kegg.compound:C00080,H+,extension_2026-10-07,kegg.compound:C00080,True
+kegg.compound:C00010,CoA,extension_2026-10-07,kegg.compound:C00010,True
+kegg.compound:C00016,FAD,extension_2026-10-07,kegg.compound:C00016,True
+kegg.compound:C00044,GTP,extension_2026-10-07,kegg.compound:C00044,True
+kegg.compound:C00035,GDP,extension_2026-10-07,kegg.compound:C00035,True

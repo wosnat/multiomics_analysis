@@ -1,0 +1,15 @@
+case,system_id,candidate,before_window,after_window_ms
+cyn,sys_PMM0370,PMM0373,Cyanate,Cyanate
+urt,sys_PMM0970,PMM0963,Urea,Urea
+urt,sys_PMM0970,PMM0964,Urea,Urea
+urt,sys_PMM0970,PMM0965,Urea,Urea
+amt1,sys_PMM0263,PMM0257,Ammonia,Ammonia
+salY,sys_PMM0913,PMM0908,L-Threonine,
+salY,sys_PMM0913,PMM0917,L-Histidine,
+salY,sys_PMM0913,PMM0919,Glycine,
+salY,sys_PMM0913,PMM0920,L-Glutamine,
+fadD,sys_PMM0402,PMM0396,L-Proline | NAD+,
+fadD,sys_PMM0402,PMM0405,Acetyl-CoA | CoA | NAD+,
+fadD,sys_PMM0402,PMM0407,L-Cysteine,
+fadD,sys_PMM0402,PMM0408,L-Cysteine,
+fadD,sys_PMM0402,PMM0409,L-Cysteine,

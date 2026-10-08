@@ -1,0 +1,8 @@
+variant,files_dir,max_gap_bp,join_within_run_by_role,cross_locus,n_systems,n_role_complete,n_cross_locus_merged_systems,n_cross_locus_edges,n_role_join_edges,n_adjacent_abc_edges,size_distribution,max_system_size
+gap100_roleT_crossT,grid,100,True,True,343,50,5,9,3,1,1:318; 2:12; 3:8; 4:3; 5:2,5
+gap100_roleF_crossT,grid,100,False,True,347,50,5,9,0,0,1:324; 2:12; 3:6; 4:3; 5:2,5
+gap200_roleT_crossT,.,200,True,True,340,50,5,9,3,1,1:315; 2:12; 3:8; 4:3; 5:1; 6+:1,8
+gap200_roleF_crossT,grid,200,False,True,344,50,5,9,0,0,1:321; 2:12; 3:6; 4:3; 5:1; 6+:1,8
+gap500_roleT_crossT,grid,500,True,True,340,50,5,9,3,1,1:315; 2:12; 3:8; 4:3; 5:1; 6+:1,8
+gap500_roleF_crossT,grid,500,False,True,344,50,5,9,0,0,1:321; 2:12; 3:6; 4:3; 5:1; 6+:1,8
+gap200_roleT_crossF,grid,200,True,False,347,46,0,0,3,1,1:323; 2:15; 3:6; 4:1; 5:1; 6+:1,8

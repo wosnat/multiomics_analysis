@@ -1,0 +1,10 @@
+system_id,equiv_group,locus_tag,enzyme_name,rank_offset,gap_to_nearest_member,same_strand,in_system_run,substrate_names,fragment_of,system_tier,system_is_transporter_candidate
+sys_PMN2A_0002,kegg.compound:C00051,PMN2A_1889,glx2,-7.0,6120.0,True,False,Glutathione,none,Medium,True
+sys_PMN2A_1011,kegg.compound:C00135,PMN2A_1019,hisD,8.0,12218.0,False,False,L-Histidine,none,High,True
+sys_PMN2A_1044,kegg.compound:C00086,PMN2A_1053,ureA,5.0,2957.0,False,False,Urea,none,High,True
+sys_PMN2A_1044,kegg.compound:C00086,PMN2A_1054,ureB,6.0,3268.0,False,False,Urea,none,High,True
+sys_PMN2A_1044,kegg.compound:C00086,PMN2A_1055,ureC,7.0,3590.0,False,False,Urea,none,High,True
+sys_PMN2A_1235,kegg.compound:C00842,PMN2A_1237,rfbA,2.0,1484.0,True,False,dTDP-glucose,none,not_transporter,False
+sys_PMN2A_1236,kegg.compound:C00842,PMN2A_1237,rfbA,1.0,38.0,True,True,dTDP-glucose,none,not_transporter,False
+sys_PMN2A_1299,kegg.compound:C00088,PMN2A_1298,nirA,-2.0,265.0,True,True,Nitrite,none,Medium,True
+sys_PMN2A_1299,kegg.compound:C00088,PMN2A_RS10340,nirA,-1.0,62.0,True,True,Nitrite,PMN2A_1298,Medium,True

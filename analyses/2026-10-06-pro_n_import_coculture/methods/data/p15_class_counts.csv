@@ -1,0 +1,43 @@
+strain,compound_class,before,after
+med4,amines,5,6
+med4,amino acids,39,42
+med4,amino sugars,0,9
+med4,ammonium,7,4
+med4,cyanate,1,1
+med4,nitrate,1,1
+med4,nitrite,1,1
+med4,nucleobases/nucleosides,18,19
+med4,osmolytes,9,15
+med4,peptides,8,12
+med4,polyamines,6,7
+med4,unclassified (no formula),238,232
+med4,unclassified N,384,368
+med4,urea,4,4
+mit9313,amines,5,6
+mit9313,amino acids,48,55
+mit9313,amino sugars,0,9
+mit9313,ammonium,7,4
+mit9313,cyanate,1,1
+mit9313,nitrate,1,1
+mit9313,nitrite,1,1
+mit9313,nucleobases/nucleosides,19,21
+mit9313,osmolytes,9,17
+mit9313,peptides,9,13
+mit9313,polyamines,6,7
+mit9313,unclassified (no formula),248,242
+mit9313,unclassified N,422,399
+mit9313,urea,4,4
+natl2a,amines,5,6
+natl2a,amino acids,41,44
+natl2a,amino sugars,0,9
+natl2a,ammonium,7,4
+natl2a,cyanate,1,1
+natl2a,nitrate,1,1
+natl2a,nitrite,1,1
+natl2a,nucleobases/nucleosides,18,19
+natl2a,osmolytes,9,16
+natl2a,peptides,9,13
+natl2a,polyamines,6,7
+natl2a,unclassified (no formula),238,232
+natl2a,unclassified N,382,365
+natl2a,urea,4,4

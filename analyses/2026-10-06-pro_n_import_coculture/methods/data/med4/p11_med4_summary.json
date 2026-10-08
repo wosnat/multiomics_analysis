@@ -1,0 +1,431 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus MED4",
+ "role_map_hash": "63e64ce28b984719",
+ "ubiquity_threshold": 30,
+ "ubiquity_top20": [
+  {
+   "equiv_group": "kegg.compound:C00001",
+   "name": "H2O",
+   "n_genes_with_reaction": 178,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00002",
+   "name": "ATP",
+   "n_genes_with_reaction": 129,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00080",
+   "name": "H+",
+   "n_genes_with_reaction": 106,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00009",
+   "name": "Orthophosphate",
+   "n_genes_with_reaction": 84,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00008",
+   "name": "ADP",
+   "n_genes_with_reaction": 76,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00003",
+   "name": "NAD+",
+   "n_genes_with_reaction": 58,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00004",
+   "name": "NADH",
+   "n_genes_with_reaction": 51,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00011",
+   "name": "CO2",
+   "n_genes_with_reaction": 45,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00005",
+   "name": "NADPH",
+   "n_genes_with_reaction": 42,
+   "is_currency": true,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00014",
+   "name": "Ammonia",
+   "n_genes_with_reaction": 36,
+   "is_currency": false,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00025",
+   "name": "L-Glutamate",
+   "n_genes_with_reaction": 34,
+   "is_currency": false,
+   "excluded_as_ubiquitous": true
+  },
+  {
+   "equiv_group": "kegg.compound:C00019",
+   "name": "S-Adenosyl-L-methionine",
+   "n_genes_with_reaction": 23,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00064",
+   "name": "L-Glutamine",
+   "n_genes_with_reaction": 23,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00010",
+   "name": "CoA",
+   "n_genes_with_reaction": 23,
+   "is_currency": true,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00022",
+   "name": "Pyruvate",
+   "n_genes_with_reaction": 21,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00044",
+   "name": "GTP",
+   "n_genes_with_reaction": 21,
+   "is_currency": true,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00007",
+   "name": "Oxygen",
+   "n_genes_with_reaction": 20,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00024",
+   "name": "Acetyl-CoA",
+   "n_genes_with_reaction": 20,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00037",
+   "name": "Glycine",
+   "n_genes_with_reaction": 18,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  },
+  {
+   "equiv_group": "kegg.compound:C00021",
+   "name": "S-Adenosyl-L-homocysteine",
+   "n_genes_with_reaction": 17,
+   "is_currency": false,
+   "excluded_as_ubiquitous": false
+  }
+ ],
+ "excluded_non_currency": [
+  {
+   "equiv_group": "kegg.compound:C00014",
+   "name": "Ammonia",
+   "n_genes_with_reaction": 36
+  },
+  {
+   "equiv_group": "kegg.compound:C00025",
+   "name": "L-Glutamate",
+   "n_genes_with_reaction": 34
+  }
+ ],
+ "function_linked": {
+  "pairs": 34,
+  "systems": 12,
+  "enzymes": 18
+ },
+ "neighbour_linked": {
+  "pairs": 6,
+  "systems": 4,
+  "enzymes": 6
+ },
+ "tiers": {
+  "Low": 146,
+  "not_transporter": 101,
+  "High": 39,
+  "Medium": 34
+ },
+ "fragments": [],
+ "function_link_rows_by_tier": {
+  "Medium": 22,
+  "High": 6,
+  "not_transporter": 5,
+  "Low": 1
+ },
+ "neighbour_link_rows_by_tier": {
+  "High": 4,
+  "Medium": 1,
+  "not_transporter": 1
+ },
+ "known_false_positive_systems": [
+  {
+   "system_id": "sys_PMM0110",
+   "member_names": "PMM0110:gst",
+   "tier": "Medium"
+  },
+  {
+   "system_id": "sys_PMM0566",
+   "member_names": "PMM0566:gst",
+   "tier": "Medium"
+  },
+  {
+   "system_id": "sys_PMM0630",
+   "member_names": "PMM0630:gst",
+   "tier": "Medium"
+  },
+  {
+   "system_id": "sys_PMM0804",
+   "member_names": "PMM0804:ftn",
+   "tier": "Medium"
+  },
+  {
+   "system_id": "sys_PMM1295",
+   "member_names": "PMM1295:sodX",
+   "tier": "Medium"
+  }
+ ],
+ "tiers_by_type": {
+  "High": {
+   "multi_gene": 9,
+   "single_gene": 30
+  },
+  "Low": {
+   "multi_gene": 8,
+   "single_gene": 138
+  },
+  "Medium": {
+   "multi_gene": 6,
+   "single_gene": 28
+  },
+  "not_transporter": {
+   "multi_gene": 1,
+   "single_gene": 100
+  }
+ },
+ "compound_classes_groups": {
+  "unclassified N": 368,
+  "unclassified (no formula)": 232,
+  "amino acids": 42,
+  "nucleobases/nucleosides": 19,
+  "osmolytes": 15,
+  "peptides": 12,
+  "amino sugars": 9,
+  "polyamines": 7,
+  "amines": 6,
+  "ammonium": 4,
+  "urea": 4,
+  "nitrate": 1,
+  "nitrite": 1,
+  "cyanate": 1
+ },
+ "compound_classes_rows": {
+  "unclassified N": 4584,
+  "unclassified (no formula)": 3794,
+  "amino acids": 764,
+  "peptides": 274,
+  "nucleobases/nucleosides": 239,
+  "osmolytes": 226,
+  "polyamines": 127,
+  "amino sugars": 101,
+  "urea": 87,
+  "nitrate": 43,
+  "nitrite": 29,
+  "cyanate": 25,
+  "amines": 18,
+  "ammonium": 14
+ },
+ "analogue_groups": [
+  {
+   "equiv_group": "chebi:35274",
+   "names": "ammonium ion derivative",
+   "compound_class": "ammonium"
+  },
+  {
+   "equiv_group": "chebi:74266",
+   "names": "N-acylurea",
+   "compound_class": "urea"
+  },
+  {
+   "equiv_group": "kegg.compound:C00218",
+   "names": "Methylamine",
+   "compound_class": "ammonium"
+  },
+  {
+   "equiv_group": "kegg.compound:C00797",
+   "names": "Ethylamine",
+   "compound_class": "ammonium"
+  },
+  {
+   "equiv_group": "kegg.compound:C07044",
+   "names": "Hydroxyurea",
+   "compound_class": "urea"
+  },
+  {
+   "equiv_group": "kegg.compound:C14415",
+   "names": "Thiourea",
+   "compound_class": "urea"
+  }
+ ],
+ "name_layer_unclassified_groups_n": 600,
+ "calls": [
+  {
+   "call": "gene_ontology_terms(universe + enzymes, cyanorak_role/tigr_role, leaf)",
+   "n_calls": 4,
+   "total_matching": 3470,
+   "returned": 3470,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag",
+    "term_id"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": true,
+   "params": {
+    "locus_tags": "<list of 1013>",
+    "organism": "Prochlorococcus MED4",
+    "ontology": [
+     "cyanorak_role",
+     "tigr_role",
+     "ec"
+    ]
+   }
+  },
+  {
+   "call": "gene_details(RefSeq-tagged genes, aliases)",
+   "n_calls": 1,
+   "total_matching": 14,
+   "returned": 14,
+   "limit": "None",
+   "natural_key": [
+    "locus_tag"
+   ],
+   "duplicates_on_natural_key": 0,
+   "identical_duplicates_collapsed": 0,
+   "not_found": null,
+   "not_matched_n": 0,
+   "wrong_ontology": null,
+   "wrong_level": null,
+   "resolved_aliases": null,
+   "warnings": [],
+   "strict_inputs": false,
+   "params": {
+    "locus_tags": [
+     "TX50_RS03815",
+     "TX50_RS09255",
+     "TX50_RS09260",
+     "TX50_RS09290",
+     "TX50_RS09405",
+     "TX50_RS09470",
+     "TX50_RS09500",
+     "TX50_RS09520",
+     "TX50_RS09710",
+     "TX50_RS09730",
+     "TX50_RS09860",
+     "TX50_RS09915",
+     "TX50_RS09930",
+     "TX50_RS09970"
+    ]
+   }
+  }
+ ],
+ "pilot": [
+  {
+   "case": "cyn",
+   "system_id": "sys_PMM0370",
+   "tier": "High",
+   "tier_reason": "strong + role-complete + resolved",
+   "transport_class": "cyanorak.role:Q.1",
+   "function_linked": "PMM0373(cynS)->Cyanate via cyanorak.role:E.4",
+   "neighbour_linked": "PMM0373(cynS)->Cyanate"
+  },
+  {
+   "case": "urt",
+   "system_id": "sys_PMM0970",
+   "tier": "High",
+   "tier_reason": "strong + role-complete + resolved",
+   "transport_class": "cyanorak.role:Q.1",
+   "function_linked": "PMM0963(ureC)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0964(ureB)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0965(ureA)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4",
+   "neighbour_linked": "PMM0963(ureC)->Urea; PMM0964(ureB)->Urea; PMM0965(ureA)->Urea"
+  },
+  {
+   "case": "dpp",
+   "system_id": "sys_PMM0192",
+   "tier": "High",
+   "tier_reason": "strong + role-complete + resolved",
+   "transport_class": "cyanorak.role:Q.1|cyanorak.role:Q.4|cyanorak.role:Q.7",
+   "function_linked": "",
+   "neighbour_linked": ""
+  },
+  {
+   "case": "amt1",
+   "system_id": "sys_PMM0263",
+   "tier": "High",
+   "tier_reason": "strong + role-complete + resolved",
+   "transport_class": "cyanorak.role:Q.4",
+   "function_linked": "PMM0920(glnA)->Ammonia via cyanorak.role:E.4; PMM1512(glsF)->Ammonia via cyanorak.role:E.4",
+   "neighbour_linked": ""
+  },
+  {
+   "case": "pst",
+   "system_id": "sys_PMM0710",
+   "tier": "High",
+   "tier_reason": "strong + role-complete + resolved",
+   "transport_class": "cyanorak.role:Q.2",
+   "function_linked": "",
+   "neighbour_linked": ""
+  },
+  {
+   "case": "salY",
+   "system_id": "sys_PMM0913",
+   "tier": "Low",
+   "tier_reason": "superfamily-only (all TCDB members family_inferred)",
+   "transport_class": "none",
+   "function_linked": "",
+   "neighbour_linked": ""
+  },
+  {
+   "case": "fadD",
+   "system_id": "sys_PMM0402",
+   "tier": "Low",
+   "tier_reason": "score-0-only (max class 1-3 TCDB score 0)",
+   "transport_class": "none",
+   "function_linked": "",
+   "neighbour_linked": ""
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+system_id,member_names,n_genes,tier,tier_reason,likely_transporter_members,role_complete,member_resolutions,c123_max_score,max_tcdb_evidence_score,evidence_class,transport_class_ids,transport_class_names,n_function_linked_enzymes,n_neighbour_linked_enzymes,known_false_positive,known_false_positive_reason,efflux_annotated,n_fragment_links_not_counted
+sys_PMN2A_0004,PMN2A_0004:yrbG,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0037,PMN2A_0037:mntC|PMN2A_0038:mntA|PMN2A_0039:mntB,3,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0067,PMN2A_0067:gltS,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0075,PMN2A_0075:mscS,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,False,0
+sys_PMN2A_0103,PMN2A_0103:phnE|PMN2A_0104:phnC|PMN2A_0105:phnD,3,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.2,Transport and binding proteins > Anions,0,0,False,none,False,0
+sys_PMN2A_0134,PMN2A_0134:PMN2A_RS03625,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_0211,PMN2A_0211:futC|PMN2A_0774:idiA2|PMN2A_1822:futB,3,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0244,PMN2A_0244:PMN2A_RS04155,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,True,0
+sys_PMN2A_0256,PMN2A_0256:PMN2A_RS04215,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,True,0
+sys_PMN2A_0309,PMN2A_0309:pstB|PMN2A_0310:pstA|PMN2A_0311:pstC|PMN2A_0441:pstS,4,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,cyanorak.role:Q.2,Transport and binding proteins > Anions,0,0,False,none,False,0
+sys_PMN2A_0358,PMN2A_0358:PMN2A_RS04755,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0359,PMN2A_0359:PMN2A_RS04760,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0384,PMN2A_0384:PMN2A_RS04885,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,True,0
+sys_PMN2A_0403,PMN2A_0403:PMN2A_RS05005,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0443,PMN2A_0443:chrA,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_0444,PMN2A_0444:arsJ,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_0447,PMN2A_0447:arsB,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,True,0
+sys_PMN2A_0478,PMN2A_0478:PMN2A_RS05415,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_0611,PMN2A_0611:PMN2A_RS06190|PMN2A_0612:natH|PMN2A_0613:natG|PMN2A_0614:natF,4,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",0,0,False,none,False,0
+sys_PMN2A_0631,PMN2A_0631:sul1,1,High,strong + role-complete + resolved,strong,True,resolved,0.6,0.6,all_family_inferred,cyanorak.role:Q.2,Transport and binding proteins > Anions,0,0,False,none,False,0
+sys_PMN2A_0649,PMN2A_0649:PMN2A_RS06410,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,False,0
+sys_PMN2A_0704,PMN2A_0704:dppA|PMN2A_0705:dppB|PMN2A_1559:ddpD|PMN2A_1755:dppC,4,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.1|cyanorak.role:Q.4|cyanorak.role:Q.7,"Transport and binding proteins > Amino acids, peptides and amines|Transport and binding proteins > Cations and iron carrying compounds|Transport and binding proteins > Sugars",0,0,False,none,False,0
+sys_PMN2A_0750,PMN2A_0750:PMN2A_RS06920,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_0777,PMN2A_0777:PMN2A_RS07060,1,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],strong,True,resolved,0.0,0.0,any_homology,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_0894,PMN2A_0894:glcH,1,High,strong + role-complete + resolved,strong,True,resolved,0.6,0.6,any_homology,cyanorak.role:Q.3,"Transport and binding proteins > Carbohydrates, organic alcohols, and acids",0,0,False,none,False,0
+sys_PMN2A_1011,PMN2A_1011:PMN2A_RS08290,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,cyanorak.role:Q.3,"Transport and binding proteins > Carbohydrates, organic alcohols, and acids",0,1,False,none,False,0
+sys_PMN2A_1028,PMN2A_1028:PMN2A_RS08380,1,High,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],strong,True,resolved,0.0,0.0,any_homology,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_1032,PMN2A_1032:PMN2A_RS08400|PMN2A_1034:PMN2A_RS08410|PMN2A_1035:PMN2A_RS08415,3,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1044,PMN2A_1044:urtE|PMN2A_1045:urtD|PMN2A_1046:urtC|PMN2A_1047:urtB|PMN2A_1048:urtA,5,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",3,3,False,none,False,0
+sys_PMN2A_1175,PMN2A_1175:nhaS,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1208,PMN2A_1208:mgtE,1,High,strong + role-complete + resolved,strong,True,resolved,1.0,1.0,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1224,PMN2A_1224:PMN2A_RS09395,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,True,0
+sys_PMN2A_1303,PMN2A_1303:PMN2A_RS09810,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_1411,PMN2A_1411:PMN2A_RS00440,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_1428,PMN2A_1428:PMN2A_RS00530,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,False,0
+sys_PMN2A_1447,PMN2A_1447:PMN2A_RS00625,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1448,PMN2A_1448:ktrB|PMN2A_1449:ktrA,2,High,strong + role-complete + resolved,strong,True,resolved,1.0,1.0,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1580,PMN2A_1580:PMN2A_RS01295,1,High,strong + role-complete + resolved,strong,True,resolved,0.2,0.2,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_1581,PMN2A_1581:sul3,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.2,Transport and binding proteins > Anions,0,0,False,none,False,0
+sys_PMN2A_1629,PMN2A_1629:amt1,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,2,0,False,none,False,0
+sys_PMN2A_1805,PMN2A_1805:nhaS,1,High,strong + role-complete + resolved,strong,True,resolved,0.4,0.4,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1891,PMN2A_1891:PMN2A_RS02920,1,High,strong + role-complete + resolved,strong,True,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,True,0
+sys_PMN2A_0006,PMN2A_0006:ndhL,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0016,PMN2A_0016:clpB1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0017,PMN2A_0017:petE,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0030,PMN2A_0030:ndhD2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0042,PMN2A_0042:lepB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0046,PMN2A_0046:murF,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0057,PMN2A_0057:acs,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0066,PMN2A_0066:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0151,PMN2A_0151:pcyA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0158,PMN2A_0158:tsf,1,Low,superfamily-only (all TCDB members family_inferred),tcdb_only,False,family_inferred,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0160,PMN2A_0160:recG,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0191,PMN2A_0191:accD,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0192,PMN2A_0192:pilD,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_0209,PMN2A_0209:PMN2A_RS03990,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0215,PMN2A_0215:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0218,PMN2A_0218:PcCAO,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0264,PMN2A_0264:gatA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0268,PMN2A_0268:ruvA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0282,PMN2A_0282:secD|PMN2A_0283:secF,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_0292,PMN2A_0292:clpP1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0293,PMN2A_0293:ftsH2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0294,PMN2A_0294:PMN2A_RS04400,1,Low,superfamily-only (all TCDB members family_inferred),strong,False,family_inferred,0.8,0.8,any_homology,none,none,0,0,False,none,True,0
+sys_PMN2A_0312,PMN2A_0312:dnaK2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,1.0,1.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0316,PMN2A_0316:ppiB,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0337,PMN2A_0337:PMN2A_RS04625,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0353,PMN2A_0353:ftsH3,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0367,PMN2A_0367:terC,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0369,PMN2A_0369:mfd,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0436,PMN2A_0436:phoB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0437,PMN2A_0437:phoR,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0445,PMN2A_0445:gap3,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0558,PMN2A_0558:psbA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0621,PMN2A_0621:PMN2A_RS06245,1,Low,score-0-only (max class 1-3 TCDB score 0),strong,True,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0646,PMN2A_0646:recD,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0647,PMN2A_0647:crhR,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0660,PMN2A_0660:clpC,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0674,PMN2A_0674:sasA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0691,PMN2A_0691:trxA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0717,PMN2A_0717:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0718,PMN2A_0718:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0719,PMN2A_0719:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0722,PMN2A_0722:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0723,PMN2A_0723:pcb,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0729,PMN2A_0729:PMN2A_RS06810,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0735,PMN2A_0735:psbA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0753,PMN2A_0753:pntB,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0754,PMN2A_0754:pntA2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0755,PMN2A_0755:pntA1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0765,PMN2A_0765:PMN2A_RS06995,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0767,PMN2A_0767:psbD|PMN2A_0768:psbC,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0772,PMN2A_0772:petF,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,1,0,False,none,False,0
+sys_PMN2A_0805,PMN2A_0805:ALB3,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0806,PMN2A_0806:ycf46,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0830,PMN2A_0830:ftsH4,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0838,PMN2A_0838:PMN2A_RS07390,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0850,PMN2A_0850:PMN2A_RS07440,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0851,PMN2A_0851:phoH,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0853,PMN2A_0853:ffh,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0879,PMN2A_0879:clpP4,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0880,PMN2A_0880:clpP3,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0912,PMN2A_0912:nblS,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0929,PMN2A_0929:murD,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0964,PMN2A_0964:dnaK1,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0967,PMN2A_0967:secG,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0968,PMN2A_0968:groL1,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0970,PMN2A_0970:atpB|PMN2A_0971:atpE,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,1.0,1.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0974,PMN2A_0974:PMN2A_RS08105,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0980,PMN2A_0980:atpC|PMN2A_0981:atpA|PMN2A_0982:atpD|PMN2A_0983:atpF|PMN2A_0984:atpG|PMN2A_0985:atpH|PMN2A_0986:atpI|PMN2A_0987:atp1,8,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,1.0,1.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0989,PMN2A_0989:ccsC1,1,Low,score-0-only (max class 1-3 TCDB score 0),strong,False,resolved,0.0,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0994,PMN2A_0994:PMN2A_RS08205,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1004,PMN2A_1004:dnaJ5,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1017,PMN2A_1017:tatD,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1038,PMN2A_1038:PMN2A_RS08430,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1059,PMN2A_1059:PMN2A_RS08535,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1087,PMN2A_1087:PMN2A_RS08670,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.2,any_homology,none,none,1,0,False,none,False,0
+sys_PMN2A_1111,PMN2A_1111:secY,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1130,PMN2A_1130:ndhN,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1141,PMN2A_1141:moeB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1152,PMN2A_1152:mrdB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1153,PMN2A_1153:abpC,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1180,PMN2A_1180:ndhS,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1185,PMN2A_1185:acpP,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1192,PMN2A_1192:ruvB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1196,PMN2A_1196:srrA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1198,PMN2A_1198:mreC|PMN2A_1199:mreB,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",none|tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1200,PMN2A_1200:ssb,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1220,PMN2A_1220:secA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_1225,PMN2A_1225:PMN2A_RS09400,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1247,PMN2A_1247:uvrB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1254,PMN2A_1254:clpP2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1286,PMN2A_1286:speE,1,Low,superfamily-only (all TCDB members family_inferred),tcdb_only,False,family_inferred,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1313,PMN2A_1313:dnaK3,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1323,PMN2A_1323:uvrA,1,Low,superfamily-only (all TCDB members family_inferred),strong,False,family_inferred,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1337,PMN2A_1337:ftsY,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1340,PMN2A_1340:PMN2A_RS00075,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1344,PMN2A_1344:dnaJ1,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1350,PMN2A_1350:gap2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1354,PMN2A_1354:accB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1370,PMN2A_1370:PMN2A_RS00225,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1408,PMN2A_1408:PMN2A_RS00425,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1413,PMN2A_1413:PMN2A_RS00450,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1416,PMN2A_1416:PMN2A_RS00470,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1441,PMN2A_1441:rarA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1468,PMN2A_1468:nadB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1488,PMN2A_1488:ndhO,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1489,PMN2A_1489:dnaJ4,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1494,PMN2A_1494:rpaA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1500,PMN2A_1500:rpaB,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1504,PMN2A_1504:plsC1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1511,PMN2A_1511:ndhM,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1515,PMN2A_1515:ndhF1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1516,PMN2A_1516:ndhD1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1519,PMN2A_1519:metF,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1524,PMN2A_1524:ndhE|PMN2A_1527:ndhA,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1525,PMN2A_1525:ndhG,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1526,PMN2A_1526:ndhI,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1537,PMN2A_1537:ycf29,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1539,PMN2A_1539:rsmH,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1540,PMN2A_1540:ndhH,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1570,PMN2A_1570:rplA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1573,PMN2A_1573:secE,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1574,PMN2A_1574:clpB2,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1582,PMN2A_1582:dnaJ2,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1592,PMN2A_1592:psbA,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1595,PMN2A_1595:ftsH1,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1597,PMN2A_1597:psbO,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1608,PMN2A_1608:txlA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1617,PMN2A_1617:tatA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1618,PMN2A_1618:psbH,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1658,PMN2A_1658:ndhJ,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1659,PMN2A_1659:ndhK|PMN2A_1660:ndhC,2,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1661,PMN2A_1661:rub,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1663,PMN2A_1663:psbE,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1672,PMN2A_1672:ppeA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1692,PMN2A_1692:psbB,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1698,PMN2A_1698:minD,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1702,PMN2A_1702:petB,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1703,PMN2A_1703:petD,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1732,PMN2A_1732:dgdA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1737,PMN2A_1737:fadD,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1747,PMN2A_1747:murE,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1750,PMN2A_1750:PMN2A_RS02210,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1766,PMN2A_1766:ftsE,1,Low,superfamily-only (all TCDB members family_inferred),strong,False,family_inferred,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1767,PMN2A_1767:ndhB,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1768,PMN2A_1768:topA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1775,PMN2A_1775:ctaEI|PMN2A_1776:ctaDI|PMN2A_1777:ctaCI,3,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1778,PMN2A_1778:ctaA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1783,PMN2A_1783:groL2,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1785,PMN2A_1785:fabG,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1793,PMN2A_1793:petA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.6,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1794,PMN2A_1794:petC,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1796,PMN2A_1796:tatC,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1830,PMN2A_1830:priA,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1866,PMN2A_1866:PMN2A_RS02795,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1868,PMN2A_1868:PMN2A_RS02805,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1876,PMN2A_1876:csoS1D,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1878,PMN2A_1878:csoS1A,1,Low,"catalogue-only (TCDB hit, no domain/KO/curated support)",tcdb_only,False,resolved,0.2,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1883,PMN2A_1883:csoS4A,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1884,PMN2A_1884:csos4B,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1885,PMN2A_1885:csoS1E,1,Low,score-0-only (max class 1-3 TCDB score 0),tcdb_only,False,resolved,0.0,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0002,PMN2A_0002:gst,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,all_family_inferred,none,none,5,1,True,known false positive: glutathione S-transferase (product),False,0
+sys_PMN2A_0069,PMN2A_0069:gst,1,Medium,"strong, role-incomplete",strong,False,resolved,0.2,0.2,all_family_inferred,none,none,5,0,True,known false positive: glutathione S-transferase (product),False,0
+sys_PMN2A_0098,PMN2A_0098:PMN2A_RS03440,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_0147,PMN2A_0147:bioY,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,any_homology,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,False,0
+sys_PMN2A_0152,PMN2A_0152:devB|PMN2A_0153:devC|PMN2A_0154:devA,3,Medium,"strong, role-incomplete (mixed member resolutions)",strong,False,family_inferred|resolved,0.8,0.8,any_homology,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,True,0
+sys_PMN2A_0169,PMN2A_0169:lptB|PMN2A_0170:lptG,2,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,any_homology,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,True,0
+sys_PMN2A_0217,PMN2A_0217:PMN2A_RS04030,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0234,PMN2A_0234:evrA|PMN2A_0235:evrB|PMN2A_0236:evrC,3,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,any_homology,none,none,0,0,False,none,True,0
+sys_PMN2A_0237,PMN2A_0237:PMN2A_RS04120,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0270,PMN2A_0270:PMN2A_RS04285,1,Medium,"strong, complete, no TCDB resolution [superfamily-only overridden by curated Cyanorak transport role]",strong,True,family_inferred,0.4,0.4,any_homology,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,False,0
+sys_PMN2A_0707,PMN2A_0707:PMN2A_RS06700,1,Medium,"strong, complete, no TCDB resolution",strong,True,none,,,no_tcdb,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_0747,PMN2A_0747:PMN2A_RS06905,1,Medium,"strong, role-incomplete",strong,False,resolved,0.2,0.2,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_0790,PMN2A_0790:PMN2A_RS07145,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0798,PMN2A_0798:PMN2A_RS07185,1,Medium,"strong, complete, no TCDB resolution [superfamily-only overridden by curated Cyanorak transport role]",strong,True,family_inferred,0.4,0.4,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_0895,PMN2A_0895:PMN2A_RS07680|PMN2A_1655:PMN2A_RS01680|PMN2A_1656:PMN2A_RS01685,3,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_0909,PMN2A_0909:bamA,1,Medium,"strong, role-incomplete",strong,False,resolved,0.6,0.6,any_homology,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_0933,PMN2A_0933:PMN2A_RS07875,1,Medium,"strong, complete, no TCDB resolution",strong,True,none,,,no_tcdb,none,none,0,0,False,none,True,0
+sys_PMN2A_0950,PMN2A_0950:uup,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_0988,PMN2A_0988:ftsW,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_1057,PMN2A_1057:PMN2A_RS08525,1,Medium,"strong, complete, no TCDB resolution",strong,True,none,,,no_tcdb,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_1210,PMN2A_1210:crcB2|PMN2A_1211:crcB1,2,Medium,"strong, role-incomplete",strong,False,resolved,0.6,0.6,all_family_inferred,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,True,0
+sys_PMN2A_1218,PMN2A_1218:PMN2A_RS09360|PMN2A_1219:PMN2A_RS09365,2,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,False,0
+sys_PMN2A_1299,PMN2A_1299:focA,1,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",strong,False,resolved,0.0,0.0,any_homology,cyanorak.role:Q.2,Transport and binding proteins > Anions,1,1,False,none,False,1
+sys_PMN2A_1368,PMN2A_1368:PMN2A_RS00215,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_1435,PMN2A_1435:sufC,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1455,PMN2A_1455:abc-f,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_1465,PMN2A_1465:PMN2A_RS00710,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,True,0
+sys_PMN2A_1478,PMN2A_1478:gst,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,all_family_inferred,none,none,6,0,True,known false positive: glutathione S-transferase (product),False,0
+sys_PMN2A_1493,PMN2A_1493:ecfA1,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,False,0
+sys_PMN2A_1497,PMN2A_1497:PMN2A_RS00885,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1627,PMN2A_1627:murJ,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,none,none,0,0,False,none,False,0
+sys_PMN2A_1640,PMN2A_1640:PMN2A_RS01600,1,Medium,"strong, role-incomplete",strong,False,resolved,0.4,0.4,any_homology,cyanorak.role:Q.8,Transport and binding proteins > Other,0,0,False,none,False,0
+sys_PMN2A_1727,PMN2A_1727:cbiQ,1,Medium,"strong, role-incomplete",strong,False,resolved,0.8,0.8,all_family_inferred,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_1757,PMN2A_1757:PMN2A_RS02250,1,Medium,"strong, complete, no TCDB resolution",strong,True,none,,,no_tcdb,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_1772,PMN2A_1772:PMN2A_RS02325,1,Medium,"strong, role-incomplete",strong,False,none,,,no_tcdb,none,none,0,0,False,none,False,0
+sys_PMN2A_1780,PMN2A_1780:PMN2A_RS02365|PMN2A_1781:PMN2A_RS02370,2,Medium,"strong, role-incomplete (mixed member resolutions)",strong,False,family_inferred|resolved,0.8,0.8,any_homology,cyanorak.role:Q.7,Transport and binding proteins > Sugars,0,0,False,none,True,0
+sys_PMN2A_2187,PMN2A_2187:,1,Medium,"strong, complete, no TCDB resolution",strong,True,none,,,no_tcdb,cyanorak.role:Q.2,Transport and binding proteins > Anions,0,0,False,none,False,0
+sys_PMN2A_0003,PMN2A_0003:gor,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0010,PMN2A_0010:petJ3,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0025,PMN2A_0025:PMN2A_RS03065,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_0055,PMN2A_0055:sds,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0090,PMN2A_0090:PMN2A_RS03395,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0110,PMN2A_0110:ctpA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0143,PMN2A_0143:PMN2A_RS03670,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0146,PMN2A_0146:ispA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0156,PMN2A_0156:PMN2A_RS03730,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0171,PMN2A_0171:ccsA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,1,0,False,none,False,0
+sys_PMN2A_0184,PMN2A_0184:cobW,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0206,PMN2A_0206:pgsA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0212,PMN2A_0212:ftn,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,True,known false positive: ferritin (product),False,0
+sys_PMN2A_0221,PMN2A_0221:galE,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0228,PMN2A_0228:petF,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0297,PMN2A_0297:ylmG1,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0304,PMN2A_0304:prxQ,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0306,PMN2A_0306:htpG,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0313,PMN2A_0313:dnaJ3,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0330,PMN2A_0330:PMN2A_RS04585,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0352,PMN2A_0352:ahpC,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0393,PMN2A_0393:desA2,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0440,PMN2A_0440:PMN2A_RS05215,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.6,Transport and binding proteins > Porins,0,0,False,none,False,0
+sys_PMN2A_0446,PMN2A_0446:arsR,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0455,PMN2A_0455:PMN2A_RS05295,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0664,PMN2A_0664:cdsA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0680,PMN2A_0680:PMN2A_RS06570,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0681,PMN2A_0681:crtE,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0727,PMN2A_0727:prxQ,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0775,PMN2A_0775:piuC,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_0787,PMN2A_0787:prxQ,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0796,PMN2A_0796:PMN2A_RS07175,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0799,PMN2A_0799:sppA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0808,PMN2A_0808:rseP,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0848,PMN2A_0848:era,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0860,PMN2A_0860:fkpA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0867,PMN2A_0867:argD,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0882,PMN2A_0882:cobD,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0883,PMN2A_0883:PMN2A_RS07615,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0893,PMN2A_0893:glgX,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0898,PMN2A_0898:plsY,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0924,PMN2A_0924:petF,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_0936,PMN2A_0936:PMN2A_RS07890,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1007,PMN2A_1007:PMN2A_RS08270,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1021,PMN2A_1021:deg1,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1037,PMN2A_1037:PMN2A_RS08425,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1072,PMN2A_1072:PMN2A_RS08595,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1082,PMN2A_1082:psaA|PMN2A_1083:psaB,2,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1084,PMN2A_1084:psaL,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1139,PMN2A_1139:PMN2A_RS08950,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1150,PMN2A_1150:psaD,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1162,PMN2A_1162:PMN2A_RS09075,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1169,PMN2A_1169:ho1,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,2,0,False,none,False,0
+sys_PMN2A_1184,PMN2A_1184:psaC,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1195,PMN2A_1195:lysS,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1201,PMN2A_1201:dedA2,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1202,PMN2A_1202:ahcY,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1228,PMN2A_1228:PMN2A_RS09415,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1235,PMN2A_1235:pseB,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,1,1,False,none,False,0
+sys_PMN2A_1236,PMN2A_1236:rfbB,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,1,1,False,none,False,0
+sys_PMN2A_1257,PMN2A_1257:mgdA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,1,0,False,none,False,0
+sys_PMN2A_1269,PMN2A_1269:metC,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0
+sys_PMN2A_1280,PMN2A_1280:PMN2A_RS09685,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1290,PMN2A_1290:aspS,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1306,PMN2A_1306:VTE5,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1320,PMN2A_1320:mraY,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1335,PMN2A_1335:PMN2A_RS00050,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1373,PMN2A_1373:mrdA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1424,PMN2A_1424:cbb3,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1442,PMN2A_1442:PMN2A_RS00600,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.9,Transport and binding proteins > Unknown substrate,0,0,False,none,False,0
+sys_PMN2A_1443,PMN2A_1443:prxQ,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1456,PMN2A_1456:degQ,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1463,PMN2A_1463:PMN2A_RS00700,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1469,PMN2A_1469:SynDsbAB,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1491,PMN2A_1491:PMN2A_RS00850,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1508,PMN2A_1508:PMN2A_RS00940,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.5,"Transport and binding proteins > Nucleosides, purines and pyrimidines",0,0,False,none,False,0
+sys_PMN2A_1556,PMN2A_1556:trmE,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1561,PMN2A_1561:rbgA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1566,PMN2A_1566:pyrD,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1586,PMN2A_1586:cgtA,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1603,PMN2A_1603:crtR,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1635,PMN2A_1635:PMN2A_RS01575,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1680,PMN2A_1680:uxs,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1681,PMN2A_1681:PMN2A_RS01805,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,2,0,False,none,False,0
+sys_PMN2A_1701,PMN2A_1701:ctp,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1706,PMN2A_1706:psaE,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1711,PMN2A_1711:unk3B,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1759,PMN2A_1759:chlG,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1761,PMN2A_1761:hisF,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.1,"Transport and binding proteins > Amino acids, peptides and amines",0,0,False,none,False,0
+sys_PMN2A_1764,PMN2A_1764:vipp1,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1779,PMN2A_1779:ctaB,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1786,PMN2A_1786:ispD,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1792,PMN2A_1792:lgt,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1799,PMN2A_1799:gmk,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1801,PMN2A_1801:psaF,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.6,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1815,PMN2A_1815:PMN2A_RS02540,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.2,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1821,PMN2A_1821:PMN2A_RS02570,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.4,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1823,PMN2A_1823:PMN2A_RS02580,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1846,PMN2A_1846:lepB,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1848,PMN2A_1848:PMN2A_RS02705,1,not_transporter,no member is strong or tcdb_only,none,False,resolved,,0.0,any_homology,none,none,0,0,False,none,False,0
+sys_PMN2A_1857,PMN2A_1857:hemH,1,not_transporter,no member is strong or tcdb_only,none,False,none,,,no_tcdb,cyanorak.role:Q.4,Transport and binding proteins > Cations and iron carrying compounds,0,0,False,none,False,0

@@ -1,0 +1,13 @@
+strain,tier,before,after
+med4,High,39,39
+med4,Medium,31,34
+med4,Low,149,146
+med4,not_transporter,95,101
+mit9313,High,64,64
+mit9313,Medium,44,58
+mit9313,Low,219,206
+mit9313,not_transporter,132,142
+natl2a,High,42,42
+natl2a,Medium,34,37
+natl2a,Low,162,160
+natl2a,not_transporter,93,101

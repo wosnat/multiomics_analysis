@@ -1,0 +1,5 @@
+strain,locus_tag,likely_transporter,basis,cyanorak_q_roles,tcdb_ids,tier,tier_reason
+med4,PMM0804,strong,cyanorak|tcdb,cyanorak.role:Q.4,tcdb:1.A.155,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+mit9313,PMT0495,strong,cyanorak|tcdb,cyanorak.role:Q.4,tcdb:1.A.155,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+mit9313,PMT0499,strong,cyanorak|tcdb,cyanorak.role:Q.4,tcdb:1.A.155,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+natl2a,PMN2A_0212,none,neighbour (non-universe),,,not a system member,

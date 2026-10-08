@@ -1,0 +1,117 @@
+{
+ "med4": {
+  "universe_before": 360,
+  "universe_after": 366,
+  "universe_added": 6,
+  "systems_before": 314,
+  "systems_after": 320,
+  "likely_transporter_changes_existing_genes": 0,
+  "membership_changed_systems": 6,
+  "existing_loci_with_tier_change": 4,
+  "added_genes_by_tier": {
+   "not_transporter": 6
+  }
+ },
+ "mit9313": {
+  "universe_before": 528,
+  "universe_after": 539,
+  "universe_added": 11,
+  "systems_before": 459,
+  "systems_after": 470,
+  "likely_transporter_changes_existing_genes": 0,
+  "membership_changed_systems": 11,
+  "existing_loci_with_tier_change": 17,
+  "added_genes_by_tier": {
+   "not_transporter": 10,
+   "Medium": 1
+  }
+ },
+ "natl2a": {
+  "universe_before": 379,
+  "universe_after": 388,
+  "universe_added": 9,
+  "systems_before": 331,
+  "systems_after": 340,
+  "likely_transporter_changes_existing_genes": 0,
+  "membership_changed_systems": 9,
+  "existing_loci_with_tier_change": 2,
+  "added_genes_by_tier": {
+   "not_transporter": 8,
+   "Medium": 1
+  }
+ },
+ "tier_counts": [
+  {
+   "strain": "med4",
+   "tier": "High",
+   "before": 39,
+   "after": 39
+  },
+  {
+   "strain": "med4",
+   "tier": "Medium",
+   "before": 31,
+   "after": 34
+  },
+  {
+   "strain": "med4",
+   "tier": "Low",
+   "before": 149,
+   "after": 146
+  },
+  {
+   "strain": "med4",
+   "tier": "not_transporter",
+   "before": 95,
+   "after": 101
+  },
+  {
+   "strain": "mit9313",
+   "tier": "High",
+   "before": 64,
+   "after": 64
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Medium",
+   "before": 44,
+   "after": 58
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Low",
+   "before": 219,
+   "after": 206
+  },
+  {
+   "strain": "mit9313",
+   "tier": "not_transporter",
+   "before": 132,
+   "after": 142
+  },
+  {
+   "strain": "natl2a",
+   "tier": "High",
+   "before": 42,
+   "after": 42
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Medium",
+   "before": 34,
+   "after": 37
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Low",
+   "before": 162,
+   "after": 160
+  },
+  {
+   "strain": "natl2a",
+   "tier": "not_transporter",
+   "before": 93,
+   "after": 101
+  }
+ ]
+}

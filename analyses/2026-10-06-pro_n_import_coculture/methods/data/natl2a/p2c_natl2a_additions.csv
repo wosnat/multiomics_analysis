@@ -1,0 +1,3 @@
+locus_tag,gene_name,product,role_pfam_ids,src_tcdb,src_brite,src_pfam_role,src_pfam_role_datamap,src_cyanorak_q,tcdb_class_ids,brite_transporter_terms
+PMN2A_0933,PMN2A_RS07875,drug/metabolite transporter (DMT) superfamily efflux protein,pfam:PF00892,False,False,False,True,False,,
+PMN2A_1772,PMN2A_RS02325,uncharacterized conserved secreted protein,pfam:PF13343,False,False,False,True,False,,

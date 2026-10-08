@@ -1,0 +1,6 @@
+case,strain,system_id,enzyme_loci,n_enzymes,a_window,b_run,c_neighbour_linked,d_function_linked,expected
+cynS → cyn (cyanate),med4,sys_PMM0370,PMM0373,1,1,1,1,1,yes
+ureC/B/A → urt (urea),med4,sys_PMM0970,PMM0963|PMM0964|PMM0965,3,3,0,3,3,yes
+pncC → amt1 (ammonia),med4,sys_PMM0263,PMM0257,1,1,0,0,0,no
+glnA/glsF → amt1 (ammonia),med4,sys_PMM0263,PMM0920|PMM1512,2,0,0,0,2,yes (expression partner)
+"nirA → focA (nitrite, MIT9313)",mit9313,sys_PMT2240,PMT2239,1,1,1,1,1,yes

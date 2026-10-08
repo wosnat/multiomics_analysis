@@ -1,0 +1,36 @@
+{
+ "n_transport_version": "1.6.1",
+ "organism": "Prochlorococcus NATL2A",
+ "universe_file": "p2c_natl2a_universe.csv",
+ "role_map_hash": "7bd5e68b38ace76c",
+ "n_universe_genes": 388,
+ "n_domains": 410,
+ "domains_by_role": {
+  "other": 356,
+  "single_carrier": 28,
+  "permease": 12,
+  "substrate_binding": 8,
+  "atpase": 6
+ },
+ "genes_by_role": {
+  "other": 294,
+  "single_carrier": 35,
+  "atpase": 23,
+  "permease": 19,
+  "substrate_binding": 9,
+  "mixed": 8
+ },
+ "likely_transporter_counts": {
+  "tcdb_only": 169,
+  "strong": 116,
+  "none": 103
+ },
+ "seed_conflicts": [
+  {
+   "pfam_id": "pfam:PF08352",
+   "pfam_name": "Oligopeptide/dipeptide transporter, C-terminal region",
+   "seed_role": "atpase",
+   "name_rule_role": "other"
+  }
+ ]
+}

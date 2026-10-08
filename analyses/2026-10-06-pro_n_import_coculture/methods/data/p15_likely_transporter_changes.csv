@@ -1,0 +1,6 @@
+strain,kind,locus_tag,gene_name,product,old,new,basis
+med4,universe,PMM0589,,translocation and assembly module TamB-like protein,strong,none,ko|cyanorak
+med4,universe,PMM1225,wzc,P-loop containing nucleoside triphosphate hydrolase,strong,none,ko
+mit9313,universe,PMT0438,,translocation and assembly module TamB-like protein,strong,none,ko|cyanorak
+mit9313,universe,PMT1821,ictB,"bicarbonate transporter, ICT family",strong,none,ko|cyanorak
+natl2a,universe,PMN2A_0025,PMN2A_RS03065,translocation and assembly module TamB-like protein,strong,none,ko|cyanorak

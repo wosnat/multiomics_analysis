@@ -1,0 +1,19 @@
+change,equiv_group,names,strains,systems,tiers,gene_names,tcdb_families
+removed,kegg.compound:C04114,(E)-4-(Trimethylammonio)but-2-enoate,mit9313,sys_PMT0553,High,proV|proW|proX,tcdb:3.A.1.12
+removed,kegg.compound:C01181,4-Trimethylammoniobutanoate,mit9313,sys_PMT0553,High,proV|proW|proX,tcdb:3.A.1.12
+removed,kegg.compound:C16432,5-Hydroxyectoine,mit9313,sys_PMT2163,Medium,,tcdb:2.A.56
+removed,kegg.compound:C00002,ATP,natl2a,sys_PMN2A_0912,Medium,nblS,tcdb:9.B.238.3
+removed,kegg.compound:C00306,Bradykinin,med4|mit9313|natl2a,sys_PMM0192 || sys_PMT0266 || sys_PMN2A_0704,High,ddpD|dppA|dppB|dppC || ddpD|dppA|dppB|dppC || ddpD|dppA|dppB|dppC,tcdb:3.A.1.5
+removed,kegg.compound:C01674,Chitobiose,mit9313,sys_PMT0145,High,lacF|lacG|srrA,tcdb:3.A.1.1.40
+removed,kegg.compound:C00876,Coenzyme F420,med4|mit9313|natl2a,sys_PMM0157|sys_PMM0293 || sys_PMT1892|sys_PMT2017 || sys_PMN2A_1524|sys_PMN2A_1659,Medium,ndhA|ndhC|ndhE|ndhK || ndhA|ndhC|ndhE|ndhK || ndhA|ndhC|ndhE|ndhK,tcdb:3.D.13.1
+removed,kegg.compound:C01157,Hydroxyproline,mit9313,sys_PMT0515|sys_PMT0893,High,grrP,tcdb:3.A.1.3
+removed,kegg.compound:C00519,Hypotaurine,mit9313|natl2a,sys_PMT1160 || sys_PMN2A_0750,High,nan || PMN2A_RS06920,tcdb:2.A.22.5
+removed,kegg.compound:C00491,L-Cystine,mit9313|natl2a,sys_PMT0888 || sys_PMN2A_0790,Medium,nan || PMN2A_RS07145,tcdb:2.A.43
+removed,kegg.compound:C06372,Lacto-N-biose,mit9313,sys_PMT0145,High,,tcdb:3.A.1.1
+removed,kegg.compound:C01834,Lipoprotein,mit9313,sys_PMT2163,Medium,,tcdb:2.A.56
+removed,kegg.compound:C03878,N-Acetyl-beta-D-glucosamine,mit9313,sys_PMT0145,High,,tcdb:3.A.1.1
+removed,kegg.compound:C19910,N-Acetyl-beta-neuraminate,mit9313|natl2a,sys_PMT0265|sys_PMT0804|sys_PMT1502|sys_PMT_0997 || sys_PMN2A_0437|sys_PMN2A_0912|sys_PMN2A_1011,High|Medium,phoR|putP || PMN2A_RS08290|nblS|phoR,tcdb:2.A.21
+removed,chebi:50668,N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-aldehydo-D-glucosamine,mit9313,sys_PMT0145,High,,tcdb:3.A.1.1
+removed,kegg.compound:C00887,Nitrous oxide,med4|mit9313|natl2a,sys_PMM0444 || sys_PMT1341 || sys_PMN2A_1775,Medium,ctaCI|ctaDI || ctaCI|ctaDI || ctaCI|ctaDI,tcdb:3.D.4.2
+removed,kegg.compound:C08263,beta-Alaninebetaine,mit9313,sys_PMT0553,High,proV|proW|proX,tcdb:3.A.1.12
+added,kegg.compound:C20292,Tetramethylammonium,med4|mit9313|natl2a,sys_PMM0263 || sys_PMT1853 || sys_PMN2A_1629,High,amt1 || amt1 || amt1,tcdb:1.A.11

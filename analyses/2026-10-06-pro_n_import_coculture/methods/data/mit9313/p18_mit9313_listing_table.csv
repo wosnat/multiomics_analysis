@@ -1,0 +1,13 @@
+strain,compound_class,dedicated_H,dedicated_M,dedicated_systems,broad_H,broad_M,broad_systems
+mit9313,ammonium,1,0,PMT1853:amt1 (High),6,0,PMT0515: (High) || PMT0542: (High) || PMT1628:ktrB|PMT1629:ktrA (High) || PMT1944:nhaS (High) || PMT1974: (High) || PMT_0376: (High)
+mit9313,urea,1,0,PMT2225:urtE|PMT2226:urtD|PMT2227:urtC|PMT2228:urtB|PMT2229:urtA (High),1,0,PMT1502:putP (High)
+mit9313,cyanate,0,0,,0,0,
+mit9313,nitrite,0,0,,0,0,
+mit9313,nitrate,0,0,,3,0,PMT0899:sul1 (High) || PMT1214:sul3 (High) || PMT1502:putP (High)
+mit9313,peptides,1,0,PMT0266:dppC|PMT1145:dppA|PMT1146:dppB|PMT2110:ddpD (High),11,1,"PMT0077: (High) || PMT0655: (High) || PMT0819:mdlB (High) || PMT0977:|PMT0978: (High) || PMT1080: (High) || PMT1192: (High) || PMT1502:putP (High) || PMT1595:mcyH (High) || PMT1929: (High) || PMT2142:|PMT2143:|PMT2145: (High) || PMT_0093: (High) || PMT0471:gst (Medium, known FP) || PMT0888: (Medium) || PMT1025: (Medium, known FP) || PMT1961:gst (Medium, known FP) || PMT2104:gst (Medium, known FP)"
+mit9313,amino acids,4,0,PMT0193:agcS (High) || PMT0553:proV|PMT0554:proW|PMT0555:proX (High) || PMT0893:|PMT0894:natH|PMT0896:natG|PMT0897:natF|PMT1517:grrP (High) || PMT1044:proP (High),18,6,PMT0077: (High) || PMT0145:srrA|PMT0668:lacF|PMT1120:lacG|PMT1545: (High) || PMT0515: (High) || PMT0819:mdlB (High) || PMT0854:mscS (High) || PMT0899:sul1 (High) || PMT0909: (High) || PMT0977:|PMT0978: (High) || PMT1080: (High) || PMT1160: (High) || PMT1214:sul3 (High) || PMT1398:glcH (High) || PMT1502:putP (High) || PMT1595:mcyH (High) || PMT1627:citT (High) || PMT1929: (High) || PMT2142:|PMT2143:|PMT2145: (High) || PMT_0093: (High) || PMT0129: (Medium) || PMT0691:ggtA|PMT0692:ggtD|PMT0693:ggtC|PMT0694:ggtB (Medium) || PMT0888: (Medium) || PMT1616: (Medium) || PMT1851:murJ (Medium) || PMT2161:|PMT2162: (Medium)
+mit9313,amino sugars,0,0,,3,1,PMT0145:srrA|PMT0668:lacF|PMT1120:lacG|PMT1545: (High) || PMT1398:glcH (High) || PMT1502:putP (High) || PMT0691:ggtA|PMT0692:ggtD|PMT0693:ggtC|PMT0694:ggtB (Medium)
+mit9313,polyamines,0,0,,2,0,PMT1398:glcH (High) || PMT1502:putP (High)
+mit9313,nucleobases/nucleosides,0,0,,0,1,PMT0430: (Medium)
+mit9313,osmolytes,2,0,PMT0553:proV|PMT0554:proW|PMT0555:proX (High) || PMT1044:proP (High),4,0,PMT0266:dppC|PMT1145:dppA|PMT1146:dppB|PMT2110:ddpD (High) || PMT0909: (High) || PMT1160: (High) || PMT1502:putP (High)
+mit9313,amines,0,0,,0,0,

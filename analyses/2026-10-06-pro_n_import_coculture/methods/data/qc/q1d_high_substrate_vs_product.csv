@@ -1,0 +1,146 @@
+strain,system_id,member_names,member_loci,products,top_most_specific_substrates,substrate_keyword_families,product_keyword_families,keyword_flag
+med4,sys_PMM0065,PMM0065:mcyH,PMM0065,"mcyH ABC transporter, ATPase component",drug | microcin | Actinorhodin,,,no keyword
+med4,sys_PMM0083,PMM0083:citT,PMM0083,"citT putative sodium/potassium/sulfate transporter, DASS family",Glutamate | Orthophosphate | Selenite,amino acid|phosphate,polyamine|potassium|sodium|sulfate,disagree
+med4,sys_PMM0084,PMM0084:ktrB|PMM0085:ktrA,PMM0084|PMM0085,"ktrB Ktr-type potassium uptake transporter, potassium-translocating subunit B | ktrA Ktr-type potassium uptake system, NAD-binding component",Sodium cation | Potassium cation | Li(+),potassium|sodium,polyamine|potassium,agree
+med4,sys_PMM0192,PMM0192:ddpD|PMM0421:dppC|PMM1048:dppB|PMM1049:dppA,PMM0192|PMM0421|PMM1048|PMM1049,"ddpD peptide/nickel ABC transport system, ATP-binding component | dppC ABC-type oligopeptide transporter, membrane component | dppB oligopeptide ABC transporter, membrane component | dppA peptide/nickel transport system substrate-binding protein",5-Aminolevulinate | Bradykinin | Cellobiose,,peptide,product keyword only
+med4,sys_PMM0213,PMM0213:sbtA,PMM0213,sbtA possible sodium-dependent bicarbonate transporter,HCO3- | Sodium cation,bicarbonate|sodium,bicarbonate|sodium,agree
+med4,sys_PMM0214,PMM0214:sul3,PMM0214,sul3 sulfate transporter family protein,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+med4,sys_PMM0263,PMM0263:amt1,PMM0263,amt1 ammonium transporter,Ammonia | CO2 | Ethylamine,ammonium,ammonium,agree
+med4,sys_PMM0370,PMM0370:cynA|PMM0371:cynB|PMM0372:cynD,PMM0370|PMM0371|PMM0372,"cynA cyanate ABC transporter, substrate-binding protein | cynB cyanate ABC transporter, permease protein | cynD cyanate ABC transporter ATP-binding protein",Nitrite | nitrate | Cyanate,cyanate|nitrite/nitrate,cyanate,agree
+med4,sys_PMM0472,PMM0472:nhaS,PMM0472,"nhaS Na+/H+ antiporter, CPA1 family",Calcium cation | Cs(+) | Rubidium cation,,sodium,product keyword only
+med4,sys_PMM0489,PMM0489:futB|PMM0803:futC|PMM1164:idiA2,PMM0489|PMM0803|PMM1164,"futB ABC-type Fe3+ transport system, membrane component | futC iron(III) transport system ATP-binding protein | idiA2 iron deficiency-induced protein A",Fe(III)-complexed siderophore | Fe3+ | gallium(3+),iron,iron,agree
+med4,sys_PMM0561,PMM0561:,PMM0561, putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword
+med4,sys_PMM0568,PMM0568:yrbG,PMM0568,yrbG cation:H+ antiporter,Calcium cation | H+ | Sodium cation,sodium,,substrate keyword only
+med4,sys_PMM0601,PMM0601:mntC|PMM0602:mntA|PMM0603:mntB,PMM0601|PMM0602|PMM0603,"mntC ABC-type Mn2+ transporter, substrate binding protein | mntA ABC-type Mn2+ transport system, ATPase component | mntB ABC-type Mn2+ transporter, membrane component",Manganese(2+),manganese,manganese,agree
+med4,sys_PMM0628,PMM0628:gltS,PMM0628,gltS putative Na+/glutamate symporter,,,amino acid|sodium,product keyword only
+med4,sys_PMM0635,PMM0635:mscS,PMM0635,"mscS small-conductance mechanosensitive ion channel, MscS family",Cl-,,,no keyword
+med4,sys_PMM0644,PMM0644:sul1,PMM0644,sul1 sulfate permease,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+med4,sys_PMM0671,PMM0671:phnE|PMM0672:phnC|PMM0673:phnD,PMM0671|PMM0672|PMM0673,"phnE phosphate/phosphonate ABC type transporter, permease component | phnC phosphonate ABC type transporter, ATPase component | phnD phosphonate ABC type transporter, substrate binding component",Fe3+ | Orthophosphate | Phosphinate,iron|phosphate,phosphate|phosphonate,agree
+med4,sys_PMM0704,PMM0704:,PMM0704," potassium ion channel, VIC family",Potassium cation | Calcium cation | Magnesium cation,magnesium|potassium,polyamine|potassium,agree
+med4,sys_PMM0709,PMM0709:som,PMM0709,som outer membrane porin,Fe(III)-complexed siderophore | DNA | a protein,iron,,substrate keyword only
+med4,sys_PMM0710,PMM0710:pstS|PMM0723:pstC|PMM0724:pstA|PMM0725:pstB,PMM0710|PMM0723|PMM0724|PMM0725,"pstS phosphate ABC transporter, phosphate-binding protein PstS | pstC ABC-type phosphate transport system permease component | pstA ABC-type phosphate transport system permease component | pstB ABC-type phosphate transport system ATPase component",Orthophosphate | Triphosphate,phosphate,phosphate,agree
+med4,sys_PMM0711,PMM0711:chrA,PMM0711,chrA chromate transporter,chromate,,,no keyword
+med4,sys_PMM0712,PMM0712:arsJ,PMM0712,"arsJ multidrug efflux transporter, MFS family",,,,no keyword
+med4,sys_PMM0716,PMM0716:arsB,PMM0716,arsB arsenate efflux pump,Arsenic acid | Arsenite | H+,,,no keyword
+med4,sys_PMM0827,PMM0827:mdlB,PMM0827,mdlB putative ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+med4,sys_PMM0848,PMM0848:,PMM0848, uncharacterized membrane protein (UPF0016),Calcium cation | H+ | Lactate,,,no keyword
+med4,sys_PMM0849,PMM0849:,PMM0849, uncharacterized membrane protein,Calcium cation | H+ | Lactate,,,no keyword
+med4,sys_PMM0927,PMM0927:perM,PMM0927,"perM putative autoinducer 2 exporter, YhhT family",Potassium cation,potassium,,substrate keyword only
+med4,sys_PMM0954,PMM0954:,PMM0954, putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword
+med4,sys_PMM0970,PMM0970:urtA|PMM0971:urtB|PMM0972:urtC|PMM0973:urtD|PMM0974:urtE,PMM0970|PMM0971|PMM0972|PMM0973|PMM0974,"urtA ABC-type urea transporter, substrate binding component | urtB ABC-type urea transporter, permease component | urtC ABC-type urea transporter, membrane component | urtD ABC-type urea transporter, ATP-binding component UrtD | urtE ABC-type urea transporter, ATPase component UrtE",Urea | Hydroxyurea | Thiourea,urea,urea,agree
+med4,sys_PMM0981,PMM0981:,PMM0981, sulfite exporter TauE/SafE family protein,Toluene-4-sulfonate,,sulfate,product keyword only
+med4,sys_PMM1029,PMM1029:|PMM1031:|PMM1032:lraI,PMM1029|PMM1031|PMM1032," ABC-type Mn2+/Zn2+ transport system, permease component |  ABC-type Mn2+/Zn2+ transport system, ATP-binding component | lraI ABC-type Mn2+/Zn2+ transport system, periplasmic component",Cu2+ | Fe2+ | zinc ion,copper|iron|zinc,,substrate keyword only
+med4,sys_PMM1099,PMM1099:,PMM1099, ABC transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+med4,sys_PMM1175,PMM1175:,PMM1175, AEC transporter family,(S)-Malate | Indole-3-acetate | auxin,,,no keyword
+med4,sys_PMM1239,PMM1239:hetA,PMM1239,"hetA ABC transporter type 1, ATPase component",Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+med4,sys_PMM1323,PMM1323:glcH,PMM1323,glcH glucose transporter,Cysteine | D-galactose | Li(+),amino acid|sugar,sugar,agree
+med4,sys_PMM1600,PMM1600:nhaS,PMM1600,"nhaS Na+/H+ antiporter, CPA2 family",Ammonia | cation,ammonium,sodium,disagree
+med4,sys_PMM1630,PMM1630:mgtE,PMM1630,mgtE magnesium transporter,Calcium cation | Cobalt ion | Fe2+,cobalt/B12|iron,magnesium,disagree
+med4,sys_PMM1695,PMM1695:,PMM1695," multidrug efflux transporter, MFS family",Tetracycline | H+,,,no keyword
+med4,sys_PMM1701,PMM1701:clc2,PMM1701,clc2 putative chloride channel,auxin | inorganic anion,,,no keyword
+mit9313,sys_PMT0077,PMT0077:,PMT0077," type I secretion system ABC transporter, HlyB family",Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT0126,PMT0126:mgtE,PMT0126,mgtE magnesium transporter,Calcium cation | Cobalt ion | Fe2+,cobalt/B12|iron,magnesium,disagree
+mit9313,sys_PMT0145,PMT0145:srrA|PMT0668:lacF|PMT1120:lacG|PMT1545:,PMT0145|PMT0668|PMT1120|PMT1545,"srrA putative ABC transporter, sugar binding component | lacF putative ABC sugar transporter, membrane component | lacG ABC-type sugar transport system, permease component |  ABC transporter family protein","(1,4-alpha-D-glucosyl)n | Cellobiose | Digalacturonate",,sugar,product keyword only
+mit9313,sys_PMT0193,PMT0193:agcS,PMT0193,agcS amino acid carrier family protein,Alanine | Asparagine | Glycine,amino acid,amino acid,agree
+mit9313,sys_PMT0266,PMT0266:dppC|PMT1145:dppA|PMT1146:dppB|PMT2110:ddpD,PMT0266|PMT1145|PMT1146|PMT2110,"dppC ABC-type oligopeptide transporter, membrane component | dppA peptide/nickel transport system substrate-binding protein | dppB oligopeptide ABC transporter, membrane component | ddpD peptide/nickel ABC transport system, ATP-binding component",5-Aminolevulinate | Bradykinin | Cellobiose,,peptide,product keyword only
+mit9313,sys_PMT0284,PMT0284:som,PMT0284,som outer membrane porin,,,,no keyword
+mit9313,sys_PMT0287,PMT0287:idiA2|PMT0501:futC|PMT1287:futB,PMT0287|PMT0501|PMT1287,"idiA2 iron deficiency-induced protein A | futC iron(III) transport system ATP-binding protein | futB ABC-type Fe3+ transport system, membrane component",Fe(III)-complexed siderophore | Fe3+ | gallium(3+),iron,iron,agree
+mit9313,sys_PMT0353,PMT0353:,PMT0353, putative sodium dependent transporter domain protein,3beta-Hydroxypregn-5-en-20-one sulfate | Bile salt | Calcium cation,sulfate,sodium,disagree
+mit9313,sys_PMT0416,PMT0416:mntB|PMT0417:mntA|PMT0418:mntC,PMT0416|PMT0417|PMT0418,"mntB ABC-type Mn2+ transporter, membrane component | mntA ABC-type Mn2+ transport system, ATPase component | mntC ABC-type Mn2+ transporter, substrate binding protein",Manganese(2+),manganese,manganese,agree
+mit9313,sys_PMT0469,PMT0469:yrbG,PMT0469,yrbG cation:H+ antiporter,Calcium cation | H+ | Sodium cation,sodium,,substrate keyword only
+mit9313,sys_PMT0508,PMT0508:pstS|PMT0700:pstB|PMT0701:pstA|PMT0702:pstC|PMT0993:pstS,PMT0508|PMT0700|PMT0701|PMT0702|PMT0993,"pstS phosphate ABC transporter, phosphate-binding protein PstS | pstB ABC-type phosphate transport system ATPase component | pstA ABC-type phosphate transport system permease component | pstC ABC-type phosphate transport system permease component | pstS phosphate ABC transporter, phosphate-binding protein PstS",Orthophosphate | Triphosphate,phosphate,phosphate,agree
+mit9313,sys_PMT0515,PMT0515:,PMT0515, possible ligand gated channel (GIC family),Cl- | calcium ion | cation,,,no keyword
+mit9313,sys_PMT0542,PMT0542:,PMT0542," putative Na+/H+ antiporter, CPA1 family",cation | Ammonia | Calcium cation,ammonium,sodium,disagree
+mit9313,sys_PMT0553,PMT0553:proV|PMT0554:proW|PMT0555:proX,PMT0553|PMT0554|PMT0555,"proV ABC-type proline/glycine betaine transport system, ATPase component | proW ABC-type glycine betaine/proline transporter, membrane component | proX ABC-type glycine betaine/proline transporter, substrate binding component",(E)-4-(Trimethylammonio)but-2-enoate | 4-Trimethylammoniobutanoate | Acetylcholine,ammonium|osmolyte,osmolyte,agree
+mit9313,sys_PMT0602,PMT0602:,PMT0602," putative autoinducer 2 exporter, YhhT family",Potassium cation,potassium,,substrate keyword only
+mit9313,sys_PMT0603,PMT0603:perM,PMT0603,"perM putative autoinducer 2 exporter, YhhT family",Potassium cation,potassium,,substrate keyword only
+mit9313,sys_PMT0655,PMT0655:,PMT0655, putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword
+mit9313,sys_PMT0762,PMT0762:clc2,PMT0762,clc2 putative chloride channel,auxin | inorganic anion,,,no keyword
+mit9313,sys_PMT0764,PMT0764:,PMT0764, uncharacterized membrane protein,Calcium cation | H+ | Lactate,,,no keyword
+mit9313,sys_PMT0765,PMT0765:,PMT0765, uncharacterized membrane protein (UPF0016),Calcium cation | H+ | Lactate,,,no keyword
+mit9313,sys_PMT0780,PMT0780:phnD|PMT0781:phnC|PMT0782:phnE,PMT0780|PMT0781|PMT0782,"phnD phosphonate ABC type transporter, substrate binding component | phnC phosphonate ABC type transporter, ATPase component | phnE phosphate/phosphonate ABC type transporter, permease component",Fe3+ | Orthophosphate | Phosphinate,iron|phosphate,phosphate|phosphonate,agree
+mit9313,sys_PMT0802,PMT0802:som,PMT0802,som outer membrane porin,,,,no keyword
+mit9313,sys_PMT0819,PMT0819:mdlB,PMT0819,mdlB putative ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT0854,PMT0854:mscS,PMT0854,"mscS small-conductance mechanosensitive ion channel, MscS family",Cl- | L-Glutamate | Sodium cation,amino acid|sodium,,substrate keyword only
+mit9313,sys_PMT0856,PMT0856:mscL,PMT0856,"mscL large-conductance mechanosensitive ion channel, MscL family",ion | molecule | osmolyte,,,no keyword
+mit9313,sys_PMT0893,PMT0893:|PMT0894:natH|PMT0896:natG|PMT0897:natF|PMT1517:grrP,PMT0893|PMT0894|PMT0896|PMT0897|PMT1517," BgtA-like ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), ATPase subunit | natH ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein | natG ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein | natF ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein | grrP extracellular substrate-binding orphan, GRRM family protein",alpha-amino acid | Asparagine | Aspartate,amino acid,amino acid,agree
+mit9313,sys_PMT0899,PMT0899:sul1,PMT0899,sul1 sulfate permease,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+mit9313,sys_PMT0909,PMT0909:,PMT0909, sodium:dicarboxylate symporter,Alanine | Cysteine | L-Glutamate,amino acid,sodium,disagree
+mit9313,sys_PMT0930,PMT0930:,PMT0930, sulfite exporter TauE/SafE family protein,Toluene-4-sulfonate,,sulfate,product keyword only
+mit9313,sys_PMT0977,PMT0977:|PMT0978:,PMT0977|PMT0978, ABC transporter family protein |  ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT0998,PMT0998:som,PMT0998,som outer membrane porin,,,,no keyword
+mit9313,sys_PMT0999,PMT0999:arsJ,PMT0999,"arsJ multidrug efflux transporter, MFS family",,,,no keyword
+mit9313,sys_PMT1044,PMT1044:proP,PMT1044,proP proline/betaine transporter,3-pyridylacetic acid | Betaine | Carnitine,osmolyte,osmolyte,agree
+mit9313,sys_PMT1080,PMT1080:,PMT1080, ABC transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT1160,PMT1160:,PMT1160, sodium-dependent transporter,Sodium cation | Alanine | Hypotaurine,amino acid|sodium,sodium,agree
+mit9313,sys_PMT1192,PMT1192:,PMT1192, putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword
+mit9313,sys_PMT1213,PMT1213:sbtA,PMT1213,sbtA possible sodium-dependent bicarbonate transporter,,,bicarbonate|sodium,product keyword only
+mit9313,sys_PMT1214,PMT1214:sul3,PMT1214,sul3 sulfate transporter family protein,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+mit9313,sys_PMT1221,PMT1221:,PMT1221, uncharacterized conserved membrane protein,Toluene-4-sulfonate,,,no keyword
+mit9313,sys_PMT1309,PMT1309:nhaS,PMT1309,"nhaS Na+/H+ antiporter, CPA1 family",Calcium cation | Cs(+) | Rubidium cation,,sodium,product keyword only
+mit9313,sys_PMT1332,PMT1332:,PMT1332," potassium ion channel, VIC family",Potassium cation | Calcium cation | H2O,potassium,polyamine|potassium,agree
+mit9313,sys_PMT1398,PMT1398:glcH,PMT1398,glcH glucose transporter,Cysteine | D-galactose | Li(+),amino acid|sugar,sugar,agree
+mit9313,sys_PMT1437,PMT1437:,PMT1437, AEC transporter family,(S)-Malate | Indole-3-acetate | auxin,,,no keyword
+mit9313,sys_PMT1502,PMT1502:putP,PMT1502,"putP sodium:solute symporter family, possibly glucose transporter",Butanoic acid | a monocarboxylate | vitamin (role),,sodium|sugar,product keyword only
+mit9313,sys_PMT1524,PMT1524:mscS,PMT1524,"mscS small-conductance mechanosensitive ion channel, MscS family",Cl-,,,no keyword
+mit9313,sys_PMT1553,PMT1553:gltS,PMT1553,gltS putative Na+/glutamate symporter,,,amino acid|sodium,product keyword only
+mit9313,sys_PMT1595,PMT1595:mcyH,PMT1595,"mcyH ABC transporter, ATPase component",drug | microcin | Actinorhodin,,,no keyword
+mit9313,sys_PMT1627,PMT1627:citT,PMT1627,"citT putative sodium/potassium/sulfate transporter, DASS family",Glutamate | Orthophosphate | Selenite,amino acid|phosphate,polyamine|potassium|sodium|sulfate,disagree
+mit9313,sys_PMT1628,PMT1628:ktrB|PMT1629:ktrA,PMT1628|PMT1629,"ktrB Ktr-type potassium uptake transporter, potassium-translocating subunit B | ktrA Ktr-type potassium uptake system, NAD-binding component",Sodium cation | Potassium cation | Li(+),potassium|sodium,polyamine|potassium,agree
+mit9313,sys_PMT1853,PMT1853:amt1,PMT1853,amt1 ammonium transporter,Ammonia | CO2 | Ethylamine,ammonium,ammonium,agree
+mit9313,sys_PMT1929,PMT1929:,PMT1929, ABC transporter family protein,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT1944,PMT1944:nhaS,PMT1944,"nhaS Na+/H+ antiporter, CPA2 family",Ammonia | cation,ammonium,sodium,disagree
+mit9313,sys_PMT1974,PMT1974:,PMT1974," sodium/hydrogen exchanger, NhaP family",Ammonia | H+ | Li(+),ammonium,sodium,disagree
+mit9313,sys_PMT1979,PMT1979:som,PMT1979,som outer membrane porin,,,,no keyword
+mit9313,sys_PMT2030,PMT2030:,PMT2030, TqsA-like transmembrane protein,Potassium cation,potassium,,substrate keyword only
+mit9313,sys_PMT2077,PMT2077:mscS,PMT2077,"mscS small-conductance mechanosensitive ion channel, MscS family",Cl-,,,no keyword
+mit9313,sys_PMT2142,PMT2142:|PMT2143:|PMT2145:,PMT2142|PMT2143|PMT2145," hypothetical protein |  ABC multidrug efflux transporter |  NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein",Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT2149,PMT2149:,PMT2149, cyclic nucleotide-regulated small-conductance mechanosensitive ion channel,,,,no keyword
+mit9313,sys_PMT2201,PMT2201:|PMT2202:|PMT2203:lraI,PMT2201|PMT2202|PMT2203," ABC-type Mn2+/Zn2+ transport system, permease component |  ABC-type Mn2+/Zn2+ transport system, ATP-binding component | lraI ABC-type Mn2+/Zn2+ transport system, periplasmic component",Cu2+ | Fe2+ | zinc ion,copper|iron|zinc,,substrate keyword only
+mit9313,sys_PMT2225,PMT2225:urtE|PMT2226:urtD|PMT2227:urtC|PMT2228:urtB|PMT2229:urtA,PMT2225|PMT2226|PMT2227|PMT2228|PMT2229,"urtE ABC-type urea transporter, ATPase component UrtE | urtD ABC-type urea transporter, ATP-binding component UrtD | urtC ABC-type urea transporter, membrane component | urtB ABC-type urea transporter, permease component | urtA ABC-type urea transporter, substrate binding component",Urea | Hydroxyurea | Thiourea,urea,urea,agree
+mit9313,sys_PMT2244,PMT2244:,PMT2244," multidrug efflux transporter, MFS family",Tetracycline | H+,,,no keyword
+mit9313,sys_PMT2250,PMT2250:eriC,PMT2250,eriC voltage-gated CLC-type chloride channel protein,auxin | inorganic anion,,,no keyword
+mit9313,sys_PMT_0093,PMT_0093:,PMT_0093, ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+mit9313,sys_PMT_0376,PMT_0376:,PMT_0376, potassium ion channel,"4,4^-Methylenediphenyl diisocyanate | Ammonia | Barium cation",ammonium|cyanate,polyamine|potassium,disagree
+natl2a,sys_PMN2A_0004,PMN2A_0004:yrbG,PMN2A_0004,yrbG cation:H+ antiporter,Calcium cation | H+ | Sodium cation,sodium,,substrate keyword only
+natl2a,sys_PMN2A_0037,PMN2A_0037:mntC|PMN2A_0038:mntA|PMN2A_0039:mntB,PMN2A_0037|PMN2A_0038|PMN2A_0039,"mntC ABC-type Mn2+ transporter, substrate binding protein | mntA ABC-type Mn2+ transport system, ATPase component | mntB ABC-type Mn2+ transporter, membrane component",Manganese(2+),manganese,manganese,agree
+natl2a,sys_PMN2A_0067,PMN2A_0067:gltS,PMN2A_0067,gltS putative Na+/glutamate symporter,,,amino acid|sodium,product keyword only
+natl2a,sys_PMN2A_0075,PMN2A_0075:mscS,PMN2A_0075,"mscS small-conductance mechanosensitive ion channel, MscS family",Cl-,,,no keyword
+natl2a,sys_PMN2A_0103,PMN2A_0103:phnE|PMN2A_0104:phnC|PMN2A_0105:phnD,PMN2A_0103|PMN2A_0104|PMN2A_0105,"phnE phosphate/phosphonate ABC type transporter, permease component | phnC phosphonate ABC type transporter, ATPase component | phnD phosphonate ABC type transporter, substrate binding component",Fe3+ | Orthophosphate | Phosphinate,iron|phosphate,phosphate|phosphonate,agree
+natl2a,sys_PMN2A_0134,PMN2A_0134:PMN2A_RS03625,PMN2A_0134,"PMN2A_RS03625 putative autoinducer 2 exporter, YhhT family",Potassium cation,potassium,,substrate keyword only
+natl2a,sys_PMN2A_0211,PMN2A_0211:futC|PMN2A_0774:idiA2|PMN2A_1822:futB,PMN2A_0211|PMN2A_0774|PMN2A_1822,"futC iron(III) transport system ATP-binding protein | idiA2 iron deficiency-induced protein A | futB ABC-type Fe3+ transport system, membrane component",Fe(III)-complexed siderophore | Fe3+ | gallium(3+),iron,iron,agree
+natl2a,sys_PMN2A_0244,PMN2A_0244:PMN2A_RS04155,PMN2A_0244,PMN2A_RS04155 sulfite exporter TauE/SafE family protein,Toluene-4-sulfonate,,sulfate,product keyword only
+natl2a,sys_PMN2A_0256,PMN2A_0256:PMN2A_RS04215,PMN2A_0256,PMN2A_RS04215 putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword
+natl2a,sys_PMN2A_0309,PMN2A_0309:pstB|PMN2A_0310:pstA|PMN2A_0311:pstC|PMN2A_0441:pstS,PMN2A_0309|PMN2A_0310|PMN2A_0311|PMN2A_0441,"pstB ABC-type phosphate transport system ATPase component | pstA ABC-type phosphate transport system permease component | pstC ABC-type phosphate transport system permease component | pstS phosphate ABC transporter, phosphate-binding protein PstS",Orthophosphate | Triphosphate,phosphate,phosphate,agree
+natl2a,sys_PMN2A_0358,PMN2A_0358:PMN2A_RS04755,PMN2A_0358,PMN2A_RS04755 uncharacterized membrane protein,Calcium cation | H+ | Lactate,,,no keyword
+natl2a,sys_PMN2A_0359,PMN2A_0359:PMN2A_RS04760,PMN2A_0359,PMN2A_RS04760 uncharacterized membrane protein (UPF0016),Calcium cation | H+ | Lactate,,,no keyword
+natl2a,sys_PMN2A_0384,PMN2A_0384:PMN2A_RS04885,PMN2A_0384,PMN2A_RS04885 putative ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+natl2a,sys_PMN2A_0403,PMN2A_0403:PMN2A_RS05005,PMN2A_0403,"PMN2A_RS05005 potassium ion channel, VIC family",Potassium cation | Calcium cation | Magnesium cation,magnesium|potassium,polyamine|potassium,agree
+natl2a,sys_PMN2A_0443,PMN2A_0443:chrA,PMN2A_0443,chrA chromate transporter,chromate,,,no keyword
+natl2a,sys_PMN2A_0444,PMN2A_0444:arsJ,PMN2A_0444,"arsJ multidrug efflux transporter, MFS family",,,,no keyword
+natl2a,sys_PMN2A_0447,PMN2A_0447:arsB,PMN2A_0447,arsB arsenate efflux pump,Arsenic acid | Arsenite | H+,,,no keyword
+natl2a,sys_PMN2A_0478,PMN2A_0478:PMN2A_RS05415,PMN2A_0478,PMN2A_RS05415 AEC transporter family,(S)-Malate | Indole-3-acetate | auxin,,,no keyword
+natl2a,sys_PMN2A_0611,PMN2A_0611:PMN2A_RS06190|PMN2A_0612:natH|PMN2A_0613:natG|PMN2A_0614:natF,PMN2A_0611|PMN2A_0612|PMN2A_0613|PMN2A_0614,"PMN2A_RS06190 BgtA-like ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), ATPase subunit | natH ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein | natG ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein | natF ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein",alpha-amino acid | L-Glutamine | Amino acid(Arg-),amino acid,amino acid,agree
+natl2a,sys_PMN2A_0631,PMN2A_0631:sul1,PMN2A_0631,sul1 sulfate permease,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+natl2a,sys_PMN2A_0649,PMN2A_0649:PMN2A_RS06410,PMN2A_0649,PMN2A_RS06410 ABC transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+natl2a,sys_PMN2A_0704,PMN2A_0704:dppA|PMN2A_0705:dppB|PMN2A_1559:ddpD|PMN2A_1755:dppC,PMN2A_0704|PMN2A_0705|PMN2A_1559|PMN2A_1755,"dppA peptide/nickel transport system substrate-binding protein | dppB oligopeptide ABC transporter, membrane component | ddpD peptide/nickel ABC transport system, ATP-binding component | dppC ABC-type oligopeptide transporter, membrane component",5-Aminolevulinate | Bradykinin | Cellobiose,,peptide,product keyword only
+natl2a,sys_PMN2A_0750,PMN2A_0750:PMN2A_RS06920,PMN2A_0750,PMN2A_RS06920 sodium-dependent transporter,Sodium cation | Alanine | Hypotaurine,amino acid|sodium,sodium,agree
+natl2a,sys_PMN2A_0777,PMN2A_0777:PMN2A_RS07060,PMN2A_0777,PMN2A_RS07060 outer membrane porin,,,,no keyword
+natl2a,sys_PMN2A_0894,PMN2A_0894:glcH,PMN2A_0894,glcH glucose transporter,Cysteine | D-galactose | Li(+),amino acid|sugar,sugar,agree
+natl2a,sys_PMN2A_1011,PMN2A_1011:PMN2A_RS08290,PMN2A_1011,"PMN2A_RS08290 sodium:solute symporter family, possibly glucose transporter",Butanoic acid | a monocarboxylate | vitamin (role),,sodium|sugar,product keyword only
+natl2a,sys_PMN2A_1028,PMN2A_1028:PMN2A_RS08380,PMN2A_1028,PMN2A_RS08380 outer membrane porin,,,,no keyword
+natl2a,sys_PMN2A_1032,PMN2A_1032:PMN2A_RS08400|PMN2A_1034:PMN2A_RS08410|PMN2A_1035:PMN2A_RS08415,PMN2A_1032|PMN2A_1034|PMN2A_1035,"PMN2A_RS08400 ABC-type Mn2+/Zn2+ transport system, permease component | PMN2A_RS08410 ABC-type Mn2+/Zn2+ transport system, ATP-binding component | PMN2A_RS08415 ABC-type Mn2+/Zn2+ transport system, periplasmic component",Cu2+ | Fe2+ | zinc ion,copper|iron|zinc,,substrate keyword only
+natl2a,sys_PMN2A_1044,PMN2A_1044:urtE|PMN2A_1045:urtD|PMN2A_1046:urtC|PMN2A_1047:urtB|PMN2A_1048:urtA,PMN2A_1044|PMN2A_1045|PMN2A_1046|PMN2A_1047|PMN2A_1048,"urtE ABC-type urea transporter, ATPase component UrtE | urtD ABC-type urea transporter, ATP-binding component UrtD | urtC ABC-type urea transporter, membrane component | urtB ABC-type urea transporter, permease component | urtA ABC-type urea transporter, substrate binding component",Urea | Hydroxyurea | Thiourea,urea,urea,agree
+natl2a,sys_PMN2A_1175,PMN2A_1175:nhaS,PMN2A_1175,"nhaS Na+/H+ antiporter, CPA2 family",Ammonia | cation,ammonium,sodium,disagree
+natl2a,sys_PMN2A_1208,PMN2A_1208:mgtE,PMN2A_1208,mgtE magnesium transporter,Calcium cation | Cobalt ion | Fe2+,cobalt/B12|iron,magnesium,disagree
+natl2a,sys_PMN2A_1224,PMN2A_1224:PMN2A_RS09395,PMN2A_1224,PMN2A_RS09395 ABC multidrug efflux transporter,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+natl2a,sys_PMN2A_1303,PMN2A_1303:PMN2A_RS09810,PMN2A_1303,"PMN2A_RS09810 multidrug efflux transporter, MFS family",Tetracycline | H+,,,no keyword
+natl2a,sys_PMN2A_1411,PMN2A_1411:PMN2A_RS00440,PMN2A_1411,PMN2A_RS00440 ABC transporter family protein,Actinorhodin | Ampicillin | Chloramphenicol,,,no keyword
+natl2a,sys_PMN2A_1428,PMN2A_1428:PMN2A_RS00530,PMN2A_1428,"PMN2A_RS00530 ABC transporter, ATPase component",drug | microcin | Actinorhodin,,,no keyword
+natl2a,sys_PMN2A_1447,PMN2A_1447:PMN2A_RS00625,PMN2A_1447,"PMN2A_RS00625 putative sodium/potassium/sulfate transporter, DASS family",Glutamate | Orthophosphate | Selenite,amino acid|phosphate,polyamine|potassium|sodium|sulfate,disagree
+natl2a,sys_PMN2A_1448,PMN2A_1448:ktrB|PMN2A_1449:ktrA,PMN2A_1448|PMN2A_1449,"ktrB Ktr-type potassium uptake transporter, potassium-translocating subunit B | ktrA Ktr-type potassium uptake system, NAD-binding component",Sodium cation | Potassium cation | Li(+),potassium|sodium,polyamine|potassium,agree
+natl2a,sys_PMN2A_1580,PMN2A_1580:PMN2A_RS01295,PMN2A_1580,PMN2A_RS01295 possible sodium-dependent bicarbonate transporter,HCO3- | Sodium cation,bicarbonate|sodium,bicarbonate|sodium,agree
+natl2a,sys_PMN2A_1581,PMN2A_1581:sul3,PMN2A_1581,sul3 sulfate transporter family protein,Amino acid(Arg-) | Aspartate | Cyanide ion,amino acid,sulfate,disagree
+natl2a,sys_PMN2A_1629,PMN2A_1629:amt1,PMN2A_1629,amt1 ammonium transporter,Ammonia | CO2 | Ethylamine,ammonium,ammonium,agree
+natl2a,sys_PMN2A_1805,PMN2A_1805:nhaS,PMN2A_1805,"nhaS Na+/H+ antiporter, CPA1 family",cation | Ammonia | Calcium cation,ammonium,sodium,disagree
+natl2a,sys_PMN2A_1891,PMN2A_1891:PMN2A_RS02920,PMN2A_1891,PMN2A_RS02920 putative ABC multidrug efflux transporter,Hoechst 33342 | Nifedipine | Norfloxacin,,,no keyword

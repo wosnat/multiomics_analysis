@@ -1,0 +1,5 @@
+strain,system_id,member_names,compound_class,dedicated_basis,dedicated_also_for,basis_detail
+mit9313,sys_PMT0553,PMT0553:proV|PMT0554:proW|PMT0555:proX,amino acids,keyword,osmolytes,"product 'ABC-type proline/glycine betaine transport system, ATPase component'; product 'ABC-type glycine betaine/proline transporter, membrane component'; product 'ABC-type glycine betaine/proline transporter, substrate binding component'; Cyanorak Q.1"
+mit9313,sys_PMT1044,PMT1044:proP,amino acids,keyword,osmolytes,product 'proline/betaine transporter'
+mit9313,sys_PMT0553,PMT0553:proV|PMT0554:proW|PMT0555:proX,osmolytes,keyword,amino acids,"gene name proV; product 'ABC-type proline/glycine betaine transport system, ATPase component'; gene name proW; product 'ABC-type glycine betaine/proline transporter, membrane component'; gene name proX; product 'ABC-type glycine betaine/proline transporter, substrate binding component'"
+mit9313,sys_PMT1044,PMT1044:proP,osmolytes,keyword,amino acids,product 'proline/betaine transporter'

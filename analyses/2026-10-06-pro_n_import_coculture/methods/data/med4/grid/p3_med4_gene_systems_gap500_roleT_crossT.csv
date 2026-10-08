@@ -1,0 +1,367 @@
+locus_tag,gene_name,product,gene_role,likely_transporter,tcdb_ids,role,has_coordinates,run_id,opposite_strand_in_run,gap_to_next,next_locus_tag,strand,system_id,cross_locus_merged,joined_by,n_runs,member_runs,system_roles
+PMM0008,,uncharacterized conserved membrane protein (DUF502),other,none,tcdb:9.B.150.1,other,True,run_PMM0008,False,3.0,PMM0009,+,sys_PMM0008,False,,1,run_PMM0008,other
+PMM0010,ftsY,signal recognition particle-docking protein FtsY,other,tcdb_only,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.7 | tcdb:9.B.76,other,True,run_PMM0008,False,67.0,PMM0011,+,sys_PMM0010,False,,1,run_PMM0008,other
+PMM0013,,RNA-binding domain RNP-1 (RNA recognition motif) containing protein,other,tcdb_only,tcdb:3.A.18 | tcdb:9.A.60,other,True,run_PMM0008,False,-4.0,PMM0014,+,sys_PMM0013,False,,1,run_PMM0008,other
+PMM0017,dnaJ1,DnaJ type I chaperone protein,other,tcdb_only,tcdb:3.A.16 | tcdb:8.A.192,other,True,run_PMM0008,False,-4.0,PMM0018,+,sys_PMM0017,False,,1,run_PMM0008,other
+PMM0023,gap2,glyceraldehyde-3-phosphate dehydrogenase,other,tcdb_only,tcdb:3.A.23.6,other,True,run_PMM0023,True,0.0,PMM0024,+,sys_PMM0023,False,,1,run_PMM0023,other
+PMM0024,thiL,thiamine-monophosphate kinase,other,none,tcdb:8.A.159,other,True,run_PMM0020,False,-8.0,PMM0025,-,sys_PMM0024,False,,1,run_PMM0020,other
+PMM0027,accB,"acetyl-CoA carboxylase, biotin carboxyl carrier protein",other,tcdb_only,tcdb:3.B.1,other,True,run_PMM0026,False,-24.0,PMM0028,+,sys_PMM0027,False,,1,run_PMM0026,other
+PMM0054,,"uncharacterized conserved membrane protein, phage holin family",other,tcdb_only,tcdb:1.E.34.3,other,True,run_PMM0041,False,0.0,PMM0055,-,sys_PMM0054,False,,1,run_PMM0041,other
+PMM0061,cbb3,cofactor assembly of complex C subunit CBB3,other,none,tcdb:9.A.4.2,other,True,run_PMM0059,True,90.0,PMM0062,-,sys_PMM0061,False,,1,run_PMM0059,other
+PMM0065,mcyH,"ABC transporter, ATPase component",mixed,strong,tcdb:3.A.1.106 | tcdb:3.A.1.110 | tcdb:3.A.1.112 | tcdb:3.A.1.113 | tcdb:3.A.1.117 | tcdb:3.A.1.203.11 | tcdb:3.A.1.203.4 | tcdb:3.A.1.21,mixed,True,run_PMM0064,False,37.0,PMM0066,-,sys_PMM0065,False,,1,run_PMM0064,mixed
+PMM0072,sufC,"ABC transporter involved in Fe-S cluster assembly, ATPase component",atpase,strong,tcdb:3.A.1 | tcdb:9.B.29.2,atpase,True,run_PMM0064,False,21.0,PMM0073,-,sys_PMM0072,False,,1,run_PMM0064,atpase
+PMM0078,,putative 4^-phosphopantetheinyl transferase family domain protein,other,none,,other,True,run_PMM0078,True,-1.0,PMM0079,-,sys_PMM0078,False,,1,run_PMM0078,other
+PMM0079,prxQ,2-Cys peroxiredoxin,other,none,tcdb:8.A.147,other,True,run_PMM0074,True,5.0,PMM0080,+,sys_PMM0079,False,,1,run_PMM0074,other
+PMM0083,citT,"putative sodium/potassium/sulfate transporter, DASS family",single_carrier,strong,tcdb:2.A.47,single_carrier,True,run_PMM0082,False,9.0,PMM0084,+,sys_PMM0083,False,,1,run_PMM0082,single_carrier
+PMM0084,ktrB,"Ktr-type potassium uptake transporter, potassium-translocating subunit B",single_carrier,strong,tcdb:2.A.38.1 | tcdb:2.A.38.4,single_carrier,True,run_PMM0082,False,18.0,PMM0085,+,sys_PMM0084,False,tcdb_level3,1,run_PMM0082,other|single_carrier
+PMM0085,ktrA,"Ktr-type potassium uptake system, NAD-binding component",other,strong,tcdb:1.A.1 | tcdb:2.A.37 | tcdb:2.A.38.1 | tcdb:2.A.38.4 | tcdb:3.A.3,other,True,run_PMM0082,False,0.0,PMM0086,+,sys_PMM0084,False,tcdb_level3,1,run_PMM0082,other|single_carrier
+PMM0089,,"ABC transport system ATP-binding/permease protein, Uup family",atpase,strong,tcdb:3.A.1 | tcdb:9.B.325,atpase,True,run_PMM0082,False,166.0,PMM1805,+,sys_PMM0089,False,,1,run_PMM0082,atpase
+PMM0090,degQ,"serine endoprotease, periplasmic",other,tcdb_only,tcdb:2.A.102 | tcdb:8.A.217 | tcdb:9.B.160,other,True,run_PMM0090,True,148.0,PMM0091,-,sys_PMM0090,False,,1,run_PMM0090,other
+PMM0095,rbn,virulence factor BrkB family protein,other,none,tcdb:9.B.126,other,True,run_PMM0094,False,89.0,PMM0096,-,sys_PMM0095,False,,1,run_PMM0094,other
+PMM0097,tolC,"TolC-like outer membrane efflux protein, RND family",other,strong,tcdb:1.B.17 | tcdb:3.A.1,other,True,run_PMM0094,False,-8.0,PMM0098,-,sys_PMM0097,False,,1,run_PMM0094,other
+PMM0100,nadB,L-aspartate oxidase,other,tcdb_only,tcdb:3.D.10,other,True,run_PMM0099,False,-11.0,PMM0101,+,sys_PMM0100,False,,1,run_PMM0099,other
+PMM0101,SynDsbAB,disulfide bond forming protein,other,none,tcdb:9.B.265,other,True,run_PMM0101,True,106.0,PMM0102,-,sys_PMM0101,False,,1,run_PMM0101,other
+PMM0110,gst,"glutathione S-transferase, rho class",other,strong,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,other,True,run_PMM0101,True,54.0,PMM0111,-,sys_PMM0110,False,,1,run_PMM0101,other
+PMM0121,ndhO,NADH dehydrogenase I subunit NdhO,other,tcdb_only,tcdb:3.D.1.8,other,True,run_PMM0116,True,4.0,PMM0122,+,sys_PMM0121,False,,1,run_PMM0116,other
+PMM0125,ecfA1,energy-coupling factor transport system ATP-binding protein,atpase,strong,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,atpase,True,run_PMM0124,False,442.0,PMM0126,+,sys_PMM0125,False,,1,run_PMM0124,atpase
+PMM0128,rpaA,two-component system response regulator RR class II (RRII)-CheY-OmpR,other,tcdb_only,tcdb:3.E.1 | tcdb:9.B.238,other,True,run_PMM0124,True,29.0,PMM0129,+,sys_PMM0128,False,,1,run_PMM0124,other
+PMM0131,zntA,copper-translocating P-type ATPase,other,strong,tcdb:3.A.3.5,other,True,run_PMM0127,False,117.0,PMM0132,-,sys_PMM0131,False,,1,run_PMM0127,other
+PMM0134,rpaB,two-component system response regulator RR class II (RRII)-CheY-OmpR,other,tcdb_only,tcdb:3.E.1 | tcdb:9.B.238,other,True,run_PMM0132,False,0.0,PMM0135,+,sys_PMM0134,False,,1,run_PMM0132,other
+PMM0142,,RNA-binding protein,other,none,,other,True,run_PMM0141,False,0.0,PMM0143,+,sys_PMM0142,False,,1,run_PMM0141,other
+PMM0145,ndhM,NADH dehydrogenase I subunit NdhM,other,tcdb_only,tcdb:3.D.1.8,other,True,run_PMM0145,False,-4.0,PMM0146,+,sys_PMM0145,False,,1,run_PMM0145,other
+PMM0149,ndhF1,NADH dehydrogenase subunit NdhF (chain 5 or L),other,tcdb_only,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9 | tcdb:9.A.2,other,True,run_PMM0145,False,84.0,PMM0150,+,sys_PMM0149,False,,1,run_PMM0145,other
+PMM0150,ndhD1,NADH dehydrogenase I subunit NdhD (chain 4 or M),other,tcdb_only,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,other,True,run_PMM0145,False,71.0,PMM0151,+,sys_PMM0150,False,,1,run_PMM0145,other
+PMM0153,metF,"5,10-methylenetetrahydrofolate reductase",other,tcdb_only,tcdb:3.D.7 | tcdb:5.B.16,other,True,run_PMM0153,True,77.0,PMM0154,-,sys_PMM0153,False,,1,run_PMM0153,other
+PMM0157,ndhE,NADH dehydrogenase subunit NdhE (chain kappa or 4L),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,other,True,run_PMM0153,False,1.0,PMM0158,-,sys_PMM0157,False,tcdb_level3,1,run_PMM0153,other
+PMM0158,ndhG,NADH dehydrogenase I subunit NdhG (chain 6 or J),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.9,other,True,run_PMM0153,False,13.0,PMM0159,-,sys_PMM0158,False,,1,run_PMM0153,other
+PMM0159,ndhI,NADH dehydrogenase I subunit NdhI,other,tcdb_only,tcdb:3.D.1,other,True,run_PMM0153,False,69.0,PMM0160,-,sys_PMM0159,False,,1,run_PMM0153,other
+PMM0160,ndhA,NADH dehydrogenase I subunit NdhA (chain 1 or H),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,other,True,run_PMM0153,False,75.0,PMM0161,-,sys_PMM0157,False,tcdb_level3,1,run_PMM0153,other
+PMM0169,ycf29,"two-component response regulator, NarL subfamily",other,tcdb_only,tcdb:2.A.130 | tcdb:3.E.1,other,True,run_PMM0167,True,59.0,PMM0170,-,sys_PMM0169,False,,1,run_PMM0167,other
+PMM0171,rsmH,16S rRNA (cytosine(1402)-N(4))-methyltransferase,other,tcdb_only,tcdb:1.A.130,other,True,run_PMM0167,True,38.0,PMM0172,-,sys_PMM0171,False,,1,run_PMM0167,other
+PMM0172,ndhH,NADH dehydrogenase I subunit NdhH (chain 7 or delta),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,other,True,run_PMM0163,False,8.0,PMM0173,+,sys_PMM0172,False,,1,run_PMM0163,other
+PMM0192,ddpD,"peptide/nickel ABC transport system, ATP-binding component",atpase,strong,tcdb:3.A.1.5,atpase,True,run_PMM0190,True,-15.0,PMM0193,+,sys_PMM0192,True,cross_locus|tcdb_level3,3,run_PMM0190|run_PMM0417|run_PMM1043,atpase|permease|substrate_binding
+PMM0199,pyrD,"dihydroorotate dehydrogenase, class 2",other,none,tcdb:9.B.265,other,True,run_PMM0186,False,14.0,PMM0200,-,sys_PMM0199,False,,1,run_PMM0186,other
+PMM0203,rplA,50S ribosomal protein L1,other,tcdb_only,tcdb:1.C.82.1,other,True,run_PMM0186,False,66.0,PMM0204,-,sys_PMM0203,False,,1,run_PMM0186,other
+PMM0206,secE,Preprotein translocase SecE subunit,other,tcdb_only,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.4,other,True,run_PMM0186,False,63.0,PMM0207,-,sys_PMM0206,False,,1,run_PMM0186,other
+PMM0207,clpB2,ATP-dependent Clp protease ATP-binding subunit ClpB,other,tcdb_only,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1,other,True,run_PMM0186,False,283.0,PMM0208,-,sys_PMM0207,False,,1,run_PMM0186,other
+PMM0213,sbtA,possible sodium-dependent bicarbonate transporter,single_carrier,strong,tcdb:2.A.83,single_carrier,True,run_PMM0186,False,6.0,PMM0214,-,sys_PMM0213,False,,1,run_PMM0186,single_carrier
+PMM0214,sul3,sulfate transporter family protein,single_carrier,strong,tcdb:2.A.53.3,single_carrier,True,run_PMM0186,False,227.0,PMM0215,-,sys_PMM0214,False,,1,run_PMM0186,single_carrier
+PMM0218,cgtA,obg family GTPase CgtA,other,tcdb_only,tcdb:3.A.1 | tcdb:9.A.8,other,True,run_PMM0215,False,87.0,PMM0219,+,sys_PMM0218,False,,1,run_PMM0215,other
+PMM0223,psbA,photosystem II protein D1.1,other,tcdb_only,tcdb:3.E.2,other,True,run_PMM0222,False,112.0,PMM0224,+,sys_PMM0223,False,,1,run_PMM0222,other
+PMM0226,ftsH1,cell division protein FtsH1,other,tcdb_only,tcdb:3.A.16 | tcdb:3.A.29.1 | tcdb:3.A.9.1,other,True,run_PMM0225,False,46.0,PMM0227,-,sys_PMM0226,False,,1,run_PMM0225,other
+PMM0228,psbO,photosystem II manganese-stabilizing protein PsbO,other,tcdb_only,tcdb:3.E.2,other,True,run_PMM0225,False,214.0,PMM0229,-,sys_PMM0228,False,,1,run_PMM0225,other
+PMM0236,crtR,beta-carotene hydroxylase,other,none,tcdb:9.A.76,other,True,run_PMM0233,False,542.0,PMM0237,-,sys_PMM0236,False,,1,run_PMM0233,other
+PMM0242,txlA,thioredoxin-like protein TxlA,other,tcdb_only,tcdb:3.D.3,other,True,run_PMM0237,True,2.0,PMM0243,+,sys_PMM0242,False,,1,run_PMM0237,other
+PMM0251,psbH,photosystem II reaction center protein PsbH,other,tcdb_only,tcdb:3.E.2.2,other,True,run_PMM0249,False,79.0,PMM0252,-,sys_PMM0251,False,,1,run_PMM0249,other
+PMM0261,murJ,peptidoglycan lipid II flippase,other,strong,tcdb:2.A.66.4,other,True,run_PMM0261,True,73.0,PMM0262,-,sys_PMM0261,False,,1,run_PMM0261,other
+PMM0263,amt1,ammonium transporter,single_carrier,strong,tcdb:1.A.11,single_carrier,True,run_PMM0259,False,89.0,PMM0264,+,sys_PMM0263,False,,1,run_PMM0259,single_carrier
+PMM0269,,two-component sensor histidine kinase,other,none,tcdb:9.B.238 | tcdb:9.B.259,other,True,run_PMM0259,True,-23.0,PMM0270,+,sys_PMM0269,False,,1,run_PMM0259,other
+PMM0274,,CNNM domain-containing protein,other,strong,tcdb:1.A.112 | tcdb:1.C.126 | tcdb:2.A.109,other,True,run_PMM0273,False,231.0,PMM0275,-,sys_PMM0274,False,,1,run_PMM0273,other
+PMM0289,ycf22,"ABC-type transport system, periplasmic component",other,strong,tcdb:3.A.1.27,other,True,run_PMM0285,False,5.0,PMM0290,-,sys_PMM0289,True,cross_locus|tcdb_level3,2,run_PMM0285|run_PMM1322,atpase|other|permease
+PMM0290,mkl,ABC transporter family protein,atpase,strong,tcdb:3.A.1.27,atpase,True,run_PMM0285,False,92.0,PMM0291,-,sys_PMM0289,True,cross_locus|tcdb_level3,2,run_PMM0285|run_PMM1322,atpase|other|permease
+PMM0292,ndhJ,NADH dehydrogenase I subunit NdhJ,other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,other,True,run_PMM0285,False,-1.0,PMM0293,-,sys_PMM0292,False,,1,run_PMM0285,other
+PMM0293,ndhK,NADH dehydrogenase I subunit NdhK (chain beta or K),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,other,True,run_PMM0285,False,4.0,PMM0294,-,sys_PMM0293,False,tcdb_level3,1,run_PMM0285,other
+PMM0294,ndhC,NADH dehydrogenase I subunit NdhC (chain 3 or alpha),other,tcdb_only,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,other,True,run_PMM0285,False,72.0,PMM0295,-,sys_PMM0293,False,tcdb_level3,1,run_PMM0285,other
+PMM0295,rub,rubredoxin,other,tcdb_only,tcdb:3.D.7,other,True,run_PMM0295,False,9.0,PMM0296,+,sys_PMM0295,False,,1,run_PMM0295,other
+PMM0297,psbE,"cytochrome b559, alpha subunit",other,tcdb_only,tcdb:3.E.2.2,other,True,run_PMM0295,False,2.0,PMM0298,+,sys_PMM0297,False,,1,run_PMM0295,other
+PMM0315,psbB,photosystem II chlorophyll-binding protein CP47,other,tcdb_only,tcdb:3.E.2.2,other,True,run_PMM0301,False,224.0,PMM0316,-,sys_PMM0315,False,,1,run_PMM0301,other
+PMM0316,petF,2Fe-2S ferredoxin,other,tcdb_only,tcdb:3.D.1,other,True,run_PMM0316,False,105.0,PMM0317,+,sys_PMM0316,False,,1,run_PMM0316,other
+PMM0321,minD,septum site-determining protein MinD,other,tcdb_only,tcdb:3.A.1 | tcdb:3.A.24 | tcdb:8.A.3,other,True,run_PMM0320,False,117.0,PMM0322,-,sys_PMM0321,False,,1,run_PMM0320,other
+PMM0324,ctp,carboxy-terminal processing peptidase,other,none,tcdb:9.B.174,other,True,run_PMM0320,False,70.0,PMM0325,-,sys_PMM0324,False,,1,run_PMM0320,other
+PMM0325,petB,cytochrome b6,other,tcdb_only,tcdb:3.D.3 | tcdb:3.D.4 | tcdb:3.E.2,other,True,run_PMM0325,False,42.0,PMM0326,+,sys_PMM0325,False,,1,run_PMM0325,other
+PMM0326,petD,cytochrome b6/f complex subunit 4,other,tcdb_only,tcdb:3.D.3 | tcdb:3.E.2,other,True,run_PMM0325,False,6.0,PMM0327,+,sys_PMM0326,False,,1,run_PMM0325,other
+PMM0329,psaE,photosystem I reaction centre subunit IV,other,none,tcdb:5.B.4.1,other,True,run_PMM0328,False,80.0,PMM0330,-,sys_PMM0329,False,,1,run_PMM0328,other
+PMM0343,tatA,"twin arginine-targeting translocase, TatA/E family protein",other,tcdb_only,tcdb:2.A.64,other,True,run_PMM1814,False,448.0,PMM0344,-,sys_PMM0343,False,,1,run_PMM1814,other
+PMM0345,prxQ,2-Cys peroxiredoxin,other,none,tcdb:8.A.147,other,True,run_PMM0344,False,71.0,PMM0346,+,sys_PMM0345,False,,1,run_PMM0344,other
+PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein",substrate_binding,strong,tcdb:3.A.1.16.1 | tcdb:3.A.1.16.2 | tcdb:3.A.1.17.3 | tcdb:3.A.1.17.6,substrate_binding,True,run_PMM0369,False,30.0,PMM0371,+,sys_PMM0370,False,tcdb_level3,1,run_PMM0369,atpase|permease|substrate_binding
+PMM0371,cynB,"cyanate ABC transporter, permease protein",permease,strong,tcdb:3.A.1.16.1 | tcdb:3.A.1.16.2,permease,True,run_PMM0369,False,16.0,PMM0372,+,sys_PMM0370,False,tcdb_level3,1,run_PMM0369,atpase|permease|substrate_binding
+PMM0372,cynD,cyanate ABC transporter ATP-binding protein,atpase,strong,tcdb:3.A.1.16.1,atpase,True,run_PMM0369,False,32.0,PMM0373,+,sys_PMM0370,False,tcdb_level3,1,run_PMM0369,atpase|permease|substrate_binding
+PMM0374,tatA,"twin arginine-targeting translocase, TatA/E family protein",other,tcdb_only,tcdb:2.A.64,other,True,run_PMM0374,True,99.0,PMM0375,-,sys_PMM0374,False,,1,run_PMM0374,other
+PMM0391,engA,ribosome-associated GTPase,other,none,tcdb:9.A.8,other,True,run_PMM0387,False,-1.0,PMM0392,+,sys_PMM0391,False,,1,run_PMM0387,other
+PMM0392,cbiQ,transmembrane component of ECF transporter energizing module,other,strong,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,other,True,run_PMM0387,False,17.0,PMM0393,+,sys_PMM0392,False,,1,run_PMM0387,other
+PMM0397,dgdA,digalactosyldiacylglycerol (DGDG) synthase,other,tcdb_only,tcdb:2.A.38.4,other,True,run_PMM0397,False,85.0,PMM0398,-,sys_PMM0397,False,,1,run_PMM0397,other
+PMM0402,fadD,long-chain acyl-CoA synthetase,other,tcdb_only,tcdb:2.A.1 | tcdb:4.C.1.1,other,True,run_PMM0401,False,57.0,PMM0403,+,sys_PMM0402,False,,1,run_PMM0401,other
+PMM0413,murE,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase",other,tcdb_only,tcdb:2.A.128,other,True,run_PMM0411,False,81.0,PMM0414,+,sys_PMM0413,False,,1,run_PMM0411,other
+PMM0421,dppC,"ABC-type oligopeptide transporter, membrane component",permease,strong,tcdb:3.A.1.5,permease,True,run_PMM0417,False,19.0,PMM0422,+,sys_PMM0192,True,cross_locus|tcdb_level3,3,run_PMM0190|run_PMM0417|run_PMM1043,atpase|permease|substrate_binding
+PMM0427,pbp1,penicillin-binding-like protein 1A (PBP1A)(transpeptidase),other,none,tcdb:8.A.229,other,True,run_PMM0427,False,1.0,PMM0428,-,sys_PMM0427,False,,1,run_PMM0427,other
+PMM0428,chlG,chlorophyll a synthase,other,none,tcdb:9.B.241,other,True,run_PMM0427,False,9.0,PMM0429,-,sys_PMM0428,False,,1,run_PMM0427,other
+PMM0430,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",other,none,,other,True,run_PMM0430,False,36.0,PMM0431,+,sys_PMM0430,False,,1,run_PMM0430,other
+PMM0434,ftsE,ATP-binding protein FtsE,atpase,strong,tcdb:3.A.1,atpase,True,run_PMM0432,False,14.0,PMM0435,-,sys_PMM0434,False,,1,run_PMM0432,atpase
+PMM0435,ndhB,NADH dehydrogenase I subunit NdhB (chain 2 or N),other,tcdb_only,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,other,True,run_PMM0432,False,168.0,PMM0436,-,sys_PMM0435,False,,1,run_PMM0432,other
+PMM0436,topA,"DNA topoisomerase I, omega subunit",other,tcdb_only,tcdb:3.A.7,other,True,run_PMM0436,False,2.0,PMM0437,+,sys_PMM0436,False,,1,run_PMM0436,other
+PMM0444,ctaEI,cytochrome c oxidase subunit III,other,tcdb_only,tcdb:3.D.3 | tcdb:3.D.4.4 | tcdb:3.D.4.6 | tcdb:9.B.36,other,True,run_PMM0441,False,12.0,PMM0445,-,sys_PMM0444,False,tcdb_level3,1,run_PMM0441,other
+PMM0445,ctaDI,cytochrome c oxidase subunit I,other,tcdb_only,tcdb:3.D.3.5 | tcdb:3.D.4.2 | tcdb:3.D.4.3 | tcdb:3.D.4.4 | tcdb:3.D.4.6,other,True,run_PMM0441,False,-4.0,PMM0446,-,sys_PMM0444,False,tcdb_level3,1,run_PMM0441,other
+PMM0446,ctaCI,cytochrome c oxidase subunit II,other,tcdb_only,tcdb:3.D.4.2 | tcdb:3.D.4.4 | tcdb:3.D.4.6,other,True,run_PMM0441,False,261.0,PMM0447,-,sys_PMM0444,False,tcdb_level3,1,run_PMM0441,other
+PMM0447,ctaA,cytochrome oxidase biogenesis protein,other,tcdb_only,tcdb:3.D.4.4 | tcdb:8.A.174,other,True,run_PMM0447,False,-4.0,PMM0448,+,sys_PMM0447,False,,1,run_PMM0447,other
+PMM0449,ccmA,"ABC-type multidrug transport system, ATPase component",atpase,strong,tcdb:3.A.1,atpase,True,run_PMM0447,False,53.0,PMM0450,+,sys_PMM0449,False,role,1,run_PMM0447,atpase|permease
+PMM0450,ycf38,ABC-2 type transporter family protein,permease,strong,tcdb:3.A.1,permease,True,run_PMM0447,False,7.0,PMM0451,+,sys_PMM0449,False,role,1,run_PMM0447,atpase|permease
+PMM0452,groL2,chaperonin GroEL,other,tcdb_only,tcdb:3.A.33,other,True,run_PMM0452,True,133.0,PMM1850,-,sys_PMM0452,False,,1,run_PMM0452,other
+PMM0453,fabG,beta-ketoacyl-(acyl-carrier-protein) reductase (KR),other,tcdb_only,tcdb:1.A.115,other,True,run_PMM0452,True,93.0,PMM0454,-,sys_PMM0453,False,,1,run_PMM0452,other
+PMM0454,ispD,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,other,none,tcdb:8.A.191,other,True,run_PMM0447,True,-4.0,PMM0455,+,sys_PMM0454,False,,1,run_PMM0447,other
+PMM0460,lgt,phosphatidylglycerol:prolipoprotein diacylglycerol transferase,other,none,tcdb:9.B.330,other,True,run_PMM0452,False,11.0,PMM0461,-,sys_PMM0460,False,,1,run_PMM0452,other
+PMM0461,petA,apocytochrome f,other,tcdb_only,tcdb:3.D.3.5,other,True,run_PMM0452,False,4.0,PMM0462,-,sys_PMM0461,False,tcdb_level3,1,run_PMM0452,other
+PMM0462,petC,cytochrome b6-f complex iron-sulfur subunit,other,tcdb_only,tcdb:3.D.3.5 | tcdb:3.E.2 | tcdb:5.A.3,other,True,run_PMM0452,False,123.0,PMM0463,-,sys_PMM0461,False,tcdb_level3,1,run_PMM0452,other
+PMM0464,tatC,sec-independent protein translocase protein TatC,other,tcdb_only,tcdb:2.A.64,other,True,run_PMM0452,False,83.0,PMM0465,-,sys_PMM0464,False,,1,run_PMM0452,other
+PMM0469,psaF,photosystem I reaction centre PsaF protein,other,none,tcdb:5.B.4.1,other,True,run_PMM0452,False,74.0,PMM0470,-,sys_PMM0469,False,,1,run_PMM0452,other
+PMM0472,nhaS,"Na+/H+ antiporter, CPA1 family",single_carrier,strong,tcdb:2.A.36,single_carrier,True,run_PMM0470,False,0.0,PMM0473,+,sys_PMM0472,False,,1,run_PMM0470,single_carrier
+PMM0482,phb,prohibitin-like protein,other,none,tcdb:8.A.195 | tcdb:8.A.21,other,True,run_PMM0477,False,4.0,PMM0483,+,sys_PMM0482,False,,1,run_PMM0477,other
+PMM0488,,glycosyltransferase 2 family protein,other,none,tcdb:4.D.2 | tcdb:9.B.227,other,True,run_PMM0485,False,-4.0,PMM0489,+,sys_PMM0488,False,,1,run_PMM0485,other
+PMM0489,futB,"ABC-type Fe3+ transport system, membrane component",permease,strong,tcdb:3.A.1.10,permease,True,run_PMM0489,False,-38.0,PMM0490,-,sys_PMM0489,True,cross_locus,3,run_PMM0489|run_PMM0803|run_PMM1164,atpase|permease|substrate_binding
+PMM0490,,CobW-like pseudocobalamin biosynthesis proteinn,other,none,tcdb:9.B.10,other,True,run_PMM0489,False,45.0,PMM0491,-,sys_PMM0490,False,,1,run_PMM0489,other
+PMM0497,priA,primosomal protein N^,other,tcdb_only,tcdb:3.A.11,other,True,run_PMM0497,True,0.0,PMM0498,+,sys_PMM0497,False,,1,run_PMM0497,other
+PMM0513,lepB,signal peptidase I,other,none,tcdb:9.B.391,other,True,run_PMM0509,False,-38.0,PMM0514,+,sys_PMM0513,False,,1,run_PMM0509,other
+PMM0516,,CAAX protease self-immunity family protein,other,none,tcdb:9.B.2,other,True,run_PMM0516,False,85.0,PMM0517,+,sys_PMM0516,False,,1,run_PMM0516,other
+PMM0525,hemH,ferrochelatase,other,none,,other,True,run_PMM0525,False,134.0,PMM0526,+,sys_PMM0525,False,,1,run_PMM0525,other
+PMM0534,accA,"acetyl-CoA carboxylase, carboxyl transferase alpha subunit",other,tcdb_only,tcdb:3.B.1,other,True,run_PMM0531,False,1.0,PMM0535,+,sys_PMM0534,False,,1,run_PMM0531,other
+PMM0535,,beta-ketoacyl-(acyl-carrier-protein) reductase protein family,other,tcdb_only,tcdb:1.A.115,other,True,run_PMM0531,False,154.0,PMM0536,+,sys_PMM0535,False,,1,run_PMM0531,other
+PMM0538,,metallopeptidase M50 family protein,other,tcdb_only,tcdb:3.A.1 | tcdb:9.B.149,other,True,run_PMM0531,True,7.0,PMM0539,+,sys_PMM0538,False,,1,run_PMM0531,other
+PMM0547,csoS1D,carboxysome shell component,other,tcdb_only,tcdb:1.S.3.1,other,True,run_PMM0547,True,8.0,PMM0548,+,sys_PMM0547,False,,1,run_PMM0547,other
+PMM0549,csoS1A,carboxysome shell protein CsoS1A,other,tcdb_only,tcdb:1.S.1.1,other,True,run_PMM0547,False,65.0,PMM0550,+,sys_PMM0549,False,,1,run_PMM0547,other
+PMM0554,csoS4A,pentameric carboxysome shell protein Csos4A (peptide A),other,tcdb_only,tcdb:1.S.5,other,True,run_PMM0547,False,5.0,PMM0555,+,sys_PMM0554,False,,1,run_PMM0547,other
+PMM0555,csos4B,pentameric carboxysome shell protein Csos4B (peptide B),other,tcdb_only,tcdb:1.S.5,other,True,run_PMM0547,False,100.0,PMM0556,+,sys_PMM0555,False,,1,run_PMM0547,other
+PMM0561,,putative ABC multidrug efflux transporter,mixed,strong,tcdb:3.A.1.106.13 | tcdb:3.A.1.106.5,mixed,True,run_PMM0560,False,-1.0,PMM0562,+,sys_PMM0561,False,,1,run_PMM0560,mixed
+PMM0563,,"beta-glycosyltransferase, family 2",other,none,tcdb:4.D.1,other,True,run_PMM0563,False,5.0,PMM0564,-,sys_PMM0563,False,,1,run_PMM0563,other
+PMM0566,gst,glutathione S-transferase,other,strong,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,other,True,run_PMM0563,True,36.0,PMM0567,-,sys_PMM0566,False,,1,run_PMM0563,other
+PMM0567,gor,glutathione reductase,other,none,tcdb:9.B.469,other,True,run_PMM0565,True,5.0,PMM0568,+,sys_PMM0567,False,,1,run_PMM0565,other
+PMM0568,yrbG,cation:H+ antiporter,single_carrier,strong,tcdb:2.A.19.5,single_carrier,True,run_PMM0563,True,107.0,PMM0569,-,sys_PMM0568,False,,1,run_PMM0563,single_carrier
+PMM0570,ndhL,NADH dehydrogenase I subunit NdhL,other,tcdb_only,tcdb:3.D.1.8,other,True,run_PMM0565,False,3.0,PMM0571,+,sys_PMM0570,False,,1,run_PMM0565,other
+PMM0576,,conserved hypothetical protein (DUF1232),other,none,tcdb:9.B.143,other,True,run_PMM0575,False,5.0,PMM0577,-,sys_PMM0576,False,,1,run_PMM0575,other
+PMM0580,clpB1,ATP-dependent Clp protease ATP-binding subunit ClpB,other,tcdb_only,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1,other,True,run_PMM0575,False,66.0,PMM0581,-,sys_PMM0580,False,,1,run_PMM0575,other
+PMM0581,petE,plastocyanin,other,tcdb_only,tcdb:3.D.3.5,other,True,run_PMM0575,False,58.0,PMM0582,-,sys_PMM0581,False,,1,run_PMM0575,other
+PMM0589,,translocation and assembly module TamB-like protein,other,none,,other,True,run_PMM0589,False,65.0,PMM0590,+,sys_PMM0589,False,,1,run_PMM0589,other
+PMM0594,ndhD2,NADH dehydrogenase I subunit NdhD (chain 4 or M),other,tcdb_only,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,other,True,run_PMM0593,False,78.0,PMM0595,-,sys_PMM0594,False,,1,run_PMM0593,other
+PMM0601,mntC,"ABC-type Mn2+ transporter, substrate binding protein",substrate_binding,strong,tcdb:3.A.1.15.1,substrate_binding,True,run_PMM0600,False,4.0,PMM0602,+,sys_PMM0601,False,tcdb_level3,1,run_PMM0600,atpase|permease|substrate_binding
+PMM0602,mntA,"ABC-type Mn2+ transport system, ATPase component",atpase,strong,tcdb:3.A.1.15.1,atpase,True,run_PMM0600,False,11.0,PMM0603,+,sys_PMM0601,False,tcdb_level3,1,run_PMM0600,atpase|permease|substrate_binding
+PMM0603,mntB,"ABC-type Mn2+ transporter, membrane component",permease,strong,tcdb:3.A.1.15.1,permease,True,run_PMM0600,False,6.0,PMM0604,+,sys_PMM0601,False,tcdb_level3,1,run_PMM0600,atpase|permease|substrate_binding
+PMM0606,lepB,signal peptidase I,other,tcdb_only,tcdb:2.A.133 | tcdb:9.B.391,other,True,run_PMM0605,False,51.0,PMM0607,-,sys_PMM0606,False,,1,run_PMM0605,other
+PMM0618,sds,solanesyl diphosphate synthase,other,none,tcdb:5.B.14,other,True,run_PMM0614,False,97.0,PMM0619,+,sys_PMM0618,False,,1,run_PMM0614,other
+PMM0619,acs,acetate--CoA ligase,other,tcdb_only,tcdb:2.A.1 | tcdb:4.C.1,other,True,run_PMM0614,False,-4.0,PMM0620,+,sys_PMM0619,False,,1,run_PMM0614,other
+PMM0627,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",other,tcdb_only,tcdb:3.E.2.2,other,True,run_PMM0614,False,106.0,PMM0628,+,sys_PMM0627,False,,1,run_PMM0614,other
+PMM0628,gltS,putative Na+/glutamate symporter,single_carrier,strong,tcdb:2.A.27,single_carrier,True,run_PMM0614,False,38.0,PMM0629,+,sys_PMM0628,False,,1,run_PMM0614,single_carrier
+PMM0630,gst,glutathione S-transferase,other,strong,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,other,True,run_PMM0630,True,74.0,PMM0631,-,sys_PMM0630,False,,1,run_PMM0630,other
+PMM0632,,short-chain dehydrogenase/reductase family,other,tcdb_only,tcdb:1.A.115,other,True,run_PMM0630,False,12.0,PMM0633,-,sys_PMM0632,False,,1,run_PMM0630,other
+PMM0635,mscS,"small-conductance mechanosensitive ion channel, MscS family",single_carrier,strong,tcdb:1.A.23.4,single_carrier,True,run_PMM0630,False,73.0,PMM0636,-,sys_PMM0635,False,,1,run_PMM0630,single_carrier
+PMM0644,sul1,sulfate permease,single_carrier,strong,tcdb:2.A.53.3,single_carrier,True,run_PMM0644,False,31.0,PMM0645,-,sys_PMM0644,False,,1,run_PMM0644,single_carrier
+PMM0653,glx1,lactoylglutathione lyase,other,none,tcdb:9.A.15,other,True,run_PMM0648,False,90.0,PMM0654,-,sys_PMM0653,False,,1,run_PMM0648,other
+PMM0666,,ABC transporter family protein,atpase,strong,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,atpase,True,run_PMM0665,False,85.0,PMM0667,-,sys_PMM0666,False,,1,run_PMM0665,atpase
+PMM0671,phnE,"phosphate/phosphonate ABC type transporter, permease component",permease,strong,tcdb:3.A.1.9,permease,True,run_PMM0670,False,4.0,PMM0672,-,sys_PMM0671,False,tcdb_level3,1,run_PMM0670,atpase|permease|substrate_binding
+PMM0672,phnC,"phosphonate ABC type transporter, ATPase component",atpase,strong,tcdb:3.A.1.9,atpase,True,run_PMM0670,False,-4.0,PMM0673,-,sys_PMM0671,False,tcdb_level3,1,run_PMM0670,atpase|permease|substrate_binding
+PMM0673,phnD,"phosphonate ABC type transporter, substrate binding component",substrate_binding,strong,tcdb:3.A.1.9,substrate_binding,True,run_PMM0670,False,0.0,PMM0674,-,sys_PMM0671,False,tcdb_level3,1,run_PMM0670,atpase|permease|substrate_binding
+PMM0677,ctpA,photosystem II D1 protein carboxyl-terminal processing peptidase,other,none,tcdb:9.B.174,other,True,run_PMM0675,False,-4.0,PMM0678,+,sys_PMM0677,False,,1,run_PMM0675,other
+PMM0694,,short-chain dehydrogenase/reductase (SDR) superfamily,other,tcdb_only,tcdb:1.A.115,other,True,run_PMM0694,True,312.0,PMM0695,+,sys_PMM0694,False,,1,run_PMM0694,other
+PMM0704,,"potassium ion channel, VIC family",single_carrier,strong,tcdb:1.A.1.1 | tcdb:1.A.1.13 | tcdb:1.A.1.17 | tcdb:1.A.1.24 | tcdb:1.A.1.25 | tcdb:1.A.1.6 | tcdb:2.A.37 | tcdb:2.A.38,single_carrier,True,run_PMM0699,False,286.0,PMM0705,+,sys_PMM0704,False,,1,run_PMM0699,single_carrier
+PMM0705,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR,other,tcdb_only,tcdb:2.A.130 | tcdb:3.E.1,other,True,run_PMM0699,False,-4.0,PMM0706,+,sys_PMM0705,False,,1,run_PMM0699,other
+PMM0706,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR",other,tcdb_only,tcdb:3.E.1 | tcdb:9.B.238 | tcdb:9.B.259 | tcdb:9.B.34,other,True,run_PMM0699,False,16.0,PMM0707,+,sys_PMM0706,False,,1,run_PMM0699,other
+PMM0709,som,outer membrane porin,single_carrier,strong,tcdb:1.B.14.1.14 | tcdb:1.B.23 | tcdb:3.A.23.1,single_carrier,True,run_PMM0707,False,358.0,PMM0710,-,sys_PMM0709,False,,1,run_PMM0707,single_carrier
+PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS",substrate_binding,strong,tcdb:3.A.1.7,substrate_binding,True,run_PMM0710,True,49.0,PMM0711,+,sys_PMM0710,True,cross_locus|tcdb_level3,2,run_PMM0710|run_PMM0721,atpase|permease|substrate_binding
+PMM0711,chrA,chromate transporter,single_carrier,strong,tcdb:2.A.51.1,single_carrier,True,run_PMM0707,False,30.0,PMM0712,-,sys_PMM0711,False,,1,run_PMM0707,single_carrier
+PMM0712,arsJ,"multidrug efflux transporter, MFS family",single_carrier,strong,tcdb:2.A.1.83,single_carrier,True,run_PMM0707,False,11.0,PMM0713,-,sys_PMM0712,False,,1,run_PMM0707,single_carrier
+PMM0713,gap3,glyceraldehyde-3-phosphate dehydrogenase,other,tcdb_only,tcdb:3.A.23,other,True,run_PMM0707,False,65.0,PMM0714,-,sys_PMM0713,False,,1,run_PMM0707,other
+PMM0714,arsR,"bacterial regulatory protein, ArsR family",other,none,tcdb:9.B.333,other,True,run_PMM0714,True,18.0,TX50_RS03815,+,sys_PMM0714,False,,1,run_PMM0714,other
+PMM0716,arsB,arsenate efflux pump,single_carrier,strong,tcdb:2.A.59.1,single_carrier,True,run_PMM0707,False,43.0,PMM0717,-,sys_PMM0716,False,,1,run_PMM0707,single_carrier
+PMM0717,,conserved hypothetical protein,permease,strong,tcdb:3.A.1.9,permease,True,run_PMM0707,False,181.0,PMM0718,-,sys_PMM0717,False,,1,run_PMM0707,permease
+PMM0723,pstC,ABC-type phosphate transport system permease component,permease,strong,tcdb:3.A.1.7,permease,True,run_PMM0721,False,6.0,PMM0724,+,sys_PMM0710,True,cross_locus|tcdb_level3,2,run_PMM0710|run_PMM0721,atpase|permease|substrate_binding
+PMM0724,pstA,ABC-type phosphate transport system permease component,permease,strong,tcdb:3.A.1.7,permease,True,run_PMM0721,False,1.0,PMM0725,+,sys_PMM0710,True,cross_locus|tcdb_level3,2,run_PMM0710|run_PMM0721,atpase|permease|substrate_binding
+PMM0725,pstB,ABC-type phosphate transport system ATPase component,atpase,strong,tcdb:3.A.1.7,atpase,True,run_PMM0721,False,391.0,PMM1881,+,sys_PMM0710,True,cross_locus|tcdb_level3,2,run_PMM0710|run_PMM0721,atpase|permease|substrate_binding
+PMM0742,clpP1,"ATP-dependent Clp protease, protease subunit",other,tcdb_only,tcdb:3.A.26.1,other,True,run_PMM0738,True,-4.0,PMM0743,+,sys_PMM0742,False,,1,run_PMM0738,other
+PMM0743,ftsH2,photosystem II D1 repair protein FtsH2,other,tcdb_only,tcdb:3.A.16 | tcdb:3.A.29.1 | tcdb:3.A.9.1,other,True,run_PMM1884,True,112.0,PMM0744,-,sys_PMM0743,False,,1,run_PMM1884,other
+PMM0747,pcyA,phycocyanobilin:ferredoxin oxidoreductase,other,tcdb_only,tcdb:3.A.9,other,True,run_PMM0747,False,-1.0,PMM0748,+,sys_PMM0747,False,,1,run_PMM0747,other
+PMM0748,devB,"ABC exporter membrane fusion, DevB family",other,strong,tcdb:3.A.1,other,True,run_PMM0747,False,-1.0,PMM0749,+,sys_PMM0748,False,adjacent_abc|role,1,run_PMM0747,atpase|other|permease
+PMM0749,devC,ABC exporter transmembrane subunit,permease,strong,tcdb:3.A.1.114,permease,True,run_PMM0747,False,14.0,PMM0750,+,sys_PMM0748,False,adjacent_abc|role,1,run_PMM0747,atpase|other|permease
+PMM0750,devA,"DEVA-like ABC transporter, ATP-binding subunit",atpase,strong,tcdb:3.A.1,atpase,True,run_PMM0747,False,22.0,PMM0751,+,sys_PMM0748,False,adjacent_abc|role,1,run_PMM0747,atpase|other|permease
+PMM0752,wcaA,"beta-glycosyltransferase, family 2",other,none,tcdb:4.D.1,other,True,run_PMM0747,False,150.0,PMM0753,+,sys_PMM0752,False,,1,run_PMM0747,other
+PMM0754,tsf,Translation elongation factor Ts,other,tcdb_only,tcdb:2.A.7,other,True,run_PMM0747,False,5.0,PMM0755,+,sys_PMM0754,False,,1,run_PMM0747,other
+PMM0756,recG,ATP-dependent DNA helicase,other,tcdb_only,tcdb:3.A.11 | tcdb:3.A.18,other,True,run_PMM0747,False,58.0,PMM0757,+,sys_PMM0756,False,,1,run_PMM0747,other
+PMM0764,lptB,"lipopolysaccharide export system, ATP-binding component LptB",atpase,strong,tcdb:1.B.42.1 | tcdb:3.A.1,atpase,True,run_PMM0747,False,112.0,PMM0765,+,sys_PMM0764,True,cross_locus,2,run_PMM0747|run_PMM1386,atpase|permease
+PMM0765,ccsA,cytochrome c-type biogenesis protein,other,none,tcdb:9.B.14,other,True,run_PMM0747,False,10.0,PMM0766,+,sys_PMM0765,False,,1,run_PMM0747,other
+PMM0778,cobW,pseudocobalamin biosynthesis protein CobW,other,none,tcdb:9.B.10,other,True,run_PMM0777,False,54.0,PMM1890,+,sys_PMM0778,False,,1,run_PMM0777,other
+PMM0784,accD,"acetyl-CoA carboxylase, carboxyl transferase beta subunit",other,tcdb_only,tcdb:3.B.1,other,True,run_PMM0781,False,183.0,PMM0785,-,sys_PMM0784,False,,1,run_PMM0781,other
+PMM0798,pgsA,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,other,none,tcdb:4.F.1,other,True,run_PMM0781,True,135.0,PMM0799,-,sys_PMM0798,False,,1,run_PMM0781,other
+PMM0801,ycf39,NAD(P)-binding domain-containing protein,other,tcdb_only,tcdb:3.A.9,other,True,run_PMM0781,False,35.0,PMM0802,-,sys_PMM0801,False,,1,run_PMM0781,other
+PMM0803,futC,iron(III) transport system ATP-binding protein,atpase,strong,tcdb:3.A.1.10,atpase,True,run_PMM0803,False,246.0,PMM0804,+,sys_PMM0489,True,cross_locus,3,run_PMM0489|run_PMM0803|run_PMM1164,atpase|permease|substrate_binding
+PMM0804,ftn,ferritin,other,strong,tcdb:1.A.155,other,True,run_PMM0803,False,-15.0,PMM0805,+,sys_PMM0804,False,,1,run_PMM0803,other
+PMM0807,modF,ABC transporter family protein,atpase,strong,tcdb:3.A.1.14,atpase,True,run_PMM0805,False,106.0,PMM0808,-,sys_PMM0807,False,,1,run_PMM0805,atpase
+PMM0827,mdlB,putative ABC multidrug efflux transporter,mixed,strong,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,mixed,True,run_PMM0821,False,56.0,PMM0828,-,sys_PMM0827,False,,1,run_PMM0821,mixed
+PMM0839,mfd,transcription-repair coupling factor,other,tcdb_only,tcdb:3.A.11,other,True,run_PMM1899,False,74.0,PMM0840,-,sys_PMM0839,False,,1,run_PMM1899,other
+PMM0840,terC,putative photosystem II assembly factor TerC,other,tcdb_only,tcdb:2.A.109,other,True,run_PMM0840,True,-4.0,PMM0841,+,sys_PMM0840,False,,1,run_PMM0840,other
+PMM0848,,uncharacterized membrane protein (UPF0016),single_carrier,strong,tcdb:2.A.106,single_carrier,True,run_PMM1899,False,1.0,PMM0849,-,sys_PMM0848,False,,1,run_PMM1899,single_carrier
+PMM0849,,uncharacterized membrane protein,single_carrier,strong,tcdb:2.A.106,single_carrier,True,run_PMM1899,False,-4.0,PMM0850,-,sys_PMM0849,False,,1,run_PMM1899,single_carrier
+PMM0854,ftsH3,possible photosystem II D1 repair protein FtsH3,other,tcdb_only,tcdb:3.A.16 | tcdb:3.A.20 | tcdb:3.A.25 | tcdb:3.A.29.1 | tcdb:3.A.9.1,other,True,run_PMM0851,False,834.0,PMM0856,+,sys_PMM0854,False,,1,run_PMM0851,other
+PMM0856,ahpC,2-Cys peroxiredoxin,other,none,tcdb:8.A.147.1,other,True,run_PMM0856,False,316.0,PMM1902,-,sys_PMM0856,False,,1,run_PMM0856,other
+PMM0873,,DnaJ type IV chaperone protein,other,tcdb_only,tcdb:3.A.8,other,True,run_PMM0873,True,143.0,PMM1915,-,sys_PMM0873,False,,1,run_PMM0873,other
+PMM0894,ppiB,peptidyl-prolyl cis-trans isomerase,other,tcdb_only,tcdb:1.A.129.1 | tcdb:1.I.1.1 | tcdb:3.D.1.8,other,True,run_PMM0873,False,36.0,PMM0895,-,sys_PMM0894,False,,1,run_PMM0873,other
+PMM0896,dnaJ3,DnaJ type II chaperone protein,other,none,tcdb:8.A.192,other,True,run_PMM0873,False,-50.0,PMM0897,-,sys_PMM0896,False,,1,run_PMM0873,other
+PMM0897,dnaK2,chaperone protein DnaK,other,tcdb_only,tcdb:1.A.33.1 | tcdb:3.A.16.1 | tcdb:3.A.9.1 | tcdb:9.A.41.1 | tcdb:9.B.157 | tcdb:9.B.460,other,True,run_PMM0873,False,363.0,PMM0898,-,sys_PMM0897,False,,1,run_PMM0873,other
+PMM0898,petF,2Fe-2S ferredoxin,other,none,tcdb:5.B.1,other,True,run_PMM0898,False,5.0,PMM0899,+,sys_PMM0898,False,,1,run_PMM0898,other
+PMM0901,htpG,molecular chaperone HtpG,other,none,tcdb:8.A.163,other,True,run_PMM0898,False,39.0,PMM0902,+,sys_PMM0901,False,,1,run_PMM0898,other
+PMM0903,prxQ,2-Cys peroxiredoxin,other,none,tcdb:8.A.147,other,True,run_PMM0898,False,5.0,PMM0904,+,sys_PMM0903,False,,1,run_PMM0898,other
+PMM0910,ylmG1,cell division membrane protein YlmG1 (factor involved in shape determination),other,none,tcdb:9.A.4.2,other,True,run_PMM0898,False,3.0,PMM0911,+,sys_PMM0910,False,,1,run_PMM0898,other
+PMM0913,salY,putative ABC efflux system,permease,strong,tcdb:3.A.1,permease,True,run_PMM0898,False,14.0,PMM0914,+,sys_PMM0913,False,,1,run_PMM0898,permease
+PMM0914,bioY,"biotin ECF transporter, substrate component",other,strong,tcdb:2.A.88.1 | tcdb:2.A.88.2,other,True,run_PMM0898,False,-4.0,PMM0915,+,sys_PMM0914,False,,1,run_PMM0898,other
+PMM0915,ispA,signal peptidase II,other,none,tcdb:9.B.105,other,True,run_PMM0898,False,2.0,PMM0916,+,sys_PMM0915,False,,1,run_PMM0898,other
+PMM0918,cumB,cytidine and deoxycytidylate deaminase zinc-binding region family protein,other,none,tcdb:9.B.317,other,True,run_PMM0898,True,-26.0,PMM0919,+,sys_PMM0918,False,,1,run_PMM0898,other
+PMM0927,perM,"putative autoinducer 2 exporter, YhhT family",single_carrier,strong,tcdb:2.A.86,single_carrier,True,run_PMM0925,False,205.0,PMM0928,+,sys_PMM0927,False,,1,run_PMM0925,single_carrier
+PMM0928,secF,Preprotein translocase SecF subunit,other,tcdb_only,tcdb:2.A.6.4 | tcdb:3.A.5.2 | tcdb:3.A.5.7,other,True,run_PMM0928,False,25.0,PMM0929,-,sys_PMM0928,False,tcdb_level3,1,run_PMM0928,other
+PMM0929,secD,preprotein translocase SecD subunit,other,tcdb_only,tcdb:2.A.6.4 | tcdb:3.A.5.2 | tcdb:3.A.5.7,other,True,run_PMM0928,False,3.0,PMM0930,-,sys_PMM0928,False,tcdb_level3,1,run_PMM0928,other
+PMM0940,,permease of the drug/metabolite transporter (DMT) superfamily,single_carrier,strong,tcdb:2.A.7,single_carrier,True,run_PMM0934,False,23.0,PMM0941,+,sys_PMM0940,False,,1,run_PMM0934,single_carrier
+PMM0942,ruvA,holliday junction ATP-dependent DNA helicase RuvA,other,tcdb_only,tcdb:3.A.11,other,True,run_PMM0934,False,51.0,PMM0943,+,sys_PMM0942,False,,1,run_PMM0934,other
+PMM0946,gatA,aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A,other,tcdb_only,tcdb:3.A.9,other,True,run_PMM0945,False,32.0,PMM0947,-,sys_PMM0946,False,,1,run_PMM0945,other
+PMM0954,,putative ABC multidrug efflux transporter,mixed,strong,tcdb:3.A.1.106.13 | tcdb:3.A.1.106.5,mixed,True,run_PMM0954,False,31.0,PMM0955,+,sys_PMM0954,False,,1,run_PMM0954,mixed
+PMM0970,urtA,"ABC-type urea transporter, substrate binding component",substrate_binding,strong,tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,substrate_binding,True,run_PMM0967,False,81.0,PMM0971,+,sys_PMM0970,False,tcdb_level3,1,run_PMM0967,atpase|permease|substrate_binding
+PMM0971,urtB,"ABC-type urea transporter, permease component",permease,strong,tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,permease,True,run_PMM0967,False,-1.0,PMM0972,+,sys_PMM0970,False,tcdb_level3,1,run_PMM0967,atpase|permease|substrate_binding
+PMM0972,urtC,"ABC-type urea transporter, membrane component",permease,strong,tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,permease,True,run_PMM0967,False,-8.0,PMM0973,+,sys_PMM0970,False,tcdb_level3,1,run_PMM0967,atpase|permease|substrate_binding
+PMM0973,urtD,"ABC-type urea transporter, ATP-binding component UrtD",atpase,strong,tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,atpase,True,run_PMM0967,False,2.0,PMM0974,+,sys_PMM0970,False,tcdb_level3,1,run_PMM0967,atpase|permease|substrate_binding
+PMM0974,urtE,"ABC-type urea transporter, ATPase component UrtE",atpase,strong,tcdb:1.B.42 | tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,atpase,True,run_PMM0967,False,29.0,PMM1919,+,sys_PMM0970,False,tcdb_level3,1,run_PMM0967,atpase|permease|substrate_binding
+PMM0976,evrA,ATP-binding cassette-type viologen exporter,atpase,strong,tcdb:2.A.130 | tcdb:3.A.1,atpase,True,run_PMM1922,False,0.0,PMM0977,+,sys_PMM0976,False,adjacent_abc|role,1,run_PMM1922,atpase|permease
+PMM0977,evrB,"ATP-binding cassette-type viologen exporter, permease component",permease,strong,tcdb:3.A.1,permease,True,run_PMM1922,False,-4.0,PMM0978,+,sys_PMM0976,False,adjacent_abc|role,1,run_PMM1922,atpase|permease
+PMM0978,evrC,ATP-binding cassette-type viologen exporter,permease,strong,tcdb:3.A.1.141,permease,True,run_PMM1922,False,3.0,PMM0979,+,sys_PMM0976,False,adjacent_abc|role,1,run_PMM1922,atpase|permease
+PMM0981,,sulfite exporter TauE/SafE family protein,single_carrier,strong,tcdb:2.A.102,single_carrier,True,run_PMM0979,False,137.0,PMM0982,-,sys_PMM0981,False,,1,run_PMM0979,single_carrier
+PMM1029,,"ABC-type Mn2+/Zn2+ transport system, permease component",permease,strong,tcdb:3.A.1.15,permease,True,run_PMM1029,True,56.0,PMM1030,-,sys_PMM1029,True,cross_locus|tcdb_level3,2,run_PMM1020|run_PMM1029,atpase|permease|substrate_binding
+PMM1031,,"ABC-type Mn2+/Zn2+ transport system, ATP-binding component",atpase,strong,tcdb:3.A.1.15,atpase,True,run_PMM1029,True,138.0,PMM1032,-,sys_PMM1029,True,cross_locus|tcdb_level3,2,run_PMM1020|run_PMM1029,atpase|permease|substrate_binding
+PMM1032,lraI,"ABC-type Mn2+/Zn2+ transport system, periplasmic component",substrate_binding,strong,tcdb:3.A.1.15,substrate_binding,True,run_PMM1020,False,86.0,PMM1033,+,sys_PMM1029,True,cross_locus|tcdb_level3,2,run_PMM1020|run_PMM1029,atpase|permease|substrate_binding
+PMM1033,,CobW-like pseudocobalamin biosynthesis protein,other,none,tcdb:9.B.10,other,True,run_PMM1020,False,-13.0,PMM1034,+,sys_PMM1033,False,,1,run_PMM1020,other
+PMM1046,,"multidrug efflux transporter, MFS family",single_carrier,strong,,single_carrier,True,run_PMM1043,True,2.0,PMM1047,-,sys_PMM1046,False,,1,run_PMM1043,single_carrier
+PMM1048,dppB,"oligopeptide ABC transporter, membrane component",permease,strong,tcdb:3.A.1.5,permease,True,run_PMM1043,False,-8.0,PMM1049,-,sys_PMM0192,True,cross_locus|tcdb_level3,3,run_PMM0190|run_PMM0417|run_PMM1043,atpase|permease|substrate_binding
+PMM1049,dppA,peptide/nickel transport system substrate-binding protein,substrate_binding,strong,tcdb:3.A.1.5,substrate_binding,True,run_PMM1043,False,21.0,PMM1050,-,sys_PMM0192,True,cross_locus|tcdb_level3,3,run_PMM0190|run_PMM0417|run_PMM1043,atpase|permease|substrate_binding
+PMM1061,trxA,m-type thioredoxin,other,tcdb_only,tcdb:3.A.26 | tcdb:3.D.3 | tcdb:8.A.88.2 | tcdb:9.B.438,other,True,run_PMM1043,False,208.0,PMM1062,-,sys_PMM1061,False,,1,run_PMM1043,other
+PMM1068,pgpH,cyclic-di-AMP phosphodiesterase PgpH,other,none,tcdb:9.B.28,other,True,run_PMM1068,True,74.0,PMM1069,-,sys_PMM1068,False,,1,run_PMM1068,other
+PMM1070,crtE,geranylgeranyl pyrophosphate synthase,other,none,tcdb:5.B.14,other,True,run_PMM1063,False,14.0,PMM1071,+,sys_PMM1070,False,,1,run_PMM1063,other
+PMM1071,,possible phosphatidic acid phosphatase,other,none,tcdb:9.B.363.1,other,True,run_PMM1063,False,-4.0,PMM1072,+,sys_PMM1071,False,,1,run_PMM1063,other
+PMM1075,petH,ferredoxin--NADP+ reductase (FNR),other,tcdb_only,tcdb:3.D.5,other,True,run_PMM1072,False,182.0,PMM1076,-,sys_PMM1075,False,,1,run_PMM1072,other
+PMM1077,sasA,adaptive-response sensory kinase,other,tcdb_only,tcdb:3.E.1 | tcdb:9.B.238 | tcdb:9.B.259 | tcdb:9.B.34,other,True,run_PMM1072,True,106.0,PMM1078,-,sys_PMM1077,False,,1,run_PMM1072,other
+PMM1085,cdsA,cytidine diphosphate-diacylglycerol (CDP-DG) synthase,other,none,tcdb:9.B.273,other,True,run_PMM1084,False,164.0,PMM1086,+,sys_PMM1085,False,,1,run_PMM1084,other
+PMM1088,clpC,ATP-dependent Clp protease ATP-binding subunit ClpC,other,tcdb_only,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1.2,other,True,run_PMM1086,False,185.0,PMM1089,-,sys_PMM1088,False,,1,run_PMM1086,other
+PMM1099,,ABC transporter,mixed,strong,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,mixed,True,run_PMM1096,False,10.0,PMM1100,-,sys_PMM1099,False,,1,run_PMM1096,mixed
+PMM1101,crhR,cyanobacterial RNA helicase,other,tcdb_only,tcdb:1.I.1 | tcdb:2.A.16 | tcdb:3.A.18 | tcdb:3.A.22,other,True,run_PMM1096,False,137.0,PMM1102,-,sys_PMM1101,False,,1,run_PMM1096,other
+PMM1102,recD,"exodeoxyribonuclease V (RecBCD complex), alpha subunit",other,tcdb_only,tcdb:3.A.7,other,True,run_PMM1096,False,1.0,PMM1103,-,sys_PMM1102,False,,1,run_PMM1096,other
+PMM1113,,two-component system response regulator RR class II (RRII)-OmpR,other,tcdb_only,tcdb:3.E.1,other,True,run_PMM1108,True,-4.0,PMM1114,+,sys_PMM1113,False,,1,run_PMM1108,other
+PMM1119,som,outer membrane porin,single_carrier,strong,,single_carrier,True,run_PMM1119,False,107.0,PMM1120,-,sys_PMM1119,False,,1,run_PMM1119,single_carrier
+PMM1121,som,outer membrane porin,other,none,,other,True,run_PMM1119,False,766.0,PMM1954,-,sys_PMM1121,False,,1,run_PMM1119,other
+PMM1123,hupE,hydrogenase/urease accessory protein,single_carrier,strong,tcdb:2.A.99,single_carrier,True,run_PMM1954,False,-59.0,PMM1955,-,sys_PMM1123,False,,1,run_PMM1954,single_carrier
+PMM1126,,acyltransferase family protein,other,none,tcdb:9.B.97,other,True,run_PMM1126,False,578.0,PMM1127,-,sys_PMM1126,False,,1,run_PMM1126,other
+PMM1139,acrA,"RND efflux pump, MFP subunit, HlyD family",other,strong,tcdb:2.A.6 | tcdb:3.A.1 | tcdb:8.A.1,other,True,run_PMM1964,False,-4.0,PMM1140,+,sys_PMM1139,False,,1,run_PMM1964,other
+PMM1145,pntB,pyridine nucleotide transhydrogenase beta subunit,other,tcdb_only,tcdb:3.D.2,other,True,run_PMM1144,False,13.0,PMM1146,-,sys_PMM1145,False,,1,run_PMM1144,other
+PMM1146,pntA2,"pyridine nucleotide transhydrogenase, subunit alpha2 (A2)",other,tcdb_only,tcdb:3.D.2,other,True,run_PMM1144,False,15.0,PMM1147,-,sys_PMM1146,False,,1,run_PMM1144,other
+PMM1147,pntA1,"pyridine nucleotide transhydrogenase, subunit alpha1 (A1)",other,tcdb_only,tcdb:3.D.2,other,True,run_PMM1144,False,132.0,PMM1148,-,sys_PMM1147,False,,1,run_PMM1144,other
+PMM1152,ycf39,photosystem II assembly factor Ycf39,other,none,tcdb:9.B.365,other,True,run_PMM1151,False,58.0,PMM1152a,-,sys_PMM1152,False,,1,run_PMM1151,other
+PMM1157,psbD,photosystem II D2 protein,other,tcdb_only,tcdb:3.E.2,other,True,run_PMM1157,False,-17.0,PMM1158,+,sys_PMM1157,False,,1,run_PMM1157,other
+PMM1158,psbC,photosystem II CP43 protein,other,tcdb_only,tcdb:3.E.2.2,other,True,run_PMM1157,False,42.0,PMM1159,+,sys_PMM1158,False,,1,run_PMM1157,other
+PMM1164,idiA2,iron deficiency-induced protein A,substrate_binding,strong,tcdb:3.A.1.10,substrate_binding,True,run_PMM1164,False,132.0,PMM1165,-,sys_PMM0489,True,cross_locus,3,run_PMM0489|run_PMM0803|run_PMM1164,atpase|permease|substrate_binding
+PMM1173,,putative membrane protein,other,strong,tcdb:2.A.123.2 | tcdb:9.A.58,other,True,run_PMM1172,False,95.0,PMM1174,+,sys_PMM1173,False,,1,run_PMM1172,other
+PMM1175,,AEC transporter family,single_carrier,strong,tcdb:2.A.69,single_carrier,True,run_PMM1172,False,110.0,PMM1176,+,sys_PMM1175,False,,1,run_PMM1172,single_carrier
+PMM1177,,4-amino-4-deoxy-L-arabinose transferase and related glycosyltransferase of PMT family,other,none,tcdb:9.B.142,other,True,run_PMM1177,False,-4.0,PMM1178,-,sys_PMM1177,False,,1,run_PMM1177,other
+PMM1179,,eamA-like transporter family protein,single_carrier,strong,tcdb:2.A.7,single_carrier,True,run_PMM1177,False,53.0,PMM1180,-,sys_PMM1179,False,,1,run_PMM1177,single_carrier
+PMM1180,sppA,signal peptide peptidase SppA (protease IV),other,none,tcdb:8.A.21.2,other,True,run_PMM1180,False,7.0,PMM1181,+,sys_PMM1180,False,,1,run_PMM1180,other
+PMM1186,ALB3,photosystem II assembly factor,other,tcdb_only,tcdb:2.A.9 | tcdb:3.A.5.4,other,True,run_PMM1180,False,20.0,PMM1187,+,sys_PMM1186,False,,1,run_PMM1180,other
+PMM1187,ycf46,ATPase potentially involved in the regulation of CO2 uptake,other,tcdb_only,tcdb:3.A.16 | tcdb:3.A.20 | tcdb:3.A.25 | tcdb:3.A.29 | tcdb:3.A.9,other,True,run_PMM1180,False,124.0,PMM1188,+,sys_PMM1187,False,,1,run_PMM1180,other
+PMM1189,rseP,RIP metalloprotease RseP,other,none,tcdb:9.B.149,other,True,run_PMM1180,False,65.0,PMM1190,+,sys_PMM1189,False,,1,run_PMM1180,other
+PMM1200,,"beta-glycosyltransferase, family 2",other,none,tcdb:4.D.1 | tcdb:4.D.2.1.9,other,True,run_PMM1198,False,77.0,PMM1201,-,sys_PMM1200,False,,1,run_PMM1198,other
+PMM1201,rfbE,CDP-paratose 2-epimerase,other,none,tcdb:9.B.18,other,True,run_PMM1198,False,26.0,PMM1202,-,sys_PMM1201,False,,1,run_PMM1198,other
+PMM1202,,NAD dependent epimerase/dehydratase family protein,other,none,tcdb:9.B.18,other,True,run_PMM1198,False,18.0,PMM1203,-,sys_PMM1202,False,,1,run_PMM1198,other
+PMM1203,rfbG,"CDP-glucose 4,6-dehydratase",other,none,tcdb:9.B.18,other,True,run_PMM1198,False,19.0,PMM1204,-,sys_PMM1203,False,,1,run_PMM1198,other
+PMM1208,gmd,"GDP-mannose 4,6-dehydratase",other,none,tcdb:9.B.18,other,True,run_PMM1198,False,105.0,PMM1209,-,sys_PMM1208,False,,1,run_PMM1198,other
+PMM1209,galE,UDP-glucose 4-epimerase,other,none,tcdb:9.B.18,other,True,run_PMM1198,False,50.0,PMM1210,-,sys_PMM1209,False,,1,run_PMM1198,other
+PMM1210,,nucleotide sugar epimerase,other,none,tcdb:9.B.18,other,True,run_PMM1198,False,180.0,PMM1211,-,sys_PMM1210,False,,1,run_PMM1198,other
+PMM1211,kpsD,polysaccharide biosynthesis/export family protein,other,strong,tcdb:1.B.18,other,True,run_PMM1211,True,9.0,PMM1212,+,sys_PMM1211,False,,1,run_PMM1211,other
+PMM1224,kpsD3,polysaccharide biosynthesis/export protein,other,strong,tcdb:1.B.18,other,True,run_PMM1224,False,162.0,PMM1225,-,sys_PMM1224,False,,1,run_PMM1224,other
+PMM1225,wzc,P-loop containing nucleoside triphosphate hydrolase,other,none,tcdb:8.A.3,other,True,run_PMM1225,True,-9.0,PMM1226,+,sys_PMM1225,False,,1,run_PMM1225,other
+PMM1226,,putative membrane protein,other,none,tcdb:9.B.183,other,True,run_PMM1224,False,147.0,PMM1227,-,sys_PMM1226,False,,1,run_PMM1224,other
+PMM1227,rfe,UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N- acetylglucosamine-1-phosphate transferase,other,none,tcdb:9.B.146,other,True,run_PMM1224,False,458.0,PMM1228,-,sys_PMM1227,False,,1,run_PMM1224,other
+PMM1239,hetA,"ABC transporter type 1, ATPase component",mixed,strong,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,mixed,True,run_PMM1228,False,0.0,PMM1240,+,sys_PMM1239,False,,1,run_PMM1228,mixed
+PMM1254,,"possible beta-glycosyltransferase, family 2",other,none,tcdb:9.B.27,other,True,run_PMM1254,False,-11.0,PMM1255,-,sys_PMM1254,False,,1,run_PMM1254,other
+PMM1256,wcaA,possible beta-glycosyltransferase,other,none,tcdb:4.D.1.3,other,True,run_PMM1256,False,392.0,PMM1257,-,sys_PMM1256,False,,1,run_PMM1256,other
+PMM1260,uxs,UDP-glucuronate decarboxylase,other,none,tcdb:9.B.18,other,True,run_PMM1258,False,-11.0,PMM1261,+,sys_PMM1260,False,,1,run_PMM1258,other
+PMM1264,ftsH4,cell division protein FtsH,other,tcdb_only,tcdb:3.A.25 | tcdb:3.A.29.1 | tcdb:3.A.9.1,other,True,run_PMM1262,False,114.0,PMM1265,-,sys_PMM1264,False,,1,run_PMM1262,other
+PMM1272,,conserved membrane protein,other,tcdb_only,tcdb:3.A.9,other,True,run_PMM1262,True,67.0,PMM1273,-,sys_PMM1272,False,,1,run_PMM1262,other
+PMM1281,era,GTP-binding protein Era,other,none,tcdb:9.A.8,other,True,run_PMM1278,False,39.0,PMM1282,-,sys_PMM1281,False,,1,run_PMM1278,other
+PMM1283,,uncharacterized membrane protein,other,tcdb_only,tcdb:1.A.14,other,True,run_PMM1278,False,74.0,PMM1284,-,sys_PMM1283,False,,1,run_PMM1278,other
+PMM1284,phoH,phosphate starvation-inducible protein,other,tcdb_only,tcdb:3.A.23.6 | tcdb:3.A.7,other,True,run_PMM1278,False,34.0,PMM1285,-,sys_PMM1284,False,,1,run_PMM1278,other
+PMM1286,ffh,signal recognition particle protein,other,tcdb_only,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.7 | tcdb:3.A.5.8 | tcdb:3.A.5.9 | tcdb:9.B.76.1,other,True,run_PMM1278,False,49.0,PMM1287,-,sys_PMM1286,False,,1,run_PMM1278,other
+PMM1293,fkpA,FKBP-type peptidyl-prolyl cis-trans isomerase,other,none,tcdb:8.A.11,other,True,run_PMM1291,False,74.0,PMM1294,+,sys_PMM1293,False,,1,run_PMM1291,other
+PMM1295,sodX,nickel-type superoxide dismutase maturation protease,other,strong,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,other,True,run_PMM1291,False,-4.0,PMM1296,+,sys_PMM1295,False,,1,run_PMM1291,other
+PMM1301,argD,acetylornithine/N-succinyldiaminopimelate aminotransferase,other,none,tcdb:9.B.313,other,True,run_PMM1301,False,12.0,PMM1302,+,sys_PMM1301,False,,1,run_PMM1301,other
+PMM1313,clpP4,"ATP-dependent Clp protease, protease subunit",other,tcdb_only,tcdb:3.A.26,other,True,run_PMM1305,False,33.0,PMM1314,+,sys_PMM1313,False,,1,run_PMM1305,other
+PMM1314,clpP3,"ATP-dependent Clp protease, protease subunit",other,tcdb_only,tcdb:3.A.26.1,other,True,run_PMM1305,False,116.0,PMM1315,+,sys_PMM1314,False,,1,run_PMM1305,other
+PMM1316,cobD,adenosylcobinamide-phosphate synthase,other,none,tcdb:9.B.125,other,True,run_PMM1305,False,57.0,PMM1317,+,sys_PMM1316,False,,1,run_PMM1305,other
+PMM1323,glcH,glucose transporter,single_carrier,strong,tcdb:2.A.2,single_carrier,True,run_PMM1322,False,9.0,PMM1324,+,sys_PMM1323,False,,1,run_PMM1322,single_carrier
+PMM1324,ycf63,"ABC-type transport system, membrane component",permease,strong,tcdb:3.A.1.27,permease,True,run_PMM1322,False,4.0,PMM1325,+,sys_PMM0289,True,cross_locus|tcdb_level3,2,run_PMM0285|run_PMM1322,atpase|other|permease
+PMM1327,plsY,glycerol-3-phosphate acyltransferase (GPAT),other,none,tcdb:9.B.31,other,True,run_PMM1322,False,-11.0,PMM1328,+,sys_PMM1327,False,,1,run_PMM1322,other
+PMM1338,bamA,outer membrane protein insertion porin family,other,strong,tcdb:1.B.33,other,True,run_PMM1333,False,38.0,PMM1339,-,sys_PMM1338,False,,1,run_PMM1333,other
+PMM1341,nblS,"two component sensor, signal transduction histidine kinase",other,none,tcdb:9.B.238.3 | tcdb:9.B.334,other,True,run_PMM1340,False,-4.0,PMM1342,+,sys_PMM1341,False,,1,run_PMM1340,other
+PMM1352,petF,2Fe-2S ferredoxin,other,none,tcdb:5.B.1.3,other,True,run_PMM1351,False,143.0,PMM1353,-,sys_PMM1352,False,,1,run_PMM1351,other
+PMM1361,,short-chain dehydrogenase/reductase (SDR) superfamily,other,tcdb_only,tcdb:1.A.115,other,True,run_PMM1361,True,-6.0,PMM1362,+,sys_PMM1361,False,,1,run_PMM1361,other
+PMM1371,,drug/metabolite transporter (DMT) superfamily efflux protein,single_carrier,strong,tcdb:2.A.7,single_carrier,True,run_PMM1371,False,195.0,PMM1980,+,sys_PMM1371,False,,1,run_PMM1371,single_carrier
+PMM1373,,conserved hypothetical protein,other,none,tcdb:9.B.124,other,True,run_PMM1985,False,302.0,PMM1374,+,sys_PMM1373,False,,1,run_PMM1985,other
+PMM1376,rbpD,nucleotide-binding alpha-beta plait domain-containing protein,other,tcdb_only,tcdb:3.A.18 | tcdb:9.A.60,other,True,run_PMM1985,False,147.0,PMM1377,+,sys_PMM1376,False,,1,run_PMM1985,other
+PMM1378,desA3,delta-12 fatty acid desaturase DesA3,other,none,tcdb:9.A.76,other,True,run_PMM1985,False,3.0,PMM1988,+,sys_PMM1378,False,,1,run_PMM1985,other
+PMM1382,desA2,delta-12 fatty acid desaturase DesA2,other,none,tcdb:9.A.76.1,other,True,run_PMM1985,False,88.0,PMM1994,+,sys_PMM1382,False,,1,run_PMM1985,other
+PMM1386,lptG,"lipopolysaccharide export system, permease component",permease,strong,tcdb:1.B.42.1 | tcdb:3.A.1,permease,True,run_PMM1386,False,119.0,PMM2002,+,sys_PMM0764,True,cross_locus,2,run_PMM0747|run_PMM1386,atpase|permease
+PMM1418,,conserved hypothetical protein,other,tcdb_only,tcdb:3.A.23.1,other,True,run_PMM1416,False,79.0,PMM1419,+,sys_PMM1418,False,,1,run_PMM1416,other
+PMM1432,dnaK1,chaperone protein DnaK,other,tcdb_only,tcdb:1.A.33 | tcdb:3.A.16 | tcdb:3.A.9 | tcdb:9.A.41,other,True,run_PMM1432,True,-4.0,PMM1433,+,sys_PMM1432,False,,1,run_PMM1432,other
+PMM1435,secG,"preprotein translocase, SecG subunit",other,tcdb_only,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.4,other,True,run_PMM1432,False,90.0,PMM1436,+,sys_PMM1435,False,,1,run_PMM1432,other
+PMM1438,atpB,ATP synthase beta chain,other,tcdb_only,tcdb:3.A.2.1 | tcdb:3.A.6,other,True,run_PMM1438,False,48.0,PMM1439,+,sys_PMM1438,False,tcdb_level3,1,run_PMM1438,other
+PMM1439,atpE,ATP synthase epsilon chain,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1438,False,3.0,PMM1440,+,sys_PMM1438,False,tcdb_level3,1,run_PMM1438,other
+PMM1443,,CBS and DUF21 domain-containing protein,other,tcdb_only,tcdb:1.A.112 | tcdb:1.C.126,other,True,run_PMM1443,False,2.0,PMM1444,+,sys_PMM1443,False,,1,run_PMM1443,other
+PMM1449,petF,2Fe-2S ferredoxin,other,none,tcdb:5.B.1,other,True,run_PMM1447,False,14.0,PMM1450,-,sys_PMM1449,False,,1,run_PMM1447,other
+PMM1450,atpC,ATP synthase gamma chain,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,20.0,PMM1451,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1451,atpA,ATP synthase alpha chain,other,tcdb_only,tcdb:2.A.91.1 | tcdb:3.A.2.1 | tcdb:3.A.6,other,True,run_PMM1447,False,31.0,PMM1452,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1452,atpD,ATP synthase delta chain,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,-1.0,PMM1453,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1453,atpF,ATP synthase subunit B,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,-4.0,PMM1454,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1454,atpG,ATP synthase B^,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,68.0,PMM1455,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1455,atpH,ATP synthase C chain,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,166.0,PMM1456,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1456,atpI,ATP synthase A chain,other,tcdb_only,tcdb:3.A.2.1,other,True,run_PMM1447,False,45.0,PMM1457,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1457,atp1,ATP synthase protein I,other,tcdb_only,tcdb:1.A.77 | tcdb:3.A.2.1,other,True,run_PMM1447,False,267.0,PMM1458,-,sys_PMM1450,False,tcdb_level3,1,run_PMM1447,other
+PMM1458,ftsW,cell division protein FtsW,other,strong,tcdb:2.A.103.1,other,True,run_PMM1458,False,83.0,PMM1459,+,sys_PMM1458,False,,1,run_PMM1458,other
+PMM1459,ccsC1,cytochrome c-type biogenesis protein,other,strong,tcdb:2.A.131 | tcdb:5.A.1.2,other,True,run_PMM1458,False,0.0,PMM1460,+,sys_PMM1459,False,,1,run_PMM1458,other
+PMM1464,tly,ribosomal RNA methyltransferase FtsJ family,other,tcdb_only,tcdb:1.C.109.1,other,True,run_PMM1464,True,293.0,PMM1465,-,sys_PMM1464,False,,1,run_PMM1464,other
+PMM1474,dnaJ5,DnaJ type III chaperone protein,other,tcdb_only,tcdb:1.P.1 | tcdb:3.A.16 | tcdb:3.A.30 | tcdb:8.A.192 | tcdb:9.B.440,other,True,run_PMM1473,False,91.0,PMM1475,-,sys_PMM1474,False,,1,run_PMM1473,other
+PMM1486,tatD,Mg-dependent DNase,other,tcdb_only,tcdb:3.A.16,other,True,run_PMM1473,False,6.0,PMM1487,-,sys_PMM1486,False,,1,run_PMM1473,other
+PMM1490,deg1,photosystem II assembly factor,other,tcdb_only,tcdb:2.A.102 | tcdb:8.A.217 | tcdb:9.B.160,other,True,run_PMM1473,False,160.0,PMM1491,-,sys_PMM1490,False,,1,run_PMM1473,other
+PMM1497,wcaA,Glycosyltransferase,other,none,tcdb:4.D.2,other,True,run_PMM1491,False,104.0,PMM1498,+,sys_PMM1497,False,,1,run_PMM1491,other
+PMM1506,lon,ATP-dependent protease,other,none,tcdb:8.A.162 | tcdb:9.B.418,other,True,run_PMM1503,False,55.0,PMM1507,-,sys_PMM1506,False,,1,run_PMM1503,other
+PMM1515,,site-specific recombinase,other,tcdb_only,tcdb:3.A.7,other,True,run_PMM1512,False,1.0,PMM1516,+,sys_PMM1515,False,,1,run_PMM1512,other
+PMM1518,spr,NLP/P60,other,tcdb_only,tcdb:3.A.7,other,True,run_PMM1512,True,51.0,PMM1519,+,sys_PMM1518,False,,1,run_PMM1512,other
+PMM1519,psaL,photosystem I reaction centre subunit XI,other,none,tcdb:5.B.4.1,other,True,run_PMM1517,False,29.0,PMM1520,-,sys_PMM1519,False,tcdb_level3,1,run_PMM1517,other
+PMM1522,,"beta-glycosyltransferase, family 2",other,tcdb_only,tcdb:2.A.127 | tcdb:4.D.1 | tcdb:4.D.2 | tcdb:9.B.27,other,True,run_PMM1517,False,110.0,PMM1523,-,sys_PMM1522,False,,1,run_PMM1517,other
+PMM1523,psaB,photosystem I core protein PsaB,other,none,tcdb:5.B.4.1,other,True,run_PMM1517,False,28.0,PMM1524,-,sys_PMM1519,False,tcdb_level3,1,run_PMM1517,other
+PMM1524,psaA,photosystem I core protein PsaA,other,none,tcdb:5.B.4.1,other,True,run_PMM1517,False,341.0,PMM1525,-,sys_PMM1519,False,tcdb_level3,1,run_PMM1517,other
+PMM1540,secY,preprotein translocase SecY subunit,other,tcdb_only,tcdb:3.A.5,other,True,run_PMM1527,False,30.0,PMM1541,-,sys_PMM1540,False,,1,run_PMM1527,other
+PMM1559,ndhN,NADH dehydrogenase I subunit NdhN,other,tcdb_only,tcdb:3.D.1,other,True,run_PMM1559,False,-11.0,PMM1560,+,sys_PMM1559,False,,1,run_PMM1559,other
+PMM1568,,cyanobacterial aminoacyl-tRNA synthetase domain (CAAD) containing protein,other,none,tcdb:8.A.155,other,True,run_PMM1563,True,287.0,PMM1569,-,sys_PMM1568,False,,1,run_PMM1563,other
+PMM1569,moeB,molybdopterin biosynthesis protein MoeB,other,tcdb_only,tcdb:3.A.16 | tcdb:3.A.25,other,True,run_PMM1565,True,14.0,PMM1570,+,sys_PMM1569,False,,1,run_PMM1565,other
+PMM1578,psaD,photosystem I reaction center subunit II,other,none,tcdb:5.B.4.1,other,True,run_PMM1563,False,112.0,PMM1579,-,sys_PMM1578,False,,1,run_PMM1563,other
+PMM1580,mrdB,rod shape determining protein,other,tcdb_only,tcdb:2.A.103,other,True,run_PMM1563,False,5.0,PMM1581,-,sys_PMM1580,False,,1,run_PMM1563,other
+PMM1581,abpC,nucleotide-binding protein,other,tcdb_only,tcdb:3.A.1 | tcdb:8.A.3,other,True,run_PMM1563,False,161.0,PMM1582,-,sys_PMM1581,False,,1,run_PMM1563,other
+PMM1589,purM,phosphoribosylformylglycinamidine cyclo-ligase,other,none,tcdb:8.A.159,other,True,run_PMM1563,False,97.0,PMM1590,-,sys_PMM1589,False,,1,run_PMM1563,other
+PMM1594,ho1,heme oxygenase,other,none,tcdb:8.A.252.1,other,True,run_PMM1563,False,57.0,PMM1595,-,sys_PMM1594,False,,1,run_PMM1563,other
+PMM1600,nhaS,"Na+/H+ antiporter, CPA2 family",single_carrier,strong,tcdb:2.A.37,single_carrier,True,run_PMM1563,False,153.0,PMM1601,-,sys_PMM1600,False,,1,run_PMM1563,single_carrier
+PMM1604,ndhS,NADH dehydrogenase I subunit NdhS,other,tcdb_only,tcdb:3.D.1.8,other,True,run_PMM1604,True,22.0,PMM1605,-,sys_PMM1604,False,,1,run_PMM1604,other
+PMM1607,psaC,photosystem I iron-sulfur center subunit VII PsaC,other,none,tcdb:5.B.4.1,other,True,run_PMM1604,False,134.0,PMM1608,-,sys_PMM1607,False,,1,run_PMM1604,other
+PMM1608,acpP,acyl-carrier protein,other,tcdb_only,tcdb:3.A.9.1 | tcdb:3.D.1.6,other,True,run_PMM1608,False,6.0,PMM1609,+,sys_PMM1608,False,,1,run_PMM1608,other
+PMM1609,fabF,beta-ketoacyl-(acyl-carrier-protein) synthase II (KASII),other,none,tcdb:4.C.1,other,True,run_PMM1608,False,42.0,PMM1610,+,sys_PMM1609,False,,1,run_PMM1608,other
+PMM1615,ruvB,holliday junction ATP-dependent DNA helicase RuvB,other,tcdb_only,tcdb:3.A.31,other,True,run_PMM1611,False,52.0,PMM1616,-,sys_PMM1615,False,,1,run_PMM1611,other
+PMM1618,lysS,lysine--tRNA ligase,other,none,tcdb:4.H.1.1,other,True,run_PMM1611,False,50.0,PMM1619,-,sys_PMM1618,False,,1,run_PMM1611,other
+PMM1619,srrA,"NblS-interacting two-component response regulator, OmpR family",other,tcdb_only,tcdb:3.E.1,other,True,run_PMM1611,False,172.0,PMM1620,-,sys_PMM1619,False,,1,run_PMM1611,other
+PMM1621,mreC,rod shape-determining protein MreC,other,none,tcdb:9.B.157.1,other,True,run_PMM1611,False,4.0,PMM1622,-,sys_PMM1621,False,tcdb_level3,1,run_PMM1611,other
+PMM1622,mreB,rod shape-determining protein MreB,other,tcdb_only,tcdb:1.A.33.1 | tcdb:3.A.9 | tcdb:9.A.41 | tcdb:9.B.157.1 | tcdb:9.B.460,other,True,run_PMM1611,False,132.0,PMM1623,-,sys_PMM1621,False,tcdb_level3,1,run_PMM1611,other
+PMM1623,ssb,single-stranded DNA-binding protein,other,tcdb_only,tcdb:3.A.7,other,True,run_PMM1623,True,-4.0,PMM1624,+,sys_PMM1623,False,,1,run_PMM1623,other
+PMM1624,dedA2,dedA family protein,other,none,tcdb:9.B.27 | tcdb:9.B.321,other,True,run_PMM1611,False,2.0,PMM1625,-,sys_PMM1624,False,,1,run_PMM1611,other
+PMM1625,ahcY,adenosylhomocysteinase,other,none,tcdb:8.A.151.1,other,True,run_PMM1611,False,49.0,PMM1626,-,sys_PMM1625,False,,1,run_PMM1611,other
+PMM1630,mgtE,magnesium transporter,single_carrier,strong,tcdb:1.A.26.1 | tcdb:3.A.1,single_carrier,True,run_PMM1611,False,42.0,PMM1631,-,sys_PMM1630,False,,1,run_PMM1611,single_carrier
+PMM1631,,conserved hypothetical protein,other,strong,tcdb:1.A.43.1 | tcdb:1.A.43.2 | tcdb:1.A.43.3,other,True,run_PMM1611,False,-40.0,PMM1632,-,sys_PMM1631,False,tcdb_level3,1,run_PMM1611,other
+PMM1632,crcB1,fluoride exporter,other,strong,tcdb:1.A.43.1 | tcdb:1.A.43.2 | tcdb:1.A.43.3,other,True,run_PMM1611,False,3.0,PMM1633,-,sys_PMM1631,False,tcdb_level3,1,run_PMM1611,other
+PMM1639,secA,preprotein translocase SecA subunit,other,tcdb_only,tcdb:3.A.5.1 | tcdb:3.A.5.10 | tcdb:3.A.5.2 | tcdb:3.A.5.4,other,True,run_PMM1639,True,177.0,PMM1640,-,sys_PMM1639,False,,1,run_PMM1639,other
+PMM1656,clpP2,"ATP-dependent Clp protease, protease subunit",other,tcdb_only,tcdb:3.A.26.1 | tcdb:8.A.21,other,True,run_PMM1655,False,103.0,PMM1657,+,sys_PMM1656,False,,1,run_PMM1655,other
+PMM1657,clpX,"ATP-dependent Clp protease ATP-binding subunit, ClpX",other,tcdb_only,tcdb:3.A.31,other,True,run_PMM1655,False,57.0,PMM1658,+,sys_PMM1657,False,,1,run_PMM1655,other
+PMM1659,mgdA,monoglycosyldiacylglycerol (MGlcDG) synthase,other,none,tcdb:4.D.1 | tcdb:4.D.3,other,True,run_PMM1659,False,28.0,PMM1660,-,sys_PMM1659,False,,1,run_PMM1659,other
+PMM1670,metC,cystathionine beta-lyase family aluminum resistance protein,other,none,,other,True,run_PMM1667,False,4.0,PMM1671,-,sys_PMM1670,False,,1,run_PMM1667,other
+PMM1681,,conserved hypothetical protein,other,none,tcdb:9.B.27,other,True,run_PMM1681,False,1.0,PMM1682,-,sys_PMM1681,False,,1,run_PMM1681,other
+PMM1685,speE,spermidine synthase,other,tcdb_only,tcdb:2.A.1,other,True,run_PMM1684,False,1.0,PMM1686,+,sys_PMM1685,False,,1,run_PMM1684,other
+PMM1688,aspS,aspartyl-tRNA synthetase,other,none,tcdb:4.H.1,other,True,run_PMM1684,False,74.0,PMM1689,+,sys_PMM1688,False,,1,run_PMM1684,other
+PMM1695,,"multidrug efflux transporter, MFS family",single_carrier,strong,tcdb:2.A.1.2.38 | tcdb:2.A.1.2.39 | tcdb:2.A.1.2.4 | tcdb:2.A.1.2.41 | tcdb:2.A.1.2.68 | tcdb:2.A.1.2.75,single_carrier,True,run_PMM1684,False,18.0,PMM1696,+,sys_PMM1695,False,,1,run_PMM1684,single_carrier
+PMM1698,VTE5,phytol kinase,other,none,tcdb:9.B.405,other,True,run_PMM1684,False,1.0,PMM1699,+,sys_PMM1698,False,,1,run_PMM1684,other
+PMM1701,clc2,putative chloride channel,single_carrier,strong,tcdb:2.A.49,single_carrier,True,run_PMM1684,False,9.0,PMM1702,+,sys_PMM1701,False,,1,run_PMM1684,single_carrier
+PMM1704,dnaK3,chaperone protein DnaK,other,tcdb_only,tcdb:1.A.33.1 | tcdb:3.A.16.1 | tcdb:3.A.9.1 | tcdb:9.A.41.1 | tcdb:9.B.157,other,True,run_PMM1702,True,117.0,PMM1705,-,sys_PMM1704,False,,1,run_PMM1702,other
+PMM1709,mraY,phospho-N-acetylmuramoyl-pentapeptide-transferase,other,none,tcdb:9.B.146,other,True,run_PMM1684,False,10.0,PMM1710,+,sys_PMM1709,False,,1,run_PMM1684,other
+PMM1712,uvrA,"excinuclease UvrABC complex, ATPase subunit",atpase,strong,tcdb:3.A.1,atpase,True,run_PMM1711,False,54.0,PMM1713,-,sys_PMM1712,False,,1,run_PMM1711,atpase
+PMM0440,,uncharacterized conserved secreted protein,substrate_binding,strong,,substrate_binding,True,run_PMM0436,False,-6.0,PMM0441,+,sys_PMM0440,False,,1,run_PMM0436,substrate_binding

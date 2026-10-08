@@ -1,0 +1,115 @@
+{
+ "promotions_vs_v1.1.0": [
+  {
+   "strain": "med4",
+   "kind": "universe",
+   "old": "tcdb_only",
+   "new": "strong",
+   "n": 5
+  },
+  {
+   "strain": "mit9313",
+   "kind": "universe",
+   "old": "tcdb_only",
+   "new": "strong",
+   "n": 14
+  },
+  {
+   "strain": "natl2a",
+   "kind": "universe",
+   "old": "tcdb_only",
+   "new": "strong",
+   "n": 6
+  }
+ ],
+ "ftn": [
+  {
+   "strain": "med4",
+   "locus_tag": "PMM0804",
+   "likely_transporter": "strong",
+   "basis": "cyanorak|tcdb",
+   "cyanorak_q_roles": "cyanorak.role:Q.4",
+   "tcdb_ids": "tcdb:1.A.155",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+  },
+  {
+   "strain": "mit9313",
+   "locus_tag": "PMT0495",
+   "likely_transporter": "strong",
+   "basis": "cyanorak|tcdb",
+   "cyanorak_q_roles": "cyanorak.role:Q.4",
+   "tcdb_ids": "tcdb:1.A.155",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+  },
+  {
+   "strain": "mit9313",
+   "locus_tag": "PMT0499",
+   "likely_transporter": "strong",
+   "basis": "cyanorak|tcdb",
+   "cyanorak_q_roles": "cyanorak.role:Q.4",
+   "tcdb_ids": "tcdb:1.A.155",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]"
+  },
+  {
+   "strain": "natl2a",
+   "locus_tag": "PMN2A_0212",
+   "likely_transporter": "none",
+   "basis": "neighbour (non-universe)",
+   "cyanorak_q_roles": NaN,
+   "tcdb_ids": NaN,
+   "tier": "not a system member",
+   "tier_reason": NaN
+  }
+ ],
+ "class_counts": {
+  "med4": {
+   "amines": 5,
+   "amino acids": 39,
+   "ammonium": 7,
+   "cyanate": 1,
+   "nitrate": 1,
+   "nitrite": 1,
+   "nucleobases/nucleosides": 18,
+   "osmolytes": 9,
+   "peptides": 8,
+   "polyamines": 6,
+   "unclassified (no formula)": 238,
+   "unclassified N": 384,
+   "urea": 4
+  },
+  "mit9313": {
+   "amines": 5,
+   "amino acids": 48,
+   "ammonium": 7,
+   "cyanate": 1,
+   "nitrate": 1,
+   "nitrite": 1,
+   "nucleobases/nucleosides": 19,
+   "osmolytes": 9,
+   "peptides": 9,
+   "polyamines": 6,
+   "unclassified (no formula)": 248,
+   "unclassified N": 422,
+   "urea": 4
+  },
+  "natl2a": {
+   "amines": 5,
+   "amino acids": 41,
+   "ammonium": 7,
+   "cyanate": 1,
+   "nitrate": 1,
+   "nitrite": 1,
+   "nucleobases/nucleosides": 18,
+   "osmolytes": 9,
+   "peptides": 9,
+   "polyamines": 6,
+   "unclassified (no formula)": 238,
+   "unclassified N": 382,
+   "urea": 4
+  }
+ },
+ "review_list_n": 92
+}

@@ -1,0 +1,579 @@
+{
+ "med4": {
+  "likely_transporter_changes_vs_v1.2.0": [
+   {
+    "strain": "med4",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMM0078",
+    "gene_name": NaN,
+    "product": "putative 4^-phosphopantetheinyl transferase family domain protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "med4",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMM0142",
+    "gene_name": NaN,
+    "product": "RNA-binding protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "med4",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMM0430",
+    "gene_name": "hisF",
+    "product": "imidazole glycerol phosphate synthase, cyclase subunit",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "med4",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMM1121",
+    "gene_name": "som",
+    "product": "outer membrane porin",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   }
+  ],
+  "tier_changes": [],
+  "links": {
+   "function_linked": {
+    "old": 34,
+    "new": 34,
+    "only_old": [],
+    "only_new": []
+   },
+   "neighbour_linked": {
+    "old": 6,
+    "new": 6,
+    "only_old": [],
+    "only_new": []
+   }
+  },
+  "class_changes": [
+   {
+    "old_source": "family_context",
+    "old": "siderophore",
+    "new": "unclassified N",
+    "groups": 1
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified (no formula)",
+    "groups": 13
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified N",
+    "groups": 46
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified (no formula)",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 19
+   },
+   {
+    "old_source": "pathway",
+    "old": "cofactors/vitamins",
+    "new": "unclassified N",
+    "groups": 19
+   },
+   {
+    "old_source": "pathway",
+    "old": "nucleobases/nucleosides",
+    "new": "unclassified N",
+    "groups": 12
+   },
+   {
+    "old_source": "pathway",
+    "old": "osmolytes",
+    "new": "unclassified N",
+    "groups": 1
+   },
+   {
+    "old_source": "pathway",
+    "old": "peptides",
+    "new": "unclassified N",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "xenobiotic",
+    "new": "unclassified N",
+    "groups": 35
+   },
+   {
+    "old_source": "pathway+transport_class_tiebreak",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 1
+   }
+  ],
+  "files_identical": 94,
+  "files_differing": [
+   "p11_med4_summary.json",
+   "p12_med4_review_candidates.csv",
+   "p12_med4_summary.json",
+   "p12_med4_system_substrates_classified.csv",
+   "p1_med4_summary.json",
+   "p2a_med4_summary.json",
+   "p2b_med4_summary.json",
+   "p2c_med4_summary.json",
+   "p2c_med4_summary_check.json",
+   "p3_med4_summary.json",
+   "p4_med4_neighbour_candidates.csv",
+   "p4_med4_summary.json",
+   "p5_med4_neighbour_candidates_step5.csv",
+   "p5_med4_summary.json",
+   "p6_med4_summary.json",
+   "run_log.json"
+  ],
+  "only_old": [
+   "p12_med4_compound_classes_layered.csv"
+  ],
+  "only_new": [
+   "p12_med4_compound_classes.csv"
+  ],
+  "identical_upstream": [
+   "p1_med4_pilot_status.csv",
+   "p1_med4_transporter_genes.csv",
+   "p1_raw_pilot_rows.csv",
+   "p2_med4_gene_roles.csv",
+   "p2_med4_pfam_domains.csv"
+  ]
+ },
+ "mit9313": {
+  "likely_transporter_changes_vs_v1.2.0": [
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT0274",
+    "gene_name": "hisF",
+    "product": "imidazole glycerol phosphate synthase, cyclase subunit",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT0286",
+    "gene_name": "piuC",
+    "product": "iron-uptake factor PiuC",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT0412",
+    "gene_name": "bcsA",
+    "product": "putative chalcone/stilbene synthase",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT0742",
+    "gene_name": NaN,
+    "product": "FAD dependent oxidoreductase",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT1240",
+    "gene_name": "hemH",
+    "product": "ferrochelatase",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT_2765",
+    "gene_name": "comA",
+    "product": "competence protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT1621",
+    "gene_name": NaN,
+    "product": "putative 4^-phosphopantetheinyl transferase family domain protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT1814",
+    "gene_name": NaN,
+    "product": "creatinine amidohydrolase family protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT2002",
+    "gene_name": NaN,
+    "product": "RNA-binding protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "mit9313",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMT2207",
+    "gene_name": NaN,
+    "product": "permease",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   }
+  ],
+  "tier_changes": [],
+  "links": {
+   "function_linked": {
+    "old": 48,
+    "new": 48,
+    "only_old": [],
+    "only_new": []
+   },
+   "neighbour_linked": {
+    "old": 17,
+    "new": 17,
+    "only_old": [],
+    "only_new": []
+   }
+  },
+  "class_changes": [
+   {
+    "old_source": "family_context",
+    "old": "siderophore",
+    "new": "unclassified N",
+    "groups": 1
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified (no formula)",
+    "groups": 15
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified N",
+    "groups": 63
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified (no formula)",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 23
+   },
+   {
+    "old_source": "pathway",
+    "old": "cofactors/vitamins",
+    "new": "unclassified N",
+    "groups": 19
+   },
+   {
+    "old_source": "pathway",
+    "old": "nucleobases/nucleosides",
+    "new": "unclassified N",
+    "groups": 12
+   },
+   {
+    "old_source": "pathway",
+    "old": "osmolytes",
+    "new": "unclassified N",
+    "groups": 3
+   },
+   {
+    "old_source": "pathway",
+    "old": "peptides",
+    "new": "unclassified N",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "xenobiotic",
+    "new": "unclassified N",
+    "groups": 37
+   },
+   {
+    "old_source": "pathway+transport_class_tiebreak",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 1
+   }
+  ],
+  "files_identical": 81,
+  "files_differing": [
+   "p11_mit9313_summary.json",
+   "p12_mit9313_review_candidates.csv",
+   "p12_mit9313_summary.json",
+   "p12_mit9313_system_substrates_classified.csv",
+   "p1_mit9313_summary.json",
+   "p2a_mit9313_summary.json",
+   "p2b_mit9313_summary.json",
+   "p2c_mit9313_summary.json",
+   "p2c_mit9313_summary_check.json",
+   "p3_mit9313_summary.json",
+   "p4_mit9313_neighbour_candidates.csv",
+   "p4_mit9313_summary.json",
+   "p5_mit9313_neighbour_candidates_step5.csv",
+   "p5_mit9313_summary.json",
+   "p6_mit9313_summary.json",
+   "run_log.json"
+  ],
+  "only_old": [
+   "p12_mit9313_compound_classes_layered.csv"
+  ],
+  "only_new": [
+   "p12_mit9313_compound_classes.csv"
+  ],
+  "identical_upstream": [
+   "p1_mit9313_transporter_genes.csv",
+   "p2_mit9313_gene_roles.csv",
+   "p2_mit9313_pfam_domains.csv",
+   "p2_pfam_role_map.csv",
+   "p2c_mit9313_additions.csv"
+  ]
+ },
+ "natl2a": {
+  "likely_transporter_changes_vs_v1.2.0": [
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_0212",
+    "gene_name": "ftn",
+    "product": "ferritin",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_0775",
+    "gene_name": "piuC",
+    "product": "iron-uptake factor PiuC",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_0440",
+    "gene_name": "PMN2A_RS05215",
+    "product": "outer membrane porin",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_1761",
+    "gene_name": "hisF",
+    "product": "imidazole glycerol phosphate synthase, cyclase subunit",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_1442",
+    "gene_name": "PMN2A_RS00600",
+    "product": "putative 4^-phosphopantetheinyl transferase family domain protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   },
+   {
+    "strain": "natl2a",
+    "kind": "neighbour (non-universe)",
+    "locus_tag": "PMN2A_1508",
+    "gene_name": "PMN2A_RS00940",
+    "product": "RNA-binding protein",
+    "old": "strong",
+    "new": "none",
+    "basis_new": null,
+    "cyanorak_q_roles": null
+   }
+  ],
+  "tier_changes": [],
+  "links": {
+   "function_linked": {
+    "old": 33,
+    "new": 33,
+    "only_old": [],
+    "only_new": []
+   },
+   "neighbour_linked": {
+    "old": 9,
+    "new": 9,
+    "only_old": [],
+    "only_new": []
+   }
+  },
+  "class_changes": [
+   {
+    "old_source": "family_context",
+    "old": "siderophore",
+    "new": "unclassified N",
+    "groups": 1
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified (no formula)",
+    "groups": 13
+   },
+   {
+    "old_source": "family_context",
+    "old": "xenobiotic (efflux family)",
+    "new": "unclassified N",
+    "groups": 46
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified (no formula)",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 19
+   },
+   {
+    "old_source": "pathway",
+    "old": "cofactors/vitamins",
+    "new": "unclassified N",
+    "groups": 19
+   },
+   {
+    "old_source": "pathway",
+    "old": "nucleobases/nucleosides",
+    "new": "unclassified N",
+    "groups": 12
+   },
+   {
+    "old_source": "pathway",
+    "old": "osmolytes",
+    "new": "unclassified N",
+    "groups": 3
+   },
+   {
+    "old_source": "pathway",
+    "old": "peptides",
+    "new": "unclassified N",
+    "groups": 2
+   },
+   {
+    "old_source": "pathway",
+    "old": "xenobiotic",
+    "new": "unclassified N",
+    "groups": 35
+   },
+   {
+    "old_source": "pathway+transport_class_tiebreak",
+    "old": "amino acids",
+    "new": "unclassified N",
+    "groups": 1
+   }
+  ],
+  "files_identical": 81,
+  "files_differing": [
+   "p11_natl2a_summary.json",
+   "p12_natl2a_review_candidates.csv",
+   "p12_natl2a_summary.json",
+   "p12_natl2a_system_substrates_classified.csv",
+   "p1_natl2a_summary.json",
+   "p2a_natl2a_summary.json",
+   "p2b_natl2a_summary.json",
+   "p2c_natl2a_summary.json",
+   "p2c_natl2a_summary_check.json",
+   "p3_natl2a_summary.json",
+   "p4_natl2a_neighbour_candidates.csv",
+   "p4_natl2a_summary.json",
+   "p5_natl2a_neighbour_candidates_step5.csv",
+   "p5_natl2a_summary.json",
+   "p6_natl2a_summary.json",
+   "run_log.json"
+  ],
+  "only_old": [
+   "p12_natl2a_compound_classes_layered.csv"
+  ],
+  "only_new": [
+   "p12_natl2a_compound_classes.csv"
+  ],
+  "identical_upstream": [
+   "p1_natl2a_transporter_genes.csv",
+   "p2_natl2a_gene_roles.csv",
+   "p2_natl2a_pfam_domains.csv",
+   "p2_pfam_role_map.csv",
+   "p2c_natl2a_additions.csv"
+  ]
+ }
+}

@@ -1,0 +1,320 @@
+system_id,n_genes,member_loci,member_names,roles,role_complete,joined_by,cross_locus_merged,n_runs,member_runs,tcdb_ids,likely_transporter,max_same_abc_role
+sys_PMM0008,1,PMM0008,PMM0008:,other,False,,False,1,run_PMM0008,tcdb:9.B.150.1,none,0
+sys_PMM0010,1,PMM0010,PMM0010:ftsY,other,False,,False,1,run_PMM0008,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.7 | tcdb:9.B.76,tcdb_only,0
+sys_PMM0013,1,PMM0013,PMM0013:,other,False,,False,1,run_PMM0008,tcdb:3.A.18 | tcdb:9.A.60,tcdb_only,0
+sys_PMM0017,1,PMM0017,PMM0017:dnaJ1,other,False,,False,1,run_PMM0008,tcdb:3.A.16 | tcdb:8.A.192,tcdb_only,0
+sys_PMM0023,1,PMM0023,PMM0023:gap2,other,False,,False,1,run_PMM0023,tcdb:3.A.23.6,tcdb_only,0
+sys_PMM0024,1,PMM0024,PMM0024:thiL,other,False,,False,1,run_PMM0020,tcdb:8.A.159,none,0
+sys_PMM0027,1,PMM0027,PMM0027:accB,other,False,,False,1,run_PMM0026,tcdb:3.B.1,tcdb_only,0
+sys_PMM0054,1,PMM0054,PMM0054:,other,False,,False,1,run_PMM0041,tcdb:1.E.34.3,tcdb_only,0
+sys_PMM0061,1,PMM0061,PMM0061:cbb3,other,False,,False,1,run_PMM0059,tcdb:9.A.4.2,none,0
+sys_PMM0065,1,PMM0065,PMM0065:mcyH,mixed,True,,False,1,run_PMM0064,tcdb:3.A.1.106 | tcdb:3.A.1.110 | tcdb:3.A.1.112 | tcdb:3.A.1.113 | tcdb:3.A.1.117 | tcdb:3.A.1.203.11 | tcdb:3.A.1.203.4 | tcdb:3.A.1.21,strong,0
+sys_PMM0072,1,PMM0072,PMM0072:sufC,atpase,False,,False,1,run_PMM0064,tcdb:3.A.1 | tcdb:9.B.29.2,strong,1
+sys_PMM0078,1,PMM0078,PMM0078:,other,False,,False,1,run_PMM0078,,none,0
+sys_PMM0079,1,PMM0079,PMM0079:prxQ,other,False,,False,1,run_PMM0074,tcdb:8.A.147,none,0
+sys_PMM0083,1,PMM0083,PMM0083:citT,single_carrier,True,,False,1,run_PMM0082,tcdb:2.A.47,strong,0
+sys_PMM0084,2,PMM0084 | PMM0085,PMM0084:ktrB | PMM0085:ktrA,other|single_carrier,True,tcdb_level3,False,1,run_PMM0082,tcdb:1.A.1 | tcdb:2.A.37 | tcdb:2.A.38.1 | tcdb:2.A.38.4 | tcdb:3.A.3,strong,0
+sys_PMM0089,1,PMM0089,PMM0089:,atpase,False,,False,1,run_PMM0082,tcdb:3.A.1 | tcdb:9.B.325,strong,1
+sys_PMM0090,1,PMM0090,PMM0090:degQ,other,False,,False,1,run_PMM0090,tcdb:2.A.102 | tcdb:8.A.217 | tcdb:9.B.160,tcdb_only,0
+sys_PMM0095,1,PMM0095,PMM0095:rbn,other,False,,False,1,run_PMM0094,tcdb:9.B.126,none,0
+sys_PMM0097,1,PMM0097,PMM0097:tolC,other,False,,False,1,run_PMM0094,tcdb:1.B.17 | tcdb:3.A.1,strong,0
+sys_PMM0100,1,PMM0100,PMM0100:nadB,other,False,,False,1,run_PMM0099,tcdb:3.D.10,tcdb_only,0
+sys_PMM0101,1,PMM0101,PMM0101:SynDsbAB,other,False,,False,1,run_PMM0101,tcdb:9.B.265,none,0
+sys_PMM0110,1,PMM0110,PMM0110:gst,other,False,,False,1,run_PMM0101,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,strong,0
+sys_PMM0121,1,PMM0121,PMM0121:ndhO,other,False,,False,1,run_PMM0116,tcdb:3.D.1.8,tcdb_only,0
+sys_PMM0125,1,PMM0125,PMM0125:ecfA1,atpase,False,,False,1,run_PMM0124,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,strong,1
+sys_PMM0128,1,PMM0128,PMM0128:rpaA,other,False,,False,1,run_PMM0124,tcdb:3.E.1 | tcdb:9.B.238,tcdb_only,0
+sys_PMM0131,1,PMM0131,PMM0131:zntA,other,False,,False,1,run_PMM0127,tcdb:3.A.3.5,strong,0
+sys_PMM0134,1,PMM0134,PMM0134:rpaB,other,False,,False,1,run_PMM0132,tcdb:3.E.1 | tcdb:9.B.238,tcdb_only,0
+sys_PMM0142,1,PMM0142,PMM0142:,other,False,,False,1,run_PMM0141,,none,0
+sys_PMM0145,1,PMM0145,PMM0145:ndhM,other,False,,False,1,run_PMM0145,tcdb:3.D.1.8,tcdb_only,0
+sys_PMM0149,1,PMM0149,PMM0149:ndhF1,other,False,,False,1,run_PMM0145,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9 | tcdb:9.A.2,tcdb_only,0
+sys_PMM0150,1,PMM0150,PMM0150:ndhD1,other,False,,False,1,run_PMM0145,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0153,1,PMM0153,PMM0153:metF,other,False,,False,1,run_PMM0153,tcdb:3.D.7 | tcdb:5.B.16,tcdb_only,0
+sys_PMM0157,2,PMM0157 | PMM0160,PMM0157:ndhE | PMM0160:ndhA,other,False,tcdb_level3,False,1,run_PMM0153,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,tcdb_only,0
+sys_PMM0158,1,PMM0158,PMM0158:ndhG,other,False,,False,1,run_PMM0153,tcdb:3.D.1 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0159,1,PMM0159,PMM0159:ndhI,other,False,,False,1,run_PMM0153,tcdb:3.D.1,tcdb_only,0
+sys_PMM0169,1,PMM0169,PMM0169:ycf29,other,False,,False,1,run_PMM0167,tcdb:2.A.130 | tcdb:3.E.1,tcdb_only,0
+sys_PMM0171,1,PMM0171,PMM0171:rsmH,other,False,,False,1,run_PMM0167,tcdb:1.A.130,tcdb_only,0
+sys_PMM0172,1,PMM0172,PMM0172:ndhH,other,False,,False,1,run_PMM0163,tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0192,4,PMM0192 | PMM0421 | PMM1048 | PMM1049,PMM0192:ddpD | PMM0421:dppC | PMM1048:dppB | PMM1049:dppA,atpase|permease|substrate_binding,True,cross_locus|tcdb_level3,True,3,run_PMM0190|run_PMM0417|run_PMM1043,tcdb:3.A.1.5,strong,2
+sys_PMM0199,1,PMM0199,PMM0199:pyrD,other,False,,False,1,run_PMM0186,tcdb:9.B.265,none,0
+sys_PMM0203,1,PMM0203,PMM0203:rplA,other,False,,False,1,run_PMM0186,tcdb:1.C.82.1,tcdb_only,0
+sys_PMM0206,1,PMM0206,PMM0206:secE,other,False,,False,1,run_PMM0186,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.4,tcdb_only,0
+sys_PMM0207,1,PMM0207,PMM0207:clpB2,other,False,,False,1,run_PMM0186,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM0213,1,PMM0213,PMM0213:sbtA,single_carrier,True,,False,1,run_PMM0186,tcdb:2.A.83,strong,0
+sys_PMM0214,1,PMM0214,PMM0214:sul3,single_carrier,True,,False,1,run_PMM0186,tcdb:2.A.53.3,strong,0
+sys_PMM0218,1,PMM0218,PMM0218:cgtA,other,False,,False,1,run_PMM0215,tcdb:3.A.1 | tcdb:9.A.8,tcdb_only,0
+sys_PMM0223,1,PMM0223,PMM0223:psbA,other,False,,False,1,run_PMM0222,tcdb:3.E.2,tcdb_only,0
+sys_PMM0226,1,PMM0226,PMM0226:ftsH1,other,False,,False,1,run_PMM0225,tcdb:3.A.16 | tcdb:3.A.29.1 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM0228,1,PMM0228,PMM0228:psbO,other,False,,False,1,run_PMM0225,tcdb:3.E.2,tcdb_only,0
+sys_PMM0236,1,PMM0236,PMM0236:crtR,other,False,,False,1,run_PMM0233,tcdb:9.A.76,none,0
+sys_PMM0242,1,PMM0242,PMM0242:txlA,other,False,,False,1,run_PMM0237,tcdb:3.D.3,tcdb_only,0
+sys_PMM0251,1,PMM0251,PMM0251:psbH,other,False,,False,1,run_PMM0249,tcdb:3.E.2.2,tcdb_only,0
+sys_PMM0261,1,PMM0261,PMM0261:murJ,other,False,,False,1,run_PMM0261,tcdb:2.A.66.4,strong,0
+sys_PMM0263,1,PMM0263,PMM0263:amt1,single_carrier,True,,False,1,run_PMM0259,tcdb:1.A.11,strong,0
+sys_PMM0269,1,PMM0269,PMM0269:,other,False,,False,1,run_PMM0259,tcdb:9.B.238 | tcdb:9.B.259,none,0
+sys_PMM0274,1,PMM0274,PMM0274:,other,False,,False,1,run_PMM0273,tcdb:1.A.112 | tcdb:1.C.126 | tcdb:2.A.109,strong,0
+sys_PMM0289,3,PMM0289 | PMM0290 | PMM1324,PMM0289:ycf22 | PMM0290:mkl | PMM1324:ycf63,atpase|other|permease,False,cross_locus|tcdb_level3,True,2,run_PMM0285|run_PMM1322,tcdb:3.A.1.27,strong,1
+sys_PMM0292,1,PMM0292,PMM0292:ndhJ,other,False,,False,1,run_PMM0285,tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0293,2,PMM0293 | PMM0294,PMM0293:ndhK | PMM0294:ndhC,other,False,tcdb_level3,False,1,run_PMM0285,tcdb:3.D.1 | tcdb:3.D.13.1 | tcdb:3.D.9.1,tcdb_only,0
+sys_PMM0295,1,PMM0295,PMM0295:rub,other,False,,False,1,run_PMM0295,tcdb:3.D.7,tcdb_only,0
+sys_PMM0297,1,PMM0297,PMM0297:psbE,other,False,,False,1,run_PMM0295,tcdb:3.E.2.2,tcdb_only,0
+sys_PMM0315,1,PMM0315,PMM0315:psbB,other,False,,False,1,run_PMM0301,tcdb:3.E.2.2,tcdb_only,0
+sys_PMM0316,1,PMM0316,PMM0316:petF,other,False,,False,1,run_PMM0316,tcdb:3.D.1,tcdb_only,0
+sys_PMM0321,1,PMM0321,PMM0321:minD,other,False,,False,1,run_PMM0320,tcdb:3.A.1 | tcdb:3.A.24 | tcdb:8.A.3,tcdb_only,0
+sys_PMM0324,1,PMM0324,PMM0324:ctp,other,False,,False,1,run_PMM0320,tcdb:9.B.174,none,0
+sys_PMM0325,1,PMM0325,PMM0325:petB,other,False,,False,1,run_PMM0325,tcdb:3.D.3 | tcdb:3.D.4 | tcdb:3.E.2,tcdb_only,0
+sys_PMM0326,1,PMM0326,PMM0326:petD,other,False,,False,1,run_PMM0325,tcdb:3.D.3 | tcdb:3.E.2,tcdb_only,0
+sys_PMM0329,1,PMM0329,PMM0329:psaE,other,False,,False,1,run_PMM0328,tcdb:5.B.4.1,none,0
+sys_PMM0343,1,PMM0343,PMM0343:tatA,other,False,,False,1,run_PMM1814,tcdb:2.A.64,tcdb_only,0
+sys_PMM0345,1,PMM0345,PMM0345:prxQ,other,False,,False,1,run_PMM0344,tcdb:8.A.147,none,0
+sys_PMM0370,3,PMM0370 | PMM0371 | PMM0372,PMM0370:cynA | PMM0371:cynB | PMM0372:cynD,atpase|permease|substrate_binding,True,tcdb_level3,False,1,run_PMM0369,tcdb:3.A.1.16.1 | tcdb:3.A.1.16.2 | tcdb:3.A.1.17.3 | tcdb:3.A.1.17.6,strong,1
+sys_PMM0374,1,PMM0374,PMM0374:tatA,other,False,,False,1,run_PMM0374,tcdb:2.A.64,tcdb_only,0
+sys_PMM0391,1,PMM0391,PMM0391:engA,other,False,,False,1,run_PMM0387,tcdb:9.A.8,none,0
+sys_PMM0392,1,PMM0392,PMM0392:cbiQ,other,False,,False,1,run_PMM0387,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,strong,0
+sys_PMM0397,1,PMM0397,PMM0397:dgdA,other,False,,False,1,run_PMM0397,tcdb:2.A.38.4,tcdb_only,0
+sys_PMM0402,1,PMM0402,PMM0402:fadD,other,False,,False,1,run_PMM0401,tcdb:2.A.1 | tcdb:4.C.1.1,tcdb_only,0
+sys_PMM0413,1,PMM0413,PMM0413:murE,other,False,,False,1,run_PMM0411,tcdb:2.A.128,tcdb_only,0
+sys_PMM0427,1,PMM0427,PMM0427:pbp1,other,False,,False,1,run_PMM0427,tcdb:8.A.229,none,0
+sys_PMM0428,1,PMM0428,PMM0428:chlG,other,False,,False,1,run_PMM0427,tcdb:9.B.241,none,0
+sys_PMM0430,1,PMM0430,PMM0430:hisF,other,False,,False,1,run_PMM0430,,none,0
+sys_PMM0434,1,PMM0434,PMM0434:ftsE,atpase,False,,False,1,run_PMM0432,tcdb:3.A.1,strong,1
+sys_PMM0435,1,PMM0435,PMM0435:ndhB,other,False,,False,1,run_PMM0432,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0436,1,PMM0436,PMM0436:topA,other,False,,False,1,run_PMM0436,tcdb:3.A.7,tcdb_only,0
+sys_PMM0440,1,PMM0440,PMM0440:,substrate_binding,False,,False,1,run_PMM0436,,strong,1
+sys_PMM0444,3,PMM0444 | PMM0445 | PMM0446,PMM0444:ctaEI | PMM0445:ctaDI | PMM0446:ctaCI,other,False,tcdb_level3,False,1,run_PMM0441,tcdb:3.D.3 | tcdb:3.D.3.5 | tcdb:3.D.4.2 | tcdb:3.D.4.3 | tcdb:3.D.4.4 | tcdb:3.D.4.6 | tcdb:9.B.36,tcdb_only,0
+sys_PMM0447,1,PMM0447,PMM0447:ctaA,other,False,,False,1,run_PMM0447,tcdb:3.D.4.4 | tcdb:8.A.174,tcdb_only,0
+sys_PMM0449,2,PMM0449 | PMM0450,PMM0449:ccmA | PMM0450:ycf38,atpase|permease,False,role,False,1,run_PMM0447,tcdb:3.A.1,strong,1
+sys_PMM0452,1,PMM0452,PMM0452:groL2,other,False,,False,1,run_PMM0452,tcdb:3.A.33,tcdb_only,0
+sys_PMM0453,1,PMM0453,PMM0453:fabG,other,False,,False,1,run_PMM0452,tcdb:1.A.115,tcdb_only,0
+sys_PMM0454,1,PMM0454,PMM0454:ispD,other,False,,False,1,run_PMM0447,tcdb:8.A.191,none,0
+sys_PMM0460,1,PMM0460,PMM0460:lgt,other,False,,False,1,run_PMM0452,tcdb:9.B.330,none,0
+sys_PMM0461,2,PMM0461 | PMM0462,PMM0461:petA | PMM0462:petC,other,False,tcdb_level3,False,1,run_PMM0452,tcdb:3.D.3.5 | tcdb:3.E.2 | tcdb:5.A.3,tcdb_only,0
+sys_PMM0464,1,PMM0464,PMM0464:tatC,other,False,,False,1,run_PMM0452,tcdb:2.A.64,tcdb_only,0
+sys_PMM0469,1,PMM0469,PMM0469:psaF,other,False,,False,1,run_PMM0452,tcdb:5.B.4.1,none,0
+sys_PMM0472,1,PMM0472,PMM0472:nhaS,single_carrier,True,,False,1,run_PMM0470,tcdb:2.A.36,strong,0
+sys_PMM0482,1,PMM0482,PMM0482:phb,other,False,,False,1,run_PMM0477,tcdb:8.A.195 | tcdb:8.A.21,none,0
+sys_PMM0488,1,PMM0488,PMM0488:,other,False,,False,1,run_PMM0485,tcdb:4.D.2 | tcdb:9.B.227,none,0
+sys_PMM0489,3,PMM0489 | PMM0803 | PMM1164,PMM0489:futB | PMM0803:futC | PMM1164:idiA2,atpase|permease|substrate_binding,True,cross_locus,True,3,run_PMM0489|run_PMM0803|run_PMM1164,tcdb:3.A.1.10,strong,1
+sys_PMM0490,1,PMM0490,PMM0490:,other,False,,False,1,run_PMM0489,tcdb:9.B.10,none,0
+sys_PMM0497,1,PMM0497,PMM0497:priA,other,False,,False,1,run_PMM0497,tcdb:3.A.11,tcdb_only,0
+sys_PMM0513,1,PMM0513,PMM0513:lepB,other,False,,False,1,run_PMM0509,tcdb:9.B.391,none,0
+sys_PMM0516,1,PMM0516,PMM0516:,other,False,,False,1,run_PMM0516,tcdb:9.B.2,none,0
+sys_PMM0525,1,PMM0525,PMM0525:hemH,other,False,,False,1,run_PMM0525,,none,0
+sys_PMM0534,1,PMM0534,PMM0534:accA,other,False,,False,1,run_PMM0531,tcdb:3.B.1,tcdb_only,0
+sys_PMM0535,1,PMM0535,PMM0535:,other,False,,False,1,run_PMM0531,tcdb:1.A.115,tcdb_only,0
+sys_PMM0538,1,PMM0538,PMM0538:,other,False,,False,1,run_PMM0531,tcdb:3.A.1 | tcdb:9.B.149,tcdb_only,0
+sys_PMM0547,1,PMM0547,PMM0547:csoS1D,other,False,,False,1,run_PMM0547,tcdb:1.S.3.1,tcdb_only,0
+sys_PMM0549,1,PMM0549,PMM0549:csoS1A,other,False,,False,1,run_PMM0547,tcdb:1.S.1.1,tcdb_only,0
+sys_PMM0554,1,PMM0554,PMM0554:csoS4A,other,False,,False,1,run_PMM0547,tcdb:1.S.5,tcdb_only,0
+sys_PMM0555,1,PMM0555,PMM0555:csos4B,other,False,,False,1,run_PMM0547,tcdb:1.S.5,tcdb_only,0
+sys_PMM0561,1,PMM0561,PMM0561:,mixed,True,,False,1,run_PMM0560,tcdb:3.A.1.106.13 | tcdb:3.A.1.106.5,strong,0
+sys_PMM0563,1,PMM0563,PMM0563:,other,False,,False,1,run_PMM0563,tcdb:4.D.1,none,0
+sys_PMM0566,1,PMM0566,PMM0566:gst,other,False,,False,1,run_PMM0563,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,strong,0
+sys_PMM0567,1,PMM0567,PMM0567:gor,other,False,,False,1,run_PMM0565,tcdb:9.B.469,none,0
+sys_PMM0568,1,PMM0568,PMM0568:yrbG,single_carrier,True,,False,1,run_PMM0563,tcdb:2.A.19.5,strong,0
+sys_PMM0570,1,PMM0570,PMM0570:ndhL,other,False,,False,1,run_PMM0565,tcdb:3.D.1.8,tcdb_only,0
+sys_PMM0576,1,PMM0576,PMM0576:,other,False,,False,1,run_PMM0575,tcdb:9.B.143,none,0
+sys_PMM0580,1,PMM0580,PMM0580:clpB1,other,False,,False,1,run_PMM0575,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM0581,1,PMM0581,PMM0581:petE,other,False,,False,1,run_PMM0575,tcdb:3.D.3.5,tcdb_only,0
+sys_PMM0589,1,PMM0589,PMM0589:,other,False,,False,1,run_PMM0589,,none,0
+sys_PMM0594,1,PMM0594,PMM0594:ndhD2,other,False,,False,1,run_PMM0593,tcdb:2.A.63 | tcdb:3.D.1 | tcdb:3.D.13 | tcdb:3.D.9,tcdb_only,0
+sys_PMM0601,3,PMM0601 | PMM0602 | PMM0603,PMM0601:mntC | PMM0602:mntA | PMM0603:mntB,atpase|permease|substrate_binding,True,tcdb_level3,False,1,run_PMM0600,tcdb:3.A.1.15.1,strong,1
+sys_PMM0606,1,PMM0606,PMM0606:lepB,other,False,,False,1,run_PMM0605,tcdb:2.A.133 | tcdb:9.B.391,tcdb_only,0
+sys_PMM0618,1,PMM0618,PMM0618:sds,other,False,,False,1,run_PMM0614,tcdb:5.B.14,none,0
+sys_PMM0619,1,PMM0619,PMM0619:acs,other,False,,False,1,run_PMM0614,tcdb:2.A.1 | tcdb:4.C.1,tcdb_only,0
+sys_PMM0627,1,PMM0627,PMM0627:pcb,other,False,,False,1,run_PMM0614,tcdb:3.E.2.2,tcdb_only,0
+sys_PMM0628,1,PMM0628,PMM0628:gltS,single_carrier,True,,False,1,run_PMM0614,tcdb:2.A.27,strong,0
+sys_PMM0630,1,PMM0630,PMM0630:gst,other,False,,False,1,run_PMM0630,tcdb:1.A.12.2.2 | tcdb:1.A.12.3.2,strong,0
+sys_PMM0632,1,PMM0632,PMM0632:,other,False,,False,1,run_PMM0630,tcdb:1.A.115,tcdb_only,0
+sys_PMM0635,1,PMM0635,PMM0635:mscS,single_carrier,True,,False,1,run_PMM0630,tcdb:1.A.23.4,strong,0
+sys_PMM0644,1,PMM0644,PMM0644:sul1,single_carrier,True,,False,1,run_PMM0644,tcdb:2.A.53.3,strong,0
+sys_PMM0653,1,PMM0653,PMM0653:glx1,other,False,,False,1,run_PMM0648,tcdb:9.A.15,none,0
+sys_PMM0666,1,PMM0666,PMM0666:,atpase,False,,False,1,run_PMM0665,tcdb:3.A.1.25 | tcdb:3.A.1.28 | tcdb:3.A.1.29 | tcdb:3.A.1.30 | tcdb:3.A.1.31 | tcdb:3.A.1.32 | tcdb:3.A.1.33,strong,1
+sys_PMM0671,3,PMM0671 | PMM0672 | PMM0673,PMM0671:phnE | PMM0672:phnC | PMM0673:phnD,atpase|permease|substrate_binding,True,tcdb_level3,False,1,run_PMM0670,tcdb:3.A.1.9,strong,1
+sys_PMM0677,1,PMM0677,PMM0677:ctpA,other,False,,False,1,run_PMM0675,tcdb:9.B.174,none,0
+sys_PMM0694,1,PMM0694,PMM0694:,other,False,,False,1,run_PMM0694,tcdb:1.A.115,tcdb_only,0
+sys_PMM0704,1,PMM0704,PMM0704:,single_carrier,True,,False,1,run_PMM0699,tcdb:1.A.1.1 | tcdb:1.A.1.13 | tcdb:1.A.1.17 | tcdb:1.A.1.24 | tcdb:1.A.1.25 | tcdb:1.A.1.6 | tcdb:2.A.37 | tcdb:2.A.38,strong,0
+sys_PMM0705,1,PMM0705,PMM0705:phoB,other,False,,False,1,run_PMM0699,tcdb:2.A.130 | tcdb:3.E.1,tcdb_only,0
+sys_PMM0706,1,PMM0706,PMM0706:phoR,other,False,,False,1,run_PMM0699,tcdb:3.E.1 | tcdb:9.B.238 | tcdb:9.B.259 | tcdb:9.B.34,tcdb_only,0
+sys_PMM0709,1,PMM0709,PMM0709:som,single_carrier,True,,False,1,run_PMM0707,tcdb:1.B.14.1.14 | tcdb:1.B.23 | tcdb:3.A.23.1,strong,0
+sys_PMM0710,4,PMM0710 | PMM0723 | PMM0724 | PMM0725,PMM0710:pstS | PMM0723:pstC | PMM0724:pstA | PMM0725:pstB,atpase|permease|substrate_binding,True,cross_locus|tcdb_level3,True,2,run_PMM0710|run_PMM0721,tcdb:3.A.1.7,strong,2
+sys_PMM0711,1,PMM0711,PMM0711:chrA,single_carrier,True,,False,1,run_PMM0707,tcdb:2.A.51.1,strong,0
+sys_PMM0712,1,PMM0712,PMM0712:arsJ,single_carrier,True,,False,1,run_PMM0707,tcdb:2.A.1.83,strong,0
+sys_PMM0713,1,PMM0713,PMM0713:gap3,other,False,,False,1,run_PMM0707,tcdb:3.A.23,tcdb_only,0
+sys_PMM0714,1,PMM0714,PMM0714:arsR,other,False,,False,1,run_PMM0714,tcdb:9.B.333,none,0
+sys_PMM0716,1,PMM0716,PMM0716:arsB,single_carrier,True,,False,1,run_PMM0707,tcdb:2.A.59.1,strong,0
+sys_PMM0717,1,PMM0717,PMM0717:,permease,False,,False,1,run_PMM0707,tcdb:3.A.1.9,strong,1
+sys_PMM0742,1,PMM0742,PMM0742:clpP1,other,False,,False,1,run_PMM0738,tcdb:3.A.26.1,tcdb_only,0
+sys_PMM0743,1,PMM0743,PMM0743:ftsH2,other,False,,False,1,run_PMM1884,tcdb:3.A.16 | tcdb:3.A.29.1 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM0747,1,PMM0747,PMM0747:pcyA,other,False,,False,1,run_PMM0747,tcdb:3.A.9,tcdb_only,0
+sys_PMM0748,3,PMM0748 | PMM0749 | PMM0750,PMM0748:devB | PMM0749:devC | PMM0750:devA,atpase|other|permease,False,adjacent_abc|role,False,1,run_PMM0747,tcdb:3.A.1 | tcdb:3.A.1.114,strong,1
+sys_PMM0752,1,PMM0752,PMM0752:wcaA,other,False,,False,1,run_PMM0747,tcdb:4.D.1,none,0
+sys_PMM0754,1,PMM0754,PMM0754:tsf,other,False,,False,1,run_PMM0747,tcdb:2.A.7,tcdb_only,0
+sys_PMM0756,1,PMM0756,PMM0756:recG,other,False,,False,1,run_PMM0747,tcdb:3.A.11 | tcdb:3.A.18,tcdb_only,0
+sys_PMM0764,2,PMM0764 | PMM1386,PMM0764:lptB | PMM1386:lptG,atpase|permease,False,cross_locus,True,2,run_PMM0747|run_PMM1386,tcdb:1.B.42.1 | tcdb:3.A.1,strong,1
+sys_PMM0765,1,PMM0765,PMM0765:ccsA,other,False,,False,1,run_PMM0747,tcdb:9.B.14,none,0
+sys_PMM0778,1,PMM0778,PMM0778:cobW,other,False,,False,1,run_PMM0777,tcdb:9.B.10,none,0
+sys_PMM0784,1,PMM0784,PMM0784:accD,other,False,,False,1,run_PMM0781,tcdb:3.B.1,tcdb_only,0
+sys_PMM0798,1,PMM0798,PMM0798:pgsA,other,False,,False,1,run_PMM0781,tcdb:4.F.1,none,0
+sys_PMM0801,1,PMM0801,PMM0801:ycf39,other,False,,False,1,run_PMM0781,tcdb:3.A.9,tcdb_only,0
+sys_PMM0804,1,PMM0804,PMM0804:ftn,other,False,,False,1,run_PMM0803,tcdb:1.A.155,strong,0
+sys_PMM0807,1,PMM0807,PMM0807:modF,atpase,False,,False,1,run_PMM0805,tcdb:3.A.1.14,strong,1
+sys_PMM0827,1,PMM0827,PMM0827:mdlB,mixed,True,,False,1,run_PMM0821,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,strong,0
+sys_PMM0839,1,PMM0839,PMM0839:mfd,other,False,,False,1,run_PMM1899,tcdb:3.A.11,tcdb_only,0
+sys_PMM0840,1,PMM0840,PMM0840:terC,other,False,,False,1,run_PMM0840,tcdb:2.A.109,tcdb_only,0
+sys_PMM0848,1,PMM0848,PMM0848:,single_carrier,True,,False,1,run_PMM1899,tcdb:2.A.106,strong,0
+sys_PMM0849,1,PMM0849,PMM0849:,single_carrier,True,,False,1,run_PMM1899,tcdb:2.A.106,strong,0
+sys_PMM0854,1,PMM0854,PMM0854:ftsH3,other,False,,False,1,run_PMM0851,tcdb:3.A.16 | tcdb:3.A.20 | tcdb:3.A.25 | tcdb:3.A.29.1 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM0856,1,PMM0856,PMM0856:ahpC,other,False,,False,1,run_PMM0856,tcdb:8.A.147.1,none,0
+sys_PMM0873,1,PMM0873,PMM0873:,other,False,,False,1,run_PMM0873,tcdb:3.A.8,tcdb_only,0
+sys_PMM0894,1,PMM0894,PMM0894:ppiB,other,False,,False,1,run_PMM0873,tcdb:1.A.129.1 | tcdb:1.I.1.1 | tcdb:3.D.1.8,tcdb_only,0
+sys_PMM0896,1,PMM0896,PMM0896:dnaJ3,other,False,,False,1,run_PMM0873,tcdb:8.A.192,none,0
+sys_PMM0897,1,PMM0897,PMM0897:dnaK2,other,False,,False,1,run_PMM0873,tcdb:1.A.33.1 | tcdb:3.A.16.1 | tcdb:3.A.9.1 | tcdb:9.A.41.1 | tcdb:9.B.157 | tcdb:9.B.460,tcdb_only,0
+sys_PMM0898,1,PMM0898,PMM0898:petF,other,False,,False,1,run_PMM0898,tcdb:5.B.1,none,0
+sys_PMM0901,1,PMM0901,PMM0901:htpG,other,False,,False,1,run_PMM0898,tcdb:8.A.163,none,0
+sys_PMM0903,1,PMM0903,PMM0903:prxQ,other,False,,False,1,run_PMM0898,tcdb:8.A.147,none,0
+sys_PMM0910,1,PMM0910,PMM0910:ylmG1,other,False,,False,1,run_PMM0898,tcdb:9.A.4.2,none,0
+sys_PMM0913,1,PMM0913,PMM0913:salY,permease,False,,False,1,run_PMM0898,tcdb:3.A.1,strong,1
+sys_PMM0914,1,PMM0914,PMM0914:bioY,other,False,,False,1,run_PMM0898,tcdb:2.A.88.1 | tcdb:2.A.88.2,strong,0
+sys_PMM0915,1,PMM0915,PMM0915:ispA,other,False,,False,1,run_PMM0898,tcdb:9.B.105,none,0
+sys_PMM0918,1,PMM0918,PMM0918:cumB,other,False,,False,1,run_PMM0898,tcdb:9.B.317,none,0
+sys_PMM0927,1,PMM0927,PMM0927:perM,single_carrier,True,,False,1,run_PMM0925,tcdb:2.A.86,strong,0
+sys_PMM0928,2,PMM0928 | PMM0929,PMM0928:secF | PMM0929:secD,other,False,tcdb_level3,False,1,run_PMM0928,tcdb:2.A.6.4 | tcdb:3.A.5.2 | tcdb:3.A.5.7,tcdb_only,0
+sys_PMM0940,1,PMM0940,PMM0940:,single_carrier,True,,False,1,run_PMM0934,tcdb:2.A.7,strong,0
+sys_PMM0942,1,PMM0942,PMM0942:ruvA,other,False,,False,1,run_PMM0934,tcdb:3.A.11,tcdb_only,0
+sys_PMM0946,1,PMM0946,PMM0946:gatA,other,False,,False,1,run_PMM0945,tcdb:3.A.9,tcdb_only,0
+sys_PMM0954,1,PMM0954,PMM0954:,mixed,True,,False,1,run_PMM0954,tcdb:3.A.1.106.13 | tcdb:3.A.1.106.5,strong,0
+sys_PMM0970,5,PMM0970 | PMM0971 | PMM0972 | PMM0973 | PMM0974,PMM0970:urtA | PMM0971:urtB | PMM0972:urtC | PMM0973:urtD | PMM0974:urtE,atpase|permease|substrate_binding,True,tcdb_level3,False,1,run_PMM0967,tcdb:1.B.42 | tcdb:3.A.1.4.4 | tcdb:3.A.1.4.5,strong,2
+sys_PMM0976,3,PMM0976 | PMM0977 | PMM0978,PMM0976:evrA | PMM0977:evrB | PMM0978:evrC,atpase|permease,False,adjacent_abc|role,False,1,run_PMM1922,tcdb:2.A.130 | tcdb:3.A.1 | tcdb:3.A.1.141,strong,2
+sys_PMM0981,1,PMM0981,PMM0981:,single_carrier,True,,False,1,run_PMM0979,tcdb:2.A.102,strong,0
+sys_PMM1029,3,PMM1029 | PMM1031 | PMM1032,PMM1029: | PMM1031: | PMM1032:lraI,atpase|permease|substrate_binding,True,cross_locus|tcdb_level3,True,2,run_PMM1020|run_PMM1029,tcdb:3.A.1.15,strong,1
+sys_PMM1033,1,PMM1033,PMM1033:,other,False,,False,1,run_PMM1020,tcdb:9.B.10,none,0
+sys_PMM1046,1,PMM1046,PMM1046:,single_carrier,True,,False,1,run_PMM1043,,strong,0
+sys_PMM1061,1,PMM1061,PMM1061:trxA,other,False,,False,1,run_PMM1043,tcdb:3.A.26 | tcdb:3.D.3 | tcdb:8.A.88.2 | tcdb:9.B.438,tcdb_only,0
+sys_PMM1068,1,PMM1068,PMM1068:pgpH,other,False,,False,1,run_PMM1068,tcdb:9.B.28,none,0
+sys_PMM1070,1,PMM1070,PMM1070:crtE,other,False,,False,1,run_PMM1063,tcdb:5.B.14,none,0
+sys_PMM1071,1,PMM1071,PMM1071:,other,False,,False,1,run_PMM1063,tcdb:9.B.363.1,none,0
+sys_PMM1075,1,PMM1075,PMM1075:petH,other,False,,False,1,run_PMM1072,tcdb:3.D.5,tcdb_only,0
+sys_PMM1077,1,PMM1077,PMM1077:sasA,other,False,,False,1,run_PMM1072,tcdb:3.E.1 | tcdb:9.B.238 | tcdb:9.B.259 | tcdb:9.B.34,tcdb_only,0
+sys_PMM1085,1,PMM1085,PMM1085:cdsA,other,False,,False,1,run_PMM1084,tcdb:9.B.273,none,0
+sys_PMM1088,1,PMM1088,PMM1088:clpC,other,False,,False,1,run_PMM1086,tcdb:3.A.23 | tcdb:3.A.26 | tcdb:3.A.9.1.2,tcdb_only,0
+sys_PMM1099,1,PMM1099,PMM1099:,mixed,True,,False,1,run_PMM1096,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,strong,0
+sys_PMM1101,1,PMM1101,PMM1101:crhR,other,False,,False,1,run_PMM1096,tcdb:1.I.1 | tcdb:2.A.16 | tcdb:3.A.18 | tcdb:3.A.22,tcdb_only,0
+sys_PMM1102,1,PMM1102,PMM1102:recD,other,False,,False,1,run_PMM1096,tcdb:3.A.7,tcdb_only,0
+sys_PMM1113,1,PMM1113,PMM1113:,other,False,,False,1,run_PMM1108,tcdb:3.E.1,tcdb_only,0
+sys_PMM1119,1,PMM1119,PMM1119:som,single_carrier,True,,False,1,run_PMM1119,,strong,0
+sys_PMM1121,1,PMM1121,PMM1121:som,other,False,,False,1,run_PMM1119,,none,0
+sys_PMM1123,1,PMM1123,PMM1123:hupE,single_carrier,True,,False,1,run_PMM1954,tcdb:2.A.99,strong,0
+sys_PMM1126,1,PMM1126,PMM1126:,other,False,,False,1,run_PMM1126,tcdb:9.B.97,none,0
+sys_PMM1139,1,PMM1139,PMM1139:acrA,other,False,,False,1,run_PMM1964,tcdb:2.A.6 | tcdb:3.A.1 | tcdb:8.A.1,strong,0
+sys_PMM1145,1,PMM1145,PMM1145:pntB,other,False,,False,1,run_PMM1144,tcdb:3.D.2,tcdb_only,0
+sys_PMM1146,1,PMM1146,PMM1146:pntA2,other,False,,False,1,run_PMM1144,tcdb:3.D.2,tcdb_only,0
+sys_PMM1147,1,PMM1147,PMM1147:pntA1,other,False,,False,1,run_PMM1144,tcdb:3.D.2,tcdb_only,0
+sys_PMM1152,1,PMM1152,PMM1152:ycf39,other,False,,False,1,run_PMM1151,tcdb:9.B.365,none,0
+sys_PMM1157,1,PMM1157,PMM1157:psbD,other,False,,False,1,run_PMM1157,tcdb:3.E.2,tcdb_only,0
+sys_PMM1158,1,PMM1158,PMM1158:psbC,other,False,,False,1,run_PMM1157,tcdb:3.E.2.2,tcdb_only,0
+sys_PMM1173,1,PMM1173,PMM1173:,other,False,,False,1,run_PMM1172,tcdb:2.A.123.2 | tcdb:9.A.58,strong,0
+sys_PMM1175,1,PMM1175,PMM1175:,single_carrier,True,,False,1,run_PMM1172,tcdb:2.A.69,strong,0
+sys_PMM1177,1,PMM1177,PMM1177:,other,False,,False,1,run_PMM1177,tcdb:9.B.142,none,0
+sys_PMM1179,1,PMM1179,PMM1179:,single_carrier,True,,False,1,run_PMM1177,tcdb:2.A.7,strong,0
+sys_PMM1180,1,PMM1180,PMM1180:sppA,other,False,,False,1,run_PMM1180,tcdb:8.A.21.2,none,0
+sys_PMM1186,1,PMM1186,PMM1186:ALB3,other,False,,False,1,run_PMM1180,tcdb:2.A.9 | tcdb:3.A.5.4,tcdb_only,0
+sys_PMM1187,1,PMM1187,PMM1187:ycf46,other,False,,False,1,run_PMM1180,tcdb:3.A.16 | tcdb:3.A.20 | tcdb:3.A.25 | tcdb:3.A.29 | tcdb:3.A.9,tcdb_only,0
+sys_PMM1189,1,PMM1189,PMM1189:rseP,other,False,,False,1,run_PMM1180,tcdb:9.B.149,none,0
+sys_PMM1200,1,PMM1200,PMM1200:,other,False,,False,1,run_PMM1198,tcdb:4.D.1 | tcdb:4.D.2.1.9,none,0
+sys_PMM1201,1,PMM1201,PMM1201:rfbE,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1202,1,PMM1202,PMM1202:,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1203,1,PMM1203,PMM1203:rfbG,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1208,1,PMM1208,PMM1208:gmd,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1209,1,PMM1209,PMM1209:galE,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1210,1,PMM1210,PMM1210:,other,False,,False,1,run_PMM1198,tcdb:9.B.18,none,0
+sys_PMM1211,1,PMM1211,PMM1211:kpsD,other,False,,False,1,run_PMM1211,tcdb:1.B.18,strong,0
+sys_PMM1224,1,PMM1224,PMM1224:kpsD3,other,False,,False,1,run_PMM1224,tcdb:1.B.18,strong,0
+sys_PMM1225,1,PMM1225,PMM1225:wzc,other,False,,False,1,run_PMM1225,tcdb:8.A.3,none,0
+sys_PMM1226,1,PMM1226,PMM1226:,other,False,,False,1,run_PMM1224,tcdb:9.B.183,none,0
+sys_PMM1227,1,PMM1227,PMM1227:rfe,other,False,,False,1,run_PMM1224,tcdb:9.B.146,none,0
+sys_PMM1239,1,PMM1239,PMM1239:hetA,mixed,True,,False,1,run_PMM1228,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,strong,0
+sys_PMM1254,1,PMM1254,PMM1254:,other,False,,False,1,run_PMM1254,tcdb:9.B.27,none,0
+sys_PMM1256,1,PMM1256,PMM1256:wcaA,other,False,,False,1,run_PMM1256,tcdb:4.D.1.3,none,0
+sys_PMM1260,1,PMM1260,PMM1260:uxs,other,False,,False,1,run_PMM1258,tcdb:9.B.18,none,0
+sys_PMM1264,1,PMM1264,PMM1264:ftsH4,other,False,,False,1,run_PMM1262,tcdb:3.A.25 | tcdb:3.A.29.1 | tcdb:3.A.9.1,tcdb_only,0
+sys_PMM1272,1,PMM1272,PMM1272:,other,False,,False,1,run_PMM1262,tcdb:3.A.9,tcdb_only,0
+sys_PMM1281,1,PMM1281,PMM1281:era,other,False,,False,1,run_PMM1278,tcdb:9.A.8,none,0
+sys_PMM1283,1,PMM1283,PMM1283:,other,False,,False,1,run_PMM1278,tcdb:1.A.14,tcdb_only,0
+sys_PMM1284,1,PMM1284,PMM1284:phoH,other,False,,False,1,run_PMM1278,tcdb:3.A.23.6 | tcdb:3.A.7,tcdb_only,0
+sys_PMM1286,1,PMM1286,PMM1286:ffh,other,False,,False,1,run_PMM1278,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.7 | tcdb:3.A.5.8 | tcdb:3.A.5.9 | tcdb:9.B.76.1,tcdb_only,0
+sys_PMM1293,1,PMM1293,PMM1293:fkpA,other,False,,False,1,run_PMM1291,tcdb:8.A.11,none,0
+sys_PMM1295,1,PMM1295,PMM1295:sodX,other,False,,False,1,run_PMM1291,tcdb:3.A.1.106 | tcdb:3.A.1.109 | tcdb:3.A.1.21,strong,0
+sys_PMM1301,1,PMM1301,PMM1301:argD,other,False,,False,1,run_PMM1301,tcdb:9.B.313,none,0
+sys_PMM1313,1,PMM1313,PMM1313:clpP4,other,False,,False,1,run_PMM1305,tcdb:3.A.26,tcdb_only,0
+sys_PMM1314,1,PMM1314,PMM1314:clpP3,other,False,,False,1,run_PMM1305,tcdb:3.A.26.1,tcdb_only,0
+sys_PMM1316,1,PMM1316,PMM1316:cobD,other,False,,False,1,run_PMM1305,tcdb:9.B.125,none,0
+sys_PMM1323,1,PMM1323,PMM1323:glcH,single_carrier,True,,False,1,run_PMM1322,tcdb:2.A.2,strong,0
+sys_PMM1327,1,PMM1327,PMM1327:plsY,other,False,,False,1,run_PMM1322,tcdb:9.B.31,none,0
+sys_PMM1338,1,PMM1338,PMM1338:bamA,other,False,,False,1,run_PMM1333,tcdb:1.B.33,strong,0
+sys_PMM1341,1,PMM1341,PMM1341:nblS,other,False,,False,1,run_PMM1340,tcdb:9.B.238.3 | tcdb:9.B.334,none,0
+sys_PMM1352,1,PMM1352,PMM1352:petF,other,False,,False,1,run_PMM1351,tcdb:5.B.1.3,none,0
+sys_PMM1361,1,PMM1361,PMM1361:,other,False,,False,1,run_PMM1361,tcdb:1.A.115,tcdb_only,0
+sys_PMM1371,1,PMM1371,PMM1371:,single_carrier,True,,False,1,run_PMM1371,tcdb:2.A.7,strong,0
+sys_PMM1373,1,PMM1373,PMM1373:,other,False,,False,1,run_PMM1985,tcdb:9.B.124,none,0
+sys_PMM1376,1,PMM1376,PMM1376:rbpD,other,False,,False,1,run_PMM1985,tcdb:3.A.18 | tcdb:9.A.60,tcdb_only,0
+sys_PMM1378,1,PMM1378,PMM1378:desA3,other,False,,False,1,run_PMM1985,tcdb:9.A.76,none,0
+sys_PMM1382,1,PMM1382,PMM1382:desA2,other,False,,False,1,run_PMM1985,tcdb:9.A.76.1,none,0
+sys_PMM1418,1,PMM1418,PMM1418:,other,False,,False,1,run_PMM1416,tcdb:3.A.23.1,tcdb_only,0
+sys_PMM1432,1,PMM1432,PMM1432:dnaK1,other,False,,False,1,run_PMM1432,tcdb:1.A.33 | tcdb:3.A.16 | tcdb:3.A.9 | tcdb:9.A.41,tcdb_only,0
+sys_PMM1435,1,PMM1435,PMM1435:secG,other,False,,False,1,run_PMM1432,tcdb:3.A.5.1 | tcdb:3.A.5.2 | tcdb:3.A.5.4,tcdb_only,0
+sys_PMM1438,2,PMM1438 | PMM1439,PMM1438:atpB | PMM1439:atpE,other,False,tcdb_level3,False,1,run_PMM1438,tcdb:3.A.2.1 | tcdb:3.A.6,tcdb_only,0
+sys_PMM1443,1,PMM1443,PMM1443:,other,False,,False,1,run_PMM1443,tcdb:1.A.112 | tcdb:1.C.126,tcdb_only,0
+sys_PMM1449,1,PMM1449,PMM1449:petF,other,False,,False,1,run_PMM1447,tcdb:5.B.1,none,0
+sys_PMM1450,8,PMM1450 | PMM1451 | PMM1452 | PMM1453 | PMM1454 | PMM1455 | PMM1456 | PMM1457,PMM1450:atpC | PMM1451:atpA | PMM1452:atpD | PMM1453:atpF | PMM1454:atpG | PMM1455:atpH | PMM1456:atpI | PMM1457:atp1,other,False,tcdb_level3,False,1,run_PMM1447,tcdb:1.A.77 | tcdb:2.A.91.1 | tcdb:3.A.2.1 | tcdb:3.A.6,tcdb_only,0
+sys_PMM1458,1,PMM1458,PMM1458:ftsW,other,False,,False,1,run_PMM1458,tcdb:2.A.103.1,strong,0
+sys_PMM1459,1,PMM1459,PMM1459:ccsC1,other,False,,False,1,run_PMM1458,tcdb:2.A.131 | tcdb:5.A.1.2,strong,0
+sys_PMM1464,1,PMM1464,PMM1464:tly,other,False,,False,1,run_PMM1464,tcdb:1.C.109.1,tcdb_only,0
+sys_PMM1474,1,PMM1474,PMM1474:dnaJ5,other,False,,False,1,run_PMM1473,tcdb:1.P.1 | tcdb:3.A.16 | tcdb:3.A.30 | tcdb:8.A.192 | tcdb:9.B.440,tcdb_only,0
+sys_PMM1486,1,PMM1486,PMM1486:tatD,other,False,,False,1,run_PMM1473,tcdb:3.A.16,tcdb_only,0
+sys_PMM1490,1,PMM1490,PMM1490:deg1,other,False,,False,1,run_PMM1473,tcdb:2.A.102 | tcdb:8.A.217 | tcdb:9.B.160,tcdb_only,0
+sys_PMM1497,1,PMM1497,PMM1497:wcaA,other,False,,False,1,run_PMM1491,tcdb:4.D.2,none,0
+sys_PMM1506,1,PMM1506,PMM1506:lon,other,False,,False,1,run_PMM1503,tcdb:8.A.162 | tcdb:9.B.418,none,0
+sys_PMM1515,1,PMM1515,PMM1515:,other,False,,False,1,run_PMM1512,tcdb:3.A.7,tcdb_only,0
+sys_PMM1518,1,PMM1518,PMM1518:spr,other,False,,False,1,run_PMM1512,tcdb:3.A.7,tcdb_only,0
+sys_PMM1519,3,PMM1519 | PMM1523 | PMM1524,PMM1519:psaL | PMM1523:psaB | PMM1524:psaA,other,False,tcdb_level3,False,1,run_PMM1517,tcdb:5.B.4.1,none,0
+sys_PMM1522,1,PMM1522,PMM1522:,other,False,,False,1,run_PMM1517,tcdb:2.A.127 | tcdb:4.D.1 | tcdb:4.D.2 | tcdb:9.B.27,tcdb_only,0
+sys_PMM1540,1,PMM1540,PMM1540:secY,other,False,,False,1,run_PMM1527,tcdb:3.A.5,tcdb_only,0
+sys_PMM1559,1,PMM1559,PMM1559:ndhN,other,False,,False,1,run_PMM1559,tcdb:3.D.1,tcdb_only,0
+sys_PMM1568,1,PMM1568,PMM1568:,other,False,,False,1,run_PMM1563,tcdb:8.A.155,none,0
+sys_PMM1569,1,PMM1569,PMM1569:moeB,other,False,,False,1,run_PMM1565,tcdb:3.A.16 | tcdb:3.A.25,tcdb_only,0
+sys_PMM1578,1,PMM1578,PMM1578:psaD,other,False,,False,1,run_PMM1563,tcdb:5.B.4.1,none,0
+sys_PMM1580,1,PMM1580,PMM1580:mrdB,other,False,,False,1,run_PMM1563,tcdb:2.A.103,tcdb_only,0
+sys_PMM1581,1,PMM1581,PMM1581:abpC,other,False,,False,1,run_PMM1563,tcdb:3.A.1 | tcdb:8.A.3,tcdb_only,0
+sys_PMM1589,1,PMM1589,PMM1589:purM,other,False,,False,1,run_PMM1563,tcdb:8.A.159,none,0
+sys_PMM1594,1,PMM1594,PMM1594:ho1,other,False,,False,1,run_PMM1563,tcdb:8.A.252.1,none,0
+sys_PMM1600,1,PMM1600,PMM1600:nhaS,single_carrier,True,,False,1,run_PMM1563,tcdb:2.A.37,strong,0
+sys_PMM1604,1,PMM1604,PMM1604:ndhS,other,False,,False,1,run_PMM1604,tcdb:3.D.1.8,tcdb_only,0
+sys_PMM1607,1,PMM1607,PMM1607:psaC,other,False,,False,1,run_PMM1604,tcdb:5.B.4.1,none,0
+sys_PMM1608,1,PMM1608,PMM1608:acpP,other,False,,False,1,run_PMM1608,tcdb:3.A.9.1 | tcdb:3.D.1.6,tcdb_only,0
+sys_PMM1609,1,PMM1609,PMM1609:fabF,other,False,,False,1,run_PMM1608,tcdb:4.C.1,none,0
+sys_PMM1615,1,PMM1615,PMM1615:ruvB,other,False,,False,1,run_PMM1611,tcdb:3.A.31,tcdb_only,0
+sys_PMM1618,1,PMM1618,PMM1618:lysS,other,False,,False,1,run_PMM1611,tcdb:4.H.1.1,none,0
+sys_PMM1619,1,PMM1619,PMM1619:srrA,other,False,,False,1,run_PMM1611,tcdb:3.E.1,tcdb_only,0
+sys_PMM1621,2,PMM1621 | PMM1622,PMM1621:mreC | PMM1622:mreB,other,False,tcdb_level3,False,1,run_PMM1611,tcdb:1.A.33.1 | tcdb:3.A.9 | tcdb:9.A.41 | tcdb:9.B.157.1 | tcdb:9.B.460,none|tcdb_only,0
+sys_PMM1623,1,PMM1623,PMM1623:ssb,other,False,,False,1,run_PMM1623,tcdb:3.A.7,tcdb_only,0
+sys_PMM1624,1,PMM1624,PMM1624:dedA2,other,False,,False,1,run_PMM1611,tcdb:9.B.27 | tcdb:9.B.321,none,0
+sys_PMM1625,1,PMM1625,PMM1625:ahcY,other,False,,False,1,run_PMM1611,tcdb:8.A.151.1,none,0
+sys_PMM1630,1,PMM1630,PMM1630:mgtE,single_carrier,True,,False,1,run_PMM1611,tcdb:1.A.26.1 | tcdb:3.A.1,strong,0
+sys_PMM1631,2,PMM1631 | PMM1632,PMM1631: | PMM1632:crcB1,other,False,tcdb_level3,False,1,run_PMM1611,tcdb:1.A.43.1 | tcdb:1.A.43.2 | tcdb:1.A.43.3,strong,0
+sys_PMM1639,1,PMM1639,PMM1639:secA,other,False,,False,1,run_PMM1639,tcdb:3.A.5.1 | tcdb:3.A.5.10 | tcdb:3.A.5.2 | tcdb:3.A.5.4,tcdb_only,0
+sys_PMM1656,1,PMM1656,PMM1656:clpP2,other,False,,False,1,run_PMM1655,tcdb:3.A.26.1 | tcdb:8.A.21,tcdb_only,0
+sys_PMM1657,1,PMM1657,PMM1657:clpX,other,False,,False,1,run_PMM1655,tcdb:3.A.31,tcdb_only,0
+sys_PMM1659,1,PMM1659,PMM1659:mgdA,other,False,,False,1,run_PMM1659,tcdb:4.D.1 | tcdb:4.D.3,none,0
+sys_PMM1670,1,PMM1670,PMM1670:metC,other,False,,False,1,run_PMM1667,,none,0
+sys_PMM1681,1,PMM1681,PMM1681:,other,False,,False,1,run_PMM1681,tcdb:9.B.27,none,0
+sys_PMM1685,1,PMM1685,PMM1685:speE,other,False,,False,1,run_PMM1684,tcdb:2.A.1,tcdb_only,0
+sys_PMM1688,1,PMM1688,PMM1688:aspS,other,False,,False,1,run_PMM1684,tcdb:4.H.1,none,0
+sys_PMM1695,1,PMM1695,PMM1695:,single_carrier,True,,False,1,run_PMM1684,tcdb:2.A.1.2.38 | tcdb:2.A.1.2.39 | tcdb:2.A.1.2.4 | tcdb:2.A.1.2.41 | tcdb:2.A.1.2.68 | tcdb:2.A.1.2.75,strong,0
+sys_PMM1698,1,PMM1698,PMM1698:VTE5,other,False,,False,1,run_PMM1684,tcdb:9.B.405,none,0
+sys_PMM1701,1,PMM1701,PMM1701:clc2,single_carrier,True,,False,1,run_PMM1684,tcdb:2.A.49,strong,0
+sys_PMM1704,1,PMM1704,PMM1704:dnaK3,other,False,,False,1,run_PMM1702,tcdb:1.A.33.1 | tcdb:3.A.16.1 | tcdb:3.A.9.1 | tcdb:9.A.41.1 | tcdb:9.B.157,tcdb_only,0
+sys_PMM1709,1,PMM1709,PMM1709:mraY,other,False,,False,1,run_PMM1684,tcdb:9.B.146,none,0
+sys_PMM1712,1,PMM1712,PMM1712:uvrA,atpase,False,,False,1,run_PMM1711,tcdb:3.A.1,strong,1

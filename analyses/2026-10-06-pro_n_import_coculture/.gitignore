@@ -1,3 +1,14 @@
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
 __pycache__/
+
+# Methods milestone: large outputs reproducible from the KG with
+#   .venv/Scripts/python.exe analyses/2026-10-06-pro_n_import_coculture/methods/scripts/run_pipeline.py --organism "<strain>" --out-dir analyses/2026-10-06-pro_n_import_coculture/methods/data/<tag>
+# (~70 s per strain; module v1.4.0). Version-to-version diffs are tracked as the p7/p9/p13/p14/p15 reports.
+methods/data/*_archive/
+methods/data/*/raw/
+methods/data/*/*_system_substrates_full.csv
+methods/data/*/*_system_substrates_flagged.csv
+methods/data/*/*_system_substrates_annotated.csv
+methods/data/*/*_system_substrates_classified.csv
+

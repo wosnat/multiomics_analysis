@@ -1,0 +1,5 @@
+q_role_name_contains,allowed_classes
+"amino acids, peptides and amines",amines|amino acids|peptides|polyamines
+"nucleosides, purines and pyrimidines",nucleobases/nucleosides
+cations and iron carrying compounds,siderophore
+anions,cyanate|nitrate|nitrite

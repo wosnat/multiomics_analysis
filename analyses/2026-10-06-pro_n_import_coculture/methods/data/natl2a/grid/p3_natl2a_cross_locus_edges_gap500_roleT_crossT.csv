@@ -1,0 +1,10 @@
+a,b,label,shared,system_id
+PMN2A_0211,PMN2A_0774,cross_locus,tcdb:3.A.1.10,sys_PMN2A_0211
+PMN2A_0211,PMN2A_1822,cross_locus,tcdb:3.A.1.10,sys_PMN2A_0211
+PMN2A_0309,PMN2A_0441,cross_locus,tcdb:3.A.1.7,sys_PMN2A_0309
+PMN2A_0704,PMN2A_1559,cross_locus,tcdb:3.A.1.5,sys_PMN2A_0704
+PMN2A_0704,PMN2A_1755,cross_locus,tcdb:3.A.1.5,sys_PMN2A_0704
+PMN2A_0774,PMN2A_1822,cross_locus,tcdb:3.A.1.10,sys_PMN2A_0211
+PMN2A_0895,PMN2A_1655,cross_locus,tcdb:3.A.1.27,sys_PMN2A_0895
+PMN2A_1032,PMN2A_1035,cross_locus,tcdb:3.A.1.15,sys_PMN2A_1032
+PMN2A_1559,PMN2A_1755,cross_locus,tcdb:3.A.1.5,sys_PMN2A_0704

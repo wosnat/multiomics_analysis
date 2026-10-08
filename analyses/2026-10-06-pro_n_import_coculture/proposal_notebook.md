@@ -138,7 +138,10 @@ experiments, 49 papers, 48 organisms.
      evidence_sources=['transport'])` gives 510 N-metabolites for MED4 and
      508-510 for every listed organism (ABC-superfamily inheritance).
    - BRITE transporters tree, MED4: 57 genes in 23 level-2 terms, all
-     `family_inferred` via eggNOG.
+     `family_inferred` via eggNOG. **Correction (2026-10-07, methods pilot step 1):** this
+     call used `genes_by_ontology`'s default `min_gene_set_size=5`, which silently drops small
+     terms. With `min_gene_set_size=1, max_gene_set_size=None` the BRITE transporters tree holds
+     **86** MED4 genes (87 rows). The 57 was an artefact of the default.
 
 9. **The anchor paper's stated mechanism** (`list_publications`, 10.1101/2025.11.24.690089
    abstract) `[KG]`: Alteromonas "functions as a key nitrogen recycler, providing a

@@ -1,0 +1,12 @@
+strain,compound_class,member,expected,observed,system_id,basis_detail,matches
+med4,ammonium,amt1,dedicated,dedicated,sys_PMM0263,gene name amt1; product 'ammonium transporter',True
+med4,ammonium,ktrA,broad listing,broad listing,sys_PMM0084,none,True
+med4,ammonium,nhaS,broad listing,broad listing,sys_PMM1600,none,True
+med4,amino acids,sul1,broad listing,broad listing,sys_PMM0644,none,True
+med4,amino acids,sul3,broad listing,broad listing,sys_PMM0214,none,True
+med4,nitrate,sul1,broad listing,broad listing,sys_PMM0644,none,True
+med4,nitrate,sul3,broad listing,broad listing,sys_PMM0214,none,True
+med4,peptides,dppA,dedicated,dedicated,sys_PMM0192,"product 'peptide/nickel ABC transport system, ATP-binding component'; gene name dppC; product 'ABC-type oligopeptide transporter, membrane component'; gene name dppB; product 'oligopeptide ABC transporter, membrane component'; gene name dppA; product 'peptide/nickel transport system substrate-binding protein'; Cyanorak Q.1",True
+med4,urea,urtA,dedicated,dedicated,sys_PMM0970,"gene name urtA; product 'ABC-type urea transporter, substrate binding component'; gene name urtB; product 'ABC-type urea transporter, permease component'; gene name urtC; product 'ABC-type urea transporter, membrane component'; gene name urtD; product 'ABC-type urea transporter, ATP-binding component UrtD'; gene name urtE; product 'ABC-type urea transporter, ATPase component UrtE'",True
+med4,urea,putP,broad listing,pair not present,,,
+med4,urea,PMN2A_RS08290,broad listing,pair not present,,,

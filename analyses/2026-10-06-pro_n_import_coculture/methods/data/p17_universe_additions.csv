@@ -1,0 +1,27 @@
+strain,locus_tag,gene_name,product,src_tcdb,src_brite,src_pfam_role,src_cyanorak_q,cyanorak_q_roles,gene_role,likely_transporter,likely_transporter_basis,tcdb_ids,system_id,system_members,tier,tier_reason
+med4,PMM0078,,putative 4^-phosphopantetheinyl transferase family domain protein,False,False,False,True,cyanorak.role:Q.9,other,none,cyanorak,,sys_PMM0078,PMM0078:,not_transporter,no member is strong or tcdb_only
+med4,PMM0142,,RNA-binding protein,False,False,False,True,cyanorak.role:Q.5,other,none,cyanorak,,sys_PMM0142,PMM0142:,not_transporter,no member is strong or tcdb_only
+med4,PMM0430,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",False,False,False,True,cyanorak.role:Q.1,other,none,cyanorak,,sys_PMM0430,PMM0430:hisF,not_transporter,no member is strong or tcdb_only
+med4,PMM0525,hemH,ferrochelatase,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMM0525,PMM0525:hemH,not_transporter,no member is strong or tcdb_only
+med4,PMM1121,som,outer membrane porin,False,False,False,True,cyanorak.role:Q.6,other,none,cyanorak,,sys_PMM1121,PMM1121:som,not_transporter,no member is strong or tcdb_only
+med4,PMM1670,metC,cystathionine beta-lyase family aluminum resistance protein,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMM1670,PMM1670:metC,not_transporter,no member is strong or tcdb_only
+mit9313,PMT0274,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",False,False,False,True,cyanorak.role:Q.1,other,none,cyanorak,,sys_PMT0274,PMT0274:hisF,not_transporter,no member is strong or tcdb_only
+mit9313,PMT0286,piuC,iron-uptake factor PiuC,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMT0286,PMT0286:piuC,not_transporter,no member is strong or tcdb_only
+mit9313,PMT0412,bcsA,putative chalcone/stilbene synthase,False,False,False,True,cyanorak.role:Q.7,other,none,cyanorak,,sys_PMT0412,PMT0412:bcsA,not_transporter,no member is strong or tcdb_only
+mit9313,PMT0742,,FAD dependent oxidoreductase,False,False,False,True,cyanorak.role:Q.9,other,none,cyanorak,,sys_PMT0742,PMT0742:,not_transporter,no member is strong or tcdb_only
+mit9313,PMT1240,hemH,ferrochelatase,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMT1240,PMT1240:hemH,not_transporter,no member is strong or tcdb_only
+mit9313,PMT1621,,putative 4^-phosphopantetheinyl transferase family domain protein,False,False,False,True,cyanorak.role:Q.9,other,none,cyanorak,,sys_PMT1621,PMT1621:,not_transporter,no member is strong or tcdb_only
+mit9313,PMT1814,,creatinine amidohydrolase family protein,False,False,False,True,cyanorak.role:Q.9,other,none,cyanorak,,sys_PMT1814,PMT1814:,not_transporter,no member is strong or tcdb_only
+mit9313,PMT2002,,RNA-binding protein,False,False,False,True,cyanorak.role:Q.5,other,none,cyanorak,,sys_PMT2002,PMT2002:,not_transporter,no member is strong or tcdb_only
+mit9313,PMT2171,metC,cystathionine beta-lyase family aluminum resistance protein,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMT2171,PMT2171:metC,not_transporter,no member is strong or tcdb_only
+mit9313,PMT2207,,permease,False,False,False,True,cyanorak.role:Q.9,permease,strong,pfam|cyanorak,,sys_PMT2207,PMT2207:,Medium,"strong, role-incomplete"
+mit9313,PMT_2765,comA,competence protein,False,False,False,True,cyanorak.role:Q.5,other,none,cyanorak,,sys_PMT_2765,PMT_2765:comA,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_0212,ftn,ferritin,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMN2A_0212,PMN2A_0212:ftn,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_0440,PMN2A_RS05215,outer membrane porin,False,False,False,True,cyanorak.role:Q.6,other,none,cyanorak,,sys_PMN2A_0440,PMN2A_0440:PMN2A_RS05215,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_0775,piuC,iron-uptake factor PiuC,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMN2A_0775,PMN2A_0775:piuC,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_1269,metC,cystathionine beta-lyase family aluminum resistance protein,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMN2A_1269,PMN2A_1269:metC,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_1442,PMN2A_RS00600,putative 4^-phosphopantetheinyl transferase family domain protein,False,False,False,True,cyanorak.role:Q.9,other,none,cyanorak,,sys_PMN2A_1442,PMN2A_1442:PMN2A_RS00600,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_1508,PMN2A_RS00940,RNA-binding protein,False,False,False,True,cyanorak.role:Q.5,other,none,cyanorak,,sys_PMN2A_1508,PMN2A_1508:PMN2A_RS00940,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_1761,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",False,False,False,True,cyanorak.role:Q.1,other,none,cyanorak,,sys_PMN2A_1761,PMN2A_1761:hisF,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_1857,hemH,ferrochelatase,False,False,False,True,cyanorak.role:Q.4,other,none,cyanorak,,sys_PMN2A_1857,PMN2A_1857:hemH,not_transporter,no member is strong or tcdb_only
+natl2a,PMN2A_2187,,voltage-gated CLC-type chloride channel protein,False,False,False,True,cyanorak.role:Q.2,single_carrier,strong,pfam|cyanorak,,sys_PMN2A_2187,PMN2A_2187:,Medium,"strong, complete, no TCDB resolution"

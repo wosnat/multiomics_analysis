@@ -1,0 +1,6 @@
+strain,system_id,member_names,members,n_genes,joined_by,tier,tier_reason,v14_systems,v14_members,v14_tiers
+med4,sys_PMM0748,PMM0748:devB|PMM0749:devC|PMM0750:devA,PMM0748|PMM0749|PMM0750,3,adjacent_abc|role,Medium,"strong, role-incomplete (mixed member resolutions)",sys_PMM0748|sys_PMM0749,PMM0748:devB || PMM0749:devC|PMM0750:devA,Low|Medium
+med4,sys_PMM0976,PMM0976:evrA|PMM0977:evrB|PMM0978:evrC,PMM0976|PMM0977|PMM0978,3,adjacent_abc|role,Medium,"strong, role-incomplete (mixed member resolutions)",sys_PMM0976|sys_PMM0978,PMM0976:evrA|PMM0977:evrB || PMM0978:evrC,Medium|Medium
+mit9313,sys_PMT0587,PMT0587:devA|PMT0588:devC|PMT0589:devB,PMT0587|PMT0588|PMT0589,3,adjacent_abc|role,Medium,"strong, role-incomplete (mixed member resolutions)",sys_PMT0587|sys_PMT0589,PMT0587:devA|PMT0588:devC || PMT0589:devB,Medium|Medium
+mit9313,sys_PMT1573,PMT1573:|PMT1574:|PMT1575:,PMT1573|PMT1574|PMT1575,3,adjacent_abc,Medium,"strong, role-incomplete (mixed member resolutions)",sys_PMT1573|sys_PMT1574|sys_PMT1575,PMT1573: || PMT1574: || PMT1575:,Medium|Low|Low
+natl2a,sys_PMN2A_0152,PMN2A_0152:devB|PMN2A_0153:devC|PMN2A_0154:devA,PMN2A_0152|PMN2A_0153|PMN2A_0154,3,adjacent_abc|role,Medium,"strong, role-incomplete (mixed member resolutions)",sys_PMN2A_0152|sys_PMN2A_0153,PMN2A_0152:devB || PMN2A_0153:devC|PMN2A_0154:devA,Medium|Medium

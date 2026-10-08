@@ -1,0 +1,17 @@
+metabolite_id,name,kegg_compound_id,chebi_id,mnxm_id,inchikey,name_norm,formula,elements,n_status,evidence_sources,equiv_group,link_basis,equiv_group_size
+chebi:13677,protein,,13677,MNXM733328,,protein,,,no_formula,transport,chebi:13677,name_soft,2
+kegg.compound:C00017,Protein,C00017,,MNXM733321,,protein,C4H6N2O3*2,C | H | N | O,contains_N,metabolism,chebi:13677,name_soft,2
+chebi:13727,acyl-CoA,,13727,MNXM729255,,acyl-coa,C22H35N7O17P3S*,C | H | N | O | P | S,contains_N,transport,chebi:13727,name_soft,2
+kegg.compound:C00040,Acyl-CoA,C00040,,MNXM729259,,acyl-coa,C22H35N7O17P3S*,C | H | N | O | P | S,contains_N,metabolism,chebi:13727,name_soft,2
+chebi:13815,amino acid,,13815,MNXM735850,,amino acid,,,no_formula,transport,chebi:13815,name_soft,2
+kegg.compound:C00045,Amino acid,C00045,,MNXM735845,,amino acid,C2H4NO2*,C | H | N | O,contains_N,metabolism,chebi:13815,name_soft,2
+chebi:13962,chitin,,13962,MNXM727697,OVRNDRQMDRJTHS-FMDGEEDCSA-N,chitin,C8H15NO6,C | H | N | O,contains_N,transport,chebi:13962,name_soft,2
+kegg.compound:C00461,Chitin,C00461,,MNXM727699,,chitin,C8H13NO5*2,C | H | N | O,contains_N,metabolism,chebi:13962,name_soft,2
+chebi:14386,heme,,14386,MNXM526203,,heme,,,no_formula,transport,chebi:14386,name_soft,2
+kegg.compound:C00032,Heme,C00032,14957,MNXM249,KABFMIBPWCXCRK-RGGAHWMASA-J,heme,C34H30FeN4O4,C | Fe | H | N | O,contains_N,metabolism | transport,chebi:14386,name_soft,2
+chebi:14654,nitrate,,14654,MNXM732398,NHNBFGGVMKEFGY-UHFFFAOYSA-N,nitrate,NO3,N | O,contains_N,transport,chebi:14654,name_soft,2
+kegg.compound:C00244,Nitrate,C00244,25545,MNXM732399,GRYLNZFGIOXLOG-UHFFFAOYSA-N,nitrate,HNO3,H | N | O,contains_N,metabolism | transport,chebi:14654,name_soft,2
+chebi:14753,peptide,,14753,MNXM729063,,peptide,C4H5N2O2*3,C | H | N | O,contains_N,transport,chebi:14753,name_soft,2
+kegg.compound:C00012,Peptide,C00012,,MNXM729064,,peptide,C4H6N2O3*2,C | H | N | O,contains_N,metabolism,chebi:14753,name_soft,2
+chebi:35584,purine,,35584,MNXM1102328,,purine,,,no_formula,transport,chebi:35584,name_soft,2
+kegg.compound:C15587,Purine,C15587,14968,MNXM1102325,KDCGOANMDULRCW-UHFFFAOYSA-N,purine,C5H4N4,C | H | N,contains_N,metabolism | transport,chebi:35584,name_soft,2

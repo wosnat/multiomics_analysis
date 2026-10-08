@@ -1,0 +1,46 @@
+strain,locus_tag,gene_name,product,likely_transporter_old,likely_transporter_new,basis_new,cyanorak_q_roles,non_transporter_word_in_product
+med4,PMM0097,tolC,"TolC-like outer membrane efflux protein, RND family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+med4,PMM0131,zntA,copper-translocating P-type ATPase,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+med4,PMM0748,devB,"ABC exporter membrane fusion, DevB family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.7,False
+med4,PMM0804,ftn,ferritin,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+med4,PMM1139,acrA,"RND efflux pump, MFP subunit, HlyD family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+med4,PMM0078,,putative 4^-phosphopantetheinyl transferase family domain protein,none,strong,neighbour (non-universe),,False
+med4,PMM0142,,RNA-binding protein,none,strong,neighbour (non-universe),,False
+med4,PMM0430,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",none,strong,neighbour (non-universe),,False
+med4,PMM1121,som,outer membrane porin,none,strong,neighbour (non-universe),,False
+mit9313,PMT0129,,"RND family multidrug efflux transporter, MMPL family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.7,False
+mit9313,PMT0130,,"efflux transporter, RND family, MFP subunit",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+mit9313,PMT0174,,"multidrug efflux transporter, MFS family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+mit9313,PMT0182,tolC,"TolC-like outer membrane efflux protein, RND family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+mit9313,PMT0495,ftn,ferritin,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+mit9313,PMT0499,ftn,ferritin,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+mit9313,PMT0589,devB,"ABC exporter membrane fusion, DevB family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.7,False
+mit9313,PMT1106,,glycolipid exporter Gap/Sap,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.8,False
+mit9313,PMT1156,acrA,"RND efflux pump, MFP subunit, HlyD family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+mit9313,PMT1573,,"ABC exporter membrane fusion, DevB family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.8,False
+mit9313,PMT1616,,"RND transporter, hydrophobe/amphiphile efflux-1 family protein",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.7,False
+mit9313,PMT1617,mdtA,multidrug efflux pump membrane fusion protein,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+mit9313,PMT1991,zntA,copper-translocating P-type ATPase,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+mit9313,PMT2240,focA,"nitrite transporter, FNT family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.2,False
+mit9313,PMT0274,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",none,strong,neighbour (non-universe),,False
+mit9313,PMT0286,piuC,iron-uptake factor PiuC,none,strong,neighbour (non-universe),,False
+mit9313,PMT0412,bcsA,putative chalcone/stilbene synthase,none,strong,neighbour (non-universe),,False
+mit9313,PMT0742,,FAD dependent oxidoreductase,none,strong,neighbour (non-universe),,False
+mit9313,PMT1240,hemH,ferrochelatase,none,strong,neighbour (non-universe),,False
+mit9313,PMT_2765,comA,competence protein,none,strong,neighbour (non-universe),,False
+mit9313,PMT1621,,putative 4^-phosphopantetheinyl transferase family domain protein,none,strong,neighbour (non-universe),,False
+mit9313,PMT1814,,creatinine amidohydrolase family protein,none,strong,neighbour (non-universe),,False
+mit9313,PMT2002,,RNA-binding protein,none,strong,neighbour (non-universe),,False
+mit9313,PMT2207,,permease,none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_0152,devB,"ABC exporter membrane fusion, DevB family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.7,False
+natl2a,PMN2A_0237,PMN2A_RS04120,"Mn2+/Fe2+ transporter, NRAMP family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+natl2a,PMN2A_0747,PMN2A_RS06905,"RND efflux pump, MFP subunit, HlyD family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+natl2a,PMN2A_1299,focA,"nitrite transporter, FNT family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.2,False
+natl2a,PMN2A_1465,PMN2A_RS00710,"TolC-like outer membrane efflux protein, RND family",tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.9,False
+natl2a,PMN2A_1497,PMN2A_RS00885,copper-translocating P-type ATPase,tcdb_only,strong,cyanorak|tcdb,cyanorak.role:Q.4,False
+natl2a,PMN2A_0212,ftn,ferritin,none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_0775,piuC,iron-uptake factor PiuC,none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_0440,PMN2A_RS05215,outer membrane porin,none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_1761,hisF,"imidazole glycerol phosphate synthase, cyclase subunit",none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_1442,PMN2A_RS00600,putative 4^-phosphopantetheinyl transferase family domain protein,none,strong,neighbour (non-universe),,False
+natl2a,PMN2A_1508,PMN2A_RS00940,RNA-binding protein,none,strong,neighbour (non-universe),,False

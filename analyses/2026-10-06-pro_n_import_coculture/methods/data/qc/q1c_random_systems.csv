@@ -1,0 +1,121 @@
+strain,tier,system_id,member_names,member_loci,products,tier_reason,known_false_positive,top3_most_specific_substrates
+med4,High,sys_PMM0716,PMM0716:arsB,PMM0716,arsenate efflux pump,strong + role-complete + resolved,False,Arsenic acid | Arsenite | H+
+med4,High,sys_PMM0827,PMM0827:mdlB,PMM0827,putative ABC multidrug efflux transporter,strong + role-complete + resolved,False,Actinorhodin | Ampicillin | Chloramphenicol
+med4,High,sys_PMM1701,PMM1701:clc2,PMM1701,putative chloride channel,strong + role-complete + resolved,False,auxin | inorganic anion
+med4,High,sys_PMM1323,PMM1323:glcH,PMM1323,glucose transporter,strong + role-complete + resolved,False,Cysteine | D-galactose | Li(+)
+med4,High,sys_PMM0671,PMM0671:phnE|PMM0672:phnC|PMM0673:phnD,PMM0671|PMM0672|PMM0673,"phosphate/phosphonate ABC type transporter, permease component | phosphonate ABC type transporter, ATPase component | phosphonate ABC type transporter, substrate binding component",strong + role-complete + resolved,False,Fe3+ | Orthophosphate | Phosphinate
+med4,High,sys_PMM1029,PMM1029:|PMM1031:|PMM1032:lraI,PMM1029|PMM1031|PMM1032,"ABC-type Mn2+/Zn2+ transport system, permease component | ABC-type Mn2+/Zn2+ transport system, ATP-binding component | ABC-type Mn2+/Zn2+ transport system, periplasmic component",strong + role-complete + resolved,False,Cu2+ | Fe2+ | zinc ion
+med4,High,sys_PMM0568,PMM0568:yrbG,PMM0568,cation:H+ antiporter,strong + role-complete + resolved,False,Calcium cation | H+ | Sodium cation
+med4,High,sys_PMM0704,PMM0704:,PMM0704,"potassium ion channel, VIC family",strong + role-complete + resolved,False,Potassium cation | Calcium cation | Magnesium cation
+med4,High,sys_PMM0954,PMM0954:,PMM0954,putative ABC multidrug efflux transporter,strong + role-complete + resolved,False,Hoechst 33342 | Nifedipine | Norfloxacin
+med4,High,sys_PMM0192,PMM0192:ddpD|PMM0421:dppC|PMM1048:dppB|PMM1049:dppA,PMM0192|PMM0421|PMM1048|PMM1049,"peptide/nickel ABC transport system, ATP-binding component | ABC-type oligopeptide transporter, membrane component | oligopeptide ABC transporter, membrane component | peptide/nickel transport system substrate-binding protein",strong + role-complete + resolved,False,5-Aminolevulinate | Bradykinin | Cellobiose
+med4,Medium,sys_PMM1458,PMM1458:ftsW,PMM1458,cell division protein FtsW,"strong, role-incomplete",False,Lipid | alpha-D-FucNAc4-(1->4)-beta-D-ManNAcA-(1->4)-D-GlcNAc-undecaprenyl diphosphate
+med4,Medium,sys_PMM0110,PMM0110:gst,PMM0110,"glutathione S-transferase, rho class","strong, role-incomplete",True,Cl- | Glutathione
+med4,Medium,sys_PMM0289,PMM0289:ycf22|PMM0290:mkl|PMM1324:ycf63,PMM0289|PMM0290|PMM1324,"ABC-type transport system, periplasmic component | ABC transporter family protein | ABC-type transport system, membrane component","strong, role-incomplete",False,Cholesterol | a steroid | fatty acid
+med4,Medium,sys_PMM0940,PMM0940:,PMM0940,permease of the drug/metabolite transporter (DMT) superfamily,"strong, complete, no TCDB resolution [superfamily-only overridden by curated Cyanorak transport role]",False,3-Phospho-D-glycerate | 5-FU | 6-Benzylaminopurine
+med4,Medium,sys_PMM0566,PMM0566:gst,PMM0566,glutathione S-transferase,"strong, role-incomplete",True,Cl- | Glutathione
+med4,Medium,sys_PMM0449,PMM0449:ccmA|PMM0450:ycf38,PMM0449|PMM0450,"ABC-type multidrug transport system, ATPase component | ABC-2 type transporter family protein","strong, role-incomplete [superfamily-only overridden by curated Cyanorak transport role]",False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+med4,Medium,sys_PMM1295,PMM1295:sodX,PMM1295,nickel-type superoxide dismutase maturation protease,"strong, role-incomplete",True,"9,10-DHOME | Actinorhodin | Ampicillin"
+med4,Medium,sys_PMM1224,PMM1224:kpsD3,PMM1224,polysaccharide biosynthesis/export protein,"strong, role-incomplete",False,"Polysaccharide | [3)-beta-D-galactopyranuronosyl-(1->3)-2-acetamido-4-amino-2,4,6-trideoxy-alpha-D-glucopyranosyl-(1->4)-beta-D-galactopyranurosyl-(1->]n | [8)-alpha-Neu5Ac-(2->]n"
+med4,Medium,sys_PMM0976,PMM0976:evrA|PMM0977:evrB|PMM0978:evrC,PMM0976|PMM0977|PMM0978,"ATP-binding cassette-type viologen exporter | ATP-binding cassette-type viologen exporter, permease component | ATP-binding cassette-type viologen exporter","strong, role-incomplete (mixed member resolutions)",False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+med4,Medium,sys_PMM0440,PMM0440:,PMM0440,uncharacterized conserved secreted protein,"strong, role-incomplete",False,
+med4,Low,sys_PMM0326,PMM0326:petD,PMM0326,cytochrome b6/f complex subunit 4,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+med4,Low,sys_PMM0464,PMM0464:tatC,PMM0464,sec-independent protein translocase protein TatC,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+med4,Low,sys_PMM1264,PMM1264:ftsH4,PMM1264,cell division protein FtsH,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,protein | peptide
+med4,Low,sys_PMM0743,PMM0743:ftsH2,PMM0743,photosystem II D1 repair protein FtsH2,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,protein
+med4,Low,sys_PMM0461,PMM0461:petA|PMM0462:petC,PMM0461|PMM0462,apocytochrome f | cytochrome b6-f complex iron-sulfur subunit,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,H+ | e-
+med4,Low,sys_PMM1712,PMM1712:uvrA,PMM1712,"excinuclease UvrABC complex, ATPase subunit",superfamily-only (all TCDB members family_inferred),False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+med4,Low,sys_PMM0010,PMM0010:ftsY,PMM0010,signal recognition particle-docking protein FtsY,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,a protein | protein | virulence factor
+med4,Low,sys_PMM1474,PMM1474:dnaJ5,PMM1474,DnaJ type III chaperone protein,score-0-only (max class 1-3 TCDB score 0),False,protein
+med4,Low,sys_PMM1313,PMM1313:clpP4,PMM1313,"ATP-dependent Clp protease, protease subunit",score-0-only (max class 1-3 TCDB score 0),False,
+med4,Low,sys_PMM0713,PMM0713:gap3,PMM0713,glyceraldehyde-3-phosphate dehydrogenase,score-0-only (max class 1-3 TCDB score 0),False,
+med4,not_transporter,sys_PMM0482,PMM0482:phb,PMM0482,prohibitin-like protein,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM0576,PMM0576:,PMM0576,conserved hypothetical protein (DUF1232),no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM1709,PMM1709:mraY,PMM1709,phospho-N-acetylmuramoyl-pentapeptide-transferase,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM1152,PMM1152:ycf39,PMM1152,photosystem II assembly factor Ycf39,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM0061,PMM0061:cbb3,PMM0061,cofactor assembly of complex C subunit CBB3,no member is strong or tcdb_only,False,Potassium cation
+med4,not_transporter,sys_PMM1698,PMM1698:VTE5,PMM1698,phytol kinase,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM0428,PMM0428:chlG,PMM0428,chlorophyll a synthase,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM1260,PMM1260:uxs,PMM1260,UDP-glucuronate decarboxylase,no member is strong or tcdb_only,False,
+med4,not_transporter,sys_PMM0898,PMM0898:petF,PMM0898,2Fe-2S ferredoxin,no member is strong or tcdb_only,False,Cu cation | Fe cation | Fe3+
+med4,not_transporter,sys_PMM0324,PMM0324:ctp,PMM0324,carboxy-terminal processing peptidase,no member is strong or tcdb_only,False,
+mit9313,High,sys_PMT1553,PMT1553:gltS,PMT1553,putative Na+/glutamate symporter,strong + role-complete + resolved,False,
+mit9313,High,sys_PMT0802,PMT0802:som,PMT0802,outer membrane porin,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],False,
+mit9313,High,sys_PMT1437,PMT1437:,PMT1437,AEC transporter family,strong + role-complete + resolved,False,(S)-Malate | Indole-3-acetate | auxin
+mit9313,High,sys_PMT0077,PMT0077:,PMT0077,"type I secretion system ABC transporter, HlyB family",strong + role-complete + resolved,False,Actinorhodin | Ampicillin | Chloramphenicol
+mit9313,High,sys_PMT0819,PMT0819:mdlB,PMT0819,putative ABC multidrug efflux transporter,strong + role-complete + resolved,False,Actinorhodin | Ampicillin | Chloramphenicol
+mit9313,High,sys_PMT0655,PMT0655:,PMT0655,putative ABC multidrug efflux transporter,strong + role-complete + resolved,False,Hoechst 33342 | Nifedipine | Norfloxacin
+mit9313,High,sys_PMT0999,PMT0999:arsJ,PMT0999,"multidrug efflux transporter, MFS family",strong + role-complete + resolved,False,
+mit9313,High,sys_PMT0909,PMT0909:,PMT0909,sodium:dicarboxylate symporter,strong + role-complete + resolved,False,Alanine | Cysteine | L-Glutamate
+mit9313,High,sys_PMT2225,PMT2225:urtE|PMT2226:urtD|PMT2227:urtC|PMT2228:urtB|PMT2229:urtA,PMT2225|PMT2226|PMT2227|PMT2228|PMT2229,"ABC-type urea transporter, ATPase component UrtE | ABC-type urea transporter, ATP-binding component UrtD | ABC-type urea transporter, membrane component | ABC-type urea transporter, permease component | ABC-type urea transporter, substrate binding component",strong + role-complete + resolved,False,Urea | Hydroxyurea | Thiourea
+mit9313,High,sys_PMT1979,PMT1979:som,PMT1979,outer membrane porin,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],False,
+mit9313,Medium,sys_PMT0108,PMT0108:|PMT0109:,PMT0108|PMT0109,"ABC-type lipopolysaccharide transport system, ATPase component | ABC-type lipopolysaccharide transport system, permease component","strong, role-incomplete",False,Ethanol | LPS with O-antigen | O-polysaccharide
+mit9313,Medium,sys_PMT0888,PMT0888:,PMT0888,putative membrane protein,"strong, role-incomplete",False,1-(9Z-octadecenoyl)-glycerol | Sucrose | UDP-sugar
+mit9313,Medium,sys_PMT1873,PMT1873:,PMT1873,"multidrug efflux transporter, MFS family","strong, complete, no TCDB resolution [superfamily-only overridden by curated Cyanorak transport role]",False,(R)-3-Hydroxybutanoate | (R)-Mevalonate | 1-Methyl-4-phenylpyridinium
+mit9313,Medium,sys_PMT1851,PMT1851:murJ,PMT1851,peptidoglycan lipid II flippase,"strong, role-incomplete",False,L-Glutamine | keto-D-fructose 6-phosphate | lipid-linked peptidoglycan
+mit9313,Medium,sys_PMT1399,PMT1399:ycf63|PMT1888:ycf22|PMT1889:mkl,PMT1399|PMT1888|PMT1889,"ABC-type transport system, membrane component | ABC-type transport system, periplasmic component | ABC transporter family protein","strong, role-incomplete",False,Cholesterol | a steroid | fatty acid
+mit9313,Medium,sys_PMT1349,PMT1349:,PMT1349,uncharacterized conserved secreted protein,"strong, role-incomplete",False,
+mit9313,Medium,sys_PMT_0929,PMT_0929:,PMT_0929,conserved hypothetical protein,"strong, role-incomplete",False,a phospholipid derivative
+mit9313,Medium,sys_PMT1540,PMT1540:uup,PMT1540,ABC transport system ATP-binding/permease protein,"strong, role-incomplete",False,
+mit9313,Medium,sys_PMT_2631,PMT_2631:som,PMT_2631,outer membrane porin,"strong, complete, no TCDB resolution",False,
+mit9313,Medium,sys_PMT1617,PMT1617:mdtA,PMT1617,multidrug efflux pump membrane fusion protein,"strong, role-incomplete",False,Ampicillin | Cefoxitin | Hopanoid
+mit9313,Low,sys_PMT1665,PMT1665:psbB,PMT1665,photosystem II chlorophyll-binding protein CP47,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+mit9313,Low,sys_PMT2270,PMT2270:uvrA,PMT2270,"excinuclease UvrABC complex, ATPase subunit",superfamily-only (all TCDB members family_inferred),False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+mit9313,Low,sys_PMT1955,PMT1955:acpP,PMT1955,acyl-carrier protein,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,H+ | protein
+mit9313,Low,sys_PMT1731,PMT1731:ndhN,PMT1731,NADH dehydrogenase I subunit NdhN,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+mit9313,Low,sys_PMT0642,PMT0642:,PMT0642,curli production assembly/transport component CsgG family protein,score-0-only (max class 1-3 TCDB score 0),False,
+mit9313,Low,sys_PMT1127,PMT1127:trxA,PMT1127,m-type thioredoxin,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+mit9313,Low,sys_PMT1228,PMT1228:,PMT1228,beta-ketoacyl-(acyl-carrier-protein) reductase protein family,score-0-only (max class 1-3 TCDB score 0),False,
+mit9313,Low,sys_PMT1320,PMT1320:tatC,PMT1320,sec-independent protein translocase protein TatC,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+mit9313,Low,sys_PMT1707,PMT1707:abpC,PMT1707,nucleotide-binding protein,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+mit9313,Low,sys_PMT0131,PMT0131:sdhC,PMT0131,"succinate dehydrogenase/fumarate reductase, transmembrane subunit",score-0-only (max class 1-3 TCDB score 0),False,
+mit9313,not_transporter,sys_PMT2152,PMT2152:,PMT2152,adenylate cyclase,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT1589,PMT1589:cbb3,PMT1589,cofactor assembly of complex C subunit CBB3,no member is strong or tcdb_only,False,Potassium cation
+mit9313,not_transporter,sys_PMT1188,PMT1188:htrA,PMT1188,serine protease,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT1401,PMT1401:plsY,PMT1401,glycerol-3-phosphate acyltransferase (GPAT),no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT1324,PMT1324:lgt,PMT1324,phosphatidylglycerol:prolipoprotein diacylglycerol transferase,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT1721,PMT1721:,PMT1721,cyanobacterial aminoacyl-tRNA synthetase domain (CAAD) containing protein,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT2264,PMT2264:mraY,PMT2264,phospho-N-acetylmuramoyl-pentapeptide-transferase,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT0095,PMT0095:pseB,PMT0095,"UDP-N-acetylglucosamine 4,6-dehydratase (inverting)",no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT1330,PMT1330:ispD,PMT1330,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,no member is strong or tcdb_only,False,
+mit9313,not_transporter,sys_PMT_0331,PMT_0331:argD,PMT_0331,acetylornithine/N-succinyldiaminopimelate aminotransferase,no member is strong or tcdb_only,False,
+natl2a,High,sys_PMN2A_0359,PMN2A_0359:PMN2A_RS04760,PMN2A_0359,uncharacterized membrane protein (UPF0016),strong + role-complete + resolved,False,Calcium cation | H+ | Lactate
+natl2a,High,sys_PMN2A_1805,PMN2A_1805:nhaS,PMN2A_1805,"Na+/H+ antiporter, CPA1 family",strong + role-complete + resolved,False,cation | Ammonia | Calcium cation
+natl2a,High,sys_PMN2A_1629,PMN2A_1629:amt1,PMN2A_1629,ammonium transporter,strong + role-complete + resolved,False,Ammonia | CO2 | Ethylamine
+natl2a,High,sys_PMN2A_0358,PMN2A_0358:PMN2A_RS04755,PMN2A_0358,uncharacterized membrane protein,strong + role-complete + resolved,False,Calcium cation | H+ | Lactate
+natl2a,High,sys_PMN2A_1303,PMN2A_1303:PMN2A_RS09810,PMN2A_1303,"multidrug efflux transporter, MFS family",strong + role-complete + resolved,False,Tetracycline | H+
+natl2a,High,sys_PMN2A_0750,PMN2A_0750:PMN2A_RS06920,PMN2A_0750,sodium-dependent transporter,strong + role-complete + resolved,False,Sodium cation | Alanine | Hypotaurine
+natl2a,High,sys_PMN2A_1448,PMN2A_1448:ktrB|PMN2A_1449:ktrA,PMN2A_1448|PMN2A_1449,"Ktr-type potassium uptake transporter, potassium-translocating subunit B | Ktr-type potassium uptake system, NAD-binding component",strong + role-complete + resolved,False,Sodium cation | Potassium cation | Li(+)
+natl2a,High,sys_PMN2A_1208,PMN2A_1208:mgtE,PMN2A_1208,magnesium transporter,strong + role-complete + resolved,False,Calcium cation | Cobalt ion | Fe2+
+natl2a,High,sys_PMN2A_0447,PMN2A_0447:arsB,PMN2A_0447,arsenate efflux pump,strong + role-complete + resolved,False,Arsenic acid | Arsenite | H+
+natl2a,High,sys_PMN2A_0777,PMN2A_0777:PMN2A_RS07060,PMN2A_0777,outer membrane porin,strong + role-complete + resolved [score-0-only overridden by curated Cyanorak transport role],False,
+natl2a,Medium,sys_PMN2A_1368,PMN2A_1368:PMN2A_RS00215,PMN2A_1368,ion transport family protein,"strong, role-incomplete",False,Potassium cation | Calcium cation | H2O
+natl2a,Medium,sys_PMN2A_1727,PMN2A_1727:cbiQ,PMN2A_1727,transmembrane component of ECF transporter energizing module,"strong, role-incomplete",False,5^-Methylthioadenosine | Biotin | Cobalt ion
+natl2a,Medium,sys_PMN2A_0747,PMN2A_0747:PMN2A_RS06905,PMN2A_0747,"RND efflux pump, MFP subunit, HlyD family","strong, role-incomplete",False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+natl2a,Medium,sys_PMN2A_1218,PMN2A_1218:PMN2A_RS09360|PMN2A_1219:PMN2A_RS09365,PMN2A_1218|PMN2A_1219,"ABC-type lipopolysaccharide transport system, permease component | ABC-type lipopolysaccharide transport system, ATPase component","strong, role-incomplete",False,Ethanol | LPS with O-antigen | O-polysaccharide
+natl2a,Medium,sys_PMN2A_0147,PMN2A_0147:bioY,PMN2A_0147,"biotin ECF transporter, substrate component","strong, role-incomplete",False,Biotin | (+)-Medicarpin | (-)-Jasmonic acid
+natl2a,Medium,sys_PMN2A_1772,PMN2A_1772:PMN2A_RS02325,PMN2A_1772,uncharacterized conserved secreted protein,"strong, role-incomplete",False,
+natl2a,Medium,sys_PMN2A_0707,PMN2A_0707:PMN2A_RS06700,PMN2A_0707,"multidrug efflux transporter, MFS family","strong, complete, no TCDB resolution",False,
+natl2a,Medium,sys_PMN2A_1210,PMN2A_1210:crcB2|PMN2A_1211:crcB1,PMN2A_1210|PMN2A_1211,fluoride exporter | fluoride exporter,"strong, role-incomplete",False,(+)-Camphor | Fluoride | Cl-
+natl2a,Medium,sys_PMN2A_1780,PMN2A_1780:PMN2A_RS02365|PMN2A_1781:PMN2A_RS02370,PMN2A_1780|PMN2A_1781,"ABC-type multidrug transport system, ATPase component | ABC-2 type transporter family protein","strong, role-incomplete (mixed member resolutions)",False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+natl2a,Medium,sys_PMN2A_0798,PMN2A_0798:PMN2A_RS07185,PMN2A_0798,eamA-like transporter family protein,"strong, complete, no TCDB resolution [superfamily-only overridden by curated Cyanorak transport role]",False,3-Phospho-D-glycerate | 5-FU | 6-Benzylaminopurine
+natl2a,Low,sys_PMN2A_1766,PMN2A_1766:ftsE,PMN2A_1766,ATP-binding protein FtsE,superfamily-only (all TCDB members family_inferred),False,(+)-Medicarpin | (-)-Jasmonic acid | (S)-Malate
+natl2a,Low,sys_PMN2A_1504,PMN2A_1504:plsC1,PMN2A_1504,1-acyl-sn-glycerol-3-phosphate acyltransferase,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,(R)-3-Hydroxybutanoate | (R)-Mevalonate | 1-Methyl-4-phenylpyridinium
+natl2a,Low,sys_PMN2A_1111,PMN2A_1111:secY,PMN2A_1111,preprotein translocase SecY subunit,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+natl2a,Low,sys_PMN2A_1783,PMN2A_1783:groL2,PMN2A_1783,chaperonin GroEL,score-0-only (max class 1-3 TCDB score 0),False,mRNA | protein
+natl2a,Low,sys_PMN2A_0647,PMN2A_0647:crhR,PMN2A_0647,cyanobacterial RNA helicase,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,(S)-Malate | Nitrate | Nitrite
+natl2a,Low,sys_PMN2A_0006,PMN2A_0006:ndhL,PMN2A_0006,NADH dehydrogenase I subunit NdhL,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+natl2a,Low,sys_PMN2A_1794,PMN2A_1794:petC,PMN2A_1794,cytochrome b6-f complex iron-sulfur subunit,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+natl2a,Low,sys_PMN2A_0830,PMN2A_0830:ftsH4,PMN2A_0830,cell division protein FtsH,"catalogue-only (TCDB hit, no domain/KO/curated support)",False,protein
+natl2a,Low,sys_PMN2A_1516,PMN2A_1516:ndhD1,PMN2A_1516,NADH dehydrogenase I subunit NdhD (chain 4 or M),"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+natl2a,Low,sys_PMN2A_1525,PMN2A_1525:ndhG,PMN2A_1525,NADH dehydrogenase I subunit NdhG (chain 6 or J),"catalogue-only (TCDB hit, no domain/KO/curated support)",False,
+natl2a,not_transporter,sys_PMN2A_0393,PMN2A_0393:desA2,PMN2A_0393,delta-12 fatty acid desaturase DesA2,no member is strong or tcdb_only,False,(9Z)-Octadecenoic acid | fatty acid | unsaturated fatty acid anion
+natl2a,not_transporter,sys_PMN2A_0775,PMN2A_0775:piuC,PMN2A_0775,iron-uptake factor PiuC,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_1857,PMN2A_1857:hemH,PMN2A_1857,ferrochelatase,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_1195,PMN2A_1195:lysS,PMN2A_1195,lysine--tRNA ligase,no member is strong or tcdb_only,False,3-O-L-alanyl-1-O-phosphatidylglycerol | a phosphatidylglycerol
+natl2a,not_transporter,sys_PMN2A_0025,PMN2A_0025:PMN2A_RS03065,PMN2A_0025,translocation and assembly module TamB-like protein,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_1848,PMN2A_1848:PMN2A_RS02705,PMN2A_1848,CAAX protease self-immunity family protein,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_0304,PMN2A_0304:prxQ,PMN2A_0304,2-Cys peroxiredoxin,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_1443,PMN2A_1443:prxQ,PMN2A_1443,2-Cys peroxiredoxin,no member is strong or tcdb_only,False,
+natl2a,not_transporter,sys_PMN2A_0924,PMN2A_0924:petF,PMN2A_0924,2Fe-2S ferredoxin,no member is strong or tcdb_only,False,e-
+natl2a,not_transporter,sys_PMN2A_0206,PMN2A_0206:pgsA,PMN2A_0206,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,no member is strong or tcdb_only,False,

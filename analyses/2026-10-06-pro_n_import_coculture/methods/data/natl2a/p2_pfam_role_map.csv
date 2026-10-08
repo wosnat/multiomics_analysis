@@ -1,0 +1,411 @@
+pfam_id,pfam_name,role,rule_matched,name_rule_role,name_rule,name_rule_text,seed_role,seed_conflict,n_genes,example_loci
+pfam:PF00005,ABC transporter,atpase,seed,atpase,atpase,ABC transporter,atpase,False,30,PMN2A_0038 | PMN2A_0098 | PMN2A_0104 | PMN2A_0154 | PMN2A_0169
+pfam:PF00004,ATPase family associated with various cellular activities (AAA),other,no_match,other,no_match,,,False,9,PMN2A_0016 | PMN2A_0293 | PMN2A_0353 | PMN2A_0660 | PMN2A_0806
+pfam:PF00421,Photosystem II protein,other,no_match,other,no_match,,,False,9,PMN2A_0066 | PMN2A_0215 | PMN2A_0717 | PMN2A_0718 | PMN2A_0719
+pfam:PF00528,Binding-protein-dependent transport system inner membrane component,permease,seed,permease,permease,inner membrane component,permease,False,8,PMN2A_0103 | PMN2A_0310 | PMN2A_0311 | PMN2A_0612 | PMN2A_0613
+pfam:PF00072,Response regulator receiver domain,other,no_match,other,no_match,,,False,6,PMN2A_0436 | PMN2A_1196 | PMN2A_1225 | PMN2A_1494 | PMN2A_1500
+pfam:PF00226,DnaJ domain,other,no_match,other,no_match,,,False,6,PMN2A_0313 | PMN2A_0337 | PMN2A_1004 | PMN2A_1344 | PMN2A_1489
+pfam:PF00664,ABC transporter transmembrane region,permease,permease,permease,permease,transmembrane region,,False,6,PMN2A_0256 | PMN2A_0384 | PMN2A_0649 | PMN2A_1224 | PMN2A_1411
+pfam:PF00271,Helicase conserved C-terminal domain,other,enzyme_guard,other,enzyme_guard,Helicase,,False,5,PMN2A_0160 | PMN2A_0369 | PMN2A_0647 | PMN2A_1247 | PMN2A_1830
+pfam:PF00578,AhpC/TSA family,other,no_match,other,no_match,,,False,5,PMN2A_0304 | PMN2A_0352 | PMN2A_0727 | PMN2A_0787 | PMN2A_1443
+pfam:PF01370,NAD dependent epimerase/dehydratase family,other,no_match,other,no_match,,,False,5,PMN2A_0221 | PMN2A_1228 | PMN2A_1236 | PMN2A_1680 | PMN2A_1681
+pfam:PF02518,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",other,enzyme_guard,other,enzyme_guard,kinase,,False,5,PMN2A_0306 | PMN2A_0437 | PMN2A_0674 | PMN2A_0912 | PMN2A_1635
+pfam:PF13180,PDZ domain,other,no_match,other,no_match,,,False,5,PMN2A_0110 | PMN2A_0808 | PMN2A_1021 | PMN2A_1456 | PMN2A_1701
+pfam:PF16363,"GDP-mannose 4,6 dehydratase",other,no_match,other,no_match,,,False,5,PMN2A_0221 | PMN2A_1228 | PMN2A_1236 | PMN2A_1680 | PMN2A_1681
+pfam:PF00106,short chain dehydrogenase,other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,4,PMN2A_0729 | PMN2A_1408 | PMN2A_1785 | PMN2A_1866
+pfam:PF00124,Photosynthetic reaction centre protein,other,no_match,other,no_match,,,False,4,PMN2A_0558 | PMN2A_0735 | PMN2A_0767 | PMN2A_1592
+pfam:PF00270,DEAD/DEAH box helicase,other,enzyme_guard,other,enzyme_guard,helicase,,False,4,PMN2A_0160 | PMN2A_0369 | PMN2A_0647 | PMN2A_1830
+pfam:PF00361,"NADH:quinone oxidoreductase/Mrp antiporter, TM",other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,4,PMN2A_0030 | PMN2A_1515 | PMN2A_1516 | PMN2A_1767
+pfam:PF00486,"Transcriptional regulatory protein, C terminal",other,no_match,other,no_match,,,False,4,PMN2A_0436 | PMN2A_1196 | PMN2A_1494 | PMN2A_1500
+pfam:PF00512,His Kinase A (phospho-acceptor) domain,other,enzyme_guard,other,enzyme_guard,Kinase,,False,4,PMN2A_0437 | PMN2A_0674 | PMN2A_0912 | PMN2A_1635
+pfam:PF00571,CBS domain,other,no_match,other,no_match,,,False,4,PMN2A_0974 | PMN2A_1208 | PMN2A_1640 | PMN2A_1868
+pfam:PF00574,Clp protease,other,enzyme_guard,other,enzyme_guard,protease,,False,4,PMN2A_0292 | PMN2A_0879 | PMN2A_0880 | PMN2A_1254
+pfam:PF01434,Peptidase family M41,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,4,PMN2A_0293 | PMN2A_0353 | PMN2A_0830 | PMN2A_1595
+pfam:PF01926,50S ribosome-binding GTPase,other,no_match,other,no_match,,,False,4,PMN2A_0848 | PMN2A_1556 | PMN2A_1561 | PMN2A_1586
+pfam:PF02080,TrkA-C domain,other,no_match,other,no_match,,,False,4,PMN2A_0403 | PMN2A_1447 | PMN2A_1449 | PMN2A_1805
+pfam:PF04966,"Carbohydrate-selective porin, OprB family",single_carrier,single_carrier,single_carrier,single_carrier,porin,,False,4,PMN2A_0777 | PMN2A_1028 | PMN2A_1057 | PMN2A_1757
+pfam:PF06480,FtsH Extracellular,other,no_match,other,no_match,,,False,4,PMN2A_0293 | PMN2A_0353 | PMN2A_0830 | PMN2A_1595
+pfam:PF17862,AAA+ lid domain,other,no_match,other,no_match,,,False,4,PMN2A_0293 | PMN2A_0353 | PMN2A_0830 | PMN2A_1595
+pfam:PF00012,Hsp70 protein,other,no_match,other,no_match,,,False,3,PMN2A_0312 | PMN2A_0964 | PMN2A_1313
+pfam:PF00076,RNA recognition motif,other,no_match,other,no_match,,,False,3,PMN2A_1059 | PMN2A_1340 | PMN2A_1508
+pfam:PF00111,2Fe-2S iron-sulfur cluster binding domain,other,no_match,other,no_match,,,False,3,PMN2A_0228 | PMN2A_0772 | PMN2A_0924
+pfam:PF00892,EamA-like transporter family,single_carrier,single_carrier,single_carrier,single_carrier,EamA-like transporter,,False,3,PMN2A_0270 | PMN2A_0798 | PMN2A_0933
+pfam:PF00936,BMC domain,other,no_match,other,no_match,,,False,3,PMN2A_1876 | PMN2A_1878 | PMN2A_1885
+pfam:PF01556,DnaJ C terminal domain,other,no_match,other,no_match,,,False,3,PMN2A_0313 | PMN2A_1344 | PMN2A_1582
+pfam:PF02254,TrkA-N domain,other,no_match,other,no_match,,,False,3,PMN2A_0403 | PMN2A_1449 | PMN2A_1805
+pfam:PF02492,"CobW/HypB/UreG, nucleotide-binding domain",other,no_match,other,no_match,,,False,3,PMN2A_0184 | PMN2A_1037 | PMN2A_1823
+pfam:PF02861,Clp repeat (R) N-terminal domain,other,no_match,other,no_match,,,False,3,PMN2A_0016 | PMN2A_0660 | PMN2A_1574
+pfam:PF02875,"Mur ligase, glutamate ligase domain",other,no_match,other,no_match,,,False,3,PMN2A_0046 | PMN2A_0929 | PMN2A_1747
+pfam:PF07683,Cobalamin synthesis protein cobW C-terminal domain,other,no_match,other,no_match,,,False,3,PMN2A_0184 | PMN2A_1037 | PMN2A_1823
+pfam:PF07690,Major Facilitator Superfamily,single_carrier,single_carrier,single_carrier,single_carrier,Major Facilitator,,False,3,PMN2A_0444 | PMN2A_0707 | PMN2A_1303
+pfam:PF07724,AAA domain (Cdc48 subfamily),other,no_match,other,no_match,,,False,3,PMN2A_0016 | PMN2A_0660 | PMN2A_1574
+pfam:PF08245,Mur ligase middle domain,other,no_match,other,no_match,,,False,3,PMN2A_0046 | PMN2A_0929 | PMN2A_1747
+pfam:PF09335,VTT domain,other,no_match,other,no_match,,,False,3,PMN2A_1201 | PMN2A_1280 | PMN2A_1711
+pfam:PF10431,"C-terminal, D2-small domain, of ClpB protein",other,no_match,other,no_match,,,False,3,PMN2A_0016 | PMN2A_0660 | PMN2A_1574
+pfam:PF13231,Dolichyl-phosphate-mannose-protein mannosyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,3,PMN2A_0090 | PMN2A_0796 | PMN2A_1491
+pfam:PF13410,"Glutathione S-transferase, C-terminal domain",other,enzyme_guard,other,enzyme_guard,transferase,,False,3,PMN2A_0002 | PMN2A_0069 | PMN2A_1478
+pfam:PF13417,"Glutathione S-transferase, N-terminal domain",other,enzyme_guard,other,enzyme_guard,transferase,,False,3,PMN2A_0002 | PMN2A_0069 | PMN2A_1478
+pfam:PF17871,AAA lid domain,other,no_match,other,no_match,,,False,3,PMN2A_0016 | PMN2A_0660 | PMN2A_1574
+pfam:PF00006,"ATP synthase alpha/beta family, nucleotide-binding domain",other,enzyme_guard,other,enzyme_guard,synthase,,False,2,PMN2A_0970 | PMN2A_0981
+pfam:PF00037,4Fe-4S binding domain,other,no_match,other,no_match,,,False,2,PMN2A_1184 | PMN2A_1526
+pfam:PF00044,"Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,2,PMN2A_0445 | PMN2A_1350
+pfam:PF00085,Thioredoxin,other,no_match,other,no_match,,,False,2,PMN2A_0691 | PMN2A_1608
+pfam:PF00118,TCP-1/cpn60 chaperonin family,other,no_match,other,no_match,,,False,2,PMN2A_0968 | PMN2A_1783
+pfam:PF00152,"tRNA synthetases class II (D, K and N)",other,enzyme_guard,other,enzyme_guard,synthetase,,False,2,PMN2A_1195 | PMN2A_1290
+pfam:PF00160,Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD,other,no_match,other,no_match,,,False,2,PMN2A_0316 | PMN2A_0765
+pfam:PF00223,Photosystem I psaA/psaB protein,other,no_match,other,no_match,,,False,2,PMN2A_1082 | PMN2A_1083
+pfam:PF00306,"ATP synthase alpha/beta chain, C terminal domain",other,enzyme_guard,other,enzyme_guard,synthase,,False,2,PMN2A_0970 | PMN2A_0981
+pfam:PF00348,Polyprenyl synthetase,other,enzyme_guard,other,enzyme_guard,synthetase,,False,2,PMN2A_0055 | PMN2A_0681
+pfam:PF00355,Rieske [2Fe-2S] domain,other,no_match,other,no_match,,,False,2,PMN2A_0218 | PMN2A_1794
+pfam:PF00430,ATP synthase B/B^ CF(0),other,enzyme_guard,other,enzyme_guard,synthase,,False,2,PMN2A_0983 | PMN2A_0984
+pfam:PF00448,"SRP54-type protein, GTPase domain",other,no_match,other,no_match,,,False,2,PMN2A_0853 | PMN2A_1337
+pfam:PF00487,Fatty acid desaturase,other,no_match,other,no_match,,,False,2,PMN2A_0393 | PMN2A_1603
+pfam:PF00497,"Bacterial extracellular solute-binding proteins, family 3",substrate_binding,substrate_binding,substrate_binding,substrate_binding,solute-binding,,False,2,PMN2A_0612 | PMN2A_0614
+pfam:PF00501,AMP-binding enzyme,other,no_match,other,no_match,,,False,2,PMN2A_0057 | PMN2A_1737
+pfam:PF00534,Glycosyl transferases group 1,other,enzyme_guard,other,enzyme_guard,transferase,,False,2,PMN2A_1413 | PMN2A_1732
+pfam:PF00535,Glycosyl transferase family 2,other,enzyme_guard,other,enzyme_guard,transferase,,False,2,PMN2A_0156 | PMN2A_1087
+pfam:PF00595,PDZ domain,other,no_match,other,no_match,,,False,2,PMN2A_0110 | PMN2A_1701
+pfam:PF00717,Peptidase S24-like,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,2,PMN2A_0042 | PMN2A_1846
+pfam:PF00916,Sulfate permease family,single_carrier,single_carrier,single_carrier,single_carrier,Sulfate permease family,,False,2,PMN2A_0631 | PMN2A_1581
+pfam:PF00950,ABC 3 transport family,permease,permease,permease,permease,ABC 3 transport,,False,2,PMN2A_0039 | PMN2A_1032
+pfam:PF00999,"Sodium/hydrogen exchanger, transmembrane",single_carrier,single_carrier,single_carrier,single_carrier,exchanger,,False,2,PMN2A_1175 | PMN2A_1805
+pfam:PF01040,UbiA prenyltransferase family,other,enzyme_guard,other,enzyme_guard,transferase,,False,2,PMN2A_1759 | PMN2A_1779
+pfam:PF01061,ABC-2 type transporter,permease,permease,permease,permease,ABC-2,,False,2,PMN2A_1218 | PMN2A_1781
+pfam:PF01098,Cell cycle protein,other,no_match,other,no_match,,,False,2,PMN2A_0988 | PMN2A_1152
+pfam:PF01148,Cytidylyltransferase family,other,enzyme_guard,other,enzyme_guard,transferase,,False,2,PMN2A_0664 | PMN2A_1306
+pfam:PF01169,Divalent cation/proton antiporter GDT1,single_carrier,single_carrier,single_carrier,single_carrier,antiporter,,False,2,PMN2A_0358 | PMN2A_0359
+pfam:PF01225,"Mur ligase family, catalytic domain",other,no_match,other,no_match,,,False,2,PMN2A_0046 | PMN2A_1747
+pfam:PF01297,Zinc-uptake complex component A periplasmic,substrate_binding,substrate_binding,substrate_binding,substrate_binding,uptake complex component A periplasmic,,False,2,PMN2A_0037 | PMN2A_1035
+pfam:PF01336,OB-fold nucleic acid binding domain,other,no_match,other,no_match,,,False,2,PMN2A_1195 | PMN2A_1290
+pfam:PF01595,Cyclin M transmembrane N-terminal domain,other,no_match,other,no_match,,,False,2,PMN2A_0974 | PMN2A_1640
+pfam:PF01740,STAS domain,other,no_match,other,no_match,,,False,2,PMN2A_0631 | PMN2A_1581
+pfam:PF02151,UvrB/uvrC motif,other,no_match,other,no_match,,,False,2,PMN2A_0660 | PMN2A_1247
+pfam:PF02163,Peptidase family M50,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,2,PMN2A_0808 | PMN2A_1868
+pfam:PF02321,Outer membrane efflux protein,other,no_match,other,no_match,,,False,2,PMN2A_1225 | PMN2A_1465
+pfam:PF02325,CCB3/YggT,other,no_match,other,no_match,,,False,2,PMN2A_0297 | PMN2A_1424
+pfam:PF02355,"Protein export membrane protein SecD/SecF, C-terminal",other,no_match,other,no_match,,,False,2,PMN2A_0282 | PMN2A_0283
+pfam:PF02537,"CrcB-like protein, Camphor Resistance (CrcB)",other,no_match,other,no_match,,,False,2,PMN2A_1210 | PMN2A_1211
+pfam:PF02653,Branched-chain amino acid transport system / permease component,permease,seed,permease,permease,permease,permease,False,2,PMN2A_1046 | PMN2A_1047
+pfam:PF02687,FtsX-like permease C-terminal,permease,permease,permease,permease,FtsX,,False,2,PMN2A_0153 | PMN2A_0294
+pfam:PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,2,PMN2A_0445 | PMN2A_1350
+pfam:PF02874,"ATP synthase alpha/beta family, beta-barrel domain",other,enzyme_guard,other,enzyme_guard,synthase,,False,2,PMN2A_0970 | PMN2A_0981
+pfam:PF02881,"SRP54-type protein, helical bundle domain",other,no_match,other,no_match,,,False,2,PMN2A_0853 | PMN2A_1337
+pfam:PF03319,Ethanolamine utilisation protein EutN/carboxysome,other,no_match,other,no_match,,,False,2,PMN2A_1883 | PMN2A_1884
+pfam:PF03572,Peptidase family S41,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,2,PMN2A_0110 | PMN2A_1701
+pfam:PF05496,Holliday junction DNA helicase RuvB P-loop domain,other,enzyme_guard,other,enzyme_guard,helicase,,False,2,PMN2A_1192 | PMN2A_1441
+pfam:PF06182,ABC-2 family transporter protein,permease,permease,permease,permease,ABC-2,,False,2,PMN2A_0235 | PMN2A_0236
+pfam:PF06723,MreB/Mbl protein,other,no_match,other,no_match,,,False,2,PMN2A_0964 | PMN2A_1199
+pfam:PF07549,SecD/SecF GG Motif,other,no_match,other,no_match,,,False,2,PMN2A_0282 | PMN2A_0283
+pfam:PF10502,"Signal peptidase, peptidase S26",other,enzyme_guard,other,enzyme_guard,peptidase,,False,2,PMN2A_0042 | PMN2A_1846
+pfam:PF10609,NUBPL iron-transfer P-loop NTPase,other,no_match,other,no_match,,,False,2,PMN2A_1153 | PMN2A_1698
+pfam:PF12769,"4TM region of pyridine nucleotide transhydrogenase, mitoch",other,no_match,other,no_match,,,False,2,PMN2A_0754 | PMN2A_0755
+pfam:PF12838,4Fe-4S dicluster domain,other,no_match,other,no_match,,,False,2,PMN2A_1184 | PMN2A_1526
+pfam:PF12848,ABC transporter,atpase,atpase,atpase,atpase,ABC transporter,,False,2,PMN2A_0950 | PMN2A_1455
+pfam:PF13343,Bacterial extracellular solute-binding protein,substrate_binding,substrate_binding,substrate_binding,substrate_binding,solute-binding,,False,2,PMN2A_0774 | PMN2A_1772
+pfam:PF13365,Trypsin-like peptidase domain,other,enzyme_guard,other,enzyme_guard,peptidase,,False,2,PMN2A_1021 | PMN2A_1456
+pfam:PF13437,PF13437,other,no_match,other,no_match,,,False,2,PMN2A_0152 | PMN2A_1225
+pfam:PF13439,Glycosyltransferase Family 4,other,enzyme_guard,other,enzyme_guard,transferase,,False,2,PMN2A_1413 | PMN2A_1732
+pfam:PF13614,AAA domain,other,no_match,other,no_match,,,False,2,PMN2A_1153 | PMN2A_1698
+pfam:PF13792,PF13792,other,no_match,other,no_match,,,False,2,PMN2A_0631 | PMN2A_1581
+pfam:PF17757,UvrB interaction domain,other,no_match,other,no_match,,,False,2,PMN2A_0369 | PMN2A_1247
+pfam:PF00027,Cyclic nucleotide-binding domain,other,no_match,other,no_match,,,False,1,PMN2A_1224
+pfam:PF00032,Cytochrome b(C-terminal)/b6/petD,other,no_match,other,no_match,,,False,1,PMN2A_1703
+pfam:PF00033,Cytochrome b/b6/petB,other,no_match,other,no_match,,,False,1,PMN2A_1702
+pfam:PF00043,"Glutathione S-transferase, C-terminal domain",other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1478
+pfam:PF00070,Pyridine nucleotide-disulphide oxidoreductase,other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_0003
+pfam:PF00083,Sugar (and other) transporter,single_carrier,single_carrier,single_carrier,single_carrier,Sugar (and other) transporter,,False,1,PMN2A_1303
+pfam:PF00115,Cytochrome C and Quinol oxidase polypeptide I,other,no_match,other,no_match,,,False,1,PMN2A_1776
+pfam:PF00116,"Cytochrome C oxidase subunit II, periplasmic domain",other,no_match,other,no_match,,,False,1,PMN2A_1777
+pfam:PF00117,Glutamine amidotransferase class-I,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0933
+pfam:PF00119,ATP synthase A chain,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0986
+pfam:PF00122,P-type ATPase actuator domain,other,no_match,other,no_match,,,False,1,PMN2A_1497
+pfam:PF00127,"Copper binding proteins, plastocyanin/azurin family",other,no_match,other,no_match,,,False,1,PMN2A_0017
+pfam:PF00128,"Alpha amylase, catalytic domain",other,no_match,other,no_match,,,False,1,PMN2A_0893
+pfam:PF00137,ATP synthase subunit C,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0985
+pfam:PF00146,NADH dehydrogenase,other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_1527
+pfam:PF00183,Hsp90 protein,other,no_match,other,no_match,,,False,1,PMN2A_0306
+pfam:PF00196,"Bacterial regulatory proteins, luxR family",other,no_match,other,no_match,,,False,1,PMN2A_1537
+pfam:PF00202,Aminotransferase class-III,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0867
+pfam:PF00209,Sodium:neurotransmitter symporter family,single_carrier,single_carrier,single_carrier,single_carrier,symporter,,False,1,PMN2A_0750
+pfam:PF00210,Ferritin-like domain,other,no_match,other,no_match,,,False,1,PMN2A_0212
+pfam:PF00213,ATP synthase delta (OSCP) subunit,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0982
+pfam:PF00231,ATP synthase,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0980
+pfam:PF00248,Aldo/keto reductase family,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_1162
+pfam:PF00254,FKBP-type peptidyl-prolyl cis-trans isomerase,other,no_match,other,no_match,,,False,1,PMN2A_0860
+pfam:PF00283,"Cytochrome b559, alpha (gene psbE) and beta (gene psbF)subunits",other,no_match,other,no_match,,,False,1,PMN2A_1663
+pfam:PF00284,"Lumenal portion of Cytochrome b559, alpha (gene psbE) subunit",other,no_match,other,no_match,,,False,1,PMN2A_1663
+pfam:PF00301,Rubredoxin,other,no_match,other,no_match,,,False,1,PMN2A_1661
+pfam:PF00329,"Respiratory-chain NADH dehydrogenase, 30 Kd subunit",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_1658
+pfam:PF00344,SecY,other,no_match,other,no_match,,,False,1,PMN2A_1111
+pfam:PF00346,"Respiratory-chain NADH dehydrogenase, 49 Kd subunit",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_1540
+pfam:PF00364,Biotin-requiring enzyme,other,no_match,other,no_match,,,False,1,PMN2A_1354
+pfam:PF00383,Cytidine and deoxycytidylate deaminase zinc-binding region,other,no_match,other,no_match,,,False,1,PMN2A_0143
+pfam:PF00395,S-layer homology domain,other,no_match,other,no_match,,,False,1,PMN2A_0777
+pfam:PF00400,"WD domain, G-beta repeat",other,no_match,other,no_match,,,False,1,PMN2A_1038
+pfam:PF00401,"ATP synthase, Delta/Epsilon chain, long alpha-helix domain",other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0971
+pfam:PF00403,Heavy-metal-associated domain,other,no_match,other,no_match,,,False,1,PMN2A_1497
+pfam:PF00420,NADH-ubiquinone/plastoquinone oxidoreductase chain 4L,other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1524
+pfam:PF00436,Single-strand binding protein family,other,no_match,other,no_match,,,False,1,PMN2A_1200
+pfam:PF00437,Type II/IV secretion system protein,other,no_match,other,no_match,,,False,1,PMN2A_0098
+pfam:PF00474,Sodium:solute symporter family,single_carrier,single_carrier,single_carrier,single_carrier,symporter,,False,1,PMN2A_1011
+pfam:PF00496,"Bacterial extracellular solute-binding proteins, family 5 Middle",substrate_binding,seed,substrate_binding,substrate_binding,solute-binding,substrate_binding,False,1,PMN2A_0704
+pfam:PF00499,NADH-ubiquinone/plastoquinone oxidoreductase chain 6,other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1525
+pfam:PF00502,Phycobilisome protein,other,no_match,other,no_match,,,False,1,PMN2A_1672
+pfam:PF00504,Chlorophyll A-B binding protein,other,no_match,other,no_match,,,False,1,PMN2A_1857
+pfam:PF00507,"NADH-ubiquinone/plastoquinone oxidoreductase, chain 3",other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1660
+pfam:PF00510,Cytochrome c oxidase subunit III,other,no_match,other,no_match,,,False,1,PMN2A_1775
+pfam:PF00520,Ion transport protein,other,no_match,other,no_match,,,False,1,PMN2A_1368
+pfam:PF00529,PF00529,other,no_match,other,no_match,,,False,1,PMN2A_1225
+pfam:PF00550,Phosphopantetheine attachment site,other,no_match,other,no_match,,,False,1,PMN2A_1185
+pfam:PF00581,Rhodanese-like domain,other,no_match,other,no_match,,,False,1,PMN2A_1141
+pfam:PF00584,SecE/Sec61-gamma subunits of protein translocation complex,other,no_match,other,no_match,,,False,1,PMN2A_1573
+pfam:PF00593,"TonB dependent receptor-like, beta-barrel",other,no_match,other,no_match,,,False,1,PMN2A_1028
+pfam:PF00625,Guanylate kinase,other,enzyme_guard,other,enzyme_guard,kinase,,False,1,PMN2A_1799
+pfam:PF00627,UBA/TS-N domain,other,no_match,other,no_match,,,False,1,PMN2A_0158
+pfam:PF00654,Voltage gated chloride channel,single_carrier,single_carrier,single_carrier,single_carrier,channel,,False,1,PMN2A_2187
+pfam:PF00662,"NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus",other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1515
+pfam:PF00670,"S-adenosyl-L-homocysteine hydrolase, NAD binding domain",other,no_match,other,no_match,,,False,1,PMN2A_1202
+pfam:PF00672,HAMP domain,other,no_match,other,no_match,,,False,1,PMN2A_0912
+pfam:PF00684,DnaJ central domain,other,no_match,other,no_match,,,False,1,PMN2A_1344
+pfam:PF00687,Ribosomal protein L1p/L10e family,other,no_match,other,no_match,,,False,1,PMN2A_1570
+pfam:PF00702,haloacid dehalogenase-like hydrolase,other,no_match,other,no_match,,,False,1,PMN2A_1497
+pfam:PF00737,Photosystem II 10 kDa phosphoprotein,other,no_match,other,no_match,,,False,1,PMN2A_1618
+pfam:PF00762,Ferrochelatase,other,no_match,other,no_match,,,False,1,PMN2A_1857
+pfam:PF00889,Elongation factor TS,other,no_match,other,no_match,,,False,1,PMN2A_0158
+pfam:PF00890,FAD binding domain,other,no_match,other,no_match,,,False,1,PMN2A_1468
+pfam:PF00899,ThiF family,other,no_match,other,no_match,,,False,1,PMN2A_1141
+pfam:PF00902,Sec-independent protein translocase protein (TatC),other,no_match,other,no_match,,,False,1,PMN2A_1796
+pfam:PF00905,Penicillin binding protein transpeptidase domain,other,enzyme_guard,other,enzyme_guard,peptidase,,False,1,PMN2A_1373
+pfam:PF00909,Ammonium Transporter Family,single_carrier,seed,single_carrier,single_carrier,Ammonium Transporter,single_carrier,False,1,PMN2A_1629
+pfam:PF00924,"Mechanosensitive ion channel, beta-domain",single_carrier,single_carrier,single_carrier,single_carrier,channel,,False,1,PMN2A_0075
+pfam:PF00939,Sodium:sulfate symporter transmembrane region,single_carrier,single_carrier,single_carrier,single_carrier,symporter,,False,1,PMN2A_1447
+pfam:PF00953,Glycosyl transferase family 4,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1320
+pfam:PF00977,Histidine biosynthesis protein,other,no_match,other,no_match,,,False,1,PMN2A_1761
+pfam:PF00989,PAS fold,other,no_match,other,no_match,,,False,1,PMN2A_0912
+pfam:PF01010,"NADH-dehyrogenase subunit F, TMs, (complex I) C-terminus",other,no_match,other,no_match,,,False,1,PMN2A_1515
+pfam:PF01018,GTP1/OBG,other,no_match,other,no_match,,,False,1,PMN2A_1586
+pfam:PF01022,"Bacterial regulatory protein, arsR family",other,no_match,other,no_match,,,False,1,PMN2A_0446
+pfam:PF01026,TatD related DNase,other,no_match,other,no_match,,,False,1,PMN2A_1017
+pfam:PF01027,Inhibitor of apoptosis-promoting Bax1,other,no_match,other,no_match,,,False,1,PMN2A_0850
+pfam:PF01039,Carboxyl transferase domain,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0191
+pfam:PF01043,SecA preprotein cross-linking domain,other,no_match,other,no_match,,,False,1,PMN2A_1220
+pfam:PF01058,"NADH ubiquinone oxidoreductase, 20 Kd subunit",other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1659
+pfam:PF01066,CDP-alcohol phosphatidyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0206
+pfam:PF01103,Omp85 superfamily domain,other,no_match,other,no_match,,,False,1,PMN2A_0909
+pfam:PF01126,Heme oxygenase,other,no_match,other,no_match,,,False,1,PMN2A_1169
+pfam:PF01128,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1786
+pfam:PF01131,DNA topoisomerase,other,no_match,other,no_match,,,False,1,PMN2A_1768
+pfam:PF01145,SPFH domain / Band 7 family,other,no_match,other,no_match,,,False,1,PMN2A_1815
+pfam:PF01180,Dihydroorotate dehydrogenase,other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_1566
+pfam:PF01226,Formate/nitrite transporter,other,no_match,other,no_match,,,False,1,PMN2A_1299
+pfam:PF01252,Signal peptidase (SPase) II,other,enzyme_guard,other,enzyme_guard,peptidase,,False,1,PMN2A_0146
+pfam:PF01262,"Alanine dehydrogenase/PNT, C-terminal domain",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_0755
+pfam:PF01330,RuvA N terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_0268
+pfam:PF01333,"Apocytochrome F, C-terminal",other,no_match,other,no_match,,,False,1,PMN2A_1793
+pfam:PF01343,Peptidase family S49,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,1,PMN2A_0799
+pfam:PF01402,"Ribbon-helix-helix protein, copG family",other,no_match,other,no_match,,,False,1,PMN2A_0337
+pfam:PF01425,Amidase,other,no_match,other,no_match,,,False,1,PMN2A_0264
+pfam:PF01478,Type IV leader peptidase family,other,enzyme_guard,other,enzyme_guard,peptidase,,False,1,PMN2A_0192
+pfam:PF01479,S4 domain,other,no_match,other,no_match,,,False,1,PMN2A_0994
+pfam:PF01553,Acyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1504
+pfam:PF01564,Spermine/spermidine synthase domain,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_1286
+pfam:PF01566,Natural resistance-associated macrophage protein-like,other,no_match,other,no_match,,,False,1,PMN2A_0237
+pfam:PF01578,Cytochrome C assembly protein,other,no_match,other,no_match,,,False,1,PMN2A_0171
+pfam:PF01590,GAF domain,other,no_match,other,no_match,,,False,1,PMN2A_1635
+pfam:PF01594,AI-2E family transporter,single_carrier,single_carrier,single_carrier,single_carrier,AI-2E family transporter,,False,1,PMN2A_0134
+pfam:PF01648,4^-phosphopantetheinyl transferase superfamily,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1442
+pfam:PF01656,CobQ/CobB/MinD/ParA nucleotide binding domain,other,no_match,other,no_match,,,False,1,PMN2A_1698
+pfam:PF01699,Sodium/calcium exchanger protein,single_carrier,single_carrier,single_carrier,single_carrier,exchanger,,False,1,PMN2A_0004
+pfam:PF01716,Manganese-stabilising protein / photosystem II polypeptide,other,no_match,other,no_match,,,False,1,PMN2A_1597
+pfam:PF01728,FtsJ-like methyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0994
+pfam:PF01751,Toprim domain,other,no_match,other,no_match,,,False,1,PMN2A_1768
+pfam:PF01758,Sodium Bile acid symporter family,single_carrier,single_carrier,single_carrier,single_carrier,symporter,,False,1,PMN2A_0447
+pfam:PF01769,Divalent cation transporter,single_carrier,single_carrier,single_carrier,single_carrier,Divalent cation transporter,,False,1,PMN2A_1208
+pfam:PF01790,Prolipoprotein diacylglyceryl transferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1792
+pfam:PF01795,MraW methylase family,other,no_match,other,no_match,,,False,1,PMN2A_1539
+pfam:PF01883,Iron-sulfur cluster assembly protein,other,no_match,other,no_match,,,False,1,PMN2A_1153
+pfam:PF01925,Sulfite exporter TauE/SafE,single_carrier,single_carrier,single_carrier,single_carrier,Sulfite exporter,,False,1,PMN2A_0244
+pfam:PF02077,SURF4 family,other,no_match,other,no_match,,,False,1,PMN2A_0936
+pfam:PF02096,60Kd inner membrane protein,other,no_match,other,no_match,,,False,1,PMN2A_0805
+pfam:PF02190,ATP-dependent protease La (LON) substrate-binding domain,other,enzyme_guard,other,enzyme_guard,protease,,False,1,PMN2A_1072
+pfam:PF02219,Methylenetetrahydrofolate reductase,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_1519
+pfam:PF02233,NAD(P) transhydrogenase beta subunit,other,no_match,other,no_match,,,False,1,PMN2A_0753
+pfam:PF02361,Cobalt transport protein,other,no_match,other,no_match,,,False,1,PMN2A_1727
+pfam:PF02366,Dolichyl-phosphate-mannose-protein mannosyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0090
+pfam:PF02369,Bacterial Ig-like domain (group 1),other,no_match,other,no_match,,,False,1,PMN2A_1028
+pfam:PF02386,Cation transport protein,single_carrier,single_carrier,single_carrier,single_carrier,Cation transport protein,,False,1,PMN2A_1448
+pfam:PF02397,Bacterial sugar transferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0883
+pfam:PF02405,Permease MlaE,permease,permease,permease,permease,Permease,,False,1,PMN2A_0895
+pfam:PF02416,mttA/Hcf106 family,other,no_match,other,no_match,,,False,1,PMN2A_1617
+pfam:PF02417,Chromate transporter,single_carrier,single_carrier,single_carrier,single_carrier,Chromate transporter,,False,1,PMN2A_0443
+pfam:PF02427,Photosystem I reaction centre subunit IV / PsaE,other,no_match,other,no_match,,,False,1,PMN2A_1706
+pfam:PF02470,MlaD protein,other,no_match,other,no_match,,,False,1,PMN2A_1655
+pfam:PF02507,Photosystem I reaction centre subunit III,other,no_match,other,no_match,,,False,1,PMN2A_1801
+pfam:PF02517,Type II CAAX prenyl endopeptidase Rce1-like,other,enzyme_guard,other,enzyme_guard,peptidase,,False,1,PMN2A_1848
+pfam:PF02531,PsaD,other,no_match,other,no_match,,,False,1,PMN2A_1150
+pfam:PF02559,CarD-like/TRCF RID domain,other,no_match,other,no_match,,,False,1,PMN2A_0369
+pfam:PF02562,PhoH-like protein,other,no_match,other,no_match,,,False,1,PMN2A_0851
+pfam:PF02605,Photosystem I reaction centre subunit XI,other,no_match,other,no_match,,,False,1,PMN2A_1084
+pfam:PF02628,Cytochrome oxidase assembly protein,other,no_match,other,no_match,,,False,1,PMN2A_1778
+pfam:PF02632,BioY family,other,no_match,other,no_match,,,False,1,PMN2A_0147
+pfam:PF02660,Glycerol-3-phosphate acyltransferase,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0898
+pfam:PF02675,S-adenosylmethionine decarboxylase,other,no_match,other,no_match,,,False,1,PMN2A_1286
+pfam:PF02681,Divergent PAP2 family,other,no_match,other,no_match,,,False,1,PMN2A_0680
+pfam:PF02683,Cytochrome C biogenesis protein transmembrane domain,other,no_match,other,no_match,,,False,1,PMN2A_0989
+pfam:PF02719,Polysaccharide biosynthesis protein,other,no_match,other,no_match,,,False,1,PMN2A_1235
+pfam:PF02790,"Cytochrome C oxidase subunit II, transmembrane domain",other,no_match,other,no_match,,,False,1,PMN2A_1777
+pfam:PF02811,PHP domain,other,no_match,other,no_match,,,False,1,PMN2A_0330
+pfam:PF02823,"ATP synthase, Delta/Epsilon chain, beta-sandwich domain",other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0971
+pfam:PF02852,"Pyridine nucleotide-disulphide oxidoreductase, dimerisation domain",other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_0003
+pfam:PF02910,Fumarate reductase flavoprotein C-term,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_1468
+pfam:PF02922,Carbohydrate-binding module 48 (Isoamylase N-terminal domain),other,no_match,other,no_match,,,False,1,PMN2A_0893
+pfam:PF02938,GAD domain,other,no_match,other,no_match,,,False,1,PMN2A_1290
+pfam:PF02978,Signal peptide binding domain,other,no_match,other,no_match,,,False,1,PMN2A_0853
+pfam:PF03023,Lipid II flippase MurJ,other,no_match,other,no_match,,,False,1,PMN2A_1627
+pfam:PF03186,CobD/Cbib protein,other,no_match,other,no_match,,,False,1,PMN2A_0882
+pfam:PF03412,Peptidase C39 family,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,1,PMN2A_1224
+pfam:PF03448,MgtE intracellular N domain,other,no_match,other,no_match,,,False,1,PMN2A_1208
+pfam:PF03461,TRCF domain,other,no_match,other,no_match,,,False,1,PMN2A_0369
+pfam:PF03471,Transporter associated domain,other,no_match,other,no_match,,,False,1,PMN2A_1640
+pfam:PF03547,Membrane transport protein,single_carrier,single_carrier,single_carrier,single_carrier,Membrane transport protein,,False,1,PMN2A_0478
+pfam:PF03600,Citrate transporter,single_carrier,single_carrier,single_carrier,single_carrier,Citrate transporter,,False,1,PMN2A_1447
+pfam:PF03616,Sodium/glutamate symporter,single_carrier,seed,single_carrier,single_carrier,symporter,single_carrier,False,1,PMN2A_0067
+pfam:PF03631,Virulence factor BrkB,other,no_match,other,no_match,,,False,1,PMN2A_1463
+pfam:PF03706,Lysylphosphatidylglycerol synthase TM region,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_1821
+pfam:PF03717,Penicillin-binding Protein dimerisation domain,other,no_match,other,no_match,,,False,1,PMN2A_1373
+pfam:PF03739,Lipopolysaccharide export system permease LptF/LptG,permease,permease,permease,permease,permease,,False,1,PMN2A_0170
+pfam:PF03741,Integral membrane protein TerC family,other,no_match,other,no_match,,,False,1,PMN2A_0367
+pfam:PF03824,High-affinity nickel-transport protein,other,no_match,other,no_match,,,False,1,PMN2A_1750
+pfam:PF03840,Preprotein translocase SecG subunit,other,no_match,other,no_match,,,False,1,PMN2A_0967
+pfam:PF03880,DbpA RNA binding domain,other,no_match,other,no_match,,,False,1,PMN2A_0647
+pfam:PF03899,ATP synthase I chain,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0987
+pfam:PF04012,PspA/IM30 family,other,no_match,other,no_match,,,False,1,PMN2A_1764
+pfam:PF04085,"Rod shape-determining protein MreC, barrel core",other,no_match,other,no_match,,,False,1,PMN2A_1198
+pfam:PF04193,PQ loop repeat,other,no_match,other,no_match,,,False,1,PMN2A_0790
+pfam:PF04357,TamB C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_0025
+pfam:PF04367,Protein of unknown function (DUF502),other,no_match,other,no_match,,,False,1,PMN2A_1335
+pfam:PF04851,"Type III restriction enzyme, res subunit",other,no_match,other,no_match,,,False,1,PMN2A_1247
+pfam:PF04955,HupE / UreJ protein,single_carrier,single_carrier,single_carrier,single_carrier,HupE / UreJ,,False,1,PMN2A_0621
+pfam:PF05221,S-adenosyl-L-homocysteine hydrolase,other,no_match,other,no_match,,,False,1,PMN2A_1202
+pfam:PF05222,"Alanine dehydrogenase/PNT, N-terminal domain",other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_0755
+pfam:PF05237,PF05237,other,no_match,other,no_match,,,False,1,PMN2A_1141
+pfam:PF05359,Domain of Unknown Function (DUF748),other,no_match,other,no_match,,,False,1,PMN2A_0025
+pfam:PF05491,RuvB C-terminal winged helix domain,other,no_match,other,no_match,,,False,1,PMN2A_1192
+pfam:PF05982,Na+-dependent bicarbonate transporter superfamily,single_carrier,single_carrier,single_carrier,single_carrier,bicarbonate transporter,,False,1,PMN2A_1580
+pfam:PF05996,Ferredoxin-dependent bilin reductase,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_0151
+pfam:PF06108,Protein of unknown function (DUF952),other,no_match,other,no_match,,,False,1,PMN2A_0069
+pfam:PF06418,CTP synthase N-terminus,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0933
+pfam:PF06472,ABC transporter transmembrane region 2,permease,permease,permease,permease,transmembrane region,,False,1,PMN2A_1428
+pfam:PF06750,Bacterial Peptidase A24 N-terminal domain,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,1,PMN2A_0192
+pfam:PF06838,Methionine gamma-lyase,other,no_match,other,no_match,,,False,1,PMN2A_1269
+pfam:PF07244,Surface antigen variable number repeat,other,no_match,other,no_match,,,False,1,PMN2A_0909
+pfam:PF07332,"Putative Actinobacterial Holin-X, holin superfamily III",other,no_match,other,no_match,,,False,1,PMN2A_1416
+pfam:PF07499,"RuvA, C-terminal domain",other,no_match,other,no_match,,,False,1,PMN2A_0268
+pfam:PF07516,SecA Wing and Scaffold domain,other,no_match,other,no_match,,,False,1,PMN2A_1220
+pfam:PF07517,SecA DEAD-like domain,other,no_match,other,no_match,,,False,1,PMN2A_1220
+pfam:PF07650,KH domain,other,no_match,other,no_match,,,False,1,PMN2A_0848
+pfam:PF07681,DoxX,other,no_match,other,no_match,,,False,1,PMN2A_0936
+pfam:PF07689,KaiB domain,other,no_match,other,no_match,,,False,1,PMN2A_0674
+pfam:PF07715,TonB-dependent Receptor Plug Domain,other,no_match,other,no_match,,,False,1,PMN2A_1028
+pfam:PF07884,Vitamin K epoxide reductase family,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_1469
+pfam:PF07885,Ion channel,single_carrier,single_carrier,single_carrier,single_carrier,channel,,False,1,PMN2A_0403
+pfam:PF07992,Pyridine nucleotide-disulphide oxidoreductase,other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_0003
+pfam:PF08352,"Oligopeptide/dipeptide transporter, C-terminal region",atpase,seed,other,no_match,,atpase,True,1,PMN2A_1559
+pfam:PF08402,TOBE domain,atpase,atpase,atpase,atpase,TOBE domain,,False,1,PMN2A_0211
+pfam:PF08448,PAS fold,other,no_match,other,no_match,,,False,1,PMN2A_0912
+pfam:PF08479,"POTRA domain, ShlB-type",other,no_match,other,no_match,,,False,1,PMN2A_0909
+pfam:PF08802,PF08802,other,no_match,other,no_match,,,False,1,PMN2A_1794
+pfam:PF10396,GTP-binding protein TrmE N-terminus,other,no_match,other,no_match,,,False,1,PMN2A_1556
+pfam:PF10417,C-terminal domain of 1-Cys peroxiredoxin,other,no_match,other,no_match,,,False,1,PMN2A_0352
+pfam:PF10555,Phospho-N-acetylmuramoyl-pentapeptide-transferase signature 1,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1320
+pfam:PF10664,Cyanobacterial and plastid NDH-1 subunit M,other,no_match,other,no_match,,,False,1,PMN2A_1511
+pfam:PF10716,NADH dehydrogenase transmembrane subunit,other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_0006
+pfam:PF11623,NAD(P)H dehydrogenase subunit S,other,enzyme_guard,other,enzyme_guard,dehydrogenase,,False,1,PMN2A_1180
+pfam:PF11909,NADH-quinone oxidoreductase cyanobacterial subunit N,other,enzyme_guard,other,enzyme_guard,oxidoreductase,,False,1,PMN2A_1130
+pfam:PF11910,Cyanobacterial and plant NDH-1 subunit O,other,no_match,other,no_match,,,False,1,PMN2A_1488
+pfam:PF11960,Domain of unknown function (DUF3474),other,no_match,other,no_match,,,False,1,PMN2A_0393
+pfam:PF12002,MgsA AAA+ ATPase C terminal,other,no_match,other,no_match,,,False,1,PMN2A_1441
+pfam:PF12263,Protein of unknown function (DUF3611),other,no_match,other,no_match,,,False,1,PMN2A_0838
+pfam:PF12344,Ultra-violet resistance protein B,other,no_match,other,no_match,,,False,1,PMN2A_1247
+pfam:PF12399,Branched-chain amino acid ATP-binding cassette transporter,atpase,seed,atpase,atpase,ATP-binding cassette,atpase,False,1,PMN2A_1045
+pfam:PF12631,MnmE helical domain,other,no_match,other,no_match,,,False,1,PMN2A_1556
+pfam:PF12700,PF12700,other,no_match,other,no_match,,,False,1,PMN2A_0747
+pfam:PF12704,MacB-like periplasmic core domain,permease,permease,permease,permease,MacB-like periplasmic core,,False,1,PMN2A_0294
+pfam:PF12849,PBP superfamily domain,substrate_binding,substrate_binding,substrate_binding,substrate_binding,PBP superfamily,,False,1,PMN2A_0441
+pfam:PF12894,Anaphase-promoting complex subunit 4 WD40 domain,other,no_match,other,no_match,,,False,1,PMN2A_1038
+pfam:PF12966,"N-ATPase, AtpR subunit",other,no_match,other,no_match,,,False,1,PMN2A_0987
+pfam:PF12974,"ABC transporter, phosphonate, periplasmic substrate-binding protein",substrate_binding,substrate_binding,substrate_binding,substrate_binding,substrate-binding,,False,1,PMN2A_0105
+pfam:PF13116,YhdP protein,other,no_match,other,no_match,,,False,1,PMN2A_0025
+pfam:PF13188,PAS domain,other,no_match,other,no_match,,,False,1,PMN2A_0437
+pfam:PF13193,AMP-binding enzyme C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_0057
+pfam:PF13237,4Fe-4S dicluster domain,other,no_match,other,no_match,,,False,1,PMN2A_1526
+pfam:PF13245,AAA domain,other,no_match,other,no_match,,,False,1,PMN2A_0646
+pfam:PF13347,MFS/sugar transport protein,single_carrier,single_carrier,single_carrier,single_carrier,MFS,,False,1,PMN2A_0894
+pfam:PF13368,Topoisomerase C-terminal repeat,other,no_match,other,no_match,,,False,1,PMN2A_1768
+pfam:PF13370,4Fe-4S single cluster domain of Ferredoxin I,other,no_match,other,no_match,,,False,1,PMN2A_1007
+pfam:PF13398,Peptidase M50B-like,other,enzyme_guard,other,enzyme_guard,Peptidase,,False,1,PMN2A_1868
+pfam:PF13409,"Glutathione S-transferase, N-terminal domain",other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_0002
+pfam:PF13416,Bacterial extracellular solute-binding protein,substrate_binding,substrate_binding,substrate_binding,substrate_binding,solute-binding,,False,1,PMN2A_0774
+pfam:PF13433,Periplasmic binding protein domain,substrate_binding,seed,substrate_binding,substrate_binding,Periplasmic binding,substrate_binding,False,1,PMN2A_1048
+pfam:PF13442,"Cytochrome C oxidase, cbb3-type, subunit III",other,no_match,other,no_match,,,False,1,PMN2A_0010
+pfam:PF13459,4Fe-4S single cluster domain,other,no_match,other,no_match,,,False,1,PMN2A_1007
+pfam:PF13460,NAD(P)H-binding,other,no_match,other,no_match,,,False,1,PMN2A_0209
+pfam:PF13538,UvrD-like helicase C-terminal domain,other,enzyme_guard,other,enzyme_guard,helicase,,False,1,PMN2A_0646
+pfam:PF13561,Enoyl-(Acyl carrier protein) reductase,other,enzyme_guard,other,enzyme_guard,reductase,,False,1,PMN2A_1785
+pfam:PF13579,Glycosyl transferase 4-like domain,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1732
+pfam:PF13589,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",other,enzyme_guard,other,enzyme_guard,kinase,,False,1,PMN2A_0306
+pfam:PF13604,AAA domain,other,no_match,other,no_match,,,False,1,PMN2A_0646
+pfam:PF13619,KTSC domain,other,no_match,other,no_match,,,False,1,PMN2A_1195
+pfam:PF13631,Cytochrome b(N-terminal)/b6/petB,other,no_match,other,no_match,,,False,1,PMN2A_1702
+pfam:PF13640,2OG-Fe(II) oxygenase superfamily,other,no_match,other,no_match,,,False,1,PMN2A_0775
+pfam:PF13641,Glycosyltransferase like family 2,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1257
+pfam:PF13692,Glycosyl transferases group 1,other,enzyme_guard,other,enzyme_guard,transferase,,False,1,PMN2A_1732
+pfam:PF13732,"ATP-binding protein DrrA1-3-like, C-terminal domain",atpase,atpase,atpase,atpase,ATP-binding protein DrrA,,False,1,PMN2A_1780
+pfam:PF13950,PF13950,other,no_match,other,no_match,,,False,1,PMN2A_0221
+pfam:PF14159,CAAD domains of cyanobacterial aminoacyl-tRNA synthetase,other,enzyme_guard,other,enzyme_guard,synthetase,,False,1,PMN2A_1139
+pfam:PF14437,MafB19-like deaminase,other,no_match,other,no_match,,,False,1,PMN2A_0143
+pfam:PF14520,Helix-hairpin-helix domain,other,no_match,other,no_match,,,False,1,PMN2A_0268
+pfam:PF14524,Wzt C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_1219
+pfam:PF14684,Tricorn protease C1 domain,other,enzyme_guard,other,enzyme_guard,protease,,False,1,PMN2A_0110
+pfam:PF16177,Acetyl-coenzyme A synthetase N-terminus,other,enzyme_guard,other,enzyme_guard,synthetase,,False,1,PMN2A_0057
+pfam:PF16193,AAA C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_1441
+pfam:PF16326,ABC transporter C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_0950
+pfam:PF16639,"Apocytochrome F, N-terminal",other,no_match,other,no_match,,,False,1,PMN2A_1793
+pfam:PF17191,RecG wedge domain,other,no_match,other,no_match,,,False,1,PMN2A_0160
+pfam:PF17284,Spermidine synthase tetramerisation domain,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_1286
+pfam:PF17755,UvrA DNA-binding domain,other,no_match,other,no_match,,,False,1,PMN2A_1323
+pfam:PF17760,UvrA interaction domain,other,no_match,other,no_match,,,False,1,PMN2A_1323
+pfam:PF17764,3^DNA-binding domain (3^BD),other,no_match,other,no_match,,,False,1,PMN2A_1830
+pfam:PF17820,PDZ domain,other,no_match,other,no_match,,,False,1,PMN2A_1456
+pfam:PF17848,Acetyl-CoA carboxylase zinc finger domain,other,no_match,other,no_match,,,False,1,PMN2A_0191
+pfam:PF17864,RuvB AAA lid domain,other,no_match,other,no_match,,,False,1,PMN2A_1192
+pfam:PF18074,Primosomal protein N C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_1830
+pfam:PF18319,PriA DNA helicase Cys-rich region (CRR) domain,other,enzyme_guard,other,enzyme_guard,helicase,,False,1,PMN2A_1830
+pfam:PF19112,Vanillate O-demethylase oxygenase C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_0218
+pfam:PF19300,"Binding-prot-dependent transport system membrane comp, N-term",permease,seed,permease,permease,membrane comp,permease,False,1,PMN2A_0705
+pfam:PF19833,"ATP-dependent DNA helicase RecG, domain 3, C-terminal",other,enzyme_guard,other,enzyme_guard,helicase,,False,1,PMN2A_0160
+pfam:PF21082,"Mechanosensitive ion channel MscS, C-terminal",single_carrier,single_carrier,single_carrier,single_carrier,channel,,False,1,PMN2A_0075
+pfam:PF21090,SecA P-loop domain,other,no_match,other,no_match,,,False,1,PMN2A_1220
+pfam:PF21156,"Isoamylase 1-3, C-terminal",other,no_match,other,no_match,,,False,1,PMN2A_0893
+pfam:PF21760,"Protein translocase subunit SecDF, P1 domain, N-terminal",other,no_match,other,no_match,,,False,1,PMN2A_0282
+pfam:PF21799,"Mur ligase MurD-like, N-terminal domain",other,no_match,other,no_match,,,False,1,PMN2A_0929
+pfam:PF22599,"SecDF, P1 head subdomain",other,no_match,other,no_match,,,False,1,PMN2A_0282
+pfam:PF22919,C-terminal domain of V and A type ATP synthase,other,enzyme_guard,other,enzyme_guard,synthase,,False,1,PMN2A_0970
+pfam:PF23562,AMP-binding enzyme C-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_1737
+pfam:PF24763,"CGL160, C-terminal",other,no_match,other,no_match,,,False,1,PMN2A_0987
+pfam:PF25471,Iron-sulfur subunit PetC transmembrane anchor,other,no_match,other,no_match,,,False,1,PMN2A_1794
+pfam:PF25954,"CusB-like, beta-barrel domain",other,no_match,other,no_match,,,False,1,PMN2A_0747
+pfam:PF25967,"RND MFPs, C-terminal permuted SH3 domain",other,no_match,other,no_match,,,False,1,PMN2A_0747
+pfam:PF25973,"CzcB-like, barrel-sandwich hybrid domain",other,no_match,other,no_match,,,False,1,PMN2A_0747
+pfam:PF26002,"AprE-like, beta-barrel domain",other,no_match,other,no_match,,,False,1,PMN2A_1225
+pfam:PF27431,UvrB third helical domain,other,no_match,other,no_match,,,False,1,PMN2A_1247
+pfam:PF27545,CsoS1D N-terminal domain,other,no_match,other,no_match,,,False,1,PMN2A_1876
+pfam:PF30482,PF30482,other,no_match,other,no_match,,,False,1,PMN2A_0806
+pfam:PF30483,PF30483,other,no_match,other,no_match,,,False,1,PMN2A_0806
+pfam:PF30516,PF30516,other,no_match,other,no_match,,,False,1,PMN2A_0912
+pfam:PF30518,PF30518,other,no_match,other,no_match,,,False,1,PMN2A_0369
+pfam:PF30527,PF30527,other,no_match,other,no_match,,,False,1,PMN2A_1489
+pfam:PF30533,PF30533,other,no_match,other,no_match,,,False,1,PMN2A_0796
+pfam:PF30609,PF30609,other,no_match,other,no_match,,,False,1,PMN2A_0337
+pfam:PF30621,PF30621,other,no_match,other,no_match,,,False,1,PMN2A_1848
+pfam:PF30776,PF30776,other,no_match,other,no_match,,,False,1,PMN2A_0234

@@ -1,0 +1,185 @@
+[
+ {
+  "script": "p1_collect_transporters.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 3.5,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2a_fetch_pfam_tcdb.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4"
+  ],
+  "exit": 0,
+  "seconds": 2.3,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2b_pfam_roles.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 1.0,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2c_requery_universe.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4"
+  ],
+  "exit": 0,
+  "seconds": 4.7,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2a_fetch_pfam_tcdb.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--universe-file",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4\\p2c_med4_universe.csv"
+  ],
+  "exit": 0,
+  "seconds": 2.4,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2b_pfam_roles.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--universe-file",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4\\p2c_med4_universe.csv",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 1.0,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p2c_requery_universe.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--universe-file",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4\\p2c_med4_universe.csv",
+   "--check-only"
+  ],
+  "exit": 0,
+  "seconds": 4.5,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p3_group_systems.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 5.4,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p4_neighbours.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 10.5,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p5_substrates.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 36.1,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p6_evidence_profiles.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 3.5,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p11_links_tiers_classes.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4",
+   "--pilot"
+  ],
+  "exit": 0,
+  "seconds": 10.9,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p12_compound_classes_layered.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4"
+  ],
+  "exit": 0,
+  "seconds": 10.6,
+  "stderr_tail": ""
+ },
+ {
+  "script": "p18_listing_basis.py",
+  "args": [
+   "--organism",
+   "Prochlorococcus MED4",
+   "--out-dir",
+   "analyses\\2026-10-06-pro_n_import_coculture\\methods\\data\\med4"
+  ],
+  "exit": 0,
+  "seconds": 0.8,
+  "stderr_tail": ""
+ }
+]

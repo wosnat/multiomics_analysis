@@ -1,0 +1,358 @@
+{
+ "likely_transporter_changes": [
+  {
+   "strain": "med4",
+   "kind": "universe",
+   "old": "strong",
+   "new": "none",
+   "n": 2
+  },
+  {
+   "strain": "mit9313",
+   "kind": "universe",
+   "old": "strong",
+   "new": "none",
+   "n": 2
+  },
+  {
+   "strain": "natl2a",
+   "kind": "universe",
+   "old": "strong",
+   "new": "none",
+   "n": 1
+  }
+ ],
+ "tier_changes": [
+  {
+   "strain": "med4",
+   "old": "Medium",
+   "new": "Low",
+   "n": 88
+  },
+  {
+   "strain": "med4",
+   "old": "Medium",
+   "new": "not_transporter",
+   "n": 2
+  },
+  {
+   "strain": "mit9313",
+   "old": "Medium",
+   "new": "Low",
+   "n": 123
+  },
+  {
+   "strain": "mit9313",
+   "old": "Medium",
+   "new": "not_transporter",
+   "n": 2
+  },
+  {
+   "strain": "natl2a",
+   "old": "Medium",
+   "new": "Low",
+   "n": 92
+  },
+  {
+   "strain": "natl2a",
+   "old": "Medium",
+   "new": "not_transporter",
+   "n": 1
+  }
+ ],
+ "tier_counts": [
+  {
+   "strain": "med4",
+   "tier": "High",
+   "before": 39,
+   "after": 39
+  },
+  {
+   "strain": "med4",
+   "tier": "Low",
+   "before": 62,
+   "after": 150
+  },
+  {
+   "strain": "med4",
+   "tier": "Medium",
+   "before": 122,
+   "after": 32
+  },
+  {
+   "strain": "med4",
+   "tier": "not_transporter",
+   "before": 93,
+   "after": 95
+  },
+  {
+   "strain": "mit9313",
+   "tier": "High",
+   "before": 64,
+   "after": 64
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Low",
+   "before": 98,
+   "after": 221
+  },
+  {
+   "strain": "mit9313",
+   "tier": "Medium",
+   "before": 170,
+   "after": 45
+  },
+  {
+   "strain": "mit9313",
+   "tier": "not_transporter",
+   "before": 130,
+   "after": 132
+  },
+  {
+   "strain": "natl2a",
+   "tier": "High",
+   "before": 42,
+   "after": 42
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Low",
+   "before": 70,
+   "after": 162
+  },
+  {
+   "strain": "natl2a",
+   "tier": "Medium",
+   "before": 128,
+   "after": 35
+  },
+  {
+   "strain": "natl2a",
+   "tier": "not_transporter",
+   "before": 92,
+   "after": 93
+  }
+ ],
+ "known_false_positive": [
+  {
+   "strain": "med4",
+   "system_id": "sys_PMM0804",
+   "member_names": "PMM0804:ftn",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",
+   "known_false_positive_reason": "known false positive: ferritin (product)"
+  },
+  {
+   "strain": "mit9313",
+   "system_id": "sys_PMT0495",
+   "member_names": "PMT0495:ftn",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",
+   "known_false_positive_reason": "known false positive: ferritin (product)"
+  },
+  {
+   "strain": "mit9313",
+   "system_id": "sys_PMT0499",
+   "member_names": "PMT0499:ftn",
+   "tier": "Medium",
+   "tier_reason": "strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",
+   "known_false_positive_reason": "known false positive: ferritin (product)"
+  }
+ ],
+ "fragments": [
+  {
+   "strain": "natl2a",
+   "locus_tag": "PMN2A_RS10340",
+   "fragment_of": "PMN2A_1298",
+   "gap_bp": 41,
+   "product": "ferredoxin--nitrite reductase"
+  }
+ ],
+ "review_list_n": 76,
+ "review_list_n_v1.3.0": 92,
+ "review_removed": 17,
+ "review_added": 1,
+ "link_rows_by_tier": [
+  {
+   "strain": "med4",
+   "table": "function_linked",
+   "system_tier": "Medium",
+   "rows": 22
+  },
+  {
+   "strain": "med4",
+   "table": "function_linked",
+   "system_tier": "High",
+   "rows": 6
+  },
+  {
+   "strain": "med4",
+   "table": "function_linked",
+   "system_tier": "not_transporter",
+   "rows": 5
+  },
+  {
+   "strain": "med4",
+   "table": "function_linked",
+   "system_tier": "Low",
+   "rows": 1
+  },
+  {
+   "strain": "med4",
+   "table": "function_linked",
+   "system_tier": "TOTAL",
+   "rows": 34,
+   "rows_v1.3.0": 34,
+   "rows_on_fragments": 0
+  },
+  {
+   "strain": "med4",
+   "table": "neighbour_linked",
+   "system_tier": "High",
+   "rows": 4
+  },
+  {
+   "strain": "med4",
+   "table": "neighbour_linked",
+   "system_tier": "Medium",
+   "rows": 1
+  },
+  {
+   "strain": "med4",
+   "table": "neighbour_linked",
+   "system_tier": "not_transporter",
+   "rows": 1
+  },
+  {
+   "strain": "med4",
+   "table": "neighbour_linked",
+   "system_tier": "TOTAL",
+   "rows": 6,
+   "rows_v1.3.0": 6,
+   "rows_on_fragments": 0
+  },
+  {
+   "strain": "mit9313",
+   "table": "function_linked",
+   "system_tier": "Medium",
+   "rows": 27
+  },
+  {
+   "strain": "mit9313",
+   "table": "function_linked",
+   "system_tier": "not_transporter",
+   "rows": 10
+  },
+  {
+   "strain": "mit9313",
+   "table": "function_linked",
+   "system_tier": "High",
+   "rows": 7
+  },
+  {
+   "strain": "mit9313",
+   "table": "function_linked",
+   "system_tier": "Low",
+   "rows": 4
+  },
+  {
+   "strain": "mit9313",
+   "table": "function_linked",
+   "system_tier": "TOTAL",
+   "rows": 48,
+   "rows_v1.3.0": 48,
+   "rows_on_fragments": 0
+  },
+  {
+   "strain": "mit9313",
+   "table": "neighbour_linked",
+   "system_tier": "High",
+   "rows": 8
+  },
+  {
+   "strain": "mit9313",
+   "table": "neighbour_linked",
+   "system_tier": "Low",
+   "rows": 5
+  },
+  {
+   "strain": "mit9313",
+   "table": "neighbour_linked",
+   "system_tier": "not_transporter",
+   "rows": 2
+  },
+  {
+   "strain": "mit9313",
+   "table": "neighbour_linked",
+   "system_tier": "Medium",
+   "rows": 2
+  },
+  {
+   "strain": "mit9313",
+   "table": "neighbour_linked",
+   "system_tier": "TOTAL",
+   "rows": 17,
+   "rows_v1.3.0": 17,
+   "rows_on_fragments": 0
+  },
+  {
+   "strain": "natl2a",
+   "table": "function_linked",
+   "system_tier": "Medium",
+   "rows": 17
+  },
+  {
+   "strain": "natl2a",
+   "table": "function_linked",
+   "system_tier": "not_transporter",
+   "rows": 8
+  },
+  {
+   "strain": "natl2a",
+   "table": "function_linked",
+   "system_tier": "High",
+   "rows": 5
+  },
+  {
+   "strain": "natl2a",
+   "table": "function_linked",
+   "system_tier": "Low",
+   "rows": 3
+  },
+  {
+   "strain": "natl2a",
+   "table": "function_linked",
+   "system_tier": "TOTAL",
+   "rows": 33,
+   "rows_v1.3.0": 33,
+   "rows_on_fragments": 0
+  },
+  {
+   "strain": "natl2a",
+   "table": "neighbour_linked",
+   "system_tier": "High",
+   "rows": 4
+  },
+  {
+   "strain": "natl2a",
+   "table": "neighbour_linked",
+   "system_tier": "Medium",
+   "rows": 3
+  },
+  {
+   "strain": "natl2a",
+   "table": "neighbour_linked",
+   "system_tier": "not_transporter",
+   "rows": 2
+  },
+  {
+   "strain": "natl2a",
+   "table": "neighbour_linked",
+   "system_tier": "TOTAL",
+   "rows": 9,
+   "rows_v1.3.0": 9,
+   "rows_on_fragments": 1
+  }
+ ]
+}

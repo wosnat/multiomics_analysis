@@ -1,0 +1,13 @@
+strain,compound_class,dedicated_H,dedicated_M,dedicated_systems,broad_H,broad_M,broad_systems
+med4,ammonium,1,0,PMM0263:amt1 (High),3,0,PMM0084:ktrB|PMM0085:ktrA (High) || PMM0704: (High) || PMM1600:nhaS (High)
+med4,urea,1,0,PMM0970:urtA|PMM0971:urtB|PMM0972:urtC|PMM0973:urtD|PMM0974:urtE (High),0,0,
+med4,cyanate,1,0,PMM0370:cynA|PMM0371:cynB|PMM0372:cynD (High),0,0,
+med4,nitrite,0,0,,1,0,PMM0370:cynA|PMM0371:cynB|PMM0372:cynD (High)
+med4,nitrate,0,0,,3,0,PMM0214:sul3 (High) || PMM0370:cynA|PMM0371:cynB|PMM0372:cynD (High) || PMM0644:sul1 (High)
+med4,peptides,1,0,PMM0192:ddpD|PMM0421:dppC|PMM1048:dppB|PMM1049:dppA (High),6,0,"PMM0065:mcyH (High) || PMM0561: (High) || PMM0827:mdlB (High) || PMM0954: (High) || PMM1099: (High) || PMM1239:hetA (High) || PMM0110:gst (Medium, known FP) || PMM0566:gst (Medium, known FP) || PMM0630:gst (Medium, known FP) || PMM1295:sodX (Medium, known FP)"
+med4,amino acids,0,0,,8,1,"PMM0065:mcyH (High) || PMM0083:citT (High) || PMM0214:sul3 (High) || PMM0644:sul1 (High) || PMM0827:mdlB (High) || PMM1099: (High) || PMM1239:hetA (High) || PMM1323:glcH (High) || PMM0261:murJ (Medium) || PMM1295:sodX (Medium, known FP)"
+med4,amino sugars,0,0,,1,0,PMM1323:glcH (High)
+med4,polyamines,0,0,,2,0,PMM0084:ktrB|PMM0085:ktrA (High) || PMM1323:glcH (High)
+med4,nucleobases/nucleosides,0,0,,1,0,PMM0370:cynA|PMM0371:cynB|PMM0372:cynD (High)
+med4,osmolytes,0,0,,1,0,PMM0192:ddpD|PMM0421:dppC|PMM1048:dppB|PMM1049:dppA (High)
+med4,amines,0,0,,0,0,

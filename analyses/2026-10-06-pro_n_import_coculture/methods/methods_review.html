@@ -1,0 +1,215 @@
+<title>Prochlorococcus N Import: Methods Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#f6f8f7; --panel:#ffffff; --ink:#14191b; --slate:#4e5a5e; --muted:#76817f;
+  --rule:#dce2df; --accent:#0b6676; --accent-soft:#e3eff1;
+  --caveat:#8a5200; --caveat-soft:#fbf1e2; --good:#0a7d38; --good-soft:#e6f3ea;
+  --fig-ground:#fcfcfb;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+    --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+    --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+    --fig-ground:#fcfcfb;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+  --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+  --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+  --fig-ground:#fcfcfb;
+}
+body{background:var(--ground);color:var(--ink);font:16px/1.6 var(--body);}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:40px 80px;}
+.col{max-width:68ch;}
+header{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:8px;}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);}
+h1{font:600 clamp(30px,4.5vw,44px)/1.1 var(--display);margin:14px 0 12px;text-wrap:balance;letter-spacing:-.01em;}
+h2{font:600 26px/1.2 var(--display);margin:56px 0 10px;text-wrap:balance;}
+h3{font:600 17px/1.3 var(--body);margin:26px 0 6px;}
+p{margin:0 0 12px;}
+.lede{font-size:18px;color:var(--slate);}
+code,.mono{font-family:var(--mono);font-size:.9em;}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font:13px/1.5 var(--mono);color:var(--muted);margin-top:14px;}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:28px 0 8px;}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;}
+.stat .n{font:600 28px/1.1 var(--display);font-variant-numeric:tabular-nums;}
+.stat .l{font-size:14px;color:var(--slate);margin-top:4px;}
+figure{margin:22px 0 8px;}
+figure img{display:block;width:100%;height:auto;background:var(--fig-ground);border:1px solid var(--rule);border-radius:4px;}
+figcaption{font-size:14px;color:var(--slate);margin-top:8px;max-width:80ch;}
+figcaption b{color:var(--ink);}
+.callout{border-left:3px solid var(--caveat);background:var(--caveat-soft);padding:12px 16px;border-radius:0 6px 6px 0;margin:18px 0;max-width:80ch;}
+.callout .tag{font:600 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--caveat);display:block;margin-bottom:6px;}
+.callout.ok{border-left-color:var(--good);background:var(--good-soft);}
+.callout.ok .tag{color:var(--good);}
+.tablewrap{overflow-x:auto;margin:16px 0;}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:640px;}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top;}
+th{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+td.num{font-variant-numeric:tabular-nums;font-family:var(--mono);}
+.decision{display:grid;grid-template-columns:minmax(0,1fr);gap:0;border-top:1px solid var(--rule);}
+.decision > div{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--rule);}
+.decision .h{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding:10px 0;}
+.decision b{display:block;margin-bottom:2px;}
+.gain{color:var(--good);}
+.cost{color:var(--caveat);}
+@media (max-width:720px){
+  .decision > div{grid-template-columns:minmax(0,1fr);gap:6px;}
+  .decision .h{display:none;}
+}
+ul.tight{margin:6px 0 12px;padding-left:20px;}
+ul.tight li{margin:3px 0;}
+.approve{background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:20px 22px;margin-top:22px;}
+.approve h3{margin-top:0;color:var(--accent);}
+footer{margin-top:56px;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px;}
+a{color:var(--accent);}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Methods milestone · decide-gate review</div>
+  <h1>Which nitrogen import routes can <i>Prochlorococcus</i> annotation support?</h1>
+  <p class="lede col">The first Run milestone built, for three <i>Prochlorococcus</i> strains, every annotated transport system with what it carries, how sure the annotation is, and which enzymes back it. No expression data has been pulled yet; this page is for deciding whether these tables are good enough for the analysis milestone to read expression against.</p>
+  <div class="meta"><span>analysis · 2026-10-06-pro_n_import_coculture</span><span>KG 0.1.0-alpha.7</span><span>module n_transport v1.6.1</span><span>status · best effort, with caveats</span></div>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="n">3 strains</div><div class="l">MED4 · MIT9313 · NATL2A, each built from its own annotation (no ortholog mapping)</div></div>
+  <div class="stat"><div class="n">39 · 64 · 42</div><div class="l">High-tier transport systems (complete, credible, specific call)</div></div>
+  <div class="stat"><div class="n">193 tests · 6 reviews</div><div class="l">toy tests, an independent answer key, two API reviews, three critic passes, plus a six-part QC pack</div></div>
+  <div class="stat"><div class="n">~83%</div><div class="l">of N-or-unknown substrate groups have no compound class: the main caveat</div></div>
+</div>
+
+<section>
+  <h2>The key result</h2>
+  <p class="col" id="fig2-text">For the five inorganic nitrogen sources the annotation gives a clear answer, because whether the strain can use the compound is testable. All three strains have a complete, high-confidence ammonium importer (<code>amt1</code>) and urea importer (<code>urtA–E</code>, with urease linked both by position and by curated role). Only MED4 has the cyanate system (<code>cynA/B/D</code> with cyanase). Only MIT9313 and NATL2A can take up and use nitrite (<code>focA</code> next to <code>nirA</code>). No strain can use nitrate, even though transporters list it. Each strain also has other usable systems that list ammonium, but all of them are K⁺/Na⁺ transporters (<code>ktrAB</code>, <code>nhaS</code>) whose database family lists ammonium. They are shown as “broad”, not as extra ammonium routes. For organic nitrogen, use cannot be tested. The figure separates <b>dedicated</b> listings, where the gene description names the class, from <b>broad</b> ones, where the class is inherited from the database subfamily. By that split, the dipeptide system <code>dpp</code> is the only dedicated organic-N importer in MED4. MIT9313 adds 4 amino-acid systems, two of them osmoprotectant (<code>proVWX</code>, <code>proP</code>), and NATL2A adds 1.</p>
+  <figure>
+    <img src="figures/fig2_n_systems_matrix.png" alt="Matrix of nitrogen compound classes by strain, coloured by the confidence tier of the best usable transport system, with linked enzymes listed.">
+    <figcaption><b>Block A</b>: inorganic N, coloured by the tier of the best <i>usable</i> system; “listed, not usable” means transporters list the compound but no gene of that strain reacts with it (e.g. MED4’s cyanate importer also lists nitrite and nitrate). N: / F: = neighbour-linked / function-linked enzymes. <b>Block B</b>: organic N, number of High (H) and Medium (M) systems whose annotation lists the class, with examples carrying Cyanorak’s curated “amino acids, peptides and amines” class where one exists — a listing, not evidence of transport.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>From genome to tiered systems</h2>
+  <p class="col">Each strain's genes narrow to a transporter universe, then to systems, then to confidence tiers. After the last fix, most systems sit in Low — not because they are wrong, but because the annotation behind them is only a catalogue listing or a catch-all family. High and Medium together are the candidate set the analysis will read expression against.</p>
+  <figure>
+    <img src="figures/fig1_build_funnel.png" alt="Bar chart per strain: genes in the KG, transporter universe, systems, and systems by tier.">
+    <figcaption><b>MED4</b> 1,973 genes → 360 transporter genes → 316 systems (39 High, 32 Medium, 150 Low, 95 not a transporter). MIT9313 and NATL2A follow the same shape. Source: <code>methods/figures/fig1_build_funnel.png</code>.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>The trade-offs, decision by decision</h2>
+  <p class="col">Every rule here was a choice between two ways of being wrong. These are the ones that shape what the analysis will see; all were agreed with you at the decide gate.</p>
+  <div class="decision" role="table" aria-label="Decisions with gains and costs">
+    <div class="h" role="row"><span role="columnheader">Decision</span><span role="columnheader">What it buys</span><span role="columnheader">What it costs</span></div>
+    <div role="row"><span role="cell"><b>Surface everything, flag instead of filter</b>Every annotated substrate kept, with depth, evidence, catch-all-family and cofactor flags.</span><span role="cell" class="gain">Nothing hidden; every later call is traceable to a row.</span><span role="cell" class="cost">Big tables (15–27k rows per strain); the analysis must read the flags, not the raw rows.</span></div>
+    <div role="row"><span role="cell"><b>Systems built per strain</b>No ortholog mapping; each strain from its own annotation.</span><span role="cell" class="gain">Strain-specific biology shows (nitrite route in MIT9313/NATL2A only).</span><span role="cell" class="cost">A difference between strains can be an annotation difference, not biology.</span></div>
+    <div role="row"><span role="cell"><b>Tiers by credibility and completeness</b>Not by the type of sequence evidence.</span><span role="cell" class="gain">No penalty on multi-gene ABC systems (figure below).</span><span role="cell" class="cost">Low tier is large and mixed; a few real transporters sit there (catalogue-only), and <code>ictB</code> dropped out.</span></div>
+    <div role="row"><span role="cell"><b>Curated roles and KEGG KOs only upgrade catalogue-listed genes</b></span><span role="cell" class="gain">Recovers <code>focA</code> (curated nitrite transporter) without promoting enzymes.</span><span role="cell" class="cost">Ferritin, glutathione S-transferases and <code>sodX</code> stay as disclosed false positives.</span></div>
+    <div role="row"><span role="cell"><b>Two kinds of linked enzyme</b>Neighbour-linked (±8 genes) and function-linked (shared curated role).</span><span role="cell" class="gain">Keeps urease (opposite strand) and <code>glnA</code>/<code>glsF</code>; drops the <code>pncC</code> coincidence.</span><span role="cell" class="cost">Only ~6 links per strain concern N import; most function links join GST paralogs. Co-annotation, not co-regulation.</span></div>
+    <div role="row"><span role="cell"><b>Compound classes by name only</b></span><span role="cell" class="gain">No wrong classes from pathway or family proxies (those were ~50% wrong).</span><span role="cell" class="cost">~83% of N-or-unknown groups unclassified; organic-N usability can't be tested.</span></div>
+  </div>
+
+  <h3>Which linking rule links which enzyme</h3>
+  <figure>
+    <img src="figures/fig5_linking_rules_tradeoff.png" alt="Matrix of five enzyme–transporter cases against four linking rules, with the biologically expected answer.">
+    <figcaption>No single rule gets all five cases right; the two kinds together match the biological expectation in every row. <b>Window</b> catches urease but also <code>pncC</code>; <b>same-strand run</b> loses urease; <b>window minus ubiquitous</b> drops <code>pncC</code> but cannot reach <code>glnA</code>/<code>glsF</code>; the <b>shared curated role</b> reaches them at any distance.</figcaption>
+  </figure>
+
+  <h3>Tiers before and after the catalogue-only fix</h3>
+  <figure>
+    <img src="figures/fig3_tiers_tradeoff.png" alt="Left: tier counts per strain before and after the fix. Right: share of High among single-gene and multi-gene systems.">
+    <figcaption><b>(a)</b> Moving catalogue-only systems to Low cut Medium from 122 to 32 (MED4) and removed helicases, proteases and chaperones from the candidate set; High did not change. <b>(b)</b> Among High + Medium systems, multi-gene systems reach High at least as often as single-gene ones (MED4 64% vs 53%), so the ABC-penalty concern does not materialise.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Compound classes, and the main caveat</h2>
+  <figure>
+    <img src="figures/fig4_compound_classes.png" alt="Stacked bars per strain of substrate groups by compound class status.">
+    <figcaption>In each strain roughly one N-or-unknown substrate group in six gets a class (MED4: 121 classified; 368 N-containing and 232 formula-less groups unclassified, of 721). Many of the unclassified are drugs, siderophores, vitamins and lipids listed by export and catch-all families. Of those carried by High/Medium systems outside catch-all families, 76 remain for review.</figcaption>
+  </figure>
+  <div class="callout"><span class="tag">Best effort</span>The knowledge graph stores ChEBI identifiers but not the ChEBI class hierarchy, so “is this a dipeptide, a siderophore, an osmolyte?” can only be answered by name. Using KEGG pathway membership or the carrying transporter family as a classifier was tried and rejected — about half the sampled assignments were wrong (thyroxine as an amino acid, GDP-sugars as drugs). The gap is logged as a KG enhancement, and the analysis is to be revisited when it is filled.</div>
+</section>
+
+<section>
+  <h2>How the build was checked</h2>
+  <p class="col">Each layer caught a different kind of error. The toy tests stayed green throughout; the problems were found by the layers after them.</p>
+  <figure>
+    <img src="figures/fig6_verification_layers.png" alt="Horizontal bars of findings per verification layer, by severity.">
+    <figcaption><b>Pilot vs independent answer key</b> — wrong API defaults, rule flaws, KG data gaps (e.g. an undercount from a silent size filter in a Plan-phase query). <b>API-usage review</b> — paging that silently swapped rows while totals matched; a “most-specific” field misread. <b>Critic passes</b> — the narrative over-reading sound data (a curated table shown as a file view; helicases in the Medium tier).</figcaption>
+  </figure>
+  <div class="callout ok"><span class="tag">Holds</span>Pre-registered expected-negative, per genome: nitrate is unusable in all three strains (no gene reacts with it); nitrite is usable only where nitrite reductase exists — MIT9313 and NATL2A, each with the nitrite transporter <code>focA</code> next to <code>nirA</code>. For the two control strains this check is close to circular (expectation and outcome share data); the informative cases are <code>focA</code> and MED4's cyanate system.</div>
+</section>
+
+<section>
+  <h2>Extra checks before approval, and what they changed</h2>
+  <p class="col">You asked for more correctness checks before approving. Six were run. Three of them found real problems, which were fixed in versions 1.5–1.6.1, and a third critic pass reviewed the fixes. No nitrogen system changed membership or tier at any point. All High-tier counts are unchanged (39 · 64 · 42).</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Check</th><th>Found</th><th>Change</th></tr></thead>
+    <tbody>
+      <tr><td>Neighbouring transporter genes split into different systems</td><td>Exporters <code>evrA/B</code> + <code>evrC</code> and <code>devB</code> + <code>devC/A</code> were split, in every strain</td><td>Directly adjacent ABC parts now join (a second permease or a membrane-fusion gene is allowed). 5 systems merged.</td></tr>
+      <tr><td>Genes with a curated Cyanorak transport role, by tier (fig 8)</td><td>Porins, a chloride channel and “permease” genes were missing from the list. <code>ggtA–D</code> and others were stuck in Low.</td><td>Curated-role genes are a 4th source. A curated role lifts “broad family only” to Medium: 23 loci, 12 of them efflux/export proteins (now flagged), 6 DMT permeases, 5 import-type.</td></tr>
+      <tr><td>Listed substrate vs gene description, High systems</td><td><code>sul1/sul3</code> list amino acids and nitrate; <code>ktrA/nhaS</code> list ammonium. The database lists the whole subfamily’s substrates.</td><td>Each listing is marked dedicated or broad. A multidrug pump with only a curated role is not dedicated.</td></tr>
+      <tr><td>Random 10 systems per tier</td><td><code>sodX</code> and a glutathione S-transferase sampled in Medium</td><td>Both now flagged as known false positives, with ferritin and a MAPEG protein</td></tr>
+      <tr><td>Grouping gap 100 / 200 / 500 bp (fig 9)</td><td>Nitrogen systems identical; tier counts move by ≤ 3</td><td>none</td></tr>
+      <tr><td>Same transporter across strains</td><td>amt1, urt, dpp, mnt, phn, fut, sul, ktr: same tier in all three. MIT9313 pst has two <code>pstS</code>.</td><td>none (gene names only; no orthologs used)</td></tr>
+    </tbody>
+  </table></div>
+  <figure>
+    <img src="figures/fig7_genemap_med4.png" alt="Gene maps of MED4 nitrogen-relevant loci with system membership and tiers.">
+    <figcaption><b>MED4 nitrogen loci</b>, ±8 genes, coloured by the tier of the gene’s system. The <code>cyn</code>, <code>urt</code>, <code>amt1</code> and <code>pst</code> systems and the three <code>dpp</code> loci are grouped as expected; <code>evrABC</code> next to <code>urt</code> is now one system. The MIT9313 and NATL2A maps are in <code>methods/figures/</code>.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/fig8_q_roles_vs_tier.png" alt="Bar chart of curated Cyanorak transport-role genes by tier per strain.">
+    <figcaption><b>Recall of curated transporter genes.</b> After v1.6 no curated-role gene is Low or missing. Those marked “not a transporter” are biosynthesis enzymes carrying the role by mistake (<code>hisF</code>, <code>hemH</code>, <code>metC</code>) and porins with no transporter domain.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/fig9_gap_sensitivity.png" alt="Tier counts under three grouping gap settings per strain.">
+    <figcaption><b>Sensitivity to the grouping gap.</b> The chosen 200 bp gap reproduces the main tables exactly, and 100 or 500 bp change only a few Low systems.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>What is still wrong, and stays visible</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Item</th><th>Where</th><th>Handling</th></tr></thead>
+    <tbody>
+      <tr><td>Ferritin counted as a transporter</td><td class="mono">PMM0804, PMT0495, PMT0499</td><td>flag <code>known_false_positive</code>; can't be separated from <code>focA</code> by rule</td></tr>
+      <tr><td>Glutathione S-transferases, MAPEG, <code>sodX</code> in Medium</td><td>all three strains</td><td>TCDB lists them; flagged <code>known_false_positive</code></td></tr>
+      <tr><td>Most curated-role promotions are export machinery</td><td>12 of 23 lifted loci</td><td>flag <code>efflux_annotated</code>; import readings must check it</td></tr>
+      <tr><td>Substrate lists are per subfamily, not per gene</td><td>all organic-N classes</td><td>dedicated vs broad split; “dedicated” = the annotation names the class, not proof of transport</td></tr>
+      <tr><td>Porins not in the candidate set</td><td><code>som</code> PMM1121, PMN2A_0440</td><td>no transporter domain or TCDB; disclosed</td></tr>
+      <tr><td>Peptides: usability untestable</td><td>dpp systems</td><td>no KEGG reactions on dipeptides; labelled <code>can_use not applicable</code></td></tr>
+      <tr><td>Nitrate has two unlinked IDs in the KG</td><td>ChEBI 14654 · KEGG C00244</td><td>linked by name, flagged <code>name_soft</code></td></tr>
+      <tr><td>Genes without coordinates</td><td>96 MED4 · 517 MIT9313 · 152 NATL2A</td><td>reported, cannot be neighbours</td></tr>
+      <tr><td>No chemical categories in the KG</td><td>all classes</td><td>names only; revisit trigger</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="approve">
+    <h3>What approving means</h3>
+    <ul class="tight">
+      <li>Commit the methods milestone: code, tests, per-strain tables, QC pack and figures (about 35 MB tracked; large tables that can be regenerated and old-version archives are git-ignored).</li>
+      <li>The analysis milestone then opens with co-define: pull protein and RNA for the High and Medium systems and their linked enzymes, and apply the pre-registered labels — the first time expression data is read.</li>
+      <li>The analysis is to be revisited once the open KG items (chemical categories, metabolite ID equivalence) are resolved.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>Figures: <code>analyses/2026-10-06-pro_n_import_coculture/methods/figures/</code> (PNG + SVG, script <code>methods/scripts/f1_methods_figures.py</code>). Details: <code>methods/notebook.md</code>, <code>methods/critical_review.md</code>, <code>gaps_and_friction.md</code>.</footer>
+</div>

@@ -1,0 +1,10 @@
+strain,case,system_id,tier,tier_reason,function_linked,neighbour_linked,n_neighbour_linked_enzymes,n_function_linked_enzymes
+med4,cyn,sys_PMM0370,High,strong + role-complete + resolved,PMM0373(cynS)->Cyanate via cyanorak.role:E.4,PMM0373(cynS)->Cyanate,,
+med4,urt,sys_PMM0970,High,strong + role-complete + resolved,PMM0963(ureC)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0964(ureB)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4; PMM0965(ureA)->Urea via cyanorak.role:D.1.3|cyanorak.role:E.4,PMM0963(ureC)->Urea; PMM0964(ureB)->Urea; PMM0965(ureA)->Urea,,
+med4,dpp,sys_PMM0192,High,strong + role-complete + resolved,,,,
+med4,amt1,sys_PMM0263,High,strong + role-complete + resolved,PMM0920(glnA)->Ammonia via cyanorak.role:E.4; PMM1512(glsF)->Ammonia via cyanorak.role:E.4,,,
+med4,pst,sys_PMM0710,High,strong + role-complete + resolved,,,,
+med4,salY,sys_PMM0913,Low,superfamily-only (all TCDB members family_inferred),,,,
+med4,fadD,sys_PMM0402,Low,score-0-only (max class 1-3 TCDB score 0),,,,
+mit9313,focA,sys_PMT2240,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",PMT2239(nirA)->Nitrite,PMT2239(nirA)->Nitrite,1.0,1.0
+natl2a,focA,sys_PMN2A_1299,Medium,"strong, role-incomplete [score-0-only overridden by curated Cyanorak transport role]",PMN2A_1298(nirA)->Nitrite,PMN2A_1298(nirA)->Nitrite; PMN2A_RS10340(nirA)->Nitrite [fragment_of PMN2A_1298],1.0,1.0
