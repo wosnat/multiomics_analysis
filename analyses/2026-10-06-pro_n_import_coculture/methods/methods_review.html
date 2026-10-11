@@ -105,7 +105,7 @@ a{color:var(--accent);}
   <p class="col">Each strain's genes narrow to a transporter universe, then to systems, then to confidence tiers. After the last fix, most systems sit in Low — not because they are wrong, but because the annotation behind them is only a catalogue listing or a catch-all family. High and Medium together are the candidate set the analysis will read expression against.</p>
   <figure>
     <img src="figures/fig1_build_funnel.png" alt="Bar chart per strain: genes in the KG, transporter universe, systems, and systems by tier.">
-    <figcaption><b>MED4</b> 1,973 genes → 360 transporter genes → 316 systems (39 High, 32 Medium, 150 Low, 95 not a transporter). MIT9313 and NATL2A follow the same shape. Source: <code>methods/figures/fig1_build_funnel.png</code>.</figcaption>
+    <figcaption><b>MED4</b> 1,973 genes → 366 transporter genes → 320 systems (39 High, 34 Medium, 146 Low, 101 not a transporter; v1.6.1). MIT9313 and NATL2A follow the same shape. Source: <code>methods/figures/fig1_build_funnel.png</code>.</figcaption>
   </figure>
 </section>
 
@@ -131,7 +131,7 @@ a{color:var(--accent);}
   <h3>Tiers before and after the catalogue-only fix</h3>
   <figure>
     <img src="figures/fig3_tiers_tradeoff.png" alt="Left: tier counts per strain before and after the fix. Right: share of High among single-gene and multi-gene systems.">
-    <figcaption><b>(a)</b> Moving catalogue-only systems to Low cut Medium from 122 to 32 (MED4) and removed helicases, proteases and chaperones from the candidate set; High did not change. <b>(b)</b> Among High + Medium systems, multi-gene systems reach High at least as often as single-gene ones (MED4 64% vs 53%), so the ABC-penalty concern does not materialise.</figcaption>
+    <figcaption><b>(a)</b> Moving catalogue-only systems to Low cut Medium from 122 to 32 (MED4, at v1.4; 34 after the later fixes) and removed helicases, proteases and chaperones from the candidate set; High did not change. <b>(b)</b> Among High + Medium systems, multi-gene systems reach High at least as often as single-gene ones (MED4 64% vs 53%), so the ABC-penalty concern does not materialise.</figcaption>
   </figure>
 </section>
 
