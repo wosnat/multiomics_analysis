@@ -183,6 +183,29 @@ a{color:var(--accent);}
 </section>
 
 <section>
+  <h2>Systems that list several nitrogen classes</h2>
+  <p class="col">About half of the High and Medium systems list more than one nitrogen class: 10 of 18 in MED4, 21 of 39 in MIT9313 and 12 of 22 in NATL2A. The commonest pair is amino acids + peptides (4 / 9 / 6 systems), never as a dedicated listing. The extreme case is one gene in MIT9313 (<code>putP</code>) and in NATL2A (PMN2A_RS08290) that lists 7 classes. Even MED4’s cyanate system lists nitrite, nitrate and a pyrimidine as well as cyanate.</p>
+  <figure>
+    <img src="figures/fig10_class_overlap.png" alt="UpSet-style chart of nitrogen class combinations listed by single systems, per strain.">
+    <figcaption><b>Which classes are listed together.</b> Bars count systems with each class set. Dark = at least one dedicated class; light = broad listings only; e# = efflux-annotated systems. Amines are not listed by any High/Medium system.</figcaption>
+  </figure>
+  <h3>Can the genome’s enzymes tell the classes apart?</h3>
+  <p class="col">The idea is to read the expression of genes that could consume each listed class alongside the transporter. That is a question for the analysis step, not a rule yet. As a first look, for each class of a multi-class system: how many genes in the strain have a KEGG reaction on the listed compounds, and how many of those are also linked to the system.</p>
+  <figure>
+    <img src="figures/fig11_class_support.png" alt="Grid of multi-class systems by nitrogen class, dot size = number of genome enzymes, ring = linked enzyme.">
+    <figcaption><b>Metabolic support per listed class</b>, 15 of the 43 multi-class systems (all are in <code>data/qc/q2_support_system_class.csv</code>). Number = genes with a reaction on the class’s listed compounds / of those, linked to the system.</figcaption>
+  </figure>
+  <ul class="tight col">
+    <li>Only 7 of 101 system × class cells have a linked enzyme. Clear cases: <code>cyn</code> → cyanase for cyanate; MIT9313 <code>proVWX</code> → glycine-betaine methyltransferases for osmolytes. For <code>putP</code> and PMN2A_RS08290 the only link is <code>hisD</code> (amino acids). Their urea cells point to urease, but it is not linked.</li>
+    <li>49 of 101 cells have no enzymes at all. Peptides and nitrate are real gaps: there are no KEGG reactions on dipeptides, and these strains have no nitrate reductase.</li>
+    <li>Only 2 systems have one enzyme that supports two of their classes (MIT9313 <code>ilvA</code>, <code>gadA</code>), so a supporting gene usually points to one class.</li>
+  </ul>
+  <div class="callout"><span class="tag">Caveats</span>
+    <b>Cysteine ID split:</b> the 20 amino-acid cells with 0 enzymes all list only “Cysteine” (KEGG C00736). The KG keeps it apart from “L-Cysteine” (C00097, 15 enzymes in MED4), so these zeros are an ID gap, not biology. <b>Glutathione counted as a peptide:</b> the “8” under peptides for <code>mcyH</code>, <code>mdlB</code>, <code>hetA</code> and PMM1099 is glutathione metabolism (GSTs, <code>gshB</code>, glyoxalases), not peptide uptake. <b>Starvation:</b> under N starvation many assimilation genes rise together, so co-expression of a supporting gene is weak evidence on its own.
+  </div>
+</section>
+
+<section>
   <h2>What is still wrong, and stays visible</h2>
   <div class="tablewrap"><table>
     <thead><tr><th>Item</th><th>Where</th><th>Handling</th></tr></thead>
@@ -191,6 +214,7 @@ a{color:var(--accent);}
       <tr><td>Glutathione S-transferases, MAPEG, <code>sodX</code> in Medium</td><td>all three strains</td><td>TCDB lists them; flagged <code>known_false_positive</code></td></tr>
       <tr><td>Most curated-role promotions are export machinery</td><td>12 of 23 lifted loci</td><td>flag <code>efflux_annotated</code>; import readings must check it</td></tr>
       <tr><td>Substrate lists are per subfamily, not per gene</td><td>all organic-N classes</td><td>dedicated vs broad split; “dedicated” = the annotation names the class, not proof of transport</td></tr>
+      <tr><td>Cysteine vs L-Cysteine are separate KG nodes</td><td>KEGG C00736 · C00097</td><td>“0 enzymes” for 20 amino-acid cells is an ID gap; logged for the KG</td></tr>
       <tr><td>Porins not in the candidate set</td><td><code>som</code> PMM1121, PMN2A_0440</td><td>no transporter domain or TCDB; disclosed</td></tr>
       <tr><td>Peptides: usability untestable</td><td>dpp systems</td><td>no KEGG reactions on dipeptides; labelled <code>can_use not applicable</code></td></tr>
       <tr><td>Nitrate has two unlinked IDs in the KG</td><td>ChEBI 14654 · KEGG C00244</td><td>linked by name, flagged <code>name_soft</code></td></tr>

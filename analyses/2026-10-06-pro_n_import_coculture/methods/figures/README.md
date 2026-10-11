@@ -59,3 +59,30 @@ Command:
 | fig7_genemap_<strain> | <strain>/raw/p3_<strain>_genome_coords.csv, p3_<strain>_gene_systems_gap200_roleT_crossT.csv, p11 systems / neighbour_linked / function_linked | qc/q1a_genemap_genes.csv |
 | fig8_q_roles_vs_tier | genes_by_ontology(cyanorak_role Q.1-Q.9) per strain, p3 gene_systems, p11 systems | qc/q1b_q_role_by_tier.csv, q1b_q_role_genes.csv, q1b_q_role_missed.csv |
 | fig9_gap_sensitivity | <strain>/[grid/]p3_<strain>_{gene_systems,systems}_gap{100,200,500}_roleT_crossT.csv; tiers recomputed with n_transport.system_tier | qc/q1e_tier_counts_by_gap.csv, q1e_n_relevant_membership_by_gap.csv |
+
+## Class overlap and metabolic support (scripts/q2_class_overlap.py; v1.6.1 tables only, no KG calls; CSVs in data/qc/q2_*)
+
+Command:
+
+```
+.venv/Scripts/python.exe analyses/2026-10-06-pro_n_import_coculture/methods/scripts/q2_class_overlap.py
+```
+
+| figure | sources | table |
+|---|---|---|
+| fig10_class_overlap | <strain>/p18_<strain>_listing_basis.csv (High/Medium, known false positives excluded) | qc/q2_overlap_combinations.csv, q2_overlap_cooccurrence.csv, q2_overlap_classes_per_system.csv, q2_overlap_systems.csv |
+| fig11_class_support | p18 listing basis; p12_<strain>_system_substrates_classified.csv (most_specific, non-lumping, non-currency rows: genome_enzyme_loci, function_linked_loci, neighbour_linked_loci); p11_<strain>_fragments.csv | qc/q2_support_system_class.csv, q2_support_shared_enzymes.csv |
+
+- **fig10.** This is an UpSet-style plot with one panel per strain, showing the top 12 class sets.
+  - Each bar is the number of systems whose N-class set is exactly the dotted set below it.
+  - The dark part of a bar counts systems with at least one dedicated class. The light, dotted part counts systems with broad listings only.
+  - "e#" above a bar is the number of efflux-annotated systems in that set.
+- **fig11.** The rows are multi-class systems (2 or more classes): the 4 required examples, then the others by number of classes, 15 rows in all. The columns are classes.
+  - The number in a cell is genome enzymes / linked enzymes.
+    - Genome enzymes are genes in the strain with a KEGG reaction on a listed compound of that class (genes that could consume it).
+    - Linked enzymes are those genes that are also neighbour-linked to the system, or share a curated role with it (fragments excluded).
+  - Fill: dark = dedicated, light = broad.
+  - A hollow dot means 0 genome enzymes; a blue rim on a hollow dot marks a dedicated listing.
+  - A black ring means at least 1 linked enzyme.
+  - The full table covers all 43 multi-class systems.
+

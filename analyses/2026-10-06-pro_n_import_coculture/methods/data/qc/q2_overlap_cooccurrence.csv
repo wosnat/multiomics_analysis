@@ -1,0 +1,433 @@
+strain,class_a,class_b,systems_listing_both
+med4,ammonium,ammonium,4
+med4,ammonium,urea,0
+med4,ammonium,cyanate,0
+med4,ammonium,nitrite,0
+med4,ammonium,nitrate,0
+med4,ammonium,amino acids,0
+med4,ammonium,peptides,0
+med4,ammonium,amino sugars,0
+med4,ammonium,polyamines,1
+med4,ammonium,nucleobases/nucleosides,0
+med4,ammonium,osmolytes,0
+med4,ammonium,amines,0
+med4,urea,ammonium,0
+med4,urea,urea,1
+med4,urea,cyanate,0
+med4,urea,nitrite,0
+med4,urea,nitrate,0
+med4,urea,amino acids,0
+med4,urea,peptides,0
+med4,urea,amino sugars,0
+med4,urea,polyamines,0
+med4,urea,nucleobases/nucleosides,0
+med4,urea,osmolytes,0
+med4,urea,amines,0
+med4,cyanate,ammonium,0
+med4,cyanate,urea,0
+med4,cyanate,cyanate,1
+med4,cyanate,nitrite,1
+med4,cyanate,nitrate,1
+med4,cyanate,amino acids,0
+med4,cyanate,peptides,0
+med4,cyanate,amino sugars,0
+med4,cyanate,polyamines,0
+med4,cyanate,nucleobases/nucleosides,1
+med4,cyanate,osmolytes,0
+med4,cyanate,amines,0
+med4,nitrite,ammonium,0
+med4,nitrite,urea,0
+med4,nitrite,cyanate,1
+med4,nitrite,nitrite,1
+med4,nitrite,nitrate,1
+med4,nitrite,amino acids,0
+med4,nitrite,peptides,0
+med4,nitrite,amino sugars,0
+med4,nitrite,polyamines,0
+med4,nitrite,nucleobases/nucleosides,1
+med4,nitrite,osmolytes,0
+med4,nitrite,amines,0
+med4,nitrate,ammonium,0
+med4,nitrate,urea,0
+med4,nitrate,cyanate,1
+med4,nitrate,nitrite,1
+med4,nitrate,nitrate,3
+med4,nitrate,amino acids,2
+med4,nitrate,peptides,0
+med4,nitrate,amino sugars,0
+med4,nitrate,polyamines,0
+med4,nitrate,nucleobases/nucleosides,1
+med4,nitrate,osmolytes,0
+med4,nitrate,amines,0
+med4,amino acids,ammonium,0
+med4,amino acids,urea,0
+med4,amino acids,cyanate,0
+med4,amino acids,nitrite,0
+med4,amino acids,nitrate,2
+med4,amino acids,amino acids,9
+med4,amino acids,peptides,4
+med4,amino acids,amino sugars,1
+med4,amino acids,polyamines,1
+med4,amino acids,nucleobases/nucleosides,0
+med4,amino acids,osmolytes,0
+med4,amino acids,amines,0
+med4,peptides,ammonium,0
+med4,peptides,urea,0
+med4,peptides,cyanate,0
+med4,peptides,nitrite,0
+med4,peptides,nitrate,0
+med4,peptides,amino acids,4
+med4,peptides,peptides,7
+med4,peptides,amino sugars,0
+med4,peptides,polyamines,0
+med4,peptides,nucleobases/nucleosides,0
+med4,peptides,osmolytes,1
+med4,peptides,amines,0
+med4,amino sugars,ammonium,0
+med4,amino sugars,urea,0
+med4,amino sugars,cyanate,0
+med4,amino sugars,nitrite,0
+med4,amino sugars,nitrate,0
+med4,amino sugars,amino acids,1
+med4,amino sugars,peptides,0
+med4,amino sugars,amino sugars,1
+med4,amino sugars,polyamines,1
+med4,amino sugars,nucleobases/nucleosides,0
+med4,amino sugars,osmolytes,0
+med4,amino sugars,amines,0
+med4,polyamines,ammonium,1
+med4,polyamines,urea,0
+med4,polyamines,cyanate,0
+med4,polyamines,nitrite,0
+med4,polyamines,nitrate,0
+med4,polyamines,amino acids,1
+med4,polyamines,peptides,0
+med4,polyamines,amino sugars,1
+med4,polyamines,polyamines,2
+med4,polyamines,nucleobases/nucleosides,0
+med4,polyamines,osmolytes,0
+med4,polyamines,amines,0
+med4,nucleobases/nucleosides,ammonium,0
+med4,nucleobases/nucleosides,urea,0
+med4,nucleobases/nucleosides,cyanate,1
+med4,nucleobases/nucleosides,nitrite,1
+med4,nucleobases/nucleosides,nitrate,1
+med4,nucleobases/nucleosides,amino acids,0
+med4,nucleobases/nucleosides,peptides,0
+med4,nucleobases/nucleosides,amino sugars,0
+med4,nucleobases/nucleosides,polyamines,0
+med4,nucleobases/nucleosides,nucleobases/nucleosides,1
+med4,nucleobases/nucleosides,osmolytes,0
+med4,nucleobases/nucleosides,amines,0
+med4,osmolytes,ammonium,0
+med4,osmolytes,urea,0
+med4,osmolytes,cyanate,0
+med4,osmolytes,nitrite,0
+med4,osmolytes,nitrate,0
+med4,osmolytes,amino acids,0
+med4,osmolytes,peptides,1
+med4,osmolytes,amino sugars,0
+med4,osmolytes,polyamines,0
+med4,osmolytes,nucleobases/nucleosides,0
+med4,osmolytes,osmolytes,1
+med4,osmolytes,amines,0
+med4,amines,ammonium,0
+med4,amines,urea,0
+med4,amines,cyanate,0
+med4,amines,nitrite,0
+med4,amines,nitrate,0
+med4,amines,amino acids,0
+med4,amines,peptides,0
+med4,amines,amino sugars,0
+med4,amines,polyamines,0
+med4,amines,nucleobases/nucleosides,0
+med4,amines,osmolytes,0
+med4,amines,amines,0
+mit9313,ammonium,ammonium,7
+mit9313,ammonium,urea,0
+mit9313,ammonium,cyanate,0
+mit9313,ammonium,nitrite,0
+mit9313,ammonium,nitrate,0
+mit9313,ammonium,amino acids,1
+mit9313,ammonium,peptides,0
+mit9313,ammonium,amino sugars,0
+mit9313,ammonium,polyamines,0
+mit9313,ammonium,nucleobases/nucleosides,0
+mit9313,ammonium,osmolytes,0
+mit9313,ammonium,amines,0
+mit9313,urea,ammonium,0
+mit9313,urea,urea,2
+mit9313,urea,cyanate,0
+mit9313,urea,nitrite,0
+mit9313,urea,nitrate,1
+mit9313,urea,amino acids,1
+mit9313,urea,peptides,1
+mit9313,urea,amino sugars,1
+mit9313,urea,polyamines,1
+mit9313,urea,nucleobases/nucleosides,0
+mit9313,urea,osmolytes,1
+mit9313,urea,amines,0
+mit9313,cyanate,ammonium,0
+mit9313,cyanate,urea,0
+mit9313,cyanate,cyanate,0
+mit9313,cyanate,nitrite,0
+mit9313,cyanate,nitrate,0
+mit9313,cyanate,amino acids,0
+mit9313,cyanate,peptides,0
+mit9313,cyanate,amino sugars,0
+mit9313,cyanate,polyamines,0
+mit9313,cyanate,nucleobases/nucleosides,0
+mit9313,cyanate,osmolytes,0
+mit9313,cyanate,amines,0
+mit9313,nitrite,ammonium,0
+mit9313,nitrite,urea,0
+mit9313,nitrite,cyanate,0
+mit9313,nitrite,nitrite,0
+mit9313,nitrite,nitrate,0
+mit9313,nitrite,amino acids,0
+mit9313,nitrite,peptides,0
+mit9313,nitrite,amino sugars,0
+mit9313,nitrite,polyamines,0
+mit9313,nitrite,nucleobases/nucleosides,0
+mit9313,nitrite,osmolytes,0
+mit9313,nitrite,amines,0
+mit9313,nitrate,ammonium,0
+mit9313,nitrate,urea,1
+mit9313,nitrate,cyanate,0
+mit9313,nitrate,nitrite,0
+mit9313,nitrate,nitrate,3
+mit9313,nitrate,amino acids,3
+mit9313,nitrate,peptides,1
+mit9313,nitrate,amino sugars,1
+mit9313,nitrate,polyamines,1
+mit9313,nitrate,nucleobases/nucleosides,0
+mit9313,nitrate,osmolytes,1
+mit9313,nitrate,amines,0
+mit9313,amino acids,ammonium,1
+mit9313,amino acids,urea,1
+mit9313,amino acids,cyanate,0
+mit9313,amino acids,nitrite,0
+mit9313,amino acids,nitrate,3
+mit9313,amino acids,amino acids,28
+mit9313,amino acids,peptides,10
+mit9313,amino acids,amino sugars,4
+mit9313,amino acids,polyamines,2
+mit9313,amino acids,nucleobases/nucleosides,0
+mit9313,amino acids,osmolytes,5
+mit9313,amino acids,amines,0
+mit9313,peptides,ammonium,0
+mit9313,peptides,urea,1
+mit9313,peptides,cyanate,0
+mit9313,peptides,nitrite,0
+mit9313,peptides,nitrate,1
+mit9313,peptides,amino acids,10
+mit9313,peptides,peptides,13
+mit9313,peptides,amino sugars,1
+mit9313,peptides,polyamines,1
+mit9313,peptides,nucleobases/nucleosides,0
+mit9313,peptides,osmolytes,2
+mit9313,peptides,amines,0
+mit9313,amino sugars,ammonium,0
+mit9313,amino sugars,urea,1
+mit9313,amino sugars,cyanate,0
+mit9313,amino sugars,nitrite,0
+mit9313,amino sugars,nitrate,1
+mit9313,amino sugars,amino acids,4
+mit9313,amino sugars,peptides,1
+mit9313,amino sugars,amino sugars,4
+mit9313,amino sugars,polyamines,2
+mit9313,amino sugars,nucleobases/nucleosides,0
+mit9313,amino sugars,osmolytes,1
+mit9313,amino sugars,amines,0
+mit9313,polyamines,ammonium,0
+mit9313,polyamines,urea,1
+mit9313,polyamines,cyanate,0
+mit9313,polyamines,nitrite,0
+mit9313,polyamines,nitrate,1
+mit9313,polyamines,amino acids,2
+mit9313,polyamines,peptides,1
+mit9313,polyamines,amino sugars,2
+mit9313,polyamines,polyamines,2
+mit9313,polyamines,nucleobases/nucleosides,0
+mit9313,polyamines,osmolytes,1
+mit9313,polyamines,amines,0
+mit9313,nucleobases/nucleosides,ammonium,0
+mit9313,nucleobases/nucleosides,urea,0
+mit9313,nucleobases/nucleosides,cyanate,0
+mit9313,nucleobases/nucleosides,nitrite,0
+mit9313,nucleobases/nucleosides,nitrate,0
+mit9313,nucleobases/nucleosides,amino acids,0
+mit9313,nucleobases/nucleosides,peptides,0
+mit9313,nucleobases/nucleosides,amino sugars,0
+mit9313,nucleobases/nucleosides,polyamines,0
+mit9313,nucleobases/nucleosides,nucleobases/nucleosides,1
+mit9313,nucleobases/nucleosides,osmolytes,0
+mit9313,nucleobases/nucleosides,amines,0
+mit9313,osmolytes,ammonium,0
+mit9313,osmolytes,urea,1
+mit9313,osmolytes,cyanate,0
+mit9313,osmolytes,nitrite,0
+mit9313,osmolytes,nitrate,1
+mit9313,osmolytes,amino acids,5
+mit9313,osmolytes,peptides,2
+mit9313,osmolytes,amino sugars,1
+mit9313,osmolytes,polyamines,1
+mit9313,osmolytes,nucleobases/nucleosides,0
+mit9313,osmolytes,osmolytes,6
+mit9313,osmolytes,amines,0
+mit9313,amines,ammonium,0
+mit9313,amines,urea,0
+mit9313,amines,cyanate,0
+mit9313,amines,nitrite,0
+mit9313,amines,nitrate,0
+mit9313,amines,amino acids,0
+mit9313,amines,peptides,0
+mit9313,amines,amino sugars,0
+mit9313,amines,polyamines,0
+mit9313,amines,nucleobases/nucleosides,0
+mit9313,amines,osmolytes,0
+mit9313,amines,amines,0
+natl2a,ammonium,ammonium,4
+natl2a,ammonium,urea,0
+natl2a,ammonium,cyanate,0
+natl2a,ammonium,nitrite,0
+natl2a,ammonium,nitrate,0
+natl2a,ammonium,amino acids,0
+natl2a,ammonium,peptides,0
+natl2a,ammonium,amino sugars,0
+natl2a,ammonium,polyamines,0
+natl2a,ammonium,nucleobases/nucleosides,0
+natl2a,ammonium,osmolytes,0
+natl2a,ammonium,amines,0
+natl2a,urea,ammonium,0
+natl2a,urea,urea,2
+natl2a,urea,cyanate,0
+natl2a,urea,nitrite,0
+natl2a,urea,nitrate,1
+natl2a,urea,amino acids,1
+natl2a,urea,peptides,1
+natl2a,urea,amino sugars,1
+natl2a,urea,polyamines,1
+natl2a,urea,nucleobases/nucleosides,0
+natl2a,urea,osmolytes,1
+natl2a,urea,amines,0
+natl2a,cyanate,ammonium,0
+natl2a,cyanate,urea,0
+natl2a,cyanate,cyanate,0
+natl2a,cyanate,nitrite,0
+natl2a,cyanate,nitrate,0
+natl2a,cyanate,amino acids,0
+natl2a,cyanate,peptides,0
+natl2a,cyanate,amino sugars,0
+natl2a,cyanate,polyamines,0
+natl2a,cyanate,nucleobases/nucleosides,0
+natl2a,cyanate,osmolytes,0
+natl2a,cyanate,amines,0
+natl2a,nitrite,ammonium,0
+natl2a,nitrite,urea,0
+natl2a,nitrite,cyanate,0
+natl2a,nitrite,nitrite,0
+natl2a,nitrite,nitrate,0
+natl2a,nitrite,amino acids,0
+natl2a,nitrite,peptides,0
+natl2a,nitrite,amino sugars,0
+natl2a,nitrite,polyamines,0
+natl2a,nitrite,nucleobases/nucleosides,0
+natl2a,nitrite,osmolytes,0
+natl2a,nitrite,amines,0
+natl2a,nitrate,ammonium,0
+natl2a,nitrate,urea,1
+natl2a,nitrate,cyanate,0
+natl2a,nitrate,nitrite,0
+natl2a,nitrate,nitrate,3
+natl2a,nitrate,amino acids,3
+natl2a,nitrate,peptides,1
+natl2a,nitrate,amino sugars,1
+natl2a,nitrate,polyamines,1
+natl2a,nitrate,nucleobases/nucleosides,0
+natl2a,nitrate,osmolytes,1
+natl2a,nitrate,amines,0
+natl2a,amino acids,ammonium,0
+natl2a,amino acids,urea,1
+natl2a,amino acids,cyanate,0
+natl2a,amino acids,nitrite,0
+natl2a,amino acids,nitrate,3
+natl2a,amino acids,amino acids,14
+natl2a,amino acids,peptides,7
+natl2a,amino acids,amino sugars,2
+natl2a,amino acids,polyamines,2
+natl2a,amino acids,nucleobases/nucleosides,0
+natl2a,amino acids,osmolytes,2
+natl2a,amino acids,amines,0
+natl2a,peptides,ammonium,0
+natl2a,peptides,urea,1
+natl2a,peptides,cyanate,0
+natl2a,peptides,nitrite,0
+natl2a,peptides,nitrate,1
+natl2a,peptides,amino acids,7
+natl2a,peptides,peptides,10
+natl2a,peptides,amino sugars,1
+natl2a,peptides,polyamines,1
+natl2a,peptides,nucleobases/nucleosides,0
+natl2a,peptides,osmolytes,2
+natl2a,peptides,amines,0
+natl2a,amino sugars,ammonium,0
+natl2a,amino sugars,urea,1
+natl2a,amino sugars,cyanate,0
+natl2a,amino sugars,nitrite,0
+natl2a,amino sugars,nitrate,1
+natl2a,amino sugars,amino acids,2
+natl2a,amino sugars,peptides,1
+natl2a,amino sugars,amino sugars,2
+natl2a,amino sugars,polyamines,2
+natl2a,amino sugars,nucleobases/nucleosides,0
+natl2a,amino sugars,osmolytes,1
+natl2a,amino sugars,amines,0
+natl2a,polyamines,ammonium,0
+natl2a,polyamines,urea,1
+natl2a,polyamines,cyanate,0
+natl2a,polyamines,nitrite,0
+natl2a,polyamines,nitrate,1
+natl2a,polyamines,amino acids,2
+natl2a,polyamines,peptides,1
+natl2a,polyamines,amino sugars,2
+natl2a,polyamines,polyamines,2
+natl2a,polyamines,nucleobases/nucleosides,0
+natl2a,polyamines,osmolytes,1
+natl2a,polyamines,amines,0
+natl2a,nucleobases/nucleosides,ammonium,0
+natl2a,nucleobases/nucleosides,urea,0
+natl2a,nucleobases/nucleosides,cyanate,0
+natl2a,nucleobases/nucleosides,nitrite,0
+natl2a,nucleobases/nucleosides,nitrate,0
+natl2a,nucleobases/nucleosides,amino acids,0
+natl2a,nucleobases/nucleosides,peptides,0
+natl2a,nucleobases/nucleosides,amino sugars,0
+natl2a,nucleobases/nucleosides,polyamines,0
+natl2a,nucleobases/nucleosides,nucleobases/nucleosides,0
+natl2a,nucleobases/nucleosides,osmolytes,0
+natl2a,nucleobases/nucleosides,amines,0
+natl2a,osmolytes,ammonium,0
+natl2a,osmolytes,urea,1
+natl2a,osmolytes,cyanate,0
+natl2a,osmolytes,nitrite,0
+natl2a,osmolytes,nitrate,1
+natl2a,osmolytes,amino acids,2
+natl2a,osmolytes,peptides,2
+natl2a,osmolytes,amino sugars,1
+natl2a,osmolytes,polyamines,1
+natl2a,osmolytes,nucleobases/nucleosides,0
+natl2a,osmolytes,osmolytes,3
+natl2a,osmolytes,amines,0
+natl2a,amines,ammonium,0
+natl2a,amines,urea,0
+natl2a,amines,cyanate,0
+natl2a,amines,nitrite,0
+natl2a,amines,nitrate,0
+natl2a,amines,amino acids,0
+natl2a,amines,peptides,0
+natl2a,amines,amino sugars,0
+natl2a,amines,polyamines,0
+natl2a,amines,nucleobases/nucleosides,0
+natl2a,amines,osmolytes,0
+natl2a,amines,amines,0

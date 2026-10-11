@@ -1,0 +1,167 @@
+{
+ "classes_per_system": [
+  {
+   "strain": "med4",
+   "n_classes": 1,
+   "systems": 8
+  },
+  {
+   "strain": "med4",
+   "n_classes": 2,
+   "systems": 8
+  },
+  {
+   "strain": "med4",
+   "n_classes": 3,
+   "systems": 1
+  },
+  {
+   "strain": "med4",
+   "n_classes": 4,
+   "systems": 1
+  },
+  {
+   "strain": "mit9313",
+   "n_classes": 1,
+   "systems": 18
+  },
+  {
+   "strain": "mit9313",
+   "n_classes": 2,
+   "systems": 19
+  },
+  {
+   "strain": "mit9313",
+   "n_classes": 3,
+   "systems": 1
+  },
+  {
+   "strain": "mit9313",
+   "n_classes": 7,
+   "systems": 1
+  },
+  {
+   "strain": "natl2a",
+   "n_classes": 1,
+   "systems": 10
+  },
+  {
+   "strain": "natl2a",
+   "n_classes": 2,
+   "systems": 10
+  },
+  {
+   "strain": "natl2a",
+   "n_classes": 3,
+   "systems": 1
+  },
+  {
+   "strain": "natl2a",
+   "n_classes": 7,
+   "systems": 1
+  }
+ ],
+ "top5_combinations": {
+  "med4": [
+   {
+    "class_set": "amino acids|peptides",
+    "systems": 4,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 1
+   },
+   {
+    "class_set": "ammonium",
+    "systems": 3,
+    "with_dedicated_class": 1,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "nitrate|amino acids",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "amino acids",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "peptides",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 2
+   }
+  ],
+  "mit9313": [
+   {
+    "class_set": "amino acids|peptides",
+    "systems": 9,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 4
+   },
+   {
+    "class_set": "amino acids",
+    "systems": 8,
+    "with_dedicated_class": 2,
+    "efflux_annotated": 2
+   },
+   {
+    "class_set": "ammonium",
+    "systems": 6,
+    "with_dedicated_class": 1,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "amino acids|osmolytes",
+    "systems": 4,
+    "with_dedicated_class": 2,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "amino acids|amino sugars",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 0
+   }
+  ],
+  "natl2a": [
+   {
+    "class_set": "amino acids|peptides",
+    "systems": 6,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 2
+   },
+   {
+    "class_set": "ammonium",
+    "systems": 4,
+    "with_dedicated_class": 1,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "amino acids",
+    "systems": 3,
+    "with_dedicated_class": 1,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "nitrate|amino acids",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 0
+   },
+   {
+    "class_set": "peptides",
+    "systems": 2,
+    "with_dedicated_class": 0,
+    "efflux_annotated": 2
+   }
+  ]
+ },
+ "multi_class_cells": 101,
+ "cells_zero_genome_enzymes": 49,
+ "cells_linked_gt0": 7,
+ "shared_enzyme_pairs": 2,
+ "examples_missing": []
+}

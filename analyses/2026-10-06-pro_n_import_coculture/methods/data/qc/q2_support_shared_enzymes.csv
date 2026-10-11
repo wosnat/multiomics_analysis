@@ -1,0 +1,3 @@
+strain,system_id,member_names,class_a,class_b,n_shared,shared_loci
+mit9313,sys_PMT0515,PMT0515:,ammonium,amino acids,1,PMT0684:ilvA
+mit9313,sys_PMT0909,PMT0909:,amino acids,osmolytes,1,PMT0474:gadA

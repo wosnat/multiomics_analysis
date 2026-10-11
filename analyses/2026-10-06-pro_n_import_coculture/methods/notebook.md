@@ -832,6 +832,32 @@ expectations):
   ferritin (product match; `data/p16_known_false_positive.csv`).
 - **Housekeeping:** the 6 grouping settings not chosen moved to `data/<strain>/grid/`.
 
+**Class overlap and metabolic support (2026-10-11, researcher question; `scripts/q2_class_overlap.py`,
+`data/qc/q2_*`, fig10–fig11; no rule change).**
+- **Overlap.** Of High/Medium systems (false positives excluded), 10/18 (MED4), 21/39 (MIT9313) and
+  12/22 (NATL2A) list ≥ 2 N classes. The commonest set is amino acids + peptides (4 / 9 / 6 systems),
+  never dedicated. MIT9313 `putP` (sys_PMT1502) and NATL2A PMN2A_RS08290 (sys_PMN2A_1011) list
+  7 classes each.
+- **Support.** For each multi-class system × class (101 cells): genes in the strain with a KEGG
+  reaction on the listed compounds ("genome enzymes"), and those also linked to the system.
+  - **Linked in 7/101 cells.** These include cyn → `cynS` (cyanate); MIT9313 proVWX → `gbmt1`/`gbmt2`;
+    putP and PMN2A_RS08290 → `hisD` (amino acids).
+  - **No genome enzymes in 49/101 cells:**
+    - 20 amino-acid cells list only "Cysteine" (kegg C00736), a separate KG node from
+      "L-Cysteine" (C00097, 15 enzymes in MED4). This is an ID gap, not biology.
+    - Nitrate: no nitrate reductase (real).
+    - Peptides on dpp: no KEGG reactions (real).
+  - **Glutathione is counted under peptides.** The "8 enzymes" for MED4 mcyH/mdlB/PMM1099/hetA are
+    glutathione-metabolism genes.
+  - **Shared enzymes are rare:** only MIT9313 ilvA PMT0684 (ammonium + amino acids, sys_PMT0515) and
+    gadA PMT0474 (amino acids + osmolytes, sys_PMT0909) support two classes of the same system.
+- **For the analysis co-define [interpretation]:** reading the expression of each class's genome
+  enzymes alongside the transporter could weigh classes against each other. Three limits apply:
+  - N starvation raises assimilation genes broadly;
+  - peptides and nitrate have no enzymes to read;
+  - the Cysteine split must be fixed or worked around first, by adding a stereo-generic equivalence
+    to the compound groups.
+
 **"Linked enzyme" means co-annotation, not co-regulation:** an enzyme with a KEGG reaction on a
 compound the system carries and either a shared curated Cyanorak role (function-linked) or
 position within ±8 genes (neighbour-linked). In each strain only about 6 rows concern N import

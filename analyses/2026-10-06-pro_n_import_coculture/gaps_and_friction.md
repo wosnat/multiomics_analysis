@@ -487,3 +487,18 @@ lifts superfamily-only to Medium (researcher-approved).
 **Downstream impact.** For the Alteromonas analysis, which has no Cyanorak roles, the equivalent
 recall check needs another curated source (e.g. BRITE transporter KOs alone, or product strings).
 Note this in the sibling analysis's co-define.
+
+### 2026-10-11 — Generic vs stereo-specific compound nodes are not linked (KG)
+
+**What happened.** The class-overlap check found that TCDB substrate rows point at "Cysteine"
+(kegg.compound:C00736) while metabolism reactions use "L-Cysteine" (C00097). Our equivalence groups
+link IDs and exact names, so the two stay apart. C00736 has 0 reacting genes in MED4; C00097 has 15. As a
+result, 20 of the 49 zero-enzyme system × class cells are an ID artefact. This is the same kind of gap as
+nitrate (chebi:14654 vs C00244), but the nitrate pair was caught by a name match and cysteine was not.
+
+**Workaround.** Disclosed only (fig11 caption, notebook). The fix belongs in the compound-equivalence
+step before the analysis milestone reads metabolic support.
+
+**Downstream impact.** KG: metabolite nodes need a generic ↔ stereo-specific (D/L) equivalence edge.
+Until then, every "can this be consumed" test on amino acids can under-count. Added to the open items.
+
