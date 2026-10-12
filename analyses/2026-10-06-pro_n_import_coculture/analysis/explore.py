@@ -277,3 +277,20 @@ def ec_class(ec_id):
 
 MARKERS_NOTE = ("starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; "
                 "E10/E13 marker medians use glnA/ntcA/glnB only where stated)")
+
+
+# --------------------------------------------------------------------------- E16
+def combine_labels(labels) -> str:
+    """Combine per-gene/system status labels with the E10 rule (up only / down only / both = mixed)."""
+    labels = list(labels)
+    det = [x for x in labels if x not in ("not detected", "not listed")]
+    if not det:
+        return "not listed" if "not listed" in labels else "not detected"
+    nu, nd = det.count("up"), det.count("down")
+    return "mixed" if nu and nd else "up" if nu else "down" if nd else "ns"
+
+
+def count_up(labels):
+    """(n with status up, n detected/listed) over system labels."""
+    det = [x for x in labels if x not in ("not detected", "not listed")]
+    return det.count("up"), len(det)

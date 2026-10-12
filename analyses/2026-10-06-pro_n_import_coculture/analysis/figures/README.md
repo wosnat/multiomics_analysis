@@ -152,3 +152,10 @@ These are the researcher's own CC1A3 culture measurements (the same cultures as 
 | e15_culture_n | (a) MED4 cells/ml (FCM, log), axenic and coculture. (b) HOT1A3 cells/ml, alone and coculture. Time-series bottles: points, with a line for the geometric mean of samples with >40 events. Omics bottles: diamonds. Hollow = ≤40 events; × = notebook "problematic" sample. (c) NH4 µM as used in the N budget sheet: replicates as points, mean line starting from the medium value (146.99 µM). Grey verticals = protein/RNA sampling days. | data/external/cc1a3/cc1a3_tidy.csv; explore/e15_culture_summary.csv |
 
 Note: `data/explore/e15_culture_summary.csv` and the e15 figure also contain the external values. They are **not** git-ignored.
+
+
+## E16: conclusion figure (scripts/e16_conclusion_figure.py; no KG calls)
+
+| Figure | What it shows | Source tables |
+|---|---|---|
+| e16_conclusion | Status grid for the N import routes: amt1, urt, urease, cyn, cynS and dpp; the broad listings ("n up / n detected" over the E10 "N broad" systems, known FPs excluded); and the regulators glnA/ntcA/glnB (combined with the E10 rule; number = median percentile). Column groups: coculture protein d18–d89 · axenic protein d14/d31/d89 · acute N starvation (Tolonen 6–48 h; Read 3/12/24 h, filtered) · Aharonovich 2016 MED4. Colour = status; number = median rank percentile of detected subunits; n.l. = not listed. A short reading column is on the right. | explore/e16_conclusion.csv (from e10_cells.csv, e10_rows.csv) |

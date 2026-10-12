@@ -39,19 +39,22 @@ Outcomes are [KG] from the analysis milestone; the "Reading" column is the asses
 protein and RNA through 89 days of N-limited coculture with *Alteromonas*. We compared them with
 three kinds of reference:
 - the axenic culture of the same study (already declining by day 14);
-- acute N starvation (Tolonen 2006: N deprivation, and growth on cyanate or urea);
+- acute N starvation (Tolonen 2006: N deprivation, and growth on cyanate or urea; Read 2017: N-depleted RNA-seq, 3–24 h);
 - N-replete cocultures (Aharonovich 2016; Biller 2016).
 
-**What was up in coculture** (protein; rank 1.0 = most up-regulated gene):
+**What was up in coculture** (protein; rank 1.0 = most up-regulated gene; figure: `analysis/figures/e16_conclusion.png`):
 
-| N route | Coculture (d18–d89) | Axenic (declining, d14–d89) | Acute N starvation | N-replete coculture |
+![Which N import routes are up in coculture, and in which reference conditions](../analysis/figures/e16_conclusion.png)
+
+
+| N route | Coculture (d18–d89) | Axenic (declining, d14–d89) | Acute N starvation: Tolonen 2006 / Read 2017 | N-replete coculture |
 |---|---|---|---|---|
-| Ammonium (`amt1`) | Up from day 31; top 2% by day 60 (0.98) | Not up at d14–d31; up at d89 (death) | Up | Not up |
-| Urea (urt + urease) | Up; top 1–7% | urt drops (down at d31); urease stays up | Up | Not up |
-| Cyanate (cyn + cyanase) | Up; top 1% | Up at d14, then mid-rank (0.67–0.71) | Up | Not up |
-| Dipeptides (dpp) | Up (`dppA`, `dppC`; 0.82–0.89) | Only `dppC`, late | Not up | Not up |
-| Amino acids, polyamines, osmolytes (broad listings) | No consistent signal | No signal | Not up | Not up |
-| N-starvation regulators (`glnA`, `ntcA`, `glnB`) | Up | Up | Up | Not up |
+| Ammonium (`amt1`) | Up from day 31; top 2% by day 60 (0.98) | Not up at d14–d31; up at d89 (death) | Up / up (3 h) | Not up |
+| Urea (urt + urease) | Up; top 1–7% | urt dips (down at d31, 0.57 at d89); urease stays up | Up / up (12–24 h) | Not up |
+| Cyanate (cyn + cyanase) | Up; top 1% | Up at d14, then mid-rank (0.67–0.71) | Up / up (12–24 h) | Not up |
+| Dipeptides (dpp) | Up (`dppA`, `dppC`; 0.82–0.89) | Only `dppC`, late (system rank 0.34) | Not up / not listed | Not up |
+| Amino acids, polyamines, osmolytes (broad listings) | No consistent signal | No signal | Not up / 2 of 22 up at 24 h | Not up |
+| N-starvation regulators (`glnA`, `ntcA`, `glnB`) | Up | Up | Up / `glnA`, `ntcA` up | Not up |
 
 **What it means:**
 1. MED4 runs a full N-starvation response throughout the coculture. Its ammonium, urea and cyanate
@@ -60,7 +63,7 @@ three kinds of reference:
    The coculture response matches N limitation rather than a general partner effect.
 3. The coculture keeps the urea and cyanate systems that the declining axenic culture lets drop. The
    ammonium transporter comes up later in both.
-4. Dipeptide import is raised mainly in coculture, but its subunits don't move together.
+4. Dipeptide import is raised in coculture; in the dying axenic culture only one subunit rises, late.
 5. No amino-acid, polyamine or osmolyte route responds.
 
 **What it can't tell us.** The import systems don't report their own substrate. In calibration

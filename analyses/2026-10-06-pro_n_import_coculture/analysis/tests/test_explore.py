@@ -254,5 +254,22 @@ class TestEcClass(unittest.TestCase):
             self.assertIsNone(ex.ec_class(x))
 
 
+class TestCombineLabels(unittest.TestCase):
+    def test_combine(self):
+        self.assertEqual(ex.combine_labels(["up", "ns", "up"]), "up")
+        self.assertEqual(ex.combine_labels(["up", "down"]), "mixed")
+        self.assertEqual(ex.combine_labels(["ns", "not detected"]), "ns")
+        self.assertEqual(ex.combine_labels(["not detected", "not detected"]), "not detected")
+        self.assertEqual(ex.combine_labels(["not listed"]), "not listed")
+        self.assertEqual(ex.combine_labels(["down", "ns"]), "down")
+
+
+class TestCountUp(unittest.TestCase):
+    def test_count(self):
+        self.assertEqual(ex.count_up(["up", "ns", "not detected", "mixed", "down"]), (1, 4))
+        self.assertEqual(ex.count_up(["not listed", "up"]), (1, 1))
+        self.assertEqual(ex.count_up([]), (0, 0))
+
+
 if __name__ == "__main__":
     unittest.main()
