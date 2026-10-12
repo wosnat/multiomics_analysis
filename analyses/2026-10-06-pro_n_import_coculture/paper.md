@@ -1,7 +1,8 @@
 # Nitrogen import capacity of *Prochlorococcus* in coculture with *Alteromonas*
 
-*Working paper — grows across the analysis arc. Sections fill in at the Plan commit and each Run
-milestone's decide phase.*
+*Working paper: the analysis record. **Status: closed 2026-10-12** (plan `7bca4cc`, methods `3bfe263`,
+analysis `f6de90c`, evaluation `f02d1fe`). The journal-style version is `manuscript.md`. Open
+hand-offs are in `evaluation/notebook.md` §4.*
 
 ## Question
 
