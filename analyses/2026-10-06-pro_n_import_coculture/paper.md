@@ -25,8 +25,8 @@ In coculture with *Alteromonas* HOT1A3, *Prochlorococcus* MED4 survives for mont
 nitrogen in its medium is exhausted, whereas axenic cultures die. The preprint interpreted the
 accompanying proteomes and transcriptomes as MED4 up-regulating high-affinity nitrogen
 scavenging while *Alteromonas* recycles organic matter and supplies low-level ammonium. No
-measurement of nitrogen compounds exists for these cultures, so which compounds are exchanged can
-only be inferred from the organisms' gene expression.
+measurement of nitrogen compounds from these cultures is in the knowledge graph or used here, so
+which compounds are exchanged is inferred from the organisms' gene expression.
 
 MED4's genome encodes import routes for ammonium (`amt1`), urea (`urtA–E` with urease), cyanate
 (`cynABD` with cyanase) and peptides (`dpp`), and has no nitrate or nitrite assimilation. Its
@@ -336,3 +336,16 @@ Details: Discussion and `evaluation/notebook.md`.
   infochemicals. ISME J. doi:10.1038/ismej.2016.70
 - Biller SJ, Coe A, Chisholm SW (2016). Torn apart and reunited: impact of a heterotroph on the
   transcriptome of *Prochlorococcus*. ISME J. doi:10.1038/ismej.2016.82
+- Read RW, Berube PM, Biller SJ, Neveux I, Cubillos-Ruiz A, Chisholm SW, Grzymski JJ (2017). Nitrogen
+  cost minimization is promoted by structural changes in the transcriptome of N-deprived
+  *Prochlorococcus* cells. ISME J. doi:10.1038/ismej.2017.88
+- Thompson AW, Huang K, Saito MA, Chisholm SW (2011). Transcriptome response of high- and
+  low-light-adapted *Prochlorococcus* strains to changing iron availability. ISME J.
+  doi:10.1038/ismej.2011.49
+- Tolonen AC, Aach J, Lindell D, Johnson ZI, Rector T, Steen R, Church GM, Chisholm SW (2006). Global
+  gene expression of *Prochlorococcus* ecotypes in response to changes in nitrogen availability.
+  Mol Syst Biol. doi:10.1038/msb4100087
+
+All references were checked against the knowledge graph's publication records (2026-10-12). Database
+and tool citations (TCDB, KEGG/BRITE, Pfam, Cyanorak, the knowledge graph) are still to be added and
+verified. The journal-style version is `manuscript.md`.
