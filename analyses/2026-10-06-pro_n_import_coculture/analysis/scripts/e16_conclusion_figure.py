@@ -159,13 +159,122 @@ def draw(D):
               "hatched = not detected/listed; number = rank (1 = most up-regulated).\n"
               "Source: data/explore/e16_conclusion.csv (from e10_cells.csv; system status = stored significance calls of "
               "detected subunits; number = median rank percentile of detected subunits).")
+    return figs.save(fig, "e16_conclusion_detail")
+
+
+# --------------------------------------------------------------------------- simple version (E16 redo)
+S_ROWS = [("Ammonium", "amt1 transporter", None, "Ammonium (amt1)"),
+          ("Urea", "urt transporter", "urease (urea → ammonium)", "Urea (urt + urease)"),
+          ("Cyanate", "cyn transporter", "cyanase cynS (cyanate → ammonium)", "Cyanate (cyn + cyanase)"),
+          ("Dipeptides", "dpp transporter", None, "Dipeptides (dpp)"),
+          ("Amino acids, polyamines, osmolytes", "broad listings: n up / n detected", None,
+           "Amino acids, polyamines,\nosmolytes (broad)"),
+          ("N-starvation regulators", "glnA, ntcA, glnB", None, "N-starvation\nregulators")]
+S_COLS = [("cc", "Coculture,\nlate (d60–89)", ""), ("ax", "Axenic,\ndeclining", ""),
+          ("acute", "Acute N\nstarvation", "Tolonen 2006,\nRead 2017"), ("ahar", "N-replete\ncoculture", "Aharonovich 2016")]
+WORD_C = {"up": F.CAT[1], "kept": F.CAT[1], "late": "#f5b994", "dropped": "#a9c8ee", "down*": "#a9c8ee",
+          "not up": "#dcdbd6", "n.l.": F.SURF, "n.d.": F.SURF}
+ACUTE = ([f"Tolonen N-dep {t}" for t in ("6h", "12h", "24h", "48h")]
+         + [f"Read N-depleted {t} (filtered)" for t in ("3h", "12h", "24h")])
+AXC = ["protein ax d14", "protein ax d31 (death)", "protein ax d89 (death)"]
+CCC = ["protein cc d60", "protein cc d89"]
+AH = "Aharonovich 2016 (N-replete, 20 h)*"
+
+
+def ahar_word(st):
+    if st in ("not detected", "not listed"):
+        return "n.d."
+    return "up" if st == "up" else "down*" if st == "down" else "not up"
+
+
+def words_for(st):
+    """st: dict column -> status label for one system/row."""
+    return {"cc": ex.cc_late_word(*[st[c] for c in CCC]), "ax": ex.axenic_word(*[st[c] for c in AXC]),
+            "acute": ex.any_up_word([st[c] for c in ACUTE]), "ahar": ahar_word(st[AH])}
+
+
+def broad_words(C, R):
+    S = C.pivot_table(index="row_id", columns="column", values="status", aggfunc="first")
+    ids = [r for r, cat, tags in zip(R.row_id, R.category, R.tags.fillna("")) if cat == "N broad" and "[FP]" not in tags]
+    w = {k: [] for k in ("cc", "ax", "acute", "ahar")}
+    for r in ids:
+        for k, v in words_for(S.loc[r].to_dict()).items():
+            w[k].append(v)
+    out = {}
+    for k, vs in w.items():
+        det = [v for v in vs if v not in ("n.d.", "n.l.")]
+        hit = sum(v in ("up", "kept") for v in det)
+        verb = "kept" if k == "ax" else "up"
+        out[k] = (f"{hit} of {len(det)} {verb}" if hit else "not up", det)
+    return out, ids
+
+
+def simple(D):
+    C = pd.read_csv(OUT / "e10_cells.csv")
+    R = pd.read_csv(OUT / "e10_rows.csv")
+    st_of = {r: dict(zip(g.e10_column, g.status)) for r, g in D.groupby("row")}
+    bw, bids = broad_words(C, R)
+    recs = []
+    for route, main_row, enz_row, label in S_ROWS:
+        for k, head, sub in S_COLS:
+            second, note = "", ""
+            if main_row.startswith("broad"):
+                word, det = bw[k]
+                note = f"{len(bids)} broad systems (known FPs excluded); {len(det)} detected/listed in this column"
+            else:
+                word = words_for(st_of[main_row])[k]
+                if enz_row:
+                    ew = words_for(st_of[enz_row])[k]
+                    if ew != word:
+                        second = f"{'urease' if route == 'Urea' else 'cyanase'} {ew}"
+            recs.append({"row": label.replace("\n", " "), "column": head.replace("\n", " "), "word": word,
+                         "second_line": second, "note": note})
+    T = pd.DataFrame(recs)
+    T.to_csv(OUT / "e16_conclusion_simple.csv", index=False)
+    nr, nc = len(S_ROWS), len(S_COLS)
+    fig = plt.figure(figsize=(8, 5))
+    ax = fig.add_axes([0.285, 0.115, 0.705, 0.64])
+    ax.set_xlim(0, nc)
+    ax.set_ylim(nr, 0)
+    ax.axis("off")
+    Ti = T.set_index(["row", "column"])
+    for i, (route, main_row, enz_row, label) in enumerate(S_ROWS):
+        ax.text(-0.08, i + 0.5, label, ha="right", va="center", fontsize=12, color=F.TEXT, linespacing=1.0)
+        for j, (k, head, sub) in enumerate(S_COLS):
+            c = Ti.loc[(label.replace("\n", " "), head.replace("\n", " "))]
+            w = c.word
+            color = WORD_C.get(w, "#ecebe7")
+            hatch = "///" if w in ("n.l.", "n.d.") else ""
+            ax.add_patch(plt.Rectangle((j + 0.04, i + 0.05), 0.92, 0.9, facecolor=color, hatch=hatch,
+                                       edgecolor=F.GRID if hatch else F.SURF, linewidth=0.6))
+            tc = F.SURF if w in ("up", "kept") else F.TEXT
+            if c.second_line:
+                ax.text(j + 0.5, i + 0.34, w, ha="center", va="center", fontsize=13, color=tc, fontweight="bold")
+                ax.text(j + 0.5, i + 0.7, c.second_line, ha="center", va="center", fontsize=12, color=tc)
+            else:
+                small = " of " in w
+                ax.text(j + 0.5, i + 0.5, w, ha="center", va="center", fontsize=12 if small else 13, color=tc,
+                        fontweight="normal" if small else "bold")
+    for j, (k, head, sub) in enumerate(S_COLS):
+        ax.text(j + 0.5, -0.1 - (0.5 if sub else 0), head, ha="center", va="bottom", fontsize=14, fontweight="bold",
+                linespacing=1.0)
+        if sub:
+            ax.text(j + 0.5, -0.08, sub, ha="center", va="bottom", fontsize=10.5, color=F.TEXT2, linespacing=1.0)
+    fig.text(0.015, 0.975, "N import routes in coculture vs reference conditions", fontsize=15, fontweight="bold",
+             va="top")
+    handles = [Patch(facecolor=F.CAT[1], label="up / kept"), Patch(facecolor=WORD_C["late"], label="late only"),
+               Patch(facecolor=WORD_C["dropped"], label="dropped / down*"), Patch(facecolor=WORD_C["not up"], label="not up")]
+    fig.legend(handles=handles, loc="lower center", ncol=4, bbox_to_anchor=(0.5, 0.04), fontsize=11, frameon=False,
+               handlelength=1.4, columnspacing=1.2)
+    fig.text(0.5, 0.012, "Protein (this study); RNA (references). Axenic culture declines from ~day 14. "
+             "*82% of genes down in that table.", ha="center", fontsize=9.5, color=F.TEXT2)
     return figs.save(fig, "e16_conclusion")
 
 
 def main():
     D = build()
     D.to_csv(OUT / "e16_conclusion.csv", index=False)
-    files = draw(D)
+    files = draw(D) + simple(D)
     print([f.name for f in files])
     W = D.assign(v=D.status.str.replace("not detected", "nd").str.replace("not listed", "nl") + " " + D.cell_text)
     W = W.pivot_table(index="row", columns="e10_column", values="v", aggfunc="first")[[c[2] for c in COLS]]

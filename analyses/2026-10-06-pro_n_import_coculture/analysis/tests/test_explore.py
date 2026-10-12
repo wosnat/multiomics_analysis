@@ -271,5 +271,29 @@ class TestCountUp(unittest.TestCase):
         self.assertEqual(ex.count_up([]), (0, 0))
 
 
+class TestSimpleWords(unittest.TestCase):
+    def test_axenic_word(self):
+        self.assertEqual(ex.axenic_word("ns", "up", "up"), "kept")
+        self.assertEqual(ex.axenic_word("up", "up", "up"), "kept")
+        self.assertEqual(ex.axenic_word("up", "ns", "ns"), "dropped")
+        self.assertEqual(ex.axenic_word("up", "ns", "up"), "dropped")
+        self.assertEqual(ex.axenic_word("ns", "down", "up"), "late")
+        self.assertEqual(ex.axenic_word("ns", "mixed", "up"), "late")
+        self.assertEqual(ex.axenic_word("ns", "up", "ns"), "not up")
+        self.assertEqual(ex.axenic_word("ns", "ns", "ns"), "not up")
+        self.assertEqual(ex.axenic_word("not detected", "not detected", "not detected"), "n.d.")
+
+    def test_late_coculture(self):
+        self.assertEqual(ex.cc_late_word("up", "up"), "up")
+        self.assertEqual(ex.cc_late_word("up", "ns"), "not up")
+        self.assertEqual(ex.cc_late_word("not detected", "not detected"), "n.d.")
+
+    def test_any_up(self):
+        self.assertEqual(ex.any_up_word(["ns", "up", "not listed"]), "up")
+        self.assertEqual(ex.any_up_word(["ns", "not listed"]), "not up")
+        self.assertEqual(ex.any_up_word(["not listed", "not listed"]), "n.l.")
+        self.assertEqual(ex.any_up_word(["down", "ns"]), "not up")
+
+
 if __name__ == "__main__":
     unittest.main()

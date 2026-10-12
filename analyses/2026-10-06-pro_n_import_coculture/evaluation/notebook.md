@@ -61,8 +61,8 @@ three kinds of reference:
    import machinery stays among its most abundant proteins for 89 days.
 2. These are the systems that acute N starvation switches on and that N-replete coculture does not.
    The coculture response matches N limitation rather than a general partner effect.
-3. The coculture keeps the urea and cyanate systems that the declining axenic culture lets drop. The
-   ammonium transporter comes up later in both.
+3. The coculture keeps the cyanate system that the declining axenic culture drops. In the axenic
+   culture the ammonium and urea transporters come up only late, in death phase; urease stays up.
 4. Dipeptide import is raised in coculture; in the dying axenic culture only one subunit rises, late.
 5. No amino-acid, polyamine or osmolyte route responds.
 

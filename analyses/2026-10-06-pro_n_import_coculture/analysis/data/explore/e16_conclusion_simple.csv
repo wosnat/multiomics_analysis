@@ -1,0 +1,25 @@
+row,column,word,second_line,note
+Ammonium (amt1),"Coculture, late (d60–89)",up,,
+Ammonium (amt1),"Axenic, declining",late,,
+Ammonium (amt1),Acute N starvation,up,,
+Ammonium (amt1),N-replete coculture,not up,,
+Urea (urt + urease),"Coculture, late (d60–89)",up,,
+Urea (urt + urease),"Axenic, declining",late,urease kept,
+Urea (urt + urease),Acute N starvation,up,,
+Urea (urt + urease),N-replete coculture,down*,,
+Cyanate (cyn + cyanase),"Coculture, late (d60–89)",up,,
+Cyanate (cyn + cyanase),"Axenic, declining",dropped,,
+Cyanate (cyn + cyanase),Acute N starvation,up,,
+Cyanate (cyn + cyanase),N-replete coculture,down*,,
+Dipeptides (dpp),"Coculture, late (d60–89)",up,,
+Dipeptides (dpp),"Axenic, declining",late,,
+Dipeptides (dpp),Acute N starvation,not up,,
+Dipeptides (dpp),N-replete coculture,down*,,
+"Amino acids, polyamines, osmolytes (broad)","Coculture, late (d60–89)",2 of 15 up,,18 broad systems (known FPs excluded); 15 detected/listed in this column
+"Amino acids, polyamines, osmolytes (broad)","Axenic, declining",1 of 15 kept,,18 broad systems (known FPs excluded); 15 detected/listed in this column
+"Amino acids, polyamines, osmolytes (broad)",Acute N starvation,2 of 18 up,,18 broad systems (known FPs excluded); 18 detected/listed in this column
+"Amino acids, polyamines, osmolytes (broad)",N-replete coculture,not up,,18 broad systems (known FPs excluded); 18 detected/listed in this column
+N-starvation regulators,"Coculture, late (d60–89)",up,,
+N-starvation regulators,"Axenic, declining",kept,,
+N-starvation regulators,Acute N starvation,up,,
+N-starvation regulators,N-replete coculture,down*,,

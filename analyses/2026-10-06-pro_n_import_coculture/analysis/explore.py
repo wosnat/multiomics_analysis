@@ -294,3 +294,33 @@ def count_up(labels):
     """(n with status up, n detected/listed) over system labels."""
     det = [x for x in labels if x not in ("not detected", "not listed")]
     return det.count("up"), len(det)
+
+
+def _undet(x):
+    return x in ("not detected", "not listed")
+
+
+def axenic_word(d14, d31, d89) -> str:
+    """kept = up at d31 and d89; dropped = up at d14 but not at both later; late = up at d89 only; else not up."""
+    if all(_undet(x) for x in (d14, d31, d89)):
+        return "n.d."
+    if d31 == "up" and d89 == "up":
+        return "kept"
+    if d14 == "up":
+        return "dropped"
+    if d89 == "up":
+        return "late"
+    return "not up"
+
+
+def cc_late_word(d60, d89) -> str:
+    if _undet(d60) and _undet(d89):
+        return "n.d."
+    return "up" if d60 == "up" and d89 == "up" else "not up"
+
+
+def any_up_word(labels) -> str:
+    labels = list(labels)
+    if all(_undet(x) for x in labels):
+        return "n.l." if "not listed" in labels else "n.d."
+    return "up" if "up" in labels else "not up"
