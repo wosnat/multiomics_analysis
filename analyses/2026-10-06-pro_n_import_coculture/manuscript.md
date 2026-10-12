@@ -114,7 +114,8 @@ were interpreted. The nitrogen-starvation co-expression clusters of Tolonen et a
 iron-response clusters of Thompson et al. (2011) were used as published gene sets.
 
 **Analysis plan and deviations.** The analysis plan, including the calibration criteria and blind
-predictions, was written before expression data were examined; it is reported in the supplementary
+predictions, was written before expression data were examined (except a disclosed check of protein
+values for 12 genes); it is reported in the supplementary
 record. Two deviations followed from the data:
 - **Per-system classification dropped.** The planned classification of systems as "standing out
   beyond early axenic starvation" was not applied. The axenic sample used as the early reference
