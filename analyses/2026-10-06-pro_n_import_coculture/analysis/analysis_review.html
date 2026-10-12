@@ -1,0 +1,223 @@
+<title>N Import: Data Exploration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#f6f8f7; --panel:#ffffff; --ink:#14191b; --slate:#4e5a5e; --muted:#76817f;
+  --rule:#dce2df; --accent:#0b6676; --accent-soft:#e3eff1;
+  --caveat:#8a5200; --caveat-soft:#fbf1e2; --good:#0a7d38; --good-soft:#e6f3ea;
+  --fig-ground:#fcfcfb;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+    --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+    --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+    --fig-ground:#fcfcfb;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+  --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+  --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+  --fig-ground:#fcfcfb;
+}
+body{background:var(--ground);color:var(--ink);font:16px/1.6 var(--body);}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:40px 80px;}
+.col{max-width:68ch;}
+header{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:8px;}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);}
+h1{font:600 clamp(30px,4.5vw,44px)/1.1 var(--display);margin:14px 0 12px;text-wrap:balance;letter-spacing:-.01em;}
+h2{font:600 26px/1.2 var(--display);margin:56px 0 10px;text-wrap:balance;}
+h3{font:600 17px/1.3 var(--body);margin:26px 0 6px;}
+p{margin:0 0 12px;}
+.lede{font-size:18px;color:var(--slate);}
+code,.mono{font-family:var(--mono);font-size:.9em;}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font:13px/1.5 var(--mono);color:var(--muted);margin-top:14px;}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:28px 0 8px;}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;}
+.stat .n{font:600 28px/1.1 var(--display);font-variant-numeric:tabular-nums;}
+.stat .l{font-size:14px;color:var(--slate);margin-top:4px;}
+figure{margin:22px 0 8px;}
+figure img{display:block;width:100%;height:auto;background:var(--fig-ground);border:1px solid var(--rule);border-radius:4px;}
+figcaption{font-size:14px;color:var(--slate);margin-top:8px;max-width:80ch;}
+figcaption b{color:var(--ink);}
+.callout{border-left:3px solid var(--caveat);background:var(--caveat-soft);padding:12px 16px;border-radius:0 6px 6px 0;margin:18px 0;max-width:80ch;}
+.callout .tag{font:600 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--caveat);display:block;margin-bottom:6px;}
+.callout.ok{border-left-color:var(--good);background:var(--good-soft);}
+.callout.ok .tag{color:var(--good);}
+.tablewrap{overflow-x:auto;margin:16px 0;}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:640px;}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top;}
+th{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+td.num{font-variant-numeric:tabular-nums;font-family:var(--mono);}
+.decision{display:grid;grid-template-columns:minmax(0,1fr);gap:0;border-top:1px solid var(--rule);}
+.decision > div{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--rule);}
+.decision .h{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding:10px 0;}
+.decision b{display:block;margin-bottom:2px;}
+.gain{color:var(--good);}
+.cost{color:var(--caveat);}
+@media (max-width:720px){
+  .decision > div{grid-template-columns:minmax(0,1fr);gap:6px;}
+  .decision .h{display:none;}
+}
+ul.tight{margin:6px 0 12px;padding-left:20px;}
+ul.tight li{margin:3px 0;}
+.approve{background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:20px 22px;margin-top:22px;}
+.approve h3{margin-top:0;color:var(--accent);}
+footer{margin-top:56px;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px;}
+a{color:var(--accent);}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+</style>
+
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Analysis milestone · in-depth exploration (no labels yet)</div>
+  <h1>What <i>Prochlorococcus</i> MED4’s nitrogen import genes do in long coculture</h1>
+  <p class="lede col">This is the first look at expression. Labels are deferred: this page describes the data, so we can decide how to classify later. Numbers are rank percentiles within each table (1.0 = the most up-regulated gene) and the source papers’ significance calls. Interpretation is marked as such.</p>
+  <div class="meta"><span>analysis · 2026-10-06-pro_n_import_coculture</span><span>KG 0.1.0-alpha.7</span><span>methods n_transport v1.6.1</span><span>31 tests · verifier match 10/10</span></div>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="n">13 / 13</div><div class="l">experiments pulled; every row count matches the KG; 10 values cross-checked by an independent verifier</div></div>
+  <div class="stat"><div class="n">fail</div><div class="l">substrate calibration: the urea system doesn’t rise on urea, and it does rise on cyanate. Per the plan, no compound is named from this side.</div></div>
+  <div class="stat"><div class="n">0.98</div><div class="l"><code>amt1</code> protein rank at day 60; it climbs from 0.72 at day 18, the only N system that rises over time</div></div>
+  <div class="stat"><div class="n">d11</div><div class="l">coculture RNA already shows N stress during exponential growth (above an axenic culture nearing N exhaustion); this contributes to the protein/RNA mismatch</div></div>
+</div>
+
+<section>
+  <h2>Provisional reading</h2>
+  <p class="col">MED4 raises its capacity to take up and process ammonium (<code>amt1</code>), urea (urt with urease) and cyanate (cyn with cyanase) as part of the N-starvation response. It sustains that capacity through 89 days of coculture; in the dying axenic culture these import systems fall back while the N-stress regulators stay up. Expression cannot name the compound used. In calibration experiments urt, cyn and the nitrite system <code>focA</code> rise on substrates other than their own, so their expression does not report what is present; <code>amt1</code> was not calibrated. The dipeptide system (dpp) is raised in coculture protein but unresolved. No other nitrogen route shows a coculture signal beyond starvation. The nitrate channel <code>clc2</code> is irrelevant (MED4 can’t use nitrate), and the broadly annotated routes were explored only. Envelope genes (<code>murJ</code>, and more weakly <code>tolC</code>, <code>acrA</code>, <code>bamA</code>) are up in coculture and not in the dying axenic culture. Because the axenic comparison is with a declining culture, none of these contrasts separates a partner effect from survival. “No signal” is not evidence that no other compound is taken up.</p>
+  <figure>
+    <img src="figures/e13_summary.png" alt="Summary: rank of each N route in axenic late decline, acute N starvation and coculture day 89, with verdict and calibration columns.">
+    <figcaption><b>One row per route</b> (protein only in panel A). Hollow = axenic day 14 (late decline); small grey = axenic days 31/89 (death); filled = coculture day 89. Acute N starvation (Tolonen, RNA microarray) has its own column. B gives the reading; C says whether the system tracked its own substrate in the calibration experiments. Provisional: to be tested at the evaluation milestone. “No signal” is not evidence of no uptake: uptake doesn’t need induction, and some routes are thinly annotated.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>1. The import systems report nitrogen stress, not the compound</h2>
+  <p class="col"><b>What the bars compare</b> (Tolonen et al. 2006, microarrays). Each bar is the gene’s rank in one experiment, compared against cells in normal N-replete Pro99 medium.</p>
+  <ul class="tight col">
+    <li><b>Growth on a sole N source</b> (cyanate or urea for MED4; nitrite or urea for MIT9313): cells adapted to that compound as their only nitrogen, sampled in steady exponential growth. There is a single timepoint (“steady state”).</li>
+    <li><b>N deprivation, 24 h</b>: cells 24 h after transfer to nitrogen-free medium (green bars). The full 0–48 h series is in the heatmaps below. MED4’s response peaks at 6–12 h; MIT9313’s keeps growing to 48 h.</li>
+  </ul>
+  <p class="col"><b>Short names:</b> amt1 = ammonium transporter; urt = urea transporter; cyn = cyanate transporter; focA = nitrite transporter (with nirA, nitrite reductase); dpp = di/oligopeptide transporter; urease = urea → ammonium; cynS = cyanase (cyanate → ammonium); glsF = glutamate synthase; markers = <code>glnA</code> (glutamine synthetase), <code>ntcA</code> (N-control regulator), <code>glnB</code> (PII), <code>pipX</code>. Non-N reference transporters: pst = phosphate, phn = phosphonate, sul = sulfate, fut/idiA = iron, mnt = manganese, sbtA = bicarbonate.</p>
+  <p class="col">In Tolonen’s experiments, MED4 was grown on cyanate or urea as its only nitrogen source. On cyanate, the starvation marker <code>glnA</code> is up and so are both the cyanate (cyn) and urea (urt) systems. On urea, neither system rises and <code>ntcA</code> is near the bottom. Growing on cyanate is itself nitrogen-stressful; growing on urea is not. The systems follow the cell’s nitrogen status, so their expression can’t name which compound is present.</p>
+  <figure>
+    <img src="figures/e6b_cyanate_vs_urea.png" alt="Bar chart of rank percentile per gene on cyanate vs urea.">
+    <figcaption><b>Cyanate vs urea as sole N (Tolonen).</b> Blue = growth on cyanate, orange = growth on urea, green = N deprivation 24 h. The cyn and urt subunits and <code>glnA</code> are high on cyanate and after 24 h of deprivation; on urea, almost nothing in the N set is. dpp does not respond to deprivation.</figcaption>
+  </figure>
+  <p class="col"><b>The same holds in a second strain.</b> Tolonen also grew MIT9313 on nitrite or urea as its only nitrogen source. Both the nitrite system (<code>focA</code> + <code>nirA</code>) and urt are at the very top on <i>both</i> substrates: <code>focA</code> 1.000 / 0.999, urt 0.98 / 0.99. <code>ntcA</code> is high on both. The urease is higher on nitrite (0.95–0.98) than on urea (0.66–0.83). Each system passes the test on its own substrate and fails the specificity test.</p>
+  <figure>
+    <img src="figures/e8_tolonen_mit9313.png" alt="MIT9313 nitrite vs urea percentile bars and N-deprivation heatmap.">
+    <figcaption><b>MIT9313 on its own systems (Tolonen).</b> (a) Nitrite (blue) vs urea (orange) as sole N, and N deprivation 24 h (green). (b) N deprivation, 0–48 h (orange up, blue down): <code>urtA</code>, <code>amt1</code>, <code>focA</code>, <code>nirA</code>, <code>ntcA</code> and <code>glnA</code> rise; dpp and the amino-acid systems do not, as in MED4.</figcaption>
+  </figure>
+  <p class="col"><span class="mono">[interpretation]</span> In two strains on three substrates, the nitrogen import systems rise together whenever the nitrogen source isn’t ammonium. They report the cell’s nitrogen status, not the compound. (MED4 on urea is the exception, where nothing rises.)</p>
+  <div class="callout"><span class="tag">Pre-registered consequence</span>The calibration checks C2 (urt on urea) and C3 (each system is specific to its substrate) fail. As set in the proposal, the consumer side reports <b>elevated import capacity only</b> and names no compound. The proposal also said that urt and cyn rising together on one substrate is evidence of shared NtcA control (its reading (i)).</div>
+</section>
+
+<section>
+  <h2>2. In late coculture, protein shows full nitrogen-starvation induction, with <code>amt1</code> joining late</h2>
+  <figure>
+    <img src="figures/e1_median_percentile_lines.png" alt="Line plots of system median percentile over coculture days, protein and RNA.">
+    <figcaption><b>System median rank over coculture days.</b> Protein (left): cyn, urt and the starvation markers are in the top few percent from day 18. <code>amt1</code> rises from 0.72 to 0.98, dpp stays at 0.82–0.89, and the non-N transporters sit at 0.4–0.7. RNA (right) is discussed in section 4.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/e1_protein_heatmap.png" alt="Heatmap of protein log2FC and percentile by gene and slice.">
+    <figcaption><b>Every gene, every protein slice.</b> Urease (<code>ureA/B/C/G</code>) and cyanase (<code>cynS</code>) rise with their transporters. The phosphate, sulfate, iron and manganese transporters do not. Axenic days 31 and 89 are death phase.</figcaption>
+  </figure>
+  <ul class="tight col">
+    <li><code>amt1</code>’s rank minus the median of the urt and cyn subunits goes from −0.27 at day 18 to about 0 by day 60. <code>amt1</code> catches up with the other systems; they don’t fall back. If ammonium supply partly relieved N stress (reading (ii)), urea and cyanate should have been damped; no damping is detectable, but ranks are at their ceiling here, so this is a weak test.</li>
+    <li><span class="mono">[interpretation]</span> <code>amt1</code>’s late rise could be slower protein build-up, a later NtcA threshold, or ammonium-dependent regulation. Expression can’t separate these.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Dipeptide import (dpp): raised in coculture, unresolved</h2>
+  <figure>
+    <img src="figures/e6a_tolonen_ndep_heatmap.png" alt="Heatmap of Tolonen N-deprivation time course for N systems, markers and non-N systems.">
+    <figcaption><b>Acute N deprivation, 0–48 h (Tolonen, RNA microarray; orange up, blue down).</b> cyn, <code>urtA</code>, <code>amt1</code>, the markers and urease rise within hours. dpp does not respond within 48 h.</figcaption>
+  </figure>
+  <p class="col"><b>Comparing like with like</b> (corrected: an earlier version compared coculture protein with Tolonen RNA).</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>dpp subunit</th><th>Tolonen RNA 0–48 h</th><th>Axenic d14 RNA</th><th>Coculture RNA d18 / d31 / d60 / d89</th><th>Axenic d14 protein</th><th>Coculture protein d18 / d31 / d60 / d89</th></tr></thead>
+    <tbody>
+      <tr><td><code>dppA</code> PMM1049</td><td>never significant</td><td class="num">0.93 ↑</td><td class="num">0.60 / 0.76 / 0.75 / 0.76</td><td class="num">0.76</td><td class="num">0.91 / 0.96↑ / 0.97↑ / 0.96↑</td></tr>
+      <tr><td><code>dppB</code> PMM1048</td><td>never significant</td><td class="num">0.92 ↑</td><td class="num">0.83 / 0.97↑ / 0.91 / 0.95↑</td><td class="num">0.53</td><td class="num">0.91 / 0.92 / 0.82 / 0.77</td></tr>
+      <tr><td><code>dppC</code> PMM0421</td><td>never significant</td><td class="num">0.62</td><td class="num">0.26 / 0.31 / 0.24 / 0.48</td><td class="num">0.55</td><td class="num">0.84 / 0.84 / 0.95↑ / 0.87</td></tr>
+      <tr><td><code>ddpD</code> PMM0192</td><td>never significant</td><td class="num">0.62</td><td class="num">0.47 / 0.18 / 0.09↓ / 0.28</td><td class="num">0.43</td><td class="num">0.55 / 0.21 / 0.08 / 0.16</td></tr>
+    </tbody>
+  </table></div>
+  <ul class="tight col">
+    <li><b>Unresolved.</b> Coculture protein is up (<code>dppA</code>, <code>dppC</code>). The <code>dppA/dppB</code> locus is up in axenic day-14 RNA. But in the axenic culture’s own protein <code>dppA</code> never rises: 0.76 at d14, significantly down (0.17) at d31. Only <code>dppC</code> rises there (d31/d89). dpp is outside the N-starvation cluster and never responds within Tolonen’s 48 h. So it is neither clearly a starvation response nor clearly coculture-specific.</li>
+    <li><b>The subunits don’t move together.</b> <code>dppC</code> and <code>ddpD</code>, on separate loci, don’t follow <code>dppB/dppA</code>, and <code>ddpD</code> RNA goes down. Either they are regulated separately, or the methods step joined pieces from three loci that don’t act as one system. To revisit.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Why protein and RNA disagree: the coculture already looked N-stressed during exponential growth</h2>
+  <p class="col"><b>Culture states</b> (researcher’s account). Axenic day 11: exponential, beginning to run out of nitrogen. Axenic “day 14”: sampled around day 14 and paired with coculture day 18; already <b>late decline</b>, most cells dying, very starved. Axenic cultures move through N exhaustion and decline faster than cocultures, so the same calendar day is not the same stage. The coculture’s state at these points is <b>not known</b>.</p>
+  <figure>
+    <img src="figures/e2_concordance.png" alt="Scatter plots of protein vs RNA log2FC for each day.">
+    <figcaption><b>Protein vs RNA, genome-wide.</b> The two agree weakly (ρ −0.08 to 0.23). “Protein up, RNA down” covers 48–60% of the N regulon at each coculture day, against about 25% of all genes and 4% of the N regulon at axenic day 14.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/e7_baseline.png" alt="Dumbbell plot of direct-contrast percentiles at day 11 and day 18, and scatter vs anchor RNA.">
+    <figcaption><b>Coculture vs axenic directly, RNA (same study).</b> (a) Each row is one gene: log2 fold change, with “higher in axenic” to the left of 0 and “higher in coculture” to the right. Hollow = day 11 (both exponential); filled = day 18 (coculture d18 vs the axenic sample taken ~d14, late decline). Example: <code>cynA</code> is 8.6× higher in coculture at d11 and 4.6× higher in axenic at d18. The whole N set flips from right to left, while the phosphate, sulfate and iron transporters move right. (b) Each gene’s d11 difference against its anchor coculture d18 change.</figcaption>
+  </figure>
+  <ul class="tight col">
+    <li><b>Day 11.</b> Both cultures are in exponential growth. The axenic culture is starting to run out of N, yet coculture N-regulon RNA is still higher. The coculture was at least as N-stressed as an axenic culture nearing exhaustion.</li>
+    <li>The anchor RNA compares each culture with its <i>own</i> exponential phase. The coculture’s exponential phase already had high N-regulon RNA, so its later days look “down” while the proteins are up. Coculture RNA can’t be read as “not induced”.</li>
+    <li><b>Day 18 vs the dying axenic culture.</b> The coculture has lower N-regulon RNA and higher ribosomal and P/S/Fe transporter RNA. <span class="mono">[interpretation]</span> All this says is that the coculture is less starved than a dying axenic culture. It can’t separate partial N relief from “not dying”, and the coculture’s own state is unknown.</li>
+  </ul>
+  <div class="callout"><span class="tag">Affects the plan</span>The proposal used axenic day 14 as the <i>early</i>-starvation reference (the “stands out beyond early axenic starvation” margin, and the “also up in early axenic starvation” flag). That sample is a deep-starvation, declining culture, so the label’s wording and the meaning of its margin need revisiting when we return to classification. The proposal’s “time-matched” read (coculture d18 vs axenic d14) is matched by day, not by physiological stage.</div>
+  <div class="callout"><span class="tag">KG finding</span>The four RNA tables are algebraically linked: [coculture d18 − axenic d14] equals [direct contrast d18 − direct contrast d11] for all 1849 genes, to 1e-15. They come from one fitted model: the axenic sample (taken around day 14) is paired with coculture day 18 in the direct contrast. The direct contrast adds nothing beyond the anchor tables except the day-11 comparison. Logged in <code>gaps_and_friction.md</code>.</div>
+</section>
+
+<section>
+  <h2>5. Other observations</h2>
+  <figure>
+    <img src="figures/e5_late_coculture_roles.png" alt="Bar chart of late-coculture top protein genes by Cyanorak role.">
+    <figcaption><b>Genes in the top 10% of protein at days 60 and 89 that were not up at axenic day 14</b> (81 genes). Transport is 14 of them: <code>amt1</code>, <code>cynB</code>, <code>urtA/B/C</code>, <code>dppA</code>, the porin <code>som</code>, <code>perM</code>, <code>mgtE</code>, <code>clc2</code>. Outer-membrane and export genes (<code>tolC</code>, <code>acrA</code>, <code>bamA</code>, <code>murJ</code>) and urease are also in the set.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/e4_broad_scatter.png" alt="Scatter of transporter protein rank vs the class-enzyme rank for broadly-listed N classes, at coculture d60, d89 and axenic d14.">
+    <figcaption><b>Do the enzymes that would use a broadly-listed class rise with the transporter?</b> Some transporters list an N class only because their database family does (e.g. the sulfate permease <code>sul1</code> lists amino acids). Each point is one such transporter × class. x = the transporter’s protein rank; y = the median rank of the genes that could consume that class. If a transporter really carried the class, both would be high (top right). <b>No point gets there.</b> In late coculture the class enzymes sit at 0.2–0.57, around the genome middle, even for the highest transporters (<code>murJ</code>, PMM0704, <code>ktrAB</code>). They were somewhat higher in the late-decline axenic sample (0.37–0.72). Nitrate has no enzymes in MED4 (grey strip). Known false positives excluded.</figcaption>
+  </figure>
+  <ul class="tight col">
+    <li><b>The N-replete controls show little.</b> In the MED4 control, the N genes sit at the table’s overall level (0.47 vs non-N 0.46), so their “down” calls reflect the table’s skew, not something N-specific. MIT9313 <code>natF</code> is a single subunit in one of two cultures, and a phosphonate gene is up in the same table.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Published co-expression clusters give the same picture</h2>
+  <p class="col">Tolonen’s study clustered MED4 genes by how they respond to N deprivation: 9 groups, 410 genes. Two groups rise strongly within 3–6 h: c1 (<code>cynA</code>, <code>glnA</code>, <code>urtA</code>) and c2 (<code>ntcA</code>, <code>glnB</code>, <code>cynB</code> + others). Together they form the <b>N-starvation stimulon</b>, the genes that respond together to this stimulus. That is an empirical gene set to use instead of our three hand-picked markers. An iron-starvation study (Thompson 2011) offers the same for iron.</p>
+  <figure>
+    <img src="figures/e9_anchor_cluster_read.png" alt="Heatmap of median rank percentile per co-expression cluster and slice, N-starvation and iron clusters.">
+    <figcaption><b>Each cluster’s median rank in the anchor data</b> (purple = rank; n = detected members). Top: N-starvation clusters. c1/c2 sit at 0.98–1.00 in axenic d14 protein and stay at 0.91–1.00 through coculture d89. The falling clusters (protein synthesis, photosynthesis) keep falling. Bottom: iron clusters. The iron-stress cluster c19 is at 0.77/0.71 in late coculture protein vs 0.52 in axenic d14.</figcaption>
+  </figure>
+  <ul class="tight col">
+    <li><b>Same conclusion as with the markers.</b> In protein, the coculture’s N-starvation response stays at the level of a late-decline axenic culture through day 89, with no damping detectable at the rank ceiling (marker fold changes are mixed late: <code>ntcA</code> eases, <code>glnB</code> rises).</li>
+    <li><b>dpp isn’t in any cluster</b>, nor are <code>cynS</code>, <code>urtC/D/E</code> or the broad systems, so the clusters can’t settle the dpp question.</li>
+    <li><span class="mono">[interpretation]</span> <b>A first hint of iron stress late in coculture:</b> the iron-stress cluster is modestly raised in coculture <b>protein</b> (its RNA is not). It rests on 20 of 59 genes detected in protein and shares <code>cynA</code> with the N set, so it needs checking before it carries weight.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Open questions for classification, when we return to it</h2>
+  <ul class="tight col">
+    <li>Labels now use protein only (agreed). Should RNA be read against the day-11 coculture-vs-axenic baseline rather than each culture’s own exponential phase?</li>
+    <li>Should multi-locus systems like dpp be judged per locus? Its <code>dppB/dppA</code> locus responds to starvation while <code>dppC</code>/<code>ddpD</code> don’t follow.</li>
+    <li>Should the label’s comparison with axenic day 14 count <code>amt1</code>’s late rise (+0.31 margin) as standing out, given that cyn was already at its maximum by day 14 (+0.01 margin)?</li>
+  </ul>
+</section>
+
+<footer>Figures: <code>analyses/2026-10-06-pro_n_import_coculture/analysis/figures/</code> (PNG + SVG; scripts <code>analysis/scripts/e1…e15_*.py</code>). Details: <code>analysis/notebook.md</code>, <code>gaps_and_friction.md</code>.</footer>
+</div>

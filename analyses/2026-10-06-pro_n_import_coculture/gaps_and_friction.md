@@ -502,3 +502,75 @@ step before the analysis milestone reads metabolic support.
 **Downstream impact.** KG: metabolite nodes need a generic ↔ stereo-specific (D/L) equivalence edge.
 Until then, every "can this be consumed" test on amino acids can under-count. Added to the open items.
 
+
+### 2026-10-11 — Anchor RNA contrasts are algebraically linked; timepoint labels disagree (KG)
+
+**What happened.** In analysis exploration E7, [anchor coculture RNA d18 − anchor axenic RNA d14]
+equalled [direct contrast d18 − direct contrast d11] for all 1849 MED4 genes, to 1e-15. The four
+stored RNA contrasts come from one fitted model over shared samples. The axenic arm is labelled
+"day 14" in one experiment and sits inside "day 18" in the other.
+
+**Workaround.** Treat the direct contrast as non-independent (the proposal already said so; this is
+stronger: it is derivable). Its only new content is the d11 exponential comparison.
+
+**Downstream impact.** KG: experiments derived from the same fitted model should carry a shared
+model/sample-set identifier. Contrasts whose arms were sampled on different days should carry
+per-arm days, not one label. Without that, a "time-matched" or "independent" read can be an
+identity. This was caught only because the analysis happened to test the arithmetic.
+
+### 2026-10-11 — The Plan phase missed three relevant KG experiments (methodology)
+
+**What happened.** The proposal's calibration set listed only Tolonen's MED4 experiments. The same
+publication (10.1038/msb4100087) has three MIT9313 experiments in the KG: growth on nitrite, growth
+on urea, and an N-deprivation time course. Nitrite is a second substrate calibration, for MIT9313's
+`focA`/`nirA`. The researcher caught the gap during the analysis milestone; neither the author, the
+proposal critic nor the plan enumeration did. The likely cause: the grounding enumerated
+experiments by organism (MED4) and by known roles, not by publication. Every experiment of a chosen
+publication should have been listed.
+
+**Workaround.** Added as exploration E8 (descriptive, not a pre-registered gate).
+
+**Downstream impact.** Methodology: when a publication is chosen for a role, the plan should list
+all of its experiments (`list_experiments(publication_dois=[…])`) and say why each is used or not.
+**Update (2026-10-11, researcher).** The axenic culture was sampled around day 14 and paired with
+coculture day 18 as "the same stage" in the direct contrast. The KG's single per-contrast day
+label hides this. Per the researcher, that axenic sample is in full decline (most cells dying, very
+starved), while the KG labels it `nutrient_limited`. The proposal read it as *early* starvation.
+KG: store a sampling day and growth state per arm, not one per contrast.
+
+### 2026-10-12 — The anchor study's culture measurements are not in the KG (KG gap)
+
+**What happened.** The researcher's CC1A3 folder holds the culture-level data that the expression
+analysis kept needing: flow-cytometry cell counts per organism, NH₄⁺ and NO₃⁻ in the medium per
+bottle and day (A = HOT1A3 alone, P = MED4 axenic, C = coculture), and an N budget (N biomass and DON
+by difference). None of it is in the KG. A read-only check of `multiomics_biocypher_kg` found:
+- **NH₄⁺ / NO₃⁻ in the medium** can enter now as a `metabolite_assays_table` on new Experiments with
+  `compartment: spent_medium`. One assay per nutrient; per condition × day summary edges, with the
+  replicate values kept in an array.
+- **Cell counts, N biomass, DON (a bulk pool, not a compound) and fluorescence** have no target
+  entity. Every measurement edge points at a Gene or a Metabolite. They need a new culture-level
+  measurement node off Experiment (organism, condition, bottle/replicate ID, day/hours, growth phase,
+  value, unit, measured/derived). Bottle IDs could link these to the omics samples. The KG's
+  metabolomics design doc already advises a separate type rather than extending `MetaboliteAssay`.
+
+**Workaround.** Used in this analysis as `[external, not in KG]` (analysis decision 6). The copies
+are gitignored pending the researcher's decision on publishing.
+
+**Open before ingestion:**
+- measured vs derived values (both, flagged: researcher);
+- the NH₄⁺ rerun reconciliation;
+- fractional days vs the omics day labels;
+- whether the data is published (preprint supplement) or loaded as an unpublished dataset.
+
+**Downstream impact.** KG: a new culture-measurement node type plus a paperconfig entry type.
+Methodology: the Plan phase should ask, for the anchor study, "what non-omics measurements exist
+outside the KG?". This one would have changed the framing (Alteromonas-alone NH₄⁺ release).
+**Update (2026-10-12, researcher).** The culture data was set aside for this analysis ("a distraction
+we should deal with later"); E15 stays gitignored and out of the reading. Researcher: cell numbers
+are worth adding to the KG. The challenge is that most papers show growth and cell counts only in
+figures, not tables. KG enhancement candidates:
+- a culture-measurement node type (organism, condition, culture/bottle ID, time, growth phase,
+  value, unit, measured/derived);
+- sources in order of reliability: supplementary tables → author-provided data → figure
+  digitisation, with a recorded extraction method and uncertainty;
+- a per-experiment link from omics samples to their culture measurements.

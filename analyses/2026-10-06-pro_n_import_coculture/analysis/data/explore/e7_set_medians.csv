@@ -1,0 +1,8 @@
+set,n,d11_median_pct,d18_median_pct,d11_n_up,d11_n_down,d18_n_up,d18_n_down,markers_set
+broad N systems,19,0.3715521903731746,0.460248783126014,0,0,1,5,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+dedicated N systems,13,0.9637641968631692,0.2374256354786371,5,0,0,6,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+linked enzymes,9,0.7387777176852353,0.2974580854515954,1,0,1,2,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+markers,4,0.9318550567874527,0.2617631151974039,2,0,0,1,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+non-N systems,19,0.3996755002704164,0.6776636019469984,0,0,5,2,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+ribosomal proteins,56,0.14413196322336394,0.8804759329367225,0,0,44,0,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"
+all genes (0.5 by construction),1849,0.5002704164413196,0.5002704164413196,59,3,406,318,"starvation markers = glnA PMM0920, ntcA PMM0246, glnB PMM1463, pipX PMM0393 (pipX included; E10/E13 marker medians use glnA/ntcA/glnB only where stated)"

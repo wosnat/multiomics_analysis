@@ -1,0 +1,81 @@
+locus_tag,gene_name,product,gene_category,term_id,term_name,level,is_informative,evidence
+PMM0040,mrdA,transpeptidase involved in septal peptidoglycan synthesis (peptidoglycan synthetase precursor),Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0090,degQ,"serine endoprotease, periplasmic",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0226,ftsH1,cell division protein FtsH1,Cell cycle and division,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0324,ctp,carboxy-terminal processing peptidase,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0332,glpG,uncharacterized conserved membrane protein,Unknown,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0352,,CAAX amino terminal protease,Unknown,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0356,pip,proline iminopeptidase,Amino acid metabolism,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0427,pbp1,penicillin-binding-like protein 1A (PBP1A)(transpeptidase),Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0455,ldcA,muramoyltetrapeptide carboxypeptidase,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0477,map,"methionine aminopeptidase, type I",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0493,cxp,carboxypeptidase Taq (M32) metallopeptidase,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0513,lepB,signal peptidase I,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0516,,CAAX protease self-immunity family protein,Unknown,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0518,ftsI,cell division protein FtsI (peptidoglycan synthetase),Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0593,prlC,oligopeptidase A,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0606,lepB,signal peptidase I,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0677,ctpA,photosystem II D1 protein carboxyl-terminal processing peptidase,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0695,,Glutamine amidotransferase class-I,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0742,clpP1,"ATP-dependent Clp protease, protease subunit",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0743,ftsH2,photosystem II D1 repair protein FtsH2,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0745,,"metallopeptidase, M16 family",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0746,,peptidase M16 inactive domain protein,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0757,ddpX,D-alanyl-D-alanine dipeptidase,Stress response and adaptation,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0761,vanY,D-alanyl-D-alanine carboxypeptidase,Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0842,pmbA,possible modulator of DNA gyrase,Unknown,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0843,tldD,modulator of DNA gyrase,Replication and repair,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0854,ftsH3,possible photosystem II D1 repair protein FtsH3,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0885,pbp4,penicillin-binding-like protein Pbp4,Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0915,ispA,signal peptidase II,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0936,umuD,"DNA polymerase V, subunit D",Replication and repair,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0993,,peptidase S51,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1002,pepN,aminopeptidase N,Stress response and adaptation,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1180,sppA,signal peptide peptidase SppA (protease IV),Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1189,rseP,RIP metalloprotease RseP,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1262,lexA,SOS-response transcriptional repressor,Regulatory functions,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1264,ftsH4,cell division protein FtsH,Stress response and adaptation,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1295,sodX,nickel-type superoxide dismutase maturation protease,Stress response and adaptation,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1313,clpP4,"ATP-dependent Clp protease, protease subunit",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1314,clpP3,"ATP-dependent Clp protease, protease subunit",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1332,pepA,leucine aminopeptidase,Amino acid metabolism,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1381,yedK,putative SOS response associated peptidase,Replication and repair,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1425,,peptidase S1C,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1442,pepP,Xaa-Pro aminopeptidase,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1490,deg1,photosystem II assembly factor,Photosynthesis,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,family_inferred
+PMM1506,lon,ATP-dependent protease,Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1518,spr,NLP/P60,Cell wall and membrane,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1656,clpP2,"ATP-dependent Clp protease, protease subunit",Post-translational modification,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1657,clpX,"ATP-dependent Clp protease ATP-binding subunit, ClpX",Stress response and adaptation,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1677,,"SprT-like, zinc ribbon domain-containing protein",Unknown,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0068,def,peptide deformylase,Post-translational modification,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0222,aspA,aspartoacylase,Amino acid metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0244,dcd,deoxycytidine triphosphate deaminase,Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0257,pncC,nicotinamide-nucleotide amidase,Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0266,purH,bifunctional purine biosynthesis protein (AICAR transformylase/IMP cyclohydrolase),Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0357,tenA,thiaminase II,Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0514,pyrC,putative dihydroorotase,Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0531,crnA,creatinine amidohydrolase,Carbohydrate metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0536,folE,GTP cyclohydrolase I,Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0558,ridA,reactive intermediate/imine deaminase A,Transcription,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,family_inferred
+PMM0569,pyrC,"dihydroorotase, homodimeric type",Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0578,hisIE,bifunctional phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase,Amino acid metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0615,ybeM,deaminated glutathione amidase,Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0616,amiC,N-acetylmuramoyl-L-alanine amidase,Cell wall and membrane,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0780,purQ,"phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain",Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0821,ansA,L-asparaginase II family protein,Amino acid metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0893,ribBA,"3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II",Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0918,cumB,cytidine and deoxycytidylate deaminase zinc-binding region family protein,Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0963,ureC,urease alpha subunit,Stress response and adaptation,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0964,ureB,urease beta subunit,Stress response and adaptation,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0965,ureA,urease gamma subunit,Stress response and adaptation,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1069,folD,"bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase",Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1265,ribD,diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase,Coenzyme metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1304,codA,cytosine deaminase,Amino acid metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1337,lpxC,UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase,Cell wall and membrane,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1517,,beta-lactamase enzyme family protein,Defense mechanisms,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,family_inferred
+PMM1613,ama,N-acyl-L-amino acid amidohydrolase,Post-translational modification,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,family_inferred
+PMM1686,speB,agmatinase,Carbohydrate metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM1702,purU,formyltetrahydrofolate deformylase,Nucleotide metabolism,ec:3.5.-.-,"Acting on carbon-nitrogen bonds, other than peptide bonds",1,True,curated
+PMM0908,ilvA,threonine ammonia-lyase,Amino acid metabolism,ec:4.3.1.-,Ammonia-lyases,2,True,curated
+PMM1716,thrC,threonine synthase,Amino acid metabolism,ec:4.3.1.-,Ammonia-lyases,2,True,family_inferred

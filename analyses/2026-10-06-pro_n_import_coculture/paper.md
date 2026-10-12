@@ -135,6 +135,65 @@ per genome:
 
 ## Results
 
+*Draft from the analysis milestone; the evaluation milestone may revise it. Numbers are rank
+percentiles within each experiment (1.0 = the most up-regulated gene) and the source papers'
+significance calls. Details and figures: `analysis/notebook.md`, `analysis/figures/`.*
+
+**Data checks.** All 13 planned experiments were retrieved complete, and ten values were confirmed
+by an independent query. Two features of the tables shape every reading:
+- Significance in the anchor tables also requires |log2FC| ≥ 1.
+- The coculture-vs-axenic RNA contrasts are algebraically linked. The axenic sample, taken around
+  day 14 and already in late decline, serves as the reference for coculture day 18.
+
+**N-starvation sanity check.**
+- In protein, glutamine synthetase (`glnA`), `ntcA` and PII (`glnB`) are significantly up at every
+  coculture day and in the axenic sample (15/15 tests).
+- In coculture RNA they are down.
+- Each culture's RNA is measured against its own exponential-phase sample (day 11). The coculture's
+  N-regulon RNA was already well above axenic then: `glnA` +2.4, `cynA` +3.1, `urtA` +2.5 log2FC.
+  This contributes to the protein-up / RNA-down pattern.
+- After exponential growth the coculture RNA changes little: 84 significant genes at day 18, against
+  877 in the axenic culture at day 14. Coculture-vs-axenic RNA differences at that stage mainly
+  reflect the axenic culture's decline.
+
+**Import systems don't report their substrate.** In MED4 growth experiments with a single N source
+(Tolonen et al. 2006):
+- the urea system is not up on urea (median rank 0.34), but `urtA` is up on cyanate;
+- on cyanate, only `cynA`, `urtA` and `glnA` are significant.
+
+In MIT9313, the nitrite system (`focA`/`nirA`) and the urea system are both near the top on both
+nitrite and urea (≥ 0.98). The pre-registered substrate-calibration gate failed, so no compound is
+named from the *Prochlorococcus* side. The ammonium transporter `amt1` was not calibrated.
+
+**MED4 in long coculture.**
+- **Sustained in coculture.** In protein, the ammonium (`amt1`), urea (urt with urease) and cyanate
+  (cyn with cyanase) systems are in the top 10% from day 18 to day 89. They cluster with the
+  published N-starvation gene set, which stays at 0.91–1.00.
+- **Lost in the dying axenic culture.** There, the urea and cyanate systems fall back (urt 0.79 →
+  0.48–0.57; cyn 0.99 → 0.67–0.72) while the N-stress regulators stay at 0.93–0.98.
+- **No detectable damping.** Within coculture, damping can't be detected at the rank ceiling. Late
+  marker fold changes are mixed: `ntcA` eases, `glnB` rises.
+- **dpp is unresolved.** The dipeptide system is raised in coculture protein (0.82–0.89), but in the
+  axenic culture's own protein `dppA` does not rise.
+- **No other route.** No broadly annotated route shows its transporter and consuming enzymes rising
+  together (exploratory). Among peptidases, C–N hydrolases and ammonia-lyases, none rises in
+  coculture without also rising in the axenic culture or in acute starvation, except one signal
+  peptidase.
+
+**Envelope and iron.**
+- Genes up in late coculture protein but not in any axenic sample or in acute N deprivation:
+  - the lipid II flippase `murJ`;
+  - `tolC`, `acrA` and `bamA` (already high in the axenic day-14 sample).
+- The porin `som` is also up in the dying axenic culture.
+- An iron-starvation gene cluster is modestly raised in coculture protein only (0.71–0.77 vs 0.52).
+
+**Provisional reading.** MED4 raises and sustains its capacity to take up and process ammonium,
+urea and cyanate as part of the N-starvation response; expression cannot name the compound used.
+Dipeptide import is raised but unresolved. No other nitrogen route shows a coculture signal beyond
+starvation. Because the axenic comparison is with a declining culture, these contrasts do not
+separate a partner effect from survival, and "no signal" is not evidence that no other compound is
+taken up.
+
 ## Discussion
 
 ## References

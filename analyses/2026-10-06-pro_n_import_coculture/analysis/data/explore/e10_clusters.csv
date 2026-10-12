@@ -1,0 +1,81 @@
+row_id,n_imputed_cells_total,branch_k2,branch_k3,branch_k4,branch_k6,leaf_order,label,category
+ref_glnB,112,1,1,1,1,0,glnB: PII protein (N-starvation marker),markers
+ref_glnA,112,1,1,1,1,1,glnA: glutamine synthetase (N-starvation marker),markers
+ref_ntcA,112,1,1,1,1,2,ntcA: N-control regulator (N-starvation marker),markers
+sys_PMM0370,112,1,1,1,1,3,cyn: cyanate ABC transporter (cyanate) [H],N dedicated
+sys_PMM0263,112,1,1,1,1,4,amt1: ammonium transporter (ammonium) [H],N dedicated
+ref_ureA-G,112,1,1,1,1,5,urease ureA–G: urea → ammonium (enzyme),linked enzymes
+sys_PMM0970,112,1,1,1,1,6,urt: urea ABC transporter (urea) [H],N dedicated
+ref_cynS,112,1,1,1,1,7,"cynS: cyanase, cyanate → ammonium (enzyme)",linked enzymes
+sys_PMM0804,112,1,1,1,1,8,ftn PMM0804: ferritin [FP] [M],other High/Medium
+sys_PMM0671,112,2,2,2,2,9,phn: phosphonate [H],non-N reference
+sys_PMM0976,112,2,2,2,2,10,evrA/evrB/evrC PMM0976: ATP-binding cassette-type viologen [efflux] [M],other High/Medium
+sys_PMM0213,112,2,2,2,2,11,sbtA: bicarbonate [H],non-N reference
+sys_PMM1224,112,2,2,2,2,12,kpsD3 PMM1224: polysaccharide biosynthesis/export [efflux] [M],other High/Medium
+sys_PMM0807,112,2,2,2,2,13,modF PMM0807: ABC transporter family protein [M],other High/Medium
+sys_PMM0274,112,2,2,2,2,14,PMM0274: CNNM domain-containing protein [M],other High/Medium
+sys_PMM0131,112,2,2,2,2,15,zntA PMM0131: copper-translocating P-type ATPase [M],other High/Medium
+sys_PMM0601,112,2,2,2,2,16,mnt: manganese [H],non-N reference
+sys_PMM0214,112,2,2,2,2,17,sul3: sulfate [H],N broad
+sys_PMM0644,112,2,2,2,2,18,sul1: sulfate [H],N broad
+sys_PMM1600,112,2,2,2,2,19,nhaS PMM1600: Na+/H+ antiporter (N: ammonium) [H],N broad
+sys_PMM0927,112,2,3,4,6,20,perM PMM0927: putative autoinducer 2 exporter [efflux] [H],other High/Medium
+sys_PMM0630,112,2,3,3,5,21,gst PMM0630: glutathione S-transferase (N: peptides) [FP] [M],N broad
+sys_PMM0566,112,2,3,3,3,22,gst PMM0566: glutathione S-transferase (N: peptides) [FP] [M],N broad
+sys_PMM1119,112,2,3,3,3,23,som PMM1119: outer membrane porin [M],other High/Medium
+sys_PMM1239,112,2,3,3,3,24,"hetA PMM1239: ABC transporter type 1 (N: peptides, amino acids) [H]",N broad
+sys_PMM0449,112,2,3,3,3,25,ccmA/ycf38 PMM0449: ABC-type multidrug transport syste [efflux] [M],other High/Medium
+sys_PMM1211,112,2,3,3,3,26,kpsD PMM1211: polysaccharide biosynthesis/export [efflux] [M],other High/Medium
+sys_PMM1631,112,2,3,3,4,27,PMM1631/crcB1: conserved hypothetical protein [efflux] [M],other High/Medium
+sys_PMM1179,112,2,3,3,4,28,PMM1179: eamA-like transporter family prote (N: urea) [M],N broad
+sys_PMM1323,112,2,3,3,4,29,"glcH PMM1323: glucose transporter (N: amino acids, polyamines, amino sugars) [H]",N broad
+sys_PMM0065,112,2,3,3,4,30,"mcyH PMM0065: ABC transporter (N: peptides, amino acids) [H]",N broad
+sys_PMM0440,112,2,3,3,4,31,PMM0440: uncharacterized conserved secreted [M],other High/Medium
+sys_PMM1175,112,2,3,3,4,32,PMM1175: AEC transporter family [H],other High/Medium
+sys_PMM0097,112,2,3,3,4,33,tolC PMM0097: TolC-like outer membrane efflux pr [efflux] [M],other High/Medium
+sys_PMM1139,112,2,3,3,4,34,acrA PMM1139: RND efflux pump [efflux] [M],other High/Medium
+sys_PMM1338,112,2,3,3,4,35,bamA PMM1338: outer membrane protein insertion p [M],other High/Medium
+sys_PMM0716,112,2,3,3,4,36,arsB PMM0716: arsenate efflux pump [efflux] [H],other High/Medium
+sys_PMM0083,112,2,3,3,4,37,citT PMM0083: putative sodium/potassium/sulfate (N: amino acids) [H],N broad
+sys_PMM0489,112,2,3,3,4,38,fut/idiA2: iron [H],non-N reference
+sys_PMM0289,112,2,3,3,4,39,ycf22/mkl/ycf63 PMM0289: ABC-type transport system [M],other High/Medium
+sys_PMM0827,112,2,3,3,4,40,"mdlB PMM0827: putative ABC multidrug efflux tran (N: peptides, amino acids) [efflux] [H]",N broad
+sys_PMM0192,112,2,3,3,4,41,dpp: di/oligopeptide ABC transporter (peptides) [H],N dedicated
+sys_PMM1029,112,2,3,3,4,42,lraI: Mn/Zn [H],non-N reference
+sys_PMM0710,112,2,3,3,4,43,pst: phosphate [H],non-N reference
+sys_PMM0125,112,2,3,3,4,44,ecfA1 PMM0125: energy-coupling factor transport s [M],other High/Medium
+sys_PMM0261,112,2,3,3,4,45,murJ PMM0261: peptidoglycan lipid II flippase (N: amino acids) [M],N broad
+sys_PMM0764,112,2,3,3,4,46,lptB/lptG PMM0764: lipopolysaccharide export system [efflux] [M],other High/Medium
+sys_PMM0628,112,2,3,3,4,47,gltS PMM0628: putative Na+/glutamate symporter [H],other High/Medium
+sys_PMM0940,112,2,3,3,4,48,PMM0940: permease of the drug/metabolite tr (N: urea) [M],N broad
+sys_PMM1295,112,2,3,3,4,49,"sodX PMM1295: nickel-type superoxide dismutase m (N: peptides, amino acids) [FP] [M]",N broad
+sys_PMM0635,112,2,3,3,4,50,mscS PMM0635: small-conductance mechanosensitive [H],other High/Medium
+ref_pipX,112,2,3,3,4,51,pipX: NtcA co-activator (N-starvation marker),markers
+sys_PMM1701,112,2,3,3,4,52,clc2 PMM1701: putative chloride channel (N: nitrate) [H],N broad
+sys_PMM0472,112,2,3,3,4,53,nhaS PMM0472: Na+/H+ antiporter (N: ammonium) [H],N broad
+sys_PMM0704,112,2,3,3,4,54,PMM0704: potassium ion channel (N: ammonium) [H],N broad
+sys_PMM0561,112,2,3,3,4,55,PMM0561: putative ABC multidrug efflux tran (N: peptides) [efflux] [H],N broad
+sys_PMM0711,112,2,3,3,4,56,chrA PMM0711: chromate transporter [H],other High/Medium
+sys_PMM1046,112,2,3,3,4,57,PMM1046: multidrug efflux transporter [efflux] [M],other High/Medium
+sys_PMM0981,112,2,3,3,4,58,PMM0981: sulfite exporter TauE/SafE family [efflux] [H],other High/Medium
+sys_PMM1695,112,2,3,3,4,59,PMM1695: multidrug efflux transporter [efflux] [H],other High/Medium
+sys_PMM0848,112,2,3,3,4,60,PMM0848: uncharacterized membrane protein [H],other High/Medium
+sys_PMM0849,112,2,3,3,4,61,PMM0849: uncharacterized membrane protein [H],other High/Medium
+sys_PMM0666,112,2,3,3,4,62,PMM0666: ABC transporter family protein [M],other High/Medium
+sys_PMM0712,112,2,3,3,4,63,arsJ PMM0712: multidrug efflux transporter [efflux] [H],other High/Medium
+sys_PMM0914,112,2,3,3,4,64,bioY PMM0914: biotin ECF transporter [M],other High/Medium
+sys_PMM1099,112,2,3,3,4,65,"PMM1099: ABC transporter (N: peptides, amino acids) [H]",N broad
+sys_PMM1173,112,2,3,3,4,66,PMM1173: putative membrane protein [M],other High/Medium
+sys_PMM0072,112,2,3,3,4,67,sufC PMM0072: ABC transporter involved in Fe-S c [M],other High/Medium
+sys_PMM0568,112,2,3,3,4,68,yrbG PMM0568: cation:H+ antiporter [H],other High/Medium
+sys_PMM0709,112,2,3,3,4,69,som PMM0709: outer membrane porin [H],other High/Medium
+sys_PMM0392,112,2,3,3,4,70,cbiQ PMM0392: transmembrane component of ECF tra [M],other High/Medium
+sys_PMM0954,112,2,3,3,4,71,PMM0954: putative ABC multidrug efflux tran (N: peptides) [efflux] [H],N broad
+sys_PMM0089,112,2,3,3,4,72,PMM0089: ABC transport system ATP-binding/p [M],other High/Medium
+sys_PMM0748,112,2,3,3,4,73,devB/devC/devA PMM0748: ABC exporter membrane fusion [efflux] [M],other High/Medium
+sys_PMM1458,112,2,3,3,4,74,ftsW PMM1458: cell division protein FtsW [M],other High/Medium
+sys_PMM0084,112,2,3,3,4,75,"ktrB/ktrA PMM0084: Ktr-type potassium uptake transpor (N: ammonium, polyamines) [H]",N broad
+sys_PMM0717,112,2,3,3,4,76,PMM0717: conserved hypothetical protein [M],other High/Medium
+sys_PMM0110,112,2,3,3,4,77,gst PMM0110: glutathione S-transferase (N: peptides) [FP] [M],N broad
+ref_glsF,112,2,3,3,4,78,glsF: glutamate synthase (enzyme),linked enzymes
+sys_PMM1630,112,2,3,3,4,79,mgtE PMM1630: magnesium transporter [H],other High/Medium

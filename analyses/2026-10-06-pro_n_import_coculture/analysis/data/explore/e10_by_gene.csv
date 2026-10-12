@@ -1,0 +1,651 @@
+panel,locus_tag,gene_name,row_id,block,column,short_name,timepoint,status,n_up,n_down,n_detected,n_members,rank_percentile
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.3768961493582263
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9637641968631692
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0394808004326663
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9658220388921628
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9416617560400709
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.8096641131408367
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.956982911019446
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.71714790807307
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,up,1,0,1,1,
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.3783146729522687
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.4790807307012374
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.6629213483146068
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.6938202247191011
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.7801966292134832
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.7226123595505618
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9241573033707864
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9831460674157304
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.976123595505618
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9799891833423472
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.8193618171984857
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.8171984856679286
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.0638182801514332
+amt1: ammonium transporter,PMM0263,amt1,PMM0263,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.6560302866414278
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.3605600933488915
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9891833423472148
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.3656030286641427
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,up,1,0,1,1,0.9982321744254566
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9982321744254566
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9964643488509134
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.9988214496169712
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,up,1,0,1,1,0.9964643488509134
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,up,1,0,1,1,0.9328226281673542
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.3376546847377725
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.9304775280898876
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,down,0,1,1,1,0.125
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.2106741573033708
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.990870786516854
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.990870786516854
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9838483146067416
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9831460674157304
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9475392103839914
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.3358572201189832
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.1005949161709032
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.0281233098972417
+urt: urea ABC transporter,PMM0970,urtA,PMM0970,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.2471606273661438
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.4725787631271878
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9762033531638724
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.5732828555976204
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9935179728933412
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9888037713612255
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9322333529758398
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.938126104890984
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.8892162639952859
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.8167354154390101
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.1626399528579847
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.613061797752809
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.3967696629213483
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.3490168539325843
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.9424157303370786
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9585674157303372
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.908005617977528
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9339887640449438
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.8409951325040562
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.4359113034072471
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,down,0,1,1,1,0.038939967550027
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.0383991346673877
+urt: urea ABC transporter,PMM0971,urtB,PMM0971,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.27203893996755
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.8704784130688448
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9172525689561926
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.6030286641427799
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.5987035945786683
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.7819681791396582
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.497348261638185
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.784325279905716
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.5356511490866235
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.6829699469652328
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.1426045963464938
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.7935393258426966
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.7514044943820225
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.8883426966292135
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9915730337078652
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.985252808988764
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9782303370786516
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9803370786516854
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.7079502433747972
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.7290427257977286
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.636019469983775
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.5965386695511087
+urt: urea ABC transporter,PMM0972,urtC,PMM0972,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.34559221200649
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.7467911318553092
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.965386695511087
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.6138453217955652
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.8980553918680023
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8509133765468474
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.5651149086623453
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.8043606364172069
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.7271655863288156
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.9121979964643488
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.8744843842074248
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.6734550561797753
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.5049157303370786
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.5723314606741573
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.985252808988764
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9859550561797752
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.8792134831460674
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9058988764044944
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.7717685235262304
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.5094645754461871
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.2920497566252028
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.4148188209843159
+urt: urea ABC transporter,PMM0973,urtD,PMM0973,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.159545700378583
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.0052508751458576
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.903731746890211
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.6468361276365603
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.965232763700648
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8562168532704773
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.8668238067177372
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.854449027695934
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.6517383618149676
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.553918680023571
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.8238067177371833
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.7872191011235955
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.4789325842696629
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.610252808988764
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9873595505617978
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9845505617977528
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9353932584269664
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.8419943820224719
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.8334234721471065
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.969172525689562
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.8848025959978367
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,up,1,0,1,1,0.936722552731206
+urt: urea ABC transporter,PMM0974,urtE,PMM0974,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.6538669551108707
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.7141190198366394
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9929691725256896
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0362358031368307
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,up,1,0,1,1,0.9988214496169712
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9994107248084856
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9994107248084856
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,1.0
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,up,1,0,1,1,0.9970536240424278
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,up,1,0,1,1,0.9658220388921628
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.0218031820860341
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9950842696629212
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.5351123595505618
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.6650280898876404
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9964887640449438
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9985955056179776
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9992977528089888
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9978932584269664
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9951325040562466
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.4424012979989183
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.568415359653867
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.3812871822606815
+cyn: cyanate ABC transporter,PMM0370,cynA,PMM0370,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.9010275824770146
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.2952158693115519
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9875608436992968
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0475932936722552
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9835002946375958
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9882144961697112
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9899823217442546
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.9888037713612255
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,up,1,0,1,1,0.9817324690630524
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.9552150854449027
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.1243370654095462
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.9796348314606742
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.889747191011236
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.7198033707865168
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9985955056179776
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9978932584269664
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9978932584269664
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9964887640449438
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9859383450513792
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.366143861546782
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.2330989724175229
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.4012979989183343
+cyn: cyanate ABC transporter,PMM0371,cynB,PMM0371,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.9361817198485668
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.544340723453909
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9724175229853976
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0951865873445105
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.7018267530936948
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9734826163818504
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9858573954036536
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.981143193871538
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.9446081319976428
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.9581614614024748
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.2374779021803181
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9887640449438202
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.7148876404494382
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.398876404494382
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9978932584269664
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9971910112359552
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9971910112359552
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9936797752808988
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9626825310978908
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.4564629529475392
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.5116279069767442
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.8053001622498648
+cyn: cyanate ABC transporter,PMM0372,cynD,PMM0372,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,up,1,0,1,1,0.946998377501352
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.9486581096849476
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.3050297458085451
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.2374256354786371
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.3500294637595758
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.0259281084266352
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.225103123158515
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.1785503830288745
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.1373011196228638
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.8786093105480259
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.0500883912787272
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.4276685393258427
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.2675561797752809
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.2942415730337079
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.5498595505617978
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.2071629213483146
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.0807584269662921
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.1587078651685393
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.6208761492698756
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.4737696051919956
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.1784748512709573
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.085992428339643
+dpp: di/oligopeptide ABC transporter,PMM0192,ddpD,PMM0192,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.2763656030286642
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.1155192532088681
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.6917252568956193
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.298539751216874
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.8467884502062464
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.4054213317619328
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.6405421331761934
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.7913965822038892
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.5851502651738362
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5627578078962876
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.4614024749558043
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.5463483146067416
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.9831460674157304
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.94311797752809
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.8419943820224719
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.8426966292134832
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9543539325842696
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.8651685393258427
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.6165494862087615
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.2612222823147647
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.30881557598702
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.2406706327744726
+dpp: di/oligopeptide ABC transporter,PMM0421,dppC,PMM0421,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.4753921038399135
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.8427654609101517
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.7609518658734451
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.1054624121146565
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.6688273423688862
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8862698880377136
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.3618149675898644
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.5934001178550383
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.3017088980553919
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.6971125515615793
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.6069534472598703
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.5323033707865168
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.4543539325842697
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.3911516853932584
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.9122191011235956
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.9157303370786516
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.8181179775280899
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.7731741573033708
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9204975662520282
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.8334234721471065
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,up,1,0,1,1,0.9670091941590048
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.905895078420768
+dpp: di/oligopeptide ABC transporter,PMM1048,dppB,PMM1048,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,up,1,0,1,1,0.9518658734451054
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.1064760793465577
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9329367225527312
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.1319632233639804
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.3093694755450795
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.6894519740718916
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.8556275780789628
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.8479670005892752
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.6499705362404242
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5297583971714791
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.8538597525044196
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.764747191011236
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,down,0,1,1,1,0.1741573033707865
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.2148876404494382
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.9051966292134832
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9634831460674156
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9683988764044944
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.961376404494382
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9275283937263386
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.599242833964305
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.7598702001081665
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.7458085451595458
+dpp: di/oligopeptide ABC transporter,PMM1049,dppA,PMM1049,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.7614926987560844
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.3010501750291715
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.7387777176852353
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.2974580854515954
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.8909840895698291
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.5615792575132588
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.54979375368297
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.6947554507955216
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.8467884502062464
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5238656452563347
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.3824395992928697
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.8764044943820225
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.9564606741573034
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.9311797752808988
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9936797752808988
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9936797752808988
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.964185393258427
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9276685393258428
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.840454299621417
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.8815575987020011
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.8377501352082206
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.6598161168199026
+urease ureA–G (urea → ammonium),PMM0963,ureC,PMM0963,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.6868577609518658
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.8833138856476079
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9545700378583016
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.1465657111952406
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9004124926340601
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.9198585739540366
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9440188568061284
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.9039481437831468
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.8391278727165586
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5745433117265764
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.3889216263995285
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.9248595505617978
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.5133426966292135
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.6039325842696629
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9887640449438202
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9950842696629212
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9901685393258428
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.964185393258427
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9194159004867496
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.2839372633856138
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.3450513791238507
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.1444023796646836
+urease ureA–G (urea → ammonium),PMM0964,ureB,PMM0964,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.1011357490535425
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.911901983663944
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9772850189291508
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.2915089237425635
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9870359457866824
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.985268120212139
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9552150854449027
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.9599292869770184
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.9375368296994696
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5126694166175604
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.4908662345315262
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9894662921348316
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.7563202247191011
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.8377808988764045
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9950842696629212
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9964887640449438
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9754213483146068
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9634831460674156
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9280692266089778
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.4305029745808545
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.3883180097349918
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.2585181179015684
+urease ureA–G (urea → ammonium),PMM0965,ureA,PMM0965,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.0730124391563007
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.1400233372228705
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.7236343969713359
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.4429421308815576
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.8302887448438421
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8379493223335297
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.0100176782557454
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.3211549793753683
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.0170889805539187
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.8573954036535062
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.6841484973482617
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.7134831460674158
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.6945224719101124
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.678370786516854
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.6692415730337078
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.7296348314606742
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.6959269662921348
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.4866573033707865
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.638182801514332
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.6046511627906976
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.3785830178474851
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.7047052460789616
+urease ureA–G (urea → ammonium),PMM0966,ureD,PMM0966,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.5857220118983234
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.8427654609101517
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.6387236343969713
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.6462952947539211
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.6081319976428992
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.5197407189157337
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.7012374779021804
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.6022392457277548
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.1196228638774307
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.5875073659398939
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.370654095462581
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.586376404494382
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.9248595505617978
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.919241573033708
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.4452247191011236
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.574438202247191
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.3686797752808989
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.559691011235955
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.5727420227149811
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.9291508923742564
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.5067604110329909
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.3304488912925906
+urease ureA–G (urea → ammonium),PMM0967,ureE,PMM0967,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.1811790156841536
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.2109101516919487
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.5538128718226067
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.7414818820984316
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.6157925751325869
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8214496169711255
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.8267530936947555
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.6782557454331173
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.6741308190925162
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.6051856216853271
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.1054802592810842
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,not detected,0,0,0,1,
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.3585722011898323
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.7869118442401298
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.3899405083829097
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.3385613845321795
+urease ureA–G (urea → ammonium),PMM0968,ureF,PMM0968,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.2401297998918334
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.9203617269544924
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.6284478096268253
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.269875608436993
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.8149675898644667
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.8432527990571597
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9269298762522098
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.9251620506776664
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.5898644667059516
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.4519740718915733
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.1591043017088981
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.6882022471910112
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.7808988764044944
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.7282303370786517
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.8609550561797753
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9768258426966292
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.8925561797752809
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.8728932584269663
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.766901027582477
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.6944294213088156
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.8258518117901569
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.8253109789075176
+urease ureA–G (urea → ammonium),PMM0969,ureG,PMM0969,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.5116279069767442
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.0035005834305718
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.973499188750676
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,up,1,0,1,1,0.824229313142239
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9616971125515617
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.9175014731879788
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.9375368296994696
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.9575721862109604
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.967589864466706
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,up,1,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.8461991750147319
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.5450795521508545
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.981741573033708
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.684691011235955
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.8068820224719101
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9922752808988764
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9901685393258428
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9985955056179776
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,1.0
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.7111952406706328
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.8550567874526771
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.7333693888588426
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.7560843699296917
+cynS (cyanase) + glsF (glutamate synthase),PMM0373,cynS,PMM0373,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,up,1,0,1,1,0.9740400216333152
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.5530921820303384
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.9150892374256356
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0573282855597619
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.6322922804949911
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9157336476134356
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9304655274012964
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.9363582793164408
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.9116087212728344
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.6923983500294637
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.6263995285798467
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,ns,0,0,1,1,0.6207865168539326
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.3518258426966292
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.4571629213483146
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.9115168539325844
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,ns,0,0,1,1,0.908005617977528
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.773876404494382
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.735252808988764
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.94104921579232
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.3228772309356409
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.6771227690643591
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.8620876149269876
+cynS (cyanase) + glsF (glutamate synthase),PMM1512,glsF,PMM1512,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.8253109789075176
+N-starvation markers,PMM0920,glnA,PMM0920,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.3360560093348891
+N-starvation markers,PMM0920,glnA,PMM0920,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9864791779340184
+N-starvation markers,PMM0920,glnA,PMM0920,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.1049215792320172
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,up,1,0,1,1,0.9976428992339422
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9976428992339422
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9982321744254566
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.9994107248084856
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,up,1,0,1,1,0.995875073659399
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,up,1,0,1,1,
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,up,1,0,1,1,0.981143193871538
+N-starvation markers,PMM0920,glnA,PMM0920,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.3046552740129641
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9964887640449438
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.898876404494382
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.9803370786516854
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9971910112359552
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.99438202247191
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9866573033707864
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9726123595505618
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9702541914548404
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.1925365062195781
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.0421849648458626
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.0210924824229312
+N-starvation markers,PMM0920,glnA,PMM0920,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.0697674418604651
+N-starvation markers,PMM0246,ntcA,PMM0246,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.0589264877479579
+N-starvation markers,PMM0246,ntcA,PMM0246,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,up,1,0,1,1,0.9859383450513792
+N-starvation markers,PMM0246,ntcA,PMM0246,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,down,0,1,1,1,0.0297458085451595
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9970536240424278
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9964643488509134
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9929286977018268
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.985268120212139
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.9345904537418974
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,up,1,0,1,1,
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.4832056570418385
+N-starvation markers,PMM0246,ntcA,PMM0246,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.0017678255745433
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9936797752808988
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.9978932584269664
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.9859550561797752
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9929775280898876
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9894662921348316
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9311797752808988
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.8974719101123596
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,up,1,0,1,1,0.9697133585722012
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.0162249864791779
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.047052460789616
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.0432666306111411
+N-starvation markers,PMM0246,ntcA,PMM0246,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,down,0,1,1,1,0.0216333153055705
+N-starvation markers,PMM1463,glnB,PMM1463,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,ns,0,0,1,1,0.5758459743290548
+N-starvation markers,PMM1463,glnB,PMM1463,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.8777717685235262
+N-starvation markers,PMM1463,glnB,PMM1463,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.5673336938885885
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.9952857984678845
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,up,1,0,1,1,0.9923394225103124
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,up,1,0,1,1,0.9888037713612255
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,up,1,0,1,1,0.9752504419563937
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.9611078373600472
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,ns,0,0,1,1,
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,ns,0,0,1,1,
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,ns,0,0,1,1,
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.9098408956982912
+N-starvation markers,PMM1463,glnB,PMM1463,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.8426635238656452
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9803370786516854
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,up,1,0,1,1,0.9276685393258428
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,up,1,0,1,1,0.8574438202247191
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,up,1,0,1,1,0.9838483146067416
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9866573033707864
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,up,1,0,1,1,0.9936797752808988
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,up,1,0,1,1,0.9950842696629212
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.3526230394808004
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.0400216333153056
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,down,0,1,1,1,0.0210924824229312
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,down,0,1,1,1,0.0454299621416982
+N-starvation markers,PMM1463,glnB,PMM1463,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,down,0,1,1,1,0.0102758247701459
+N-starvation markers,PMM0393,pipX,PMM0393,coculture vs axenic,"Aharonovich 2016 (N-replete, 20 h)*",ctrl_med4_hot1a3,20h,down,0,1,1,1,0.0816802800466744
+N-starvation markers,PMM0393,pipX,PMM0393,coculture vs axenic,same study d11 (exponential),direct_contrast_rna,day 11,ns,0,0,1,1,0.588967009194159
+N-starvation markers,PMM0393,pipX,PMM0393,coculture vs axenic,same study d18 (cc d18 vs ax ~d14),direct_contrast_rna,day 18,ns,0,0,1,1,0.4186046511627906
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen N-dep 3h,cal_tolonen_ndep,3h,ns,0,0,1,1,0.3429581614614024
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen N-dep 6h,cal_tolonen_ndep,6h,ns,0,0,1,1,0.5710076605774896
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen N-dep 12h,cal_tolonen_ndep,12h,ns,0,0,1,1,0.8391278727165586
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen N-dep 24h,cal_tolonen_ndep,24h,ns,0,0,1,1,0.3930465527401297
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen N-dep 48h,cal_tolonen_ndep,48h,ns,0,0,1,1,0.1084266352386564
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Read N-depleted 3h (filtered),cal_read_ndep,3h,not listed,0,0,0,1,
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Read N-depleted 12h (filtered),cal_read_ndep,12h,not listed,0,0,0,1,
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Read N-depleted 24h (filtered),cal_read_ndep,24h,not listed,0,0,0,1,
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen growth on cyanate,cal_tolonen_cyanate,steady state,ns,0,0,1,1,0.2616381850324101
+N-starvation markers,PMM0393,pipX,PMM0393,N starvation / other N sources,Tolonen growth on urea,cal_tolonen_urea,steady state,ns,0,0,1,1,0.2969946965232763
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein ax d14,anchor_axenic_protein,day 14,up,1,0,1,1,0.9536516853932584
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein ax d31 (death),anchor_axenic_protein,day 31,ns,0,0,1,1,0.4445224719101124
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein ax d89 (death),anchor_axenic_protein,day 89,ns,0,0,1,1,0.4234550561797753
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein cc d18,anchor_cocult_protein,day 18,ns,0,0,1,1,0.9487359550561798
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein cc d31,anchor_cocult_protein,day 31,up,1,0,1,1,0.9325842696629214
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein cc d60,anchor_cocult_protein,day 60,ns,0,0,1,1,0.5610955056179776
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),protein cc d89,anchor_cocult_protein,day 89,ns,0,0,1,1,0.6088483146067416
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),RNA ax d14,anchor_axenic_rna,day 14,ns,0,0,1,1,0.5045970795024337
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),RNA cc d18,anchor_cocult_rna,day 18,ns,0,0,1,1,0.3023255813953488
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),RNA cc d31,anchor_cocult_rna,day 31,ns,0,0,1,1,0.2152514872904273
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),RNA cc d60,anchor_cocult_rna,day 60,ns,0,0,1,1,0.570578691184424
+N-starvation markers,PMM0393,pipX,PMM0393,this study (Weissberg),RNA cc d89,anchor_cocult_rna,day 89,ns,0,0,1,1,0.1936181719848566

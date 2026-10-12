@@ -197,3 +197,27 @@ positive signal.
   and push"), given while the QC round was in progress. The decide-gate approval covered the
   approach agreed in chat; the final v1.6.1 state was not shown to the researcher before the
   commit, and is summarized for them on return.
+
+
+## 2026-10-12 — Analysis milestone close
+
+- **The researcher reshaped the milestone at the decide points.** Labels were deferred ("premature")
+  and replaced by an in-depth exploration (E1–E15) and a provisional reading. The researcher
+  supplied context the KG lacked and that changed interpretations:
+  - culture states (axenic d14 = late decline);
+  - the day-18 RNA contrast is dominated by the axenic decline;
+  - the missed MIT9313 Tolonen experiments;
+  - the KG's co-expression clusters.
+- **Layer mixing recurred twice** (protein vs microarray RNA for dpp; again for the dpp "lag").
+  Both were caught: the first by the researcher, the second by the critic. Proposal: comparison
+  helpers should refuse cross-layer comparisons unless explicitly labelled.
+- **The critic earned its pass.** It found 2 Blockers that changed the reading the researcher had
+  provisionally approved:
+  - the coculture-specific flag ignored the axenic death-phase samples (the headline porin `som`
+    is up there);
+  - the dpp reclassification rested on cross-layer evidence.
+
+  Cost: about 172k tokens, about 6 min.
+- **External data scope.** The researcher's culture measurements were brought in, then set aside
+  as out of scope ("a distraction … deal with later"). Logged as a KG gap: cell counts mostly live
+  in figures.

@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM0861",
+  "gene_name": null,
+  "experiment_id": "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "day 31",
+  "timepoint_hours": 744.0,
+  "timepoint_order": 2,
+  "log2fc": 5.941762180832684,
+  "padj": 2.7378462463032337e-21,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "nutrient_limited",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth (RNASEQ)",
+  "treatment": "PRO99-lowN nutrient starvation",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "coculture",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM1910",
+  "gene_name": null,
+  "experiment_id": "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "day 31",
+  "timepoint_hours": 744.0,
+  "timepoint_order": 2,
+  "log2fc": 5.788303592724105,
+  "padj": 2.521966805102359e-22,
+  "rank": 2,
+  "rank_up": 2,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "nutrient_limited",
+  "product": "Conserved hypothetical protein",
+  "experiment_name": "MED4 PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth (RNASEQ)",
+  "treatment": "PRO99-lowN nutrient starvation",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "coculture",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM2005",
+  "gene_name": null,
+  "experiment_id": "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "day 31",
+  "timepoint_hours": 744.0,
+  "timepoint_order": 2,
+  "log2fc": 5.698723894358795,
+  "padj": 1.5682006053376003e-37,
+  "rank": 3,
+  "rank_up": 3,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "nutrient_limited",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth (RNASEQ)",
+  "treatment": "PRO99-lowN nutrient starvation",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "coculture",
+   "light"
+  ]
+ }
+]

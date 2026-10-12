@@ -1,0 +1,128 @@
+table,short_name,group,kind,locus_tag,gene_name,log2fc,rank_percentile,expression_status
+MED4 ismej.2016.70,ctrl_med4_hot1a3,amt1,N systems,PMM0263,amt1,-2.145913194,0.3768961493582263,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urt,N systems,PMM0970,urtA,-2.374869679,0.3605600933488915,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urt,N systems,PMM0971,urtB,-1.59669374,0.4725787631271878,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urt,N systems,PMM0972,urtC,0.075928863,0.8704784130688448,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urt,N systems,PMM0973,urtD,-0.514418645,0.7467911318553092,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urt,N systems,PMM0974,urtE,-13.19859851,0.0052508751458576,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,cyn,N systems,PMM0370,cynA,-0.659818656,0.7141190198366394,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,cyn,N systems,PMM0371,cynB,-5.233951827,0.2952158693115519,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,cyn,N systems,PMM0372,cynD,-1.262193429,0.544340723453909,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,dpp,N systems,PMM0192,ddpD,0.997601504,0.9486581096849476,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,dpp,N systems,PMM0421,dppC,-10.55170826,0.1155192532088681,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,dpp,N systems,PMM1048,dppB,0.0,0.8427654609101517,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,dpp,N systems,PMM1049,dppA,-10.73216743,0.1064760793465577,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0963,ureC,-4.630077859,0.3010501750291715,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0964,ureB,0.186352843,0.8833138856476079,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0965,ureA,0.462864965,0.911901983663944,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0966,ureD,-10.23002044,0.1400233372228705,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0967,ureE,0.0,0.8427654609101517,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0968,ureF,-9.231221181,0.2109101516919487,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,urease,linked / markers,PMM0969,ureG,0.530021951,0.9203617269544924,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,cynS / glsF,linked / markers,PMM0373,cynS,-13.42534705,0.0035005834305718,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,cynS / glsF,linked / markers,PMM1512,glsF,-1.238454401,0.5530921820303384,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,markers,linked / markers,PMM0920,glnA,-2.79260227,0.3360560093348891,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,markers,linked / markers,PMM0246,ntcA,-11.45172627,0.0589264877479579,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,markers,linked / markers,PMM1463,glnB,-1.161068434,0.5758459743290548,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,markers,linked / markers,PMM0393,pipX,-11.03686045,0.0816802800466744,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: pst,non-N,PMM0710,pstS,-1.405878152,0.514002333722287,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: pst,non-N,PMM0723,pstC,-8.968666793,0.2281213535589265,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: pst,non-N,PMM0724,pstA,-10.45224124,0.1222287047841307,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: pst,non-N,PMM0725,pstB,-1.137188845,0.5834305717619603,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: phn,non-N,PMM0671,phnE,-7.651051691,0.2721703617269545,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: phn,non-N,PMM0672,phnC,-2.413085781,0.3576429404900817,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: phn,non-N,PMM0673,phnD,-11.85369942,0.0414235705950991,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: sul1,non-N,PMM0644,sul1,-2.031157759,0.3949824970828471,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: sul3,non-N,PMM0214,sul3,-1.600423235,0.4719953325554259,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: fut/idiA2,non-N,PMM0489,futB,-1.169702408,0.572637106184364,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: fut/idiA2,non-N,PMM0803,futC,0.0,0.8427654609101517,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: fut/idiA2,non-N,PMM1164,idiA2,-1.683788609,0.4568261376896149,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: mnt,non-N,PMM0601,mntC,-11.59851781,0.0516336056009334,significant_down
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: mnt,non-N,PMM0602,mntA,-0.260048151,0.79463243873979,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: mnt,non-N,PMM0603,mntB,0.814229805,0.941073512252042,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: lraI,non-N,PMM1029,,-0.58456203,0.7330805134189031,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: lraI,non-N,PMM1031,,-1.462723545,0.500583430571762,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: lraI,non-N,PMM1032,lraI,-2.168056744,0.3757292882147024,not_significant
+MED4 ismej.2016.70,ctrl_med4_hot1a3,non-N: sbtA,non-N,PMM0213,sbtA,-1.752550975,0.4381563593932321,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: agcS,N systems,PMT0193,agcS,-0.958907265,0.3317159241288046,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: dppC/dppA/dppB/…,N systems,PMT0266,dppC,-0.065573433,0.6848257609175121,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: dppC/dppA/dppB/…,N systems,PMT1145,dppA,-0.115446399,0.6638729598588443,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: dppC/dppA/dppB/…,N systems,PMT1146,dppB,-1.253112564,0.250992501102779,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: dppC/dppA/dppB/…,N systems,PMT2110,ddpD,0.6914552,0.8864137626819586,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: proV/proW/proX,N systems,PMT0553,proV,0.400398081,0.8284075871195412,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: proV/proW/proX,N systems,PMT0554,proW,-1.768923797,0.1702690780767534,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: proV/proW/proX,N systems,PMT0555,proX,0.450948666,0.839435377150419,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: PMT0893/natH/natG/…,N systems,PMT0893,,-2.413085781,0.1239523599470666,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: PMT0893/natH/natG/…,N systems,PMT0894,natH,-0.796305573,0.3864137626819585,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: PMT0893/natH/natG/…,N systems,PMT0896,natG,-3.620079744,0.0952801058667842,significant_down
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: PMT0893/natH/natG/…,N systems,PMT0897,natF,1.571953556,0.968239964711072,significant_up
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: PMT0893/natH/natG/…,N systems,PMT1517,grrP,-0.524117368,0.4843405381561535,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: proP,N systems,PMT1044,proP,0.677951702,0.8844287604764005,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: amt1,N systems,PMT1853,amt1,-1.252727497,0.2514336127040141,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: urtE/urtD/urtC/…,N systems,PMT2225,urtE,-0.598497479,0.4569916188795765,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: urtE/urtD/urtC/…,N systems,PMT2226,urtD,-1.36246513,0.2262902514336127,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: urtE/urtD/urtC/…,N systems,PMT2227,urtC,-1.991336654,0.1495368328187031,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: urtE/urtD/urtC/…,N systems,PMT2228,urtB,-2.922484292,0.1063078958976621,significant_down
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: urtE/urtD/urtC/…,N systems,PMT2229,urtA,-2.085331866,0.1424790471989413,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,N: focA,N systems,PMT2240,focA,-1.783869262,0.1680635200705779,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: idiA2/futC/futB,non-N,PMT0287,idiA2,-0.829841296,0.3734009704455227,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: idiA2/futC/futB,non-N,PMT0501,futC,0.089248925,0.7412880458756066,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: idiA2/futC/futB,non-N,PMT1287,futB,-1.414608266,0.2165857962064402,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: mntB/mntA/mntC,non-N,PMT0416,mntB,-0.83371476,0.3714159682399647,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: mntB/mntA/mntC,non-N,PMT0417,mntA,-1.953527582,0.1543890604322894,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: mntB/mntA/mntC,non-N,PMT0418,mntC,-0.343256153,0.5648434053815615,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: pstS/pstB/pstA/…,non-N,PMT0508,pstS,-0.285321321,0.5932951036612263,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: pstS/pstB/pstA/…,non-N,PMT0700,pstB,-1.458972736,0.2086457873842082,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: pstS/pstB/pstA/…,non-N,PMT0701,pstA,-0.428700662,0.5284516982796648,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: pstS/pstB/pstA/…,non-N,PMT0702,pstC,-11.45172627,0.0141155712395235,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: pstS/pstB/pstA/…,non-N,PMT0993,pstS,-1.169524397,0.2704014115571239,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: phnD/phnC/phnE,non-N,PMT0780,phnD,-0.270016738,0.6021173356859286,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: phnD/phnC/phnE,non-N,PMT0781,phnC,1.357002436,0.9556682840758712,significant_up
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: phnD/phnC/phnE,non-N,PMT0782,phnE,-1.219650957,0.258932509925011,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: sul1,non-N,PMT0899,sul1,-0.829899709,0.3725187472430524,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: sbtA,non-N,PMT1213,sbtA,-0.353622435,0.5606528451698279,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: sul3,non-N,PMT1214,sul3,-1.85995937,0.1601235112483457,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2201,,-10.64475759,0.0328628142920158,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2202,,0.292715518,0.800176444640494,not_significant
+MIT9313 inoc05e6,ctrl_mit9313_inoc05e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2203,lraI,0.199239886,0.7737097485663873,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: agcS,N systems,PMT0193,agcS,-0.571123014,0.2985008818342152,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: dppC/dppA/dppB/…,N systems,PMT0266,dppC,-0.282330429,0.4801587301587301,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: dppC/dppA/dppB/…,N systems,PMT1145,dppA,-0.115446399,0.6051587301587302,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: dppC/dppA/dppB/…,N systems,PMT1146,dppB,-1.631291552,0.0696649029982363,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: dppC/dppA/dppB/…,N systems,PMT2110,ddpD,0.54713757,0.8996913580246914,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: proV/proW/proX,N systems,PMT0553,proV,-0.184345912,0.5526895943562611,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: proV/proW/proX,N systems,PMT0554,proW,0.499045514,0.8893298059964727,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: proV/proW/proX,N systems,PMT0555,proX,0.16253891,0.7786596119929453,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: PMT0893/natH/natG/…,N systems,PMT0893,,-0.540363532,0.3139329805996472,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: PMT0893/natH/natG/…,N systems,PMT0894,natH,-0.552439033,0.3055555555555556,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: PMT0893/natH/natG/…,N systems,PMT0896,natG,-1.623678985,0.0701058201058201,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: PMT0893/natH/natG/…,N systems,PMT0897,natF,-0.346123484,0.4358465608465608,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: PMT0893/natH/natG/…,N systems,PMT1517,grrP,-0.140362894,0.5815696649029982,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: proP,N systems,PMT1044,proP,0.0,0.6862874779541446,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: amt1,N systems,PMT1853,amt1,-0.322474836,0.451058201058201,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: urtE/urtD/urtC/…,N systems,PMT2225,urtE,0.154694918,0.7751322751322751,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: urtE/urtD/urtC/…,N systems,PMT2226,urtD,-0.337017412,0.4426807760141094,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: urtE/urtD/urtC/…,N systems,PMT2227,urtC,0.0,0.6862874779541446,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: urtE/urtD/urtC/…,N systems,PMT2228,urtB,-1.150178193,0.1106701940035272,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: urtE/urtD/urtC/…,N systems,PMT2229,urtA,-1.311458188,0.0947971781305114,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,N: focA,N systems,PMT2240,focA,-0.680999354,0.2376543209876542,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: idiA2/futC/futB,non-N,PMT0287,idiA2,-0.777392953,0.201058201058201,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: idiA2/futC/futB,non-N,PMT0501,futC,-0.384570081,0.4113756613756614,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: idiA2/futC/futB,non-N,PMT1287,futB,0.362512839,0.855379188712522,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: mntB/mntA/mntC,non-N,PMT0416,mntB,-1.450051767,0.0811287477954144,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: mntB/mntA/mntC,non-N,PMT0417,mntA,-0.953978213,0.1472663139329806,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: mntB/mntA/mntC,non-N,PMT0418,mntC,-0.576417559,0.2956349206349206,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: pstS/pstB/pstA/…,non-N,PMT0508,pstS,-0.285321321,0.4766313932980599,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: pstS/pstB/pstA/…,non-N,PMT0700,pstB,-1.388617741,0.0866402116402116,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: pstS/pstB/pstA/…,non-N,PMT0701,pstA,0.192593567,0.7976190476190477,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: pstS/pstB/pstA/…,non-N,PMT0702,pstC,-0.900018006,0.1585097001763669,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: pstS/pstB/pstA/…,non-N,PMT0993,pstS,0.340969437,0.8492063492063492,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: phnD/phnC/phnE,non-N,PMT0780,phnD,-0.148060608,0.5753968253968254,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: phnD/phnC/phnE,non-N,PMT0781,phnC,-0.677531334,0.2398589065255731,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: phnD/phnC/phnE,non-N,PMT0782,phnE,-1.219650957,0.1009700176366843,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: sul1,non-N,PMT0899,sul1,-0.573625177,0.2971781305114638,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: sbtA,non-N,PMT1213,sbtA,-0.367042327,0.4241622574955908,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: sul3,non-N,PMT1214,sul3,-0.359568297,0.4294532627865961,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2201,,-1.997299166,0.0544532627865961,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2202,,0.744015778,0.9285714285714286,not_significant
+MIT9313 inoc5e6,ctrl_mit9313_inoc5e6,non-N: PMT2201/PMT2202/lraI,non-N,PMT2203,lraI,0.602482104,0.9109347442680776,not_significant

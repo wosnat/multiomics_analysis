@@ -1,0 +1,4 @@
+equiv_group,names,stereo_equivalents,genome_enzymes_before,genome_enzymes_after
+kegg.compound:C00736,Cysteine,kegg.compound:C00097,0,15
+kegg.compound:C00302,Glutamate,kegg.compound:C00025|kegg.compound:C00217,1,35
+kegg.compound:C01401,Alanine,kegg.compound:C00041|kegg.compound:C00133,0,11

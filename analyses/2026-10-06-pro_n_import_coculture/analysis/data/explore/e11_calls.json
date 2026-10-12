@@ -1,0 +1,58 @@
+[
+ {
+  "call": "genes_by_ontology(ec, MED4, 3.5 / 4.3.1 / 3.4, min 1, no max)",
+  "n_calls": 1,
+  "total_matching": 80,
+  "returned": 80,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "term_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": true,
+  "params": {
+   "ontology": "ec",
+   "organism": "Prochlorococcus MED4",
+   "term_ids": [
+    "ec:3.5.-.-",
+    "ec:4.3.1.-",
+    "ec:3.4.-.-"
+   ],
+   "min_gene_set_size": 1,
+   "max_gene_set_size": null
+  }
+ },
+ {
+  "call": "gene_ontology_terms(ec, leaf, MED4 N-releasing genes)",
+  "n_calls": 1,
+  "total_matching": 97,
+  "returned": 97,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "term_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "locus_tags": "<list of 80>",
+   "organism": "Prochlorococcus MED4",
+   "ontology": "ec"
+  }
+ }
+]

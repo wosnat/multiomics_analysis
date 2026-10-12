@@ -1,0 +1,25 @@
+table,timepoint,locus_tag,gene_name,expression_status,log2fc,padj,rank_percentile,percentile_valid,system
+cal_tolonen_cyanate,steady state,PMM0370,cynA,significant_up,1.17115756396876,0.01,0.9658220388921628,True,cyn
+cal_tolonen_cyanate,steady state,PMM0371,cynB,not_significant,1.041090505,1.0,0.9552150854449027,True,cyn
+cal_tolonen_cyanate,steady state,PMM0372,cynD,not_significant,1.076372361,1.0,0.9581614614024748,True,cyn
+cal_tolonen_cyanate,steady state,PMM0970,urtA,significant_up,0.905388640964646,0.01,0.9328226281673542,True,urt
+cal_tolonen_cyanate,steady state,PMM0971,urtB,not_significant,0.451163303,1.0,0.8167354154390101,True,urt
+cal_tolonen_cyanate,steady state,PMM0972,urtC,not_significant,0.239371503,1.0,0.6829699469652328,True,urt
+cal_tolonen_cyanate,steady state,PMM0973,urtD,not_significant,0.778950105,1.0,0.9121979964643488,True,urt
+cal_tolonen_cyanate,steady state,PMM0974,urtE,not_significant,0.096797388,1.0,0.553918680023571,True,urt
+cal_tolonen_cyanate,steady state,PMM0373,cynS,not_significant,0.518030921,1.0,0.8461991750147319,True,context (not in rule)
+cal_tolonen_cyanate,steady state,PMM0963,ureC,not_significant,0.067793401,1.0,0.5238656452563347,True,context (not in rule)
+cal_tolonen_cyanate,steady state,PMM0964,ureB,not_significant,0.120833317,1.0,0.5745433117265764,True,context (not in rule)
+cal_tolonen_cyanate,steady state,PMM0965,ureA,not_significant,0.061648448,1.0,0.5126694166175604,True,context (not in rule)
+cal_tolonen_urea,steady state,PMM0370,cynA,not_significant,-1.056210072,1.0,0.0218031820860341,True,cyn
+cal_tolonen_urea,steady state,PMM0371,cynB,not_significant,-0.438627198,1.0,0.1243370654095462,True,cyn
+cal_tolonen_urea,steady state,PMM0372,cynD,not_significant,-0.263725986,1.0,0.2374779021803181,True,cyn
+cal_tolonen_urea,steady state,PMM0970,urtA,not_significant,-0.161692929,1.0,0.3376546847377725,True,urt
+cal_tolonen_urea,steady state,PMM0971,urtB,not_significant,-0.380920577,1.0,0.1626399528579847,True,urt
+cal_tolonen_urea,steady state,PMM0972,urtC,not_significant,-0.410380416,1.0,0.1426045963464938,True,urt
+cal_tolonen_urea,steady state,PMM0973,urtD,not_significant,0.471098726,1.0,0.8744843842074248,True,urt
+cal_tolonen_urea,steady state,PMM0974,urtE,not_significant,0.338402348,1.0,0.8238067177371833,True,urt
+cal_tolonen_urea,steady state,PMM0373,cynS,not_significant,0.020040513,1.0,0.5450795521508545,True,context (not in rule)
+cal_tolonen_urea,steady state,PMM0963,ureC,not_significant,-0.123278586,1.0,0.3824395992928697,True,context (not in rule)
+cal_tolonen_urea,steady state,PMM0964,ureB,not_significant,-0.116052334,1.0,0.3889216263995285,True,context (not in rule)
+cal_tolonen_urea,steady state,PMM0965,ureA,not_significant,-0.028778292,1.0,0.4908662345315262,True,context (not in rule)

@@ -1,0 +1,46 @@
+table,timepoint,locus_tag,gene_name,expression_status,log2fc,padj,rank_percentile,percentile_valid,study,system
+cal_tolonen_ndep,12h,PMM0263,amt1,not_significant,0.640798321,1.0,0.8096641131408367,True,Tolonen N deprivation,amt1
+cal_tolonen_ndep,24h,PMM0263,amt1,significant_up,1.05240145098823,0.01,0.956982911019446,True,Tolonen N deprivation,amt1
+cal_tolonen_ndep,48h,PMM0263,amt1,not_significant,0.224138189,1.0,0.71714790807307,True,Tolonen N deprivation,amt1
+cal_tolonen_ndep,12h,PMM0970,urtA,significant_up,3.75015994971883,0.01,0.9964643488509134,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,12h,PMM0971,urtB,significant_up,1.25303331253527,0.01,0.9322333529758398,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,12h,PMM0972,urtC,not_significant,-0.126638336,1.0,0.497348261638185,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,12h,PMM0973,urtD,not_significant,0.018974269,1.0,0.5651149086623453,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,12h,PMM0974,urtE,not_significant,0.872009404,1.0,0.8668238067177372,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,24h,PMM0970,urtA,significant_up,3.86942338221993,0.01,0.9988214496169712,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,24h,PMM0971,urtB,not_significant,0.89713493,1.0,0.938126104890984,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,24h,PMM0972,urtC,not_significant,0.30287296,1.0,0.784325279905716,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,24h,PMM0973,urtD,not_significant,0.345724139,1.0,0.8043606364172069,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,24h,PMM0974,urtE,not_significant,0.476789054,1.0,0.854449027695934,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,48h,PMM0970,urtA,significant_up,3.8347661783105,0.01,0.9964643488509134,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,48h,PMM0971,urtB,not_significant,0.837361867,1.0,0.8892162639952859,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,48h,PMM0972,urtC,not_significant,-0.21081773,1.0,0.5356511490866235,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,48h,PMM0973,urtD,not_significant,0.253360475,1.0,0.7271655863288156,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,48h,PMM0974,urtE,not_significant,0.0483818,1.0,0.6517383618149676,True,Tolonen N deprivation,urt
+cal_tolonen_ndep,12h,PMM0370,cynA,significant_up,4.58350176619516,0.01,0.9994107248084856,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,12h,PMM0371,cynB,significant_up,2.37248468438192,0.01,0.9899823217442546,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,12h,PMM0372,cynD,significant_up,2.17991366596472,0.01,0.9858573954036536,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,24h,PMM0370,cynA,significant_up,4.06454932416169,0.01,1.0,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,24h,PMM0371,cynB,significant_up,1.92816297994649,0.01,0.9888037713612255,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,24h,PMM0372,cynD,significant_up,1.46954583994354,0.01,0.981143193871538,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,48h,PMM0370,cynA,significant_up,3.91380620805672,0.01,0.9970536240424278,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,48h,PMM0371,cynB,significant_up,2.10887801596109,0.01,0.9817324690630524,True,Tolonen N deprivation,cyn
+cal_tolonen_ndep,48h,PMM0372,cynD,not_significant,1.350649249,1.0,0.9446081319976428,True,Tolonen N deprivation,cyn
+cal_read_ndep,12h,PMM0263,amt1,not_significant,2.27,1.0,0.911904761904762,False,Read N-depleted (filtered),amt1
+cal_read_ndep,24h,PMM0263,amt1,not_significant,2.26,1.0,0.9132473622508792,False,Read N-depleted (filtered),amt1
+cal_read_ndep,12h,PMM0970,urtA,significant_up,4.07,0.0,0.986904761904762,False,Read N-depleted (filtered),urt
+cal_read_ndep,12h,PMM0971,urtB,significant_up,2.37,0.0,0.9184523809523808,False,Read N-depleted (filtered),urt
+cal_read_ndep,12h,PMM0972,urtC,not listed,,,,,Read N-depleted (filtered),urt
+cal_read_ndep,12h,PMM0973,urtD,not listed,,,,,Read N-depleted (filtered),urt
+cal_read_ndep,12h,PMM0974,urtE,not_significant,0.09,0.94,0.4922619047619048,False,Read N-depleted (filtered),urt
+cal_read_ndep,24h,PMM0970,urtA,significant_up,2.8,0.01,0.9431418522860492,False,Read N-depleted (filtered),urt
+cal_read_ndep,24h,PMM0971,urtB,not_significant,1.39,0.08,0.8141852286049238,False,Read N-depleted (filtered),urt
+cal_read_ndep,24h,PMM0972,urtC,not listed,,,,,Read N-depleted (filtered),urt
+cal_read_ndep,24h,PMM0973,urtD,not listed,,,,,Read N-depleted (filtered),urt
+cal_read_ndep,24h,PMM0974,urtE,not_significant,-0.46,0.94,0.3786635404454865,False,Read N-depleted (filtered),urt
+cal_read_ndep,12h,PMM0370,cynA,significant_up,3.85,0.0,0.9845238095238096,False,Read N-depleted (filtered),cyn
+cal_read_ndep,12h,PMM0371,cynB,not_significant,0.52,0.69,0.6029761904761906,False,Read N-depleted (filtered),cyn
+cal_read_ndep,12h,PMM0372,cynD,not listed,,,,,Read N-depleted (filtered),cyn
+cal_read_ndep,24h,PMM0370,cynA,significant_up,3.84,0.0,0.984759671746776,False,Read N-depleted (filtered),cyn
+cal_read_ndep,24h,PMM0371,cynB,significant_up,2.65,0.0,0.94021101992966,False,Read N-depleted (filtered),cyn
+cal_read_ndep,24h,PMM0372,cynD,not listed,,,,,Read N-depleted (filtered),cyn

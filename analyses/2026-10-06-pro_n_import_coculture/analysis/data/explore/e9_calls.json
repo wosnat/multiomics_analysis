@@ -1,0 +1,233 @@
+[
+ {
+  "call": "list_clustering_analyses(4 analyses, verbose)",
+  "n_calls": 1,
+  "total_matching": 4,
+  "returned": 4,
+  "limit": "None",
+  "natural_key": [
+   "analysis_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "analysis_ids": [
+    "clustering_analysis:msb4100087:med4_kmeans_nstarvation",
+    "clustering_analysis:msb4100087:mit9313_kmeans_nstarvation",
+    "clustering_analysis:ismej.2011.49:med4_iron_response_clusters",
+    "clustering_analysis:ismej.2011.49:mit9313_iron_response_clusters"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "genes_in_cluster(med4_N, verbose)",
+  "n_calls": 1,
+  "total_matching": 410,
+  "returned": 410,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "cluster_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "analysis_id": "clustering_analysis:msb4100087:med4_kmeans_nstarvation",
+   "verbose": true
+  }
+ },
+ {
+  "call": "genes_in_cluster(mit9313_N, verbose)",
+  "n_calls": 1,
+  "total_matching": 558,
+  "returned": 558,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "cluster_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "analysis_id": "clustering_analysis:msb4100087:mit9313_kmeans_nstarvation",
+   "verbose": true
+  }
+ },
+ {
+  "call": "genes_in_cluster(med4_Fe, verbose)",
+  "n_calls": 1,
+  "total_matching": 112,
+  "returned": 112,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "cluster_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "analysis_id": "clustering_analysis:ismej.2011.49:med4_iron_response_clusters",
+   "verbose": true
+  }
+ },
+ {
+  "call": "genes_in_cluster(mit9313_Fe, verbose)",
+  "n_calls": 1,
+  "total_matching": 97,
+  "returned": 97,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "cluster_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "analysis_id": "clustering_analysis:ismej.2011.49:mit9313_iron_response_clusters",
+   "verbose": true
+  }
+ },
+ {
+  "call": "genes_by_ontology(cyanorak_role, MIT9313, level 0)",
+  "n_calls": 1,
+  "total_matching": 2086,
+  "returned": 2086,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "term_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "ontology": "cyanorak_role",
+   "organism": "Prochlorococcus MIT9313",
+   "level": 0,
+   "min_gene_set_size": 1,
+   "max_gene_set_size": null
+  }
+ },
+ {
+  "call": "list_experiments(MED4 iron starvation x2, verbose)",
+  "n_calls": 1,
+  "total_matching": 2,
+  "returned": 2,
+  "limit": "None",
+  "natural_key": [
+   "experiment_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": true,
+  "params": {
+   "experiment_ids": [
+    "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light",
+    "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light_2"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "differential_expression_by_gene(fe_med4_light, verbose)",
+  "n_calls": 1,
+  "total_matching": 224,
+  "returned": 224,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "experiment_id",
+   "timepoint"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "experiment_ids": [
+    "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "differential_expression_by_gene(fe_med4_light_2, verbose)",
+  "n_calls": 1,
+  "total_matching": 112,
+  "returned": 112,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "experiment_id",
+   "timepoint"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "experiment_ids": [
+    "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light_2"
+   ],
+   "verbose": true
+  }
+ }
+]

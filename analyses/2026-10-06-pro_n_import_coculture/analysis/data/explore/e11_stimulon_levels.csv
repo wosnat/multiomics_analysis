@@ -1,0 +1,6 @@
+slice,short_name,timepoint,n_members,n_detected,stimulon_level
+ax d14,anchor_axenic_protein,day 14,21,13,0.9838483146067416
+cc d18,anchor_cocult_protein,day 18,21,13,0.9845505617977528
+cc d31,anchor_cocult_protein,day 31,21,13,0.988061797752809
+cc d60,anchor_cocult_protein,day 60,21,13,0.9838483146067416
+cc d89,anchor_cocult_protein,day 89,21,13,0.9726123595505618

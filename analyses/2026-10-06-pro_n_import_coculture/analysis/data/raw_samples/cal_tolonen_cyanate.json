@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM1410",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_cyanate_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 3.033996412,
+  "padj": 1.0,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "possible PTS system, Lactose/Cellobiose specif",
+  "experiment_name": "MED4 Growth on cyanate as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on cyanate as sole N source (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM1424",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_cyanate_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 2.72451832,
+  "padj": 1.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "possible Uncharacterized protein family UPF003",
+  "experiment_name": "MED4 Growth on cyanate as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on cyanate as sole N source (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0914",
+  "gene_name": "bioY",
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_cyanate_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 2.469693185,
+  "padj": 1.0,
+  "rank": 3,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "biotin ECF transporter, substrate component",
+  "experiment_name": "MED4 Growth on cyanate as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on cyanate as sole N source (MED4)",
+  "gene_category": "Transport",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

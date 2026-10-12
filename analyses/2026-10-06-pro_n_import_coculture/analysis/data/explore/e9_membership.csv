@@ -1,0 +1,1178 @@
+analysis,cluster_id,cluster_name,locus_tag,gene_name,product
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),PMM0920,glnA,"glutamine synthetase, type I"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),PMM0958,,conserved hypothetical protein (DUF1830)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),PMM0970,urtA,"ABC-type urea transporter, substrate binding component"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),PMM1462,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0030,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0246,ntcA,global nitrogen regulatory protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0336,PTOX,plastoquinol terminal oxidase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0337,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0359,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0365,,possible DsrE-like protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0371,cynB,"cyanate ABC transporter, permease protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0374,tatA,"twin arginine-targeting translocase, TatA/E family protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0687,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0689,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM0690,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM1041,,RmlC-like cupin domain-containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM1390,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM1391,,ribbon helix-helix domain containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM1463,glnB,nitrogen regulatory protein P-II
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),PMM1623,ssb,single-stranded DNA-binding protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0338,,conserved hypothetical protein CHP03894
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0548,rdgB,dITP/XTP pyrophosphatase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0684,,conserved hypothetical protein (DUF1651)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0817,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0818,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0819,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0936,umuD,"DNA polymerase V, subunit D"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0988,,helix-hairpin-helix DNA-binding motif class 1-containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM0997,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1118,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1135,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1262,lexA,SOS-response transcriptional repressor
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1384,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1385,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1396,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1397,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1404,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1562,recA,recombinase A
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),PMM1672,desC4,delta-9 fatty-acid desaturase DesC4
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0032,,putative bacterial type II secretion system protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0035,PSTA,3-phosphoserine transaminase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0055,,"uncharacterized conserved inner membrane protein, YqjD/ElaB family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0063,ycf66,uncharacterized conserved hypothetical protein Ycf66
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0086,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0087,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0091,,bacteriophage-like protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0103,,uncharacterised conserved protein UCP037673
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0116,iscA,iron-sulfur cluster complex assembly protein IscA
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0120,sulA,cell division inhibitor
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0145,ndhM,NADH dehydrogenase I subunit NdhM
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0150,ndhD1,NADH dehydrogenase I subunit NdhD (chain 4 or M)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0159,ndhI,NADH dehydrogenase I subunit NdhI
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0160,ndhA,NADH dehydrogenase I subunit NdhA (chain 1 or H)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0172,ndhH,NADH dehydrogenase I subunit NdhH (chain 7 or delta)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0220,cp12,CP12 polypeptide
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0224,aroC,chorismate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0235,gatC,aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0237,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0243,thyx,thymidylate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0244,dcd,deoxycytidine triphosphate deaminase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0245,cobO2,cob(I)alamin adenosyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0294,ndhC,NADH dehydrogenase I subunit NdhC (chain 3 or alpha)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0334,,conserved hypothetical protein (DUF3104)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0342,,"helper component proteinase, Prochlorococcus-specific"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0343,tatA,"twin arginine-targeting translocase, TatA/E family protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0363,,"transcriptional regulator, MarR family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0364,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0366,,Type-1 copper (blue) domain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0368,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0372,cynD,cyanate ABC transporter ATP-binding protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0387,aroQ,"3-dehydroquinate dehydratase, type II"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0446,ctaCI,cytochrome c oxidase subunit II
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0447,ctaA,cytochrome oxidase biogenesis protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0448,ctaB,protoheme IX farnesyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0502,ycf41,possible single-stranded DNA-binding protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0519,talA,transaldolase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0558,ridA,reactive intermediate/imine deaminase A
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0651,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0661,nrdJ,ribonucleoside-diphosphate reductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0726,,uncharacterized conserved secreted protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0731,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0736,,uncharacterized conserved lipoprotein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0738,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0742,clpP1,"ATP-dependent Clp protease, protease subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0795,ycf55,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0804,ftn,ferritin
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0810,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0858,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0883,,flavin reductase-like domain containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0957,,putative gRAM domain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0965,ureA,urease gamma subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0971,urtB,"ABC-type urea transporter, permease component"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM0996,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1013,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1037,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1038,,A circularly permuted ATPgrasp family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1045,,Uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1050,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1069,folD,"bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1074,zwf,glucose-6-phosphate 1-dehydrogenase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1078,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1097,recR,recombination protein RecR
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1123,hupE,hydrogenase/urease accessory protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1128,hli15,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1134,,conserved hypothetical protein (DUF1651)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1149,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1154,ilvN,"acetolactate synthase, small subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1169,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1312,yacL,uncharacterized conserved membrane TRAM and PIN domains containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1313,clpP4,"ATP-dependent Clp protease, protease subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1314,clpP3,"ATP-dependent Clp protease, protease subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1409,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1412,,cupin domain-containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1434,gpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1442,pepP,Xaa-Pro aminopeptidase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1479,,Conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1512,glsF,ferredoxin-dependent glutamate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1514,lipA2,lipoyl synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1589,purM,phosphoribosylformylglycinamidine cyclo-ligase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1601,glgP,glycogen phosphorylase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1602,,Conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1667,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1678,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1689,pyrG,CTP synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),PMM1700,acnB,aconitate hydratase 2 / 2-methylisocitrate dehydratase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0012,argH,argininosuccinate lyase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0015,msrB,peptide methionine-R-sulfoxide reductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0033,,"conserved membrane protein, ArbrB family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0075,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0090,degQ,"serine endoprotease, periplasmic"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0169,ycf29,"two-component response regulator, NarL subfamily"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0263,amt1,ammonium transporter
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0321,minD,septum site-determining protein MinD
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0340,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0360,,conserved hypothetical protein DUF985
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0378,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0380,,nuclear transport factor 2 (NTF2-like) superfamily protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0395,sepF,cell division protein SepF (Cdv2)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0432,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0443,,abrB-like transcriptional regulator family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0444,ctaEI,cytochrome c oxidase subunit III
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0445,ctaDI,cytochrome c oxidase subunit I
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0463,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0480,,possible DNA recombination-mediator A family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0482,phb,prohibitin-like protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0491,phhB,pterin-4-alpha-carbinolamine dehydratase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0509,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0544,chlB,"light-independent protochlorophyllide reductase, B subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0611,glmU,bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0626,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0635,mscS,"small-conductance mechanosensitive ion channel, MscS family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0637,fur,ferric uptake regulator
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0638,arsS,radical SAM/Cys-rich domain protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0647,,conserved hypothetical protein (DUF2811)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0656,,putative membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0660,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0699,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0719,,conserved hypothetical protein (DUF3764)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0727,pdeM,"metallophosphoesterase, DNA ligase-associated"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0732,,"translation initiation factor IF-2, N-terminal domain-containing protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0733,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0737,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0770,gnd,6-phosphogluconate dehydrogenase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0777,,pentapeptide repeats family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0908,ilvA,threonine ammonia-lyase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0911,,"possible pyrophosphatase, MazG family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0918,cumB,cytidine and deoxycytidylate deaminase zinc-binding region family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0945,dnaE,"DNA polymerase III, alpha subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0961,gmgG,possible glucosyl(mannosyl)glycerate-glucosidase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0964,ureB,urease beta subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0969,ureG,urease accessory protein UreG
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM0980,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1073,opcA,glucose 6-phosphate dehydrogenase assembly protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1075,petH,ferredoxin--NADP+ reductase (FNR)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1106,ycf54,protochlorophyllide synthesis factor Ycf54
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1119,som,outer membrane porin
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1121,som,outer membrane porin
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1146,pntA2,"pyridine nucleotide transhydrogenase, subunit alpha2 (A2)"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1157,psbD,photosystem II D2 protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1272,,conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1289,rpoD6,"RNA polymerase sigma factor, type II"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1296,,putative membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1309,ftsZ,cell division protein FtsZ
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1331,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1349,rnz,ribonuclease Z
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1363,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1374,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1414,,conserved hypothetical protein (DUF3303)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1429,,conserved hypothetical protein (DUF2811)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1461,queF,7-cyano-7-deazaguanine reductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1490,deg1,photosystem II assembly factor
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1584,rnd,ribonuclease D
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1595,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1596,icd,isocitrate dehydrogenase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1611,thiC,thiamine biosynthesis protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1677,,"SprT-like, zinc ribbon domain-containing protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1687,gcvT,glycine cleavage system T protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),PMM1697,rpoD4,"RNA polymerase sigma factor, type II"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0016,grpE,chaperone protein GrpE
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0017,dnaJ1,DnaJ type I chaperone protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0026,efp,translation elongation factor P
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0027,accB,"acetyl-CoA carboxylase, biotin carboxyl carrier protein"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0046,ndk,nucleoside diphosphate kinase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0056,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0060,accC,"acetyl-CoA carboxylase, biotin carboxylase subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0134,rpaB,two-component system response regulator RR class II (RRII)-CheY-OmpR
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0135,plsX,glycerol-3-phosphate acyltransferase PlsX
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0137,fabD,malonyl CoA-acyl carrier protein transacylase (MCAT)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0142,,RNA-binding protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0200,rnhA,ribonuclease HI
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0203,rplA,50S ribosomal protein L1
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0204,rplK,50S ribosomal protein L11
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0206,secE,Preprotein translocase SecE subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0213,sbtA,possible sodium-dependent bicarbonate transporter
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0215,hemB,delta-aminolevulinic acid dehydratase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0251,psbH,photosystem II reaction center protein PsbH
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0253,psbI,photosystem II reaction center protein PsbI
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0265,,doxX family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0273,mviM,NAD(P)-binding oxidoreductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0283,,thioredoxin domain-containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0288,chlD,"protoporphyrin IX Mg-chelatase, subunit ChlD"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0295,rub,rubredoxin
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0296,ycf48,photosystem II stability/assembly factor
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0297,psbE,"cytochrome b559, alpha subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0298,psbF1,"cytochrome b559, beta subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0299,psbL,photosystem II reaction center protein PsbL
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0312,rpsA1,30S ribosomal protein S1
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0346,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0347,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0348,,conserved hypothetical protein family PM-17
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0356,pip,proline iminopeptidase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0428,chlG,chlorophyll a synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0429,petP,cytochrome b6-f complex subunit PetP
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0474,,Prochlorococcus/marine Synechococcus Hyper-Conserved Protein (PSHCP)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0483,hemL,"glutamate-1-semialdehyde-2,1-aminomutase"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0494,ppa,inorganic pyrophosphatase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0500,APE1,acclimation of photosynthesis to environment protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0510,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0511,ppa,inorganic pyrophosphatase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0536,folE,GTP cyclohydrolase I
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0553,csoSCA,carboxysomal carbonic anhydrase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0560,hisG,ATP phosphoribosyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0580,clpB1,ATP-dependent Clp protease ATP-binding subunit ClpB
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0584,glgB,"1,4-alpha-glucan branching enzyme"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0599,,Conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0605,,conserved hypothetical protein (DUF760)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0609,glgA,glycogen synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0619,acs,acetate--CoA ligase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0622,,uncharacterized conserved membrane protein (DUF3721)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0642,metY,O-acetylhomoserine aminocarboxypropyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0700,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0741,psb29,photosystem II repair protein Psb29
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0747,pcyA,phycocyanobilin:ferredoxin oxidoreductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0751,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0753,rpsB,30S ribosomal protein S2
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0754,tsf,Translation elongation factor Ts
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0769,glgC,glucose-1-phosphate adenylyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0784,accD,"acetyl-CoA carboxylase, carboxyl transferase beta subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0829,tpiA,triosephosphate isomerase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0844,cycI1,Mg-protoporphyrin IX monomethylester oxidative cyclase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0864,,uncharacterized conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0869,rpsR,30S ribosomal protein S18
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0870,rpmG,50S ribosomal protein L33
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0876,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0902,rpmB,50S ribosomal protein L28
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0907,dxs,1-deoxy-D-xylulose-5-phosphate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0924,ycf53,ferredoxin-interacting protein Ycf53
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0929,secD,preprotein translocase SecD subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0930,phdB,pyruvate dehydrogenase E1 component beta subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM0987,rpsU,30S ribosomal protein S21
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1011,,uncharacterized conserved secreted protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1055,chlI,"protoporphyrin IX Mg-chelatase, subunit ChlI"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1060,hisH,"imidazole glycerol phosphate synthase, HisH subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1070,crtE,geranylgeranyl pyrophosphate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1079,,putative cAMP phosphodiesterase class-II
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1109,,uncharacterized conserved secreted protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1142,dxr,1-deoxy-D-xylulose 5-phosphate reductoisomerase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1150,trxB,thioredoxin reductase fused with a thioredoxin domain (large NTR System or NTRC)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1182,,uncharacterized conserved lipoprotein (DUF2808)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1183,rpmH,50S ribosomal protein L34
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1191,pnp,polyribonucleotide nucleotidyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1229,pdhA,pyruvate dehydrogenase E1 component alpha subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1247,,hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1251,,carbamoyltransferase family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1264,ftsH4,cell division protein FtsH
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1335,lpxA,acyl-[acyl-carrier-protein]-UDP-N- acetylglucosamine O-acyltransferase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1336,fabZ,beta-hydroxy-acyl-(acyl-carrier-protein) dehydratase (DH)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1345,rpmA,50S ribosomal protein L27
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1375,,possible M protein repeat
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1437,groES,co-chaperonin GroES
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1440,ycf65,ribosomal protein Ycf65
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1482,hli,high light inducible protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1483,rpoC2,"DNA-directed RNA polymerase, beta^^ subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1485,rpoB,"DNA-directed RNA polymerase, beta subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1489,rpiA,ribose 5-phosphate isomerase A
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1506,lon,ATP-dependent protease
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1509,fusA,elongation factor G
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1510,rpsG,30S ribosomal protein S7
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1511,rpsL,30S ribosomal protein S12
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1522,,"beta-glycosyltransferase, family 2"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1524,psaA,photosystem I core protein PsaA
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1530,rpmE,50S ribosomal protein L31
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1532,rplM,50S ribosomal protein L13
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1534,rplQ,50S ribosomal protein L17
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1542,rpsE,30S ribosomal protein S5
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1543,rplR,50S ribosomal protein L18
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1544,rplF,50S ribosomal protein L6
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1546,rplE,50S ribosomal protein L5
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1547,rplX,50S ribosomal protein L24
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1548,rplN,50S ribosomal protein L14
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1585,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1600,nhaS,"Na+/H+ antiporter, CPA2 family"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1607,psaC,photosystem I iron-sulfur center subunit VII PsaC
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1608,acpP,acyl-carrier protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1617,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1618,lysS,lysine--tRNA ligase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1643,ribH,"6,7-dimethyl-8-ribityllumazine synthase"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1644,psbZ,photosystem II protein PsbZ (Ycf9)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1661,rpmI,50S ribosomal protein L35
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1662,rplT,50S ribosomal protein L20
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1663,ycf37,photosystem I assembly protein Ycf37
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),PMM1664,thiG,thiazole synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0023,gap2,glyceraldehyde-3-phosphate dehydrogenase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0041,,NADPH-dependent FMN reductase family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0201,rplL,50S ribosomal protein L7/L12
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0202,rplJ,50S ribosomal protein L10
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0410,rpsD,30S ribosomal protein S4
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0528,pgeF,multi-copper polyphenol oxidoreductase laccase family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0541,,conserved membrane protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0552,csoS2,carboxysome shell protein CsoS2
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0583,hemE,uroporphyrinogen decarboxylase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0673,phnD,"phosphonate ABC type transporter, substrate binding component"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM0781,fbaA,"fructose-1,6-bisphosphate aldolase, class II"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1028,,uncharacterized conserved secreted protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1285,rpsP,30S ribosomal protein S16
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1297,trpC,indole-3-glycerol phosphate synthase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1298,lpdA,dihydrolipoamide dehydrogenase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1402,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1439,atpE,ATP synthase epsilon chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1456,atpI,ATP synthase A chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1457,atp1,ATP synthase protein I
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1507,rpsJ,30S ribosomal protein S10
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1536,rpsK,30S ribosomal protein S11
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1537,rpsM,30S ribosomal protein S13
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1538,rpmJ,50S ribosomal protein L36
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1539,adk,adenylate kinase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1540,secY,preprotein translocase SecY subunit
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1541,rplO,50S ribosomal protein L15
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1545,rpsH,30S ribosomal protein S8
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1549,rpsQ,30S ribosomal protein S17
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1550,rpmC,50S ribosomal protein L29
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1551,rplP,50S ribosomal protein L16
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1552,rpsC,30S ribosomal protein S3
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1553,rplV,50S ribosomal protein L22
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1554,rpsS,30S ribosomal protein S19
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1555,rplB,50S ribosomal protein L2
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1556,rplW,50S ribosomal protein L23
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1557,rplD,50S ribosomal protein L4
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1558,rplC,50S ribosomal protein L3
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1609,fabF,beta-ketoacyl-(acyl-carrier-protein) synthase II (KASII)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1610,tktA,transketolase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1629,rpoD8,"RNA polymerase sigma factor, type II"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1655,tig,trigger factor
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),PMM1706,rpsF,30S ribosomal protein S6
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0214,sul3,sulfate transporter family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0228,psbO,photosystem II manganese-stabilizing protein PsbO
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0272,psbK,photosystem II reaction center protein PsbK
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0306,cpeS,phycoerythrobilin:Cys-82 beta-phycoerythrin lyase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0307,unk6,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0314,psbT,photosystem II reaction center T protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0315,psbB,photosystem II chlorophyll-binding protein CP47
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0329,psaE,photosystem I reaction centre subunit IV
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0409,metB,O-succinylhomoserine(thiol)-lyase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0452,groL2,chaperonin GroEL
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0453,fabG,beta-ketoacyl-(acyl-carrier-protein) reductase (KR)
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0468,psaJ,photosystem I reaction centre subunit IX
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0469,psaF,photosystem I reaction centre PsaF protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0540,psaM,photosystem I reaction centre subunit XII
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0549,csoS1A,carboxysome shell protein CsoS1A
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0627,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0691,,tryptophan-rich conserved hypothetical protein CHP02450
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0766,rpe,ribulose-phosphate 3-epimerase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0767,fbp-sbp,"bifunctional fructose-1,6-biphosphatase/sedoheptulose1,7-biphosphate phosphatase"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0785,prkB,phosphoribulokinase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0797,,conserved hypothetical protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0901,htpG,molecular chaperone HtpG
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM0906,psaK,photosystem I reaction center subunit X
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1184,rnpA,ribonuclease P protein component
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1350,,pentapeptide repeats family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1379,,putative lysine decarboxylase family protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1400,,RmlC-like cupin domain-containing protein
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1436,groL1,chaperonin GroEL
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1438,atpB,ATP synthase beta chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1508,tuf,elongation factor EF-Tu
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1519,psaL,photosystem I reaction centre subunit XI
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1520,psaI,photosystem I reaction center subunit VIII
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1523,psaB,photosystem I core protein PsaB
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1578,psaD,photosystem I reaction center subunit II
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1592,pebB,phycoerythrobilin:ferredoxin oxidoreductase
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),PMM1704,dnaK3,chaperone protein DnaK
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM0550,rbcL,"ribulose bisphosphate carboxylase, large subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM0551,rbcS,"ribulose bisphosphate carboxylase, small subunit"
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1450,atpC,ATP synthase gamma chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1451,atpA,ATP synthase alpha chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1452,atpD,ATP synthase delta chain
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1453,atpF,ATP synthase subunit B
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1454,atpG,ATP synthase B^
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),PMM1455,atpH,ATP synthase C chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT0991,,possible tRNA synthetase class I (E and Q)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT0992,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT1831,ntcA,global nitrogen regulatory protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT2229,urtA,"ABC-type urea transporter, substrate binding component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT2239,nirA,ferredoxin--nitrite reductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT2240,focA,"nitrite transporter, FNT family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),PMT_0990,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0039,,"conserved membrane protein, ArbrB family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0201,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0346,rpoD6,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0382,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0565,gnd,6-phosphogluconate dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0601,glnA,"glutamine synthetase, type I"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0805,,two-component system response regulator RR class II (RRII)-OmpR
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0845,,"possible Histidine kinase-, DNA gyrase B-, phy"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0908,hflC,prohibitin-like protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0937,,conserved hypothetical protein (DUF3303)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0939,,conserved hypothetical protein (DUF3764)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0951,,conserved hypothetical protein (DUF3303)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0952,,possible Peptidase family M1
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0963,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0964,,conserved hypothetical protein (DUF3303)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT0993,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1007,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1144,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1152,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1153,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1314,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1341,ctaCI,cytochrome c oxidase subunit II
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1608,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1631,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1853,amt1,ammonium transporter
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1874,,uncharacterized conserved secreted protein (DUF541)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT1946,glgP,glycogen phosphorylase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT2174,desC4,delta-9 fatty-acid desaturase DesC4
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT2241,,Armadillo-like helical-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT2246,rpoD4,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT_0488,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT_0649,,uncharacterized conserved secreted protein (DUF1816)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT_0971,,possible bZIP transcription factor
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT_1154,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),PMT_1640,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),RG24_RS05275,,Hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),AKG35_RS13505,,possible bZIP transcription factor
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0035,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0038,,putative bacterial type II secretion system protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0119,infC,translation initiation factor IF-3
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0124,crcB2,fluoride exporter
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0125,gpx,glutathione peroxidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0127,rpoD8,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0128,,alpha/beta hydrolase fold family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0173,ccr1,cyanobacterial cold resistance protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0192,nplT,cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0194,,conserved hypothetical protein (DUF1651)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0315,clpP4,"ATP-dependent Clp protease, protease subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0316,yacL,uncharacterized conserved membrane TRAM and PIN domains containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0329,,pentapeptide repeats family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0338,,putative membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0339,sodX,nickel-type superoxide dismutase maturation protease
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0348,zipN,cell division protein ZipN
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0352,,uncharacterized membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0361,,uncharacterized conserved glycin-rich membrane protein (DUF1517)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0366,surE,5^-nucleotidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0369,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0378,ftsH4,cell division protein FtsH
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0387,prxQ,2-Cys peroxiredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0388,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0441,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0449,clpB1,ATP-dependent Clp protease ATP-binding subunit ClpB
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0457,,conserved hypothetical protein (DUF1232)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0458,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0501,futC,iron(III) transport system ATP-binding protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0508,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0559,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0609,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0677,ftsH2,photosystem II D1 repair protein FtsH2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0683,scpB,segregation and condensation protein B
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0685,dxs,1-deoxy-D-xylulose-5-phosphate synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0697,,4Fe-4S ferredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0732,apa2,ATP adenylyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0734,sigF2,"RNA polymerase sigma factor, type III"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0747,psb32,integral membrane protein involved in the photoprotection of photosystem II
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0804,,two-component sensor histidine kinase with a HAMP domain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0806,,EF-hand domain pair-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0811,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0823,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0880,,nuclease (SNase-like)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0910,rbsK,ribokinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0911,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0912,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0954,,vanW like family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0955,,FAD-dependent pyridine nucleotide-disulfide oxidoreductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0957,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0969,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0983,,possible kinesin motor domain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT0994,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1009,,"possible 7S seed storage protein, N-terminal doma"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1014,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1017,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1054,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1068,rpoD8,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1075,F2J10.13,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1102,zwf,glucose-6-phosphate 1-dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1121,leuA,2-isopropylmalate synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1129,rsmD,16S rRNA m2G966 methyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1131,cytM,cytochrome cM
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1172,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1209,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1215,chlN,light-independent protochlorophyllide reductase subunit N
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1248,talA,transaldolase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1265,ycf41,possible single-stranded DNA-binding protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1274,,"L,D-transpeptidase catalytic domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1276,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1286,,possible Glycosyl hydrolase family 11
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1296,hemL,"glutamate-1-semialdehyde-2,1-aminomutase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1298,yajQ,cyclic-di-GMP-binding protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1299,qmcA,membrane anchored protease
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1340,ctaA,cytochrome oxidase biogenesis protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1342,ctaDI,cytochrome c oxidase subunit I
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1343,ctaEI,cytochrome c oxidase subunit III
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1422,truB,tRNA pseudouridine(55) synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1423,yebC,putative transcriptional regulator YebC
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1430,prmA,ribosomal protein L11 methyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1432,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1446,gpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1447,secG,"preprotein translocase, SecG subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1462,ald,alanine dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1483,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1536,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1539,F3H9.20,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1542,cp12,CP12 polypeptide
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1543,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1565,cypX,cytochrome P450
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1584,smc,chromosome segregation protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1595,mcyH,"ABC transporter, ATPase component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1597,,putative ATP-dependent protease
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1600,,uncharacterized conserved secreted protein (DUF3747)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1632,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1636,degQ,"serine endoprotease, periplasmic"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1645,,putative membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1664,petF,2Fe-2S ferredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1667,nrdR,"transcriptional regulator, NrdR family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1688,ptpA,low molecular weight protein-tyrosine-phosphatase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1721,,cyanobacterial aminoacyl-tRNA synthetase domain (CAAD) containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1798,ftsH1,cell division protein FtsH1
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1817,ileS,isoleucyl-tRNA synthetase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1826,txlA,thioredoxin-like protein TxlA
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1833,,"polynucleotidyl transferase, ribonuclease H fold superfamily"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1838,psbN,photosystem II reaction center assembly factor
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1948,,Conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1969,iscA,iron-sulfur cluster complex assembly protein IscA
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT1975,ndhO,NADH dehydrogenase I subunit NdhO
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2000,ycf34,iron-sulfur protein Ycf34
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2010,ndhD1,NADH dehydrogenase I subunit NdhD (chain 4 or M)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2014,pedR,redox-responsive LuxR-type transcriptional regulator PedR
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2028,sui1,translation initiation factor SUI1 family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2075,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2168,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2173,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2175,rplI,50S ribosomal protein L9
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2180,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2183,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2217,rpoD5,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2234,ureA,urease gamma subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2235,ureB,urease beta subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2236,ureC,urease alpha subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2242,,"glycosyl transferase family, helical bundle domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2256,,putative glutamate dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2265,,"ferric reductase, transmembrane component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT2271,recN,ATP-dependent DNA repair protein RecN
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT_0885,,"possible Guanylate-binding protein, C-terminal"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT_1564,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT_2156,,PAP2 superfamily protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),PMT_2166,,rubredoxin family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0008,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0016,msrB,peptide methionine-R-sulfoxide reductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0043,PSTA,3-phosphoserine transaminase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0069,ycf23,uncharacterized conserved TIM barrel-containing protein (Ycf23)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0115,rfbB,"dTDP-glucose-4,6-dehydratase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0187,psaE,photosystem I reaction centre subunit IV
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0193,agcS,amino acid carrier family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0207,sepF,cell division protein SepF (Cdv2)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0221,,"six-bladed beta-propeller, TolB-like protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0239,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0243,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0246,,possible Profilin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0256,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0278,,Predicted protein family PM-8
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0285,,possible peptidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0321,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0395,ybeM,deaminated glutathione amidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0411,,putative nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0421,,Conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0443,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0453,hisIE,bifunctional phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0456,rpoD7,"RNA polymerase sigma factor, type II"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0464,cyabrB2,AbrB-like transcriptional regulator involved in photosynthesis regulation
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0483,,possible Malic enzyme
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0493,rpaC,regulator of phycobilisome association C
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0498,,putative gram-negative pili assembly chaperone
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0499,ftn,ferritin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0517,,CBS domains-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0532,prkB,phosphoribulokinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0539,purQ,"phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0555,proX,"ABC-type glycine betaine/proline transporter, substrate binding component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0557,,pentapeptide repeats family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0560,ilvD,dihydroxy-acid dehydratase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0579,sir,sulfite reductase (ferredoxin)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0593,sipA,activator of the histidine kinase NblS
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0629,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0631,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0645,rpsO,30S ribosomal protein S15
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0724,uvrC,"excinuclease UvrABC complex, endonuclease subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0730,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0748,pcxA,proton extrusion protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0752,,peptidoglycan-binding LysM
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0820,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0836,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0849,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0874,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0895,,putative membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0897,natF,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0902,,conserved hypothetical protein (DUF2811)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0904,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0925,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0926,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0927,,nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT0943,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1015,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1031,clcD,dienelactone hydrolase family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1043,,possible Domain of unknown function DUF38
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1093,,uncharacterized conserved secreted protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1095,grx3,monothiol glutaredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1100,,Conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1106,,glycolipid exporter Gap/Sap
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1113,,alpha-glycosidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1135,chlI,"protoporphyrin IX Mg-chelatase, subunit ChlI"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1186,,type-II peroxiredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1202,csoSCA,carboxysomal carbonic anhydrase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1203,csoS2,carboxysome shell protein CsoS2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1204,rbcS,"ribulose bisphosphate carboxylase, small subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1205,rbcL,"ribulose bisphosphate carboxylase, large subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1206,csoS1A,carboxysome shell protein CsoS1A
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1217,chlL,"light-independent protochlorophyllide reductase, iron-sulfur ATP-binding protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1223,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1231,ado,long-chain fatty aldehyde decarbonylase/aldehyde-deformylating oxygenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1237,,periplasmic binding protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1243,cobO1,cob(I)alamin adenosyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1275,ppa,inorganic pyrophosphatase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1289,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1333,fabG,beta-ketoacyl-(acyl-carrier-protein) reductase (KR)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1355,ftsE,ATP-binding protein FtsE
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1376,rpsN,30S ribosomal protein S14
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1380,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1454,ycf65,ribosomal protein Ycf65
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1481,glnB,nitrogen regulatory protein P-II
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1509,rpsT,30S ribosomal protein S20
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1523,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1566,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1570,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1577,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1695,,tetratricopeptide repeat family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1781,fusA,elongation factor G
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1782,tuf,elongation factor EF-Tu
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1815,gatC,aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1827,,putative membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1850,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1863,psbK,photosystem II reaction center protein PsbK
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1892,ndhK,NADH dehydrogenase I subunit NdhK (chain beta or K)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1896,psbE,"cytochrome b559, alpha subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1925,kdsA,3-deoxy-8-phosphooctulonate synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1935,icd,isocitrate dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1940,,possible Peptidase family C9
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1941,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1944,nhaS,"Na+/H+ antiporter, CPA2 family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1947,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1986,,"conserved hypothetical UPF0367 protein, cyanobacteria specific"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT1998,plsC1,1-acyl-sn-glycerol-3-phosphate acyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2019,ndhI,NADH dehydrogenase I subunit NdhI
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2024,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2046,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2077,mscS,"small-conductance mechanosensitive ion channel, MscS family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2081,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2086,secE,Preprotein translocase SecE subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2117,,possible D12 class N6 adenine-specific DNA met
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2118,,Hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2121,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2123,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2124,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2130,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2132,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2137,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2148,ndk,nucleoside diphosphate kinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2149,,cyclic nucleotide-regulated small-conductance mechanosensitive ion channel
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2194,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2196,cycI2,magnesium-protoporphyrin IX monomethyl ester aerobic oxidative cyclase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2228,urtB,"ABC-type urea transporter, permease component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2249,acnB,aconitate hydratase 2 / 2-methylisocitrate dehydratase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT2250,eriC,voltage-gated CLC-type chloride channel protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0242,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0245,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0247,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0613,,nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0757,rpmF,50S ribosomal protein L32
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0829,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0922,,nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0923,,bacteriocin-type signal sequence
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_0929,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_1368,rpmH,50S ribosomal protein L34
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_1610,,nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_2125,,bacteriocin-type signal sequence
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_2129,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),PMT_2134,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0014,,RNA-binding domain RNP-1 (RNA recognition motif) containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0032,accB,"acetyl-CoA carboxylase, biotin carboxyl carrier protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0050,sqdB,UDP-sulfoquinovose synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0055,rplT,50S ribosomal protein L20
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0061,clpX,"ATP-dependent Clp protease ATP-binding subunit, ClpX"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0081,ribH,"6,7-dimethyl-8-ribityllumazine synthase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0122,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0138,ahcY,adenosylhomocysteinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0142,mreB,rod shape-determining protein MreB
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0146,srrA,"NblS-interacting two-component response regulator, OmpR family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0162,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0227,rpsD,30S ribosomal protein S4
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0272,chlG,chlorophyll a synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0276,menG,"bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase and S-adenosylmethionine:2-DMK methyltransferase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0350,rpsP,30S ribosomal protein S16
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0367,pheS,"phenylalanine--tRNA ligase, alpha subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0389,acs,acetate--CoA ligase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0445,hemE,uroporphyrinogen decarboxylase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0497,,"possible transcriptional regulator of iron metabolism, Crp/Fnr family protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0552,gbmt1,glycine/sarcosine N-methyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0568,fbp-sbp,"bifunctional fructose-1,6-biphosphatase/sedoheptulose1,7-biphosphate phosphatase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0577,chlP,geranylgeranyl reductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0584,rpsB,30S ribosomal protein S2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0600,spt,alanine--glyoxylate aminotransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0606,ycf53,ferredoxin-interacting protein Ycf53
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0616,secF,Preprotein translocase SecF subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0675,psb29,photosystem II repair protein Psb29
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0754,ahpC,2-Cys peroxiredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0793,nrdJ,ribonucleoside-diphosphate reductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0817,tpiA,triosephosphate isomerase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0848,ndhF5,NADH dehydrogenase subunit NdhF (chain 5 or L)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0859,,uncharacterized conserved membrane protein (DUF3721)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0906,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0924,,putative carbamoyl-phosphate synthase L chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT0977,,ABC transporter family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1004,,cupin domain-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1063,todF,esterase family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1094,colA,bolA-like family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1107,,UvrD-like P-loop containing nucleoside triphosphate hydrolase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1124,gyrA,"DNA gyrase, A subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1177,ppiB,cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1180,psbC,photosystem II CP43 protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1197,cbbX,RuBisCo activase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1200,csos4B,pentameric carboxysome shell protein Csos4B (peptide B)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1213,sbtA,possible sodium-dependent bicarbonate transporter
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1219,,conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1262,pfkB,possible 6-phosphofructokinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1272,rpoD1,"major RNA polymerase sigma factor, type I"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1306,rplS,50S ribosomal protein L19
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1307,,Prochlorococcus/marine Synechococcus Hyper-Conserved Protein (PSHCP)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1322,petC,cytochrome b6-f complex iron-sulfur subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1323,petA,apocytochrome f
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1345,,uncharacterized conserved membrane protein (DUF308)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1369,rnpA,ribonuclease P protein component
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1384,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1395,hupB,DNA-binding protein HU-beta
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1442,rpoZ,DNA-directed RNA polymerase omega subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1449,groL1,chaperonin GroEL
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1450,groES,co-chaperonin GroES
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1451,atpB,ATP synthase beta chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1452,atpE,ATP synthase epsilon chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1498,fer,3Fe-4S ferredoxin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1504,hli,high light inducible protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1505,rpoC2,"DNA-directed RNA polymerase, beta^^ subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1507,rpoB,"DNA-directed RNA polymerase, beta subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1515,aslA,arylsulfatase subfamily S1_4
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1533,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1588,accC,"acetyl-CoA carboxylase, biotin carboxylase subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1590,psbX,photosystem II PsbX protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1668,rpsA1,30S ribosomal protein S1
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1730,ldpA,light dependent period protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1749,rplO,50S ribosomal protein L15
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1750,secY,preprotein translocase SecY subunit
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1751,adk,adenylate kinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1754,rpsK,30S ribosomal protein S11
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1755,rpoA,"DNA-directed RNA polymerase, alpha subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1760,rpmE,50S ribosomal protein L31
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1777,glsF,ferredoxin-dependent glutamate synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1779,rpsL,30S ribosomal protein S12
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1780,rpsG,30S ribosomal protein S7
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1783,rpsJ,30S ribosomal protein S10
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1816,crtR,beta-carotene hydroxylase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1836,tatA,"twin arginine-targeting translocase, TatA/E family protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1854,lytB,4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1856,,doxX family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1859,,uncharacterized conserved secreted protein (DUF3155)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1914,kdsB,3-deoxy-D-manno-octulosonate cytidylyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1915,,glycosyl transferase 8 family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1926,,glycosyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT1955,acpP,acyl-carrier protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2002,,RNA-binding protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2003,crtB,phytoene synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2004,crtP,phytoene dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2013,metF,"5,10-methylenetetrahydrofolate reductase"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2083,eno,enolase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2088,rplK,50S ribosomal protein L11
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2091,rplL,50S ribosomal protein L7/L12
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2100,hisC/cobC,aminotransferase class I and II family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2162,,possible Tripartite transporter component (TRAP-T family)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2172,desC3,delta-9 fatty acid desaturase DesC3
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2259,rpsF,30S ribosomal protein S6
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT2261,argG,argininosuccinate synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_0628,pspE,rhodanese-like domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_0739,rpmG,50S ribosomal protein L33
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1022,rpsU,30S ribosomal protein S21
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1199,csoS1E,carboxysome shell peptide
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1752,rpmJ,50S ribosomal protein L36
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1840,psbI,photosystem II reaction center protein PsbI
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1897,psbF1,"cytochrome b559, beta subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1898,psbL,photosystem II reaction center protein PsbL
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_1899,psbJ,photosystem II reaction center protein PsbJ
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_2119,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,PMT_2122,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0031,efp,translation elongation factor P
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0080,psbZ,photosystem II protein PsbZ (Ycf9)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0088,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0095,pseB,"UDP-N-acetylglucosamine 4,6-dehydratase (inverting)"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0140,dedA2,dedA family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0168,,"possible Negative factor, (F-Protein) or Nef."
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0249,desA2,delta-12 fatty acid desaturase DesA2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0258,,von Willebrand factor A-like domain-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0277,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0426,thrB,homoserine kinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0478,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0484,,possible Domain of unknown function DUF33
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0485,,"uncharacterized secreted protein, Prochlorococcus-specific"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0495,ftn,ferritin
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0509,petJ2,cytochrome c553 (cytochrome c6)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0534,accD,"acetyl-CoA carboxylase, carboxyl transferase beta subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0630,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0633,,"uncharacterized conserved, 2TM domain-containing membrane protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0642,,curli production assembly/transport component CsgG family protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0657,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0687,psaK,photosystem I reaction center subunit X
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0688,,uncharacterized conserved membrane protein (DUF3593)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0700,pstB,ABC-type phosphate transport system ATPase component
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0725,hemJ,protoporphyrinogen IX oxidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0740,rpsR,30S ribosomal protein S18
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0774,PcCAO,chlorophyll b synthase / chlorophyllide a oxygenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0785,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0832,,nif11-like leader peptide domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0840,,conserved hypothetical protein DUF4278
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0850,,possible lyase class I-like protein superfamily
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0856,mscL,"large-conductance mechanosensitive ion channel, MscL family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0917,,putative membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT0989,,conserved hypothetical protein DUF4278
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1035,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1040,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1045,,possible Glyceraldehyde 3-phosphate dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1046,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1047,,possible Trypsin and protease inhibitor
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1126,guaB,inositol-5-monophosphate dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1176,ilvN,"acetolactate synthase, small subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1212,,possible regulator of sodium-dependent bicarbonate transport
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1220,psaM,photosystem I reaction centre subunit XII
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1234,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1244,pyrH,uridylate kinase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1273,hemC,porphobilinogen deaminase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1316,psaF,photosystem I reaction centre PsaF protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1414,purC,phosphoribosylaminoimidazolesuccinocarboxamide synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1427,psbV,cytochrome c-550
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1547,hemB,delta-aminolevulinic acid dehydratase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1567,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1571,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1576,,"ABC exporter ATP-binding subunit, DevA type"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1665,psbB,photosystem II chlorophyll-binding protein CP47
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1666,psbT,photosystem II reaction center T protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1683,ppeB,"phycoerythrin class III, beta subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1697,,uncharacterized conserved membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1708,mrdB,rod shape determining protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1710,psaD,photosystem I reaction center subunit II
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1767,psaI,photosystem I reaction center subunit VIII
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1768,psaL,photosystem I reaction centre subunit XI
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1769,psaB,photosystem I core protein PsaB
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1770,psaA,photosystem I core protein PsaA
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1791,dapL,LL-diaminopimelate aminotransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1800,psbO,photosystem II manganese-stabilizing protein PsbO
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1905,hisS,histidine--tRNA ligase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1907,galE,UDP-glucose 4-epimerase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1954,psaC,photosystem I iron-sulfur center subunit VII PsaC
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT1957,tktA,transketolase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT2063,prfB,peptide chain release factor 2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT2089,rplA,50S ribosomal protein L1
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT2138,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT2191,valS,valyl-tRNA synthetase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0107,,methyltransferase domain protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0110,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0241,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0260,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0718,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0915,,Bacterial outer membrane protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_0916,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_1317,psaJ,photosystem I reaction centre subunit IX
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),PMT_1663,psbM,photosystem II reaction center protein PsbM
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0169,,possible Chitin synthase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0177,nadB,L-aspartate oxidase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0535,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0551,gbmt2,dimethylglycine N-methyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0582,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT0583,tsf,Translation elongation factor Ts
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1081,rbpD,nucleotide-binding alpha-beta plait domain-containing protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1083,crhR,cyanobacterial RNA helicase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1377,pnp,polyribonucleotide nucleotidyltransferase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1466,atpC,ATP synthase gamma chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1467,atpA,ATP synthase alpha chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1468,atpD,ATP synthase delta chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1469,atpF,ATP synthase subunit B
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1470,atpG,ATP synthase B^
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1471,atpH,ATP synthase C chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1472,atpI,ATP synthase A chain
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1506,rpoC1,"DNA-directed RNA polymerase complex, gamma subunit"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1527,,conserved hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1572,,hypothetical protein
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1573,,"ABC exporter membrane fusion, DevB family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1574,,"ABC transporter, permease component"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1732,rplC,50S ribosomal protein L3
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1733,rplD,50S ribosomal protein L4
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1734,rplW,50S ribosomal protein L23
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1735,rplB,50S ribosomal protein L2
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1737,rplV,50S ribosomal protein L22
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1738,rpsC,30S ribosomal protein S3
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1739,rplP,50S ribosomal protein L16
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1740,rpmC,50S ribosomal protein L29
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1741,rpsQ,30S ribosomal protein S17
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1742,rplN,50S ribosomal protein L14
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1743,rplX,50S ribosomal protein L24
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1744,rplE,50S ribosomal protein L5
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1745,rpsH,30S ribosomal protein S8
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1746,rplF,50S ribosomal protein L6
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1747,rplR,50S ribosomal protein L18
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1748,rpsE,30S ribosomal protein S5
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1753,rpsM,30S ribosomal protein S13
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1756,rplQ,50S ribosomal protein L17
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1758,rplM,50S ribosomal protein L13
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1759,rpsI,30S ribosomal protein S9
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1761,prfA,peptide chain release factor 1
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1789,rne,ribonuclease E
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1904,ugd,UDP-glucose 6-dehydrogenase
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT1956,fabF,beta-ketoacyl-(acyl-carrier-protein) synthase II (KASII)
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT2090,rplJ,50S ribosomal protein L10
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT2158,hepA,"superfamily II DNA/RNA helicases, SNF2 family"
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT_1473,atp1,ATP synthase protein I
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT_1479,,protein of unknown function DUF4278
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,PMT_1736,rpsS,30S ribosomal protein S19
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,RG24_RS04770,,"uncharacterized secreted protein, Prochlorococcus-specific"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,Prochlorococcus MED4 cluster 1 (1 genes),PMM2001,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM0731,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM1365,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM1391,,ribbon helix-helix domain containing protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM1808,,conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM1830,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM1979,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),PMM2010,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,Prochlorococcus MED4 cluster 16 (4 genes),PMM1870,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,Prochlorococcus MED4 cluster 16 (4 genes),PMM1910,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0063,ycf66,uncharacterized conserved hypothetical protein Ycf66
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0336,PTOX,plastoquinol terminal oxidase
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0337,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0345,prxQ,2-Cys peroxiredoxin
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0362,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0370,cynA,"cyanate ABC transporter, substrate-binding protein"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0463,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0496,rpoD1,"major RNA polymerase sigma factor, type I"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0647,,conserved hypothetical protein (DUF2811)
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0702,,"uncharacterized conserved membrane protein, Prochlorococcus-specific"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0805,,"iron stress-induced protein, Prochlorococcus-specific"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0806,,"possible transcriptional regulator of iron metabolism, Crp/Fnr family protein"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0817,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0818,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0838,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0861,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0893,ribBA,"3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM0958,,conserved hypothetical protein (DUF1830)
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1032,lraI,"ABC-type Mn2+/Zn2+ transport system, periplasmic component"
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1041,,RmlC-like cupin domain-containing protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1118,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1135,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1164,idiA2,iron deficiency-induced protein A
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1170,,conserved hypothetical protein (DUF3386)
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1171,isiB,flavodoxin
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1283,,uncharacterized membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1396,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1397,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1400,,RmlC-like cupin domain-containing protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1404,hli,high light inducible protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1412,,cupin domain-containing protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1424,,possible Uncharacterized protein family UPF003
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1815,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1828,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1829,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1831,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1832,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1833,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1854,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1864,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1874,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1876,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1915,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1940,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1973,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1980,,uncharacterized conserved membrane protein PM-23
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1982,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1983,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1986,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1996,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM1999,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2004,,uncharacterized conserved secreted protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2005,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2013,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2033,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2034,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2035,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2036,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),PMM2061,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,Prochlorococcus MED4 cluster 22 (1 genes),PMM1885,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM0461,petA,apocytochrome f
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM0462,petC,cytochrome b6-f complex iron-sulfur subunit
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM0582,,short chain dehydrogenase family protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM0705,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1000,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1402,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1519,psaL,photosystem I reaction centre subunit XI
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1520,psaI,photosystem I reaction center subunit VIII
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1663,ycf37,photosystem I assembly protein Ycf37
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1949,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1951,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),PMM1992,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,Prochlorococcus MED4 cluster 6 (2 genes),PMM1352,petF,2Fe-2S ferredoxin
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,Prochlorococcus MED4 cluster 6 (2 genes),PMM1820,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,Prochlorococcus MED4 cluster 7 (1 genes),PMM1873,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM0227,sat,sulfate adenylyltransferase
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM0768,hemA,glutamyl-tRNA reductase
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1028,,uncharacterized conserved secreted protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1229,pdhA,pyruvate dehydrogenase E1 component alpha subunit
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1374,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1379,,putative lysine decarboxylase family protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1439,atpE,ATP synthase epsilon chain
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1805,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1811,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1826,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1856,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1868,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1925,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1931,,uncharacterized conserved membrane protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1935,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1961,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1989,,Conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1990,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1991,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1994,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM1998,,conserved hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2012,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2029,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2051,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2064,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2065,,Hypothetical protein
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),PMM2069,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:1,MIT9313 cluster 1 (2 genes),PMT_2437,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:10,MIT9313 cluster 10 (1 genes),PMT_2289,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT0108,,"ABC-type lipopolysaccharide transport system, ATPase component"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT0328,,"possible bromodomain adjacent to zinc finger domain, 2B..."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT1570,,hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT_0110,,hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT_2802,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),PMT_2867,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:14,MIT9313 cluster 14 (4 genes),PMT_0107,,methyltransferase domain protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:14,MIT9313 cluster 14 (4 genes),PMT_2342,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:14,MIT9313 cluster 14 (4 genes),PMT_2433,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:14,MIT9313 cluster 14 (4 genes),PMT_2498,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:16,MIT9313 cluster 16 (2 genes),PMT_2824,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT1212,,possible regulator of sodium-dependent bicarbonate transport
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT1827,,putative membrane protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2330,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2376,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2642,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2695,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2924,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2925,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),PMT_2926,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:18,MIT9313 cluster 18 (4 genes),PMT_0916,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:18,MIT9313 cluster 18 (4 genes),PMT_2324,,bacteriocin-type signal sequence
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:18,MIT9313 cluster 18 (4 genes),PMT_2610,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:18,MIT9313 cluster 18 (4 genes),PMT_2729,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:19,MIT9313 cluster 19 (2 genes),PMT_2309,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT0284,som,outer membrane porin
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT0722,coaD,pantetheine-phosphate adenylyltransferase
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2385,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2485,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2555,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2562,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2662,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),PMT_2732,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:20,MIT9313 cluster 20 (1 genes),PMT_2303,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:23,MIT9313 cluster 23 (2 genes),PMT0499,ftn,ferritin
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:23,MIT9313 cluster 23 (2 genes),PMT0820,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:26,MIT9313 cluster 26 (2 genes),PMT_2332,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:26,MIT9313 cluster 26 (2 genes),PMT_2614,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:27,MIT9313 cluster 27 (2 genes),PMT1572,,hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:27,MIT9313 cluster 27 (2 genes),PMT1927,,"possible alpha-glycosyltransferase, family 4"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT0285,,possible peptidase
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT1152,hli,high light inducible protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_0861,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_1154,hli,high light inducible protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_2523,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_2663,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_2754,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_2769,,uncharacterized conserved membrane protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),PMT_2771,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT0498,,putative gram-negative pili assembly chaperone
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT0510,rimI,acetyltransferase family protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT1171a,petM,cytochrome b6/f complex subunit VII
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT1181,maf,septum formation protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT1220,psaM,photosystem I reaction centre subunit XII
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT1429,petF,2Fe-2S ferredoxin
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT2240,focA,"nitrite transporter, FNT family"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT_2352,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT_2702,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),PMT_2723,,putative membrane protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:35,MIT9313 cluster 35 (6 genes),PMT_2603,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:35,MIT9313 cluster 35 (6 genes),PMT_2704,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:35,MIT9313 cluster 35 (6 genes),PMT_2859,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),PMT0303,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),PMT1019,,uncharacterized conserved membrane protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),PMT_2403,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),PMT_2571,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),PMT_2726,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:39,MIT9313 cluster 39 (1 genes),PMT_2803,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0283,glyQ,"glycine--tRNA ligase, alpha subunit"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0286,piuC,iron-uptake factor PiuC
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0287,idiA2,iron deficiency-induced protein A
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0496,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem I-associated"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0801,isiB,flavodoxin
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0855,pncA,isochorismatase-like hydrolase superfamily
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0856,mscL,"large-conductance mechanosensitive ion channel, MscL family"
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0862,arsS,radical SAM/Cys-rich domain protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0911,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT0992,hli,high light inducible protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT1018,,hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT1277,,hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT1288,,2OG-Fe(II) oxygenase family protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT1554,,pentapeptide repeats family protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_0842,,Pyrimidine dimer DNA glycosylase
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2384,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2386,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2426,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2446,,conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2480,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2543,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2554,,Conserved hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2573,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),PMT_2832,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:8,MIT9313 cluster 8 (3 genes),PMT0477,,putative membrane protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:8,MIT9313 cluster 8 (3 genes),PMT_2380,,Hypothetical protein
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:8,MIT9313 cluster 8 (3 genes),PMT_2598,,Conserved hypothetical protein

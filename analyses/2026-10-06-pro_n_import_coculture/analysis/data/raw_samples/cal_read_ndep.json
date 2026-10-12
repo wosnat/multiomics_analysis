@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM0337",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "12h",
+  "timepoint_hours": 12.0,
+  "timepoint_order": 2,
+  "log2fc": 8.66,
+  "padj": 0.0,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 N-depleted Pro99 medium vs N-replete Pro99 medium (RNASEQ)",
+  "treatment": "N-depleted Pro99 medium",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "filtered_subset",
+  "table_scope_detail": "Top 50% of genes by expression level",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0337",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "24h",
+  "timepoint_hours": 24.0,
+  "timepoint_order": 3,
+  "log2fc": 8.45,
+  "padj": 0.0,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "nutrient_limited",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 N-depleted Pro99 medium vs N-replete Pro99 medium (RNASEQ)",
+  "treatment": "N-depleted Pro99 medium",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "filtered_subset",
+  "table_scope_detail": "Top 50% of genes by expression level",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0346",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "24h",
+  "timepoint_hours": 24.0,
+  "timepoint_order": 3,
+  "log2fc": -6.53,
+  "padj": 0.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "nutrient_limited",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 N-depleted Pro99 medium vs N-replete Pro99 medium (RNASEQ)",
+  "treatment": "N-depleted Pro99 medium",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": null,
+  "table_scope": "filtered_subset",
+  "table_scope_detail": "Top 50% of genes by expression level",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

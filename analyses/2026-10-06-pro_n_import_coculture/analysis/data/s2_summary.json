@@ -1,0 +1,301 @@
+{
+ "expr_version": "0.1.0",
+ "n_transport_version": "1.6.1",
+ "pooled_slice_used": false,
+ "outcomes": [
+  {
+   "check": "1 sanity gate",
+   "variant": "S (all 3 markers sig_up in protein at all 5 slices)",
+   "outcome": true,
+   "detail": "15/15 marker x slice protein cells significant_up"
+  },
+  {
+   "check": "1 sanity gate",
+   "variant": "L (each marker sig_up at axenic d14 and >= 3 of 4 coculture days, protein)",
+   "outcome": true,
+   "detail": "glnA axenic d14 up=True, coculture days up=4/4; ntcA axenic d14 up=True, coculture days up=4/4; glnB axenic d14 up=True, coculture days up=4/4"
+  },
+  {
+   "check": "2 calibration",
+   "variant": "C1 (cyn median percentile on cyanate >= 0.90)",
+   "outcome": true,
+   "detail": "cyn on cyanate 0.9582"
+  },
+  {
+   "check": "2 calibration",
+   "variant": "C2 (urt median percentile on urea >= 0.90)",
+   "outcome": false,
+   "detail": "urt on urea 0.3377"
+  },
+  {
+   "check": "2 calibration",
+   "variant": "C3 (cyn(cyanate)-cyn(urea) >= 0.10 and urt(urea)-urt(cyanate) >= 0.10)",
+   "outcome": false,
+   "detail": "cyn 0.9582 vs 0.1243 (diff 0.8338); urt 0.3377 vs 0.8167 (diff -0.4791)"
+  },
+  {
+   "check": "3 C4 Tolonen N deprivation",
+   "variant": "C4-any (>= 1 subunit up at >= 1 timepoint)",
+   "outcome": true,
+   "detail": "amt1 up=True; urt up=True; cyn up=True"
+  },
+  {
+   "check": "3 C4 Tolonen N deprivation",
+   "variant": "C4-half (>= half of detected/listed subunits up at one timepoint)",
+   "outcome": false,
+   "detail": "amt1 up=True; urt up=False; cyn up=True"
+  },
+  {
+   "check": "3 C4 Read N-depleted (filtered)",
+   "variant": "C4-any (>= 1 subunit up at >= 1 timepoint)",
+   "outcome": false,
+   "detail": "amt1 up=False; urt up=True; cyn up=True"
+  },
+  {
+   "check": "3 C4 Read N-depleted (filtered)",
+   "variant": "C4-half (>= half of detected/listed subunits up at one timepoint)",
+   "outcome": false,
+   "detail": "amt1 up=False; urt up=True; cyn up=True"
+  },
+  {
+   "check": "4 P1",
+   "variant": "amt1 RNA percentile >= 0.90 at d60 and d89",
+   "outcome": false,
+   "detail": "day 60 0.0638; day 89 0.6560"
+  },
+  {
+   "check": "4 P2 day 60",
+   "variant": "P2-pool (median over 8 urt+cyn subunits)",
+   "outcome": false,
+   "detail": "amt1 0.0638 vs 0.4081"
+  },
+  {
+   "check": "4 P2 day 89",
+   "variant": "P2-pool (median over 8 urt+cyn subunits)",
+   "outcome": true,
+   "detail": "amt1 0.6560 vs 0.4997"
+  },
+  {
+   "check": "4 P2 day 60",
+   "variant": "P2-sys (median of 2 system medians)",
+   "outcome": false,
+   "detail": "amt1 0.0638 vs 0.4081"
+  },
+  {
+   "check": "4 P2 day 89",
+   "variant": "P2-sys (median of 2 system medians)",
+   "outcome": true,
+   "detail": "amt1 0.6560 vs 0.6041"
+  },
+  {
+   "check": "5 expected-negative 1",
+   "variant": "every MED4 nitrate/nitrite row can_use False (window and run)",
+   "outcome": true,
+   "detail": "72 rows ({'nitrate': 43, 'nitrite': 29}); usable rows: 0"
+  },
+  {
+   "check": "6 expected-negative 2 ctrl_med4_hot1a3",
+   "variant": "fails if any N-import subunit significant_up",
+   "outcome": true,
+   "detail": "all-detected table; subunit x timepoint cells 13, not listed 0; significant_up: none; significant_down (pointer): PMM0974 urtE 20h, PMM0371 cynB 20h, PMM0421 dppC 20h, PMM1049 dppA 20h"
+  },
+  {
+   "check": "6 expected-negative 2 ctrl_mit9313_inoc05e6",
+   "variant": "fails if any N-import subunit significant_up",
+   "outcome": false,
+   "detail": "all-detected table; subunit x timepoint cells 21, not listed 0; significant_up: PMT0897 natF 20h; significant_down (pointer): PMT0896 natG 20h, PMT2228 urtB 20h"
+  },
+  {
+   "check": "6 expected-negative 2 ctrl_mit9313_inoc5e6",
+   "variant": "fails if any N-import subunit significant_up",
+   "outcome": true,
+   "detail": "all-detected table; subunit x timepoint cells 21, not listed 0; significant_up: none; significant_down (pointer): none"
+  },
+  {
+   "check": "6 expected-negative 2 ctrl_natl2a_mit1002",
+   "variant": "fails if any N-import subunit significant_up",
+   "outcome": true,
+   "detail": "can only fail (filtered table); subunit x timepoint cells 105, not listed 105; significant_up: none; significant_down (pointer): none"
+  },
+  {
+   "check": "7 expected-negative 3: P regulon (pst + phn)",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: P regulon (pst + phn)",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: pst",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: pst",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: phn",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: phn",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: S (sul1 + sul3)",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: S (sul1 + sul3)",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: sul1",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: sul1",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: sul3",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: sul3",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: Fe (fut/idiA2)",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: Fe (fut/idiA2)",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: Mn/Zn (mnt + lraI system)",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: Mn/Zn (mnt + lraI system)",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: mnt",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: mnt",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: lraI system",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: lraI system",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: bicarbonate (sbtA)",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "7 expected-negative 3: bicarbonate (sbtA)",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "8 N systems (a)/(b): amt1",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=True"
+  },
+  {
+   "check": "8 N systems (a)/(b): amt1",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=True"
+  },
+  {
+   "check": "8 N systems (a)/(b): urt",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=True"
+  },
+  {
+   "check": "8 N systems (a)/(b): urt",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=True"
+  },
+  {
+   "check": "8 N systems (a)/(b): cyn",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "8 N systems (a)/(b): cyn",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "8 N systems (a)/(b): dpp",
+   "variant": "a_any + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  },
+  {
+   "check": "8 N systems (a)/(b): dpp",
+   "variant": "a_half + b",
+   "outcome": false,
+   "detail": "a_any=False a_half=False b=False"
+  }
+ ]
+}

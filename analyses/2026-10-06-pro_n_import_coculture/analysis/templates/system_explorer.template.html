@@ -1,0 +1,321 @@
+<title>MED4 Transport Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#f3f5f2; --panel:#fbfcfa; --ink:#18211d; --slate:#47524d; --muted:#6f7a74;
+  --rule:#d8ded9; --accent:#0b6676; --accent-soft:#dcecee;
+  --up:#d9622b; --down:#2c6cc4; --mixed:#8e84ad; --ns:#e2e6e2; --nd:#f7f8f6; --hatch:#cfd5d0;
+  --p0:#ecebf3; --p1:#4a3aa7; --star:#b8860b;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --cell:22px; --namew:300px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#111614; --panel:#18201d; --ink:#e6ece8; --slate:#b2bdb7; --muted:#8b9790;
+    --rule:#2b3531; --accent:#5cc0cf; --accent-soft:#16343a;
+    --up:#ee7a45; --down:#5b93e6; --mixed:#a59bc6; --ns:#2b3330; --nd:#151b18; --hatch:#36403b;
+    --p0:#24233a; --p1:#a99bf0; --star:#e3b341;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#111614; --panel:#18201d; --ink:#e6ece8; --slate:#b2bdb7; --muted:#8b9790;
+  --rule:#2b3531; --accent:#5cc0cf; --accent-soft:#16343a;
+  --up:#ee7a45; --down:#5b93e6; --mixed:#a59bc6; --ns:#2b3330; --nd:#151b18; --hatch:#36403b;
+  --p0:#24233a; --p1:#a99bf0; --star:#e3b341;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:15px/1.5 var(--body);margin:0}
+.wrap{max-width:1500px;margin:0 auto;padding-inline:20px;padding-block:28px 60px}
+header h1{font:600 clamp(26px,3.6vw,38px)/1.1 var(--display);margin:6px 0 8px;text-wrap:balance}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lede{color:var(--slate);max-width:75ch;margin:0 0 6px}
+code,.mono{font-family:var(--mono);font-size:.9em}
+.toolbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--ground);border-bottom:1px solid var(--rule);padding-block:10px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group > .lab{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+button.seg,button.chip,button.play{font:600 13px/1 var(--body);border:1px solid var(--rule);background:var(--panel);color:var(--slate);padding:6px 10px;border-radius:999px;cursor:pointer}
+button.seg[aria-pressed="true"],button.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+button.play{border-color:var(--accent);color:var(--accent)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type="search"]{font:14px var(--body);padding:6px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--panel);color:var(--ink);width:180px}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--slate);align-items:center}
+.sw{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:4px}
+.story{min-height:24px;font-size:14px;color:var(--ink);margin:10px 0 4px}
+.story b{color:var(--accent)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start;margin-top:8px}
+@media (max-width:1000px){.layout{grid-template-columns:minmax(0,1fr)}}
+.scroller{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--panel)}
+.matrix{position:relative;min-width:max-content;padding-bottom:6px}
+.hrow{display:flex;position:sticky;top:0;background:var(--panel);z-index:5}
+.hname{width:var(--namew);flex:none;position:sticky;left:0;background:var(--panel);z-index:6;border-right:1px solid var(--rule)}
+.blockhdr{display:flex;border-bottom:1px solid var(--rule)}
+.bh{font:600 11px/1.2 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding:8px 4px 4px;text-align:center;border-left:2px solid var(--rule)}
+.subhdr{display:flex}
+.sh{font:500 10px/1.2 var(--mono);color:var(--muted);text-align:center;padding:4px 0 2px;border-left:1px solid transparent}
+.colhdr{display:flex}
+.ch{width:var(--cell);flex:none;height:44px;position:relative}
+.ch span{position:absolute;bottom:4px;left:50%;transform:translateX(-50%) rotate(-60deg);transform-origin:center;font:500 10px/1 var(--mono);color:var(--slate);white-space:nowrap}
+.ch.hl{background:var(--accent-soft)}
+.gap{width:8px;flex:none}
+.rows{position:relative}
+.row{display:flex;align-items:center;height:var(--cell);position:absolute;left:0;right:0;transition:transform .45s cubic-bezier(.2,.7,.2,1),opacity .3s}
+.row:hover .name{background:var(--accent-soft)}
+.row.sel .name{background:var(--accent-soft);font-weight:600}
+.name{width:var(--namew);flex:none;position:sticky;left:0;z-index:2;background:var(--panel);border-right:1px solid var(--rule);height:100%;display:flex;align-items:center;gap:6px;padding:0 8px;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.name .cat{width:6px;height:14px;border-radius:2px;flex:none}
+.name .star{color:var(--star);font-size:12px;flex:none;width:12px}
+.name .tag{font:500 10px var(--mono);color:var(--muted)}
+.grouphdr{position:absolute;left:0;right:0;height:var(--cell);display:flex;align-items:flex-end;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.grouphdr span{position:sticky;left:0;font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);padding:0 8px 4px}
+.cell{width:var(--cell);height:calc(var(--cell) - 3px);flex:none;border-radius:3px;margin:0;transform:scale(.86);transition:background-color .35s,opacity .3s,box-shadow .2s}
+.cell.up{background:var(--up)} .cell.down{background:var(--down)} .cell.mixed{background:var(--mixed)} .cell.ns{background:var(--ns)}
+.cell.nd{background:repeating-linear-gradient(135deg,var(--nd) 0 3px,var(--hatch) 3px 4px)}
+.cell.dim{opacity:.22}
+.cell.hl{box-shadow:0 0 0 2px var(--ink)}
+.side{position:sticky;top:120px;background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:16px;max-height:calc(100vh - 140px);overflow:auto}
+@media (max-width:1000px){.side{position:static;max-height:none}}
+.side h2{font:600 20px/1.2 var(--display);margin:0 0 4px;text-wrap:balance}
+.side .meta{font:12px/1.5 var(--mono);color:var(--muted);margin-bottom:10px}
+.side p{margin:6px 0;font-size:14px;color:var(--slate)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:13px}
+.kv dt{color:var(--muted)} .kv dd{margin:0;font-variant-numeric:tabular-nums}
+.spark{width:100%;height:auto;display:block;margin:8px 0}
+.gtab{border-collapse:collapse;font-size:12px;margin-top:8px}
+.gtab td,.gtab th{padding:2px 4px;text-align:center}
+.gtab th{font:500 10px var(--mono);color:var(--muted)}
+.gtab td.g{text-align:left;font-family:var(--mono);white-space:nowrap}
+.gc{display:inline-block;width:14px;height:14px;border-radius:3px}
+.tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--panel);font-size:12.5px;line-height:1.4;padding:8px 10px;border-radius:6px;max-width:320px;opacity:0;transition:opacity .12s}
+.tip b{font-weight:600}
+.notes{max-width:80ch;color:var(--slate);font-size:14px;margin-top:22px}
+.notes li{margin:4px 0}
+@media (prefers-reduced-motion: reduce){.row,.grouphdr,.cell{transition:none}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Analysis milestone · interactive companion to the system matrix</div>
+  <h1>MED4 transport systems across every experiment</h1>
+  <p class="lede">Each row is a transport system (or a reference gene group); each column an experiment. Hover a cell for numbers, click a name for details, and use <b>Play</b> to step through the coculture time course.</p>
+</header>
+
+<div class="toolbar" role="toolbar" aria-label="Matrix controls">
+  <div class="group"><span class="lab">Show</span>
+    <button class="seg" id="v-status" aria-pressed="true">Status</button>
+    <button class="seg" id="v-rank" aria-pressed="false">Rank</button></div>
+  <div class="group"><span class="lab">Order</span>
+    <button class="seg" data-order="cluster" aria-pressed="true">Response cluster</button>
+    <button class="seg" data-order="category" aria-pressed="false">Category</button>
+    <button class="seg" data-order="class" aria-pressed="false">N class</button>
+    <button class="seg" data-order="cc" aria-pressed="false">Coculture-specific</button></div>
+  <div class="group"><span class="lab">Columns</span>
+    <button class="chip" data-block="0" aria-pressed="true">Coculture vs axenic</button>
+    <button class="chip" data-block="1" aria-pressed="true">N starvation</button>
+    <button class="chip" data-block="2" aria-pressed="true">This study</button></div>
+  <div class="group"><span class="lab">Rows</span>
+    <span id="catchips"></span>
+    <button class="chip" id="staronly" aria-pressed="false">★ only</button>
+    <label for="q" class="lab" style="position:absolute;left:-9999px">Search systems</label>
+    <input id="q" type="search" placeholder="Search gene or locus"></div>
+  <div class="group"><button class="play" id="play" aria-pressed="false">▶ Play coculture days</button></div>
+</div>
+
+<div class="story" id="story" aria-live="polite"></div>
+<div class="legend" id="legend"></div>
+
+<div class="layout">
+  <div class="scroller" id="scroller"><div class="matrix" id="matrix"></div></div>
+  <aside class="side" id="side" aria-live="polite"></aside>
+</div>
+
+<ul class="notes">
+  <li><b>Status</b> comes from the source papers’ significance calls: up = at least one subunit significantly up and none down; down = the reverse; mixed = both. Rank = median rank percentile of the system’s detected subunits (1.0 = the most up-regulated gene in that experiment).</li>
+  <li>Aharonovich 2016 (first column) is 82% negative genome-wide, so “down” there is mostly the table’s skew. Read N-depleted tables list only some genes: hatched there means “not listed”.</li>
+  <li>“axenic d14” is the axenic sample taken around day 14 and paired with coculture day 18 in the direct contrast: already in late decline. ★ = up in coculture protein at days 60 and 89, not up in that axenic sample, and not up in acute N deprivation.</li>
+  <li>Data: <code>analysis/data/explore/e10_*.csv</code>; built by <code>analysis/scripts/e12_build_explorer.py</code>.</li>
+</ul>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+const D = /*DATA*/null;
+(function(){
+const COLS = D.cols, ROWS = D.rows, CELLS = D.cells, GENES = D.genes;
+const CATS = D.categories;
+const CATCOLOR = {"N dedicated":"var(--up)","N broad":"#c49a3a","linked enzymes":"#3c9a6b","markers":"var(--accent)","non-N reference":"var(--down)","other High/Medium":"var(--muted)"};
+const state = {view:"status", order:"cluster", blocks:[true,true,true], cats:new Set(CATS), star:false, q:"", sel:null, playCol:null};
+try{ const s = JSON.parse(localStorage.getItem("med4explorer")||"null"); if(s){ state.view=s.view||state.view; state.order=s.order||state.order; } }catch(e){}
+const save=()=>{ try{ localStorage.setItem("med4explorer", JSON.stringify({view:state.view, order:state.order})); }catch(e){} };
+
+const $ = s=>document.querySelector(s);
+const matrix=$("#matrix"), tip=$("#tip"), side=$("#side"), story=$("#story");
+const CELLPX=22, GAP=8;
+
+function pctColor(p){ if(p==null) return null; const t=Math.max(0,Math.min(1,p));
+  return `color-mix(in oklab, var(--p1) ${Math.round(t*100)}%, var(--p0))`; }
+
+// visible columns with gaps between subgroups
+function visCols(){ return COLS.filter(c=>state.blocks[c.block]); }
+
+function buildHeader(){
+  const vc=visCols();
+  const blocks=[], subs=[]; let prevB=null, prevS=null;
+  vc.forEach((c,i)=>{
+    if(c.block!==prevB){ blocks.push({name:c.blockName, n:0, gapBefore:i>0}); prevB=c.block; prevS=null; }
+    if(c.sub!==prevS){ subs.push({name:c.sub, n:0, gapBefore:i>0}); prevS=c.sub; }
+    blocks[blocks.length-1].n++; subs[subs.length-1].n++;
+  });
+  const w=n=>n*CELLPX;
+  let h=`<div class="hrow"><div class="hname"></div><div>`;
+  h+=`<div class="blockhdr">`+blocks.map(b=>`${b.gapBefore?'<div class="gap"></div>':''}<div class="bh" style="width:${w(b.n)}px">${b.name}</div>`).join("")+`</div>`;
+  h+=`<div class="subhdr">`+subs.map(s=>`${s.gapBefore?'<div class="gap"></div>':''}<div class="sh" style="width:${w(s.n)}px">${s.name}</div>`).join("")+`</div>`;
+  h+=`<div class="colhdr">`; prevS=null;
+  vc.forEach((c,i)=>{ if(i>0 && c.sub!==prevS) h+='<div class="gap"></div>'; prevS=c.sub;
+    h+=`<div class="ch" data-col="${c.key}" title="${c.full}"><span>${c.short}</span></div>`; });
+  h+=`</div></div></div>`;
+  return h;
+}
+
+function rowHTML(r){
+  const vc=visCols(); let h=`<div class="name" data-row="${r.id}" tabindex="0" role="button" aria-label="${r.label}">`+
+    `<span class="cat" style="background:${CATCOLOR[r.category]||'var(--muted)'}"></span><span class="star">${r.strict?'★':(r.loose?'☆':'')}</span>`+
+    `<span>${r.base}</span>${r.tag?`<span class="tag">${r.tag}</span>`:''}</div>`;
+  let prevS=null;
+  vc.forEach((c,i)=>{ if(i>0 && c.sub!==prevS) h+='<div class="gap"></div>'; prevS=c.sub;
+    const v=(CELLS[r.id]||{})[c.key]||{s:"nd"};
+    h+=`<div class="cell ${cellClass(v)}" data-row="${r.id}" data-col="${c.key}" style="${cellStyle(v)}"></div>`; });
+  return h;
+}
+function cellClass(v){ if(state.view==="rank") return (v.p==null?"nd":""); return v.s; }
+function cellStyle(v){ if(state.view==="rank" && v.p!=null) return `background:${pctColor(v.p)}`; return ""; }
+
+function filtered(){
+  const q=state.q.trim().toLowerCase();
+  return ROWS.filter(r=>state.cats.has(r.category) && (!state.star || r.strict || r.loose) && (!q || r.search.includes(q)));
+}
+
+// returns list of {type:'g',name} | {type:'r',row}
+function ordered(){
+  const rs=filtered(); const out=[];
+  if(state.order==="cluster"){ rs.slice().sort((a,b)=>a.leaf-b.leaf).forEach(r=>out.push({type:"r",row:r})); }
+  else if(state.order==="category"){ CATS.forEach(cat=>{ const g=rs.filter(r=>r.category===cat).sort((a,b)=>a.leaf-b.leaf); if(g.length){ out.push({type:"g",name:cat}); g.forEach(r=>out.push({type:"r",row:r})); } }); }
+  else if(state.order==="class"){ D.classOrder.forEach(cl=>{ const g=rs.filter(r=>r.classes.includes(cl)).sort((a,b)=>(a.basis[cl]==="dedicated"?0:1)-(b.basis[cl]==="dedicated"?0:1)||a.leaf-b.leaf); if(g.length){ out.push({type:"g",name:cl}); g.forEach(r=>out.push({type:"r",row:r,key:cl})); } });
+    const rest=rs.filter(r=>!r.classes.length).sort((a,b)=>a.leaf-b.leaf); if(rest.length){ out.push({type:"g",name:"no N class (non-N, enzymes, markers)"}); rest.forEach(r=>out.push({type:"r",row:r,key:"none"})); } }
+  else { rs.slice().sort((a,b)=>(b.strict-a.strict)||(b.loose-a.loose)||((b.ccScore??-1)-(a.ccScore??-1))).forEach(r=>out.push({type:"r",row:r})); }
+  return out;
+}
+
+let rowEls=new Map(), grpEls=new Map();
+function render(full){
+  if(full){
+    matrix.innerHTML=buildHeader()+`<div class="rows" id="rowsbox"></div>`;
+    rowEls=new Map(); grpEls=new Map();
+  }
+  const box=$("#rowsbox"); const items=ordered(); const seen=new Set(), seenG=new Set();
+  items.forEach((it,i)=>{
+    const y=i*CELLPX;
+    if(it.type==="g"){ let el=grpEls.get(it.name); if(!el){ el=document.createElement("div"); el.className="grouphdr"; el.innerHTML=`<span>${it.name}</span>`; box.appendChild(el); grpEls.set(it.name,el); el.style.transform=`translateY(${y}px)`; }
+      el.style.transform=`translateY(${y}px)`; el.hidden=false; seenG.add(it.name); return; }
+    const k=it.row.id+"|"+(it.key||""); let el=rowEls.get(k);
+    if(!el){ el=document.createElement("div"); el.className="row"; el.innerHTML=rowHTML(it.row); el.style.transform=`translateY(${y}px)`; box.appendChild(el); rowEls.set(k,el); }
+    el.style.transform=`translateY(${y}px)`; el.hidden=false; el.classList.toggle("sel", state.sel===it.row.id); seen.add(k);
+  });
+  rowEls.forEach((el,k)=>{ if(!seen.has(k)) el.hidden=true; });
+  grpEls.forEach((el,k)=>{ if(!seenG.has(k)) el.hidden=true; });
+  box.style.height=(items.length*CELLPX+4)+"px";
+  applyPlay();
+}
+function repaint(){ rowEls.forEach((el)=>{ el.querySelectorAll(".cell").forEach(c=>{ const v=(CELLS[c.dataset.row]||{})[c.dataset.col]||{s:"nd"}; c.className="cell "+cellClass(v); c.setAttribute("style",cellStyle(v)); }); }); applyPlay(); renderLegend(); }
+
+function renderLegend(){
+  const L=$("#legend");
+  if(state.view==="status") L.innerHTML=[["up","Up"],["down","Down"],["mixed","Mixed"],["ns","Not significant"]].map(([c,t])=>`<span><i class="sw" style="background:var(--${c})"></i>${t}</span>`).join("")+`<span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--nd) 0 3px,var(--hatch) 3px 4px)"></i>Not detected / not listed</span><span class="mono">★ coculture-specific · ☆ looser</span>`;
+  else L.innerHTML=`<span>Rank 0</span><i class="sw" style="width:160px;background:linear-gradient(90deg,var(--p0),var(--p1))"></i><span>1 (most up)</span><span class="mono">0.5 = genome middle</span>`;
+}
+
+// tooltip
+matrix.addEventListener("mousemove",e=>{
+  const c=e.target.closest(".cell"); if(!c){ tip.style.opacity=0; return; }
+  const r=D.rowById[c.dataset.row], col=D.colByKey[c.dataset.col], v=(CELLS[c.dataset.row]||{})[c.dataset.col]||{s:"nd"};
+  const st={up:"up",down:"down",mixed:"mixed",ns:"not significant",nd:"not detected / not listed"}[v.s];
+  tip.innerHTML=`<b>${r.base}</b><br>${col.full}<br>Status: <b>${st}</b>${v.nd!=null?` · ${v.nu} up / ${v.ndn} down of ${v.nd} detected`:''}${v.p!=null?`<br>Median rank ${v.p.toFixed(2)}`:''}`;
+  const x=Math.min(e.clientX+14, window.innerWidth-330); tip.style.left=x+"px"; tip.style.top=(e.clientY+14)+"px"; tip.style.opacity=1;
+});
+matrix.addEventListener("mouseleave",()=>tip.style.opacity=0);
+matrix.addEventListener("click",e=>{ const n=e.target.closest("[data-row]"); if(n) select(n.dataset.row); });
+matrix.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ") && e.target.classList.contains("name")){ e.preventDefault(); select(e.target.dataset.row); } });
+
+function spark(r){
+  const W=300,H=90,pad=24; const series=[["protein","Protein"],["RNA","RNA"]];
+  const xs=D.timeCols; // [{key,label,omics,x}]
+  const xpos=i=>pad+i*(W-2*pad)/(xs.protein.length-1);
+  let s=`<svg class="spark" viewBox="0 0 ${W} ${H+18}" role="img" aria-label="Rank over the time course">`;
+  s+=`<line x1="${pad}" x2="${W-pad}" y1="${H-((.5)*(H-10))}" y2="${H-((.5)*(H-10))}" stroke="var(--rule)" stroke-dasharray="3 3"/>`;
+  const col={protein:"var(--accent)",RNA:"var(--up)"};
+  series.forEach(([om])=>{ const pts=xs[om].map((k,i)=>{ const v=(CELLS[r.id]||{})[k.key]; return v&&v.p!=null?[xpos(i),H-v.p*(H-10)]:null; });
+    const segs=pts.filter(Boolean); if(segs.length>1) s+=`<polyline fill="none" stroke="${col[om]}" stroke-width="2" points="${segs.map(p=>p.join(",")).join(" ")}"/>`;
+    segs.forEach(p=>s+=`<circle cx="${p[0]}" cy="${p[1]}" r="3" fill="${col[om]}"/>`); });
+  xs.protein.forEach((k,i)=>s+=`<text x="${xpos(i)}" y="${H+14}" font-size="10" text-anchor="middle" fill="var(--muted)" font-family="IBM Plex Mono, monospace">${k.label}</text>`);
+  s+=`<text x="2" y="12" font-size="10" fill="var(--muted)" font-family="IBM Plex Mono, monospace">1.0</text><text x="2" y="${H}" font-size="10" fill="var(--muted)" font-family="IBM Plex Mono, monospace">0</text>`;
+  s+=`</svg><div class="legend"><span><i class="sw" style="background:var(--accent)"></i>protein rank</span><span><i class="sw" style="background:var(--up)"></i>RNA rank</span></div>`;
+  return s;
+}
+function select(id){
+  state.sel=id; const r=D.rowById[id];
+  rowEls.forEach((el,k)=>el.classList.toggle("sel", k.startsWith(id+"|")));
+  const f=r.flagText?`<p><b>${r.strict?'★ coculture-specific candidate':'☆ looser candidate'}</b>: ${r.flagText}</p>`:"";
+  let g="";
+  if(GENES[id]){ const cols=D.geneCols; g=`<p style="margin-top:12px"><b>Gene by gene</b> (status per experiment)</p><div style="overflow-x:auto"><table class="gtab"><tr><th></th>${cols.map(c=>`<th title="${D.colByKey[c].full}">${D.colByKey[c].short}</th>`).join("")}</tr>`+
+    GENES[id].map(gn=>`<tr><td class="g">${gn.name}</td>${cols.map(c=>{const v=gn.cells[c]||{s:"nd"}; return `<td><span class="gc cell ${v.s}" style="transform:none" title="${D.colByKey[c].full}: ${v.s}${v.p!=null?' · rank '+v.p.toFixed(2):''}"></span></td>`}).join("")}</tr>`).join("")+`</table></div>`; }
+  side.innerHTML=`<h2>${r.base}</h2><div class="meta">${r.category}${r.tier?' · '+r.tier:''}${r.tag?' · '+r.tag.trim():''}</div>
+   <dl class="kv"><dt>Loci</dt><dd class="mono">${r.loci||'—'}</dd><dt>N classes listed</dt><dd>${r.classes.length?r.classes.map(c=>c+(r.basis[c]?` (${r.basis[c]})`:'')).join(', '):'none'}</dd></dl>
+   ${f}<p style="margin-top:12px"><b>This study, rank over time</b> (axenic d14 → coculture d18–d89)</p>${spark(r)}${g}`;
+}
+function defaultSide(){
+  side.innerHTML=`<h2>Pick a system</h2><p>Click any name in the matrix to see its loci, the N classes it lists, its rank over this study’s time course and, for the dedicated N systems, every gene separately.</p><p>Start with <b>amt1</b> or the porin <b>som PMM0709</b>.</p>`;
+}
+
+// play: step through coculture protein days
+let timer=null;
+function applyPlay(){
+  document.querySelectorAll(".ch").forEach(h=>h.classList.toggle("hl", h.dataset.col===state.playCol));
+  document.querySelectorAll(".cell").forEach(c=>{ c.classList.toggle("hl", c.dataset.col===state.playCol);
+    c.classList.toggle("dim", !!state.playCol && c.dataset.col!==state.playCol && !c.closest(".gtab")); });
+}
+function stopPlay(msg){ clearInterval(timer); timer=null; state.playCol=null; $("#play").textContent="▶ Play coculture days"; $("#play").setAttribute("aria-pressed","false"); applyPlay(); if(msg!==false) story.innerHTML=""; }
+$("#play").addEventListener("click",()=>{
+  if(timer){ stopPlay(); return; }
+  state.blocks[2]=true; document.querySelector('[data-block="2"]').setAttribute("aria-pressed","true"); render(true);
+  const seq=D.playSeq; let i=0; $("#play").textContent="■ Stop"; $("#play").setAttribute("aria-pressed","true");
+  const step=()=>{ if(i>=seq.length){ stopPlay(false); story.innerHTML=D.playOutro; return; }
+    const k=seq[i++]; state.playCol=k; applyPlay();
+    const vis=filtered(); const up=vis.filter(r=>((CELLS[r.id]||{})[k]||{}).s==="up"); const down=vis.filter(r=>((CELLS[r.id]||{})[k]||{}).s==="down");
+    const names=up.slice(0,6).map(r=>r.short).join(", ");
+    story.innerHTML=`<b>${D.colByKey[k].full}</b>: ${up.length} systems up, ${down.length} down${names?` (up: ${names}${up.length>6?'…':''})`:''}.`; };
+  step(); timer=setInterval(step, 1800);
+});
+
+// controls
+function press(sel,val){ document.querySelectorAll(sel).forEach(b=>b.setAttribute("aria-pressed", String(b===val))); }
+$("#v-status").onclick=e=>{ state.view="status"; press("#v-status,#v-rank",e.currentTarget); repaint(); save(); };
+$("#v-rank").onclick=e=>{ state.view="rank"; press("#v-status,#v-rank",e.currentTarget); repaint(); save(); };
+document.querySelectorAll("[data-order]").forEach(b=>b.onclick=()=>{ state.order=b.dataset.order; press("[data-order]",b); render(false); save(); });
+document.querySelectorAll("[data-block]").forEach(b=>b.onclick=()=>{ const i=+b.dataset.block; state.blocks[i]=!state.blocks[i]; if(!state.blocks.some(x=>x)){ state.blocks[i]=true; } b.setAttribute("aria-pressed",String(state.blocks[i])); render(true); });
+$("#catchips").innerHTML=CATS.map(c=>`<button class="chip" data-cat="${c}" aria-pressed="true"><i class="sw" style="background:${CATCOLOR[c]};width:8px;height:12px"></i>${c}</button>`).join(" ");
+document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{ const c=b.dataset.cat; if(state.cats.has(c)) state.cats.delete(c); else state.cats.add(c); if(!state.cats.size) state.cats.add(c); b.setAttribute("aria-pressed",String(state.cats.has(c))); render(false); });
+$("#staronly").onclick=e=>{ state.star=!state.star; e.currentTarget.setAttribute("aria-pressed",String(state.star)); render(false); };
+$("#q").addEventListener("input",e=>{ state.q=e.target.value; render(false); });
+
+// init
+press("#v-status,#v-rank", state.view==="rank"?$("#v-rank"):$("#v-status"));
+press("[data-order]", document.querySelector(`[data-order="${state.order}"]`));
+renderLegend(); render(true); defaultSide();
+story.innerHTML=D.intro;
+})();
+</script>

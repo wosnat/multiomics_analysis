@@ -1,0 +1,194 @@
+<title>MED4 System Response Matrix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#f6f8f7; --panel:#ffffff; --ink:#14191b; --slate:#4e5a5e; --muted:#76817f;
+  --rule:#dce2df; --accent:#0b6676; --accent-soft:#e3eff1;
+  --caveat:#8a5200; --caveat-soft:#fbf1e2; --good:#0a7d38; --good-soft:#e6f3ea;
+  --fig-ground:#fcfcfb;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+    --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+    --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+    --fig-ground:#fcfcfb;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#101517; --panel:#172024; --ink:#e7ecea; --slate:#aab6b4; --muted:#87938f;
+  --rule:#2b3639; --accent:#5cc0cf; --accent-soft:#16343a;
+  --caveat:#f0b25a; --caveat-soft:#33280f; --good:#5fd08a; --good-soft:#143224;
+  --fig-ground:#fcfcfb;
+}
+body{background:var(--ground);color:var(--ink);font:16px/1.6 var(--body);}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:40px 80px;}
+.col{max-width:68ch;}
+header{border-bottom:1px solid var(--rule);padding-bottom:28px;margin-bottom:8px;}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);}
+h1{font:600 clamp(30px,4.5vw,44px)/1.1 var(--display);margin:14px 0 12px;text-wrap:balance;letter-spacing:-.01em;}
+h2{font:600 26px/1.2 var(--display);margin:56px 0 10px;text-wrap:balance;}
+h3{font:600 17px/1.3 var(--body);margin:26px 0 6px;}
+p{margin:0 0 12px;}
+.lede{font-size:18px;color:var(--slate);}
+code,.mono{font-family:var(--mono);font-size:.9em;}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font:13px/1.5 var(--mono);color:var(--muted);margin-top:14px;}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:28px 0 8px;}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;}
+.stat .n{font:600 28px/1.1 var(--display);font-variant-numeric:tabular-nums;}
+.stat .l{font-size:14px;color:var(--slate);margin-top:4px;}
+figure{margin:22px 0 8px;}
+figure img{display:block;width:100%;height:auto;background:var(--fig-ground);border:1px solid var(--rule);border-radius:4px;}
+figcaption{font-size:14px;color:var(--slate);margin-top:8px;max-width:80ch;}
+figcaption b{color:var(--ink);}
+.callout{border-left:3px solid var(--caveat);background:var(--caveat-soft);padding:12px 16px;border-radius:0 6px 6px 0;margin:18px 0;max-width:80ch;}
+.callout .tag{font:600 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--caveat);display:block;margin-bottom:6px;}
+.callout.ok{border-left-color:var(--good);background:var(--good-soft);}
+.callout.ok .tag{color:var(--good);}
+.tablewrap{overflow-x:auto;margin:16px 0;}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:640px;}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top;}
+th{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+td.num{font-variant-numeric:tabular-nums;font-family:var(--mono);}
+.decision{display:grid;grid-template-columns:minmax(0,1fr);gap:0;border-top:1px solid var(--rule);}
+.decision > div{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--rule);}
+.decision .h{font:600 12px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding:10px 0;}
+.decision b{display:block;margin-bottom:2px;}
+.gain{color:var(--good);}
+.cost{color:var(--caveat);}
+@media (max-width:720px){
+  .decision > div{grid-template-columns:minmax(0,1fr);gap:6px;}
+  .decision .h{display:none;}
+}
+ul.tight{margin:6px 0 12px;padding-left:20px;}
+ul.tight li{margin:3px 0;}
+.approve{background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:20px 22px;margin-top:22px;}
+.approve h3{margin-top:0;color:var(--accent);}
+footer{margin-top:56px;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px;}
+a{color:var(--accent);}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Analysis milestone · exploration (no labels) · companion to the data-exploration page</div>
+  <h1>Every MED4 transport system, across every experiment</h1>
+  <p class="lede col">One row per system: 73 High/Medium transport systems, plus the starvation markers and N enzymes as reference rows. One column per experiment: coculture vs axenic, N starvation and other N sources, and this study’s protein and RNA time courses. The aim is to see which systems move with nitrogen stress and which behave differently in coculture.</p>
+  <div class="meta"><span>MED4</span><span>methods n_transport v1.6.1</span><span>63 tests</span><span>scripts e10_system_matrix.py, e11_followups.py</span></div>
+</header>
+
+<section>
+  <h2>How to read the matrices</h2>
+  <ul class="tight col">
+    <li><b>Cell colour = the system’s status</b>, from the source papers’ significance calls: orange = up (at least one subunit up, none down), blue = down, purple-grey = mixed, light grey = not significant, hatched = not detected. The number in the cell is subunits significant / subunits detected.</li>
+    <li><b>Right panel = median rank</b> of the system’s detected subunits (purple; 1.0 = the most up-regulated gene in that experiment).</li>
+    <li><b>Column blocks:</b>
+      <ul>
+        <li>Coculture vs axenic: Aharonovich 2016 in N-replete medium (shaded; that table is 82% negative, so “down” there is mostly table-wide), and the same-study contrast at day 11 and day 18.</li>
+        <li>N starvation and other N sources: Tolonen deprivation 3–48 h; Read N-depleted (filtered table, so only “up” counts); Tolonen growth on cyanate and on urea.</li>
+        <li>This study: protein and RNA, each split into axenic d14 (late decline) | coculture d18–d89.</li>
+      </ul>
+    </li>
+    <li><b>★ coculture-specific candidate:</b> up in coculture protein at days 60 and 89, and not up in any axenic sample (protein d14, d31, d89; RNA d14) or at any Tolonen N-deprivation timepoint. <b>☆</b> = a looser version. All axenic samples are late decline or death.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>1. All systems, clustered by response</h2>
+  <figure>
+    <img src="figures/e10_status_matrix.png" alt="Status and median-rank matrix of all MED4 transport systems across experiments, rows clustered.">
+    <figcaption><b>Rows ordered by similarity of response</b> (dendrogram on the left). The top branch (9 rows) is the N-starvation response: <code>glnA</code>, <code>ntcA</code>, <code>glnB</code>, cyn, <code>amt1</code>, urease, urt and <code>cynS</code>, plus ferritin (a known false positive). These are up in Tolonen deprivation and throughout the coculture protein. Everything else falls into larger branches with no shared N response. Open the image in a new tab to zoom.</figcaption>
+  </figure>
+  <figure>
+    <img src="figures/e10_status_matrix_grouped.png" alt="The same matrix with rows grouped by category.">
+    <figcaption><b>The same matrix, rows grouped by category</b> (dedicated N / broad N / enzymes / markers / non-N) instead of clustered.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>2. Systems that behave like coculture, not starvation</h2>
+  <p class="col">★ = up in coculture protein at days 60 and 89, and <b>not</b> up in any axenic sample (protein d14, d31, d89; RNA d14) or in acute N deprivation. Revised after the analysis critic: an earlier version checked only axenic d14.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>System</th><th>What it is</th><th>cc d60 / d89</th><th>axenic d14 / d31 / d89</th><th>Flag</th></tr></thead>
+    <tbody>
+      <tr><td><code>murJ</code> PMM0261</td><td>lipid II flippase (cell wall)</td><td class="num">0.95 / 0.92</td><td class="num">0.36 / 0.27 / 0.81</td><td>★ ☆</td></tr>
+      <tr><td><code>tolC</code> PMM0097</td><td>outer-membrane efflux channel</td><td class="num">0.99 / 0.99</td><td class="num">0.83 / 0.46 / 0.61</td><td>★ (already high at d14)</td></tr>
+      <tr><td><code>acrA</code> PMM1139</td><td>RND efflux pump</td><td class="num">0.96 / 0.92</td><td class="num">0.75 / 0.26 / 0.40</td><td>★ (already high at d14)</td></tr>
+      <tr><td><code>bamA</code> PMM1338</td><td>outer-membrane protein insertion</td><td class="num">0.96 / 0.96</td><td class="num">0.86 / 0.27 / 0.36</td><td>★ (already high at d14)</td></tr>
+      <tr><td><code>perM</code>, <code>mgtE</code></td><td>exporter; Mg²⁺ channel</td><td class="num">0.94–0.96</td><td class="num">0.92–0.95 at d14</td><td>★ (already high at d14)</td></tr>
+      <tr><td><code>som</code> PMM0709</td><td>outer-membrane porin</td><td class="num">0.97 / 0.99</td><td class="num">0.47 / <b>0.99↑</b> / <b>0.88↑</b></td><td>not specific: up in dying axenic</td></tr>
+      <tr><td><code>yrbG</code> PMM0568</td><td>cation:H⁺ antiporter</td><td class="num">0.95 / 0.96</td><td class="num">0.69 / <b>0.86↑</b> / <b>0.97↑</b></td><td>not specific</td></tr>
+      <tr><td>dpp</td><td>di/oligopeptide transporter</td><td class="num">0.89 / 0.82</td><td class="num">0.54 / 0.36 / 0.34</td><td>unresolved (axenic RNA d14 up)</td></tr>
+    </tbody>
+  </table></div>
+  <ul class="tight col">
+    <li><span class="mono">[interpretation]</span> What remains coculture-specific is a small cell-envelope set, chiefly <code>murJ</code>. Every axenic comparison here is with a declining culture, so “up in coculture, not axenic” can’t separate a partner effect from survival.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. By nitrogen class</h2>
+  <figure>
+    <img src="figures/e10_by_class.png" alt="One status panel per N class, dedicated then broad systems, multi-class systems marked.">
+    <figcaption><b>One panel per class</b>: dedicated systems first, then broad listings. ◆ marks a system listing several classes; it appears in each of them. Within a class the systems disagree:
+      <ul>
+        <li>Ammonium: only <code>amt1</code> is up (plus one <code>nhaS</code> at d60).</li>
+        <li>Peptides: only dpp is up; none of the 10 broad systems is.</li>
+        <li>Amino acids: only <code>murJ</code> is up; <code>sul1</code>/<code>sul3</code> are down.</li>
+        <li>Nitrate: cyn and <code>clc2</code> are up, but MED4 can’t use nitrate.</li>
+      </ul>
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>4. The dedicated N systems, gene by gene</h2>
+  <figure>
+    <img src="figures/e10_by_system_dedicated.png" alt="Gene-level status panels for amt1, urt, cyn, dpp, urease, cynS/glsF and markers.">
+    <figcaption><b>One row per gene</b>, same columns; the small numbers are ranks. This view shows differences within a system, such as between the dpp loci, or <code>urtC/D/E</code> against the rest of urt.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>5. Three small follow-ups</h2>
+  <h3>Above the N-starvation stimulon</h3>
+  <figure>
+    <img src="figures/e11_above_stimulon.png" alt="System protein rank minus the N-starvation stimulon rank, coculture vs axenic.">
+    <figcaption><b>Each system’s protein rank minus the N-starvation stimulon’s</b> (the Tolonen clusters that rise first). The stimulon sits at about 0.98 in every sample, so almost nothing can be above it; the largest excess is +0.02 (<code>cynS</code>, cyn). As a way to rank “beyond N stress”, this is <b>uninformative</b>: the N response is at its ceiling.</figcaption>
+  </figure>
+  <h3>Enzymes that free ammonium from N compounds</h3>
+  <figure>
+    <img src="figures/e11_n_releasing.png" alt="Status of MED4 peptidases, C–N hydrolases and ammonia-lyases across experiments.">
+    <figcaption><b>80 MED4 genes</b> with peptidase (EC 3.4), C–N hydrolase (EC 3.5: amidases, deaminases, urease) or ammonia-lyase (EC 4.3.1) activity. With the filter checked against all axenic samples, only the signal peptidase <code>sppA</code> passes (it processes proteins for export, not degradation). <span class="mono">[interpretation]</span> Apart from the urease that comes with the N response, no route that frees nitrogen from an organic compound is switched on beyond starvation.</figcaption>
+  </figure>
+  <h3>Is nitrogen stress relieved?</h3>
+  <figure>
+    <img src="figures/e11_n_relief.png" alt="Median protein rank over time for the gene groups that fall under N starvation, and the stimulon.">
+    <figcaption><b>The gene groups that fall under N starvation</b>, in protein:
+      <ul>
+        <li>Protein synthesis (c6, c7) drops from axenic d14 to coculture d18, then climbs partway back by d60–d89 (c7: 0.12 → 0.35), still below the genome middle.</li>
+        <li>Photosynthesis (c8) keeps falling (0.40 → 0.15).</li>
+        <li>The stimulon stays at its ceiling.</li>
+      </ul>
+      <span class="mono">[interpretation]</span> At most a slight, partial recovery of protein synthesis late in coculture; no general relief.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>What this adds</h2>
+  <ul class="tight col">
+    <li>The N-import systems form one tight N-stress branch. Nothing in them says which compound MED4 uses.</li>
+    <li>What remains coculture-specific is a small cell-envelope set (chiefly <code>murJ</code>; more weakly <code>tolC</code>, <code>acrA</code>, <code>bamA</code>), and the comparison is with a dying axenic culture. The porin <code>som</code> is not coculture-specific.</li>
+    <li>No organic-N route (peptides, amino acids, polyamines) shows coordinated transporter + enzyme activity beyond starvation.</li>
+  </ul>
+</section>
+
+<footer>Figures: <code>analysis/figures/e10_*</code>, <code>e11_*</code> (PNG + SVG). Data: <code>analysis/data/explore/e10_*</code>, <code>e11_*</code>. Main exploration page: <code>analysis/analysis_review.html</code>.</footer>
+</div>

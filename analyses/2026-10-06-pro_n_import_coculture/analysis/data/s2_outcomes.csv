@@ -1,0 +1,50 @@
+check,variant,outcome,detail
+1 sanity gate,S (all 3 markers sig_up in protein at all 5 slices),True,15/15 marker x slice protein cells significant_up
+1 sanity gate,"L (each marker sig_up at axenic d14 and >= 3 of 4 coculture days, protein)",True,"glnA axenic d14 up=True, coculture days up=4/4; ntcA axenic d14 up=True, coculture days up=4/4; glnB axenic d14 up=True, coculture days up=4/4"
+2 calibration,C1 (cyn median percentile on cyanate >= 0.90),True,cyn on cyanate 0.9582
+2 calibration,C2 (urt median percentile on urea >= 0.90),False,urt on urea 0.3377
+2 calibration,C3 (cyn(cyanate)-cyn(urea) >= 0.10 and urt(urea)-urt(cyanate) >= 0.10),False,cyn 0.9582 vs 0.1243 (diff 0.8338); urt 0.3377 vs 0.8167 (diff -0.4791)
+3 C4 Tolonen N deprivation,C4-any (>= 1 subunit up at >= 1 timepoint),True,amt1 up=True; urt up=True; cyn up=True
+3 C4 Tolonen N deprivation,C4-half (>= half of detected/listed subunits up at one timepoint),False,amt1 up=True; urt up=False; cyn up=True
+3 C4 Read N-depleted (filtered),C4-any (>= 1 subunit up at >= 1 timepoint),False,amt1 up=False; urt up=True; cyn up=True
+3 C4 Read N-depleted (filtered),C4-half (>= half of detected/listed subunits up at one timepoint),False,amt1 up=False; urt up=True; cyn up=True
+4 P1,amt1 RNA percentile >= 0.90 at d60 and d89,False,day 60 0.0638; day 89 0.6560
+4 P2 day 60,P2-pool (median over 8 urt+cyn subunits),False,amt1 0.0638 vs 0.4081
+4 P2 day 89,P2-pool (median over 8 urt+cyn subunits),True,amt1 0.6560 vs 0.4997
+4 P2 day 60,P2-sys (median of 2 system medians),False,amt1 0.0638 vs 0.4081
+4 P2 day 89,P2-sys (median of 2 system medians),True,amt1 0.6560 vs 0.6041
+5 expected-negative 1,every MED4 nitrate/nitrite row can_use False (window and run),True,"72 rows ({'nitrate': 43, 'nitrite': 29}); usable rows: 0"
+6 expected-negative 2 ctrl_med4_hot1a3,fails if any N-import subunit significant_up,True,"all-detected table; subunit x timepoint cells 13, not listed 0; significant_up: none; significant_down (pointer): PMM0974 urtE 20h, PMM0371 cynB 20h, PMM0421 dppC 20h, PMM1049 dppA 20h"
+6 expected-negative 2 ctrl_mit9313_inoc05e6,fails if any N-import subunit significant_up,False,"all-detected table; subunit x timepoint cells 21, not listed 0; significant_up: PMT0897 natF 20h; significant_down (pointer): PMT0896 natG 20h, PMT2228 urtB 20h"
+6 expected-negative 2 ctrl_mit9313_inoc5e6,fails if any N-import subunit significant_up,True,"all-detected table; subunit x timepoint cells 21, not listed 0; significant_up: none; significant_down (pointer): none"
+6 expected-negative 2 ctrl_natl2a_mit1002,fails if any N-import subunit significant_up,True,"can only fail (filtered table); subunit x timepoint cells 105, not listed 105; significant_up: none; significant_down (pointer): none"
+7 expected-negative 3: P regulon (pst + phn),a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: P regulon (pst + phn),a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: pst,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: pst,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: phn,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: phn,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: S (sul1 + sul3),a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: S (sul1 + sul3),a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: sul1,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: sul1,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: sul3,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: sul3,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: Fe (fut/idiA2),a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: Fe (fut/idiA2),a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: Mn/Zn (mnt + lraI system),a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: Mn/Zn (mnt + lraI system),a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: mnt,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: mnt,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: lraI system,a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: lraI system,a_half + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: bicarbonate (sbtA),a_any + b,False,a_any=False a_half=False b=False
+7 expected-negative 3: bicarbonate (sbtA),a_half + b,False,a_any=False a_half=False b=False
+8 N systems (a)/(b): amt1,a_any + b,False,a_any=False a_half=False b=True
+8 N systems (a)/(b): amt1,a_half + b,False,a_any=False a_half=False b=True
+8 N systems (a)/(b): urt,a_any + b,False,a_any=False a_half=False b=True
+8 N systems (a)/(b): urt,a_half + b,False,a_any=False a_half=False b=True
+8 N systems (a)/(b): cyn,a_any + b,False,a_any=False a_half=False b=False
+8 N systems (a)/(b): cyn,a_half + b,False,a_any=False a_half=False b=False
+8 N systems (a)/(b): dpp,a_any + b,False,a_any=False a_half=False b=False
+8 N systems (a)/(b): dpp,a_half + b,False,a_any=False a_half=False b=False

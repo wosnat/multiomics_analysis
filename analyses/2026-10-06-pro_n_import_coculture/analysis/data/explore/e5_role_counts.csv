@@ -1,0 +1,31 @@
+omics,role,genes,in_transporter_universe
+RNA,"B Biosynthesis of cofactors, prosthetic groups, and carriers",4,0
+RNA,D Cellular processes,10,2
+RNA,E Central intermediary metabolism,1,0
+RNA,G Energy metabolism,4,1
+RNA,"H Fatty acid, phospholipid and sterol metabolism",2,0
+RNA,J Photosynthesis and respiration,8,3
+RNA,K Protein synthesis,1,0
+RNA,L Protein fate,3,2
+RNA,"M Purines, pyrimidines, nucleosides, and nucleotides",1,0
+RNA,O Signal transduction,1,1
+RNA,R Other,13,0
+RNA,no Cyanorak role,12,2
+protein,A Amino acid biosynthesis,1,0
+protein,"B Biosynthesis of cofactors, prosthetic groups, and carriers",4,1
+protein,C Cell envelope,4,3
+protein,D Cellular processes,13,7
+protein,E Central intermediary metabolism,7,5
+protein,F DNA metabolism,2,0
+protein,G Energy metabolism,2,1
+protein,"H Fatty acid, phospholipid and sterol metabolism",2,1
+protein,J Photosynthesis and respiration,9,4
+protein,K Protein synthesis,1,0
+protein,L Protein fate,9,5
+protein,"M Purines, pyrimidines, nucleosides, and nucleotides",2,1
+protein,N Regulatory functions,1,1
+protein,O Signal transduction,1,1
+protein,P Transcription,1,0
+protein,Q Transport and binding proteins,14,14
+protein,R Other,17,0
+protein,no Cyanorak role,17,2

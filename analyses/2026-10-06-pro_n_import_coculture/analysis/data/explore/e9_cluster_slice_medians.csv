@@ -1,0 +1,267 @@
+analysis,cluster_id,block,slice,short_name,timepoint,n_members,n_detected,median_percentile
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,ax d14,anchor_axenic_protein,day 14,5.0,4,0.9957865168539325
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,ax d14,anchor_axenic_protein,day 14,16.0,9,0.9803370786516854
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,ax d14,anchor_axenic_protein,day 14,19.0,7,0.3834269662921348
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,ax d14,anchor_axenic_protein,day 14,86.0,71,0.7914325842696629
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,ax d14,anchor_axenic_protein,day 14,73.0,61,0.6882022471910112
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,ax d14,anchor_axenic_protein,day 14,124.0,112,0.3451544943820225
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,ax d14,anchor_axenic_protein,day 14,42.0,39,0.235252808988764
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,ax d14,anchor_axenic_protein,day 14,37.0,29,0.4304775280898876
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,ax d14,anchor_axenic_protein,day 14,8.0,7,0.4501404494382022
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,ax d31 (death),anchor_axenic_protein,day 31,5.0,4,0.7169943820224719
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,ax d31 (death),anchor_axenic_protein,day 31,16.0,9,0.946629213483146
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,ax d31 (death),anchor_axenic_protein,day 31,19.0,7,0.6264044943820224
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,ax d31 (death),anchor_axenic_protein,day 31,86.0,71,0.6678370786516854
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,ax d31 (death),anchor_axenic_protein,day 31,73.0,61,0.6186797752808989
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,ax d31 (death),anchor_axenic_protein,day 31,124.0,112,0.559691011235955
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,ax d31 (death),anchor_axenic_protein,day 31,42.0,39,0.5323033707865168
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,ax d31 (death),anchor_axenic_protein,day 31,37.0,29,0.5428370786516854
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,ax d31 (death),anchor_axenic_protein,day 31,8.0,7,0.264747191011236
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,ax d89 (death),anchor_axenic_protein,day 89,5.0,4,0.8068820224719101
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,ax d89 (death),anchor_axenic_protein,day 89,16.0,9,0.8742977528089888
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,ax d89 (death),anchor_axenic_protein,day 89,19.0,7,0.7991573033707865
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,ax d89 (death),anchor_axenic_protein,day 89,86.0,71,0.5955056179775281
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,ax d89 (death),anchor_axenic_protein,day 89,73.0,61,0.5969101123595506
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,ax d89 (death),anchor_axenic_protein,day 89,124.0,112,0.5775983146067416
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,ax d89 (death),anchor_axenic_protein,day 89,42.0,39,0.586376404494382
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,ax d89 (death),anchor_axenic_protein,day 89,37.0,29,0.5828651685393258
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,ax d89 (death),anchor_axenic_protein,day 89,8.0,7,0.2450842696629213
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,cc d18,anchor_cocult_protein,day 18,5.0,4,0.9968398876404495
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,cc d18,anchor_cocult_protein,day 18,16.0,9,0.9775280898876404
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,cc d18,anchor_cocult_protein,day 18,19.0,7,0.6931179775280899
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,cc d18,anchor_cocult_protein,day 18,86.0,71,0.8707865168539326
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,cc d18,anchor_cocult_protein,day 18,73.0,61,0.6762640449438202
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,cc d18,anchor_cocult_protein,day 18,124.0,112,0.2605337078651685
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,cc d18,anchor_cocult_protein,day 18,42.0,39,0.1193820224719101
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,cc d18,anchor_cocult_protein,day 18,37.0,29,0.3960674157303371
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,cc d18,anchor_cocult_protein,day 18,8.0,7,0.4080056179775281
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,cc d31,anchor_cocult_protein,day 31,5.0,4,0.9964887640449438
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,cc d31,anchor_cocult_protein,day 31,16.0,9,0.9810393258426966
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,cc d31,anchor_cocult_protein,day 31,19.0,7,0.4171348314606742
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,cc d31,anchor_cocult_protein,day 31,86.0,71,0.836376404494382
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,cc d31,anchor_cocult_protein,day 31,73.0,61,0.7078651685393258
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,cc d31,anchor_cocult_protein,day 31,124.0,112,0.3110955056179775
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,cc d31,anchor_cocult_protein,day 31,42.0,39,0.1320224719101124
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,cc d31,anchor_cocult_protein,day 31,37.0,29,0.2408707865168539
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,cc d31,anchor_cocult_protein,day 31,8.0,7,0.2008426966292135
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,cc d60,anchor_cocult_protein,day 60,5.0,4,0.9894662921348314
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,cc d60,anchor_cocult_protein,day 60,16.0,9,0.9311797752808988
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,cc d60,anchor_cocult_protein,day 60,19.0,7,0.6313202247191011
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,cc d60,anchor_cocult_protein,day 60,86.0,71,0.7338483146067416
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,cc d60,anchor_cocult_protein,day 60,73.0,61,0.5730337078651686
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,cc d60,anchor_cocult_protein,day 60,124.0,112,0.3697331460674157
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,cc d60,anchor_cocult_protein,day 60,42.0,39,0.3110955056179775
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,cc d60,anchor_cocult_protein,day 60,37.0,29,0.1882022471910112
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,cc d60,anchor_cocult_protein,day 60,8.0,7,0.6046348314606742
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,protein,cc d89,anchor_cocult_protein,day 89,5.0,4,0.9894662921348315
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,protein,cc d89,anchor_cocult_protein,day 89,16.0,9,0.910814606741573
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,protein,cc d89,anchor_cocult_protein,day 89,19.0,7,0.6839887640449438
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,protein,cc d89,anchor_cocult_protein,day 89,86.0,71,0.7155898876404494
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,protein,cc d89,anchor_cocult_protein,day 89,73.0,61,0.5976123595505618
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,protein,cc d89,anchor_cocult_protein,day 89,124.0,112,0.36481741573033705
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,protein,cc d89,anchor_cocult_protein,day 89,42.0,39,0.3532303370786517
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,protein,cc d89,anchor_cocult_protein,day 89,37.0,29,0.1453651685393258
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,protein,cc d89,anchor_cocult_protein,day 89,8.0,7,0.4957865168539326
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,RNA,ax d14,anchor_axenic_rna,day 14,5.0,5,0.9702541914548404
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,RNA,ax d14,anchor_axenic_rna,day 14,16.0,16,0.9853975121687398
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,RNA,ax d14,anchor_axenic_rna,day 14,19.0,15,0.9778258518117902
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,RNA,ax d14,anchor_axenic_rna,day 14,86.0,86,0.871281773931855
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,RNA,ax d14,anchor_axenic_rna,day 14,73.0,73,0.6349378042184965
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,RNA,ax d14,anchor_axenic_rna,day 14,124.0,124,0.13872363439697127
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,RNA,ax d14,anchor_axenic_rna,day 14,42.0,42,0.07544618712817736
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,RNA,ax d14,anchor_axenic_rna,day 14,37.0,37,0.0194699837750135
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,RNA,ax d14,anchor_axenic_rna,day 14,8.0,8,0.0343428880475932
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,RNA,cc d18,anchor_cocult_rna,day 18,5.0,5,0.2136289886425094
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,RNA,cc d18,anchor_cocult_rna,day 18,16.0,16,0.2939426717144402
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,RNA,cc d18,anchor_cocult_rna,day 18,19.0,15,0.1379123850730124
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,RNA,cc d18,anchor_cocult_rna,day 18,86.0,86,0.42076798269334775
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,RNA,cc d18,anchor_cocult_rna,day 18,73.0,73,0.411032990805841
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,RNA,cc d18,anchor_cocult_rna,day 18,124.0,124,0.5208220659816117
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,RNA,cc d18,anchor_cocult_rna,day 18,42.0,42,0.7809626825310978
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,RNA,cc d18,anchor_cocult_rna,day 18,37.0,37,0.1135749053542455
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,RNA,cc d18,anchor_cocult_rna,day 18,8.0,8,0.9034613304488912
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,RNA,cc d31,anchor_cocult_rna,day 31,5.0,5,0.1005949161709032
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,RNA,cc d31,anchor_cocult_rna,day 31,16.0,16,0.21335857220118976
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,RNA,cc d31,anchor_cocult_rna,day 31,19.0,15,0.7360735532720389
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,RNA,cc d31,anchor_cocult_rna,day 31,86.0,86,0.505137912385073
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,RNA,cc d31,anchor_cocult_rna,day 31,73.0,73,0.3158464034613304
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,RNA,cc d31,anchor_cocult_rna,day 31,124.0,124,0.47052460789616
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,RNA,cc d31,anchor_cocult_rna,day 31,42.0,42,0.5316387236343969
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,RNA,cc d31,anchor_cocult_rna,day 31,37.0,37,0.1633315305570578
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,RNA,cc d31,anchor_cocult_rna,day 31,8.0,8,0.32071389940508377
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,RNA,cc d60,anchor_cocult_rna,day 60,5.0,5,0.0281233098972417
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,RNA,cc d60,anchor_cocult_rna,day 60,16.0,16,0.28583017847485126
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,RNA,cc d60,anchor_cocult_rna,day 60,19.0,15,0.3650621957815035
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,RNA,cc d60,anchor_cocult_rna,day 60,86.0,86,0.4808004326663061
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,RNA,cc d60,anchor_cocult_rna,day 60,73.0,73,0.274202271498107
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,RNA,cc d60,anchor_cocult_rna,day 60,124.0,124,0.42752839372633855
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,RNA,cc d60,anchor_cocult_rna,day 60,42.0,42,0.3688480259599784
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,RNA,cc d60,anchor_cocult_rna,day 60,37.0,37,0.0984315846403461
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,RNA,cc d60,anchor_cocult_rna,day 60,8.0,8,0.09734991887506761
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,RNA,cc d89,anchor_cocult_rna,day 89,5.0,5,0.0697674418604651
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,RNA,cc d89,anchor_cocult_rna,day 89,16.0,16,0.2847485127095727
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,RNA,cc d89,anchor_cocult_rna,day 89,19.0,15,0.5424553812871822
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,RNA,cc d89,anchor_cocult_rna,day 89,86.0,86,0.4972958355868037
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,RNA,cc d89,anchor_cocult_rna,day 89,73.0,73,0.2909680908599242
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,RNA,cc d89,anchor_cocult_rna,day 89,124.0,124,0.5262303948080043
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,RNA,cc d89,anchor_cocult_rna,day 89,42.0,42,0.6030286641427798
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,RNA,cc d89,anchor_cocult_rna,day 89,37.0,37,0.1070849107625743
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,RNA,cc d89,anchor_cocult_rna,day 89,8.0,8,0.6884802595997837
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,5.0,5,0.9891833423472148
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,16.0,16,0.9881016765819362
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,19.0,15,0.9675500270416442
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,86.0,86,0.9134667387777178
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,73.0,73,0.7441860465116279
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,124.0,124,0.1433207138994051
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,42.0,42,0.09789075175770685
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,37.0,37,0.1492698756084369
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,8.0,8,0.23282855597620328
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,5.0,5,0.1049215792320172
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,16.0,16,0.06895619253650626
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,19.0,15,0.030827474310438
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,86.0,86,0.2393185505678745
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,73.0,73,0.4413196322336398
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,124.0,124,0.8493780421849648
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,42.0,42,0.9380746349378042
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,37.0,37,0.9740400216333152
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,8.0,8,0.9867495943753379
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,ax d14,anchor_axenic_protein,day 14,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,ax d14,anchor_axenic_protein,day 14,7.0,1,0.9845505617977528
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,ax d14,anchor_axenic_protein,day 14,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,ax d14,anchor_axenic_protein,day 14,59.0,20,0.5150983146067416
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,ax d14,anchor_axenic_protein,day 14,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,ax d14,anchor_axenic_protein,day 14,12.0,8,0.3732443820224719
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,ax d14,anchor_axenic_protein,day 14,2.0,1,0.988061797752809
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,ax d14,anchor_axenic_protein,day 14,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,ax d14,anchor_axenic_protein,day 14,27.0,5,0.3462078651685393
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,ax d31 (death),anchor_axenic_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,ax d31 (death),anchor_axenic_protein,day 31,7.0,1,0.949438202247191
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,ax d31 (death),anchor_axenic_protein,day 31,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,ax d31 (death),anchor_axenic_protein,day 31,59.0,20,0.5389747191011236
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,ax d31 (death),anchor_axenic_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,ax d31 (death),anchor_axenic_protein,day 31,12.0,8,0.10463483146067415
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,ax d31 (death),anchor_axenic_protein,day 31,2.0,1,0.6383426966292135
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,ax d31 (death),anchor_axenic_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,ax d31 (death),anchor_axenic_protein,day 31,27.0,5,0.5554775280898876
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,ax d89 (death),anchor_axenic_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,ax d89 (death),anchor_axenic_protein,day 89,7.0,1,0.9101123595505618
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,ax d89 (death),anchor_axenic_protein,day 89,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,ax d89 (death),anchor_axenic_protein,day 89,59.0,20,0.602879213483146
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,ax d89 (death),anchor_axenic_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,ax d89 (death),anchor_axenic_protein,day 89,12.0,8,0.0842696629213483
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,ax d89 (death),anchor_axenic_protein,day 89,2.0,1,0.7106741573033708
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,ax d89 (death),anchor_axenic_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,ax d89 (death),anchor_axenic_protein,day 89,27.0,5,0.684691011235955
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,cc d18,anchor_cocult_protein,day 18,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,cc d18,anchor_cocult_protein,day 18,7.0,1,0.9775280898876404
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,cc d18,anchor_cocult_protein,day 18,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,cc d18,anchor_cocult_protein,day 18,59.0,20,0.5617977528089888
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,cc d18,anchor_cocult_protein,day 18,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,cc d18,anchor_cocult_protein,day 18,12.0,8,0.3398876404494382
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,cc d18,anchor_cocult_protein,day 18,2.0,1,0.7837078651685393
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,cc d18,anchor_cocult_protein,day 18,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,cc d18,anchor_cocult_protein,day 18,27.0,5,0.2078651685393258
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,cc d31,anchor_cocult_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,cc d31,anchor_cocult_protein,day 31,7.0,1,0.9796348314606742
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,cc d31,anchor_cocult_protein,day 31,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,cc d31,anchor_cocult_protein,day 31,59.0,20,0.49122191011235955
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,cc d31,anchor_cocult_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,cc d31,anchor_cocult_protein,day 31,12.0,8,0.1808286516853933
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,cc d31,anchor_cocult_protein,day 31,2.0,1,0.473314606741573
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,cc d31,anchor_cocult_protein,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,cc d31,anchor_cocult_protein,day 31,27.0,5,0.0554775280898875
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,cc d60,anchor_cocult_protein,day 60,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,cc d60,anchor_cocult_protein,day 60,7.0,1,0.9929775280898876
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,cc d60,anchor_cocult_protein,day 60,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,cc d60,anchor_cocult_protein,day 60,59.0,20,0.7735252808988764
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,cc d60,anchor_cocult_protein,day 60,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,cc d60,anchor_cocult_protein,day 60,12.0,8,0.19838483146067415
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,cc d60,anchor_cocult_protein,day 60,2.0,1,0.571629213483146
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,cc d60,anchor_cocult_protein,day 60,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,cc d60,anchor_cocult_protein,day 60,27.0,5,0.0308988764044944
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,protein,cc d89,anchor_cocult_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,protein,cc d89,anchor_cocult_protein,day 89,7.0,1,0.990870786516854
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,protein,cc d89,anchor_cocult_protein,day 89,2.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,protein,cc d89,anchor_cocult_protein,day 89,59.0,20,0.7089185393258427
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,protein,cc d89,anchor_cocult_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,protein,cc d89,anchor_cocult_protein,day 89,12.0,8,0.2440308988764045
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,protein,cc d89,anchor_cocult_protein,day 89,2.0,1,0.2415730337078652
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,protein,cc d89,anchor_cocult_protein,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,protein,cc d89,anchor_cocult_protein,day 89,27.0,5,0.0323033707865169
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,RNA,ax d14,anchor_axenic_rna,day 14,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,RNA,ax d14,anchor_axenic_rna,day 14,7.0,5,0.6928069226608977
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,RNA,ax d14,anchor_axenic_rna,day 14,2.0,2,0.9299621416982153
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,RNA,ax d14,anchor_axenic_rna,day 14,59.0,39,0.7663601946998377
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,RNA,ax d14,anchor_axenic_rna,day 14,1.0,1,0.9881016765819362
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,RNA,ax d14,anchor_axenic_rna,day 14,12.0,12,0.07436452136289885
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,RNA,ax d14,anchor_axenic_rna,day 14,2.0,1,0.6149269875608436
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,RNA,ax d14,anchor_axenic_rna,day 14,1.0,1,0.9729583558680368
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,RNA,ax d14,anchor_axenic_rna,day 14,27.0,18,0.06462952947539205
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,RNA,cc d18,anchor_cocult_rna,day 18,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,RNA,cc d18,anchor_cocult_rna,day 18,7.0,5,0.9675500270416442
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,RNA,cc d18,anchor_cocult_rna,day 18,2.0,2,0.5067604110329909
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,RNA,cc d18,anchor_cocult_rna,day 18,59.0,39,0.7793401838831802
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,RNA,cc d18,anchor_cocult_rna,day 18,1.0,1,0.041103299080584
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,RNA,cc d18,anchor_cocult_rna,day 18,12.0,12,0.1246619794483504
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,RNA,cc d18,anchor_cocult_rna,day 18,2.0,1,0.452136289886425
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,RNA,cc d18,anchor_cocult_rna,day 18,1.0,1,0.958896700919416
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,RNA,cc d18,anchor_cocult_rna,day 18,27.0,18,0.13061114115738234
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,RNA,cc d31,anchor_cocult_rna,day 31,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,RNA,cc d31,anchor_cocult_rna,day 31,7.0,5,0.9724175229853976
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,RNA,cc d31,anchor_cocult_rna,day 31,2.0,2,0.5648999459167118
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,RNA,cc d31,anchor_cocult_rna,day 31,59.0,39,0.6041103299080584
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,RNA,cc d31,anchor_cocult_rna,day 31,1.0,1,0.2531097890751758
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,RNA,cc d31,anchor_cocult_rna,day 31,12.0,12,0.10762574364521355
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,RNA,cc d31,anchor_cocult_rna,day 31,2.0,1,0.1849648458626284
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,RNA,cc d31,anchor_cocult_rna,day 31,1.0,1,0.979448350459708
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,RNA,cc d31,anchor_cocult_rna,day 31,27.0,18,0.03975121687398585
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,RNA,cc d60,anchor_cocult_rna,day 60,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,RNA,cc d60,anchor_cocult_rna,day 60,7.0,5,0.9767441860465116
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,RNA,cc d60,anchor_cocult_rna,day 60,2.0,2,0.5054083288263926
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,RNA,cc d60,anchor_cocult_rna,day 60,59.0,39,0.7187669010275824
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,RNA,cc d60,anchor_cocult_rna,day 60,1.0,1,0.206598161168199
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,RNA,cc d60,anchor_cocult_rna,day 60,12.0,12,0.11060032449972955
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,RNA,cc d60,anchor_cocult_rna,day 60,2.0,1,0.1465657111952406
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,RNA,cc d60,anchor_cocult_rna,day 60,1.0,1,0.9864791779340184
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,RNA,cc d60,anchor_cocult_rna,day 60,27.0,18,0.07138994050838285
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,RNA,cc d89,anchor_cocult_rna,day 89,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,RNA,cc d89,anchor_cocult_rna,day 89,7.0,5,0.9599783666846944
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,RNA,cc d89,anchor_cocult_rna,day 89,2.0,2,0.5010816657652786
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,RNA,cc d89,anchor_cocult_rna,day 89,59.0,39,0.72796106003245
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,RNA,cc d89,anchor_cocult_rna,day 89,1.0,1,0.1027582477014602
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,RNA,cc d89,anchor_cocult_rna,day 89,12.0,12,0.06679286100594914
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,RNA,cc d89,anchor_cocult_rna,day 89,2.0,1,0.1335857220118983
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,RNA,cc d89,anchor_cocult_rna,day 89,1.0,1,0.979448350459708
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,RNA,cc d89,anchor_cocult_rna,day 89,27.0,18,0.083829096809086
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,7.0,5,0.7366143861546782
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,2.0,2,0.533802055164954
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,59.0,39,0.777176852352623
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,1.0,1,0.9821525148729042
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,12.0,12,0.3215251487290427
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,2.0,1,0.5965386695511087
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,1.0,1,0.6679286100594917
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,27.0,18,0.5032449972958356
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,1.0,0,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,7.0,5,0.5932936722552731
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,2.0,2,0.14629529475392106
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,59.0,39,0.3391022174148188
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,1.0,1,0.0135208220659815
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,12.0,12,0.9286100594916169
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,2.0,1,0.3396430502974581
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,1.0,1,0.0275824770146024
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,27.0,18,0.9226608977825852
+genome background,all genes,protein,ax d14,anchor_axenic_protein,day 14,,1424,0.5
+genome background,all genes,protein,ax d31 (death),anchor_axenic_protein,day 31,,1424,0.5
+genome background,all genes,protein,ax d89 (death),anchor_axenic_protein,day 89,,1424,0.5
+genome background,all genes,protein,cc d18,anchor_cocult_protein,day 18,,1424,0.5
+genome background,all genes,protein,cc d31,anchor_cocult_protein,day 31,,1424,0.5
+genome background,all genes,protein,cc d60,anchor_cocult_protein,day 60,,1424,0.5
+genome background,all genes,protein,cc d89,anchor_cocult_protein,day 89,,1424,0.5
+genome background,all genes,RNA,ax d14,anchor_axenic_rna,day 14,,1849,0.5
+genome background,all genes,RNA,cc d18,anchor_cocult_rna,day 18,,1849,0.5
+genome background,all genes,RNA,cc d31,anchor_cocult_rna,day 31,,1849,0.5
+genome background,all genes,RNA,cc d60,anchor_cocult_rna,day 60,,1849,0.5
+genome background,all genes,RNA,cc d89,anchor_cocult_rna,day 89,,1849,0.5
+genome background,all genes,direct contrast RNA,d11 (exp.),direct_contrast_rna,day 11,,1849,0.5
+genome background,all genes,direct contrast RNA,d18 (N-lim.),direct_contrast_rna,day 18,,1849,0.5

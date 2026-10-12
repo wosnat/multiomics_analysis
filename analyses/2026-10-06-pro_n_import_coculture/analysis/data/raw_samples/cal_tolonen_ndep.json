@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM0958",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "6h",
+  "timepoint_hours": 6.0,
+  "timepoint_order": 3,
+  "log2fc": 6.01862436906552,
+  "padj": 0.01,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "conserved hypothetical protein (DUF1830)",
+  "experiment_name": "MED4 Nitrogen deprivation (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Nitrogen deprivation (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0370",
+  "gene_name": "cynA",
+  "experiment_id": "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "6h",
+  "timepoint_hours": 6.0,
+  "timepoint_order": 3,
+  "log2fc": 5.7284866494887,
+  "padj": 0.01,
+  "rank": 2,
+  "rank_up": 2,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "cyanate ABC transporter, substrate-binding protein",
+  "experiment_name": "MED4 Nitrogen deprivation (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Nitrogen deprivation (MED4)",
+  "gene_category": "Central intermediary metabolism",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM1462",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "6h",
+  "timepoint_hours": 6.0,
+  "timepoint_order": 3,
+  "log2fc": 5.61782354744158,
+  "padj": 0.01,
+  "rank": 3,
+  "rank_up": 3,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 Nitrogen deprivation (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Nitrogen deprivation (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

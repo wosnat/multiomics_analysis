@@ -1,0 +1,50 @@
+locus_tag,gene_name,product,pct_d60,pct_d89,status_d60,status_d89,axenic_d14_status,axenic_d14_pct,in_transporter_universe,cyanorak_top_roles,gene_set_group,system_id,system_tier,system_members
+PMM0015,msrB,peptide methionine-R-sulfoxide reductase,0.9594375338020552,0.965386695511087,significant_up,significant_up,not_significant,0.6387236343969713,False,D Cellular processes|L Protein fate,,,,
+PMM0017,dnaJ1,DnaJ type I chaperone protein,0.946998377501352,0.9502433747971876,significant_up,significant_up,not_significant,0.5365062195781504,True,D Cellular processes|L Protein fate,,sys_PMM0017,Low,PMM0017:dnaJ1
+PMM0018,sirA,TusA-like domain-containing protein,0.9459167117360736,0.9718766901027582,significant_up,significant_up,not_significant,0.5127095727420228,False,D Cellular processes|R Other,,,,
+PMM0042,flv1,flavoprotein involved in Mehler reaction,0.914007571660357,0.9307733910221742,not_significant,significant_up,not_significant,0.3969713358572201,False,G Energy metabolism|J Photosynthesis and respiration,,,,
+PMM0043,flv3,flavoprotein involved in Mehler reaction,0.9789075175770688,0.9859383450513792,significant_up,significant_up,not_significant,0.3704705246078962,False,G Energy metabolism|J Photosynthesis and respiration,,,,
+PMM0093,hli,high light inducible protein,0.9253650621957816,0.9113034072471606,significant_up,not_significant,not_significant,0.3839913466738778,False,D Cellular processes|J Photosynthesis and respiration,,,,
+PMM0128,rpaA,two-component system response regulator RR class II (RRII)-CheY-OmpR,0.9004867495943754,0.9475392103839914,not_significant,significant_up,not_significant,0.4472687939426717,True,O Signal transduction,,sys_PMM0128,Low,PMM0128:rpaA
+PMM0135,plsX,glycerol-3-phosphate acyltransferase PlsX,0.9275283937263386,0.9167117360735532,significant_up,not_significant,significant_down,0.1389940508382909,False,"H Fatty acid, phospholipid and sterol metabolism",,,,
+PMM0280,diox1,"apocarotenoid-15,15^-oxygenase",0.9291508923742564,0.9442942130881558,significant_up,significant_up,significant_down,0.1936181719848566,False,"B Biosynthesis of cofactors, prosthetic groups, and carriers",,,,
+PMM0316,petF,2Fe-2S ferredoxin,0.903731746890211,0.9480800432666306,not_significant,significant_up,not_significant,0.4770146024878312,True,D Cellular processes|G Energy metabolism|J Photosynthesis and respiration,,sys_PMM0316,Low,PMM0316:petF
+PMM0380,,nuclear transport factor 2 (NTF2-like) superfamily protein,0.9464575446187128,0.961060032449973,significant_up,significant_up,not_significant,0.3363980530016225,False,R Other,,,,
+PMM0424,,conserved hypothetical protein,0.9805300162249864,0.9680908599242836,significant_up,significant_up,not_significant,0.3591130340724716,False,D Cellular processes|R Other,,,,
+PMM0547,csoS1D,carboxysome shell component,0.9361817198485668,0.9707950243374796,significant_up,significant_up,significant_down,0.1168199026500811,True,J Photosynthesis and respiration,,sys_PMM0547,Low,PMM0547:csoS1D
+PMM0549,csoS1A,carboxysome shell protein CsoS1A,0.9675500270416442,0.9864791779340184,significant_up,significant_up,significant_down,0.0221741481882098,True,J Photosynthesis and respiration,,sys_PMM0549,Low,PMM0549:csoS1A
+PMM0552,csoS2,carboxysome shell protein CsoS2,0.9491617090319092,0.981611681990265,not_significant,significant_up,significant_down,0.0081124932395889,False,J Photosynthesis and respiration,,,,
+PMM0553,csoSCA,carboxysomal carbonic anhydrase,0.9751216873985938,0.9848566792861004,significant_up,significant_up,significant_down,0.0508382909680908,False,J Photosynthesis and respiration,,,,
+PMM0561,,putative ABC multidrug efflux transporter,0.9351000540832882,0.9702541914548404,significant_up,significant_up,not_significant,0.374256354786371,True,no Cyanorak role,N broad: PMM0561 (PMM0561) [efflux],sys_PMM0561,High,PMM0561:
+PMM0658,rsuA,pseudouridine synthase,0.9578150351541374,0.9356408869659276,significant_up,not_significant,not_significant,0.7236343969713359,False,K Protein synthesis,,,,
+PMM0720,,conserved hypothetical protein,0.9107625743645212,0.9432125473228772,not_significant,not_significant,not_significant,0.8350459707950244,False,R Other,,,,
+PMM0743,ftsH2,photosystem II D1 repair protein FtsH2,0.9372633856138454,0.9767441860465116,significant_up,significant_up,not_significant,0.6376419686316928,True,L Protein fate,,sys_PMM0743,Low,PMM0743:ftsH2
+PMM0860,,possible Hantavirus glycoprotein G1,0.9870200108166576,0.9875608436992968,significant_up,significant_up,not_significant,0.5624661979448351,False,no Cyanorak role,,,,
+PMM0861,,conserved hypothetical protein,0.9989183342347214,1.0,significant_up,significant_up,not_significant,0.4937804218496484,False,R Other,,,,
+PMM0872,,uncharacterized conserved secreted protein,0.9480800432666306,0.9378042184964844,significant_up,significant_up,not_significant,0.6365603028664143,False,R Other,,,,
+PMM1019,,possible Integrin alpha cytoplasmic region,0.9415900486749594,0.9464575446187128,significant_up,significant_up,not_significant,0.746349378042185,False,no Cyanorak role,,,,
+PMM1052,sufE,sulfur acceptor for SufS cysteine desulfurase,0.9848566792861004,0.9670091941590048,significant_up,significant_up,not_significant,0.3856138453217955,False,D Cellular processes|E Central intermediary metabolism,,,,
+PMM1278,cpmA,circadian phase modifier CpmA,0.971335857220119,0.9545700378583016,significant_up,significant_up,not_significant,0.7431043807463493,False,D Cellular processes,,,,
+PMM1303,glcD2,alternative glycolate dehydrogenase GlcD2,0.9534883720930232,0.9280692266089778,significant_up,not_significant,not_significant,0.6506219578150352,False,G Energy metabolism,,,,
+PMM1340,purD,phosphoribosylamine--glycine ligase,0.979448350459708,0.9583558680367766,significant_up,significant_up,not_significant,0.7690643591130341,False,"M Purines, pyrimidines, nucleosides, and nucleotides",,,,
+PMM1357,,3-oxo-5-alpha-steroid 4-dehydrogenase C-terminal domain-containing protein,0.9172525689561926,0.9810708491076258,significant_up,significant_up,not_significant,0.5922120064899946,False,"H Fatty acid, phospholipid and sterol metabolism",,,,
+PMM1359,,"uncharacterized conserved membrane protein, DoxX family",0.957274202271498,0.9799891833423472,significant_up,significant_up,not_significant,0.2709572742022714,False,D Cellular processes|R Other,,,,
+PMM1360,,FAD binding domain of DNA photolyase,0.9502433747971876,0.9724175229853976,significant_up,significant_up,not_significant,0.7674418604651163,False,D Cellular processes,,,,
+PMM1361,,short-chain dehydrogenase/reductase (SDR) superfamily,0.9269875608436992,0.9556517036235804,significant_up,significant_up,not_significant,0.5143320713899405,True,no Cyanorak role,,sys_PMM1361,Low,PMM1361:
+PMM1365,,conserved hypothetical protein,0.9767441860465116,0.9599783666846944,significant_up,significant_up,not_significant,0.6928069226608977,False,R Other,,,,
+PMM1498,,radical SAM superfamily protein,0.973499188750676,0.9756625202812332,significant_up,significant_up,not_significant,0.6890210924824229,False,R Other,,,,
+PMM1505,APG1,2-methyl-6-phytylbenzoquinone methyltransferase,0.961060032449973,0.9594375338020552,significant_up,significant_up,not_significant,0.6051919956733369,False,"B Biosynthesis of cofactors, prosthetic groups, and carriers",,,,
+PMM1566,crtD,"C-3^,4^ desaturase",0.9442942130881558,0.9659275283937264,significant_up,significant_up,not_significant,0.7447268793942672,False,"B Biosynthesis of cofactors, prosthetic groups, and carriers",,,,
+PMM1676,ubiC,chorismate pyruvate-lyase,0.9204975662520282,0.9210383991346672,significant_up,not_significant,not_significant,0.6792861005949162,False,"B Biosynthesis of cofactors, prosthetic groups, and carriers",,,,
+PMM1830,,conserved hypothetical protein,0.997836668469443,0.9967550027041644,significant_up,significant_up,not_significant,0.5083829096809086,False,R Other,,,,
+PMM1831,,Conserved hypothetical protein,0.995673336938886,0.997836668469443,significant_up,significant_up,not_significant,0.6035694970254191,False,no Cyanorak role,,,,
+PMM1832,,Conserved hypothetical protein,0.9983775013520824,0.9945916711736074,significant_up,significant_up,not_significant,0.6414277988101676,False,no Cyanorak role,,,,
+PMM1840,,Conserved hypothetical protein,0.9745808545159546,0.9881016765819362,significant_up,significant_up,not_significant,0.5840995132504057,False,no Cyanorak role,,,,
+PMM1846,,conserved hypothetical protein (DUF4278),0.994050838290968,0.991887506760411,significant_up,significant_up,not_significant,0.5181179015684154,False,R Other,,,,
+PMM1854,,Conserved hypothetical protein,0.9318550567874526,0.9275283937263386,significant_up,not_significant,not_significant,0.3131422390481341,False,no Cyanorak role,,,,
+PMM1903,,Conserved hypothetical protein,0.9908058409951324,0.9394267171444024,significant_up,significant_up,not_significant,0.4629529475392103,False,no Cyanorak role,,,,
+PMM1911,,conserved hypothetical protein,0.9945916711736074,0.9935100054083288,significant_up,significant_up,not_significant,0.7533802055164954,False,R Other,,,,
+PMM1958,,uncharacterized conserved membrane protein,0.9540292049756626,0.9437533802055164,significant_up,significant_up,not_significant,0.5321795565170362,False,R Other,,,,
+PMM2034,,Hypothetical protein,0.9891833423472148,0.9156300703082748,significant_up,not_significant,significant_down,0.1763115197404002,False,no Cyanorak role,,,,
+TX50_RS09260,,DUF4278 domain-containing protein,0.9967550027041644,0.9908058409951324,significant_up,significant_up,significant_down,0.0562466197944835,False,no Cyanorak role,,,,
+TX50_RS09290,,hypothetical protein,0.9951325040562466,0.9989183342347214,significant_up,significant_up,not_significant,0.5608436992969172,False,no Cyanorak role,,,,

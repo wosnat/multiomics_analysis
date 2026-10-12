@@ -1,0 +1,51 @@
+group,locus_tag,gene_name,nitrite_pct,nitrite_status,urea_pct,urea_status,ndep24h_pct,ndep24h_status
+amt1,PMT1853,amt1,0.8464970995091476,not_significant,0.9687639446675592,not_significant,0.9941990182954038,significant_up
+urt,PMT2225,urtE,0.9571619812583668,not_significant,0.9665327978580992,significant_up,0.0316822846943328,not_significant
+urt,PMT2226,urtD,0.9754573850959392,not_significant,0.9870593485051316,significant_up,0.4024988844265953,not_significant
+urt,PMT2227,urtC,0.9821508255243196,not_significant,0.9924141008478358,significant_up,0.6091030789825971,not_significant
+urt,PMT2228,urtB,0.9924141008478358,significant_up,0.9928603302097276,significant_up,0.9692101740294512,significant_up
+urt,PMT2229,urtA,0.997322623828648,significant_up,0.997322623828648,significant_up,0.996876394466756,significant_up
+focA,PMT2240,focA,0.999553770638108,significant_up,0.999107541276216,significant_up,0.998215082552432,significant_up
+focA: linked nirA,PMT2239,nirA,0.998661311914324,significant_up,0.99776885319054,significant_up,0.998661311914324,significant_up
+dpp,PMT0266,dppC,0.4694332887103971,not_significant,0.1963409192324855,not_significant,0.429272646140116,not_significant
+dpp,PMT1145,dppA,0.8429272646140116,not_significant,0.4163319946452476,not_significant,0.7291387773315484,not_significant
+dpp,PMT1146,dppB,0.5452922802320392,not_significant,0.8232931726907631,not_significant,0.8402498884426595,not_significant
+dpp,PMT2110,ddpD,0.6193663543061134,not_significant,0.8326639892904953,not_significant,0.6220437304774654,not_significant
+natFGH + grrP,PMT0893,,0.8460508701472557,not_significant,0.4172244533690317,not_significant,0.4877286925479697,not_significant
+natFGH + grrP,PMT0894,natH,0.8955823293172691,not_significant,0.4600624721106648,not_significant,0.3003123605533244,not_significant
+natFGH + grrP,PMT0896,natG,0.2659526996876394,not_significant,0.5435073627844712,not_significant,0.2605979473449352,not_significant
+natFGH + grrP,PMT0897,natF,0.8371262829094155,not_significant,0.323516287371709,not_significant,0.6885319053993753,not_significant
+natFGH + grrP,PMT1517,grrP,0.8871039714413208,not_significant,0.0236501561802766,significant_down,0.4832663989290495,not_significant
+agcS,PMT0193,agcS,0.2909415439535922,not_significant,0.537260151717983,not_significant,0.355644801427934,not_significant
+proVWX,PMT0553,proV,0.932173136992414,not_significant,0.6211512717536813,not_significant,0.4051762605979473,not_significant
+proVWX,PMT0554,proW,0.8964747880410531,not_significant,0.5792057117358322,not_significant,0.2320392681838464,not_significant
+proVWX,PMT0555,proX,0.9147701918786256,not_significant,0.3900044622936189,not_significant,0.3471664435519856,not_significant
+proP,PMT1044,proP,0.5109326193663544,not_significant,0.9585006693440428,not_significant,0.8027666220437305,not_significant
+urease,PMT2230,ureG,0.9330655957161982,not_significant,0.5921463632307006,not_significant,0.7550200803212852,not_significant
+urease,PMT2231,ureF,0.4471218206157965,not_significant,0.5002231146809459,not_significant,0.4448906738063365,not_significant
+urease,PMT2232,ureE,0.464970995091477,not_significant,0.5613565372601517,not_significant,0.751896474788041,not_significant
+urease,PMT2233,ureD,0.7081659973226238,not_significant,0.5252119589468986,not_significant,0.1606425702811245,not_significant
+urease,PMT2234,ureA,0.9781347612672914,not_significant,0.6644355198572066,not_significant,0.8978134761267291,not_significant
+urease,PMT2235,ureB,0.965194109772423,not_significant,0.6662204373047746,not_significant,0.8366800535475234,not_significant
+urease,PMT2236,ureC,0.9486836233824184,not_significant,0.8295403837572513,not_significant,0.8424810352521196,not_significant
+markers,PMT0601,glnA,0.92904953145917,not_significant,0.0544399821508255,not_significant,0.9799196787148594,significant_up
+markers,PMT1831,ntcA,0.9937527889335118,significant_up,0.9598393574297188,not_significant,0.99776885319054,significant_up
+markers,PMT1481,glnB,0.003569834895136,significant_down,0.0116019634091922,significant_down,0.3882195448460509,not_significant
+markers,PMT0205,pipX,0.7344935296742525,not_significant,0.4551539491298527,not_significant,0.678714859437751,not_significant
+non-N: futB/futC/idiA2,PMT0287,idiA2,0.2454261490406069,not_significant,0.9745649263721552,significant_up,0.1642124051762605,not_significant
+non-N: futB/futC/idiA2,PMT0501,futC,0.7554663096831772,not_significant,0.9107541276215976,not_significant,0.3141454707719767,not_significant
+non-N: futB/futC/idiA2,PMT1287,futB,0.3288710397144132,not_significant,0.5261044176706827,not_significant,0.28826416778224,not_significant
+non-N: mntA/mntB/mntC,PMT0416,mntB,0.215975011155734,not_significant,0.7594823739402052,not_significant,0.6733601070950468,not_significant
+non-N: mntA/mntB/mntC,PMT0417,mntA,0.2896028558679161,not_significant,0.177599286033021,not_significant,0.0107095046854083,not_significant
+non-N: mntA/mntB/mntC,PMT0418,mntC,0.7590361445783133,not_significant,0.0611334225792057,not_significant,0.0321285140562248,not_significant
+non-N: pstA/pstB/pstC/pstS,PMT0508,pstS,0.8554216867469879,not_significant,0.4912985274431057,not_significant,0.9535921463632306,not_significant
+non-N: pstA/pstB/pstC/pstS,PMT0700,pstB,0.1026327532351628,not_significant,0.4368585452922802,not_significant,0.3311021865238732,not_significant
+non-N: pstA/pstB/pstC/pstS,PMT0701,pstA,0.2097278000892458,not_significant,0.6207050423917894,not_significant,0.4346273984828201,not_significant
+non-N: pstA/pstB/pstC/pstS,PMT0702,pstC,0.8090138331102187,not_significant,0.5975011155734047,not_significant,0.7626059794734493,not_significant
+non-N: pstA/pstB/pstC/pstS,PMT0993,pstS,0.9602855867916108,not_significant,0.3342257920571173,not_significant,0.9701026327532352,significant_up
+non-N: phnC/phnD/phnE,PMT0780,phnD,0.2132976349843819,not_significant,0.1847389558232931,not_significant,0.287371709058456,not_significant
+non-N: phnC/phnD/phnE,PMT0781,phnC,0.0276662204373048,not_significant,0.8054439982150825,not_significant,0.1267291387773315,not_significant
+non-N: phnC/phnD/phnE,PMT0782,phnE,0.429718875502008,not_significant,0.9611780455153948,not_significant,0.1186970102632752,not_significant
+non-N: sul1,PMT0899,sul1,0.0941543953592146,not_significant,0.0678268630075858,not_significant,0.2815707273538599,not_significant
+non-N: sbtA,PMT1213,sbtA,0.0343596608656849,not_significant,0.107987505577867,not_significant,0.1499330655957161,significant_down
+non-N: sul3,PMT1214,sul3,0.8719321731369924,not_significant,0.4127621597501115,not_significant,0.4087460954930835,not_significant

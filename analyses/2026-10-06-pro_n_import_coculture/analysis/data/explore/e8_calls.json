@@ -1,0 +1,110 @@
+[
+ {
+  "call": "list_experiments(3 MIT9313 Tolonen experiments, verbose)",
+  "n_calls": 1,
+  "total_matching": 3,
+  "returned": 3,
+  "limit": "None",
+  "natural_key": [
+   "experiment_id"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": true,
+  "params": {
+   "experiment_ids": [
+    "10.1038/msb4100087_growth_medium_growth_on_nitrite_as_mit9313_microarray",
+    "10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray",
+    "10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "differential_expression_by_gene(cal_tolonen_mit9313_nitrite, all rows, verbose)",
+  "n_calls": 1,
+  "total_matching": 2241,
+  "returned": 2241,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "experiment_id",
+   "timepoint"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "experiment_ids": [
+    "10.1038/msb4100087_growth_medium_growth_on_nitrite_as_mit9313_microarray"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "differential_expression_by_gene(cal_tolonen_mit9313_urea, all rows, verbose)",
+  "n_calls": 1,
+  "total_matching": 2241,
+  "returned": 2241,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "experiment_id",
+   "timepoint"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "experiment_ids": [
+    "10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray"
+   ],
+   "verbose": true
+  }
+ },
+ {
+  "call": "differential_expression_by_gene(cal_tolonen_mit9313_ndep, all rows, verbose)",
+  "n_calls": 1,
+  "total_matching": 13446,
+  "returned": 13446,
+  "limit": "None",
+  "natural_key": [
+   "locus_tag",
+   "experiment_id",
+   "timepoint"
+  ],
+  "duplicates_on_natural_key": 0,
+  "identical_duplicates_collapsed": 0,
+  "not_found": null,
+  "not_matched_n": 0,
+  "wrong_ontology": null,
+  "wrong_level": null,
+  "resolved_aliases": null,
+  "warnings": [],
+  "strict_inputs": false,
+  "params": {
+   "experiment_ids": [
+    "10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray"
+   ],
+   "verbose": true
+  }
+ }
+]

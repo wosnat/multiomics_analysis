@@ -1,0 +1,26 @@
+group,slice,n_members,n_detected,median_percentile
+c1+c2 N-starvation stimulon (up),ax d14,21,13,0.9838483146067416
+c1+c2 N-starvation stimulon (up),cc d18,21,13,0.9845505617977528
+c1+c2 N-starvation stimulon (up),cc d31,21,13,0.988061797752809
+c1+c2 N-starvation stimulon (up),cc d60,21,13,0.9838483146067416
+c1+c2 N-starvation stimulon (up),cc d89,21,13,0.9726123595505618
+c6 (down): Protein synthesis,ax d14,124,112,0.3451544943820225
+c6 (down): Protein synthesis,cc d18,124,112,0.2605337078651685
+c6 (down): Protein synthesis,cc d31,124,112,0.3110955056179775
+c6 (down): Protein synthesis,cc d60,124,112,0.3697331460674157
+c6 (down): Protein synthesis,cc d89,124,112,0.36481741573033705
+c7 (down): Protein synthesis,ax d14,42,39,0.235252808988764
+c7 (down): Protein synthesis,cc d18,42,39,0.1193820224719101
+c7 (down): Protein synthesis,cc d31,42,39,0.1320224719101124
+c7 (down): Protein synthesis,cc d60,42,39,0.3110955056179775
+c7 (down): Protein synthesis,cc d89,42,39,0.3532303370786517
+c8 (down): Photosynthesis and respiration,ax d14,37,29,0.4304775280898876
+c8 (down): Photosynthesis and respiration,cc d18,37,29,0.3960674157303371
+c8 (down): Photosynthesis and respiration,cc d31,37,29,0.2408707865168539
+c8 (down): Photosynthesis and respiration,cc d60,37,29,0.1882022471910112
+c8 (down): Photosynthesis and respiration,cc d89,37,29,0.1453651685393258
+c9 (down): Photosynthesis and respiration,ax d14,8,7,0.4501404494382022
+c9 (down): Photosynthesis and respiration,cc d18,8,7,0.4080056179775281
+c9 (down): Photosynthesis and respiration,cc d31,8,7,0.2008426966292135
+c9 (down): Photosynthesis and respiration,cc d60,8,7,0.6046348314606742
+c9 (down): Photosynthesis and respiration,cc d89,8,7,0.4957865168539326

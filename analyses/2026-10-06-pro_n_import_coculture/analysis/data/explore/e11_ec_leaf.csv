@@ -1,0 +1,98 @@
+locus_tag,term_id,term_name,level,is_informative,evidence
+PMM0040,ec:3.4.16.4,serine-type D-Ala-D-Ala carboxypeptidase,3,True,curated
+PMM0068,ec:3.5.1.88,peptide deformylase,3,True,curated
+PMM0090,ec:3.4.21.-,Serine endopeptidases,2,True,curated
+PMM0222,ec:3.5.1.15,aspartoacylase,3,True,curated
+PMM0226,ec:3.4.24.-,Metalloendopeptidases,2,True,curated
+PMM0244,ec:3.5.4.13,dCTP deaminase,3,True,curated
+PMM0257,ec:3.5.1.42,nicotinamide-nucleotide amidase,3,True,curated
+PMM0266,ec:2.1.2.3,phosphoribosylaminoimidazolecarboxamide formyltransferase,3,True,curated
+PMM0266,ec:3.5.4.10,IMP cyclohydrolase,3,True,curated
+PMM0324,ec:3.4.21.102,C-terminal processing peptidase,3,True,family_inferred
+PMM0332,ec:3.4.21.105,rhomboid protease,3,True,curated
+PMM0352,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0356,ec:3.4.11.5,prolyl aminopeptidase,3,True,curated
+PMM0357,ec:3.5.99.2,aminopyrimidine aminohydrolase,3,True,curated
+PMM0427,ec:2.4.1.-,Hexosyltransferases,2,True,curated
+PMM0427,ec:2.4.99.28,peptidoglycan glycosyltransferase,3,True,family_inferred
+PMM0427,ec:3.4.16.4,serine-type D-Ala-D-Ala carboxypeptidase,3,True,family_inferred
+PMM0455,ec:3.4.16.-,Serine-type carboxypeptidases,2,True,family_inferred
+PMM0455,ec:3.4.17.13,muramoyltetrapeptide carboxypeptidase,3,True,curated
+PMM0477,ec:3.4.11.18,methionyl aminopeptidase,3,True,curated
+PMM0493,ec:3.4.17.19,carboxypeptidase Taq,3,True,curated
+PMM0513,ec:3.4.21.89,signal peptidase I,3,True,curated
+PMM0514,ec:3.5.2.3,dihydroorotase,3,True,curated
+PMM0516,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0518,ec:2.4.99.28,peptidoglycan glycosyltransferase,3,True,curated
+PMM0518,ec:3.4.16.4,serine-type D-Ala-D-Ala carboxypeptidase,3,True,curated
+PMM0531,ec:3.5.2.10,creatininase,3,True,curated
+PMM0536,ec:3.5.4.16,GTP cyclohydrolase I,3,True,curated
+PMM0558,ec:3.5.99.10,2-iminobutanoate/2-iminopropanoate deaminase,3,True,family_inferred
+PMM0569,ec:3.5.2.3,dihydroorotase,3,True,curated
+PMM0578,ec:3.5.4.19,phosphoribosyl-AMP cyclohydrolase,3,True,curated
+PMM0578,ec:3.6.1.31,phosphoribosyl-ATP diphosphatase,3,True,curated
+PMM0593,ec:3.4.24.70,oligopeptidase A,3,True,curated
+PMM0606,ec:3.4.21.89,signal peptidase I,3,True,curated
+PMM0615,ec:3.5.1.128,deaminated glutathione amidase,3,True,curated
+PMM0616,ec:3.5.1.28,N-acetylmuramoyl-L-alanine amidase,3,True,curated
+PMM0677,ec:3.4.21.102,C-terminal processing peptidase,3,True,curated
+PMM0695,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0695,ec:6.3.5.2,GMP synthase (glutamine-hydrolyzing),3,True,family_inferred
+PMM0742,ec:3.4.21.92,endopeptidase Clp,3,True,curated
+PMM0743,ec:3.4.24.-,Metalloendopeptidases,2,True,curated
+PMM0745,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0746,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0757,ec:3.4.13.22,D-Ala-D-Ala dipeptidase,3,True,curated
+PMM0761,ec:3.4.16.4,serine-type D-Ala-D-Ala carboxypeptidase,3,True,curated
+PMM0761,ec:3.4.17.14,zinc D-Ala-D-Ala carboxypeptidase,3,True,curated
+PMM0780,ec:3.5.1.2,glutaminase,3,True,curated
+PMM0780,ec:6.3.5.3,phosphoribosylformylglycinamidine synthase,3,True,curated
+PMM0821,ec:3.5.1.1,asparaginase,3,True,curated
+PMM0842,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0843,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM0854,ec:3.4.24.-,Metalloendopeptidases,2,True,curated
+PMM0885,ec:3.4.16.4,serine-type D-Ala-D-Ala carboxypeptidase,3,True,curated
+PMM0885,ec:3.4.21.-,Serine endopeptidases,2,True,curated
+PMM0893,ec:3.5.4.25,GTP cyclohydrolase II,3,True,curated
+PMM0893,ec:4.1.99.12,"3,4-dihydroxy-2-butanone-4-phosphate synthase",3,True,curated
+PMM0908,ec:4.3.1.19,threonine ammonia-lyase,3,True,curated
+PMM0915,ec:3.4.23.36,signal peptidase II,3,True,curated
+PMM0918,ec:3.5.4.33,tRNA(adenine(34)) deaminase,3,True,family_inferred
+PMM0936,ec:2.7.7.7,DNA-directed DNA polymerase,3,True,curated
+PMM0936,ec:3.4.21.88,repressor LexA,3,True,family_inferred
+PMM0963,ec:3.5.1.5,urease,3,True,curated
+PMM0964,ec:3.5.1.5,urease,3,True,curated
+PMM0965,ec:3.5.1.5,urease,3,True,curated
+PMM0993,ec:3.4.11.2,membrane alanyl aminopeptidase,3,True,family_inferred
+PMM0993,ec:3.4.13.21,dipeptidase E,3,True,curated
+PMM1002,ec:3.4.11.2,membrane alanyl aminopeptidase,3,True,curated
+PMM1069,ec:1.5.1.5,methylenetetrahydrofolate dehydrogenase (NADP(+)),3,True,family_inferred
+PMM1069,ec:3.5.4.9,methenyltetrahydrofolate cyclohydrolase,3,True,curated
+PMM1180,ec:3.4.21.-,Serine endopeptidases,2,True,curated
+PMM1189,ec:3.4.24.-,Metalloendopeptidases,2,True,curated
+PMM1262,ec:3.4.21.88,repressor LexA,3,True,curated
+PMM1264,ec:3.4.24.-,Metalloendopeptidases,2,True,curated
+PMM1265,ec:1.1.1.193,5-amino-6-(5-phosphoribosylamino)uracil reductase,3,True,curated
+PMM1265,ec:3.5.4.26,diaminohydroxyphosphoribosylaminopyrimidine deaminase,3,True,curated
+PMM1295,ec:3.4.21.89,signal peptidase I,3,True,curated
+PMM1304,ec:3.5.4.1,cytosine deaminase,3,True,curated
+PMM1304,ec:3.5.4.21,creatinine deaminase,3,True,curated
+PMM1313,ec:3.4.21.92,endopeptidase Clp,3,True,curated
+PMM1314,ec:3.4.21.92,endopeptidase Clp,3,True,curated
+PMM1332,ec:3.4.11.1,leucyl aminopeptidase,3,True,curated
+PMM1337,ec:3.5.1.108,UDP-3-O-acyl-N-acetylglucosamine deacetylase,3,True,curated
+PMM1381,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1425,ec:3.4.21.-,Serine endopeptidases,2,True,curated
+PMM1442,ec:3.4.11.9,Xaa-Pro aminopeptidase,3,True,curated
+PMM1490,ec:3.4.21.-,Serine endopeptidases,2,True,family_inferred
+PMM1506,ec:3.4.21.53,endopeptidase La,3,True,curated
+PMM1517,ec:3.5.2.6,beta-lactamase,3,True,family_inferred
+PMM1518,ec:3.4.-.-,Acting on peptide bonds (peptidases),1,True,curated
+PMM1613,ec:3.5.1.47,N-acetyldiaminopimelate deacetylase,3,True,family_inferred
+PMM1656,ec:3.4.21.92,endopeptidase Clp,3,True,curated
+PMM1657,ec:3.4.21.92,endopeptidase Clp,3,True,curated
+PMM1677,ec:3.4.24.-,Metalloendopeptidases,2,True,family_inferred
+PMM1686,ec:3.5.3.11,agmatinase,3,True,curated
+PMM1702,ec:3.5.1.10,formyltetrahydrofolate deformylase,3,True,curated
+PMM1716,ec:4.2.3.1,threonine synthase,3,True,curated
+PMM1716,ec:4.3.1.-,Ammonia-lyases,2,True,family_inferred

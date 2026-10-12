@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM0362",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light",
+  "treatment_type": [
+   "iron"
+  ],
+  "timepoint": "24h",
+  "timepoint_hours": 24.0,
+  "timepoint_order": 2,
+  "log2fc": 2.65,
+  "padj": 0.01,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "uncharacterized conserved membrane protein",
+  "experiment_name": "MED4 Iron starvation (MED4) vs Iron-replete control (MED4) (MICROARRAY)",
+  "treatment": "Iron starvation (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM1885",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light",
+  "treatment_type": [
+   "iron"
+  ],
+  "timepoint": "12h",
+  "timepoint_hours": 12.0,
+  "timepoint_order": 1,
+  "log2fc": -2.28,
+  "padj": 0.01,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "acute_stress",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 Iron starvation (MED4) vs Iron-replete control (MED4) (MICROARRAY)",
+  "treatment": "Iron starvation (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0805",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light",
+  "treatment_type": [
+   "iron"
+  ],
+  "timepoint": "24h",
+  "timepoint_hours": 24.0,
+  "timepoint_order": 2,
+  "log2fc": 1.8,
+  "padj": 0.01,
+  "rank": 2,
+  "rank_up": 2,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "acute_stress",
+  "product": "iron stress-induced protein, Prochlorococcus-specific",
+  "experiment_name": "MED4 Iron starvation (MED4) vs Iron-replete control (MED4) (MICROARRAY)",
+  "treatment": "Iron starvation (MED4)",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

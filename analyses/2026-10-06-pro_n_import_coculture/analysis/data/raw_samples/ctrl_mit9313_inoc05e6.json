@@ -1,0 +1,89 @@
+[
+ {
+  "locus_tag": "PMT1206",
+  "gene_name": "csoS1A",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_05e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -14.13578943,
+  "padj": 1.0,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "carboxysome shell protein CsoS1A",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Photosynthesis",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT0228",
+  "gene_name": "yidD",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_05e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -13.72077865,
+  "padj": 1.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "inner membrane protein insertion factor",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Post-translational modification",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT1494",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_05e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -12.66644594,
+  "padj": 0.0,
+  "rank": 3,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ }
+]

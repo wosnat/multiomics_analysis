@@ -1,0 +1,31 @@
+slice,group,n_both,spearman_rho
+ax d14,all genes,1424,0.2302994772457053
+ax d14,N regulon (markers + dedicated N + linked),25,0.41692307692307695
+ax d14,N broad listing systems,17,0.24509803921568632
+ax d14,non-N reference systems,17,0.15441176470588236
+ax d14,ribosomal proteins,52,-0.11474430120379064
+ax d14,significantly up in protein,40,0.43789868667917453
+cc d18,all genes,1424,-0.07791516245112294
+cc d18,N regulon (markers + dedicated N + linked),25,-0.25461538461538463
+cc d18,N broad listing systems,17,-0.11029411764705883
+cc d18,non-N reference systems,17,-0.3137254901960785
+cc d18,ribosomal proteins,52,0.25851617860496884
+cc d18,significantly up in protein,35,-0.04761904761904762
+cc d31,all genes,1424,0.10014876409481305
+cc d31,N regulon (markers + dedicated N + linked),25,-0.10307692307692308
+cc d31,N broad listing systems,17,0.18627450980392157
+cc d31,non-N reference systems,17,0.014705882352941176
+cc d31,ribosomal proteins,52,0.02492956544010928
+cc d31,significantly up in protein,111,-0.00279045279045279
+cc d60,all genes,1424,0.17818469548199728
+cc d60,N regulon (markers + dedicated N + linked),25,-0.18461538461538463
+cc d60,N broad listing systems,17,0.3823529411764707
+cc d60,non-N reference systems,17,-0.4607843137254902
+cc d60,ribosomal proteins,52,-0.2705540852044736
+cc d60,significantly up in protein,145,-0.02924342623208943
+cc d89,all genes,1424,0.20880882336440326
+cc d89,N regulon (markers + dedicated N + linked),25,0.1523076923076923
+cc d89,N broad listing systems,17,0.465686274509804
+cc d89,non-N reference systems,17,0.10049019607843139
+cc d89,ribosomal proteins,52,0.07256894049346879
+cc d89,significantly up in protein,161,-0.0032349896480331265

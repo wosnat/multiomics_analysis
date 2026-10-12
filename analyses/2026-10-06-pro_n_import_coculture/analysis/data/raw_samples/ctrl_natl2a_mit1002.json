@@ -1,0 +1,89 @@
+[
+ {
+  "locus_tag": "PMN2A_0476",
+  "gene_name": "PMN2A_RS05400",
+  "experiment_id": "10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "12h",
+  "timepoint_hours": 12.0,
+  "timepoint_order": 5,
+  "log2fc": -1.862,
+  "padj": 0.1,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "NATL2A Co-culture with Alteromonas macleodii MIT1002 vs Axenic Prochlorococcus NATL2A (RNASEQ)",
+  "treatment": "Co-culture with Alteromonas macleodii MIT1002",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii MIT1002",
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMN2A_0476",
+  "gene_name": "PMN2A_RS05400",
+  "experiment_id": "10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "48h",
+  "timepoint_hours": 48.0,
+  "timepoint_order": 7,
+  "log2fc": -1.579,
+  "padj": 0.1,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "NATL2A Co-culture with Alteromonas macleodii MIT1002 vs Axenic Prochlorococcus NATL2A (RNASEQ)",
+  "treatment": "Co-culture with Alteromonas macleodii MIT1002",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii MIT1002",
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMN2A_0592",
+  "gene_name": "PMN2A_RS06075",
+  "experiment_id": "10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "24h",
+  "timepoint_hours": 24.0,
+  "timepoint_order": 6,
+  "log2fc": -1.465,
+  "padj": 0.1,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "NATL2A Co-culture with Alteromonas macleodii MIT1002 vs Axenic Prochlorococcus NATL2A (RNASEQ)",
+  "treatment": "Co-culture with Alteromonas macleodii MIT1002",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii MIT1002",
+  "table_scope": "significant_any_timepoint",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ }
+]

@@ -1,0 +1,89 @@
+[
+ {
+  "locus_tag": "PMT0992",
+  "gene_name": "hli",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_5e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -12.16773174,
+  "padj": 0.0,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "high light inducible protein",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT_0166",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_5e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -11.28828934,
+  "padj": 1.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "hypothetical protein",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Unknown",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT0562",
+  "gene_name": null,
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_5e6",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -11.16804527,
+  "padj": 1.0,
+  "rank": 3,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "NADH:ubiquinone oxidoreductase complex I intermediate-associated CIA30-like protein",
+  "experiment_name": "MIT9313 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Carbohydrate metabolism",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ }
+]

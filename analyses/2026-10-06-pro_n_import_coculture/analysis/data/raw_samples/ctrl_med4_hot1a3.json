@@ -1,0 +1,89 @@
+[
+ {
+  "locus_tag": "PMM1110",
+  "gene_name": "colA",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -15.38872366,
+  "padj": 0.0,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "bolA-like family protein",
+  "experiment_name": "MED4 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Cellular processes",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0910",
+  "gene_name": "ylmG1",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -14.59228183,
+  "padj": 0.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": 2,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "cell division membrane protein YlmG1 (factor involved in shape determination)",
+  "experiment_name": "MED4 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Cell cycle and division",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0471",
+  "gene_name": "hli",
+  "experiment_id": "10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq",
+  "treatment_type": [
+   "coculture"
+  ],
+  "timepoint": "20h",
+  "timepoint_hours": 20.0,
+  "timepoint_order": 1,
+  "log2fc": -14.44482078,
+  "padj": 0.0,
+  "rank": 3,
+  "rank_up": null,
+  "rank_down": 3,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "high light inducible protein",
+  "experiment_name": "MED4 Coculture with Alteromonas HOT1A3 vs Pro99 medium growth conditions (RNASEQ)",
+  "treatment": "Coculture with Alteromonas HOT1A3",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "RNASEQ",
+  "coculture_partner": "Alteromonas macleodii HOT1A3",
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "light"
+  ]
+ }
+]

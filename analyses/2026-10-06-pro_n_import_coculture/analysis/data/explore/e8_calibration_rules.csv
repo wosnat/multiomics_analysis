@@ -1,0 +1,7 @@
+rule,value,result,note
+focA median percentile on nitrite >= 0.90,0.999553770638108,True,descriptive only; MED4-style calibration rules applied to MIT9313; no gate
+urt median percentile on urea >= 0.90,0.9924141008478358,True,descriptive only; MED4-style calibration rules applied to MIT9313; no gate
+focA(nitrite) - focA(urea) >= 0.10,0.00044622936189198104,False,descriptive only; MED4-style calibration rules applied to MIT9313; no gate
+urt(urea) - urt(nitrite) >= 0.10,0.010263275323516119,False,descriptive only; MED4-style calibration rules applied to MIT9313; no gate
+context: nirA PMT2239 percentile nitrite / urea,0.998661311914324,0.99776885319054,descriptive only; MED4-style calibration rules applied to MIT9313; no gate
+context: urease median percentile urea / nitrite,0.5921463632307006,0.9330655957161982,descriptive only; MED4-style calibration rules applied to MIT9313; no gate

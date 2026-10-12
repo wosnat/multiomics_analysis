@@ -1,0 +1,47 @@
+analysis,cluster_id,cluster_name,member_count,rows_returned,count_in_name,rows_eq_member_count,name_count_differs,kg_functional_description
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:1,Prochlorococcus MED4 cluster 1 (1 genes),1,1,1.0,True,False,"Contains the gene Yfr2-5_1, a small non-coding RNA potentially involved in regulatory functions during iron stress."
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:13,Prochlorococcus MED4 cluster 13 (7 genes),7,7,7.0,True,False,Enriched for ABC transporter genes involved in transport functions under iron stress.
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:16,Prochlorococcus MED4 cluster 16 (4 genes),2,2,4.0,True,True,"Contains small non-coding RNAs Yfr2 and Yfr4, suggesting a regulatory role in iron stress response."
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:19,Prochlorococcus MED4 cluster 19 (63 genes),59,59,63.0,True,True,"Enriched for iron stress response genes including bcp, sigA/rpoD, crp, hli, iraI, idiA, isiB, and several small RNAs, indicating a coordinated iron stress regulon."
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:22,Prochlorococcus MED4 cluster 22 (1 genes),1,1,1.0,True,False,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:3,Prochlorococcus MED4 cluster 3 (15 genes),12,12,15.0,True,True,Contains hli genes and other genes related to photosystem components and stress response.
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:4,Prochlorococcus MED4 cluster 4 (1 genes),0,0,1.0,True,True,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:6,Prochlorococcus MED4 cluster 6 (2 genes),2,2,2.0,True,False,"Contains petF, encoding ferredoxin, an iron-requiring electron transfer protein downregulated during iron stress."
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:7,Prochlorococcus MED4 cluster 7 (1 genes),1,1,1.0,True,False,
+med4_Fe,cluster:ismej.2011.49:med4_iron_response_clusters:9,Prochlorococcus MED4 cluster 9 (30 genes),27,27,30.0,True,True,"Includes genes involved in sulfur metabolism (cysD), heme synthesis (hemA), dehydrogenases, and several small RNAs, indicating diverse metabolic functions during iron stress."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:1,Prochlorococcus MED4 cluster 1 (5 genes),5,5,5.0,True,False,Contains nitrogen transport genes such as urtA and cynA. Enriched for transport and binding category.
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:2,Prochlorococcus MED4 cluster 2 (16 genes),16,16,16.0,True,False,Contains the rapidly-responding subset of hli genes (including hli10) and ntcA. The most highly upregulated hli genes have the strongest NtcA binding sites.
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:3,Prochlorococcus MED4 cluster 3 (19 genes),19,19,19.0,True,False,Contains a subset of hli genes that respond later and to a lesser degree than cluster 2. Also includes genes involved in regulation.
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:4,Prochlorococcus MED4 cluster 4 (86 genes),86,86,86.0,True,False,"Enriched for amino acid synthesis genes and genes involved in carbon metabolism such as zwf, tal, and acnB. Includes genes for the oxidative pentose phosphate pathway and 2-oxoglutarate synthesis."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:5,Prochlorococcus MED4 cluster 5 (73 genes),73,73,73.0,True,False,"Contains two rpoD-like sigma factors that are upregulated during nitrogen stress, indicating transcriptional regulation. Also contains icd (per Table III)."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:6,Prochlorococcus MED4 cluster 6 (124 genes),124,124,124.0,True,False,"Enriched for translation-related genes, strongly downregulated during nitrogen starvation, indicating repression of protein synthesis machinery."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:7,Prochlorococcus MED4 cluster 7 (42 genes),42,42,42.0,True,False,"Enriched for translation genes, strongly downregulated during nitrogen starvation, indicating repression of protein synthesis."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:8,Prochlorococcus MED4 cluster 8 (37 genes),37,37,37.0,True,False,"Enriched for photosynthesis and respiration genes, including photosystem I genes (psaBDEIJKLM). Strongly downregulated during nitrogen starvation."
+med4_N,cluster:msb4100087:med4_kmeans_nstarvation:9,Prochlorococcus MED4 cluster 9 (8 genes),8,8,8.0,True,False,"Enriched for photosynthesis and respiration genes, including ATP synthase subunits and carbon fixation genes (rbcLS). Strongly downregulated during nitrogen starvation."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:1,MIT9313 cluster 1 (2 genes),1,1,2.0,True,True,Contains two genes including the non-coding RNA Yfr2-5_1. Specific gene functions are not detailed in the paper for this cluster.
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:10,MIT9313 cluster 10 (1 genes),1,1,1.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:13,MIT9313 cluster 13 (6 genes),6,6,6.0,True,False,Enriched for ABC transporter genes. Contains six genes including components of transport systems.
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:14,MIT9313 cluster 14 (4 genes),4,4,4.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:16,MIT9313 cluster 16 (2 genes),1,1,2.0,True,True,"Contains sRNAs Yfr2 and Yfr4, which are small non-coding RNAs differentially expressed under iron stress."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:17,MIT9313 cluster 17 (10 genes),9,9,10.0,True,True,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:18,MIT9313 cluster 18 (4 genes),4,4,4.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:19,MIT9313 cluster 19 (2 genes),1,1,2.0,True,True,"Enriched for genes including bcp, sigA/rpoD, crp, hli, iraI, idiA, isiB, and antisense RNAs. Includes iron stress response genes such as idiA and isiB."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:2,MIT9313 cluster 2 (10 genes),8,8,10.0,True,True,"Contains genes including coaD and a possible porin, involved in transport functions."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:20,MIT9313 cluster 20 (1 genes),1,1,1.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:23,MIT9313 cluster 23 (2 genes),2,2,2.0,True,False,"Contains ferritin genes involved in iron storage, differentially expressed in MIT9313 during iron stress."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:26,MIT9313 cluster 26 (2 genes),2,2,2.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:27,MIT9313 cluster 27 (2 genes),2,2,2.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:3,MIT9313 cluster 3 (12 genes),9,9,12.0,True,True,Contains hli genes involved in protection of photosystems from oxidative damage during iron stress.
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:30,MIT9313 cluster 30 (11 genes),10,10,11.0,True,True,"Includes petF (ferredoxin), rimI, gmk, cytochrome b6/f subunit VII, maf-like, and nitrogen transport genes, involved in electron transfer and transport."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:35,MIT9313 cluster 35 (6 genes),3,3,6.0,True,True,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:38,MIT9313 cluster 38 (6 genes),5,5,6.0,True,True,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:39,MIT9313 cluster 39 (1 genes),1,1,1.0,True,False,
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:4,MIT9313 cluster 4 (24 genes),24,24,24.0,True,False,"Contains genes including glyQ, piuC, idiA, pcbB, and isiB, involved in iron transport and stress response."
+mit9313_Fe,cluster:ismej.2011.49:mit9313_iron_response_clusters:8,MIT9313 cluster 8 (3 genes),3,3,3.0,True,False,
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:1,MIT9313 cluster 1 (transport and binding),7,7,,True,,"Contains nitrogen transport genes such as urtA and the nitrite permease. Also contains the rapidly-responding subset of hli genes (hliS, hli7). Enriched for transport and binding category (P=0.04)."
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:2,MIT9313 cluster 2 (regulation),36,36,,True,,Contains two upregulated sigma factors and the later-responding subset of hli genes. Enriched for regulation category (P=0.03).
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:3,MIT9313 cluster 3 (regulation),131,131,,True,,
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:4,MIT9313 cluster 4 (not discussed),139,139,,True,,"Contains genes linking nitrogen and carbon metabolism such as glnB, icd, acnB, and rbcLS. Genes were unchanged until repressed only at the final time point, reflecting general transcriptional shutdown rather than specific nitrogen stress response."
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:5,MIT9313 cluster 5,113,113,,True,,
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:6,MIT9313 cluster 6 (photosynthesis and respiration),81,81,,True,,Enriched for photosynthesis and respiration genes including photosystem I and II components and the phycoerythrin gene cpeB.
+mit9313_N,cluster:msb4100087:mit9313_kmeans_nstarvation:7,MIT9313 cluster 7,51,51,,True,,

@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMT_0990",
+  "gene_name": "hli",
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 7.14642005183346,
+  "padj": 0.01,
+  "rank": 1,
+  "rank_up": 1,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "exponential",
+  "product": "high light inducible protein",
+  "experiment_name": "MIT9313 Growth on urea as sole N source (MIT9313) vs N-replete Pro99 medium (MIT9313) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MIT9313)",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT0992",
+  "gene_name": "hli",
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 6.53589569152699,
+  "padj": 0.01,
+  "rank": 2,
+  "rank_up": 2,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "exponential",
+  "product": "high light inducible protein",
+  "experiment_name": "MIT9313 Growth on urea as sole N source (MIT9313) vs N-replete Pro99 medium (MIT9313) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MIT9313)",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMT2240",
+  "gene_name": "focA",
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 5.99328757407543,
+  "padj": 0.01,
+  "rank": 3,
+  "rank_up": 3,
+  "rank_down": null,
+  "expression_status": "significant_up",
+  "growth_phase": "exponential",
+  "product": "nitrite transporter, FNT family",
+  "experiment_name": "MIT9313 Growth on urea as sole N source (MIT9313) vs N-replete Pro99 medium (MIT9313) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MIT9313)",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

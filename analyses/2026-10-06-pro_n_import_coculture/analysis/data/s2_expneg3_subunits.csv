@@ -1,0 +1,171 @@
+table,timepoint,locus_tag,gene_name,expression_status,log2fc,padj,rank_percentile,percentile_valid,group
+anchor_cocult_protein,day 60,PMM0671,phnE,not_significant,-0.187020619710286,0.807571610542131,0.3925561797752809,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0672,phnC,not_significant,-0.75141207377116,0.001406516709168,0.1186797752808989,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0673,phnD,not_significant,0.655800501505533,0.235467632494931,0.8188202247191011,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0710,pstS,not_significant,0.590405782063804,0.0062591929059058,0.800561797752809,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0723,pstC,not_significant,0.849038441975909,0.0529573382410935,0.863061797752809,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0724,pstA,not_significant,0.316771189371746,0.27810170314191,0.6860955056179776,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0725,pstB,not_significant,-0.407984415690104,0.144372736821753,0.2570224719101124,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0671,phnE,not_significant,-0.779664675394693,0.258923918916856,0.1355337078651685,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0672,phnC,not_significant,-0.87938404083252,0.0003241404879615,0.1032303370786517,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0673,phnD,not_significant,0.294563611348471,0.601549147038399,0.6797752808988764,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0710,pstS,not_significant,0.440805117289225,0.0279994512095005,0.7338483146067416,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0723,pstC,not_significant,0.622235298156739,0.132965066802988,0.7900280898876404,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0724,pstA,not_significant,0.792372703552247,0.0093175383554902,0.827247191011236,True,P regulon (pst + phn)
+anchor_cocult_protein,day 89,PMM0725,pstB,not_significant,-0.496006965637207,0.0703029055943297,0.2478932584269663,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0671,phnE,not_significant,0.316810290018724,0.654161913195909,0.7008426966292135,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0672,phnC,not_significant,0.281537055969238,0.5936848740027,0.6671348314606742,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0673,phnD,significant_down,-3.18140761057536,2.49799626876073e-06,0.006320224719101,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0710,pstS,not_significant,0.18218199412028,0.49496873506977,0.6018258426966292,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0723,pstC,not_significant,-0.0218585332234702,0.978301654109632,0.4325842696629213,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0724,pstA,not_significant,-0.166290601094565,0.816668469327331,0.3433988764044944,True,P regulon (pst + phn)
+anchor_axenic_protein,day 14,PMM0725,pstB,not_significant,0.298630078633626,0.370215395464276,0.6853932584269663,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0671,phnE,not_significant,-0.1358650675479311,0.7579368957096199,0.4889129259058951,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0672,phnC,not_significant,-0.0996033176065955,0.9258591213009354,0.5100054083288263,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0673,phnD,not_significant,-0.901728755763591,0.104813688682786,0.1752298539751217,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0710,pstS,significant_down,-2.6291741688881043,4.328391379154653e-06,0.0091941590048675,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0723,pstC,not_significant,-0.6897374833506534,0.1743595086365039,0.2417522985397512,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0724,pstA,not_significant,-0.4552084256039294,0.3195247945130318,0.3309897241752298,True,P regulon (pst + phn)
+anchor_cocult_rna,day 60,PMM0725,pstB,not_significant,-0.8788278310414737,0.0200854451751598,0.1828015143320713,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0671,phnE,not_significant,0.1893211748717529,0.6879145474813688,0.6819902650081124,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0672,phnC,not_significant,-1.4919107091499413,0.1345079648483369,0.0432666306111411,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0673,phnD,not_significant,-0.8057477598097565,0.1868687843900233,0.1844240129799892,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0710,pstS,significant_down,-1.4517187183988598,0.0232713720218926,0.0481341265548945,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0723,pstC,not_significant,-0.2283978152281212,0.7245612915970275,0.4542996214169821,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0724,pstA,not_significant,-0.2694668821829436,0.6106518087053695,0.4310438074634938,True,P regulon (pst + phn)
+anchor_cocult_rna,day 89,PMM0725,pstB,not_significant,-0.466183621521356,0.2902162218693874,0.3158464034613304,True,P regulon (pst + phn)
+anchor_cocult_protein,day 60,PMM0710,pstS,not_significant,0.590405782063804,0.0062591929059058,0.800561797752809,True,pst
+anchor_cocult_protein,day 60,PMM0723,pstC,not_significant,0.849038441975909,0.0529573382410935,0.863061797752809,True,pst
+anchor_cocult_protein,day 60,PMM0724,pstA,not_significant,0.316771189371746,0.27810170314191,0.6860955056179776,True,pst
+anchor_cocult_protein,day 60,PMM0725,pstB,not_significant,-0.407984415690104,0.144372736821753,0.2570224719101124,True,pst
+anchor_cocult_protein,day 89,PMM0710,pstS,not_significant,0.440805117289225,0.0279994512095005,0.7338483146067416,True,pst
+anchor_cocult_protein,day 89,PMM0723,pstC,not_significant,0.622235298156739,0.132965066802988,0.7900280898876404,True,pst
+anchor_cocult_protein,day 89,PMM0724,pstA,not_significant,0.792372703552247,0.0093175383554902,0.827247191011236,True,pst
+anchor_cocult_protein,day 89,PMM0725,pstB,not_significant,-0.496006965637207,0.0703029055943297,0.2478932584269663,True,pst
+anchor_axenic_protein,day 14,PMM0710,pstS,not_significant,0.18218199412028,0.49496873506977,0.6018258426966292,True,pst
+anchor_axenic_protein,day 14,PMM0723,pstC,not_significant,-0.0218585332234702,0.978301654109632,0.4325842696629213,True,pst
+anchor_axenic_protein,day 14,PMM0724,pstA,not_significant,-0.166290601094565,0.816668469327331,0.3433988764044944,True,pst
+anchor_axenic_protein,day 14,PMM0725,pstB,not_significant,0.298630078633626,0.370215395464276,0.6853932584269663,True,pst
+anchor_cocult_rna,day 60,PMM0710,pstS,significant_down,-2.6291741688881043,4.328391379154653e-06,0.0091941590048675,True,pst
+anchor_cocult_rna,day 60,PMM0723,pstC,not_significant,-0.6897374833506534,0.1743595086365039,0.2417522985397512,True,pst
+anchor_cocult_rna,day 60,PMM0724,pstA,not_significant,-0.4552084256039294,0.3195247945130318,0.3309897241752298,True,pst
+anchor_cocult_rna,day 60,PMM0725,pstB,not_significant,-0.8788278310414737,0.0200854451751598,0.1828015143320713,True,pst
+anchor_cocult_rna,day 89,PMM0710,pstS,significant_down,-1.4517187183988598,0.0232713720218926,0.0481341265548945,True,pst
+anchor_cocult_rna,day 89,PMM0723,pstC,not_significant,-0.2283978152281212,0.7245612915970275,0.4542996214169821,True,pst
+anchor_cocult_rna,day 89,PMM0724,pstA,not_significant,-0.2694668821829436,0.6106518087053695,0.4310438074634938,True,pst
+anchor_cocult_rna,day 89,PMM0725,pstB,not_significant,-0.466183621521356,0.2902162218693874,0.3158464034613304,True,pst
+anchor_cocult_protein,day 60,PMM0671,phnE,not_significant,-0.187020619710286,0.807571610542131,0.3925561797752809,True,phn
+anchor_cocult_protein,day 60,PMM0672,phnC,not_significant,-0.75141207377116,0.001406516709168,0.1186797752808989,True,phn
+anchor_cocult_protein,day 60,PMM0673,phnD,not_significant,0.655800501505533,0.235467632494931,0.8188202247191011,True,phn
+anchor_cocult_protein,day 89,PMM0671,phnE,not_significant,-0.779664675394693,0.258923918916856,0.1355337078651685,True,phn
+anchor_cocult_protein,day 89,PMM0672,phnC,not_significant,-0.87938404083252,0.0003241404879615,0.1032303370786517,True,phn
+anchor_cocult_protein,day 89,PMM0673,phnD,not_significant,0.294563611348471,0.601549147038399,0.6797752808988764,True,phn
+anchor_axenic_protein,day 14,PMM0671,phnE,not_significant,0.316810290018724,0.654161913195909,0.7008426966292135,True,phn
+anchor_axenic_protein,day 14,PMM0672,phnC,not_significant,0.281537055969238,0.5936848740027,0.6671348314606742,True,phn
+anchor_axenic_protein,day 14,PMM0673,phnD,significant_down,-3.18140761057536,2.49799626876073e-06,0.006320224719101,True,phn
+anchor_cocult_rna,day 60,PMM0671,phnE,not_significant,-0.1358650675479311,0.7579368957096199,0.4889129259058951,True,phn
+anchor_cocult_rna,day 60,PMM0672,phnC,not_significant,-0.0996033176065955,0.9258591213009354,0.5100054083288263,True,phn
+anchor_cocult_rna,day 60,PMM0673,phnD,not_significant,-0.901728755763591,0.104813688682786,0.1752298539751217,True,phn
+anchor_cocult_rna,day 89,PMM0671,phnE,not_significant,0.1893211748717529,0.6879145474813688,0.6819902650081124,True,phn
+anchor_cocult_rna,day 89,PMM0672,phnC,not_significant,-1.4919107091499413,0.1345079648483369,0.0432666306111411,True,phn
+anchor_cocult_rna,day 89,PMM0673,phnD,not_significant,-0.8057477598097565,0.1868687843900233,0.1844240129799892,True,phn
+anchor_cocult_protein,day 60,PMM0214,sul3,significant_down,-1.03954950968425,0.0026983488565339,0.0610955056179775,True,S (sul1 + sul3)
+anchor_cocult_protein,day 60,PMM0644,sul1,significant_down,-1.02397219340007,0.0004348709064715,0.0632022471910112,True,S (sul1 + sul3)
+anchor_cocult_protein,day 89,PMM0214,sul3,significant_down,-1.04582373301188,0.0022898982237643,0.0688202247191011,True,S (sul1 + sul3)
+anchor_cocult_protein,day 89,PMM0644,sul1,not_significant,-0.655616442362471,0.0088264423802624,0.1748595505617978,True,S (sul1 + sul3)
+anchor_axenic_protein,day 14,PMM0214,sul3,not_significant,-0.894539833068841,0.0416838452967613,0.1060393258426966,True,S (sul1 + sul3)
+anchor_axenic_protein,day 14,PMM0644,sul1,not_significant,-0.13057231903076,0.824083038774601,0.360252808988764,True,S (sul1 + sul3)
+anchor_cocult_rna,day 60,PMM0214,sul3,significant_down,-1.8200180507416053,0.0014121969606669,0.0362358031368307,True,S (sul1 + sul3)
+anchor_cocult_rna,day 60,PMM0644,sul1,not_significant,-0.6520586197111535,0.0300349580825869,0.2574364521362898,True,S (sul1 + sul3)
+anchor_cocult_rna,day 89,PMM0214,sul3,not_significant,-1.0843342114625236,0.0876996042416526,0.1070849107625743,True,S (sul1 + sul3)
+anchor_cocult_rna,day 89,PMM0644,sul1,not_significant,-0.392341387510471,0.2564094252564531,0.358031368307193,True,S (sul1 + sul3)
+anchor_cocult_protein,day 60,PMM0644,sul1,significant_down,-1.02397219340007,0.0004348709064715,0.0632022471910112,True,sul1
+anchor_cocult_protein,day 89,PMM0644,sul1,not_significant,-0.655616442362471,0.0088264423802624,0.1748595505617978,True,sul1
+anchor_axenic_protein,day 14,PMM0644,sul1,not_significant,-0.13057231903076,0.824083038774601,0.360252808988764,True,sul1
+anchor_cocult_rna,day 60,PMM0644,sul1,not_significant,-0.6520586197111535,0.0300349580825869,0.2574364521362898,True,sul1
+anchor_cocult_rna,day 89,PMM0644,sul1,not_significant,-0.392341387510471,0.2564094252564531,0.358031368307193,True,sul1
+anchor_cocult_protein,day 60,PMM0214,sul3,significant_down,-1.03954950968425,0.0026983488565339,0.0610955056179775,True,sul3
+anchor_cocult_protein,day 89,PMM0214,sul3,significant_down,-1.04582373301188,0.0022898982237643,0.0688202247191011,True,sul3
+anchor_axenic_protein,day 14,PMM0214,sul3,not_significant,-0.894539833068841,0.0416838452967613,0.1060393258426966,True,sul3
+anchor_cocult_rna,day 60,PMM0214,sul3,significant_down,-1.8200180507416053,0.0014121969606669,0.0362358031368307,True,sul3
+anchor_cocult_rna,day 89,PMM0214,sul3,not_significant,-1.0843342114625236,0.0876996042416526,0.1070849107625743,True,sul3
+anchor_cocult_protein,day 60,PMM0489,futB,not_significant,0.488208770751953,0.0547575605468173,0.752808988764045,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 60,PMM0803,futC,not_significant,-0.501252492268881,0.0274950372524089,0.2120786516853933,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 60,PMM1164,idiA2,not_significant,0.404167175292965,0.0904419805093679,0.726123595505618,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 89,PMM0489,futB,not_significant,0.247651100158691,0.309187129273609,0.6558988764044944,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 89,PMM0803,futC,not_significant,-0.274782498677573,0.191924644070796,0.3581460674157303,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 89,PMM1164,idiA2,not_significant,-0.107129096984864,0.662441195226775,0.4515449438202247,True,Fe (fut/idiA2)
+anchor_axenic_protein,day 14,PMM0489,futB,not_significant,0.43021297454834,0.530867148491846,0.7724719101123596,True,Fe (fut/idiA2)
+anchor_axenic_protein,day 14,PMM0803,futC,not_significant,0.390825589497884,0.461563899626464,0.747191011235955,True,Fe (fut/idiA2)
+anchor_axenic_protein,day 14,PMM1164,idiA2,not_significant,0.514709154764806,0.088719876777003,0.8202247191011236,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 60,PMM0489,futB,not_significant,-0.5035789147227507,0.0305416809029064,0.3093564088696593,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 60,PMM0803,futC,not_significant,0.3090061836574408,0.4865384373702304,0.7079502433747972,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 60,PMM1164,idiA2,significant_down,-1.0134636042396568,0.0125823504126988,0.1535965386695511,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 89,PMM0489,futB,not_significant,0.0369008572805,0.9105504886661367,0.6062736614386155,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 89,PMM0803,futC,not_significant,0.643188489436696,0.1235379931003204,0.8518117901568415,True,Fe (fut/idiA2)
+anchor_cocult_rna,day 89,PMM1164,idiA2,not_significant,-0.8868938184547086,0.0388219003734526,0.1568415359653867,True,Fe (fut/idiA2)
+anchor_cocult_protein,day 60,PMM0601,mntC,not_significant,-0.0531005859374969,0.853422353786293,0.4831460674157303,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM0602,mntA,not_significant,-0.36175282796224,0.315216074767048,0.2801966292134831,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM0603,mntB,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM1029,,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM1031,,not_significant,0.269473393758138,0.272387141728757,0.6671348314606742,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM1032,lraI,not_significant,0.583286921183267,0.119673854856169,0.7949438202247191,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM0601,mntC,not_significant,-0.07094605763753,0.799842127210963,0.476123595505618,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM0602,mntA,not_significant,-0.986370404561363,0.0086098105659754,0.0765449438202247,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM0603,mntB,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM1029,,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM1031,,not_significant,0.147334734598796,0.547732817565482,0.6067415730337078,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 89,PMM1032,lraI,not_significant,0.306188265482584,0.411274919425507,0.6860955056179776,True,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM0601,mntC,not_significant,-0.182017962137856,0.68556472892606,0.3342696629213483,True,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM0602,mntA,significant_down,-1.42755921681722,0.0091400772159584,0.0407303370786517,True,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM0603,mntB,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM1029,,not listed,,,,,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM1031,,not_significant,-0.14494800567627,0.749481754653231,0.3518258426966292,True,Mn/Zn (mnt + lraI system)
+anchor_axenic_protein,day 14,PMM1032,lraI,not_significant,-0.0216029485066735,0.961073544388295,0.4339887640449438,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM0601,mntC,not_significant,-0.6034844470697792,0.0557946131909247,0.2731206057328286,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM0602,mntA,not_significant,-0.0252730367117353,0.9625670166222136,0.5462412114656572,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM0603,mntB,not_significant,-0.6826483951688217,0.1299029844660625,0.2455381287182261,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM1029,,not_significant,-0.8436006066638592,0.1712131931533327,0.1892915089237425,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM1031,,not_significant,0.2821544714604109,0.4943247299247588,0.6971335857220119,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 60,PMM1032,lraI,significant_down,-3.085734851971998,1.3781091370075734e-08,0.004326663061114,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM0601,mntC,not_significant,-0.6086021845589091,0.0706901463528826,0.2541914548404542,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM0602,mntA,not_significant,-0.9145677691391028,0.0690005780971169,0.1487290427257976,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM0603,mntB,not_significant,-0.0566863150844838,0.9260963458157796,0.5575987020010817,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM1029,,not_significant,0.2375414999709586,0.7601566227074922,0.7111952406706328,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM1031,,not_significant,0.5349466693355331,0.1726082831833278,0.8204434829637642,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_rna,day 89,PMM1032,lraI,significant_down,-2.579631342170079,4.802758061335912e-06,0.0097349918875067,True,Mn/Zn (mnt + lraI system)
+anchor_cocult_protein,day 60,PMM0601,mntC,not_significant,-0.0531005859374969,0.853422353786293,0.4831460674157303,True,mnt
+anchor_cocult_protein,day 60,PMM0602,mntA,not_significant,-0.36175282796224,0.315216074767048,0.2801966292134831,True,mnt
+anchor_cocult_protein,day 60,PMM0603,mntB,not listed,,,,,mnt
+anchor_cocult_protein,day 89,PMM0601,mntC,not_significant,-0.07094605763753,0.799842127210963,0.476123595505618,True,mnt
+anchor_cocult_protein,day 89,PMM0602,mntA,not_significant,-0.986370404561363,0.0086098105659754,0.0765449438202247,True,mnt
+anchor_cocult_protein,day 89,PMM0603,mntB,not listed,,,,,mnt
+anchor_axenic_protein,day 14,PMM0601,mntC,not_significant,-0.182017962137856,0.68556472892606,0.3342696629213483,True,mnt
+anchor_axenic_protein,day 14,PMM0602,mntA,significant_down,-1.42755921681722,0.0091400772159584,0.0407303370786517,True,mnt
+anchor_axenic_protein,day 14,PMM0603,mntB,not listed,,,,,mnt
+anchor_cocult_rna,day 60,PMM0601,mntC,not_significant,-0.6034844470697792,0.0557946131909247,0.2731206057328286,True,mnt
+anchor_cocult_rna,day 60,PMM0602,mntA,not_significant,-0.0252730367117353,0.9625670166222136,0.5462412114656572,True,mnt
+anchor_cocult_rna,day 60,PMM0603,mntB,not_significant,-0.6826483951688217,0.1299029844660625,0.2455381287182261,True,mnt
+anchor_cocult_rna,day 89,PMM0601,mntC,not_significant,-0.6086021845589091,0.0706901463528826,0.2541914548404542,True,mnt
+anchor_cocult_rna,day 89,PMM0602,mntA,not_significant,-0.9145677691391028,0.0690005780971169,0.1487290427257976,True,mnt
+anchor_cocult_rna,day 89,PMM0603,mntB,not_significant,-0.0566863150844838,0.9260963458157796,0.5575987020010817,True,mnt
+anchor_cocult_protein,day 60,PMM1029,,not listed,,,,,lraI system
+anchor_cocult_protein,day 60,PMM1031,,not_significant,0.269473393758138,0.272387141728757,0.6671348314606742,True,lraI system
+anchor_cocult_protein,day 60,PMM1032,lraI,not_significant,0.583286921183267,0.119673854856169,0.7949438202247191,True,lraI system
+anchor_cocult_protein,day 89,PMM1029,,not listed,,,,,lraI system
+anchor_cocult_protein,day 89,PMM1031,,not_significant,0.147334734598796,0.547732817565482,0.6067415730337078,True,lraI system
+anchor_cocult_protein,day 89,PMM1032,lraI,not_significant,0.306188265482584,0.411274919425507,0.6860955056179776,True,lraI system
+anchor_axenic_protein,day 14,PMM1029,,not listed,,,,,lraI system
+anchor_axenic_protein,day 14,PMM1031,,not_significant,-0.14494800567627,0.749481754653231,0.3518258426966292,True,lraI system
+anchor_axenic_protein,day 14,PMM1032,lraI,not_significant,-0.0216029485066735,0.961073544388295,0.4339887640449438,True,lraI system
+anchor_cocult_rna,day 60,PMM1029,,not_significant,-0.8436006066638592,0.1712131931533327,0.1892915089237425,True,lraI system
+anchor_cocult_rna,day 60,PMM1031,,not_significant,0.2821544714604109,0.4943247299247588,0.6971335857220119,True,lraI system
+anchor_cocult_rna,day 60,PMM1032,lraI,significant_down,-3.085734851971998,1.3781091370075734e-08,0.004326663061114,True,lraI system
+anchor_cocult_rna,day 89,PMM1029,,not_significant,0.2375414999709586,0.7601566227074922,0.7111952406706328,True,lraI system
+anchor_cocult_rna,day 89,PMM1031,,not_significant,0.5349466693355331,0.1726082831833278,0.8204434829637642,True,lraI system
+anchor_cocult_rna,day 89,PMM1032,lraI,significant_down,-2.579631342170079,4.802758061335912e-06,0.0097349918875067,True,lraI system
+anchor_cocult_protein,day 60,PMM0213,sbtA,significant_up,1.35287729899088,0.0389623712249922,0.93188202247191,True,bicarbonate (sbtA)
+anchor_cocult_protein,day 89,PMM0213,sbtA,not_significant,-0.0988149642944337,0.887136002390202,0.4599719101123596,True,bicarbonate (sbtA)
+anchor_axenic_protein,day 14,PMM0213,sbtA,not_significant,-0.0797071456909166,0.907613606502125,0.3932584269662921,True,bicarbonate (sbtA)
+anchor_cocult_rna,day 60,PMM0213,sbtA,significant_down,-1.9622857514796603,9.221776576585549e-05,0.0313683071930773,True,bicarbonate (sbtA)
+anchor_cocult_rna,day 89,PMM0213,sbtA,significant_down,-1.2798554613596091,0.0194158447804392,0.0659816116819902,True,bicarbonate (sbtA)

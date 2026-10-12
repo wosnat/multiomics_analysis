@@ -1,0 +1,92 @@
+[
+ {
+  "locus_tag": "PMM0440",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": -2.919686958,
+  "padj": 1.0,
+  "rank": 1,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "uncharacterized conserved secreted protein",
+  "experiment_name": "MED4 Growth on urea as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MED4)",
+  "gene_category": "Amino acid metabolism",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM0720",
+  "gene_name": null,
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": 2.571322027,
+  "padj": 1.0,
+  "rank": 2,
+  "rank_up": null,
+  "rank_down": null,
+  "expression_status": "not_significant",
+  "growth_phase": "exponential",
+  "product": "conserved hypothetical protein",
+  "experiment_name": "MED4 Growth on urea as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MED4)",
+  "gene_category": "Unknown",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ },
+ {
+  "locus_tag": "PMM1672",
+  "gene_name": "desC4",
+  "experiment_id": "10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray",
+  "treatment_type": [
+   "nitrogen"
+  ],
+  "timepoint": "steady state",
+  "timepoint_hours": null,
+  "timepoint_order": 1,
+  "log2fc": -2.55002375341907,
+  "padj": 0.01,
+  "rank": 3,
+  "rank_up": null,
+  "rank_down": 1,
+  "expression_status": "significant_down",
+  "growth_phase": "exponential",
+  "product": "delta-9 fatty-acid desaturase DesC4",
+  "experiment_name": "MED4 Growth on urea as sole N source (MED4) vs N-replete Pro99 medium (MED4) (MICROARRAY)",
+  "treatment": "Growth on urea as sole N source (MED4)",
+  "gene_category": "Stress response and adaptation",
+  "omics_type": "MICROARRAY",
+  "coculture_partner": null,
+  "table_scope": "all_detected_genes",
+  "table_scope_detail": "",
+  "background_factors": [
+   "axenic",
+   "light"
+  ]
+ }
+]

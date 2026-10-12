@@ -1,0 +1,7 @@
+column,value,rows
+can_use_window,no,72
+can_use_run,no,72
+can_use_window_ms,not_eligible,51
+can_use_window_ms,no,21
+can_use_run_ms,not_eligible,51
+can_use_run_ms,no,21

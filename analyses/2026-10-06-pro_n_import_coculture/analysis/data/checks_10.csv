@@ -1,0 +1,11 @@
+check,locus_tag,gene_name,short_name,timepoint,log2fc,padj,expression_status,rank_percentile,n_detected_in_slice,percentile_valid,status
+1,PMM0263,amt1,anchor_cocult_protein,day 60,2.33147939046224,1.15026184011279e-08,significant_up,0.9831460674157303,1424.0,True,listed
+2,PMM0970,urtA,anchor_cocult_rna,day 89,-0.62179381078263,0.5455651745437524,not_significant,0.24716062736614386,1849.0,True,listed
+3,PMM0370,cynA,anchor_axenic_protein,day 14,2.09205468495687,3.06387677674992e-06,significant_up,0.9950842696629213,1424.0,True,listed
+4,PMM0920,glnA,anchor_cocult_protein,day 18,2.55111503601075,0.003589909898748,significant_up,0.9971910112359551,1424.0,True,listed
+5,PMM0710,pstS,anchor_cocult_rna,day 60,-2.6291741688881043,4.328391379154653e-06,significant_down,0.00919415900486753,1849.0,True,listed
+6,PMM0370,cynA,cal_tolonen_cyanate,steady state,1.17115756396876,0.01,significant_up,0.9658220388921627,1697.0,True,listed
+7,PMM0970,urtA,cal_tolonen_urea,steady state,-0.161692929,1.0,not_significant,0.3376546847377725,1697.0,True,listed
+8,PMM0263,amt1,cal_tolonen_ndep,48h,0.224138189,1.0,not_significant,0.71714790807307,1697.0,True,listed
+9,PMM0263,amt1,ctrl_med4_hot1a3,20h,-2.145913194,0.782864205,not_significant,0.37689614935822635,1714.0,True,listed
+10,PMN2A_1629,,ctrl_natl2a_mit1002,any,,,,,,,not listed

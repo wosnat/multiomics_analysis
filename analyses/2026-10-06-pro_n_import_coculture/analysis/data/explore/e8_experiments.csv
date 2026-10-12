@@ -1,0 +1,4 @@
+short_name,experiment_id,organism,omics,table_scope,distinct_gene_count,timepoints,de_rows,total_matching
+cal_tolonen_mit9313_nitrite,10.1038/msb4100087_growth_medium_growth_on_nitrite_as_mit9313_microarray,Prochlorococcus MIT9313,MICROARRAY,all_detected_genes,2241,none (single contrast),2241,2241
+cal_tolonen_mit9313_urea,10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray,Prochlorococcus MIT9313,MICROARRAY,all_detected_genes,2241,none (single contrast),2241,2241
+cal_tolonen_mit9313_ndep,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,Prochlorococcus MIT9313,MICROARRAY,all_detected_genes,2241,"0h (acute_stress, n=2241) | 3h (acute_stress, n=2241) | 6h (acute_stress, n=2241) | 12h (acute_stress, n=2241) | 24h (acute_stress, n=2241) | 48h (acute_stress, n=2241)",13446,13446

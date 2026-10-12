@@ -1,0 +1,9 @@
+table,timepoint,locus_tag,gene_name,expression_status,log2fc,padj,rank_percentile,percentile_valid,note
+anchor_cocult_protein,day 60,PMM1284,phoH,not_significant,-0.638159434000651,0.0176065404248033,0.1601123595505618,True,
+anchor_cocult_protein,day 60,PMM1164,idiA2,not_significant,0.404167175292965,0.0904419805093679,0.726123595505618,True,idiA2 is itself a member of the Fe system sys_PMM0489
+anchor_cocult_protein,day 89,PMM1284,phoH,not_significant,-0.727566083272298,0.007147110932506,0.151685393258427,True,
+anchor_cocult_protein,day 89,PMM1164,idiA2,not_significant,-0.107129096984864,0.662441195226775,0.4515449438202247,True,idiA2 is itself a member of the Fe system sys_PMM0489
+anchor_cocult_rna,day 60,PMM1284,phoH,not_significant,0.2753645008773185,0.5245058168365377,0.6944294213088156,True,
+anchor_cocult_rna,day 60,PMM1164,idiA2,significant_down,-1.0134636042396568,0.0125823504126988,0.1535965386695511,True,idiA2 is itself a member of the Fe system sys_PMM0489
+anchor_cocult_rna,day 89,PMM1284,phoH,not_significant,0.4650527799469834,0.2689136332155009,0.8025959978366685,True,
+anchor_cocult_rna,day 89,PMM1164,idiA2,not_significant,-0.8868938184547086,0.0388219003734526,0.1568415359653867,True,idiA2 is itself a member of the Fe system sys_PMM0489
