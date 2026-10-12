@@ -221,3 +221,19 @@ positive signal.
 - **External data scope.** The researcher's culture measurements were brought in, then set aside
   as out of scope ("a distraction … deal with later"). Logged as a KG gap: cell counts mostly live
   in figures.
+
+## 2026-10-12 — Evaluation milestone close
+
+- **The interpretation-only critic earned its pass.** It found 3 Blockers: an axenic `amt1` overreach,
+  a "bounded negative" declared on a check that was never evaluated, and pre-registered results
+  dropped from the paper. All were fixed.
+- **The critic-hardened conclusion was correct but unreadable.** The researcher rejected it: "hard to
+  follow … doesn't address the actual analysis … a long paragraph that says we know nothing". The
+  version they approved is short sentences plus a route × reference table (what was tested, what
+  went up, compared with which reference), followed by meanings, then brief limits.
+  - Lesson: a conclusion should lead with the findings and comparisons. Caveats follow and stay
+    short; layering every caveat into the headline sentence makes it unreadable.
+  - Proposal for the template: the evaluation conclusion should be a findings table plus a numbered
+    list of meanings. The caveats stay in their own section.
+- **Re-verification paid off again.** Checking the approved table against the data corrected five
+  cells (`amt1` timing, axenic urt/cyn/dpp details, N-replete "down" calls).

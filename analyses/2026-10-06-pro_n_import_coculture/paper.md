@@ -145,6 +145,23 @@ by an independent query. Two features of the tables shape every reading:
 - The coculture-vs-axenic RNA contrasts are algebraically linked. The axenic sample, taken around
   day 14 and already in late decline, serves as the reference for coculture day 18.
 
+**Pre-registered checks** (reported before the results, as planned):
+
+| Check | Outcome |
+|---|---|
+| Biology sanity gate | Pass in protein (15/15) |
+| Calibration C1 / C2 / C3 | Pass / **fail** / **fail**, so no compound is named |
+| C4, acute starvation | Tolonen pass under a relaxed rule; Read fail |
+| P1 (blind): `amt1` RNA top 10% at d60 and d89 | **Fail** (0.06, 0.66). Caveat: the RNA reference is N-stressed |
+| P2 (blind): `amt1` RNA ≥ urea/cyanate systems | Fail at d60, pass at d89 |
+| Expected-negative 1: nitrate/nitrite unusable | Pass |
+| Expected-negative 2: no N system up in N-replete coculture | MED4 pass; NATL2A pass; **fails in one MIT9313 culture** (`natF`) |
+| Expected-negative 3: no non-N system stands out | Pass |
+
+The pre-registered class labels were **not applied**. The axenic reference turned out to be a
+late-decline culture, so the labels were deferred to the contrast analysis. This is a disclosed
+deviation (analysis decisions 4–5).
+
 **N-starvation sanity check.**
 - In protein, glutamine synthetase (`glnA`), `ntcA` and PII (`glnB`) are significantly up at every
   coculture day and in the axenic sample (15/15 tests).
@@ -167,7 +184,7 @@ named from the *Prochlorococcus* side. The ammonium transporter `amt1` was not c
 
 **MED4 in long coculture.**
 - **Sustained in coculture.** In protein, the ammonium (`amt1`), urea (urt with urease) and cyanate
-  (cyn with cyanase) systems are in the top 10% from day 18 to day 89. They cluster with the
+  (cyn with cyanase) systems are in the top 10% through day 89 (`amt1` from day 31; it lags at day 18). They cluster with the
   published N-starvation gene set, which stays at 0.91–1.00.
 - **Lost in the dying axenic culture.** There, the urea and cyanate systems fall back (urt 0.79 →
   0.48–0.57; cyn 0.99 → 0.67–0.72) while the N-stress regulators stay at 0.93–0.98.
@@ -195,6 +212,116 @@ separate a partner effect from survival, and "no signal" is not evidence that no
 taken up.
 
 ## Discussion
+
+*Draft from the evaluation milestone (`evaluation/notebook.md`), revised after its critic.*
+
+**What the consumer side shows.**
+- Over 89 days of N-limited coculture, MED4 keeps the proteins of its ammonium, urea and cyanate
+  import systems and their processing enzymes among its most up-regulated, together with the
+  N-stress regulators (`glnA`, `ntcA`, `glnB`). The ammonium transporter joins later than the others.
+- This pattern is expected whenever MED4 stays N-stressed, whether a partner supplies too little
+  nitrogen to relieve it or none at all. Partial relief with damped alternative-N systems could
+  not be tested well: the systems sit at the rank ceiling, and no partial-supply calibration exists.
+  A few weak signals point toward partial relief: `ntcA` protein eases late, protein-synthesis genes
+  recover partway, and P2 passes at day 89.
+- In the axenic culture, which declines and dies within weeks, the urea and cyanate systems fall to
+  mid-rank. The ammonium transporter, urease and the regulators stay high. The ammonium
+  transporter rises over time in both cultures, which fits a starvation-length effect.
+- Every axenic sample is a declining culture, so the analysis can't tell whether the partner causes
+  MED4 to keep its import machinery, or simply keeps MED4 alive.
+
+**What it cannot show.**
+- Expression of these systems does not show whether, or which, nitrogen compound is supplied. In
+  growth experiments with a single N source:
+  - the urea system did not respond to urea, and rose on cyanate;
+  - in MIT9313 the urea and nitrite systems rose on both substrates;
+  - the cyanate system was specific in its one test, but the gate fails on the urea system.
+- `[interpretation]` Shared NtcA control is the likely reason. Transporter and processing enzyme
+  rising together (urt with urease, cyn with cyanase) is expected from that shared control, and is
+  not independent evidence of use.
+- The blind test of the ammonium transporter's RNA failed. The RNA reference was itself N-stressed,
+  so this is weak evidence either way.
+- As pre-registered, no compound is named from the *Prochlorococcus* side.
+
+**No coculture-specific N route.**
+- No nitrogen route is up in coculture without also being up in some axenic sample or in acute
+  starvation.
+- The dipeptide transporter is raised in coculture protein, but its subunits disagree and `dppA` does
+  not rise in the axenic culture's own protein, so it stays unresolved.
+- The broadly annotated routes (amino acids, polyamines, osmolytes, amino sugars) show nothing beyond
+  starvation.
+
+This is a post-hoc criterion. The pre-registered falsifiability check ("no class stands out") could
+not be evaluated because the labels were deferred. Under the rules adopted for later, the ammonium
+and urea systems would pass the first two criteria, but only against a dying reference. Neither
+reading is proof about use: uptake needs no induction, and several routes are thinly annotated.
+
+A small set of cell-envelope and membrane genes is up in coculture but not in any axenic sample or
+in acute starvation:
+- the lipid II flippase `murJ`;
+- `tolC`, `acrA`, `bamA`, `perM` and `mgtE`, most of which were already high early in the axenic
+  culture.
+
+Their role in the interaction is open.
+
+**Implications for the preprint.**
+- The reading that MED4 "up-regulates high-affinity nitrogen scavenging" holds in protein, as
+  maintenance of the N-starvation response.
+- It does not hold in RNA, and "high-affinity" was not tested.
+- It is not evidence that *Alteromonas* supplies a particular compound, or any compound. The
+  consumer side gives no positive support to the ammonium-supply interpretation.
+- That interpretation must rest on the producer side and the contrast analysis.
+
+**Limitations.**
+- The axenic references are late decline or death.
+- RNA references differ between cultures.
+- Significance follows the source papers' calls (with a fold-change cutoff).
+- Substrate annotation is per subfamily.
+- The pre-registered labels and falsifiability check were not applied.
+- No nitrogen compounds measured in the coculture are in the knowledge graph.
+
+The full list is in `evaluation/notebook.md`.
+
+## Conclusion
+
+**What we tested.** We built MED4's 73 transport systems from its own annotation and read their
+protein and RNA through 89 days of N-limited coculture with *Alteromonas*. We compared them with
+three kinds of reference:
+- the axenic culture of the same study (already declining by day 14);
+- acute N starvation (Tolonen 2006: N deprivation, and growth on cyanate or urea);
+- N-replete cocultures (Aharonovich 2016; Biller 2016).
+
+**What was up in coculture** (protein; rank 1.0 = most up-regulated gene):
+
+| N route | Coculture (d18–d89) | Axenic (declining, d14–d89) | Acute N starvation | N-replete coculture |
+|---|---|---|---|---|
+| Ammonium (`amt1`) | Up from day 31; top 2% by day 60 (0.98) | Not up at d14–d31; up at d89 (death) | Up | Not up |
+| Urea (urt + urease) | Up; top 1–7% | urt drops (down at d31); urease stays up | Up | Not up |
+| Cyanate (cyn + cyanase) | Up; top 1% | Up at d14, then mid-rank (0.67–0.71) | Up | Not up |
+| Dipeptides (dpp) | Up (`dppA`, `dppC`; 0.82–0.89) | Only `dppC`, late | Not up | Not up |
+| Amino acids, polyamines, osmolytes (broad listings) | No consistent signal | No signal | Not up | Not up |
+| N-starvation regulators (`glnA`, `ntcA`, `glnB`) | Up | Up | Up | Not up |
+
+**What it means:**
+1. MED4 runs a full N-starvation response throughout the coculture. Its ammonium, urea and cyanate
+   import machinery stays among its most abundant proteins for 89 days.
+2. These are the systems that acute N starvation switches on and that N-replete coculture does not.
+   The coculture response matches N limitation rather than a general partner effect.
+3. The coculture keeps the urea and cyanate systems that the declining axenic culture lets drop. The
+   ammonium transporter comes up later in both.
+4. Dipeptide import is raised mainly in coculture, but its subunits don't move together.
+5. No amino-acid, polyamine or osmolyte route responds.
+
+**What it can't tell us.** The import systems don't report their own substrate. In calibration
+experiments the urea system rose on cyanate, not on urea. So expression can't name the compound MED4
+takes up. That question goes to the *Alteromonas* analysis.
+
+Caveats in brief:
+- the axenic culture is declining, so "kept in coculture" may also mean "kept alive";
+- RNA is measured against a reference that was already N-stressed in coculture;
+- the pre-registered class labels were deferred.
+
+Details: Discussion and `evaluation/notebook.md`.
 
 ## References
 
